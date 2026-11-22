@@ -4,12 +4,14 @@
     confronta.py <polpo_host> <prova.copione>            confronta con prova.atteso
     confronta.py <polpo_host> <prova.copione> --aggiorna  riscrive prova.atteso (dopo aver controllato le schermate!)
     confronta.py <polpo_host> <prova.copione> --immagini <cartella>   salva anche le schermate (.ppm)
+    confronta.py "node esegui_wasm.mjs polpo-sim.wasm" <prova.copione>  la stessa prova sul modulo WebAssembly
 
 Una riga «---» nel copione spegne e riaccende il Polpo (un nuovo processo): serve a provare ciò che deve
 sopravvivere allo spegnimento. «{TMP}» diventa una cartella temporanea comune alle parti.
 """
 import difflib
 import os
+import shlex
 import subprocess
 import sys
 import tempfile
@@ -20,7 +22,7 @@ def main() -> int:
     if len(sys.argv) < 3:
         print(__doc__, file=sys.stderr)
         return 2
-    host, copione = sys.argv[1], Path(sys.argv[2])
+    host, copione = shlex.split(sys.argv[1]), Path(sys.argv[2])  # può essere un comando: "node esegui_wasm.mjs polpo-sim.wasm"
     aggiorna = "--aggiorna" in sys.argv
     immagini = sys.argv[sys.argv.index("--immagini") + 1] if "--immagini" in sys.argv else None
     atteso = copione.with_suffix(".atteso")
@@ -33,7 +35,7 @@ def main() -> int:
             file.write_text(parte, encoding="utf-8")
             if i:
                 uscita.append("--- riavvio")
-            r = subprocess.run([host, str(file)] + ([immagini] if immagini else []), capture_output=True, text=True, env=ambiente, timeout=120)
+            r = subprocess.run(host + [str(file)] + ([immagini] if immagini else []), capture_output=True, text=True, env=ambiente, timeout=120)
             uscita += r.stdout.replace(tmp, "{TMP}").splitlines()
             if r.returncode != 0:
                 print(f"{copione.name}: il simulatore è uscito con codice {r.returncode}", file=sys.stderr)
