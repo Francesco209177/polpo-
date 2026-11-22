@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       pubblica:
-        description: "Versione da pubblicare come Release (es. 0.1.0). Vuoto = solo build e test."
+        description: "Versione da pubblicare come Release (es. 0.2.0). Vuoto = solo build e test."
         required: false
         default: ""
 
@@ -161,7 +161,8 @@ jobs:
         shell: pwsh
         run: |
           choco install innosetup -y --no-progress
-          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" /DSourceDir=..\..\dist\PolpoStudio packaging\windows\polpo_studio.iss
+          $v = (Select-String -Path polpo_studio\__init__.py -Pattern '__version__ = "(.*)"').Matches[0].Groups[1].Value
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" /DAppVersion=$v /DSourceDir=..\..\dist\PolpoStudio packaging\windows\polpo_studio.iss
           Compress-Archive -Path dist\PolpoStudio -DestinationPath PolpoStudio-windows-x64.zip
       - uses: actions/upload-artifact@v4
         with:

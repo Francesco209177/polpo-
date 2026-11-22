@@ -1,7 +1,7 @@
 ; Installer di Polpo Studio per Windows (Inno Setup 6). Compilazione:
-;   iscc /DAppVersion=0.1.0 /DSourceDir=..\..\dist\PolpoStudio packaging\windows\polpo_studio.iss
+;   iscc /DAppVersion=0.2.0 /DSourceDir=..\..\dist\PolpoStudio packaging\windows\polpo_studio.iss
 #ifndef AppVersion
-  #define AppVersion "0.1.0"
+  #define AppVersion "0.2.0"
 #endif
 #ifndef SourceDir
   #define SourceDir "..\..\dist\PolpoStudio"

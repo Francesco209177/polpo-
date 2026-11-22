@@ -5,10 +5,9 @@ Si scrive come si parla: `se … allora`, `ripeti 3 volte`, `fine`.
 
 > **Stato.** Il linguaggio è coperto da prove automatiche: una raccolta di programmi con il risultato atteso e
 > centinaia di migliaia di programmi casuali o rovinati, che non devono mai mandare in crisi il Polpo.
-> L'app «Script» è nel firmware in sviluppo e si può già provare nel
-> [simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/) (menu › Script); sul dispositivo arriva
-> con la versione 0.2.0, insieme al modulo di Polpo Studio. Come tutto il firmware, **non è ancora stata provata
-> su un Cardputer vero**.
+> Il linguaggio c'è dalla versione **0.2.0** del firmware: app «Script» sul Polpo, riquadro «Script» nel
+> [simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/) e modulo «Script» di Polpo Studio.
+> Come tutto il firmware, **non è ancora stato provato su un Cardputer vero**.
 
 ## Il primo programma
 

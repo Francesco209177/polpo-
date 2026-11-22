@@ -6,6 +6,7 @@ Un multi-tool tascabile fai-da-te ispirato al Flipper Zero, costruito su **M5Sta
 | Cartella | Cosa contiene |
 |---|---|
 | [`polpo/`](polpo/README.md) | Firmware per il Cardputer (PlatformIO), file d'esempio per la microSD |
+| [`polpo/docs/POLPOSCRIPT.md`](polpo/docs/POLPOSCRIPT.md) | **PolpoScript**, il linguaggio in italiano per le mini-app (firmware, simulatore del sito e Polpo Studio) |
 | [`polpo/sim/`](polpo/sim/LEGGIMI.md) | Il **firmware vero** eseguito su PC e, in WebAssembly, nel simulatore del sito; prove automatiche dell'interfaccia |
 | [`studio/`](studio/README.md) | **Polpo Studio** per Windows e Linux: radio 433 MHz, NFC, RFID 125 kHz, infrarossi, GPIO, Bluetooth, USB, iButton, cassaforte cifrata, Polpo virtuale |
 | [`studio/bridge/`](studio/bridge/LEGGIMI.md) | **Polpo Bridge**: sketch per Arduino Uno/Nano o ESP32 usato da Polpo Studio |

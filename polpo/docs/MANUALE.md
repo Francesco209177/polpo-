@@ -53,7 +53,7 @@ Ti servono:
 3. Premi **Installa Polpo**, scegli la porta che compare (es. "USB JTAG/serial debug unit") e aspetta la fine (circa 1 minuto).
 4. Scollega il cavo, accendi il Cardputer: compare il polpo.
 
-**In alternativa**, senza il sito: scarica `polpo-cardputer-0.1.0.bin` dalla cartella `polpo/release/`, metti il Cardputer in modalità download, apri <https://adafruit.github.io/Adafruit_WebSerial_ESPTool/>, premi **Connect**, scegli la porta, imposta l'indirizzo **0x0** nella prima riga, scegli il file `.bin` e premi **Program**.
+**In alternativa**, senza il sito: scarica `polpo-cardputer-0.2.0.bin` dalla cartella `polpo/release/`, metti il Cardputer in modalità download, apri <https://adafruit.github.io/Adafruit_WebSerial_ESPTool/>, premi **Connect**, scegli la porta, imposta l'indirizzo **0x0** nella prima riga, scegli il file `.bin` e premi **Program**.
 
 **Se qualcosa va storto:** ripeti dal punto 1. La modalità download con G0 funziona sempre, anche se il firmware è rovinato. Per tornare al firmware originale M5Stack usa **M5Burner** sul computer.
 
@@ -178,8 +178,8 @@ Nota: il computer vede sempre una "tastiera" quando colleghi il Polpo. Su macOS 
 
 ### Script (mini-app) — dalla versione 0.2.0
 
-> Questa app è nel firmware in sviluppo: la puoi già provare nel [simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/).
-> Sul dispositivo arriva con la versione 0.2.0; il file da installare oggi (0.1.0) non la contiene ancora.
+> La puoi provare anche nel [simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/), che ha un
+> riquadro per scrivere i programmi e seguirli una riga alla volta; dal PC c'è il modulo Script di Polpo Studio.
 
 Piccoli programmi scritti in **PolpoScript**, un linguaggio in italiano (`se … allora`, `ripeti 3 volte`, `fine`):
 giochi, dadi, cronometri. Il manuale del linguaggio è in [POLPOSCRIPT.md](POLPOSCRIPT.md).
