@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#eef1f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f141b" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="{{root}}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{root}}assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Polpo">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{og_image}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="{{root}}assets/css/sito.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="{{body_class}}">
+<a class="skip" href="#contenuto">Vai al contenuto</a>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="{{root}}"><img src="{{root}}assets/img/polpo.svg" alt="" width="38" height="38"><span>Polpo</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Principale">
+      <a href="{{root}}simulatore/"{{cur_simulatore}}>Simulatore</a>
+      <a href="{{root}}installa/"{{cur_installa}}>Installa</a>
+      <a href="{{root}}studio/"{{cur_studio}}>Polpo Studio</a>
+      <a href="{{root}}componenti/"{{cur_componenti}}>Componenti</a>
+      <a href="{{root}}documentazione/"{{cur_documentazione}}>Documentazione</a>
+      <a class="nav-gh" href="{{repo_url}}">GitHub</a>
+    </nav>
+  </div>
+</header>
+<main id="contenuto">
+{{content}}
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand" href="{{root}}"><img src="{{root}}assets/img/polpo.svg" alt="" width="34" height="34" loading="lazy"><span>Polpo</span></a>
+      <p>Un multi-tool tascabile fai-da-te e il suo programma per PC. Software libero, licenza MIT.</p>
+      <p><strong>Usalo solo con dispositivi tuoi</strong> o per cui hai un'autorizzazione esplicita.</p>
+    </div>
+    <nav aria-label="Pagine">
+      <h2>Sito</h2>
+      <a href="{{root}}simulatore/">Simulatore</a>
+      <a href="{{root}}installa/">Installa il firmware</a>
+      <a href="{{root}}studio/">Polpo Studio</a>
+      <a href="{{root}}componenti/">Componenti</a>
+      <a href="{{root}}documentazione/">Documentazione</a>
+    </nav>
+    <nav aria-label="Progetto">
+      <h2>Progetto</h2>
+      <a href="{{repo_url}}">Codice su GitHub</a>
+      <a href="{{issues_url}}">Segnala un problema</a>
+      <a href="{{releases_url}}">Versioni e download</a>
+      <a href="{{blob_url}}/LICENSE">Licenza MIT</a>
+    </nav>
+  </div>
+  <div class="container footer-notes">
+    <p>Questo sito non usa cookie, non traccia chi lo visita e non carica nulla da altri siti.</p>
+    <p>Polpo è un progetto indipendente: non è affiliato a Flipper Devices Inc. né a M5Stack. I nomi dei prodotti citati appartengono ai rispettivi proprietari.</p>
+  </div>
+</footer>
+<script src="{{root}}assets/js/sito.js" defer></script>
+</body>
+</html>

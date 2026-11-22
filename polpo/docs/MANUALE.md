@@ -37,24 +37,20 @@ Ti servono:
 - un computer con **Google Chrome** o **Microsoft Edge**;
 - un cavo **USB-C dati** (alcuni cavi caricano soltanto).
 
-1. Scarica il file del firmware `polpo-cardputer-0.1.0.bin` dalla cartella `polpo/release/`.
-2. Metti il Cardputer in **modalità download**:
+1. Metti il Cardputer in **modalità download**:
    - spegni il Cardputer con l'interruttore laterale;
    - tieni premuto il tasto **G0** (il tastino sul lato);
    - collega il cavo USB al computer;
    - rilascia G0.
 
    Lo schermo resta nero: è normale.
-3. Apri <https://adafruit.github.io/Adafruit_WebSerial_ESPTool/> e:
-   - premi **Connect**;
-   - scegli la porta che compare (es. "USB JTAG/serial debug unit");
-   - imposta l'indirizzo **0x0** nella prima riga e scegli il file `.bin`;
-   - premi **Program** e aspetta la fine (circa 1 minuto).
+2. Apri la pagina **Installa** del sito del Polpo: <https://francesco209177.github.io/polpo/installa/>.
+3. Premi **Installa Polpo**, scegli la porta che compare (es. "USB JTAG/serial debug unit") e aspetta la fine (circa 1 minuto).
 4. Scollega il cavo, accendi il Cardputer: compare il polpo.
 
-In alternativa puoi usare la pagina `polpo/web/index.html` (pulsante unico, sempre con Chrome o Edge) dopo averla pubblicata con GitHub Pages: vedi `polpo/web/LEGGIMI.md`.
+**In alternativa**, senza il sito: scarica `polpo-cardputer-0.1.0.bin` dalla cartella `polpo/release/`, metti il Cardputer in modalità download, apri <https://adafruit.github.io/Adafruit_WebSerial_ESPTool/>, premi **Connect**, scegli la porta, imposta l'indirizzo **0x0** nella prima riga, scegli il file `.bin` e premi **Program**.
 
-**Se qualcosa va storto:** ripeti dal punto 2. La modalità download con G0 funziona sempre, anche se il firmware è rovinato. Per tornare al firmware originale M5Stack usa **M5Burner** sul computer.
+**Se qualcosa va storto:** ripeti dal punto 1. La modalità download con G0 funziona sempre, anche se il firmware è rovinato. Per tornare al firmware originale M5Stack usa **M5Burner** sul computer.
 
 ---
 

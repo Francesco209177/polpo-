@@ -34,9 +34,10 @@ altre persone): niente disturbo radio, forza bruta, rolling code, copie di badge
 
 ## Pacchetti
 
-La build di GitHub Actions (`.github/workflows/polpo.yml`) produce l'installer e lo zip per **Windows** e
-l'archivio per **Linux** (con `installa.sh`, regola udev e voce di menu), e su entrambi esegue
-`PolpoStudio --self-test`. **macOS**: per ora da sorgente.
+Installer e zip per **Windows**, archivio per **Linux** (con `installa.sh`, regola udev e voce di menu) si scaricano
+dalla [pagina delle versioni](https://github.com/Francesco209177/polpo/releases/latest). Li produce la build di
+GitHub Actions (`.github/workflows/polpo.yml`), che su entrambi i sistemi esegue `PolpoStudio --self-test`;
+la Release si crea avviando a mano il workflow con il numero di versione. **macOS**: per ora da sorgente.
 
 Build locale: `pip install pyinstaller==6.22.0`, copia `polpo/release/polpo-cardputer-<ver>-app.bin` in
 `polpo_studio/resources/firmware/`, poi `pyinstaller packaging/polpo_studio.spec` (cartella `dist/PolpoStudio`).

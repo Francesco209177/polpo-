@@ -22,6 +22,11 @@ Esclusi di proposito:
 - deauth Wi-Fi;
 - spam Bluetooth.
 
+## Sito
+
+Simulatore, installazione del firmware dal browser e manuali: <https://francesco209177.github.io/polpo/>
+(il sito si costruisce dalla cartella `site/` nella radice del repository).
+
 ## Polpo Studio (programma per PC)
 
 Il Polpo si può comandare anche dal PC con **Polpo Studio** (cartella `studio/`): collegamento USB con
@@ -35,7 +40,6 @@ Vedi `studio/README.md` e `studio/docs/MANUALE_STUDIO.md`.
 |---|---|
 | `docs/MANUALE.md` | acquisto, installazione, uso di ogni funzione, limiti noti |
 | `release/` | file `.bin` pronto da installare (indirizzo 0x0) |
-| `web/` | pagina di installazione con un pulsante (ESP Web Tools) |
 | `simulator/index.html` | simulatore nel browser con gli stessi menu, microSD virtuale e pannello per moduli e oggetti simulati (`scripts/sim_samples.py` copia dentro i file di `sd_template`) |
 | `src/` | firmware: `core` interfaccia, `hal` driver, `apps` funzioni |
 | `lib/polpo_core/` | logica pura testata sul PC (protocolli IR, DuckyScript, NDEF, `.sub`) |

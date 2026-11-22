@@ -5,25 +5,33 @@ Un multi-tool tascabile fai-da-te ispirato al Flipper Zero, costruito su **M5Sta
 
 | Cartella | Cosa contiene |
 |---|---|
-| [`polpo/`](polpo/README.md) | Firmware per il Cardputer (PlatformIO), simulatore nel browser, pagina web per installare il firmware, file d'esempio per la microSD |
+| [`polpo/`](polpo/README.md) | Firmware per il Cardputer (PlatformIO), simulatore nel browser, file d'esempio per la microSD |
 | [`studio/`](studio/README.md) | **Polpo Studio** per Windows e Linux: radio 433 MHz, NFC, RFID 125 kHz, infrarossi, GPIO, Bluetooth, USB, iButton, cassaforte cifrata, Polpo virtuale |
 | [`studio/bridge/`](studio/bridge/LEGGIMI.md) | **Polpo Bridge**: sketch per Arduino Uno/Nano o ESP32 usato da Polpo Studio |
+| [`site/`](site/build.py) | Il sito del progetto (GitHub Pages): `python site/build.py --out _site --check` |
 
 Polpo e Polpo Studio non contengono funzioni per entrare in sistemi altrui (cancelli, veicoli, allarmi, carte
 di altre persone): niente disturbo radio, forza bruta, rolling code, copie di badge o emulazione di carte.
 Usali solo con dispositivi tuoi o per cui hai l'autorizzazione.
 
-## Provare Polpo Studio senza hardware
+## Sito
 
-**Pacchetto pronto**: nella pagina [Actions](../../actions) apri l'ultima esecuzione riuscita e scarica
-`PolpoStudio-Linux` o `PolpoStudio-Windows` dalla sezione *Artifacts*.
+**<https://francesco209177.github.io/polpo/>** — simulatore nel browser, installazione del firmware con un clic,
+download di Polpo Studio, lista dei componenti e manuali.
 
-**Dal codice** (Ubuntu/Debian; su altri sistemi serve Python 3.11 o più recente):
+## Scaricare
+
+| Cosa | Dove |
+|---|---|
+| Firmware per il Cardputer | Pagina [Installa](https://francesco209177.github.io/polpo/installa/) del sito (dal browser, con un cavo USB) |
+| Polpo Studio per Windows e Linux | [Ultima versione](https://github.com/Francesco209177/polpo/releases/latest) |
+
+**Polpo Studio dal codice** (Ubuntu/Debian; su altri sistemi serve Python 3.11 o più recente):
 
 ```bash
 sudo apt install git python3-venv
-git clone https://github.com/Francesco209177/polpo-.git
-cd polpo-/studio
+git clone https://github.com/Francesco209177/polpo.git
+cd polpo/studio
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -e ".[dev]"
@@ -31,6 +39,11 @@ python -m polpo_studio --virtuale
 ```
 
 Alla prima apertura scegli la frase di accesso della cassaforte e conserva la chiave di recupero su carta.
+
+## Stato del progetto
+
+Firmware e Polpo Studio sono verificati con test automatici, simulatore e autodiagnosi dei pacchetti.
+**Non sono ancora stati provati su un Cardputer vero**: se lo fai, apri una segnalazione e racconta com'è andata.
 
 ## Documentazione
 

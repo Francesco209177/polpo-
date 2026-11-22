@@ -1,0 +1,102 @@
+<!--
+title: Installa il firmware Polpo sul Cardputer
+description: Installa il firmware Polpo su un M5Stack Cardputer direttamente dal browser, con un cavo USB e senza programmi da scaricare.
+nav: installa
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Installazione · versione {{fw_version}}</p>
+    <h1>Installa il firmware sul Cardputer</h1>
+    <p class="lead">Si fa da questa pagina, con un cavo USB, in circa un minuto. Non serve scaricare programmi.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container grid two">
+    <div>
+      <div class="notice warn" data-no-serial hidden>
+        <h2>Questo browser non può installare il firmware</h2>
+        <p>Serve <strong>Google Chrome</strong> o <strong>Microsoft Edge</strong> su un computer (Windows, macOS o Linux). Safari, Firefox e i telefoni non hanno la funzione necessaria per parlare con la porta USB.</p>
+      </div>
+      <noscript><div class="notice warn"><p>Per installare dal browser serve JavaScript attivo. In alternativa scarica il file qui sotto e segui il <a href="../documentazione/manuale-polpo.html">manuale</a>.</p></div></noscript>
+
+      <h2>Cosa ti serve</h2>
+      <ul class="checks">
+        <li>Un M5Stack Cardputer (v1.1 oppure Adv)</li>
+        <li>Un cavo USB-C <strong>dati</strong>: alcuni cavi servono solo a ricaricare</li>
+        <li>Google Chrome o Microsoft Edge su un computer</li>
+      </ul>
+
+      <h2 class="mt">I passi</h2>
+      <ol class="steps">
+        <li><h3>Spegni il Cardputer</h3><p>Usa l'interruttore sul lato.</p></li>
+        <li><h3>Entra in modalità download</h3><p>Tieni premuto il tasto <kbd>G0</kbd> (il tastino sul lato), collega il cavo USB al computer, poi rilascia <kbd>G0</kbd>. Lo schermo resta nero: è normale.</p></li>
+        <li><h3>Premi «Installa Polpo»</h3><p>Nel riquadro qui accanto. Scegli la porta che compare nell'elenco, di solito <em>USB JTAG/serial debug unit</em>, e conferma.</p></li>
+        <li><h3>Riaccendi</h3><p>A installazione finita scollega il cavo e accendi il Cardputer: compare il polpo.</p></li>
+      </ol>
+    </div>
+
+    <div>
+      <div class="install-box">
+        <h2>Polpo {{fw_version}}</h2>
+        <esp-web-install-button manifest="manifest.json">
+          <button slot="activate">Installa Polpo {{fw_version}}</button>
+          <span slot="unsupported">Questo browser non supporta l'installazione via USB: usa Chrome o Edge su un computer.</span>
+          <span slot="not-allowed">L'installazione funziona solo da un indirizzo https, come questo sito pubblicato.</span>
+        </esp-web-install-button>
+        <dl class="facts">
+          <dt>Per</dt><dd>M5Stack Cardputer v1.1 e Adv (ESP32-S3)</dd>
+          <dt>File</dt><dd><a href="{{fw_file}}" download>{{fw_file}}</a> ({{fw_size}})</dd>
+          <dt>SHA-256</dt><dd><span class="sha" id="sha">{{fw_sha256}}</span> <button class="copy-btn" type="button" data-copy="sha">Copia</button></dd>
+        </dl>
+      </div>
+
+      <div class="notice mt">
+        <h3>Prima di installare</h3>
+        <p>L'installazione <strong>sostituisce il firmware presente</strong> sul Cardputer. I file sulla microSD restano. Per tornare al firmware originale M5Stack si usa il programma M5Burner.</p>
+        <p>Questa versione è stata verificata con compilazione, test automatici e simulatore, <strong>non ancora su un Cardputer vero</strong>. Se qualcosa non va, ripeti dal passo 2: la modalità download con G0 funziona sempre, anche con un firmware rovinato.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="microsd">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Dopo l'installazione</p>
+      <h2>Prepara la microSD</h2>
+      <p>Il Polpo salva telecomandi, segnali, letture e script su una microSD (da 4 a 32 GB, formattata FAT32). Senza microSD funziona lo stesso, ma non può salvare.</p>
+      <ol>
+        <li>Scarica <a href="sd-polpo.zip" download>sd-polpo.zip</a> ed estrailo.</li>
+        <li>Copia la cartella <code>polpo</code> nella microSD.</li>
+        <li>Inserisci la microSD nel Cardputer spento, poi accendilo.</li>
+      </ol>
+      <p class="small">Lo zip contiene le cartelle già pronte, un telecomando di esempio e tre script dimostrativi innocui.</p>
+    </div>
+    <div>
+      <h2>Se qualcosa non va</h2>
+      <details>
+        <summary>La porta non compare nell'elenco</summary>
+        <p>Quasi sempre è il cavo: prova con un cavo USB-C che trasferisce dati. Ripeti la modalità download (spento, G0 premuto, collega, rilascia) e prova un'altra porta USB del computer. Su Linux il tuo utente deve poter usare le porte seriali (gruppo <code>dialout</code>).</p>
+      </details>
+      <details>
+        <summary>L'installazione si interrompe</summary>
+        <p>Scollega, rimetti il Cardputer in modalità download e riprova. Evita gli hub USB non alimentati.</p>
+      </details>
+      <details>
+        <summary>Voglio controllare il file prima di installarlo</summary>
+        <p>Scarica il file e confronta la sua impronta SHA-256 con quella scritta sopra:</p>
+        <pre><code>sha256sum {{fw_file}}                    # Linux
+shasum -a 256 {{fw_file}}                # macOS
+certutil -hashfile {{fw_file}} SHA256    # Windows</code></pre>
+      </details>
+      <details>
+        <summary>Preferisco installare senza questa pagina</summary>
+        <p>Scarica il file e scrivilo all'indirizzo <code>0x0</code> con esptool (versione 5), sempre in modalità download:</p>
+        <pre><code>python -m esptool --chip esp32s3 write-flash 0x0 {{fw_file}}</code></pre>
+        <p>Il <a href="../documentazione/manuale-polpo.html">manuale</a> descrive anche un altro metodo dal browser.</p>
+      </details>
+    </div>
+  </div>
+</section>
+<script type="module" src="../vendor/esp-web-tools/install-button.js"></script>

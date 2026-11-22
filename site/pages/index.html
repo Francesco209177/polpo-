@@ -1,0 +1,173 @@
+<!--
+title: Polpo: il multi-tool tascabile che costruisci tu
+description: Progetto libero ispirato al Flipper Zero: un M5Stack Cardputer, moduli a innesto e nessuna saldatura. Telecomandi a infrarossi, radio 433 MHz, NFC e un programma per PC.
+-->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Software libero · versione {{fw_version}}</p>
+      <h1>Polpo, il multi&#8209;tool tascabile che costruisci tu</h1>
+      <p class="lead">Un progetto ispirato al Flipper Zero: un M5Stack Cardputer, qualche modulo a innesto e <strong>nessuna saldatura</strong>. Telecomandi a infrarossi, radio a 433 MHz, tag NFC e altro, con un programma per PC che lo comanda.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="simulatore/">Prova il simulatore</a>
+        <a class="btn btn-ghost" href="installa/">Installa il firmware</a>
+        <a class="btn btn-ghost" href="studio/">Polpo Studio per PC</a>
+      </div>
+      <p class="small hero-note">Il simulatore funziona subito nel browser: non serve comprare nulla.</p>
+    </div>
+    <div class="hero-art">
+      <a href="simulatore/"><img class="device" src="assets/img/simulatore.webp" width="1520" height="1432" alt="Il simulatore del Polpo: sullo schermo la mascotte con livello, microSD e batteria; sotto, la tastiera del Cardputer" fetchpriority="high"></a>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="notice">
+      <h2>A che punto è il progetto</h2>
+      <p>Il firmware compila, è coperto da test automatici e lo puoi provare nel simulatore; Polpo Studio supera oltre 130 test automatici e un'autodiagnosi su Windows e Linux. <strong>Non è ancora stato provato su un Cardputer vero</strong>: se lo fai tu, <a href="{{issues_url}}">raccontaci com'è andata</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="cosa-fa">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Cosa fa</p>
+      <h2>Sette strumenti in tasca</h2>
+      <p class="lead">Ogni funzione dice chiaramente di quale modulo ha bisogno. Quello che è già dentro il Cardputer funziona senza aggiungere nulla.</p>
+    </div>
+    <div class="grid four">
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#ir"/></svg>
+        <h3>Infrarossi</h3>
+        <p>Telecomando universale per TV e impianti audio, file <code>.ir</code>, e apprendimento dei tasti dei tuoi telecomandi.</p>
+        <p class="needs"><b>Serve:</b> niente per inviare; l'IR Unit per imparare.</p>
+      </div>
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#radio"/></svg>
+        <h3>Radio 433,92 MHz</h3>
+        <p>Legge i codici fissi delle tue prese e dei tuoi telecomandi, registra il segnale grezzo e lo ritrasmette, con un limite orario di trasmissione.</p>
+        <p class="needs"><b>Serve:</b> Unit RF433R e RF433T.</p>
+      </div>
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#nfc"/></svg>
+        <h3>NFC 13,56 MHz</h3>
+        <p>Riconosce il tipo di carta, legge i tag NTAG e Ultralight, scrive link e testi sui tuoi tag.</p>
+        <p class="needs"><b>Serve:</b> Unit RFID2.</p>
+      </div>
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#tastiera"/></svg>
+        <h3>Tastiera USB</h3>
+        <p>Scrive al posto tuo sul tuo computer con script DuckyScript, layout italiano o americano. Parte solo dopo la tua conferma.</p>
+        <p class="needs"><b>Serve:</b> niente, usa la porta USB-C.</p>
+      </div>
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#bluetooth"/></svg>
+        <h3>Bluetooth</h3>
+        <p>Elenca i dispositivi vicini e fa da telecomando multimediale per telefono o PC.</p>
+        <p class="needs"><b>Serve:</b> niente, è integrato.</p>
+      </div>
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#wifi"/></svg>
+        <h3>Wi-Fi</h3>
+        <p>Mostra le reti vicine e un grafico dei canali, per scegliere quello più libero per il tuo router. Solo ascolto.</p>
+        <p class="needs"><b>Serve:</b> niente, è integrato.</p>
+      </div>
+      <div class="card">
+        <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#gpio"/></svg>
+        <h3>Elettronica</h3>
+        <p>Cerca i sensori I2C collegati e controlla lo stato dei pin: utile per chi sperimenta con Arduino e simili.</p>
+        <p class="needs"><b>Serve:</b> la porta Grove del Cardputer.</p>
+      </div>
+      <a class="card card-link card-studio" href="studio/">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="assets/img/icone.svg#pc"/></svg>
+        <h3>E dal PC, Polpo Studio</h3>
+        <p>Le stesse funzioni su uno schermo grande, con grafici, archivio cifrato e un Polpo virtuale per provare senza hardware.</p>
+        <p class="needs"><b>Scopri Polpo Studio →</b></p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="cosa-non-fa">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Per scelta</p>
+      <h2>Cosa non fa</h2>
+      <p class="lead">Polpo serve per imparare e per usare le proprie cose. Le funzioni pensate per entrare nei sistemi degli altri non ci sono, e non verranno aggiunte.</p>
+      <p><strong>Usalo solo con dispositivi tuoi</strong> o per cui hai un'autorizzazione esplicita.</p>
+    </div>
+    <ul class="crosses">
+      <li>Disturbo delle frequenze radio (jamming)</li>
+      <li>Copia dei codici variabili di cancelli e automobili (rolling code)</li>
+      <li>Tentativi a forza bruta di codici o chiavi</li>
+      <li>Attacchi alle reti Wi-Fi (disconnessione forzata, falsi punti di accesso)</li>
+      <li>Raffiche di annunci Bluetooth per disturbare i telefoni</li>
+      <li>Copia di badge, chiavi e carte di altre persone, ed emulazione di carte</li>
+    </ul>
+  </div>
+</section>
+
+<section class="band" id="come-e-fatto">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Com'è fatto</p>
+      <h2>Si monta come i mattoncini</h2>
+      <p class="lead">La base è un <strong>M5Stack Cardputer</strong>: un computer grande come una carta di credito, con schermo, tastiera, batteria e porta USB-C. I moduli si collegano con un cavetto alla porta Grove.</p>
+      <ul class="checks">
+        <li>Nessuna saldatura e nessun attrezzo</li>
+        <li>Con tutti i moduli: circa 48 $ di componenti, più una microSD</li>
+        <li>Firmware scritto da zero, interfaccia in italiano</li>
+      </ul>
+      <div class="btn-row"><a class="btn btn-ghost" href="componenti/">Lista dei componenti</a></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Modulo</th><th>Aggiunge</th></tr></thead>
+        <tbody>
+          <tr><td>Unit RFID2</td><td>NFC</td></tr>
+          <tr><td>Unit RF433R + RF433T</td><td>Radio a 433,92 MHz</td></tr>
+          <tr><td>IR Unit</td><td>Apprendimento dei telecomandi</td></tr>
+          <tr><td>Unit HUB</td><td>Più moduli collegati insieme</td></tr>
+          <tr><td>microSD</td><td>Spazio per telecomandi, segnali e script</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="studio">
+  <div class="container split">
+    <div>
+      <p class="eyebrow studio">Polpo Studio</p>
+      <h2>Sul PC, con uno schermo grande</h2>
+      <p class="lead">Un programma per Windows e Linux che comanda il Polpo via USB: grafici dei segnali radio, analisi dei tag NFC, telecomando sullo schermo, archivio cifrato.</p>
+      <ul class="checks">
+        <li>Il Polpo chiede conferma sul suo schermo prima di accettare comandi</li>
+        <li>Ogni funzione dice se è disponibile, simulata o se manca un componente</li>
+        <li>C'è un Polpo virtuale per provarlo senza hardware</li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn-studio" href="studio/">Scopri Polpo Studio</a>
+      </div>
+    </div>
+    <figure>
+      <a href="studio/"><img class="shot" src="assets/img/schermate/studio-home.webp" width="2560" height="1600" loading="lazy" alt="Polpo Studio: la pagina iniziale con lo stato del Polpo virtuale, l'elenco dell'hardware e i moduli nella barra laterale"></a>
+    </figure>
+  </div>
+</section>
+
+<section class="band" id="inizia">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Come iniziare</p>
+      <h2>Tre passi, il primo è gratis</h2>
+    </div>
+    <ol class="steps row">
+      <li><h3>Prova il simulatore</h3><p>Gira i menu del firmware nel browser e vedi se fa per te. <a href="simulatore/">Apri il simulatore</a>.</p></li>
+      <li><h3>Procurati i pezzi</h3><p>Un Cardputer e i moduli che ti interessano. <a href="componenti/">Vedi la lista</a>.</p></li>
+      <li><h3>Installa il firmware</h3><p>Dal browser, con un cavo USB, in circa un minuto. <a href="installa/">Vai all'installazione</a>.</p></li>
+    </ol>
+  </div>
+</section>

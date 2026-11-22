@@ -7,6 +7,11 @@ on:
   pull_request:
     paths: ["polpo/**", "studio/**", ".github/workflows/polpo.yml"]
   workflow_dispatch:
+    inputs:
+      pubblica:
+        description: "Versione da pubblicare come Release (es. 0.1.0). Vuoto = solo build e test."
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -107,3 +112,41 @@ jobs:
             studio/PolpoStudio-windows-x64.zip
             studio/packaging/windows/Output/*.exe
           if-no-files-found: ignore
+
+  # Release pubblica: si avvia a mano (Actions › Polpo › Run workflow) scrivendo la versione.
+  release:
+    if: github.event_name == 'workflow_dispatch' && inputs.pubblica != ''
+    needs: [firmware, package]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: La versione chiesta è quella del codice
+        env:
+          CHIESTA: ${{ inputs.pubblica }}
+        run: |
+          V="${CHIESTA#v}"
+          grep -q "__version__ = \"$V\"" studio/polpo_studio/__init__.py || { echo "Polpo Studio non è alla versione $V"; exit 1; }
+          grep -q "VERSION = \"$V\"" polpo/scripts/version.py || { echo "Il firmware non è alla versione $V"; exit 1; }
+          test -f "polpo/release/polpo-cardputer-$V.bin" || { echo "Manca polpo/release/polpo-cardputer-$V.bin"; exit 1; }
+          echo "V=$V" >> "$GITHUB_ENV"
+      - uses: actions/download-artifact@v4
+        with: { path: artefatti }
+      - name: Prepara i file con nomi fissi
+        run: |
+          mkdir out
+          cp "$(find artefatti -name 'PolpoStudio-linux-x64.tar.gz')" out/
+          cp "$(find artefatti -name 'PolpoStudio-windows-x64.zip')" out/
+          cp "$(find artefatti -name '*-Windows-setup.exe')" out/PolpoStudio-Windows-setup.exe
+          cp "polpo/release/polpo-cardputer-$V.bin" "polpo/release/polpo-cardputer-$V-app.bin" out/
+          pip install markdown==3.11.3
+          python site/build.py --out _site
+          cp _site/installa/sd-polpo.zip out/
+          (cd out && sha256sum * > SHA256SUMS.txt && cat SHA256SUMS.txt)
+      - name: Crea la Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "v$V" out/* --target "$GITHUB_SHA" --title "Polpo $V" --notes-file .github/release-notes.md

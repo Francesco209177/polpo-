@@ -1,0 +1,168 @@
+<!--
+title: Polpo Studio: il programma per PC del Polpo
+description: Polpo Studio comanda il Polpo via USB da Windows e Linux: radio 433 MHz, NFC, infrarossi, RFID, Bluetooth, USB, archivio cifrato e un Polpo virtuale per provarlo senza hardware.
+nav: studio
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow studio">Polpo Studio · versione {{studio_version}}</p>
+    <h1>Il Polpo, comandato dal PC</h1>
+    <p class="lead">Un programma libero per Windows e Linux: collega il Polpo via USB e lavora su uno schermo grande. Non hai ancora il Polpo? C'è un Polpo virtuale per provare tutto.</p>
+    <div class="btn-row">
+      <a class="btn btn-studio" href="#scarica">Scarica Polpo Studio</a>
+      <a class="btn btn-ghost" href="../documentazione/manuale-studio.html">Leggi il manuale</a>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <figure>
+      <img class="shot" src="../assets/img/schermate/studio-home.webp" width="2560" height="1600" alt="La pagina iniziale di Polpo Studio con il Polpo virtuale collegato: stato del dispositivo, batteria, elenco dell'hardware e moduli nella barra laterale" fetchpriority="high">
+      <figcaption>La pagina iniziale con il Polpo virtuale: tutto ciò che è inventato è segnato <strong>SIMULATO</strong>.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="band" id="moduli">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow studio">I moduli</p>
+      <h2>Uno strumento per ogni cosa</h2>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="../assets/img/icone.svg#radio"/></svg>
+        <h3>Radio 433 MHz</h3>
+        <p>Codici ricevuti dal vivo, grafico del segnale grezzo, analisi degli impulsi, archivio legato ai tuoi dispositivi, editor dei file <code>.sub</code>.</p>
+      </div>
+      <div class="card">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="../assets/img/icone.svg#nfc"/></svg>
+        <h3>NFC</h3>
+        <p>Lettura dei tag con analisi di blocchi e protezioni, contenuto NDEF spiegato, scrittura di link e testi sui tuoi tag.</p>
+      </div>
+      <div class="card">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="../assets/img/icone.svg#ir"/></svg>
+        <h3>Infrarossi</h3>
+        <p>Libreria di codici pubblici, i tuoi telecomandi personali, telecomando sullo schermo, apprendimento di nuovi tasti.</p>
+      </div>
+      <div class="card">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="../assets/img/icone.svg#scheda"/></svg>
+        <h3>RFID 125 kHz e iButton</h3>
+        <p>Lettura con lettori economici per PC, conversione tra i formati stampati sulle tessere, controllo del codice delle chiavi iButton.</p>
+      </div>
+      <div class="card">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="../assets/img/icone.svg#pc"/></svg>
+        <h3>USB, Bluetooth, elettronica</h3>
+        <p>Periferiche collegate, dispositivi Bluetooth, console seriale per Arduino ed ESP32, calcolatori, editor DuckyScript con controllo degli errori.</p>
+      </div>
+      <div class="card">
+        <svg class="icon studio" viewBox="0 0 64 64" aria-hidden="true"><use href="../assets/img/icone.svg#scudo"/></svg>
+        <h3>Archivio cifrato e app</h3>
+        <p>Tutto ciò che salvi finisce in una cassaforte cifrata. In più un catalogo di piccole app: convertitori, calcolatori, costruttore NDEF.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stati">
+  <div class="container split">
+    <div>
+      <p class="eyebrow studio">Niente finzioni</p>
+      <h2>Sai sempre cosa funziona davvero</h2>
+      <p class="lead">Polpo Studio non finge mai di avere un componente che non c'è. Ogni funzione mostra uno stato calcolato in quel momento, scritto a parole.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <tbody>
+          <tr><td><span class="badge ok">Disponibile</span></td><td>L'hardware è collegato e riconosciuto, oppure non serve.</td></tr>
+          <tr><td><span class="badge need">Richiede hardware esterno</span></td><td>Manca un componente, o non si può riconoscere da solo.</td></tr>
+          <tr><td><span class="badge sim">Simulato</span></td><td>Dati inventati dal Polpo virtuale: non vanno mai al Polpo vero.</td></tr>
+          <tr><td><span class="badge exp">Sperimentale</span></td><td>Funziona, ma non è stato provato a fondo su hardware vero.</td></tr>
+          <tr><td><span class="badge off">Non disponibile</span></td><td>Escluso per sicurezza, o impossibile con questo hardware.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="schermate">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow studio">Schermate</p>
+      <h2>Com'è fatto</h2>
+      <p class="lead">Immagini vere del programma, fatte con il Polpo virtuale.</p>
+    </div>
+    <div class="gallery">
+      <figure><img class="shot" src="../assets/img/schermate/studio-radio.webp" width="2560" height="1600" loading="lazy" alt="Modulo Radio: grafico degli impulsi registrati e analisi con durate e protocollo probabile"><figcaption>Radio: il segnale registrato e l'analisi degli impulsi.</figcaption></figure>
+      <figure><img class="shot" src="../assets/img/schermate/studio-nfc.webp" width="2560" height="1600" loading="lazy" alt="Modulo NFC: lettura di un tag con identificativo, modello, contenuto e note di sicurezza"><figcaption>NFC: lettura di un tag con contenuto e note di sicurezza.</figcaption></figure>
+      <figure><img class="shot" src="../assets/img/schermate/studio-infrarossi.webp" width="2560" height="1600" loading="lazy" alt="Modulo Infrarossi: libreria per marca e telecomando sullo schermo con i tasti principali"><figcaption>Infrarossi: libreria per marca e telecomando sullo schermo.</figcaption></figure>
+      <figure><img class="shot" src="../assets/img/schermate/studio-duckyscript.webp" width="2560" height="1600" loading="lazy" alt="Modulo USB: editor di script per la tastiera con il risultato del controllo"><figcaption>USB: editor degli script per la tastiera, con controllo degli errori.</figcaption></figure>
+      <figure><img class="shot" src="../assets/img/schermate/studio-chiaro.webp" width="2560" height="1600" loading="lazy" alt="Polpo Studio con il tema chiaro"><figcaption>Tema chiaro, scuro o ad alto contrasto; italiano o inglese.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="sicurezza">
+  <div class="container split">
+    <div>
+      <p class="eyebrow studio">Sicurezza</p>
+      <h2>Prudente per impostazione</h2>
+      <ul class="checks">
+        <li>Il Polpo chiede conferma sul <strong>suo</strong> schermo prima di collegarsi, e di nuovo prima di trasmettere, scrivere un tag o salvare uno script</li>
+        <li>Trasmissioni e scritture restano spente finché non attivi la <strong>modalità laboratorio</strong>, che si spegne da sola</li>
+        <li>Letture, file e registro delle attività stanno in una <strong>cassaforte cifrata</strong> (AES-256) che apri con una frase scelta da te</li>
+        <li>Un controllo di integrità scopre file o registro modificati di nascosto</li>
+      </ul>
+      <p class="mt"><a href="../documentazione/sicurezza.html">Come funziona la sicurezza, nel dettaglio</a></p>
+    </div>
+    <div class="notice studio">
+      <h3>Alla prima apertura</h3>
+      <p>Scegli una <strong>frase di accesso</strong> di almeno 12 caratteri (quattro parole a caso vanno benissimo) e ricevi una <strong>chiave di recupero</strong>. Scrivila su carta: se dimentichi la frase è l'unico modo per riaprire la cassaforte, e nessuno può farlo al posto tuo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="scarica">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow studio">Download · versione {{studio_version}}</p>
+      <h2>Scarica Polpo Studio</h2>
+      <p class="lead">Gratuito e libero (licenza MIT). I file arrivano dalla <a href="{{releases_url}}">pagina delle versioni su GitHub</a>.</p>
+    </div>
+    <div class="grid">
+      <div class="card dl" data-os="windows">
+        <span class="os-hint">Il tuo sistema</span>
+        <h3>Windows 10 e 11</h3>
+        <a class="btn btn-studio" href="{{dl_win_setup}}">Scarica l'installer</a>
+        <a href="{{dl_win_zip}}">Oppure lo zip, senza installazione</a>
+        <small>L'installer non è firmato: Windows può mostrare «PC protetto». Scegli <em>Ulteriori informazioni</em>, poi <em>Esegui comunque</em>.</small>
+      </div>
+      <div class="card dl" data-os="linux">
+        <span class="os-hint">Il tuo sistema</span>
+        <h3>Linux</h3>
+        <a class="btn btn-studio" href="{{dl_linux}}">Scarica per Linux</a>
+        <small>Per Ubuntu 22.04 o più recente e distribuzioni simili (64 bit).</small>
+        <pre><code>tar xzf PolpoStudio-linux-x64.tar.gz
+cd PolpoStudio-linux
+./installa.sh</code></pre>
+        <small>Per provarlo senza installare: <code>./PolpoStudio/PolpoStudio --virtuale</code></small>
+      </div>
+      <div class="card dl" data-os="mac">
+        <span class="os-hint">Il tuo sistema</span>
+        <h3>macOS e altri sistemi</h3>
+        <p>Per ora si avvia dal codice, con Python 3.11 o più recente:</p>
+        <pre><code>git clone {{repo_url}}.git polpo
+cd polpo/studio
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -e .
+python -m polpo_studio --virtuale</code></pre>
+      </div>
+    </div>
+    <div class="notice mt">
+      <h3>Cosa è stato verificato</h3>
+      <p>Oltre 130 test automatici e un'autodiagnosi che gira sui pacchetti per Windows e per Linux a ogni versione. <strong>Non è stato ancora provato con un Polpo vero</strong>, con adattatori Bluetooth o con lettori esterni: le funzioni segnate <span class="badge exp">Sperimentale</span> vanno usate con attenzione. Per controllare i file scaricati c'è l'elenco delle <a href="{{dl_sums}}">impronte SHA-256</a>.</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,85 @@
+<!--
+title: Componenti del Polpo: cosa comprare
+description: La lista dei pezzi per costruire il Polpo: M5Stack Cardputer, moduli a innesto per NFC, radio 433 MHz e infrarossi, microSD. Prezzi indicativi e a cosa serve ogni pezzo.
+nav: componenti
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Componenti</p>
+    <h1>Cosa serve per costruire il Polpo</h1>
+    <p class="lead">Un Cardputer e i moduli che ti interessano. Si collegano con un cavetto: niente saldature, niente attrezzi. Puoi partire dal solo Cardputer e aggiungere il resto dopo.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Pezzo</th><th>A cosa serve</th><th>Prezzo indicativo</th></tr></thead>
+        <tbody>
+          <tr><td><strong>M5Stack Cardputer Adv</strong><br><span class="small">Il v1.1 è fuori produzione ma compatibile</span></td><td>Il dispositivo: schermo 240×135, tastiera, batteria, LED a infrarossi, Wi-Fi, Bluetooth, USB</td><td class="num">29,90 $<br><span class="small">30–50 € su Amazon.it</span></td></tr>
+          <tr><td><strong>microSD</strong> da 4 a 32 GB<br><span class="small">Formattata FAT32</span></td><td>Salvare telecomandi, segnali, script e letture</td><td class="num">5–8 €</td></tr>
+          <tr><td><strong>Unit RFID2</strong> (WS1850S)</td><td>NFC a 13,56 MHz: leggere e scrivere tag</td><td class="num">4,46 $</td></tr>
+          <tr><td><strong>Unit RF433R</strong> e <strong>Unit RF433T</strong></td><td>Ricevere (R) e trasmettere (T) a 433,92 MHz</td><td class="num">3,60 $ l'uno</td></tr>
+          <tr><td><strong>Unit HUB</strong><br><span class="small">Facoltativa</span></td><td>Tenere collegati insieme RF433R e RF433T</td><td class="num">2,80 $</td></tr>
+          <tr><td><strong>IR Unit</strong><br><span class="small">Facoltativa</span></td><td>Imparare i tasti dei telecomandi: il Cardputer da solo trasmette ma non riceve</td><td class="num">3,36 $</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">Prezzi del <a href="https://shop.m5stack.com/">negozio ufficiale M5Stack</a> rilevati il 21 novembre 2026, senza spedizione e dogana: possono essere cambiati. Con tutti i moduli il totale è di circa 48 $, più la microSD. Su Amazon.it gli stessi moduli costano in genere qualche euro in più.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Da dove partire</p>
+      <h2>Quali moduli per fare cosa</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Voglio…</th><th>Mi serve</th></tr></thead>
+          <tbody>
+            <tr><td>Un telecomando universale, Bluetooth, Wi-Fi, tastiera USB</td><td>Solo il Cardputer</td></tr>
+            <tr><td>Salvare e riusare quello che faccio</td><td>+ microSD</td></tr>
+            <tr><td>Copiare i tasti dei miei telecomandi</td><td>+ IR Unit</td></tr>
+            <tr><td>Leggere e scrivere tag NFC</td><td>+ Unit RFID2</td></tr>
+            <tr><td>Comandare le mie prese radiocomandate</td><td>+ RF433R e RF433T (+ HUB)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Come si collegano</p>
+      <h2>Un cavetto, una porta</h2>
+      <ul class="checks">
+        <li>Ogni modulo ha un connettore <strong>Grove</strong>: si innesta in un verso solo, impossibile sbagliare</li>
+        <li>Il Cardputer ha una porta Grove: un modulo alla volta, oppure più moduli con l'HUB</li>
+        <li>Il Polpo riconosce da solo l'RFID2; radio e IR Unit non si possono riconoscere: basta collegarli prima di aprire la loro app</li>
+        <li>I segnali della porta lavorano a 3,3 V: non collegarci dispositivi a 5 V che non siano fatti per il Grove</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow studio">Per Polpo Studio</p>
+      <h2>Lettori facoltativi per il PC</h2>
+      <p class="lead">Alcuni moduli di Polpo Studio usano lettori economici collegati al computer invece che al Polpo. Sono tutti facoltativi.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Componente</th><th>Per</th></tr></thead>
+        <tbody>
+          <tr><td>Lettore RFID 125 kHz USB «tipo tastiera»</td><td>Leggere le tessere a 125 kHz</td></tr>
+          <tr><td>Modulo RDM6300 con adattatore USB-seriale</td><td>Leggere le tessere a 125 kHz, con controllo degli errori</td></tr>
+          <tr><td>Scheda Arduino Uno/Nano o ESP32</td><td>Polpo Bridge: pin, sensori e bus 1-Wire comandati dal PC</td></tr>
+          <tr><td>Lettore iButton con resistenza da 4,7 kΩ</td><td>Leggere il codice delle chiavi iButton, tramite il Bridge</td></tr>
+          <tr><td>Lettore NFC PC/SC (per esempio ACR122U)</td><td>Leggere tag NFC dal PC (sperimentale)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><a href="../documentazione/hardware-esterno.html">Dettagli su collegamenti e driver</a></p>
+  </div>
+</section>
