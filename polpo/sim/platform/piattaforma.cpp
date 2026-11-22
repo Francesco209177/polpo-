@@ -463,6 +463,21 @@ struct Lettore {
 };
 }  // namespace
 
+bool sd_scrivi(const std::string& percorso, const std::string& dati) {
+    const std::string p = pulisci(percorso.c_str());
+    if (p.empty() || g_cartelle.count(p)) return false;
+    for (size_t i = p.find('/', 1); i != std::string::npos; i = p.find('/', i + 1)) g_cartelle.insert(p.substr(0, i));
+    g_file[p] = dati;
+    return true;
+}
+
+bool sd_leggi(const std::string& percorso, std::string& dati) {
+    const auto f = g_file.find(pulisci(percorso.c_str()));
+    if (f == g_file.end()) return false;
+    dati = f->second;
+    return true;
+}
+
 std::vector<uint8_t> stato_esporta() {
     std::vector<uint8_t> o(kFirma, kFirma + sizeof(kFirma) - 1);
     metti32(o, static_cast<uint32_t>(g_cartelle.size()));

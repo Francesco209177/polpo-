@@ -13,6 +13,11 @@
 #include <string>
 #include <vector>
 
+// ---- pila del ciclo principale: sul dispositivo la sceglie il firmware con questa macro; qui non cambia niente ----
+size_t getArduinoLoopTaskStackSize();
+#define SET_LOOP_TASK_STACK_SIZE(sz) \
+    size_t getArduinoLoopTaskStackSize() { return sz; }
+
 // ---- tempo (virtuale: vedi sim/nucleo.h) ----
 uint32_t millis();
 uint32_t micros();

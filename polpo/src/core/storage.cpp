@@ -143,7 +143,7 @@ uint64_t total_bytes() { return g_ok ? SD.totalBytes() : 0; }
 uint64_t used_bytes() { return g_ok ? SD.usedBytes() : 0; }
 
 void ensure_layout() {
-    for (const char* d : {kRoot, kIrDir, kBadUsbDir, kRfDir, kNfcDir, kLogDir}) mkdirs(d);
+    for (const char* d : {kRoot, kIrDir, kBadUsbDir, kRfDir, kNfcDir, kLogDir, kScriptDir, kScriptDataDir}) mkdirs(d);
     for (const auto& s : samples::all()) {
         const std::string p = s.path;
         if (!exists(p)) write_text(p, s.content);

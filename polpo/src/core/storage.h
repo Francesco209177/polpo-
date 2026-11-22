@@ -13,6 +13,8 @@ constexpr const char* kBadUsbDir = "/polpo/badusb";
 constexpr const char* kRfDir = "/polpo/rf433";
 constexpr const char* kNfcDir = "/polpo/nfc";
 constexpr const char* kLogDir = "/polpo/logs";
+constexpr const char* kScriptDir = "/polpo/script";            // programmi PolpoScript (.polpo)
+constexpr const char* kScriptDataDir = "/polpo/script/dati";   // i file che gli script possono leggere e scrivere
 
 bool begin();
 bool ok();

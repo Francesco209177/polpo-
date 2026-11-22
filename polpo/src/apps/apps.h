@@ -11,6 +11,7 @@ void open_badusb_app();
 void open_ble_app();
 void open_wifi_app();
 void open_gpio_app();
+void open_script_app();  // mini-app scritte in PolpoScript
 void open_files_app();
 void open_settings_app();
 void open_about_app();

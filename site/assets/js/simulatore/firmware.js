@@ -94,6 +94,11 @@ export async function creaPolpo(modulo, { suTesto = () => {} } = {}) {
       return JSON.parse(this.mondoTesto(testo));
     },
     mondoTesto: (testo) => conDati(enc.encode(testo + "\0"), (p) => leggiTesto(x.sim_mondo(p))),
+    /** Comando per i programmi PolpoScript (oggetto o testo JSON): scrivi, leggi, controlla, apri, ferma, passo, stato… */
+    script(comando) {
+      return JSON.parse(this.scriptTesto(typeof comando === "string" ? comando : JSON.stringify(comando)));
+    },
+    scriptTesto: (testo) => conDati(enc.encode(testo + "\0"), (p) => leggiTesto(x.sim_script(p))),
     /** Prossimo evento (oggetto) oppure null. */
     evento() {
       const t = leggiTesto(x.sim_evento());

@@ -67,9 +67,11 @@ void ScreenStack::run_once(uint32_t now) {
     const uint32_t every = s->redraw_interval_ms();
     if (every && now - last_draw_ >= every) s->invalidate();
     if (s->dirty()) {
-        ui::clear();
-        s->draw();
-        ui::present();
+        if (!s->owns_canvas()) {
+            ui::clear();
+            s->draw();
+            ui::present();
+        }
         s->clean();
         last_draw_ = now;
     }

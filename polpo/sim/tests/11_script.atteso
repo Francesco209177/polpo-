@@ -1,0 +1,77 @@
+schermo menu-con-script 4a601b8b
+schermo elenco dfe7a843
+schermo dado 62c07967
+conta luminosita=1 suono=2
+conta suono=8
+schermo dado-lanciato 5236a95b
+schermo elenco dfe7a843
+schermo indovina-domanda d46f10e6
+schermo indovina-seconda-domanda a69f9296
+schermo indovina-senza-risposta 068db116
+schermo elenco-su-indovina 6e386991
+evento {"tipo":"script.end","riga":28,"testo":""}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"script.print","riga":0,"testo":"Ho pensato un numero"}
+evento {"tipo":"script.print","riga":0,"testo":"da 1 a 100. Indovina!"}
+evento {"tipo":"script.print","riga":0,"testo":"Che numero è? 50"}
+evento {"tipo":"script.print","riga":0,"testo":"50 è troppo piccolo"}
+evento {"tipo":"script.print","riga":0,"testo":"Che numero è?"}
+evento {"tipo":"script.print","riga":0,"testo":"Scrivi un numero."}
+evento {"tipo":"script.end","riga":7,"testo":""}
+script {"ok":true}
+script {"ok":true,"valido":false,"riga":2,"errore":"non conosco la funzione «cerhio». Forse volevi «cerchio»?"}
+script {"ok":true}
+schermo errore-di-scrittura 7df2311b
+evento {"tipo":"script.end","riga":2,"testo":"Riga 2: non conosco la funzione «cerhio». Forse volevi «cerchio»?"}
+evento {"tipo":"suono","hz":330,"ms":180}
+schermo elenco-su-indovina 6e386991
+script {"ok":true}
+script {"ok":true}
+schermo errore-in-esecuzione e0baddf4
+evento {"tipo":"script.print","riga":0,"testo":"prima"}
+evento {"tipo":"script.end","riga":2,"testo":"Riga 2: non si può dividere per zero"}
+evento {"tipo":"suono","hz":330,"ms":180}
+script {"ok":true}
+script {"ok":true}
+schermo foglio-finito 5dc4ad1d
+script {"ok":true,"stato":"done","riga":6,"file":"/polpo/script/prove/foglio.polpo","errore":"","variabili":[],"pila":[]}
+script {"ok":true,"testo":"[1, 2]"}
+conta script.end=1 script.print=14
+schermo elenco-su-indovina 6e386991
+script {"ok":true,"stato":"none","riga":0,"file":"","errore":"","variabili":[],"pila":[]}
+script {"ok":true}
+script {"ok":true}
+script {"ok":true,"stato":"running","riga":3,"file":"/polpo/script/prove/sempre.polpo","errore":"","variabili":[],"pila":[]}
+schermo elenco-su-indovina 6e386991
+evento {"tipo":"script.end","riga":3,"testo":""}
+script {"ok":true}
+script {"ok":true}
+evento {"tipo":"script.print","riga":0,"testo":"vero falso"}
+evento {"tipo":"script.print","riga":0,"testo":"sinistra sinistra x su"}
+evento {"tipo":"script.end","riga":4,"testo":""}
+script {"ok":true}
+script {"ok":true}
+script {"ok":true,"stato":"paused","riga":1,"file":"/polpo/script/prove/passi.polpo","errore":"","variabili":[],"pila":[{"funzione":"","riga":1}]}
+script {"ok":true}
+script {"ok":true}
+script {"ok":true}
+script {"ok":true}
+script {"ok":true,"stato":"paused","riga":3,"file":"/polpo/script/prove/passi.polpo","errore":"","variabili":[{"nome":"n","valore":"1","locale":true},{"nome":"r","valore":"2","locale":true},{"nome":"x","valore":"1","locale":false}],"pila":[{"funzione":"doppio","riga":3},{"funzione":"","riga":6}]}
+script {"ok":true}
+script {"ok":true}
+script {"ok":true,"stato":"paused","riga":7,"file":"/polpo/script/prove/passi.polpo","errore":"","variabili":[{"nome":"x","valore":"1","locale":false},{"nome":"y","valore":"2","locale":false}],"pila":[{"funzione":"","riga":7}]}
+script {"ok":true}
+script {"ok":true,"stato":"done","riga":7,"file":"/polpo/script/prove/passi.polpo","errore":"","variabili":[],"pila":[]}
+evento {"tipo":"script.paused","riga":1,"testo":""}
+evento {"tipo":"script.paused","riga":5,"testo":""}
+evento {"tipo":"script.paused","riga":6,"testo":""}
+evento {"tipo":"script.paused","riga":2,"testo":""}
+evento {"tipo":"script.paused","riga":3,"testo":""}
+evento {"tipo":"script.paused","riga":7,"testo":""}
+evento {"tipo":"script.print","riga":0,"testo":"3"}
+evento {"tipo":"script.end","riga":7,"testo":""}
+script {"ok":true}
+script {"ok":false,"errore":"c'è già un programma aperto"}
+script {"ok":true}
+schermo file-che-non-esiste 0ba046a9
+schermo elenco-su-indovina 6e386991

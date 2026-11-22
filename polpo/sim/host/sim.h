@@ -39,6 +39,13 @@ const char* sim_mondo(const char* json);
 /* Prossimo evento in attesa (JSON) oppure NULL. Vale fino alla chiamata successiva. */
 const char* sim_evento(void);
 
+/* Programmi PolpoScript (JSON, risposta JSON). È ciò che si farebbe a mano: copiare un file sulla microSD e
+ * sceglierlo nell'app «Script»; in più il passo passo. Comandi ("cmd"):
+ *   scrivi {file, testo}   leggi {file}   controlla {file}   apri {file, passo}   ferma   pausa   riprendi
+ *   passo {modo: "entra" | "scavalca" | "esci"}   soste {righe: [..]}   stato
+ * Ciò che il programma scrive e come finisce arriva tra gli eventi: script.print, script.paused, script.end. */
+const char* sim_script(const char* json);
+
 /* Porta seriale USB del Polpo (protocollo Polpo Link). */
 void sim_seriale_scrivi(const uint8_t* dati, size_t n);
 size_t sim_seriale_leggi(uint8_t* dati, size_t max);

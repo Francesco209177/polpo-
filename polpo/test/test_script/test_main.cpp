@@ -139,6 +139,43 @@ void test_corpus() {
     }
 }
 
+// Le mini-app di esempio che finiscono sulla microSD (sd_template/polpo/script): devono funzionare davvero.
+void test_examples() {
+    std::string answers = "#! risposte:";
+    for (int i = 1; i <= 100; ++i) answers += (i == 1 ? " " : " | ") + std::to_string(i);
+    struct Example {
+        const char* name;
+        std::string setup;
+    };
+    const Example examples[] = {
+        {"pallina", "#! tasti: destra destra su giu sinistra\n#! limite: 6000\n"},
+        {"indovina", answers + "\n#! seme: 3\n"},
+        {"dado", "#! tasti: ok a ok\n#! seme: 5\n"},
+        {"serpente", "#! tasti: su sinistra giu destra su\n#! limite: 12000\n#! seme: 9\n"},
+    };
+    const bool update = std::getenv("POLPO_AGGIORNA") != nullptr;
+    for (const Example& ex : examples) {
+        std::string source, expected;
+        bool found = false;
+        for (const char* dir : {"sd_template/polpo/script/", "../sd_template/polpo/script/", "polpo/sd_template/polpo/script/"})
+            if (!found) found = read_file(std::string(dir) + ex.name + ".polpo", source);
+        TEST_ASSERT_TRUE_MESSAGE(found, ex.name);
+        Program p;
+        Error e;
+        TEST_ASSERT_TRUE_MESSAGE(compile(source, Limits(), p, e), (std::string(ex.name) + ": " + e.text()).c_str());
+        const std::string got = run_transcript(ex.setup + source);
+        TEST_ASSERT_TRUE_MESSAGE(got.find("errore") == std::string::npos, (std::string(ex.name) + ":\n" + got.substr(got.size() > 300 ? got.size() - 300 : 0)).c_str());
+        const std::string expected_path = corpus_path("01_numeri.polpo").substr(0, corpus_path("01_numeri.polpo").size() - 15) + "esempio_" + ex.name + ".atteso";
+        if (update) {
+            std::ofstream out(expected_path, std::ios::binary);
+            out << got;
+            continue;
+        }
+        TEST_ASSERT_TRUE_MESSAGE(read_file(expected_path, expected), expected_path.c_str());
+        TEST_ASSERT_TRUE_MESSAGE(got == expected, (std::string("esempio_") + ex.name + ".atteso non corrisponde").c_str());
+    }
+}
+
 // Gli esempi del manuale del linguaggio devono essere programmi validi: il manuale non può restare indietro.
 void test_manual_examples() {
     std::string manual;
@@ -936,6 +973,7 @@ int main() {
     UNITY_BEGIN();
     RUN_TEST(test_corpus);
     RUN_TEST(test_manual_examples);
+    RUN_TEST(test_examples);
     RUN_TEST(test_deterministic);
     RUN_TEST(test_format_number);
     RUN_TEST(test_parse_number);

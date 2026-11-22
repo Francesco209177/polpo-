@@ -88,6 +88,7 @@ void open_main_menu() {
         {"Bluetooth", "BLE", [] { open_ble_app(); }},
         {"Wi-Fi", "2,4 GHz", [] { open_wifi_app(); }},
         {"GPIO e I2C", "Grove", [] { open_gpio_app(); }},
+        {"Script", "mini-app", [] { open_script_app(); }},
         {"File", "SD", [] { open_files_app(); }},
         {"Diagnostica", "", [] { open_diag_app(); }},
         {"Impostazioni", "", [] { open_settings_app(); }},

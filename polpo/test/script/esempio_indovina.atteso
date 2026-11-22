@@ -1,0 +1,21 @@
+scrivi: Ho pensato un numero
+scrivi: da 1 a 100. Indovina!
+chiedi: «Che numero è?» -> «1»
+scrivi: 1 è troppo piccolo
+chiedi: «Che numero è?» -> «2»
+scrivi: 2 è troppo piccolo
+chiedi: «Che numero è?» -> «3»
+scrivi: 3 è troppo piccolo
+chiedi: «Che numero è?» -> «4»
+scrivi: 4 è troppo piccolo
+chiedi: «Che numero è?» -> «5»
+scrivi: 5 è troppo piccolo
+chiedi: «Che numero è?» -> «6»
+scrivi: 6 è troppo piccolo
+chiedi: «Che numero è?» -> «7»
+scrivi: 7 è troppo piccolo
+chiedi: «Che numero è?» -> «8»
+scrivi: Bravo! Era proprio 8
+scrivi: Tentativi: 8
+suona: 1320 150
+fine

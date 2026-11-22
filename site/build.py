@@ -51,6 +51,7 @@ NAV = [
 # (file Markdown, nome della pagina, titolo breve, descrizione per l'elenco)
 DOCS = [
     ("polpo/docs/MANUALE.md", "manuale-polpo", "Manuale del Polpo", "Installazione, tasti, tutte le app del firmware, microSD, problemi frequenti."),
+    ("polpo/docs/POLPOSCRIPT.md", "polposcript", "PolpoScript", "Il linguaggio in italiano per le mini-app: regole, esempi, tutte le funzioni pronte, limiti."),
     ("studio/docs/MANUALE_STUDIO.md", "manuale-studio", "Manuale di Polpo Studio", "Installare il programma, collegare il Polpo, i moduli, la modalità laboratorio."),
     ("studio/docs/SICUREZZA.md", "sicurezza", "Sicurezza", "Cassaforte cifrata, PIN, registro attività, backup, cosa è escluso per scelta."),
     ("studio/docs/HARDWARE_ESTERNO.md", "hardware-esterno", "Hardware esterno", "Moduli Grove, lettori per PC, driver delle schede, permessi su Linux."),

@@ -16,6 +16,11 @@ const attese = Object.fromEntries(
     .filter((r) => r.startsWith("schermo ")).map((r) => r.split(" ").slice(1)),
 );
 
+const atteseScript = Object.fromEntries(
+  fs.readFileSync(path.join(qui, "../../../polpo/sim/tests/11_script.atteso"), "utf8").split("\n")
+    .filter((r) => r.startsWith("schermo ")).map((r) => r.split(" ").slice(1)),
+);
+
 let server, browser;
 before(async () => {
   server = await servi();
@@ -102,6 +107,34 @@ test("pressioni brevissime, anche tutte nello stesso istante, non vanno perse", 
   await lampo("p", 5);
   for (let i = 0; i < 50 && (await punti()) !== 5; i++) await pagina.waitForTimeout(100);
   assert.equal(await punti(), 5);
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
+
+test("app Script: una mini-app in PolpoScript gira nel firmware e G0 la ferma", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await pronto();
+  await tasti(pagina, "Enter", "ArrowDown", "ArrowDown", "ArrowDown", "ArrowDown", "ArrowDown", "ArrowDown", "ArrowDown", "Enter");
+  const elenco = (h) => pagina.waitForFunction((x) => window.__sim.polpo.impronta().toString(16).padStart(8, "0") === x, h, { timeout: 8000 });
+  await elenco(atteseScript.elenco).catch(async () => assert.fail(`elenco degli script: attesa ${atteseScript.elenco}, ottenuta ${await impronta(pagina)}`));
+  await tasti(pagina, "Enter"); // il primo: dado.polpo
+  // il dado è un quadrato bianco di 100 x 100 punti con i pallini neri: lo disegna il programma, non il firmware
+  const bianchi = () => pagina.evaluate(() => {
+    const s = window.__sim.polpo.schermo();
+    let n = 0;
+    for (let i = 0; i < s.length; i += 2) if (s[i] === 0xff && s[i + 1] === 0xff) n++;
+    return n;
+  });
+  for (let i = 0; i < 50 && (await bianchi()) < 8000; i++) await pagina.waitForTimeout(100);
+  const n = await bianchi();
+  assert.ok(n > 8000 && n < 10000, `il dado è disegnato (${n} punti bianchi)`);
+  // OK lancia il dado: otto lanci, ognuno con il suo suono
+  const suoni = () => pagina.evaluate(() => window.__sim.eventi.filter((e) => e.tipo === "suono").length);
+  const prima = await suoni();
+  await tasti(pagina, "Enter");
+  for (let i = 0; i < 50 && (await suoni()) < prima + 8; i++) await pagina.waitForTimeout(100);
+  assert.ok((await suoni()) >= prima + 8, "otto lanci, otto suoni");
+  await pagina.click("#g0");
+  await elenco(atteseScript.elenco).catch(() => assert.fail("G0 non ha fermato il programma"));
   assert.deepEqual(problemi, []);
   await contesto.close();
 });

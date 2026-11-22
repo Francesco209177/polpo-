@@ -61,6 +61,7 @@ class Speaker_Class {
     void setVolume(uint8_t v) { volume_ = v; }
     uint8_t getVolume() const { return volume_; }
     bool tone(float hz, uint32_t ms = UINT32_MAX, int canale = -1, bool ferma = true);
+    void stop() {}
   private:
     uint8_t volume_ = 64;
 };

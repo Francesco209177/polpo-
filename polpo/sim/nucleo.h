@@ -44,6 +44,9 @@ void seriale_verso_firmware(const uint8_t* dati, size_t n);
 size_t seriale_dal_firmware(uint8_t* dati, size_t max);
 
 // ---- stato permanente (microSD e impostazioni), per salvarlo fuori dal simulatore ----
+// Un file sulla microSD finta, come se la si estraesse per copiarlo dal computer (crea le cartelle che mancano).
+bool sd_scrivi(const std::string& percorso, const std::string& dati);
+bool sd_leggi(const std::string& percorso, std::string& dati);
 std::vector<uint8_t> stato_esporta();
 bool stato_importa(const uint8_t* dati, size_t n);
 

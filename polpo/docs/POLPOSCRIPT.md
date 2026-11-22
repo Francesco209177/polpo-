@@ -3,10 +3,12 @@
 PolpoScript è un piccolo linguaggio **in italiano** per scrivere mini-app: giochi, cronometri, dadi, strumenti.
 Si scrive come si parla: `se … allora`, `ripeti 3 volte`, `fine`.
 
-> **Stato.** Il linguaggio esiste ed è coperto da prove automatiche (una raccolta di programmi con il risultato
-> atteso e centinaia di migliaia di programmi casuali o rovinati, che non devono mai mandare in crisi il Polpo).
-> L'app «Script» sul Polpo, il riquadro nel simulatore del sito e il modulo di Polpo Studio arrivano con la
-> versione 0.2.0. Come tutto il firmware, **non è ancora stato provato su un Cardputer vero**.
+> **Stato.** Il linguaggio è coperto da prove automatiche: una raccolta di programmi con il risultato atteso e
+> centinaia di migliaia di programmi casuali o rovinati, che non devono mai mandare in crisi il Polpo.
+> L'app «Script» è nel firmware in sviluppo e si può già provare nel
+> [simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/) (menu › Script); sul dispositivo arriva
+> con la versione 0.2.0, insieme al modulo di Polpo Studio. Come tutto il firmware, **non è ancora stata provata
+> su un Cardputer vero**.
 
 ## Il primo programma
 
@@ -33,6 +35,12 @@ fine
 ```
 
 Il tasto **G0** ferma sempre il programma.
+
+## Dove si mettono i programmi
+
+Un programma è un file di testo con il nome che finisce in **`.polpo`**, nella cartella **`/polpo/script`** della
+microSD. Si scrive con un qualsiasi editor di testo (Blocco note, Gedit…) e si esegue dal menu **Script** del Polpo.
+Al primo avvio il Polpo ci mette quattro esempi: `pallina`, `indovina`, `dado` e `serpente`.
 
 ## Le regole in breve
 

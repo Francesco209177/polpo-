@@ -12,6 +12,10 @@
 #include "hal/usb_kbd.h"
 #include "link/link.h"
 
+// Più pila del solito (16 KB invece di 8) per il ciclo principale: il compilatore di PolpoScript analizza
+// espressioni e blocchi uno dentro l'altro. Il caso peggiore è calcolato da scripts/check_script.py.
+SET_LOOP_TASK_STACK_SIZE(16 * 1024);
+
 void setup() {
     usb_kbd::begin();  // l'interfaccia USB tastiera va registrata subito
 

@@ -1,0 +1,29 @@
+# Pallina: rimbalza sullo schermo.
+# Le frecce cambiano la velocità. Il tasto G0 ferma il programma.
+x = 120
+y = 60
+vx = 2
+vy = 1
+ripeti sempre
+  t = tasto()
+  se t == "destra" allora vx = vx + 1
+  se t == "sinistra" allora vx = vx - 1
+  se t == "su" allora vy = vy - 1
+  se t == "giu" allora vy = vy + 1
+  x = x + vx
+  y = y + vy
+  se x < 5 oppure x > LARGHEZZA_SCHERMO - 5 allora
+    vx = -vx
+    x = x + vx
+    suona(880, 20)
+  fine
+  se y < 5 oppure y > ALTEZZA_SCHERMO - 5 allora
+    vy = -vy
+    y = y + vy
+    suona(660, 20)
+  fine
+  pulisci()
+  cerchio(x, y, 5, ROSSO)
+  mostra()
+  aspetta(25)
+fine

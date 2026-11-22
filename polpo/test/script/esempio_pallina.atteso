@@ -1,0 +1,319 @@
+disegna: pulisci 0000
+disegna: cerchio 123 61 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 127 62 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 131 62 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 135 63 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 138 64 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 141 65 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 144 66 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 147 67 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 150 68 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 153 69 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 156 70 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 159 71 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 162 72 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 165 73 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 168 74 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 171 75 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 174 76 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 177 77 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 180 78 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 183 79 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 186 80 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 189 81 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 192 82 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 195 83 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 198 84 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 201 85 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 204 86 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 207 87 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 210 88 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 213 89 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 216 90 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 219 91 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 222 92 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 225 93 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 228 94 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 231 95 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 234 96 5 f800
+disegna: mostra
+aspetta: 25
+suona: 880 20
+disegna: pulisci 0000
+disegna: cerchio 234 97 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 231 98 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 228 99 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 225 100 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 222 101 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 219 102 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 216 103 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 213 104 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 210 105 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 207 106 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 204 107 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 201 108 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 198 109 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 195 110 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 192 111 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 189 112 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 186 113 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 183 114 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 180 115 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 177 116 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 174 117 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 171 118 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 168 119 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 165 120 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 162 121 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 159 122 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 156 123 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 153 124 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 150 125 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 147 126 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 144 127 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 141 128 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 138 129 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 135 130 5 f800
+disegna: mostra
+aspetta: 25
+suona: 660 20
+disegna: pulisci 0000
+disegna: cerchio 132 130 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 129 129 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 126 128 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 123 127 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 120 126 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 117 125 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 114 124 5 f800
+disegna: mostra
+aspetta: 25
+disegna: pulisci 0000
+disegna: cerchio 111 123 5 f800
+disegna: mostra
+aspetta: 25
+fermato dopo 6000 istruzioni

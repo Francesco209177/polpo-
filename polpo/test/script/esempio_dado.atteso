@@ -1,0 +1,153 @@
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 598 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 682 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 504 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: cerchio 90 67 6 0000
+disegna: cerchio 150 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 682 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: cerchio 90 67 6 0000
+disegna: cerchio 150 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 524 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 806 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 120 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 768 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: cerchio 90 67 6 0000
+disegna: cerchio 150 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 519 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 670 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 120 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 813 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 120 67 6 0000
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 830 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 864 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 90 37 6 0000
+disegna: cerchio 150 97 6 0000
+disegna: cerchio 150 37 6 0000
+disegna: cerchio 90 97 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 725 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 120 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 543 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 120 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 555 15
+aspetta: 60
+disegna: pulisci 10e5
+disegna: rettangolo 70 17 100 100 ffff
+disegna: cerchio 120 67 6 0000
+disegna: scritta 6 120 8410 x1 «OK lancia»
+disegna: mostra
+suona: 768 15
+aspetta: 60
+aspetta un tasto: nessuno in arrivo

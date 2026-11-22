@@ -15,7 +15,7 @@ schermo limite-raggiunto 973afca5
 evento {"tipo":"suono","hz":2400,"ms":12}
 evento {"tipo":"suono","hz":330,"ms":180}
 schermo limite-quasi-esaurito 8337b694
-stato 2771 byte
+stato 6557 byte
 --- riavvio
 carica ok
 mondo {"ok":true,"modulo":"rf433","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":false,"tipo_tag":"ntag213","luminosita":0}

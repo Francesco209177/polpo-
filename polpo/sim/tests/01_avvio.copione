@@ -40,6 +40,10 @@ schermo gpio
 tasto indietro
 tasto giu
 tasto ok
+schermo script
+tasto indietro
+tasto giu
+tasto ok
 schermo file
 tasto indietro
 tasto giu

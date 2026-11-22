@@ -197,6 +197,8 @@ class Vm {
     void start(uint32_t seed = 1);       // (ri)parte dall'inizio
     State run(uint32_t max_instructions);
     State state() const { return state_; }
+    // vero se l'ultimo run() si è fermato perché il programma ha chiamato mostra(): un fotogramma è pronto
+    bool yielded() const { return yield_; }
     const Error& error() const { return error_; }
     void stop();                          // interruzione dall'esterno (tasto G0): stato Done
     bool stopped() const { return stopped_; }

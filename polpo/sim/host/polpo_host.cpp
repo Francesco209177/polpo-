@@ -9,6 +9,7 @@
 //   tieni <nome> <ms>       tiene premuto
 //   scrivi <testo>          batte il testo un tasto alla volta
 //   mondo <json>            comando al mondo simulato (vedi sim/mondo.cpp); stampa la risposta
+//   script <json>           comando per i programmi PolpoScript (vedi sim_script in host/sim.h); stampa la risposta
 //   seriale <riga>          manda una riga sulla porta USB (Polpo Link) e stampa le risposte
 //   schermo <nome>          stampa l'impronta dello schermo e, se c'è la cartella, salva <nome>.ppm
 //   eventi                  stampa gli eventi accumulati (trasmissioni simulate, suoni...)
@@ -147,7 +148,9 @@ int main(int argc, char** argv) {
         }
         accendi();
         Posto p;
-        if (cmd == "avvia") {
+        if (cmd == "script") {
+            std::printf("script %s\n", sim_script(resto.c_str()));
+        } else if (cmd == "avvia") {
         } else if (cmd == "attendi") {
             sim_avanza(static_cast<uint32_t>(std::atoi(resto.c_str())));
         } else if (cmd == "tasto") {

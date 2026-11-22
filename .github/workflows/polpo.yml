@@ -33,9 +33,15 @@ jobs:
           if grep -rnE "Serial\.(print|println|printf|write)\b" polpo/src | grep -v "^polpo/src/link/"; then
             echo "Codice fuori da src/link scrive su Serial: disturberebbe Polpo Link"; exit 1
           fi
+      # Gli script non possono trasmettere né scrivere come una tastiera: il codice che li esegue non deve
+      # nemmeno includere i moduli che lo fanno.
+      - name: PolpoScript, cosa può toccare uno script
+        run: python3 polpo/scripts/check_script.py
       - name: Compilazione del firmware
         working-directory: polpo
         run: pio run -e cardputer
+      - name: PolpoScript, pila usata dal compilatore sul Cardputer (caso peggiore)
+        run: python3 polpo/scripts/check_script.py --pila
       # Il firmware vero eseguito sul PC (polpo/sim): prove dell'interfaccia con controlli di memoria.
       # Usa le stesse librerie appena scaricate per il dispositivo.
       - name: Simulatore, compilazione

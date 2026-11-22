@@ -45,6 +45,7 @@ function esegui(riga) {
   }
   if (cmd === "mondo") { console.log(`mondo ${polpo.mondoTesto(resto)}`); return; }
   accendi();
+  if (cmd === "script") { console.log(`script ${polpo.scriptTesto(resto)}`); return; }
   if (cmd === "avvia") return;
   if (cmd === "attendi") polpo.avanza(parseInt(resto, 10) || 0);
   else if (cmd === "tasto") {

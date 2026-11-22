@@ -176,6 +176,23 @@ Nota: il computer vede sempre una "tastiera" quando colleghi il Polpo. Su macOS 
 - **Scanner I2C.** Elenca i moduli I2C collegati alla porta Grove e ne suggerisce il nome.
 - **Monitor pin G1 / G2.** Mostra il livello dei due pin di segnale e quante volte cambia.
 
+### Script (mini-app) — dalla versione 0.2.0
+
+> Questa app è nel firmware in sviluppo: la puoi già provare nel [simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/).
+> Sul dispositivo arriva con la versione 0.2.0; il file da installare oggi (0.1.0) non la contiene ancora.
+
+Piccoli programmi scritti in **PolpoScript**, un linguaggio in italiano (`se … allora`, `ripeti 3 volte`, `fine`):
+giochi, dadi, cronometri. Il manuale del linguaggio è in [POLPOSCRIPT.md](POLPOSCRIPT.md).
+
+- **Script** mostra i file `.polpo` della cartella `/polpo/script` della microSD; **OK** li esegue.
+- Al primo avvio trovi quattro esempi: `pallina`, `indovina`, `dado`, `serpente`. Aprili con un editor di testo sul
+  computer per vedere come sono fatti e per scriverne di tuoi.
+- Il tasto laterale **G0** ferma sempre il programma. A programma finito, un tasto qualsiasi torna all'elenco.
+- Se il programma contiene un errore, lo schermo dice quale e a che riga.
+- Un programma può disegnare, leggere i tasti, suonare e salvare piccoli file in `/polpo/script/dati`.
+  **Non può** trasmettere via radio, infrarossi o NFC, né scrivere come una tastiera USB, né usare Bluetooth e
+  Wi-Fi: il linguaggio non ha funzioni per farlo.
+
 ### File, Diagnostica, Impostazioni, Info
 
 - **File.** Sfoglia `/polpo`, mostra i file di testo, elimina.

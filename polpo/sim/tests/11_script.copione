@@ -1,0 +1,123 @@
+# App «Script»: le mini-app in PolpoScript girano nel firmware vero; G0 le ferma sempre.
+attendi 500
+tasto ok
+ripeti 7 tasto giu
+schermo menu-con-script
+tasto ok
+attendi 200
+schermo elenco
+# --- il dado: disegna, aspetta OK, lancia otto volte con un suono per lancio
+tasto ok
+attendi 400
+schermo dado
+conta
+tasto ok
+attendi 1000
+conta
+schermo dado-lanciato
+tasto g0
+attendi 200
+schermo elenco
+# --- indovina il numero: scrive, poi chiede con la tastiera
+tasto giu
+tasto ok
+attendi 300
+schermo indovina-domanda
+scrivi 50
+tasto ok
+attendi 300
+schermo indovina-seconda-domanda
+# «indietro» chiude la domanda senza risposta: il programma lo dice e chiede di nuovo
+tasto indietro
+attendi 300
+schermo indovina-senza-risposta
+# G0 ferma il programma anche mentre sta chiedendo
+tasto g0
+attendi 300
+schermo elenco-su-indovina
+eventi
+# --- un programma scritto male: si vede l'errore con la riga, non parte niente
+script {"cmd":"scrivi","file":"/polpo/script/prove/sbagliato.polpo","testo":"scrivi(\"uno\")\ncerhio(10, 10, 5, ROSSO)\n"}
+script {"cmd":"controlla","file":"/polpo/script/prove/sbagliato.polpo"}
+script {"cmd":"apri","file":"/polpo/script/prove/sbagliato.polpo"}
+attendi 200
+schermo errore-di-scrittura
+eventi
+tasto ok
+attendi 200
+schermo elenco-su-indovina
+# --- un errore mentre gira: prima scrive, poi si ferma con la riga giusta
+script {"cmd":"scrivi","file":"/polpo/script/prove/rotto.polpo","testo":"scrivi(\"prima\")\nx = 10 / 0\nscrivi(\"mai\")\n"}
+script {"cmd":"apri","file":"/polpo/script/prove/rotto.polpo"}
+attendi 200
+schermo errore-in-esecuzione
+eventi
+tasto ok
+attendi 200
+# --- scrivi(): lo schermo fa da foglio; alla fine resta visibile finché non si preme un tasto
+script {"cmd":"scrivi","file":"/polpo/script/prove/foglio.polpo","testo":"per i da 1 a 12\n  scrivi(\"riga numero \" + i)\nfine\nscrivi(\"una riga molto lunga che non sta tutta nella larghezza dello schermo e va a capo\")\nsalva(\"prova.txt\", [1, 2])\nscrivi(carica(\"prova.txt\"), premuto(\"sinistra\"))\n"}
+script {"cmd":"apri","file":"/polpo/script/prove/foglio.polpo"}
+attendi 300
+schermo foglio-finito
+script {"cmd":"stato"}
+script {"cmd":"leggi","file":"/polpo/script/dati/prova.txt"}
+conta
+tasto a
+attendi 200
+schermo elenco-su-indovina
+script {"cmd":"stato"}
+# --- un ciclo senza fine e senza pause non blocca il Polpo: G0 lo ferma lo stesso
+script {"cmd":"scrivi","file":"/polpo/script/prove/sempre.polpo","testo":"n = 0\nripeti sempre\n  n = n + 1\nfine\n"}
+script {"cmd":"apri","file":"/polpo/script/prove/sempre.polpo"}
+attendi 2000
+script {"cmd":"stato"}
+tasto g0
+attendi 200
+schermo elenco-su-indovina
+eventi
+# --- tasti tenuti premuti e tasti in coda
+script {"cmd":"scrivi","file":"/polpo/script/prove/tasti.polpo","testo":"aspetta(200)\nscrivi(premuto(\"sinistra\"), premuto(\"destra\"))\naspetta(600)\nscrivi(tasto(), tasto(), tasto(), tasto())\n"}
+script {"cmd":"apri","file":"/polpo/script/prove/tasti.polpo"}
+tieni sinistra 400
+tasto x
+tasto su
+attendi 600
+eventi
+tasto ok
+attendi 200
+# --- passo passo: fermo sulla prima riga, poi una riga per volta con le variabili
+script {"cmd":"scrivi","file":"/polpo/script/prove/passi.polpo","testo":"funzione doppio(n)\n  locale r = n * 2\n  ritorna r\nfine\nx = 1\ny = doppio(x)\nscrivi(x + y)\n"}
+script {"cmd":"apri","file":"/polpo/script/prove/passi.polpo","passo":true}
+attendi 100
+script {"cmd":"stato"}
+script {"cmd":"passo","modo":"entra"}
+attendi 50
+script {"cmd":"passo","modo":"entra"}
+attendi 50
+script {"cmd":"passo","modo":"entra"}
+attendi 50
+script {"cmd":"passo","modo":"entra"}
+attendi 50
+script {"cmd":"stato"}
+script {"cmd":"soste","righe":[7]}
+script {"cmd":"riprendi"}
+attendi 50
+script {"cmd":"stato"}
+script {"cmd":"riprendi"}
+attendi 100
+script {"cmd":"stato"}
+eventi
+tasto ok
+attendi 200
+# --- uno per volta, e niente da aprire se il file non c'è
+script {"cmd":"apri","file":"/polpo/script/dado.polpo"}
+attendi 200
+script {"cmd":"apri","file":"/polpo/script/pallina.polpo"}
+tasto g0
+attendi 200
+script {"cmd":"apri","file":"/polpo/script/non_esiste.polpo"}
+attendi 200
+schermo file-che-non-esiste
+tasto ok
+attendi 200
+schermo elenco-su-indovina

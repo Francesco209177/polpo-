@@ -1030,6 +1030,18 @@ class Compiler {
         return n == 0 ? "qui non ce n'è nessuno" : n == 1 ? "qui ce n'è 1" : "qui ce ne sono " + number_text(n);
     }
 
+    // I messaggi d'errore si costruiscono in funzioni a parte: così call(), che si ripete a ogni livello di
+    // un'espressione, occupa poca pila (sul Cardputer è poca).
+    __attribute__((noinline)) void fail_call(uint16_t line, const std::string& name, int what, unsigned lo, unsigned hi, unsigned argc) {
+        switch (what) {
+            case 0: fail("manca la parentesi «)» dopo i valori di «" + name + "» (ho trovato " + token_description(cur_) + ")"); break;
+            case 1: fail_at(line, "la funzione «" + name + "» " + wants(lo, hi) + " tra le parentesi, " + given(argc)); break;
+            case 2: fail_at(line, "«" + name + "» " + wants(lo, hi) + " tra le parentesi, " + given(argc)); break;
+            case 3: fail("troppi valori tra le parentesi (al massimo " + number_text(kMaxArgs) + ")"); break;
+            default: fail_at(line, "non conosco la funzione «" + name + "»" + suggestion(name, true, false)); break;
+        }
+    }
+
     void call() {  // cur_ = nome, next_ = «(»
         const std::string name = cur_.text;
         const uint16_t line = cur_.line;
@@ -1041,19 +1053,24 @@ class Compiler {
                 expression();
                 if (failed_) return;
                 if (++argc > kMaxArgs) {
-                    fail("troppi valori tra le parentesi (al massimo " + number_text(kMaxArgs) + ")");
+                    fail_call(line, name, 3, 0, 0, argc);
                     return;
                 }
                 if (cur_.type != Tok::Comma) break;
                 advance();
             }
         }
-        if (!expect(Tok::RParen, "manca la parentesi «)» dopo i valori di «" + name + "»")) return;
+        if (failed_) return;
+        if (cur_.type != Tok::RParen) {
+            fail_call(line, name, 0, 0, 0, argc);
+            return;
+        }
+        advance();
         const int fn = find_function(name);
         if (fn >= 0) {
             const unsigned params = out_.functions[static_cast<size_t>(fn)].params;
             if (argc != params) {
-                fail_at(line, "la funzione «" + name + "» " + wants(params, params) + " tra le parentesi, " + given(argc));
+                fail_call(line, name, 1, params, params, argc);
                 return;
             }
             emit(Op::Call);
@@ -1066,7 +1083,7 @@ class Compiler {
             size_t count = 0;
             const NativeInfo& info = native_table(count)[native];
             if (argc < info.min_args || argc > info.max_args) {
-                fail_at(line, "«" + name + "» " + wants(info.min_args, info.max_args) + " tra le parentesi, " + given(argc));
+                fail_call(line, name, 2, info.min_args, info.max_args, argc);
                 return;
             }
             emit(Op::Native);
@@ -1074,7 +1091,7 @@ class Compiler {
             byte(static_cast<uint8_t>(argc));
             return;
         }
-        fail_at(line, "non conosco la funzione «" + name + "»" + suggestion(name, true, false));
+        fail_call(line, name, 4, 0, 0, argc);
     }
 
     const std::string& source_;

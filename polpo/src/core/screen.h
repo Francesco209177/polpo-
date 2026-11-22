@@ -20,6 +20,8 @@ public:
     virtual void draw() = 0;
     // Le schermate animate chiedono un ridisegno periodico (ms, 0 = solo quando cambia qualcosa).
     virtual uint32_t redraw_interval_ms() const { return 0; }
+    // true = la schermata disegna e mostra la tela da sé (gli script): nessuna pulizia né draw() automatici.
+    virtual bool owns_canvas() const { return false; }
 
     void invalidate() { dirty_ = true; }
     bool dirty() const { return dirty_; }

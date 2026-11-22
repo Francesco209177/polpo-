@@ -1,0 +1,459 @@
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 111 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 111 51 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 111 61 8 8 07e0
+disegna: rettangolo 111 51 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 111 61 8 8 07e0
+disegna: rettangolo 111 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 111 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: rettangolo 121 1 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: rettangolo 121 111 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: rettangolo 121 101 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: rettangolo 121 91 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: rettangolo 121 81 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: rettangolo 121 71 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: rettangolo 121 61 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: rettangolo 121 51 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: rettangolo 121 41 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+disegna: rettangolo 121 11 8 8 07e0
+disegna: rettangolo 121 21 8 8 07e0
+disegna: rettangolo 121 31 8 8 07e0
+disegna: scritta 2 122 8410 x1 «Punti 0   Record 0»
+disegna: mostra
+aspetta: 120
+disegna: pulisci 0000
+disegna: rettangolo 92 12 6 6 ffe0
+fermato dopo 12000 istruzioni
