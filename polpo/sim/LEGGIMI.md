@@ -42,6 +42,21 @@ python3 polpo/sim/tests/confronta.py build/sim/polpo_host polpo/sim/tests/01_avv
 Dopo una modifica voluta all'interfaccia si controllano le immagini e poi si rigenera il risultato atteso con
 `--aggiorna`.
 
+## Per il browser
+
+```bash
+polpo/sim/scripts/compila_web.sh build/web          # scarica librerie ed Emscripten (versione fissata), compila
+for c in polpo/sim/tests/*.copione; do              # le stesse prove, sul modulo WebAssembly
+  python3 polpo/sim/tests/confronta.py "node polpo/sim/tests/esegui_wasm.mjs build/web/polpo-sim.wasm" "$c"
+done
+python site/build.py --out site/_site --check --firmware-web build/web    # il sito con il simulatore vero
+```
+
+Il risultato è `polpo-sim.wasm`: un modulo WebAssembly "nudo" (circa 630 KB), senza codice JavaScript generato e
+senza funzioni di sistema importate, quindi non può toccare file, rete o orologio del computer che lo esegue.
+Espone solo le funzioni di `host/sim.h`. Due compilazioni dagli stessi sorgenti danno lo stesso file, byte per byte.
+Le prove per PC e quelle sul modulo usano lo stesso risultato atteso: schermate identiche punto per punto.
+
 ## Com'è fatto
 
 - `platform/`: finte intestazioni (`Arduino.h`, `M5Cardputer.h`, `SD.h`, `WiFi.h`, `Preferences.h`, `Wire.h`, `USB.h`,
@@ -52,3 +67,7 @@ Dopo una modifica voluta all'interfaccia si controllano le immagini e poi si rig
 - `hal/ble.cpp`: il Bluetooth simulato.
 - `host/sim.h`: le quindici funzioni con cui pagina web, prove e Polpo Studio comandano il simulatore.
 - `host/polpo_host.cpp`: esegue un copione sul PC.
+- `scripts/`: `compila_web.sh` (tutto il necessario per il browser), `emscripten.sh` (scarica il compilatore e ne
+  controlla l'impronta), `librerie.py` (scarica solo le tre librerie che servono), `incorpora.py` (file d'esempio).
+- `../../site/assets/js/simulatore/firmware.js`: carica il modulo in JavaScript; `tests/esegui_wasm.mjs` lo usa per
+  le prove, `site/assets/js/simulatore/pagina.js` per la pagina del sito.

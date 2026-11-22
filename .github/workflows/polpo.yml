@@ -45,6 +45,16 @@ jobs:
           cmake --build build/sim
       - name: Simulatore, prove dell'interfaccia
         run: ctest --test-dir build/sim --output-on-failure
+      # Lo stesso firmware compilato per il browser deve dare gli stessi identici risultati.
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Simulatore, compilazione per il browser (WebAssembly)
+        run: polpo/sim/scripts/compila_web.sh build/web "$RUNNER_TEMP/emscripten"
+      - name: Simulatore, le stesse prove sul modulo per il browser
+        run: |
+          for c in polpo/sim/tests/*.copione; do
+            python3 polpo/sim/tests/confronta.py "node polpo/sim/tests/esegui_wasm.mjs build/web/polpo-sim.wasm" "$c"
+          done
 
   studio-test:
     runs-on: ubuntu-24.04

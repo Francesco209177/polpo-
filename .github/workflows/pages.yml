@@ -8,6 +8,11 @@ on:
     paths:
       - "site/**"
       - "polpo/simulator/**"
+      - "polpo/src/**"
+      - "polpo/lib/**"
+      - "polpo/include/**"
+      - "polpo/sim/**"
+      - "polpo/platformio.ini"
       - "polpo/release/**"
       - "polpo/sd_template/**"
       - "polpo/docs/**"
@@ -47,7 +52,9 @@ jobs:
           cache: npm
           cache-dependency-path: site/package-lock.json
       - name: Dipendenze
-        run: pip install markdown==3.11.3
+        run: |
+          pip install markdown==3.11.3 platformio==6.2.0
+          sudo apt-get install -y ninja-build
       - name: Prove del modem di Polpo Onde
         working-directory: site
         run: npm test
@@ -59,7 +66,10 @@ jobs:
       - name: Costruisci e controlla il sito
         env:
           SITO: ${{ steps.pages.outputs.base_url || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
-        run: python site/build.py --out _site --check --repo "$GITHUB_REPOSITORY" --site-url "$SITO/"
+        run: |
+          # il firmware vero compilato per il browser: lo usa la pagina del simulatore
+          polpo/sim/scripts/compila_web.sh "$RUNNER_TEMP/firmware-web" "$RUNNER_TEMP/emscripten"
+          python site/build.py --out _site --check --repo "$GITHUB_REPOSITORY" --site-url "$SITO/" --firmware-web "$RUNNER_TEMP/firmware-web"
       - name: Browser per le prove
         working-directory: site
         run: npm ci && npx playwright install --with-deps chromium

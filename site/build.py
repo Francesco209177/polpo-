@@ -201,7 +201,9 @@ SITEBAR_CSS = """
 """
 
 
-def build_simulator(out: Path, ctx: dict[str, str]) -> str:
+def build_simulator(out: Path, ctx: dict[str, str], dove: str = "simulatore/") -> str:
+    """Il simulatore riscritto a mano (polpo/simulator). `dove` è la cartella del sito in cui metterlo."""
+    su = "../" * dove.count("/")
     src = (ROOT / "polpo/simulator/index.html").read_text(encoding="utf-8")
     kept, removed = [], 0
     for line in src.splitlines(keepends=True):
@@ -213,26 +215,46 @@ def build_simulator(out: Path, ctx: dict[str, str]) -> str:
         raise BuildError("simulatore: non trovo più i collegamenti ai caratteri esterni da togliere (è cambiato?)")
     text = "".join(kept)
     links = "".join(
-        '<a href="../{}/"{}>{}</a>'.format(key, ' aria-current="page"' if key == "simulatore" else "", label)
+        '<a href="{}{}/"{}>{}</a>'.format(su, key, ' aria-current="page"' if key == "simulatore" else "", label)
         for key, label in NAV
     )
     bar = (
         '<nav class="psb" aria-label="Sito del Polpo">'
-        '<a class="psb-home" href="../"><img src="../assets/img/polpo.svg" alt="">Polpo</a>'
+        f'<a class="psb-home" href="{su}"><img src="{su}assets/img/polpo.svg" alt="">Polpo</a>'
         f"{links}</nav>\n"
     )
     head = (
         '<meta name="description" content="Prova il firmware del Polpo nel browser: menu, telecomandi, radio, NFC. Tutto simulato, nessun acquisto.">\n'
         f'<link rel="canonical" href="{ctx["site_url"]}simulatore/">\n'
-        '<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">\n'
+        f'<link rel="icon" href="{su}assets/img/favicon.svg" type="image/svg+xml">\n'
         f'<meta property="og:title" content="Simulatore Polpo">\n<meta property="og:image" content="{ctx["site_url"]}assets/img/og.png">\n'
         f"<style>{SITEBAR_CSS}</style>\n"
     )
     if "</head>" not in text or "<body>" not in text:
         raise BuildError("simulatore: struttura della pagina inattesa")
     text = text.replace("</head>", head + "</head>", 1).replace("<body>", "<body>\n" + bar, 1)
-    write(out / "simulatore/index.html", text)
-    return "simulatore/"
+    write(out / dove / "index.html", text)
+    return dove
+
+
+def build_firmware_simulator(out: Path, ctx: dict[str, str], template: str, cartella: Path) -> list[str]:
+    """Il simulatore con il firmware vero: `cartella` contiene polpo-sim.wasm e licenze/ (da polpo/sim/scripts/compila_web.sh)."""
+    wasm = cartella / "polpo-sim.wasm"
+    licenze = cartella / "licenze"
+    if not wasm.is_file() or wasm.read_bytes()[:4] != b"\0asm":
+        raise BuildError(f"firmware per il browser non trovato o non valido: {wasm}")
+    if not (licenze / "LEGGIMI.txt").is_file():
+        raise BuildError(f"mancano le licenze delle librerie incluse nel firmware: {licenze}")
+    src = SITE / "simulatore/pagina.html"
+    meta, body = front_matter(src.read_text(encoding="utf-8"), src.name)
+    c = page_context(ctx, root="../", path="simulatore/", meta=meta)
+    c["content"] = render(body, c, src.name)
+    write(out / "simulatore/index.html", render(template, c, "base.html"))
+    shutil.copyfile(wasm, out / "simulatore/polpo-sim.wasm")
+    shutil.copytree(licenze, out / "simulatore/licenze")
+    # il simulatore precedente resta raggiungibile, per confronto
+    build_simulator(out, ctx, "simulatore/classico/")
+    return ["simulatore/"]
 
 
 # ---------------- firmware e microSD ----------------
@@ -397,8 +419,14 @@ def check(out: Path, site_url: str) -> list[str]:
         if re.search(r"url\(\s*['\"]?(https?:)?//|@import", css.read_text(encoding="utf-8")):
             problems.append(f"{css.relative_to(out)}: carica risorse esterne")
     # Il codice scritto per il sito non deve poter parlare con nessun server: né indirizzi né funzioni di rete.
+    # Unica eccezione, in un solo file: la pagina del simulatore scarica il file del firmware da questo stesso sito.
     for js in (out / "assets").rglob("*.js"):
-        m = re.search(r"https?://|\b(fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|RTCPeerConnection|importScripts)\b", js.read_text(encoding="utf-8"))
+        testo = js.read_text(encoding="utf-8")
+        if js.relative_to(out).as_posix() == "assets/js/simulatore/pagina.js":
+            if testo.count("fetch(") != 1 or 'fetch(new URL("polpo-sim.wasm", document.baseURI))' not in testo:
+                problems.append("assets/js/simulatore/pagina.js: deve contenere una sola richiesta, quella del file polpo-sim.wasm")
+            testo = testo.replace('fetch(new URL("polpo-sim.wasm", document.baseURI))', "")
+        m = re.search(r"https?://|\b(fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|RTCPeerConnection|importScripts)\b", testo)
         if m:
             problems.append(f"{js.relative_to(out)}: contiene «{m.group(0)}» (il codice del sito non deve fare richieste di rete)")
     entry = out / EWT_ENTRY
@@ -421,6 +449,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--repo", default=DEFAULT_REPO, help="utente/repository su GitHub")
     ap.add_argument("--site-url", default=DEFAULT_SITE_URL, help="indirizzo pubblico del sito")
     ap.add_argument("--check", action="store_true", help="controlla link e risorse; esce con errore se trova problemi")
+    ap.add_argument("--firmware-web", metavar="CARTELLA", help="cartella con polpo-sim.wasm e licenze/ (da polpo/sim/scripts/compila_web.sh): "
+                    "il simulatore del sito usa il firmware vero; senza, resta quello riscritto a mano")
     args = ap.parse_args(argv)
     out = Path(args.out).resolve()
     site_url = args.site_url.rstrip("/") + "/"
@@ -436,7 +466,10 @@ def main(argv: list[str] | None = None) -> int:
         shutil.copytree(SITE / "assets", out / "assets")
         shutil.copytree(SITE / "vendor", out / "vendor", ignore=shutil.ignore_patterns("*.md"))
         urls = build_pages(out, ctx, template)
-        urls.append(build_simulator(out, ctx))
+        if args.firmware_web:
+            urls += build_firmware_simulator(out, ctx, template, Path(args.firmware_web).resolve())
+        else:
+            urls.append(build_simulator(out, ctx))
         build_install_files(out, ctx)
         urls += build_docs(out, ctx, template)
         write(out / "sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{site_url}{u}</loc></url>\n" for u in sorted(set(urls))) + "</urlset>\n")

@@ -376,3 +376,52 @@ html.fermo .reveal { opacity: 1; transform: none; }
 @media (max-width: 600px) { .onde-scala { font-size: .6rem; } }
 .onde-invito h2 { color: var(--accent); font-size: clamp(1.25rem, 2.6vw, 1.6rem); }
 .onde-invito p { max-width: 70ch; }
+
+/* ---------- Simulatore (firmware vero) ---------- */
+.sim-piano { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 36px); align-items: start; }
+@media (max-width: 980px) { .sim-piano { grid-template-columns: 1fr; } }
+.sim-dispositivo { position: sticky; top: 84px; }
+@media (max-width: 980px) { .sim-dispositivo { position: static; } }
+.sim-cornice { background: linear-gradient(180deg, #d6dbe2, #c2c8d1); border-radius: 18px; padding: 12px; box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, .7); color: #2a323d; }
+.sim-testata { display: flex; align-items: center; gap: 8px; font: 700 .68rem var(--mono); letter-spacing: .08em; padding: 0 4px 8px; }
+.sim-testata span:first-child { margin-right: auto; }
+.sim-led { display: inline-flex; align-items: center; gap: 4px; opacity: .65; }
+.sim-led::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #7d8794; }
+.sim-led.acceso { opacity: 1; }
+.sim-led.acceso::before { background: #ff5a36; box-shadow: 0 0 6px #ff5a36; }
+#schermo { display: block; width: 100%; height: auto; aspect-ratio: 240 / 135; image-rendering: pixelated; background: #0a0e16; border-radius: 8px; border: 4px solid #10151c; outline-offset: 3px; }
+.sim-tastiera { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; margin-top: 10px; }
+.sim-tastiera button { font: 600 clamp(.5rem, 1.5vw, .74rem) var(--mono); color: #1d242d; background: #f3f5f8; border: 0; border-bottom: 3px solid #a9b1bc; border-radius: 5px; padding: 0; min-height: clamp(24px, 4.6vw, 38px); cursor: pointer; display: grid; place-items: center; line-height: 1; touch-action: manipulation; user-select: none; -webkit-user-select: none; }
+.sim-tastiera button small { display: block; font-size: .78em; color: #b5370f; font-weight: 700; }
+.sim-tastiera button.speciale { background: #dfe3e9; }
+.sim-tastiera button.giu, .sim-g0.giu { transform: translateY(2px); border-bottom-width: 1px; background: #ffd9cc; }
+.sim-tastiera button[aria-pressed="true"] { background: #ffc9b8; }
+/* sul telefono la cornice arriva quasi ai bordi: i tasti restano abbastanza distanti da toccarli uno alla volta */
+@media (max-width: 520px) {
+  .sim-cornice { margin-inline: -14px; padding: 8px; border-radius: 14px; }
+  .sim-tastiera { gap: 3px; }
+  .sim-tastiera button { min-height: 36px; }
+}
+.sim-sotto { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+.sim-sotto .small { color: #3b4552; }
+.sim-sotto kbd { background: #f3f5f8; color: #1d242d; border-color: #a9b1bc; }
+.sim-g0 { font: 700 .8rem var(--mono); background: #2a323d; color: #fff; border: 0; border-bottom: 3px solid #10151c; border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+.sim-vero { display: flex; gap: 8px; flex-wrap: wrap; }
+#sim-stato { margin: 12px 0 6px; font-weight: 600; }
+.sim-pannelli { display: grid; gap: 14px; }
+.sim-pannello { display: grid; gap: 8px; padding: 16px 18px; }
+.sim-pannello > * { margin: 0; }
+.sim-pannello h2 { font-size: 1.05rem; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.sim-pannello label { font-weight: 600; font-size: .95rem; }
+.sim-pannello select, .sim-pannello textarea { width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 9px; padding: 7px 10px; }
+.sim-pannello textarea { font-family: var(--mono); font-size: .9rem; resize: vertical; }
+.sim-pannello input[type="range"] { width: 100%; accent-color: var(--btn-bg); }
+.sim-spunta { display: flex; align-items: center; gap: 8px; font-weight: 500 !important; }
+.sim-spunta input { width: 18px; height: 18px; accent-color: var(--btn-bg); }
+.sim-tasti { display: flex; flex-wrap: wrap; gap: 8px; }
+.sim-tasti .btn { padding: 8px 14px; font-size: .92rem; }
+.sim-oggetto { font-weight: 700; padding: 8px 12px; border-radius: 9px; background: var(--surface-2); border: 1px solid var(--line); transition: background-color .2s ease, color .2s ease; }
+.sim-oggetto.acceso { background: color-mix(in srgb, var(--ok) 18%, var(--surface)); color: var(--ok); border-color: var(--ok); }
+.sim-registro { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; max-height: 15em; overflow-y: auto; font-size: .9rem; }
+.sim-registro li { padding: 6px 10px; border-left: 3px solid var(--sim); background: var(--surface-2); border-radius: 0 8px 8px 0; }
+.sim-registro li.errore { border-left-color: var(--warn); }

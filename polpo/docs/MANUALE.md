@@ -21,12 +21,17 @@ Il firmware (il programma del dispositivo) è scritto da zero, con interfaccia i
 
 Ogni modulo M5Stack ha già il suo cavetto Grove a 4 fili.
 
-Prima di comprare puoi provare tutti i menu nel **simulatore**: `polpo/simulator/index.html`.
+Prima di comprare puoi provare il Polpo nel **simulatore** del sito: <https://francesco209177.github.io/polpo-/simulatore/>.
 
-Nel simulatore:
+Nel simulatore gira **lo stesso firmware** che installi sul Cardputer: menu, schermate e file sono quelli veri.
+Finti sono solo gli oggetti attorno, perché un browser non ha antenne né infrarossi:
 
-- il pannello **Porta Grove e oggetti** serve a collegare i moduli virtuali, appoggiare carte NFC e premere telecomandi a 433 MHz e a infrarossi;
+- nei pannelli accanto allo schermo colleghi i moduli virtuali alla porta Grove, appoggi un tag NFC, premi un telecomando a infrarossi o a 433 MHz e guardi un televisore, una presa e un PC finti reagire;
+- nessun segnale esce dal computer: ogni trasmissione è scritta nel registro come *simulata*;
 - file, livello e impostazioni restano salvati nel browser.
+
+Il simulatore non può dirti se sul dispositivo vero funzionano driver, tempi e memoria: quello si scopre solo
+con un Cardputer in mano. La versione precedente, riscritta a mano, è ancora in `polpo/simulator/index.html`.
 
 ---
 
@@ -234,7 +239,8 @@ Struttura:
 | `src/core` | interfaccia |
 | `src/apps` | app |
 | `sd_template` | file di esempio della microSD |
-| `simulator` | simulatore nel browser |
+| `sim` | il firmware vero eseguito su PC e nel browser, con le prove dell'interfaccia |
+| `simulator` | simulatore precedente, riscritto a mano |
 
 **Licenze.**
 

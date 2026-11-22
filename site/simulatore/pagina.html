@@ -1,0 +1,137 @@
+<!--
+title: Simulatore del Polpo: il firmware vero nel browser
+description: Prova il Polpo senza comprare nulla. Nel browser gira il firmware vero del Cardputer: menu, schermate e logica sono quelli reali, simulati sono solo i componenti fisici.
+nav: simulatore
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Simulatore · firmware {{fw_version}}</p>
+    <h1>Il Polpo, nel browser</h1>
+    <p class="lead">Qui gira il <strong>firmware vero</strong> del Cardputer, compilato per il browser: menu, schermate e logica sono gli stessi del dispositivo. Simulati sono solo i componenti fisici e il mondo intorno.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container sim-piano">
+    <div class="sim-dispositivo">
+      <div class="sim-cornice">
+        <div class="sim-testata">
+          <span>POLPO · CARDPUTER</span>
+          <span class="sim-led" id="led-ir">IR</span><span class="sim-led" id="led-rf">433</span><span class="sim-led" id="led-usb">USB</span>
+        </div>
+        <canvas id="schermo" width="240" height="135" tabindex="0" role="img" aria-label="Lo schermo del Polpo simulato. È un'immagine: il suo contenuto non è disponibile come testo."></canvas>
+        <div class="sim-tastiera" id="tastiera" role="group" aria-label="Tastiera del Cardputer"></div>
+        <div class="sim-sotto">
+          <button type="button" class="sim-g0" id="g0" title="Il tasto laterale G0: torna indietro">G0</button>
+          <span class="small">Frecce = <kbd>;</kbd> <kbd>.</kbd> <kbd>,</kbd> <kbd>/</kbd> · Indietro = <kbd>`</kbd></span>
+        </div>
+      </div>
+      <p id="sim-stato" role="status">Carico il firmware…</p>
+      <p class="small">Dalla tastiera del computer: frecce, <kbd>Invio</kbd>, <kbd>Esc</kbd> per tornare indietro, e tutti i tasti con lettere e numeri. Clicca prima sullo schermo.</p>
+      <p class="sim-vero"><span class="badge ok">Firmware reale</span> <span class="badge sim">Periferiche simulate</span></p>
+    </div>
+
+    <div class="sim-pannelli">
+      <div class="card sim-pannello">
+        <h2>Porta Grove</h2>
+        <label for="grove">Modulo collegato</label>
+        <select id="grove">
+          <option value="nessuno">Nessun modulo</option>
+          <option value="rfid2">Unit RFID2 (NFC)</option>
+          <option value="rf433">Unit RF433R + RF433T (radio)</option>
+          <option value="ir">IR Unit (ricevitore infrarossi)</option>
+        </select>
+        <p class="small">Come sul Polpo vero, la porta è una sola: un modulo alla volta.</p>
+      </div>
+
+      <div class="card sim-pannello">
+        <h2>Tag NFC <span class="badge sim">Simulato</span></h2>
+        <label for="tag-tipo">Tipo</label>
+        <select id="tag-tipo">
+          <option value="ntag213">NTAG213 (adesivo comune)</option>
+          <option value="ntag215">NTAG215</option>
+          <option value="ultralight">MIFARE Ultralight</option>
+          <option value="classic">MIFARE Classic (non leggibile)</option>
+        </select>
+        <label class="sim-spunta"><input type="checkbox" id="tag-vicino"> Appoggiato sul lettore</label>
+      </div>
+
+      <div class="card sim-pannello">
+        <h2>Televisore e telecomando <span class="badge sim">Simulato</span></h2>
+        <p id="tv" class="sim-oggetto">TV spenta</p>
+        <p class="small">Il televisore reagisce agli infrarossi che il Polpo trasmette. Il telecomando qui sotto serve a insegnare i tasti al Polpo (con la IR Unit collegata).</p>
+        <div class="sim-tasti">
+          <button type="button" class="btn btn-ghost" data-ir="8">Accendi</button>
+          <button type="button" class="btn btn-ghost" data-ir="2">Vol +</button>
+          <button type="button" class="btn btn-ghost" data-ir="3">Vol −</button>
+          <button type="button" class="btn btn-ghost" data-ir="9">Muto</button>
+        </div>
+      </div>
+
+      <div class="card sim-pannello">
+        <h2>Presa telecomandata a 433 MHz <span class="badge sim">Simulato</span></h2>
+        <p id="presa" class="sim-oggetto">Presa spenta</p>
+        <p class="small">Il suo telecomando, per far ricevere i codici al Polpo (con i moduli RF433 collegati):</p>
+        <div class="sim-tasti">
+          <button type="button" class="btn btn-ghost" data-rf="5393">Accendi</button>
+          <button type="button" class="btn btn-ghost" data-rf="5396">Spegni</button>
+        </div>
+      </div>
+
+      <div class="card sim-pannello">
+        <h2>Computer collegato via USB <span class="badge sim">Simulato</span></h2>
+        <label class="sim-spunta"><input type="checkbox" id="pc-collegato" checked> Cavo USB collegato</label>
+        <label for="pc-layout">Tastiera impostata sul computer</label>
+        <select id="pc-layout"><option value="it">Italiana</option><option value="us">Americana</option></select>
+        <label for="pc-testo">Cosa «scrive» il Polpo</label>
+        <textarea id="pc-testo" rows="3" readonly aria-live="polite" placeholder="Qui compare ciò che il Polpo batte come tastiera USB."></textarea>
+        <button type="button" class="btn btn-ghost" id="pc-pulisci">Svuota</button>
+      </div>
+
+      <div class="card sim-pannello">
+        <h2>Dispositivo</h2>
+        <label class="sim-spunta"><input type="checkbox" id="sd" checked> microSD inserita</label>
+        <label for="batteria">Batteria: <span id="batteria-val">82%</span></label>
+        <input type="range" id="batteria" min="0" max="100" value="82">
+        <label class="sim-spunta"><input type="checkbox" id="suoni" checked> Suoni</label>
+        <div class="sim-tasti">
+          <button type="button" class="btn btn-ghost" id="riavvia">Spegni e riaccendi</button>
+          <button type="button" class="btn btn-ghost" id="azzera">Cancella microSD e impostazioni</button>
+        </div>
+        <p class="small">microSD e impostazioni del Polpo simulato restano salvate in questo browser, e solo qui.</p>
+      </div>
+
+      <div class="card sim-pannello">
+        <h2>Cosa succede intorno</h2>
+        <ol id="registro" class="sim-registro" aria-live="polite"></ol>
+        <p class="small">Tutte le trasmissioni sono simulate: nessuna onda viene emessa dal tuo computer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="vero-e-finto">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Per chiarezza</p>
+      <h2>Cosa è vero e cosa è simulato</h2>
+      <p class="lead">Il simulatore dimostra che menu, logica e formati dei file funzionano. Non dimostra che il firmware funzioni su un Cardputer vero, dove contano anche driver, tempi e memoria.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Parte</th><th>Qui</th></tr></thead>
+        <tbody>
+          <tr><td>Menu, schermate, app, formati dei file, collegamento con il PC</td><td><span class="badge ok">Vero</span> lo stesso codice del dispositivo</td></tr>
+          <tr><td>Disegno dello schermo e caratteri</td><td><span class="badge ok">Vero</span> lo stesso motore grafico, punto per punto</td></tr>
+          <tr><td>Moduli infrarossi, radio 433 MHz, NFC, tastiera USB</td><td><span class="badge ok">Vero</span> il codice; <span class="badge sim">Simulato</span> ciò che sta sotto (piedini, bus, chip del lettore)</td></tr>
+          <tr><td>Bluetooth e Wi-Fi</td><td><span class="badge sim">Simulato</span> dispositivi e reti sono inventati</td></tr>
+          <tr><td>Televisore, presa, tag, computer</td><td><span class="badge sim">Simulato</span> oggetti inventati che reagiscono a ciò che il Polpo trasmette</td></tr>
+          <tr><td>Tempi reali, consumo di memoria, driver dell'hardware</td><td><span class="badge off">Non provato</span> qui non si possono verificare</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Le stesse prove automatiche girano sul firmware compilato per PC e su quello di questa pagina, e devono dare schermate identiche. I dettagli sono in <a href="{{blob_url}}/polpo/sim/LEGGIMI.md"><code>polpo/sim</code></a>; le librerie incluse nel file del firmware e le loro licenze sono <a href="licenze/LEGGIMI.txt">elencate qui</a>.</p>
+    <p class="small">C'è ancora il <a href="classico/">simulatore precedente</a>, riscritto a mano in JavaScript: resta per confronto e verrà tolto.</p>
+  </div>
+</section>
+<script type="module" src="../assets/js/simulatore/pagina.js"></script>
