@@ -1,0 +1,743 @@
+{
+ "analyse": [
+  {
+   "r": {
+    "ok": "Servono 16 cifre esadecimali (8 byte), famiglia per prima."
+   },
+   "t": ""
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 00E6D5C4B3A2\nCRC8: errato (atteso CA)"
+   },
+   "t": "01 A2 B3 C4 D5 E6 00 7F"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 070605040302\nCRC8: errato (atteso 0F)"
+   },
+   "t": "0102030405060708"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 4E3D2C1B4AFF\nCRC8: errato (atteso 62)"
+   },
+   "t": "28-FF-4A-1B-2C-3D-4E-5F"
+  },
+  {
+   "r": {
+    "ok": "Servono 16 cifre esadecimali (8 byte), famiglia per prima."
+   },
+   "t": "zz"
+  },
+  {
+   "r": {
+    "errore": {
+     "msg": "index out of range",
+     "tipo": "IndexError"
+    }
+   },
+   "t": "010203040506\n\n07"
+  },
+  {
+   "r": {
+    "ok": "Servono 16 cifre esadecimali (8 byte), famiglia per prima."
+   },
+   "t": "00            00"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: E62595828A7E\nCRC8: valido"
+   },
+   "t": "01 7e 8a 82 95 25 e6 09"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: A172863CC9CB\nCRC8: valido"
+   },
+   "t": "99 cb c9 3c 86 72 a1 29"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 05548C524CB8\nCRC8: errato (atteso 05)"
+   },
+   "t": "28 b8 4c 52 8c 54 05 3e"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: C3688C2A0EAC\nCRC8: valido"
+   },
+   "t": "99 ac 0e 2a 8c 68 c3 95"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: F9305CBA3930\nCRC8: valido"
+   },
+   "t": "28 30 39 ba 5c 30 f9 0b"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 8290F86FE78A\nCRC8: valido"
+   },
+   "t": "01 8a e7 6f f8 90 82 c2"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: D2520E3C8F8E\nCRC8: valido"
+   },
+   "t": "01 8e 8f 3c 0e 52 d2 c3"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: E9C556F5D92F\nCRC8: valido"
+   },
+   "t": "99 2f d9 f5 56 c5 e9 fb"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: C9F28330D5DF\nCRC8: valido"
+   },
+   "t": "28 df d5 30 83 f2 c9 e2"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: E188FA4922FA\nCRC8: valido"
+   },
+   "t": "99 fa 22 49 fa 88 e1 1c"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: F1BCB10AD8CF\nCRC8: valido"
+   },
+   "t": "99 cf d8 0a b1 bc f1 12"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: C63083F01560\nCRC8: valido"
+   },
+   "t": "28 60 15 f0 83 30 c6 be"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 80B790000C9F\nCRC8: valido"
+   },
+   "t": "01 9f 0c 00 90 b7 80 41"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 5D8780750065\nCRC8: valido"
+   },
+   "t": "01 65 00 75 80 87 5d 39"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: 655110BC95A9\nCRC8: valido"
+   },
+   "t": "99 a9 95 bc 10 51 65 2f"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 7E10F9A0C67D\nCRC8: errato (atteso D3)"
+   },
+   "t": "28 7d c6 a0 f9 10 7e db"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 664234862DAD\nCRC8: valido"
+   },
+   "t": "28 ad 2d 86 34 42 66 3e"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: C240E5F9846C\nCRC8: valido"
+   },
+   "t": "01 6c 84 f9 e5 40 c2 aa"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: E341D6D9BC83\nCRC8: valido"
+   },
+   "t": "01 83 bc d9 d6 41 e3 ee"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 17B471084B58\nCRC8: valido"
+   },
+   "t": "01 58 4b 08 71 b4 17 54"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 1FBB27A5F088\nCRC8: errato (atteso C8)"
+   },
+   "t": "28 88 f0 a5 27 bb 1f 31"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 0022571A3ADA\nCRC8: errato (atteso 7D)"
+   },
+   "t": "01 da 3a 1a 57 22 00 9c"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: EFE6024CC245\nCRC8: errato (atteso C8)"
+   },
+   "t": "01 45 c2 4c 02 e6 ef fd"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: 907F8A29970A\nCRC8: errato (atteso DD)"
+   },
+   "t": "99 0a 97 29 8a 7f 90 00"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: CB3F39B70378\nCRC8: valido"
+   },
+   "t": "99 78 03 b7 39 3f cb 4f"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 9046810EAAB1\nCRC8: errato (atteso 5C)"
+   },
+   "t": "28 b1 aa 0e 81 46 90 9f"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: C4AEE0230DE2\nCRC8: errato (atteso 30)"
+   },
+   "t": "01 e2 0d 23 e0 ae c4 d8"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 7DF3C00F66D6\nCRC8: valido"
+   },
+   "t": "28 d6 66 0f c0 f3 7d e5"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: 26826378713D\nCRC8: valido"
+   },
+   "t": "99 3d 71 78 63 82 26 12"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: D990610E19E8\nCRC8: valido"
+   },
+   "t": "01 e8 19 0e 61 90 d9 29"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: 67EBBE5E2622\nCRC8: valido"
+   },
+   "t": "99 22 26 5e be eb 67 29"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: FEAAB26FF2BA\nCRC8: valido"
+   },
+   "t": "99 ba f2 6f b2 aa fe d6"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: F38C44EB5919\nCRC8: errato (atteso 33)"
+   },
+   "t": "28 19 59 eb 44 8c f3 18"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 97BAF89D0F1C\nCRC8: valido"
+   },
+   "t": "01 1c 0f 9d f8 ba 97 d7"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x99: famiglia sconosciuta\nNumero di serie: 43226B0C4359\nCRC8: errato (atteso 3D)"
+   },
+   "t": "99 59 43 0c 6b 22 43 74"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 7EB35AB3F3CE\nCRC8: errato (atteso C2)"
+   },
+   "t": "28 ce f3 b3 5a b3 7e b4"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x28: DS18B20 (sensore di temperatura)\nNumero di serie: 8B9C140738DD\nCRC8: valido"
+   },
+   "t": "28 dd 38 07 14 9c 8b 5a"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: E290C6733A66\nCRC8: valido"
+   },
+   "t": "01 66 3a 73 c6 90 e2 41"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: C0691E7B27E0\nCRC8: valido"
+   },
+   "t": "01 e0 27 7b 1e 69 c0 1d"
+  },
+  {
+   "r": {
+    "ok": "Famiglia 0x01: DS1990A / DS2401 (solo numero di serie)\nNumero di serie: 2E293CF4BA43\nCRC8: errato (atteso B6)"
+   },
+   "t": "01 43 ba f4 3c 29 2e 76"
+  }
+ ],
+ "presence": [
+  {
+   "cmd": "ow.reset",
+   "d": {},
+   "msg": [
+    [
+     "Nessun dispositivo sul bus.",
+     false
+    ]
+   ]
+  },
+  {
+   "cmd": "ow.reset",
+   "d": {
+    "presence": true
+   },
+   "msg": [
+    [
+     "Presenza rilevata sul bus.",
+     false
+    ]
+   ]
+  },
+  {
+   "cmd": "ow.reset",
+   "d": {
+    "presence": false
+   },
+   "msg": [
+    [
+     "Nessun dispositivo sul bus.",
+     false
+    ]
+   ]
+  },
+  {
+   "cmd": "ow.reset",
+   "d": {
+    "presence": 1
+   },
+   "msg": [
+    [
+     "Presenza rilevata sul bus.",
+     false
+    ]
+   ]
+  },
+  {
+   "cmd": "ow.reset",
+   "d": {
+    "presence": ""
+   },
+   "msg": [
+    [
+     "Nessun dispositivo sul bus.",
+     false
+    ]
+   ]
+  }
+ ],
+ "save": [
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"01 A2 B3 C4 D5 E6 00 7F\",\n  \"famiglia\": 1,\n  \"crc_ok\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "01 A2 B3 C4 D5 E6 00 7F"
+     },
+     "nome": "ibutton-00E6D5C4B3A2.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "01 A2 B3 C4 D5 E6 00 7F"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"01 02 03 04 05 06 07 08\",\n  \"famiglia\": 1,\n  \"crc_ok\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "01 02 03 04 05 06 07 08"
+     },
+     "nome": "ibutton-070605040302.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "0102030405060708"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"28 FF 4A 1B 2C 3D 4E 5F\",\n  \"famiglia\": 40,\n  \"crc_ok\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "28 FF 4A 1B 2C 3D 4E 5F"
+     },
+     "nome": "ibutton-4E3D2C1B4AFF.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "28-FF-4A-1B-2C-3D-4E-5F"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"01 7E 8A 82 95 25 E6 09\",\n  \"famiglia\": 1,\n  \"crc_ok\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "01 7E 8A 82 95 25 E6 09"
+     },
+     "nome": "ibutton-E62595828A7E.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "01 7e 8a 82 95 25 e6 09"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"99 CB C9 3C 86 72 A1 29\",\n  \"famiglia\": 153,\n  \"crc_ok\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "99 CB C9 3C 86 72 A1 29"
+     },
+     "nome": "ibutton-A172863CC9CB.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "99 cb c9 3c 86 72 a1 29"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"28 B8 4C 52 8C 54 05 3E\",\n  \"famiglia\": 40,\n  \"crc_ok\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "28 B8 4C 52 8C 54 05 3E"
+     },
+     "nome": "ibutton-05548C524CB8.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "28 b8 4c 52 8c 54 05 3e"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"99 AC 0E 2A 8C 68 C3 95\",\n  \"famiglia\": 153,\n  \"crc_ok\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "99 AC 0E 2A 8C 68 C3 95"
+     },
+     "nome": "ibutton-C3688C2A0EAC.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "99 ac 0e 2a 8c 68 c3 95"
+  },
+  {
+   "messi": [
+    {
+     "categoria": "ibutton",
+     "dati": "{\n  \"rom\": \"28 30 39 BA 5C 30 F9 0B\",\n  \"famiglia\": 40,\n  \"crc_ok\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "rom": "28 30 39 BA 5C 30 F9 0B"
+     },
+     "nome": "ibutton-F9305CBA3930.json"
+    }
+   ],
+   "r": {
+    "ok": true
+   },
+   "t": "28 30 39 ba 5c 30 f9 0b"
+  },
+  {
+   "msg": [
+    [
+     "Seleziona una chiave.",
+     true
+    ]
+   ],
+   "r": {
+    "ok": false
+   },
+   "t": null
+  }
+ ],
+ "search": [
+  {
+   "att": [],
+   "cmd": "ow.search",
+   "d": {},
+   "msg": [
+    [
+     "Nessuna chiave: appoggiala al lettore e riprova.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "righe": []
+  },
+  {
+   "att": [],
+   "cmd": "ow.search",
+   "d": {
+    "roms": []
+   },
+   "msg": [
+    [
+     "Nessuna chiave: appoggiala al lettore e riprova.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "righe": []
+  },
+  {
+   "att": [
+    [
+     "ibutton",
+     "Letta una chiave iButton",
+     "ok"
+    ]
+   ],
+   "cmd": "ow.search",
+   "d": {
+    "roms": [
+     {
+      "rom": "01 A2 B3 C4 D5 E6 00 7F"
+     },
+     {
+      "rom": "zz"
+     },
+     {},
+     {
+      "rom": "28FF4A1B2C3D4E5F"
+     }
+    ]
+   },
+   "msg": [
+    [
+     "2 dispositivi 1-Wire trovati.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "righe": [
+    [
+     "01 A2 B3 C4 D5 E6 00 7F",
+     "0x01 · DS1990A / DS2401 (solo numero di serie)",
+     "00E6D5C4B3A2",
+     "ERRATO"
+    ],
+    [
+     "28 FF 4A 1B 2C 3D 4E 5F",
+     "0x28 · DS18B20 (sensore di temperatura)",
+     "4E3D2C1B4AFF",
+     "ERRATO"
+    ]
+   ]
+  },
+  {
+   "att": [],
+   "cmd": "ow.search",
+   "d": {
+    "roms": [
+     {
+      "rom": null
+     }
+    ]
+   },
+   "msg": [],
+   "r": {
+    "errore": {
+     "msg": "'NoneType' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "righe": []
+  },
+  {
+   "att": [],
+   "cmd": "ow.search",
+   "d": {
+    "roms": [
+     "01"
+    ]
+   },
+   "msg": [],
+   "r": {
+    "errore": {
+     "msg": "'str' object has no attribute 'get'",
+     "tipo": "AttributeError"
+    }
+   },
+   "righe": []
+  },
+  {
+   "att": [],
+   "cmd": "ow.search",
+   "d": {
+    "roms": [
+     {
+      "rom": 5
+     }
+    ]
+   },
+   "msg": [],
+   "r": {
+    "errore": {
+     "msg": "'int' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "righe": []
+  },
+  {
+   "att": [
+    [
+     "ibutton",
+     "Letta una chiave iButton",
+     "ok"
+    ]
+   ],
+   "cmd": "ow.search",
+   "d": {
+    "roms": [
+     {
+      "rom": "01 7e 8a 82 95 25 e6 09"
+     },
+     {
+      "rom": "99 cb c9 3c 86 72 a1 29"
+     },
+     {
+      "rom": "28 b8 4c 52 8c 54 05 3e"
+     },
+     {
+      "rom": "99 ac 0e 2a 8c 68 c3 95"
+     },
+     {
+      "rom": "28 30 39 ba 5c 30 f9 0b"
+     },
+     {
+      "rom": "01 8a e7 6f f8 90 82 c2"
+     },
+     {
+      "rom": "01 8e 8f 3c 0e 52 d2 c3"
+     },
+     {
+      "rom": "99 2f d9 f5 56 c5 e9 fb"
+     }
+    ]
+   },
+   "msg": [
+    [
+     "8 dispositivi 1-Wire trovati.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "righe": [
+    [
+     "01 7E 8A 82 95 25 E6 09",
+     "0x01 · DS1990A / DS2401 (solo numero di serie)",
+     "E62595828A7E",
+     "valido"
+    ],
+    [
+     "99 CB C9 3C 86 72 A1 29",
+     "0x99 · famiglia sconosciuta",
+     "A172863CC9CB",
+     "valido"
+    ],
+    [
+     "28 B8 4C 52 8C 54 05 3E",
+     "0x28 · DS18B20 (sensore di temperatura)",
+     "05548C524CB8",
+     "ERRATO"
+    ],
+    [
+     "99 AC 0E 2A 8C 68 C3 95",
+     "0x99 · famiglia sconosciuta",
+     "C3688C2A0EAC",
+     "valido"
+    ],
+    [
+     "28 30 39 BA 5C 30 F9 0B",
+     "0x28 · DS18B20 (sensore di temperatura)",
+     "F9305CBA3930",
+     "valido"
+    ],
+    [
+     "01 8A E7 6F F8 90 82 C2",
+     "0x01 · DS1990A / DS2401 (solo numero di serie)",
+     "8290F86FE78A",
+     "valido"
+    ],
+    [
+     "01 8E 8F 3C 0E 52 D2 C3",
+     "0x01 · DS1990A / DS2401 (solo numero di serie)",
+     "D2520E3C8F8E",
+     "valido"
+    ],
+    [
+     "99 2F D9 F5 56 C5 E9 FB",
+     "0x99 · famiglia sconosciuta",
+     "E9C556F5D92F",
+     "valido"
+    ]
+   ]
+  },
+  {
+   "att": [],
+   "cmd": "ow.search",
+   "d": {
+    "roms": [
+     {
+      "rom": "010203040506\n\n07"
+     }
+    ]
+   },
+   "msg": [],
+   "r": {
+    "errore": {
+     "msg": "index out of range",
+     "tipo": "IndexError"
+    }
+   },
+   "righe": []
+  }
+ ]
+}

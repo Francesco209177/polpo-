@@ -1,0 +1,4531 @@
+{
+ "checks": [
+  {
+   "b": "",
+   "ccitt": 65535,
+   "ccitt0": 0,
+   "crc32": 0,
+   "modbus": 65535,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "b": "313233343536373839",
+   "ccitt": 10673,
+   "ccitt0": 12739,
+   "crc32": 3421780262,
+   "modbus": 19255,
+   "r": {
+    "CRC16-CCITT (FFFF)": "29B1",
+    "CRC16-Modbus": "4B37",
+    "CRC32": "CBF43926",
+    "CRC8 Dallas/Maxim": "A1",
+    "SHA-256": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
+   },
+   "sha256": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
+  },
+  {
+   "b": "61",
+   "ccitt": 40311,
+   "ccitt0": 31879,
+   "crc32": 3904355907,
+   "modbus": 43134,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9D77",
+    "CRC16-Modbus": "A87E",
+    "CRC32": "E8B7BE43",
+    "CRC8 Dallas/Maxim": "3B",
+    "SHA-256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+   },
+   "sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"
+  },
+  {
+   "b": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+   "ccitt": 16317,
+   "ccitt0": 32341,
+   "crc32": 688229491,
+   "modbus": 56940,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3FBD",
+    "CRC16-Modbus": "DE6C",
+    "CRC32": "29058C73",
+    "CRC8 Dallas/Maxim": "18",
+    "SHA-256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+   },
+   "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+  },
+  {
+   "b": "10dbf70769ecfb8e5211faa7267fb816d747b5c3d79186e9599bb944e97ae1c016027844639bbb7aa0e6dff021a65072d37a1210fe9a24",
+   "ccitt": 35650,
+   "ccitt0": 49186,
+   "crc32": 937431112,
+   "modbus": 3792,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8B42",
+    "CRC16-Modbus": "0ED0",
+    "CRC32": "37E01048",
+    "CRC8 Dallas/Maxim": "63",
+    "SHA-256": "e30e20099a785bce471e8eae7d38ad5dc66ab9018f28098ba7bb64f4ee1c5ec8"
+   },
+   "sha256": "e30e20099a785bce471e8eae7d38ad5dc66ab9018f28098ba7bb64f4ee1c5ec8"
+  },
+  {
+   "b": "294cc4bf4c3931e25561b2ddd4e47d8c495b3d88e99a54595af5b1a7de720216a9a37c2886e5cf51c7fd7b8bf7ff2055faeccd45d7b2c6fa",
+   "ccitt": 64181,
+   "ccitt0": 25370,
+   "crc32": 4158834841,
+   "modbus": 15251,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FAB5",
+    "CRC16-Modbus": "3B93",
+    "CRC32": "F7E2C899",
+    "CRC8 Dallas/Maxim": "FD",
+    "SHA-256": "8976e2d5abe4846e28a6e4a86debe7d630bc59d20513747ab1dc946de633a0cd"
+   },
+   "sha256": "8976e2d5abe4846e28a6e4a86debe7d630bc59d20513747ab1dc946de633a0cd"
+  },
+  {
+   "b": "54e132d41201e02119b32f4d37e8f847eadfe4af84ead8a84e79a51064f50c3b97de7e942d17369253f448b8cd62b35d2863da6a319dedd8e5",
+   "ccitt": 7159,
+   "ccitt0": 42599,
+   "crc32": 447307007,
+   "modbus": 4019,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1BF7",
+    "CRC16-Modbus": "0FB3",
+    "CRC32": "1AA95CFF",
+    "CRC8 Dallas/Maxim": "A1",
+    "SHA-256": "5cbf2e5fa00dea8a0e7cca40814fce122094a0d416d443727c7cccd6d882d367"
+   },
+   "sha256": "5cbf2e5fa00dea8a0e7cca40814fce122094a0d416d443727c7cccd6d882d367"
+  },
+  {
+   "b": "6a88ba3b036bd9d1c36623d82d1cb282b8e9d96390ee96ff86cfe2aeb28df7e4f4f52abbcf56d4219c08a7a425cbbf905f7b569d301b7025d762e008c867ad",
+   "ccitt": 277,
+   "ccitt0": 37488,
+   "crc32": 1553611330,
+   "modbus": 45962,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0115",
+    "CRC16-Modbus": "B38A",
+    "CRC32": "5C9A3A42",
+    "CRC8 Dallas/Maxim": "C3",
+    "SHA-256": "d33aeb1b056a02c770ec32037bd3084943e4b005e5cffcd8803f93b31f3cf995"
+   },
+   "sha256": "d33aeb1b056a02c770ec32037bd3084943e4b005e5cffcd8803f93b31f3cf995"
+  },
+  {
+   "b": "61a7181912bbcba657503cb0540fb22dcbe0b21e4ae3f1e7e259b5d8afeac66331dd4e155f61dbb8c0191a549f72195a33b85f9a15cadb27b063fb5356cfefa8",
+   "ccitt": 36941,
+   "ccitt0": 18071,
+   "crc32": 1719543130,
+   "modbus": 51054,
+   "r": {
+    "CRC16-CCITT (FFFF)": "904D",
+    "CRC16-Modbus": "C76E",
+    "CRC32": "667E255A",
+    "CRC8 Dallas/Maxim": "53",
+    "SHA-256": "a0aecf401baeb77f1d60942116ce29bd46f43859e692768046294235cc373a81"
+   },
+   "sha256": "a0aecf401baeb77f1d60942116ce29bd46f43859e692768046294235cc373a81"
+  },
+  {
+   "b": "13585ad74ec830cb3c7836d89f9432b0f37d940650c57531f233cc6f93b523600d26cc1008dcad5b18b7a6f35709694194677e7ec5d60f40023f0e1c5b3fc52207",
+   "ccitt": 1117,
+   "ccitt0": 30182,
+   "crc32": 3133522622,
+   "modbus": 51949,
+   "r": {
+    "CRC16-CCITT (FFFF)": "045D",
+    "CRC16-Modbus": "CAED",
+    "CRC32": "BAC5C2BE",
+    "CRC8 Dallas/Maxim": "CF",
+    "SHA-256": "8623f0a8009cabad55363c4819eb45fee851c272f45d039971a147b2e51f5509"
+   },
+   "sha256": "8623f0a8009cabad55363c4819eb45fee851c272f45d039971a147b2e51f5509"
+  },
+  {
+   "b": "de5dd718561bc0ebe9ab5f11ccebfaba244787815a2eeb064e8e289d48353d93ab0184da4a1e1c1e6c076d4b9cd64d0dbf3bf499eded59480ece4ee75badf04f16fac755f08c6cfdb4c24ca2a2421cea1bab18c22912411105bbde71f42e3422bbe9db9f5a40cc627b4fc36ffac561224f4224cae92d6b",
+   "ccitt": 3173,
+   "ccitt0": 56982,
+   "crc32": 2022966624,
+   "modbus": 35292,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0C65",
+    "CRC16-Modbus": "89DC",
+    "CRC32": "78940560",
+    "CRC8 Dallas/Maxim": "06",
+    "SHA-256": "3a602633ea3347080ecf12b8e49b9c73119712a6ea684ac60c65d63195b0db78"
+   },
+   "sha256": "3a602633ea3347080ecf12b8e49b9c73119712a6ea684ac60c65d63195b0db78"
+  },
+  {
+   "b": "06e85b57bbc46a7eaa99844f1ef8d5b6ae02a69618d091eb573bd6db2f3dec5225c1290385f72bd73bd0f471c90be3eafcd6984fe65574f1ffefce9ae50bbced9b5e7872bf520d101d54d79d54640e56efa0157d120848fae8b40bd7b684084f8215487a3af297b3a3daa896db1c36f6b8f8dff1b6235061",
+   "ccitt": 8119,
+   "ccitt0": 1928,
+   "crc32": 1647206033,
+   "modbus": 52489,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1FB7",
+    "CRC16-Modbus": "CD09",
+    "CRC32": "622E5E91",
+    "CRC8 Dallas/Maxim": "97",
+    "SHA-256": "b621e61a479f10552f3e46b41c7d7326a8d945f360c0fe5a0c11343a02f83bd6"
+   },
+   "sha256": "b621e61a479f10552f3e46b41c7d7326a8d945f360c0fe5a0c11343a02f83bd6"
+  },
+  {
+   "b": "a4936502db155752f7b8c93dc77f6727fb1b83fa2a2c7d5956e6cf61d875ded36176b8f642651a5f6028c90174a7a1fb59f07cc0cced36d72f7e1e37218a7e8eae92bc45b3412407e63cce0b5345d07bf3ec215728af894f1de2151b11e0d29eb89545edaab6238595b23481c0a0eddbcf558c3b4c5601e3b8",
+   "ccitt": 6301,
+   "ccitt0": 46244,
+   "crc32": 338762439,
+   "modbus": 7426,
+   "r": {
+    "CRC16-CCITT (FFFF)": "189D",
+    "CRC16-Modbus": "1D02",
+    "CRC32": "14311AC7",
+    "CRC8 Dallas/Maxim": "4F",
+    "SHA-256": "562a3427ce3ee1cba965f04ed50091a55c3d66674397fa94791c420f3c848813"
+   },
+   "sha256": "562a3427ce3ee1cba965f04ed50091a55c3d66674397fa94791c420f3c848813"
+  },
+  {
+   "b": "dc8851a06041191b564d1e97b4ecba9d832465b523247ee279889419dcadef1cbfabf4fb90f900bf80f05d75c6dfa48c36ae392e3683df785a59029352af623e55a104aef360e51cf54408965b354dfe9f9918c75549c004f5ddd0080f548dcf62f7c279ae72b812044b0643688b7c26fad31ee7bd016d5a68b20e974ffac4",
+   "ccitt": 15119,
+   "ccitt0": 30038,
+   "crc32": 2486099683,
+   "modbus": 33414,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3B0F",
+    "CRC16-Modbus": "8286",
+    "CRC32": "942EDEE3",
+    "CRC8 Dallas/Maxim": "58",
+    "SHA-256": "e82039f7780d1d497d2f0a5a33dabdee73ba28c563bc2d490a5687d41b0d6faa"
+   },
+   "sha256": "e82039f7780d1d497d2f0a5a33dabdee73ba28c563bc2d490a5687d41b0d6faa"
+  },
+  {
+   "b": "2d40f1279a5dfdf3951cf49617b82228b4da133857411674d619279917d3bcaa97c582c60700ee7423c0b5891219a7ee9fa45750b0fd30b871a11a9c039139b91b430f8b74b50999c2c8e5a203419661b4b191d431e64973c3a8997edf0a2175c26b51192bb9be375f1e270bd37822defe853908346427c18726a63a99777be5",
+   "ccitt": 27370,
+   "ccitt0": 39648,
+   "crc32": 278038435,
+   "modbus": 59240,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6AEA",
+    "CRC16-Modbus": "E768",
+    "CRC32": "109287A3",
+    "CRC8 Dallas/Maxim": "4C",
+    "SHA-256": "b36719fbb8e6ff6b78e0458054f2ca9d80dd7630c66a931b4eb1b63cd1da7ae8"
+   },
+   "sha256": "b36719fbb8e6ff6b78e0458054f2ca9d80dd7630c66a931b4eb1b63cd1da7ae8"
+  },
+  {
+   "b": "41f7a59667dd1bde40de8248ba4892cf68fbce31841951c93249728c71391f1dd6cc103243d99c1971d8a090e0dc0a6f536a2410498ba480b019476aca80f8d8c9e1b7d4a574a2c9150bf8ed5613e57b11f357277b35516dbe5218ef7b48ee247cfd331d5857447827ed143b30251f33f5e1276b366638be548ca2606adf66e4ef99e400b001858235d0d29adc279852b0483921c0895e7b16af82ddcb2086afcb7f0495749b7b09695961043d8687f039b32acea535cbd1d9d718b6aa0135de19df3dff50c627863a4788b39b7c30dddaab6dc222dd3c3dedf9a7ab491408f585df854c43c8981fbbebbff307974e8859684325642ff0a8a4e0af3ebb523011852dba9cbb45ea2b9787ebdd212eb7fae2b5cf50be75166fc212311969adfbd106ebd705278fc00e74dbdf5f1060afd3ccf15d272d361472001cd2a28ceaaa2057a2f7e6e7d9c6e278ec8e4e47440fb47c14064d2ecc37e75814fa11301d557dc4ab26d73d68f4c0b6edddabfdaaadb3216f479743279fa725df46e8c220d4fa78501d5178d7ccca814fe79de4d018c817c1232c0ccedd2a5ec80ac455e14aa3e138f70cccbcf2eae9147e2ee34765f0e45b989dfa8bff9e548a1cd6a4259dd438e2387bb07122e937a36495408f2162b699d5699817d968c809055fa889122f02d1ca0c131f2a33aa8df02289d5cb3f5843575043c737fca59d2fc276bba4207c3cb8fb06ff7b7bdbb273c463c5ea1ef3ed80893595c2dbf6f6e7da0c7e8b587cd83ed0e3afb6e21b9e39cd289577f767b3555207880761e8a3a98dc23405a48bee95a589d411ccb7ed1e529e83ca06949c0de42cc0afc48db83a11c3e7ff6152524df148a7e070b6392b11e36589cef12f5c56d2e687ab5ebb9a354ada969d28b66558f619e2144fb7960dc9f259cf8eba40961f2e14ae5688a9162ad6b9d7855f47bea7758ef43058b091fbdf8c08c490cdac26c4ac561a6268a6a7cbb9e039263cb9630a595eabd995d48235eb54b932b7bacb86a26e07de587f35a5e5d90afd89ddb7ae806cd51b256912424dec3f2f92eeef58114703717809cfb80023827c3bb85078ead10937189fa11a24acc8ed7191ecea2e468517120b1abbe2f96327cf4b4e9cd023fb37eecb0c55db5eff7481ed8d6584b874bc2a4272fd0cd46ed5562fd773cd287f65c4ef761aeb595934fe675889395d98b439511a6e47468773c8d5f1a547fcb8bd1801733d1473c2fa95d8093ca077e0286a1f8a041de1e961676705215ff99b8c22781d470437c1ffc2a68d22296a39c8b51eb5c3dee360466d4036e0adbe2500d4f5d2826d19009bafeb3fdcc71e06bdcb540543699f57dd34b626ffa0ba6630e9e9e15aca8ecf80c75391a2353a7c6b5878555028e2a7d09dfef0e647b9",
+   "ccitt": 673,
+   "ccitt0": 1794,
+   "crc32": 5860453,
+   "modbus": 1083,
+   "r": {
+    "CRC16-CCITT (FFFF)": "02A1",
+    "CRC16-Modbus": "043B",
+    "CRC32": "00596C65",
+    "CRC8 Dallas/Maxim": "18",
+    "SHA-256": "92b3d943394fede8013c909d5022c9fac3e04efe0c4ace09fb2976c6a5c64bf5"
+   },
+   "sha256": "92b3d943394fede8013c909d5022c9fac3e04efe0c4ace09fb2976c6a5c64bf5"
+  },
+  {
+   "b": "0ce2fa85dc954b8a1103548f14cb462534",
+   "ccitt": 22320,
+   "ccitt0": 37084,
+   "crc32": 3518227613,
+   "modbus": 27467,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5730",
+    "CRC16-Modbus": "6B4B",
+    "CRC32": "D1B3E49D",
+    "CRC8 Dallas/Maxim": "A4",
+    "SHA-256": "10e4c4a4bf966daea851e3526e1022661012514521bec3b33ebb437424cbf958"
+   },
+   "sha256": "10e4c4a4bf966daea851e3526e1022661012514521bec3b33ebb437424cbf958"
+  },
+  {
+   "b": "6462af79ce69e4a97c19dfea42b1af8a5a5de7b233b94d899d4539dbf98cf8c5ba73c4230a79",
+   "ccitt": 793,
+   "ccitt0": 19782,
+   "crc32": 653355681,
+   "modbus": 57266,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0319",
+    "CRC16-Modbus": "DFB2",
+    "CRC32": "26F16AA1",
+    "CRC8 Dallas/Maxim": "80",
+    "SHA-256": "f287aef47026a76ae6a403a4bbfa2ee85ce6c5c13ab7807190f04566db2a71af"
+   },
+   "sha256": "f287aef47026a76ae6a403a4bbfa2ee85ce6c5c13ab7807190f04566db2a71af"
+  },
+  {
+   "b": "248883356031625dd522a159a6727baeccae7a558c038c2cbb04e73526b7d078",
+   "ccitt": 36686,
+   "ccitt0": 32258,
+   "crc32": 3712429665,
+   "modbus": 44141,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8F4E",
+    "CRC16-Modbus": "AC6D",
+    "CRC32": "DD472E61",
+    "CRC8 Dallas/Maxim": "9E",
+    "SHA-256": "d3911bcc2009f1bda2241bc12cbbd0f2bf25038d047ced8f980b862d15a1974a"
+   },
+   "sha256": "d3911bcc2009f1bda2241bc12cbbd0f2bf25038d047ced8f980b862d15a1974a"
+  },
+  {
+   "b": "815314a9d986e92359f7cff4b975fb40c1034e517585870ba5d913052571a9d852631c19410b",
+   "ccitt": 64287,
+   "ccitt0": 46400,
+   "crc32": 3184000482,
+   "modbus": 49430,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FB1F",
+    "CRC16-Modbus": "C116",
+    "CRC32": "BDC7FDE2",
+    "CRC8 Dallas/Maxim": "A0",
+    "SHA-256": "84aa52b115f3a50f710c93c7cae42db022e9aa384e001f067d7e126b7e98823f"
+   },
+   "sha256": "84aa52b115f3a50f710c93c7cae42db022e9aa384e001f067d7e126b7e98823f"
+  },
+  {
+   "b": "b304a6ecadbb384490cac7fc525f398cf77640d7cd7c0a355f9e2a7b50f51faff015f8d763028f628af5b5ff73d77129675ff554",
+   "ccitt": 665,
+   "ccitt0": 17436,
+   "crc32": 3948040451,
+   "modbus": 56392,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0299",
+    "CRC16-Modbus": "DC48",
+    "CRC32": "EB525103",
+    "CRC8 Dallas/Maxim": "01",
+    "SHA-256": "5b2d838ced6a928cc079d1325f7b94f08da03f1f7bf389695f796cf816fb6a58"
+   },
+   "sha256": "5b2d838ced6a928cc079d1325f7b94f08da03f1f7bf389695f796cf816fb6a58"
+  },
+  {
+   "b": "150026ca8c2d8649aa675258cafdf679c7ac0245817cbe8a4b552837c9ccb30cd220ef06bed6cf55cb169e7d1575d00b3bf26a",
+   "ccitt": 49319,
+   "ccitt0": 59317,
+   "crc32": 1352900934,
+   "modbus": 45029,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C0A7",
+    "CRC16-Modbus": "AFE5",
+    "CRC32": "50A3A146",
+    "CRC8 Dallas/Maxim": "F1",
+    "SHA-256": "d6d47846b6fbd52f54451d1ef5f546696ffa61874c8814defb28f3087f39e4d8"
+   },
+   "sha256": "d6d47846b6fbd52f54451d1ef5f546696ffa61874c8814defb28f3087f39e4d8"
+  },
+  {
+   "b": "69a8b9a571a62d39e11c8887ba6ddfaf1f284c4bbe5ab44ad2681c6e9a1f3ef83ae3132bf0d457471569554178b139dc9584b842eeaa36dc8774da7b58b19e41",
+   "ccitt": 7416,
+   "ccitt0": 51746,
+   "crc32": 3504322350,
+   "modbus": 49716,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1CF8",
+    "CRC16-Modbus": "C234",
+    "CRC32": "D0DFB72E",
+    "CRC8 Dallas/Maxim": "2E",
+    "SHA-256": "8bf8e420d1ea105d74f877d89d0edaa9406aec9e4239832b49cffa2095a4b6fa"
+   },
+   "sha256": "8bf8e420d1ea105d74f877d89d0edaa9406aec9e4239832b49cffa2095a4b6fa"
+  },
+  {
+   "b": "4440d749250d14edf6feb9baa5a0ae0b82a5dad765f96312609371e93625d0a5adc2024410dc4832bc245b623d712914f310eef2feeb",
+   "ccitt": 55514,
+   "ccitt0": 48797,
+   "crc32": 1706570897,
+   "modbus": 6772,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D8DA",
+    "CRC16-Modbus": "1A74",
+    "CRC32": "65B83491",
+    "CRC8 Dallas/Maxim": "CB",
+    "SHA-256": "182279468bcfe9fdb2af4cb22ab539ecd41ad1d500d953a1bf30bdb58c8f885e"
+   },
+   "sha256": "182279468bcfe9fdb2af4cb22ab539ecd41ad1d500d953a1bf30bdb58c8f885e"
+  },
+  {
+   "b": "f691fc164e2b64950e04d732720f6a32fa4d10e39b99fa8f98d789735e28d0849d2b33e5080d76dd1969a31739178953b66d988f48665644a6b94a1484e1fe5ec432441c2199ef6c8adf34",
+   "ccitt": 22704,
+   "ccitt0": 42879,
+   "crc32": 2916827558,
+   "modbus": 58360,
+   "r": {
+    "CRC16-CCITT (FFFF)": "58B0",
+    "CRC16-Modbus": "E3F8",
+    "CRC32": "ADDB41A6",
+    "CRC8 Dallas/Maxim": "63",
+    "SHA-256": "980261179e80af0ebc23c403fafea306e3992bda9ce1c5d2f3fd31977bbb223d"
+   },
+   "sha256": "980261179e80af0ebc23c403fafea306e3992bda9ce1c5d2f3fd31977bbb223d"
+  },
+  {
+   "b": "282c8899829df4d5fb89d75ef746d477c1f89bd36bdcbbecfd09f8cd76ae7261dc84939e55ff6bdfb1a73f356cfc4dde0dfb7b6bb05651",
+   "ccitt": 45025,
+   "ccitt0": 58497,
+   "crc32": 2609462436,
+   "modbus": 58402,
+   "r": {
+    "CRC16-CCITT (FFFF)": "AFE1",
+    "CRC16-Modbus": "E422",
+    "CRC32": "9B893CA4",
+    "CRC8 Dallas/Maxim": "7B",
+    "SHA-256": "533cb84cda1d51a6a63ca8bff23e57ce2c03828cd3323ef80671421546406254"
+   },
+   "sha256": "533cb84cda1d51a6a63ca8bff23e57ce2c03828cd3323ef80671421546406254"
+  },
+  {
+   "b": "470b54e93ebc6c95f1ef83939f327c83e1c71d20d049ccb10f",
+   "ccitt": 62589,
+   "ccitt0": 29372,
+   "crc32": 2472154027,
+   "modbus": 51954,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F47D",
+    "CRC16-Modbus": "CAF2",
+    "CRC32": "935A13AB",
+    "CRC8 Dallas/Maxim": "F4",
+    "SHA-256": "e98fc37392ca7f0d155e6cd3b18a94c86a0f2a03030dd153a51e188fa09d053f"
+   },
+   "sha256": "e98fc37392ca7f0d155e6cd3b18a94c86a0f2a03030dd153a51e188fa09d053f"
+  },
+  {
+   "b": "5c32aca5194cd6846a944076a4282a68fe12cdaf95f362e8c6e0d0d860637c4d77d760cbd66bf15cab2ab9",
+   "ccitt": 25069,
+   "ccitt0": 7928,
+   "crc32": 799682773,
+   "modbus": 6228,
+   "r": {
+    "CRC16-CCITT (FFFF)": "61ED",
+    "CRC16-Modbus": "1854",
+    "CRC32": "2FAA30D5",
+    "CRC8 Dallas/Maxim": "B3",
+    "SHA-256": "c437cad5f61d120de6941b1f7c9658f658e02361b5c837470629bc4e93177ecf"
+   },
+   "sha256": "c437cad5f61d120de6941b1f7c9658f658e02361b5c837470629bc4e93177ecf"
+  },
+  {
+   "b": "2f0342ff2315301a552febabb8c9c619e87c0a6315386aa8d4d356f7c506313c96b34846cc7cf59a1cc0",
+   "ccitt": 26776,
+   "ccitt0": 54945,
+   "crc32": 2827760666,
+   "modbus": 45933,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6898",
+    "CRC16-Modbus": "B36D",
+    "CRC32": "A88C341A",
+    "CRC8 Dallas/Maxim": "7D",
+    "SHA-256": "97f696a99e77c740c4e40809d6a0605828d0d8acd0a1444368719db7bf414ed6"
+   },
+   "sha256": "97f696a99e77c740c4e40809d6a0605828d0d8acd0a1444368719db7bf414ed6"
+  },
+  {
+   "b": "a7856fa82a43eea3d696d793bbc0cc199fedc965394b2e412fec2f0354f48b89594abb2bc5e349",
+   "ccitt": 9873,
+   "ccitt0": 53403,
+   "crc32": 69976695,
+   "modbus": 6365,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2691",
+    "CRC16-Modbus": "18DD",
+    "CRC32": "042BC277",
+    "CRC8 Dallas/Maxim": "B8",
+    "SHA-256": "f3f9a628e66978577bb94d58ce5ebaafd6733017129eda334660dbf47fb0328d"
+   },
+   "sha256": "f3f9a628e66978577bb94d58ce5ebaafd6733017129eda334660dbf47fb0328d"
+  },
+  {
+   "b": "20c625dc2a3bd2092ca6db447b8c54431112ddd21b1106745bbf6a2f7a35411999a235446bc1a73d6ba53e0dfe41c46b9e56506c5e7407acaa6b91cce58b60a71d3f4e66f2b3429b4462de4dd4b495",
+   "ccitt": 57643,
+   "ccitt0": 41038,
+   "crc32": 2298107657,
+   "modbus": 38705,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E12B",
+    "CRC16-Modbus": "9731",
+    "CRC32": "88FA5709",
+    "CRC8 Dallas/Maxim": "F6",
+    "SHA-256": "a617ab754913f9cf99d999b2b77e6af397bbfb38c11a770785a5af9e97400045"
+   },
+   "sha256": "a617ab754913f9cf99d999b2b77e6af397bbfb38c11a770785a5af9e97400045"
+  },
+  {
+   "b": "f9e556378b71b0603e2555",
+   "ccitt": 39977,
+   "ccitt0": 18470,
+   "crc32": 2047569621,
+   "modbus": 15487,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9C29",
+    "CRC16-Modbus": "3C7F",
+    "CRC32": "7A0B6ED5",
+    "CRC8 Dallas/Maxim": "E5",
+    "SHA-256": "ca528d15087a49cea7e51d1e3e25058a45779e7b1ac0f18ee40516c3ea86cfa8"
+   },
+   "sha256": "ca528d15087a49cea7e51d1e3e25058a45779e7b1ac0f18ee40516c3ea86cfa8"
+  },
+  {
+   "b": "0f9cccbf3e09c2e3a75d0e1249d0732be5da548e9601eb0af78609ac8aba842fad465f2f67",
+   "ccitt": 34218,
+   "ccitt0": 12547,
+   "crc32": 3800396815,
+   "modbus": 59792,
+   "r": {
+    "CRC16-CCITT (FFFF)": "85AA",
+    "CRC16-Modbus": "E990",
+    "CRC32": "E285740F",
+    "CRC8 Dallas/Maxim": "2C",
+    "SHA-256": "273a8262d53fe00dd2c60e642da9e494ac8128e02ec03eb5566a4e8cb1be62d7"
+   },
+   "sha256": "273a8262d53fe00dd2c60e642da9e494ac8128e02ec03eb5566a4e8cb1be62d7"
+  },
+  {
+   "b": "7090a2b9059e3a850275927b257571fedd64cea3f16b9d21514f7e35ee808274b63ce9619f679b0d1d6645ecccb939d593d38a0095839a865449f8f4df9ed247ea01",
+   "ccitt": 5211,
+   "ccitt0": 49645,
+   "crc32": 1500741145,
+   "modbus": 41951,
+   "r": {
+    "CRC16-CCITT (FFFF)": "145B",
+    "CRC16-Modbus": "A3DF",
+    "CRC32": "59737E19",
+    "CRC8 Dallas/Maxim": "68",
+    "SHA-256": "c570a032897cd73a6a362b78e7d4492e7293ef1c943be0fc181b645a6c1ba273"
+   },
+   "sha256": "c570a032897cd73a6a362b78e7d4492e7293ef1c943be0fc181b645a6c1ba273"
+  },
+  {
+   "b": "b283878322faf215579648812eb69a4abad775bb85a23fbbf7e6f19e91f3812b967d6a8c3e1f92f6f7",
+   "ccitt": 40778,
+   "ccitt0": 34663,
+   "crc32": 3583965883,
+   "modbus": 63124,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9F4A",
+    "CRC16-Modbus": "F694",
+    "CRC32": "D59EFABB",
+    "CRC8 Dallas/Maxim": "16",
+    "SHA-256": "41695e4104cea7045154d6699ca53a36797278e110873082467b8d1a67dc2253"
+   },
+   "sha256": "41695e4104cea7045154d6699ca53a36797278e110873082467b8d1a67dc2253"
+  },
+  {
+   "b": "047eae8fbe2b5fa89d28892452b06ad4be73b4ec1a7fcf17d5a21dbaa22b6377d3d62e929b10df6ae97365026aec9fed35f2855c71f4d17ee7cf83f608049294b5caf1",
+   "ccitt": 50670,
+   "ccitt0": 59446,
+   "crc32": 4279340820,
+   "modbus": 45165,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C5EE",
+    "CRC16-Modbus": "B06D",
+    "CRC32": "FF118F14",
+    "CRC8 Dallas/Maxim": "E2",
+    "SHA-256": "c5dc481e7d06baa677b4cd34cd02db68be0764fbe36a468b0465e04edf863750"
+   },
+   "sha256": "c5dc481e7d06baa677b4cd34cd02db68be0764fbe36a468b0465e04edf863750"
+  },
+  {
+   "b": "33a047adf051c05b3118afb7b4149f19bf8c97f46b4311e4ee9dae1e2131e6c71046d188607e34044f71c6dcd3bcf304bcb16f51c1613e2c31dd34a5a9a0fd450af85f4a41b519c8463d",
+   "ccitt": 51875,
+   "ccitt0": 59305,
+   "crc32": 253125932,
+   "modbus": 27367,
+   "r": {
+    "CRC16-CCITT (FFFF)": "CAA3",
+    "CRC16-Modbus": "6AE7",
+    "CRC32": "0F16652C",
+    "CRC8 Dallas/Maxim": "4B",
+    "SHA-256": "de9a4e69e6b77701b214d9d9c621ff12a96e912cd61ab23cbffc5276aba672c1"
+   },
+   "sha256": "de9a4e69e6b77701b214d9d9c621ff12a96e912cd61ab23cbffc5276aba672c1"
+  },
+  {
+   "b": "d16b3ce15dc2d088758d3e13121e6de69b1ed78da9b917e4",
+   "ccitt": 42681,
+   "ccitt0": 18739,
+   "crc32": 3215335592,
+   "modbus": 2993,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A6B9",
+    "CRC16-Modbus": "0BB1",
+    "CRC32": "BFA620A8",
+    "CRC8 Dallas/Maxim": "64",
+    "SHA-256": "09c5dee2bff8406c0f1ef455b55deaf342812c86eec170cb3923f6120f4654f9"
+   },
+   "sha256": "09c5dee2bff8406c0f1ef455b55deaf342812c86eec170cb3923f6120f4654f9"
+  },
+  {
+   "b": "0ee68ea7bce7c4",
+   "ccitt": 2255,
+   "ccitt0": 63745,
+   "crc32": 2455115525,
+   "modbus": 10786,
+   "r": {
+    "CRC16-CCITT (FFFF)": "08CF",
+    "CRC16-Modbus": "2A22",
+    "CRC32": "92561705",
+    "CRC8 Dallas/Maxim": "15",
+    "SHA-256": "f86f909eaee4a580013e041ee0efd7e6528843c35ac73064edbbf29acd66763b"
+   },
+   "sha256": "f86f909eaee4a580013e041ee0efd7e6528843c35ac73064edbbf29acd66763b"
+  },
+  {
+   "b": "c1a7b8f75872d22cd66c891c18c10500c20d6e7f690b29f0e5d6c5967cfb65f68f24571e35d6a8f1ddaead856e44a5f541f5f7cf07df",
+   "ccitt": 26414,
+   "ccitt0": 361,
+   "crc32": 4154019542,
+   "modbus": 23177,
+   "r": {
+    "CRC16-CCITT (FFFF)": "672E",
+    "CRC16-Modbus": "5A89",
+    "CRC32": "F7994ED6",
+    "CRC8 Dallas/Maxim": "5B",
+    "SHA-256": "b4392b8d99fbda7f11b01f279460ff6bc3842b6824ed697722a045c9371e7006"
+   },
+   "sha256": "b4392b8d99fbda7f11b01f279460ff6bc3842b6824ed697722a045c9371e7006"
+  },
+  {
+   "b": "0fbdc482a79a83b1c4de01db9c2564b07d54fa28e031ea165a983c004bb29bfb1434dea5244f9df438b78d36588ede7461fa327d329858",
+   "ccitt": 3086,
+   "ccitt0": 18286,
+   "crc32": 2493410783,
+   "modbus": 61705,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0C0E",
+    "CRC16-Modbus": "F109",
+    "CRC32": "949E6DDF",
+    "CRC8 Dallas/Maxim": "A4",
+    "SHA-256": "986eead09428676d2edc3a76c21ce778e65732b3fdfc4cefc4b15b5168bf4eef"
+   },
+   "sha256": "986eead09428676d2edc3a76c21ce778e65732b3fdfc4cefc4b15b5168bf4eef"
+  },
+  {
+   "b": "7168b017e020bbd3f8ec4cec1e84eb96a073a16261d4c341a1536e3db337bc8fea70",
+   "ccitt": 51643,
+   "ccitt0": 24579,
+   "crc32": 384098092,
+   "modbus": 57651,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C9BB",
+    "CRC16-Modbus": "E133",
+    "CRC32": "16E4DF2C",
+    "CRC8 Dallas/Maxim": "FA",
+    "SHA-256": "2fe331b28d9db218f00ac2c6802b62583e1b8a8e00eecd464f6364ca229aa67c"
+   },
+   "sha256": "2fe331b28d9db218f00ac2c6802b62583e1b8a8e00eecd464f6364ca229aa67c"
+  },
+  {
+   "b": "4a2b3940a6f8d0768ec4f8fdb392c679f0416ca6dd8c1a9126da39",
+   "ccitt": 21109,
+   "ccitt0": 10790,
+   "crc32": 2100805464,
+   "modbus": 23069,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5275",
+    "CRC16-Modbus": "5A1D",
+    "CRC32": "7D37BF58",
+    "CRC8 Dallas/Maxim": "90",
+    "SHA-256": "772fa6fde19ae3b3f83e32c66ee72959044ee46e5d54fcdd2c2a3d6418980683"
+   },
+   "sha256": "772fa6fde19ae3b3f83e32c66ee72959044ee46e5d54fcdd2c2a3d6418980683"
+  },
+  {
+   "b": "1348a626163fadd57d4f84a5c9ad60060e6e9690d9c5bb07",
+   "ccitt": 42949,
+   "ccitt0": 18511,
+   "crc32": 1263231766,
+   "modbus": 12162,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A7C5",
+    "CRC16-Modbus": "2F82",
+    "CRC32": "4B4B6316",
+    "CRC8 Dallas/Maxim": "58",
+    "SHA-256": "cc5ef202b6e9fd9b4a34ca81635a2b52f45b774485a7a1b6253afe92f7b8fef0"
+   },
+   "sha256": "cc5ef202b6e9fd9b4a34ca81635a2b52f45b774485a7a1b6253afe92f7b8fef0"
+  },
+  {
+   "b": "c42eea91b9b0c620ca576c15f0886fc76df4f53f83ecd178832489948383fbc42617b5e350989286e08b29ec88f8",
+   "ccitt": 17108,
+   "ccitt0": 19051,
+   "crc32": 327599546,
+   "modbus": 42369,
+   "r": {
+    "CRC16-CCITT (FFFF)": "42D4",
+    "CRC16-Modbus": "A581",
+    "CRC32": "1386C5BA",
+    "CRC8 Dallas/Maxim": "55",
+    "SHA-256": "032b6e36046b679d0931f3a5942b1f61fe5fb04389d8b95cbd46da4467757bf7"
+   },
+   "sha256": "032b6e36046b679d0931f3a5942b1f61fe5fb04389d8b95cbd46da4467757bf7"
+  },
+  {
+   "b": "15361977e49832b9d514723eb86b334e9416647e94dbebd426cd",
+   "ccitt": 29269,
+   "ccitt0": 16923,
+   "crc32": 2816134006,
+   "modbus": 16167,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7255",
+    "CRC16-Modbus": "3F27",
+    "CRC32": "A7DACB76",
+    "CRC8 Dallas/Maxim": "6A",
+    "SHA-256": "e93d0c517c01164dfaa13baa321b7f114a1906ae118086cd7bf6ee3e54fe76f9"
+   },
+   "sha256": "e93d0c517c01164dfaa13baa321b7f114a1906ae118086cd7bf6ee3e54fe76f9"
+  },
+  {
+   "b": "9d6a7a3497b3887e93ecfd612e05925359005ff0e3def50de6857f70c8cb6f5e763373a31077b2ab598dbe7b499ae2dd0c9aed038840d48d4bd4ac28eeb312730dc0d1d6",
+   "ccitt": 197,
+   "ccitt0": 11530,
+   "crc32": 250675648,
+   "modbus": 62548,
+   "r": {
+    "CRC16-CCITT (FFFF)": "00C5",
+    "CRC16-Modbus": "F454",
+    "CRC32": "0EF101C0",
+    "CRC8 Dallas/Maxim": "C9",
+    "SHA-256": "773877cf198697ec90585825ca7c4033162dcb0163f3579a2455dd8e5f44b2f8"
+   },
+   "sha256": "773877cf198697ec90585825ca7c4033162dcb0163f3579a2455dd8e5f44b2f8"
+  },
+  {
+   "b": "48b41d58b5828bd9851f635900b887b79c05fef77f",
+   "ccitt": 4868,
+   "ccitt0": 9437,
+   "crc32": 3646016935,
+   "modbus": 33999,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1304",
+    "CRC16-Modbus": "84CF",
+    "CRC32": "D951CDA7",
+    "CRC8 Dallas/Maxim": "FA",
+    "SHA-256": "09952d467da793a0afefd17a0b200e1b3364af986fb1c146932c5f75ff173e40"
+   },
+   "sha256": "09952d467da793a0afefd17a0b200e1b3364af986fb1c146932c5f75ff173e40"
+  },
+  {
+   "b": "300b14202bf9b1796c4b0366d939d89502d97247c701fea06c3c34061d8b8cced80b1317a0d727f90296584f498a4b59e9353fb82a724983e75cf955f61d9027922a0b6ef3047eb71b9d2a4a",
+   "ccitt": 46153,
+   "ccitt0": 26041,
+   "crc32": 283655232,
+   "modbus": 60769,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B449",
+    "CRC16-Modbus": "ED61",
+    "CRC32": "10E83C40",
+    "CRC8 Dallas/Maxim": "D5",
+    "SHA-256": "86bc2c20e199aa5c128467103d033e149662512fc37d65cede19905638ab2c14"
+   },
+   "sha256": "86bc2c20e199aa5c128467103d033e149662512fc37d65cede19905638ab2c14"
+  },
+  {
+   "b": "305a367f778084",
+   "ccitt": 40489,
+   "ccitt0": 28647,
+   "crc32": 97455606,
+   "modbus": 36903,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9E29",
+    "CRC16-Modbus": "9027",
+    "CRC32": "05CF0DF6",
+    "CRC8 Dallas/Maxim": "88",
+    "SHA-256": "274ce73e6961a40ed634c5d3d52cce60273f2f30b99ec23c1dfbf10817d161f5"
+   },
+   "sha256": "274ce73e6961a40ed634c5d3d52cce60273f2f30b99ec23c1dfbf10817d161f5"
+  },
+  {
+   "b": "e94034c73ef85bf60db6d947fdac7d5bb3",
+   "ccitt": 60555,
+   "ccitt0": 11111,
+   "crc32": 2055626008,
+   "modbus": 42,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EC8B",
+    "CRC16-Modbus": "002A",
+    "CRC32": "7A865D18",
+    "CRC8 Dallas/Maxim": "FB",
+    "SHA-256": "03e910a1311d692e381494b9bfb5df6d59e80b7188d2ab9acb99c79ca6b7db6e"
+   },
+   "sha256": "03e910a1311d692e381494b9bfb5df6d59e80b7188d2ab9acb99c79ca6b7db6e"
+  },
+  {
+   "b": "24b10f9abd9963428dafe0003c921b3f4d8f1b0bba8c0922cdfbce7ad07d2506e1a908b03290cd6f79d4582835622736388846b4d04df7a4c5b574a964c41a7ac743d61a1ff36c8b",
+   "ccitt": 38566,
+   "ccitt0": 37544,
+   "crc32": 3424147065,
+   "modbus": 64738,
+   "r": {
+    "CRC16-CCITT (FFFF)": "96A6",
+    "CRC16-Modbus": "FCE2",
+    "CRC32": "CC185679",
+    "CRC8 Dallas/Maxim": "AA",
+    "SHA-256": "2e18e1c91eb2ea4507d8c24c741a6479dbeb13b29a01e4fa71922758a64302ec"
+   },
+   "sha256": "2e18e1c91eb2ea4507d8c24c741a6479dbeb13b29a01e4fa71922758a64302ec"
+  },
+  {
+   "b": "df021180145d0a8ea2ffa2d49f22cea138e4f45273b8e3ee29336018a87de7175fa6ff8a12e48ae70580a79325",
+   "ccitt": 55354,
+   "ccitt0": 33481,
+   "crc32": 2411240080,
+   "modbus": 21541,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D83A",
+    "CRC16-Modbus": "5425",
+    "CRC32": "8FB89A90",
+    "CRC8 Dallas/Maxim": "7D",
+    "SHA-256": "a627469af1f546096594e83157033342040ff6e15d96f05f678f749a01894c7d"
+   },
+   "sha256": "a627469af1f546096594e83157033342040ff6e15d96f05f678f749a01894c7d"
+  },
+  {
+   "b": "8ae78d94d1fddeec56afb7554d68b9320e85dca4b9c94796dbfe9692e8407efa0e22fa95986d825da770cbe7639f4c9693b1485ee5c3a7f7dcaecb94abb9",
+   "ccitt": 36857,
+   "ccitt0": 17954,
+   "crc32": 2143816224,
+   "modbus": 37651,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8FF9",
+    "CRC16-Modbus": "9313",
+    "CRC32": "7FC80A20",
+    "CRC8 Dallas/Maxim": "0B",
+    "SHA-256": "755c7e00784d106b02d7730e47a49ab0718d9d92fd5586a2eca6313cbce8b1ab"
+   },
+   "sha256": "755c7e00784d106b02d7730e47a49ab0718d9d92fd5586a2eca6313cbce8b1ab"
+  },
+  {
+   "b": "6d82b2aa97983bc6edabc9ab892baeb3323938bb311fe991a86a7fc0f89497b9d26ca180bd0dec1b54b4",
+   "ccitt": 26202,
+   "ccitt0": 55395,
+   "crc32": 1197172739,
+   "modbus": 41059,
+   "r": {
+    "CRC16-CCITT (FFFF)": "665A",
+    "CRC16-Modbus": "A063",
+    "CRC32": "475B6803",
+    "CRC8 Dallas/Maxim": "28",
+    "SHA-256": "d4c3c27e665131392907db53e3d8a6535da1add69eb73e120d559b460fb545a6"
+   },
+   "sha256": "d4c3c27e665131392907db53e3d8a6535da1add69eb73e120d559b460fb545a6"
+  },
+  {
+   "b": "bdf31849c17a2bfeb3700f325e1423b9c9dd04",
+   "ccitt": 37177,
+   "ccitt0": 8792,
+   "crc32": 3114528562,
+   "modbus": 9515,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9139",
+    "CRC16-Modbus": "252B",
+    "CRC32": "B9A3EF32",
+    "CRC8 Dallas/Maxim": "80",
+    "SHA-256": "395b38b278fafaa671c2e2e54826844265aae1c16d83c8c48ad95373ba70abc8"
+   },
+   "sha256": "395b38b278fafaa671c2e2e54826844265aae1c16d83c8c48ad95373ba70abc8"
+  },
+  {
+   "b": "918c41e07103ad53af5fce054c1958bc5f174bbd8163972964e4ec9d8b0cc50788703e8ebfc86db836ce8b52cf1b6976dc2493581f7faec5c5062acf",
+   "ccitt": 21736,
+   "ccitt0": 61613,
+   "crc32": 3148425810,
+   "modbus": 57171,
+   "r": {
+    "CRC16-CCITT (FFFF)": "54E8",
+    "CRC16-Modbus": "DF53",
+    "CRC32": "BBA92A52",
+    "CRC8 Dallas/Maxim": "94",
+    "SHA-256": "ccc785d758cda0ccfe8d9b799cac7883838159e4117200bc8b0c9825d52af35a"
+   },
+   "sha256": "ccc785d758cda0ccfe8d9b799cac7883838159e4117200bc8b0c9825d52af35a"
+  },
+  {
+   "b": "8264c416c7cbf75f5669345b5e4d5017843f20ab87891a9d9f87b138fd9f640486f9583e458a3af54c64ab1ea3fc67e5788865347b1371953c5c23bb65171dbb6a0176f3ea",
+   "ccitt": 24272,
+   "ccitt0": 25631,
+   "crc32": 2815694175,
+   "modbus": 61784,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5ED0",
+    "CRC16-Modbus": "F158",
+    "CRC32": "A7D4155F",
+    "CRC8 Dallas/Maxim": "2E",
+    "SHA-256": "44073fd75ad751c527c59dc6650e33f1c41ed325b481bfc8bcd85c779f54e24d"
+   },
+   "sha256": "44073fd75ad751c527c59dc6650e33f1c41ed325b481bfc8bcd85c779f54e24d"
+  },
+  {
+   "b": "b5f3f7ebe6bbd9978d5d1444a53fec9866ef837406c58a395155477d",
+   "ccitt": 33034,
+   "ccitt0": 11669,
+   "crc32": 1838853900,
+   "modbus": 16214,
+   "r": {
+    "CRC16-CCITT (FFFF)": "810A",
+    "CRC16-Modbus": "3F56",
+    "CRC32": "6D9AAF0C",
+    "CRC8 Dallas/Maxim": "78",
+    "SHA-256": "056d8457fa656be9485ca2d960a8d6e4cf4f613ac937f4159e250db9e7c0cae0"
+   },
+   "sha256": "056d8457fa656be9485ca2d960a8d6e4cf4f613ac937f4159e250db9e7c0cae0"
+  },
+  {
+   "b": "2f08ed951f243d9f34",
+   "ccitt": 9126,
+   "ccitt0": 15316,
+   "crc32": 1900424919,
+   "modbus": 46485,
+   "r": {
+    "CRC16-CCITT (FFFF)": "23A6",
+    "CRC16-Modbus": "B595",
+    "CRC32": "71462ED7",
+    "CRC8 Dallas/Maxim": "37",
+    "SHA-256": "f407bc1c74c5e17ce3f0934388742ef4673e2da762d3f4487bec814832203860"
+   },
+   "sha256": "f407bc1c74c5e17ce3f0934388742ef4673e2da762d3f4487bec814832203860"
+  },
+  {
+   "b": "bda9b3c6479ffbd45e339c1b265bd5de3277821d9bf5f24cc92faf9d830fb7bdef404ae59d71bff3fdf60ab06cd172ef6c35f3b4e919847ad2b9fa116e23656570c809c06559d3e84d8dc2ee",
+   "ccitt": 41878,
+   "ccitt0": 29286,
+   "crc32": 167417234,
+   "modbus": 50777,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A396",
+    "CRC16-Modbus": "C659",
+    "CRC32": "09FA9592",
+    "CRC8 Dallas/Maxim": "D8",
+    "SHA-256": "e6e954443212967c664fa62d5f7c311ed6e88399c4db945a93568a0138e72f73"
+   },
+   "sha256": "e6e954443212967c664fa62d5f7c311ed6e88399c4db945a93568a0138e72f73"
+  },
+  {
+   "b": "d964de723e03e6903d115abf502ec9f1a04249608d0996172dc528a9c579badd010f7648c0638e5962a6f3a818f05cc53263",
+   "ccitt": 34025,
+   "ccitt0": 54244,
+   "crc32": 628666358,
+   "modbus": 54715,
+   "r": {
+    "CRC16-CCITT (FFFF)": "84E9",
+    "CRC16-Modbus": "D5BB",
+    "CRC32": "2578AFF6",
+    "CRC8 Dallas/Maxim": "A4",
+    "SHA-256": "5b0cdbe9e3d2b32e4cbe2e3a759fee49608882137a7e86595a7cc23feb47e9dd"
+   },
+   "sha256": "5b0cdbe9e3d2b32e4cbe2e3a759fee49608882137a7e86595a7cc23feb47e9dd"
+  },
+  {
+   "b": "43d8aba1940ceff518bd2b360c148ed560e5",
+   "ccitt": 58218,
+   "ccitt0": 42689,
+   "crc32": 3632247444,
+   "modbus": 53515,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E36A",
+    "CRC16-Modbus": "D10B",
+    "CRC32": "D87FB294",
+    "CRC8 Dallas/Maxim": "FB",
+    "SHA-256": "032127f69fae60a89fa30e81c54c4dc1a368a8c66dec59f0bb19979978eebf26"
+   },
+   "sha256": "032127f69fae60a89fa30e81c54c4dc1a368a8c66dec59f0bb19979978eebf26"
+  },
+  {
+   "b": "019a99a90c45d45cf9039d4ab25137921a508758845c25c401800b8b8fe50682b4208e455de8929bf859283f7fd2ba5c53f4b9980266a92d8412bb70fceab03a733fd4a31d",
+   "ccitt": 27622,
+   "ccitt0": 20777,
+   "crc32": 2118684724,
+   "modbus": 7487,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6BE6",
+    "CRC16-Modbus": "1D3F",
+    "CRC32": "7E489034",
+    "CRC8 Dallas/Maxim": "CA",
+    "SHA-256": "2893f2f3addb4d901bb4f14af78e1fccadc58810172d54952cfa849c86af779d"
+   },
+   "sha256": "2893f2f3addb4d901bb4f14af78e1fccadc58810172d54952cfa849c86af779d"
+  },
+  {
+   "b": "ad27357d20aa02c1b84bcd13399927d89edfa3ae11394e02fe",
+   "ccitt": 2867,
+   "ccitt0": 36338,
+   "crc32": 1569120730,
+   "modbus": 56637,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0B33",
+    "CRC16-Modbus": "DD3D",
+    "CRC32": "5D86E1DA",
+    "CRC8 Dallas/Maxim": "38",
+    "SHA-256": "a135ebf470a848b14c2257fcfaca70dbfd97dd6ccc267b35a7415e11f4f610ce"
+   },
+   "sha256": "a135ebf470a848b14c2257fcfaca70dbfd97dd6ccc267b35a7415e11f4f610ce"
+  },
+  {
+   "b": "b28a8a73",
+   "ccitt": 56901,
+   "ccitt0": 23173,
+   "crc32": 1929221916,
+   "modbus": 13088,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DE45",
+    "CRC16-Modbus": "3320",
+    "CRC32": "72FD971C",
+    "CRC8 Dallas/Maxim": "4C",
+    "SHA-256": "ed5d694f663fd3fcbd003e5794a5b0e6a71339b544f308b275c7bb0e62e85072"
+   },
+   "sha256": "ed5d694f663fd3fcbd003e5794a5b0e6a71339b544f308b275c7bb0e62e85072"
+  },
+  {
+   "b": "3e9b5228dac954435350876f2195fc18f28f0d12ece0e982cd2eb64cad0fa610b7f35251c579",
+   "ccitt": 45230,
+   "ccitt0": 65265,
+   "crc32": 2449455028,
+   "modbus": 50255,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B0AE",
+    "CRC16-Modbus": "C44F",
+    "CRC32": "91FFB7B4",
+    "CRC8 Dallas/Maxim": "03",
+    "SHA-256": "51532b4fc8a66100a82f580e7ac9226ec212013db6b0f10cd25f57198456583c"
+   },
+   "sha256": "51532b4fc8a66100a82f580e7ac9226ec212013db6b0f10cd25f57198456583c"
+  },
+  {
+   "b": "34df9a7f736f1947e32856d033dd583de21ea67bd31c468bdd18db6b854238c69dd67b449c8395b04e3d0a75",
+   "ccitt": 11007,
+   "ccitt0": 45191,
+   "crc32": 2114510427,
+   "modbus": 39350,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2AFF",
+    "CRC16-Modbus": "99B6",
+    "CRC32": "7E08DE5B",
+    "CRC8 Dallas/Maxim": "7F",
+    "SHA-256": "be7264e9e9b9da232b9b88d3919536fd0a2e4ea0d91cd766a668e672b2ce46e1"
+   },
+   "sha256": "be7264e9e9b9da232b9b88d3919536fd0a2e4ea0d91cd766a668e672b2ce46e1"
+  },
+  {
+   "b": "e68ab07c574db23f1084ba9cd5647ca43c8cb52fb41fe02e5cbe09b29e2181229646b081afd739cfc4bc6d33c77457cc",
+   "ccitt": 28958,
+   "ccitt0": 44675,
+   "crc32": 2098663716,
+   "modbus": 72,
+   "r": {
+    "CRC16-CCITT (FFFF)": "711E",
+    "CRC16-Modbus": "0048",
+    "CRC32": "7D171124",
+    "CRC8 Dallas/Maxim": "6F",
+    "SHA-256": "99a80bc26bc85831392a4a5c2d557549617585c2e8199fbcea3314ce62923a5a"
+   },
+   "sha256": "99a80bc26bc85831392a4a5c2d557549617585c2e8199fbcea3314ce62923a5a"
+  },
+  {
+   "b": "f1edf4e6feb8e89159c085a64a7925516740d36d662842b5a1db3d08db462b2a3c21d7e17668a72eb62388e54c6eea1e978b4fb570d1297f9ec72f08686197a04f81",
+   "ccitt": 6638,
+   "ccitt0": 52312,
+   "crc32": 1882767914,
+   "modbus": 19754,
+   "r": {
+    "CRC16-CCITT (FFFF)": "19EE",
+    "CRC16-Modbus": "4D2A",
+    "CRC32": "7038C22A",
+    "CRC8 Dallas/Maxim": "38",
+    "SHA-256": "adbb24abde1596365a970d7968f327caf252e7defcad743c96047bd6c0742446"
+   },
+   "sha256": "adbb24abde1596365a970d7968f327caf252e7defcad743c96047bd6c0742446"
+  },
+  {
+   "b": "bb4e70e8636eff82e08e2e53f80a658505b28dc74a56094f731a7e1fad08e5609e783bef513767d4edf45ebb09debfd1aea4fc4029978e",
+   "ccitt": 18537,
+   "ccitt0": 777,
+   "crc32": 2862389883,
+   "modbus": 11367,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4869",
+    "CRC16-Modbus": "2C67",
+    "CRC32": "AA9C9A7B",
+    "CRC8 Dallas/Maxim": "7D",
+    "SHA-256": "f983fe7b1a9f2ce15ddda23a19a5b132491a75c0a35313357789d3de47e47152"
+   },
+   "sha256": "f983fe7b1a9f2ce15ddda23a19a5b132491a75c0a35313357789d3de47e47152"
+  },
+  {
+   "b": "358dc758d4814ca93b3ebcc7",
+   "ccitt": 2540,
+   "ccitt0": 36117,
+   "crc32": 4126647960,
+   "modbus": 3079,
+   "r": {
+    "CRC16-CCITT (FFFF)": "09EC",
+    "CRC16-Modbus": "0C07",
+    "CRC32": "F5F7A698",
+    "CRC8 Dallas/Maxim": "97",
+    "SHA-256": "a5dccf8b02a1dd5503bf0433a6ec2448dedbfe48e0bd6cb757dba070960763a3"
+   },
+   "sha256": "a5dccf8b02a1dd5503bf0433a6ec2448dedbfe48e0bd6cb757dba070960763a3"
+  },
+  {
+   "b": "6a2840a0d135d0b0c3fac77a555311d19f8fa12cc89f69f321a53ed8da029cb6eaeb0a1333abf64c7b6c763f40d837cf82eb60",
+   "ccitt": 4254,
+   "ccitt0": 14220,
+   "crc32": 3964698814,
+   "modbus": 37881,
+   "r": {
+    "CRC16-CCITT (FFFF)": "109E",
+    "CRC16-Modbus": "93F9",
+    "CRC32": "EC5080BE",
+    "CRC8 Dallas/Maxim": "C3",
+    "SHA-256": "48f62218f104593d527db41d301b3801b671fcdf5edd422372eb5d5feb319bad"
+   },
+   "sha256": "48f62218f104593d527db41d301b3801b671fcdf5edd422372eb5d5feb319bad"
+  },
+  {
+   "b": "c8142d53c0dd591d7f6ef68554560dabff40f538c806953fc43c25edcfb2b63e0927f2574c4a6617ebff5049af4afdfcd2c83004c78c22b44b70badb",
+   "ccitt": 63574,
+   "ccitt0": 23571,
+   "crc32": 1516424190,
+   "modbus": 30218,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F856",
+    "CRC16-Modbus": "760A",
+    "CRC32": "5A62CBFE",
+    "CRC8 Dallas/Maxim": "25",
+    "SHA-256": "03cbb8762e0dd02f66309293590ebc28c33e0ae607306648887eb0d4edc313a5"
+   },
+   "sha256": "03cbb8762e0dd02f66309293590ebc28c33e0ae607306648887eb0d4edc313a5"
+  },
+  {
+   "b": "9f2c24b2f393fa7000268381a771d9",
+   "ccitt": 7155,
+   "ccitt0": 21808,
+   "crc32": 2000871013,
+   "modbus": 24257,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1BF3",
+    "CRC16-Modbus": "5EC1",
+    "CRC32": "7742DE65",
+    "CRC8 Dallas/Maxim": "F5",
+    "SHA-256": "403e0db8d55f2cbe693f6b00991b5e4c9046059d4c4099b304d0c2d3f9589b86"
+   },
+   "sha256": "403e0db8d55f2cbe693f6b00991b5e4c9046059d4c4099b304d0c2d3f9589b86"
+  },
+  {
+   "b": "609dae443fdd5336e30133f8a0d36460bc3686e2f19443186bea68d7f98f1865b2ca809b99944c9a72034ebf01f805b58db5872f3832e173695fff5576a0517dd65d3d83d54c7e5482a5c6f0f5",
+   "ccitt": 57849,
+   "ccitt0": 51877,
+   "crc32": 1731569211,
+   "modbus": 33325,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E1F9",
+    "CRC16-Modbus": "822D",
+    "CRC32": "6735A63B",
+    "CRC8 Dallas/Maxim": "A9",
+    "SHA-256": "3688ab1f132025d22c8c2569c145357b00dcfe405d0afa9e590c35c85c3692ba"
+   },
+   "sha256": "3688ab1f132025d22c8c2569c145357b00dcfe405d0afa9e590c35c85c3692ba"
+  },
+  {
+   "b": "c2b8eda1b82544faefb5b673f007c0fe4ec7b1d76fd6e43a61aeb22a790531faaa6183",
+   "ccitt": 57276,
+   "ccitt0": 17279,
+   "crc32": 2134254679,
+   "modbus": 37423,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DFBC",
+    "CRC16-Modbus": "922F",
+    "CRC32": "7F362457",
+    "CRC8 Dallas/Maxim": "7B",
+    "SHA-256": "c3e1c282b6002bb564b6254b2bb695e168bdc83cfc109d243fce0a09b37c97b9"
+   },
+   "sha256": "c3e1c282b6002bb564b6254b2bb695e168bdc83cfc109d243fce0a09b37c97b9"
+  },
+  {
+   "b": "4e97c85a",
+   "ccitt": 53741,
+   "ccitt0": 21805,
+   "crc32": 709802955,
+   "modbus": 7025,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D1ED",
+    "CRC16-Modbus": "1B71",
+    "CRC32": "2A4EBBCB",
+    "CRC8 Dallas/Maxim": "C0",
+    "SHA-256": "87d7334dfb4e416380c600ca6112fa5a668ab264ba4d9e7e7a00d65a38643039"
+   },
+   "sha256": "87d7334dfb4e416380c600ca6112fa5a668ab264ba4d9e7e7a00d65a38643039"
+  },
+  {
+   "b": "bc20038884a51a3d3be198955037185121be4ca1642ac52187a6e922b920d55761bb2418d958b9cab2f2",
+   "ccitt": 18567,
+   "ccitt0": 63166,
+   "crc32": 3472632261,
+   "modbus": 30363,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4887",
+    "CRC16-Modbus": "769B",
+    "CRC32": "CEFC29C5",
+    "CRC8 Dallas/Maxim": "CF",
+    "SHA-256": "4bb8cb4a798b2722400a7671f5958d5393ca0305eeb8e7126cc31b791650043a"
+   },
+   "sha256": "4bb8cb4a798b2722400a7671f5958d5393ca0305eeb8e7126cc31b791650043a"
+  },
+  {
+   "b": "46797b13869b3eaf1ffb02a3c2a0df930f41c3e7c9856387c26d42839554a6775986432b4aea56fe",
+   "ccitt": 48012,
+   "ccitt0": 15957,
+   "crc32": 1508700301,
+   "modbus": 9191,
+   "r": {
+    "CRC16-CCITT (FFFF)": "BB8C",
+    "CRC16-Modbus": "23E7",
+    "CRC32": "59ECF08D",
+    "CRC8 Dallas/Maxim": "6B",
+    "SHA-256": "a0f45df4cb8a24fee4c23be2ad54ac7ea08b645a43650db8b0b403ce839c548e"
+   },
+   "sha256": "a0f45df4cb8a24fee4c23be2ad54ac7ea08b645a43650db8b0b403ce839c548e"
+  },
+  {
+   "b": "c5867992c3d7bfad9526c61ad809",
+   "ccitt": 46084,
+   "ccitt0": 7534,
+   "crc32": 335664367,
+   "modbus": 43481,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B404",
+    "CRC16-Modbus": "A9D9",
+    "CRC32": "1401D4EF",
+    "CRC8 Dallas/Maxim": "AD",
+    "SHA-256": "c9353444a2adcd99dd38d035ea1c90c9c9b29e255aa756b6b275b2985fd44077"
+   },
+   "sha256": "c9353444a2adcd99dd38d035ea1c90c9c9b29e255aa756b6b275b2985fd44077"
+  },
+  {
+   "b": "591c7c431f0211f25a8af3eccc0286198f1f7121897ccc3489cdf964b848a0a1651bf4bedeae3124df56c5af3452",
+   "ccitt": 4372,
+   "ccitt0": 6571,
+   "crc32": 1903467758,
+   "modbus": 48379,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1114",
+    "CRC16-Modbus": "BCFB",
+    "CRC32": "71749CEE",
+    "CRC8 Dallas/Maxim": "4E",
+    "SHA-256": "89e23e4dd6e7a9d7a421f7416f3123dc9487a06e242a77fbe4e9b02278e3c84e"
+   },
+   "sha256": "89e23e4dd6e7a9d7a421f7416f3123dc9487a06e242a77fbe4e9b02278e3c84e"
+  },
+  {
+   "b": "84f97479d84a6aed1cce3a41a1d7bf50a11a1f4d1add1e8a4bda8c10862c665a8d",
+   "ccitt": 31455,
+   "ccitt0": 51681,
+   "crc32": 2978035743,
+   "modbus": 34758,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7ADF",
+    "CRC16-Modbus": "87C6",
+    "CRC32": "B181381F",
+    "CRC8 Dallas/Maxim": "E1",
+    "SHA-256": "e8884c7b2cb84b7ea56bae4936c8dff90f90b9bbe38e33f5ce4eaaedda3224b1"
+   },
+   "sha256": "e8884c7b2cb84b7ea56bae4936c8dff90f90b9bbe38e33f5ce4eaaedda3224b1"
+  },
+  {
+   "b": "a0ffbb14de1505849e8b418825a5e083a09e164d7a76180628af2780adfb9dfe99b0d8d7c2b3884552db7d13656ebaae0469903ed4e67a275b1b99a00ec089004e04145ddc424f8689ea87a35947d8a5",
+   "ccitt": 35843,
+   "ccitt0": 45542,
+   "crc32": 4234359326,
+   "modbus": 45677,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8C03",
+    "CRC16-Modbus": "B26D",
+    "CRC32": "FC63321E",
+    "CRC8 Dallas/Maxim": "15",
+    "SHA-256": "ec4561e07a888b5f9c6fdefb57a22548b7acef6301f3ee01b8da449a47bd9c61"
+   },
+   "sha256": "ec4561e07a888b5f9c6fdefb57a22548b7acef6301f3ee01b8da449a47bd9c61"
+  },
+  {
+   "b": "1c4890d2f3b82ee728c05f8e31e2c58a33b241ebe89a7f3eb026e2d1431b1a99d7347342671ef7a0206a6bd8eb19ec546027521374aac5f53e5e00da15cb531d7c4f222056d7034e99",
+   "ccitt": 56180,
+   "ccitt0": 38384,
+   "crc32": 854802133,
+   "modbus": 44222,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DB74",
+    "CRC16-Modbus": "ACBE",
+    "CRC32": "32F33ED5",
+    "CRC8 Dallas/Maxim": "48",
+    "SHA-256": "ea7b0a4affe4ae08d3a14903f72de7b146be77241cb2669ce331ca57ea651a92"
+   },
+   "sha256": "ea7b0a4affe4ae08d3a14903f72de7b146be77241cb2669ce331ca57ea651a92"
+  },
+  {
+   "b": "3b2e1d14d539f24d6c9720ce410275c1aab5734548acacc0",
+   "ccitt": 3657,
+   "ccitt0": 57795,
+   "crc32": 1020512742,
+   "modbus": 15855,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0E49",
+    "CRC16-Modbus": "3DEF",
+    "CRC32": "3CD3C9E6",
+    "CRC8 Dallas/Maxim": "C0",
+    "SHA-256": "2385b796132e52f6c1221e72c90bf395e379e690a57f275c886e5d5d9cc7ac4f"
+   },
+   "sha256": "2385b796132e52f6c1221e72c90bf395e379e690a57f275c886e5d5d9cc7ac4f"
+  },
+  {
+   "b": "04ff30ea072e2ac4bcd90bfc702611e9ad71b6020495e53e328087d8aa4c79d8b58e0cc124b3cd2c9579ead4d4f79a87",
+   "ccitt": 49718,
+   "ccitt0": 7595,
+   "crc32": 941728567,
+   "modbus": 26600,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C236",
+    "CRC16-Modbus": "67E8",
+    "CRC32": "3821A337",
+    "CRC8 Dallas/Maxim": "7A",
+    "SHA-256": "217f87b408d976d7086eb84c053e9294959fa741dee9df0e48d3b6ca72de8b9e"
+   },
+   "sha256": "217f87b408d976d7086eb84c053e9294959fa741dee9df0e48d3b6ca72de8b9e"
+  },
+  {
+   "b": "8d7ed8b4ac75050d8513a1ee33948fc9de7ddc425379e4213d4b0d4851a049cfd26af9fffc5980244d198887541188b27d463e34a517cc8c612caaa53c17582736cdc2",
+   "ccitt": 59269,
+   "ccitt0": 51805,
+   "crc32": 3410256098,
+   "modbus": 15182,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E785",
+    "CRC16-Modbus": "3B4E",
+    "CRC32": "CB4460E2",
+    "CRC8 Dallas/Maxim": "37",
+    "SHA-256": "becfe27973ea58fd7c7372d661dd0697ca81dca85e159f939d6d82cec128c488"
+   },
+   "sha256": "becfe27973ea58fd7c7372d661dd0697ca81dca85e159f939d6d82cec128c488"
+  },
+  {
+   "b": "e5898d5a914ad9efc93e2904b4a227a49172a40de94cda74ff0d25fbe6814bc543bfa0b847823d84f3c6b607fb1b876d1363ba6581118b4e",
+   "ccitt": 34972,
+   "ccitt0": 4403,
+   "crc32": 3675655232,
+   "modbus": 56135,
+   "r": {
+    "CRC16-CCITT (FFFF)": "889C",
+    "CRC16-Modbus": "DB47",
+    "CRC32": "DB160C40",
+    "CRC8 Dallas/Maxim": "9C",
+    "SHA-256": "785bad1b590634d70bc92132ef93da6864f7a29f44d975dee9c1de8e718b4a2e"
+   },
+   "sha256": "785bad1b590634d70bc92132ef93da6864f7a29f44d975dee9c1de8e718b4a2e"
+  },
+  {
+   "b": "3aa1effa5f9b9657a37f7178f3975f08d74ee6dc59bbb7870842b5d6542f705c06c9ca51a3508fa31208412201320ad701b5080aa85693bfdf10775d7a8572ed73bc3c8f33f4",
+   "ccitt": 1502,
+   "ccitt0": 24007,
+   "crc32": 2096218835,
+   "modbus": 18912,
+   "r": {
+    "CRC16-CCITT (FFFF)": "05DE",
+    "CRC16-Modbus": "49E0",
+    "CRC32": "7CF1C2D3",
+    "CRC8 Dallas/Maxim": "0C",
+    "SHA-256": "312f79f5791a416fad3cac133352cd3cfa754d75c5a251eb90117b8bc60c0589"
+   },
+   "sha256": "312f79f5791a416fad3cac133352cd3cfa754d75c5a251eb90117b8bc60c0589"
+  },
+  {
+   "b": "443e9e9e63e2348d794fffb2",
+   "ccitt": 15759,
+   "ccitt0": 47478,
+   "crc32": 686104779,
+   "modbus": 41629,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3D8F",
+    "CRC16-Modbus": "A29D",
+    "CRC32": "28E520CB",
+    "CRC8 Dallas/Maxim": "74",
+    "SHA-256": "2fc13b4016c35c3bcf6016b9714605997335949bdbbeb4248aceb7bdb78c888b"
+   },
+   "sha256": "2fc13b4016c35c3bcf6016b9714605997335949bdbbeb4248aceb7bdb78c888b"
+  },
+  {
+   "b": "8937bccf7f",
+   "ccitt": 58600,
+   "ccitt0": 62948,
+   "crc32": 1471432126,
+   "modbus": 24354,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E4E8",
+    "CRC16-Modbus": "5F22",
+    "CRC32": "57B445BE",
+    "CRC8 Dallas/Maxim": "E4",
+    "SHA-256": "ddfb460ea5666143d2f4c50349cfbb1808936989f662c56700b547c1a70b865a"
+   },
+   "sha256": "ddfb460ea5666143d2f4c50349cfbb1808936989f662c56700b547c1a70b865a"
+  },
+  {
+   "b": "904df9ef4318ded4c1b0f8364fc56eb5882f25d3d31fa4281c87e51ae176b2eb22ff3660636e96ac786fa7d7097862e217f9a5aea9",
+   "ccitt": 12682,
+   "ccitt0": 40072,
+   "crc32": 423374506,
+   "modbus": 2501,
+   "r": {
+    "CRC16-CCITT (FFFF)": "318A",
+    "CRC16-Modbus": "09C5",
+    "CRC32": "193C2EAA",
+    "CRC8 Dallas/Maxim": "30",
+    "SHA-256": "1c31e62d7906590213d308a7b64b423ca74217d3eac0c5a97a9d9a0326af048f"
+   },
+   "sha256": "1c31e62d7906590213d308a7b64b423ca74217d3eac0c5a97a9d9a0326af048f"
+  },
+  {
+   "b": "dc2fe5c128b029aaffe2a1d5a9301c",
+   "ccitt": 50676,
+   "ccitt0": 35639,
+   "crc32": 2660271089,
+   "modbus": 32665,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C5F4",
+    "CRC16-Modbus": "7F99",
+    "CRC32": "9E9083F1",
+    "CRC8 Dallas/Maxim": "E9",
+    "SHA-256": "9a32f8962c50a472e39e4fddd21f355cbb1dd10ebe595b87a534241172e3119f"
+   },
+   "sha256": "9a32f8962c50a472e39e4fddd21f355cbb1dd10ebe595b87a534241172e3119f"
+  },
+  {
+   "b": "699bbd86597a5d72d633eeb950bee070fff0c8dda1f658ab33b24078934dd52645a7a96d1d1159b713dae1f7657d8ef45996e99e8755e4d847534d0acbcd4c8359c86b81f2a41fc5142933",
+   "ccitt": 12946,
+   "ccitt0": 52573,
+   "crc32": 4099271834,
+   "modbus": 32092,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3292",
+    "CRC16-Modbus": "7D5C",
+    "CRC32": "F455EC9A",
+    "CRC8 Dallas/Maxim": "69",
+    "SHA-256": "d118765338e2e6f7384ff4ac5c979e50fb1ca78095055a8138a3f865fad05ffc"
+   },
+   "sha256": "d118765338e2e6f7384ff4ac5c979e50fb1ca78095055a8138a3f865fad05ffc"
+  },
+  {
+   "b": "8a72db53c6be1c782505b5efe6480e61a0a0fb602348cc528e967bf3b64306cb59a43247af7aed32859f6221d8",
+   "ccitt": 27357,
+   "ccitt0": 12334,
+   "crc32": 1383412147,
+   "modbus": 45874,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6ADD",
+    "CRC16-Modbus": "B332",
+    "CRC32": "527531B3",
+    "CRC8 Dallas/Maxim": "F3",
+    "SHA-256": "aa2bb0058a916f547a3a7819dfdabeca225336b1dd80956442fc7c2ec2fd2b24"
+   },
+   "sha256": "aa2bb0058a916f547a3a7819dfdabeca225336b1dd80956442fc7c2ec2fd2b24"
+  },
+  {
+   "b": "4066ddc0f41305dc61572fc92cb6fc0b",
+   "ccitt": 62681,
+   "ccitt0": 40659,
+   "crc32": 616656294,
+   "modbus": 30295,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F4D9",
+    "CRC16-Modbus": "7657",
+    "CRC32": "24C16DA6",
+    "CRC8 Dallas/Maxim": "3A",
+    "SHA-256": "f7d09fc821d689e72532c8c58c332fdc4abd3b392cb9f0788a62e34e86898360"
+   },
+   "sha256": "f7d09fc821d689e72532c8c58c332fdc4abd3b392cb9f0788a62e34e86898360"
+  },
+  {
+   "b": "a50f569400423ee83271c2c9e02a933e66",
+   "ccitt": 10057,
+   "ccitt0": 57509,
+   "crc32": 96010756,
+   "modbus": 17467,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2749",
+    "CRC16-Modbus": "443B",
+    "CRC32": "05B90204",
+    "CRC8 Dallas/Maxim": "B3",
+    "SHA-256": "2306623866031b25b91e5d08b6e06800607af06fd286ae4bbcaa2e2714232b40"
+   },
+   "sha256": "2306623866031b25b91e5d08b6e06800607af06fd286ae4bbcaa2e2714232b40"
+  },
+  {
+   "b": "43da91746fe1f27098c26fd804f4cfc08589316786d5c82207336d5286e2a913332d14d30bf41364726378c6737eaa19b9bef6d6b21217d785284aa17a3151aba9c79f54517873782a",
+   "ccitt": 49397,
+   "ccitt0": 36465,
+   "crc32": 3211652982,
+   "modbus": 54517,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C0F5",
+    "CRC16-Modbus": "D4F5",
+    "CRC32": "BF6DEF76",
+    "CRC8 Dallas/Maxim": "C6",
+    "SHA-256": "f83d29b657a26cd8e95fd8ec6aaef7c997e3e92d2c055872eb58d03a2a052828"
+   },
+   "sha256": "f83d29b657a26cd8e95fd8ec6aaef7c997e3e92d2c055872eb58d03a2a052828"
+  },
+  {
+   "b": "9dc5dcdc01bf4546454734ac4b494aca883863bea8d85195038574be28926aaebe80f5ecef0e9b998f1baa4ef138d9f0f4470de523b6a797",
+   "ccitt": 22922,
+   "ccitt0": 49189,
+   "crc32": 3519846339,
+   "modbus": 61687,
+   "r": {
+    "CRC16-CCITT (FFFF)": "598A",
+    "CRC16-Modbus": "F0F7",
+    "CRC32": "D1CC97C3",
+    "CRC8 Dallas/Maxim": "DF",
+    "SHA-256": "7ac49c4a63d3219b7236994b58bb8e38be6eb3ad278925349d4123695e95ef8b"
+   },
+   "sha256": "7ac49c4a63d3219b7236994b58bb8e38be6eb3ad278925349d4123695e95ef8b"
+  },
+  {
+   "b": "40403a3e07942ddb23a4513fee7f29de890bed011708020613fed98f2ab011f3d814d7ccdbb5134feb68f7729ad1b42246d7a875e38a82fef9bdd775da72c50ccf07061d6bc6ed",
+   "ccitt": 11037,
+   "ccitt0": 59872,
+   "crc32": 2495704679,
+   "modbus": 13919,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2B1D",
+    "CRC16-Modbus": "365F",
+    "CRC32": "94C16E67",
+    "CRC8 Dallas/Maxim": "D4",
+    "SHA-256": "906a113f07eb77ef4430121016b79504d25c121eb0dd5fb1d302d9180a31c301"
+   },
+   "sha256": "906a113f07eb77ef4430121016b79504d25c121eb0dd5fb1d302d9180a31c301"
+  },
+  {
+   "b": "c550d827d91a57dad5e23b657bef69252f56abb1d394c4ad5a5158bca3be95410982b9b280628240f04a197a76e169cdd55c2d9a7d",
+   "ccitt": 28018,
+   "ccitt0": 49264,
+   "crc32": 3721241265,
+   "modbus": 13917,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6D72",
+    "CRC16-Modbus": "365D",
+    "CRC32": "DDCDA2B1",
+    "CRC8 Dallas/Maxim": "61",
+    "SHA-256": "80b1d203a06b0c801b8d846d70d28cd37e2944b8eb48de3563d30b49259d6181"
+   },
+   "sha256": "80b1d203a06b0c801b8d846d70d28cd37e2944b8eb48de3563d30b49259d6181"
+  },
+  {
+   "b": "2d63c9f5d4956e4c7334a898b3ef",
+   "ccitt": 27160,
+   "ccitt0": 50034,
+   "crc32": 3760378020,
+   "modbus": 25596,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6A18",
+    "CRC16-Modbus": "63FC",
+    "CRC32": "E022D0A4",
+    "CRC8 Dallas/Maxim": "9F",
+    "SHA-256": "f86e8b644e79cc2a8c32b7bcd0cf749c5528ec02952203949d2bafd4de5fa579"
+   },
+   "sha256": "f86e8b644e79cc2a8c32b7bcd0cf749c5528ec02952203949d2bafd4de5fa579"
+  },
+  {
+   "b": "14945261acdc8ad450906d4a3a17ef631b2398e3d449510b9b77",
+   "ccitt": 49160,
+   "ccitt0": 61510,
+   "crc32": 105755711,
+   "modbus": 16622,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C008",
+    "CRC16-Modbus": "40EE",
+    "CRC32": "064DB43F",
+    "CRC8 Dallas/Maxim": "54",
+    "SHA-256": "3482940a7aa2303df7256079b87b4e9141948cc7c2eba99ea0870b41fd25a633"
+   },
+   "sha256": "3482940a7aa2303df7256079b87b4e9141948cc7c2eba99ea0870b41fd25a633"
+  },
+  {
+   "b": "b6366e145b33748f273f",
+   "ccitt": 1695,
+   "ccitt0": 59302,
+   "crc32": 2313612872,
+   "modbus": 57155,
+   "r": {
+    "CRC16-CCITT (FFFF)": "069F",
+    "CRC16-Modbus": "DF43",
+    "CRC32": "89E6EE48",
+    "CRC8 Dallas/Maxim": "B4",
+    "SHA-256": "06c88e9e1bec58fb61ff1b4fa51e3b8e0c96dd4772d420c79b1c171c9b320c0a"
+   },
+   "sha256": "06c88e9e1bec58fb61ff1b4fa51e3b8e0c96dd4772d420c79b1c171c9b320c0a"
+  },
+  {
+   "b": "edeac7df91bf9e2cd10ea10d2c951213476d9aba819e7cba44dd18f95bfca69350aea399dea838",
+   "ccitt": 57309,
+   "ccitt0": 10711,
+   "crc32": 2745752447,
+   "modbus": 7600,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DFDD",
+    "CRC16-Modbus": "1DB0",
+    "CRC32": "A3A8DB7F",
+    "CRC8 Dallas/Maxim": "19",
+    "SHA-256": "bc86f5baafa6354de0d86d3f05ee4ba9bf0aa0319b87f04f202b1a95ee202796"
+   },
+   "sha256": "bc86f5baafa6354de0d86d3f05ee4ba9bf0aa0319b87f04f202b1a95ee202796"
+  },
+  {
+   "b": "925d4a588da41c1f8b84a0c1744a42a301e957dcfc9c94f953490bcea0c5904dd6ac1e6f044a90ddb22f4bfc777d76e361b2",
+   "ccitt": 11788,
+   "ccitt0": 30977,
+   "crc32": 94995986,
+   "modbus": 50310,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2E0C",
+    "CRC16-Modbus": "C486",
+    "CRC32": "05A98612",
+    "CRC8 Dallas/Maxim": "6A",
+    "SHA-256": "62fae2ca4c1af126dae524ce25d8c1ed06004845f4b9dcffd3a0756e2854acc0"
+   },
+   "sha256": "62fae2ca4c1af126dae524ce25d8c1ed06004845f4b9dcffd3a0756e2854acc0"
+  },
+  {
+   "b": "45554a66b73427a22e5fa74aa38649b9d3f404a7d9c4e65859acbc3cd033d3313c9fdf1bc456be2c9b8fc0b33a3679d1581766005d8a56f36f5b9e56bcc5265f12159996ef1cb313351d008bdad4",
+   "ccitt": 29594,
+   "ccitt0": 47763,
+   "crc32": 1945135266,
+   "modbus": 45253,
+   "r": {
+    "CRC16-CCITT (FFFF)": "739A",
+    "CRC16-Modbus": "B0C5",
+    "CRC32": "73F068A2",
+    "CRC8 Dallas/Maxim": "01",
+    "SHA-256": "26892dd3ccf903975151f521e1d766bb3009da68c22e5ae58fe917f00f42ef17"
+   },
+   "sha256": "26892dd3ccf903975151f521e1d766bb3009da68c22e5ae58fe917f00f42ef17"
+  },
+  {
+   "b": "dc33",
+   "ccitt": 19317,
+   "ccitt0": 22138,
+   "crc32": 3548707322,
+   "modbus": 25881,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4B75",
+    "CRC16-Modbus": "6519",
+    "CRC32": "D384F9FA",
+    "CRC8 Dallas/Maxim": "49",
+    "SHA-256": "d328f42314be9bf1b011ba58c7d0325de0416e23fe2506f76236d27c7296bd1c"
+   },
+   "sha256": "d328f42314be9bf1b011ba58c7d0325de0416e23fe2506f76236d27c7296bd1c"
+  },
+  {
+   "b": "06d626058cfb8bee792309628c4aae242675f8cd2db826268547e4b7ef30fe007e38e32425ae0183",
+   "ccitt": 24991,
+   "ccitt0": 58438,
+   "crc32": 1468003278,
+   "modbus": 35530,
+   "r": {
+    "CRC16-CCITT (FFFF)": "619F",
+    "CRC16-Modbus": "8ACA",
+    "CRC32": "577FF3CE",
+    "CRC8 Dallas/Maxim": "76",
+    "SHA-256": "2895f2d084d4297555b6d039c78073144eb7aa5ac7125997d355197c11664503"
+   },
+   "sha256": "2895f2d084d4297555b6d039c78073144eb7aa5ac7125997d355197c11664503"
+  },
+  {
+   "b": "884d891e136d9556c3ac77fd516625da20b9d9fca6f6141775df3108912b63f2da68b7f5442108e92bde7c12c1afd6eec0a8e0fc48d347da47b923d18c6d",
+   "ccitt": 49394,
+   "ccitt0": 2345,
+   "crc32": 4277843838,
+   "modbus": 43248,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C0F2",
+    "CRC16-Modbus": "A8F0",
+    "CRC32": "FEFAB77E",
+    "CRC8 Dallas/Maxim": "B9",
+    "SHA-256": "6f62ac437d3816e5b797e2f0936966776f93a5a92e9b7b430f043bf1459ea913"
+   },
+   "sha256": "6f62ac437d3816e5b797e2f0936966776f93a5a92e9b7b430f043bf1459ea913"
+  },
+  {
+   "b": "a7bc81dbfbe7b24cce20491e18f81a7a2489c4bc98640b66f2bdeb13e5a642a46408bf2d007bc62df4985f5975aedd29cf3892e8",
+   "ccitt": 60200,
+   "ccitt0": 44461,
+   "crc32": 84483365,
+   "modbus": 13006,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EB28",
+    "CRC16-Modbus": "32CE",
+    "CRC32": "05091D25",
+    "CRC8 Dallas/Maxim": "35",
+    "SHA-256": "07076c613b2087bd0e2a9a687743dec4e8f791d053e5c4322d148e36afd8efe6"
+   },
+   "sha256": "07076c613b2087bd0e2a9a687743dec4e8f791d053e5c4322d148e36afd8efe6"
+  },
+  {
+   "b": "5333b1c6205209c49a65210097b2049b2f8686001a6e81aec1625e801f02fb7fe6ba6f214bd5ebde984a6aa3c2bb937d6afb8714",
+   "ccitt": 53917,
+   "ccitt0": 37912,
+   "crc32": 414077350,
+   "modbus": 25809,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D29D",
+    "CRC16-Modbus": "64D1",
+    "CRC32": "18AE51A6",
+    "CRC8 Dallas/Maxim": "16",
+    "SHA-256": "7c08d38adeab7960c66db4fe34373bedb4de7cb269894aa6ac40d2388837290f"
+   },
+   "sha256": "7c08d38adeab7960c66db4fe34373bedb4de7cb269894aa6ac40d2388837290f"
+  },
+  {
+   "b": "82f81ced091ba18e4bad43b88b4f3f71b089accd04522c8940fda0257df21ae073ed94984eb0116b4ab5e7a1ed6cbf8b4ec74451cca8fc40e9bc7b921d",
+   "ccitt": 55216,
+   "ccitt0": 26590,
+   "crc32": 622770938,
+   "modbus": 59233,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D7B0",
+    "CRC16-Modbus": "E761",
+    "CRC32": "251EBAFA",
+    "CRC8 Dallas/Maxim": "75",
+    "SHA-256": "7a2a32f5d79b5a95b7996a281d80dc36647a9078cf6f969e5490122c2597706f"
+   },
+   "sha256": "7a2a32f5d79b5a95b7996a281d80dc36647a9078cf6f969e5490122c2597706f"
+  },
+  {
+   "b": "ba4844d9bc7e070d0929a2",
+   "ccitt": 47201,
+   "ccitt0": 27758,
+   "crc32": 605734027,
+   "modbus": 26546,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B861",
+    "CRC16-Modbus": "67B2",
+    "CRC32": "241AC48B",
+    "CRC8 Dallas/Maxim": "A2",
+    "SHA-256": "eec85e809474d1d3604713f350d283cae9d60d3f9a8a5dcafa6d3aa3ad016f21"
+   },
+   "sha256": "eec85e809474d1d3604713f350d283cae9d60d3f9a8a5dcafa6d3aa3ad016f21"
+  },
+  {
+   "b": "92195180966bc5db1ee616427e52cde302e52b121d182516328e67e6db668e",
+   "ccitt": 8119,
+   "ccitt0": 57247,
+   "crc32": 626210319,
+   "modbus": 19708,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1FB7",
+    "CRC16-Modbus": "4CFC",
+    "CRC32": "2553360F",
+    "CRC8 Dallas/Maxim": "2C",
+    "SHA-256": "dace25b79dc6d854141ac252d0b6b0a30148c05132342551b20b8d836bbc2363"
+   },
+   "sha256": "dace25b79dc6d854141ac252d0b6b0a30148c05132342551b20b8d836bbc2363"
+  },
+  {
+   "b": "5fc64da066e72156c5597a0eb74155610d653b48d77b4ee55fbda3f619299ed11277962bba8141870629fc22ea12b4d6e91e22c6244db21e21d2c9c0962bdeb4eda0",
+   "ccitt": 33092,
+   "ccitt0": 21746,
+   "crc32": 1572078834,
+   "modbus": 14087,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8144",
+    "CRC16-Modbus": "3707",
+    "CRC32": "5DB404F2",
+    "CRC8 Dallas/Maxim": "11",
+    "SHA-256": "c7325574a66240d0b21f1321677183aade41cf8708de9135285a017581af8d3a"
+   },
+   "sha256": "c7325574a66240d0b21f1321677183aade41cf8708de9135285a017581af8d3a"
+  },
+  {
+   "b": "51ac61a00b1aef3cf50e0066463fa1fa3a7ca6528e4e75f896951718b6710b895dc07168258714297392354a55959af92f9c14a428b9b7995036",
+   "ccitt": 29710,
+   "ccitt0": 37496,
+   "crc32": 1249663703,
+   "modbus": 10439,
+   "r": {
+    "CRC16-CCITT (FFFF)": "740E",
+    "CRC16-Modbus": "28C7",
+    "CRC32": "4A7C5AD7",
+    "CRC8 Dallas/Maxim": "86",
+    "SHA-256": "5550b2e751ae673274d3e3d667a0cd996d09ad5c8c3bfaeaaf2e9db046740a32"
+   },
+   "sha256": "5550b2e751ae673274d3e3d667a0cd996d09ad5c8c3bfaeaaf2e9db046740a32"
+  },
+  {
+   "b": "2deeae1daa1139efcb490c82126f43a1e8b1b43ea76da737c8e22a2174420a0629953b9840e59ea14aa071641dd67af11d06e35ccde5dbaf5f261061227cb6a8a1c3b4f355",
+   "ccitt": 4446,
+   "ccitt0": 11153,
+   "crc32": 1898106402,
+   "modbus": 35505,
+   "r": {
+    "CRC16-CCITT (FFFF)": "115E",
+    "CRC16-Modbus": "8AB1",
+    "CRC32": "7122CE22",
+    "CRC8 Dallas/Maxim": "43",
+    "SHA-256": "39f54edbc1e838d39e3153f8092306d7b01d5c108fd279b71da0041da83360c0"
+   },
+   "sha256": "39f54edbc1e838d39e3153f8092306d7b01d5c108fd279b71da0041da83360c0"
+  },
+  {
+   "b": "fc0c3e82b30a2988d1e80469ef141c8408d923d1d7dfc3aff4814ccaa01e5bda6471fc3ef4878b78",
+   "ccitt": 12501,
+   "ccitt0": 46348,
+   "crc32": 4260755673,
+   "modbus": 1202,
+   "r": {
+    "CRC16-CCITT (FFFF)": "30D5",
+    "CRC16-Modbus": "04B2",
+    "CRC32": "FDF5F8D9",
+    "CRC8 Dallas/Maxim": "AE",
+    "SHA-256": "4e2ec4f22d8fe1d72ec6296be3766b5de9d46f4e8f5a7d814f9680b47cbffd5c"
+   },
+   "sha256": "4e2ec4f22d8fe1d72ec6296be3766b5de9d46f4e8f5a7d814f9680b47cbffd5c"
+  },
+  {
+   "b": "aefd79a7561fa896e7441bb45a986a1e1ab0e2c433288d78be3c",
+   "ccitt": 58199,
+   "ccitt0": 54041,
+   "crc32": 2757108977,
+   "modbus": 27726,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E357",
+    "CRC16-Modbus": "6C4E",
+    "CRC32": "A45624F1",
+    "CRC8 Dallas/Maxim": "C6",
+    "SHA-256": "8c3ffb87ae607213a9158f3a37cd4cced2de1288b57d2e2d6937a273c6b8a29f"
+   },
+   "sha256": "8c3ffb87ae607213a9158f3a37cd4cced2de1288b57d2e2d6937a273c6b8a29f"
+  },
+  {
+   "b": "5e051b6ffdec294001934ec422810626e575e5cb65f4a8",
+   "ccitt": 28501,
+   "ccitt0": 43267,
+   "crc32": 1977597383,
+   "modbus": 45636,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6F55",
+    "CRC16-Modbus": "B244",
+    "CRC32": "75DFBDC7",
+    "CRC8 Dallas/Maxim": "E2",
+    "SHA-256": "8488fe1e5ab06368c8af01f4106ebbfaee3f6a33070b2995977049ef9e138656"
+   },
+   "sha256": "8488fe1e5ab06368c8af01f4106ebbfaee3f6a33070b2995977049ef9e138656"
+  },
+  {
+   "b": "39a665653341d044a5dd08be017841606e1aecf19ab7a6c18ea8cb99a77cd665cbe24bddfa80342110aebeba8e24ba663919ddacb64fb8b98f0bc70e0dd149076d12d584372f",
+   "ccitt": 12381,
+   "ccitt0": 26692,
+   "crc32": 3201776956,
+   "modbus": 36396,
+   "r": {
+    "CRC16-CCITT (FFFF)": "305D",
+    "CRC16-Modbus": "8E2C",
+    "CRC32": "BED73D3C",
+    "CRC8 Dallas/Maxim": "F8",
+    "SHA-256": "5e4b8d234d918e45106bbbff406c2ddd34c000794574078e76aa909c55b4cbe9"
+   },
+   "sha256": "5e4b8d234d918e45106bbbff406c2ddd34c000794574078e76aa909c55b4cbe9"
+  },
+  {
+   "b": "b2a84f2a94589b60a7b249b0b3041ab0a23299984e0a0696a2afe50bfb31ae38297e88a5810acf76a92694546946170560bc855fd4d97ee383ae40313631b217de7e6dc2cd343fd1144ffe",
+   "ccitt": 38073,
+   "ccitt0": 27510,
+   "crc32": 2643652855,
+   "modbus": 2321,
+   "r": {
+    "CRC16-CCITT (FFFF)": "94B9",
+    "CRC16-Modbus": "0911",
+    "CRC32": "9D92F0F7",
+    "CRC8 Dallas/Maxim": "9A",
+    "SHA-256": "a8594d9b7e49f6870dff89bfab7fa4390c4546c74029faf735a78e2498c9ad43"
+   },
+   "sha256": "a8594d9b7e49f6870dff89bfab7fa4390c4546c74029faf735a78e2498c9ad43"
+  },
+  {
+   "b": "ebe883c898954228cf17aeb643ca640de357e8cfb2e8c94ee4ab2346abd3b11e86e9369a2ff8f4e5f13690ef128e229b08c9194eec6d24f3e234cb72bce2eb71c0",
+   "ccitt": 15116,
+   "ccitt0": 19127,
+   "crc32": 75434548,
+   "modbus": 57371,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3B0C",
+    "CRC16-Modbus": "E01B",
+    "CRC32": "047F0A34",
+    "CRC8 Dallas/Maxim": "04",
+    "SHA-256": "cc3d20dd33f725dd54ad09212870096288fc82de9254beb19e853f36044ae32f"
+   },
+   "sha256": "cc3d20dd33f725dd54ad09212870096288fc82de9254beb19e853f36044ae32f"
+  },
+  {
+   "b": "6b6dbc2903e77a",
+   "ccitt": 30244,
+   "ccitt0": 34794,
+   "crc32": 185834772,
+   "modbus": 61354,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7624",
+    "CRC16-Modbus": "EFAA",
+    "CRC32": "0B139D14",
+    "CRC8 Dallas/Maxim": "E3",
+    "SHA-256": "18c412123d77cdd6619b97cbe72d7917b9f1424cc229ad017b7ac05db16ce740"
+   },
+   "sha256": "18c412123d77cdd6619b97cbe72d7917b9f1424cc229ad017b7ac05db16ce740"
+  },
+  {
+   "b": "de",
+   "ccitt": 52035,
+   "ccitt0": 10931,
+   "crc32": 3010007134,
+   "modbus": 6207,
+   "r": {
+    "CRC16-CCITT (FFFF)": "CB43",
+    "CRC16-Modbus": "183F",
+    "CRC32": "B369105E",
+    "CRC8 Dallas/Maxim": "48",
+    "SHA-256": "7941cb07924fdc7b710e11d98d82850e89566e1c3cb980517ffe4b430f86dfd5"
+   },
+   "sha256": "7941cb07924fdc7b710e11d98d82850e89566e1c3cb980517ffe4b430f86dfd5"
+  },
+  {
+   "b": "9ba37492b1593fa71ddbd46505c3e0066095bcab571b7a1a9b9a0ad846e9f5d9db13311f5ae70a0537ceeb204f3d55c71d4ed0923221343f6f3c4f",
+   "ccitt": 36853,
+   "ccitt0": 25629,
+   "crc32": 3140176671,
+   "modbus": 53523,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8FF5",
+    "CRC16-Modbus": "D113",
+    "CRC32": "BB2B4B1F",
+    "CRC8 Dallas/Maxim": "45",
+    "SHA-256": "3e4229a78d2848bc6ba5a9390adfb613bea74d12c27b06268bb7c29353e8280e"
+   },
+   "sha256": "3e4229a78d2848bc6ba5a9390adfb613bea74d12c27b06268bb7c29353e8280e"
+  },
+  {
+   "b": "4153530e150481e3ba235de3adc7cc6c17836a88af19649ea3acb660b38bd542e81c01c04ba001dd5f8610f9cda535711310882b77d1cc3fab6b07",
+   "ccitt": 60780,
+   "ccitt0": 1668,
+   "crc32": 1683564686,
+   "modbus": 56904,
+   "r": {
+    "CRC16-CCITT (FFFF)": "ED6C",
+    "CRC16-Modbus": "DE48",
+    "CRC32": "6459288E",
+    "CRC8 Dallas/Maxim": "E1",
+    "SHA-256": "2c446edb3749cfccfc133cbb5aacfa02aa106f00929753ed10dce9b62fc38794"
+   },
+   "sha256": "2c446edb3749cfccfc133cbb5aacfa02aa106f00929753ed10dce9b62fc38794"
+  },
+  {
+   "b": "95d85982",
+   "ccitt": 14274,
+   "ccitt0": 45826,
+   "crc32": 1083158035,
+   "modbus": 57879,
+   "r": {
+    "CRC16-CCITT (FFFF)": "37C2",
+    "CRC16-Modbus": "E217",
+    "CRC32": "408FAE13",
+    "CRC8 Dallas/Maxim": "A9",
+    "SHA-256": "3e09ccd066b1283382aad55148c7f54061d9004b020765aedaec58d77754f982"
+   },
+   "sha256": "3e09ccd066b1283382aad55148c7f54061d9004b020765aedaec58d77754f982"
+  },
+  {
+   "b": "7ac841ada698a3cf28346179a1cd20910c67cd00ece66187380785a15eb9d823460848c420617b6867b9ac2beb85b802053ee9cccafecfbcfdc1d1",
+   "ccitt": 43127,
+   "ccitt0": 17311,
+   "crc32": 860559045,
+   "modbus": 17384,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A877",
+    "CRC16-Modbus": "43E8",
+    "CRC32": "334B16C5",
+    "CRC8 Dallas/Maxim": "F7",
+    "SHA-256": "1ee4b2c1bf87e8590f77afbbad65e4be898e4c82144591efa04fdb84d17046f1"
+   },
+   "sha256": "1ee4b2c1bf87e8590f77afbbad65e4be898e4c82144591efa04fdb84d17046f1"
+  },
+  {
+   "b": "d7229ea3",
+   "ccitt": 11045,
+   "ccitt0": 45029,
+   "crc32": 18061684,
+   "modbus": 33713,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2B25",
+    "CRC16-Modbus": "83B1",
+    "CRC32": "01139974",
+    "CRC8 Dallas/Maxim": "0E",
+    "SHA-256": "49156aacda2d33e7d93113759f6f5af5ec7ff3b9a2ec4184a187d1ec675ef609"
+   },
+   "sha256": "49156aacda2d33e7d93113759f6f5af5ec7ff3b9a2ec4184a187d1ec675ef609"
+  },
+  {
+   "b": "9714786121b8",
+   "ccitt": 64832,
+   "ccitt0": 62288,
+   "crc32": 2323296547,
+   "modbus": 41853,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FD40",
+    "CRC16-Modbus": "A37D",
+    "CRC32": "8A7AB123",
+    "CRC8 Dallas/Maxim": "18",
+    "SHA-256": "ad71ef7b196ae62ecd61d507f34329ea764ba89e604e2398f3d691ee6ba77188"
+   },
+   "sha256": "ad71ef7b196ae62ecd61d507f34329ea764ba89e604e2398f3d691ee6ba77188"
+  },
+  {
+   "b": "4b5dbf389c32c0d81d5ffb03d070df0d203ff7b12376050920177e993e1a57875275fbfcfe483644167ffb348e2d294c257e2671acf9af36832bd01ef8372d1734a5",
+   "ccitt": 12752,
+   "ccitt0": 58470,
+   "crc32": 2936869402,
+   "modbus": 2696,
+   "r": {
+    "CRC16-CCITT (FFFF)": "31D0",
+    "CRC16-Modbus": "0A88",
+    "CRC32": "AF0D121A",
+    "CRC8 Dallas/Maxim": "1E",
+    "SHA-256": "bb6edddb22cac6607829a969aa626546724f0a715c58b094a7cd89eea005f208"
+   },
+   "sha256": "bb6edddb22cac6607829a969aa626546724f0a715c58b094a7cd89eea005f208"
+  },
+  {
+   "b": "1b10b3ffbaa9",
+   "ccitt": 41735,
+   "ccitt0": 44311,
+   "crc32": 3092008094,
+   "modbus": 39271,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A307",
+    "CRC16-Modbus": "9967",
+    "CRC32": "B84C4C9E",
+    "CRC8 Dallas/Maxim": "C2",
+    "SHA-256": "65cc2770591f4e15deb8fcd7f22624f2e7b8d664c1e0e12bf82a5929cbe81c25"
+   },
+   "sha256": "65cc2770591f4e15deb8fcd7f22624f2e7b8d664c1e0e12bf82a5929cbe81c25"
+  },
+  {
+   "b": "000302623b2a84bbe14bdae4e5fe42dc934c8540313447962946e4baa0efc87a02099bb013ee4987e7abbeaeb7c9d440f9db3781c6da09",
+   "ccitt": 47440,
+   "ccitt0": 62000,
+   "crc32": 1035340775,
+   "modbus": 15248,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B950",
+    "CRC16-Modbus": "3B90",
+    "CRC32": "3DB60BE7",
+    "CRC8 Dallas/Maxim": "5E",
+    "SHA-256": "02236a856818fab74ae56e926f70ccc44640958be982402ea25a0b42a31c6c26"
+   },
+   "sha256": "02236a856818fab74ae56e926f70ccc44640958be982402ea25a0b42a31c6c26"
+  },
+  {
+   "b": "498d815e85b3f833ba0c589e5301452f5404975ceef1af2f50fcefd15d8b586a53e62f3ff779c0452a",
+   "ccitt": 41133,
+   "ccitt0": 47232,
+   "crc32": 1168583723,
+   "modbus": 16879,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A0AD",
+    "CRC16-Modbus": "41EF",
+    "CRC32": "45A72C2B",
+    "CRC8 Dallas/Maxim": "DA",
+    "SHA-256": "2eec2312028f0975d026ac73836623ae9a3f7212c366fbf3327f51798a019972"
+   },
+   "sha256": "2eec2312028f0975d026ac73836623ae9a3f7212c366fbf3327f51798a019972"
+  },
+  {
+   "b": "85045142921fc4ebe1d278be6c4f0986a47bf288849450c30f5b58b71b4cb3cf4d6c9709782d5d1aa73908c0233d6221dd794a561797663c54501ee99b37",
+   "ccitt": 28452,
+   "ccitt0": 42751,
+   "crc32": 2379551381,
+   "modbus": 9279,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6F24",
+    "CRC16-Modbus": "243F",
+    "CRC32": "8DD51295",
+    "CRC8 Dallas/Maxim": "56",
+    "SHA-256": "e191610647a2ce761eb4fc91e200a40a0856b6c8ba720ebe1b6149ec417c286d"
+   },
+   "sha256": "e191610647a2ce761eb4fc91e200a40a0856b6c8ba720ebe1b6149ec417c286d"
+  },
+  {
+   "b": "04d18108dbdd46b71fdc59e85bef4b0061d3f26f168b049b3490d45f01f9ac827d81e1bc5bf315b18023",
+   "ccitt": 56514,
+   "ccitt0": 25339,
+   "crc32": 1250202365,
+   "modbus": 38049,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DCC2",
+    "CRC16-Modbus": "94A1",
+    "CRC32": "4A8492FD",
+    "CRC8 Dallas/Maxim": "12",
+    "SHA-256": "2601309f8da93fea72ff36b021436388b2cbf40770c32779394d0da4edfee8e4"
+   },
+   "sha256": "2601309f8da93fea72ff36b021436388b2cbf40770c32779394d0da4edfee8e4"
+  },
+  {
+   "b": "c1fb791dd51ab818ba743a8a261f86d6884092b6388badb9637b5ccc84581f9aadd8f468acb5329e899083d58c0f1fd299843d1543a9d7fd4ce4eb45bcf1de449ae7018838dd",
+   "ccitt": 27268,
+   "ccitt0": 12957,
+   "crc32": 290169012,
+   "modbus": 61120,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6A84",
+    "CRC16-Modbus": "EEC0",
+    "CRC32": "114BA0B4",
+    "CRC8 Dallas/Maxim": "DB",
+    "SHA-256": "437e62677935b82a0a03f5599458dd047abac9ef41bf8f0b8dfe1b35508b029f"
+   },
+   "sha256": "437e62677935b82a0a03f5599458dd047abac9ef41bf8f0b8dfe1b35508b029f"
+  },
+  {
+   "b": "0d9846396371e12aafaa",
+   "ccitt": 9341,
+   "ccitt0": 50500,
+   "crc32": 3144127291,
+   "modbus": 49560,
+   "r": {
+    "CRC16-CCITT (FFFF)": "247D",
+    "CRC16-Modbus": "C198",
+    "CRC32": "BB67933B",
+    "CRC8 Dallas/Maxim": "96",
+    "SHA-256": "80797a897a9e17b4d62b62cd96b826af748964506eeab2d981b3bd51df9dd5e8"
+   },
+   "sha256": "80797a897a9e17b4d62b62cd96b826af748964506eeab2d981b3bd51df9dd5e8"
+  },
+  {
+   "b": "486953a7592fbcf21492e9a4f9e9a3d9afe498890b9060a5da8198d6297dbb20a4f52f459d424f6ab5c41812ac9d",
+   "ccitt": 54226,
+   "ccitt0": 56173,
+   "crc32": 3492453734,
+   "modbus": 41508,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D3D2",
+    "CRC16-Modbus": "A224",
+    "CRC32": "D02A9D66",
+    "CRC8 Dallas/Maxim": "EC",
+    "SHA-256": "822116d62343b5e7ea44ebbf232cc902f60bd60127e958e8261dc6f37b21f5c2"
+   },
+   "sha256": "822116d62343b5e7ea44ebbf232cc902f60bd60127e958e8261dc6f37b21f5c2"
+  },
+  {
+   "b": "755528a4b1d41e5b75caa9feed1c6cbc8d682b62e512257396ad7f01e8329086e111cb42a5bef7094129474b7d3c931bdf28",
+   "ccitt": 54341,
+   "ccitt0": 33608,
+   "crc32": 1694915398,
+   "modbus": 44079,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D445",
+    "CRC16-Modbus": "AC2F",
+    "CRC32": "65065B46",
+    "CRC8 Dallas/Maxim": "58",
+    "SHA-256": "ab69ecc5400ff5b6585f5499e06bca130d25279c818ae61b7f1dcbb787c64fa5"
+   },
+   "sha256": "ab69ecc5400ff5b6585f5499e06bca130d25279c818ae61b7f1dcbb787c64fa5"
+  },
+  {
+   "b": "31204a82eb0b7f419626245635eba8bdacdd9bb53f4d3f47ac564fd8378df4ab7923ec15d661244e93687a966d",
+   "ccitt": 52817,
+   "ccitt0": 38050,
+   "crc32": 3324451602,
+   "modbus": 9462,
+   "r": {
+    "CRC16-CCITT (FFFF)": "CE51",
+    "CRC16-Modbus": "24F6",
+    "CRC32": "C6271B12",
+    "CRC8 Dallas/Maxim": "5A",
+    "SHA-256": "edec8c75530428350e657bca6ca353e382be96dc45c9547e4e86329d29bcf40f"
+   },
+   "sha256": "edec8c75530428350e657bca6ca353e382be96dc45c9547e4e86329d29bcf40f"
+  },
+  {
+   "b": "5ce3ac9322365a230de5c463a15474a6754fd7456d839fb4459277e93cbb3a019fce",
+   "ccitt": 5661,
+   "ccitt0": 49061,
+   "crc32": 410155967,
+   "modbus": 40688,
+   "r": {
+    "CRC16-CCITT (FFFF)": "161D",
+    "CRC16-Modbus": "9EF0",
+    "CRC32": "18727BBF",
+    "CRC8 Dallas/Maxim": "2A",
+    "SHA-256": "1b1f02b28c4fae9d5762e4641773a59535da45786d982f534805746644614557"
+   },
+   "sha256": "1b1f02b28c4fae9d5762e4641773a59535da45786d982f534805746644614557"
+  },
+  {
+   "b": "2ee15b4f3c492d58d771ce09284bedc8976c484c5d0773c579e48351e96faa3165454a7ce4d8e8bac9effaf85e2152d346a0aad2d3654e2c26351e",
+   "ccitt": 16749,
+   "ccitt0": 43653,
+   "crc32": 4127255544,
+   "modbus": 56956,
+   "r": {
+    "CRC16-CCITT (FFFF)": "416D",
+    "CRC16-Modbus": "DE7C",
+    "CRC32": "F600EBF8",
+    "CRC8 Dallas/Maxim": "BC",
+    "SHA-256": "4faae2d1cb6100a85b544ab9ec8955a7b633bc1dc9c9b70e966b2ebf0f3414eb"
+   },
+   "sha256": "4faae2d1cb6100a85b544ab9ec8955a7b633bc1dc9c9b70e966b2ebf0f3414eb"
+  },
+  {
+   "b": "6f2c46a3bd6b96ce3481761799c65c1295169b1186a06c573271bfa4",
+   "ccitt": 22469,
+   "ccitt0": 64346,
+   "crc32": 2739778882,
+   "modbus": 62742,
+   "r": {
+    "CRC16-CCITT (FFFF)": "57C5",
+    "CRC16-Modbus": "F516",
+    "CRC32": "A34DB542",
+    "CRC8 Dallas/Maxim": "F1",
+    "SHA-256": "e85546305a33df6c1e5099472d4a109d05ff0ac44724449f45bde7470c077b65"
+   },
+   "sha256": "e85546305a33df6c1e5099472d4a109d05ff0ac44724449f45bde7470c077b65"
+  },
+  {
+   "b": "b82d",
+   "ccitt": 32612,
+   "ccitt0": 25195,
+   "crc32": 672819770,
+   "modbus": 44467,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7F64",
+    "CRC16-Modbus": "ADB3",
+    "CRC32": "281A6A3A",
+    "CRC8 Dallas/Maxim": "AA",
+    "SHA-256": "ef3388b49e5b4ea641ee7a25dccf64a186dce81114d17250c35b5d5dcd71b9e3"
+   },
+   "sha256": "ef3388b49e5b4ea641ee7a25dccf64a186dce81114d17250c35b5d5dcd71b9e3"
+  },
+  {
+   "b": "473bc657ff7e90ed3d801241f5e270823c41fcc4b4b8e518c06fba6a5e1ff167d2add195b6585260bc3dcae3906f",
+   "ccitt": 19374,
+   "ccitt0": 17169,
+   "crc32": 721910820,
+   "modbus": 29254,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4BAE",
+    "CRC16-Modbus": "7246",
+    "CRC32": "2B077C24",
+    "CRC8 Dallas/Maxim": "49",
+    "SHA-256": "560f729729a9d57bb9861c23da6289f35ea261d0c3314c4843f0d1f645a03fc3"
+   },
+   "sha256": "560f729729a9d57bb9861c23da6289f35ea261d0c3314c4843f0d1f645a03fc3"
+  },
+  {
+   "b": "a44166c31a3aae4fa8e41eb5bb62ef64d448f3df1147cc3f39bf19ced4a2a66cba3ce72357e4ff862d2240e5314ba09d04bbc7bb8cf8be6f8dc18693bc10bb0e284822ab988f5cce8fdc82a8b6",
+   "ccitt": 49204,
+   "ccitt0": 60264,
+   "crc32": 3836405091,
+   "modbus": 20003,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C034",
+    "CRC16-Modbus": "4E23",
+    "CRC32": "E4AAE563",
+    "CRC8 Dallas/Maxim": "E9",
+    "SHA-256": "3a90956d3467fa32337d7fbfbf42e80ff58cb07529606c0b080d371016df9832"
+   },
+   "sha256": "3a90956d3467fa32337d7fbfbf42e80ff58cb07529606c0b080d371016df9832"
+  },
+  {
+   "b": "1ec0c52b46c0fc6cc39bf4bcf1b51ede4836c037ea9222f11aebcde8723166f8896abdeff719e1e7f727834a0a1a7b450abad18edd",
+   "ccitt": 10833,
+   "ccitt0": 34643,
+   "crc32": 3638857511,
+   "modbus": 19937,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2A51",
+    "CRC16-Modbus": "4DE1",
+    "CRC32": "D8E48F27",
+    "CRC8 Dallas/Maxim": "55",
+    "SHA-256": "492f6d518a0aa8eb9f40177a116a62179e430369fe7022e74db9ae3ff2b3857c"
+   },
+   "sha256": "492f6d518a0aa8eb9f40177a116a62179e430369fe7022e74db9ae3ff2b3857c"
+  },
+  {
+   "b": "c911d19abd12b855d474b22fd9",
+   "ccitt": 1702,
+   "ccitt0": 11946,
+   "crc32": 1634625840,
+   "modbus": 40486,
+   "r": {
+    "CRC16-CCITT (FFFF)": "06A6",
+    "CRC16-Modbus": "9E26",
+    "CRC32": "616E6930",
+    "CRC8 Dallas/Maxim": "65",
+    "SHA-256": "c0e6478f3913865520423d4514ae06f4ff075cea1ad572f03b7c3da3a23ddba6"
+   },
+   "sha256": "c0e6478f3913865520423d4514ae06f4ff075cea1ad572f03b7c3da3a23ddba6"
+  },
+  {
+   "b": "23dd073d3299be17f7487e9e8975a0a04ae68b20c18705bf1b606dff0ca82f0b86837a7e2781090d95b8c76b7a68abcd9f308a51725be76c0cd61fdc8ef1639b2486d09aa17b06f678f4997a883f192d",
+   "ccitt": 48269,
+   "ccitt0": 33128,
+   "crc32": 1668159813,
+   "modbus": 28977,
+   "r": {
+    "CRC16-CCITT (FFFF)": "BC8D",
+    "CRC16-Modbus": "7131",
+    "CRC32": "636E1945",
+    "CRC8 Dallas/Maxim": "07",
+    "SHA-256": "55bd84df35c6adfc15dd36cc729443dd94188f98f953b00b8681fed23b2eafd6"
+   },
+   "sha256": "55bd84df35c6adfc15dd36cc729443dd94188f98f953b00b8681fed23b2eafd6"
+  },
+  {
+   "b": "5aabf92d9292002c704a5f33f1d865b02015de52109840b558a089ae47f16dd2a29d",
+   "ccitt": 10895,
+   "ccitt0": 33591,
+   "crc32": 2742115957,
+   "modbus": 1155,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2A8F",
+    "CRC16-Modbus": "0483",
+    "CRC32": "A3715E75",
+    "CRC8 Dallas/Maxim": "53",
+    "SHA-256": "0cba2ea583753a53818897a02ed2677b0d806373ddec98e21252da73bd7f4674"
+   },
+   "sha256": "0cba2ea583753a53818897a02ed2677b0d806373ddec98e21252da73bd7f4674"
+  },
+  {
+   "b": "8cb6",
+   "ccitt": 34023,
+   "ccitt0": 39400,
+   "crc32": 4109226753,
+   "modbus": 50916,
+   "r": {
+    "CRC16-CCITT (FFFF)": "84E7",
+    "CRC16-Modbus": "C6E4",
+    "CRC32": "F4EDD301",
+    "CRC8 Dallas/Maxim": "8D",
+    "SHA-256": "b249b54aab5f8e0ba1f4dbead2553a37939834cd0cfdfc72da39a1c7c0036b40"
+   },
+   "sha256": "b249b54aab5f8e0ba1f4dbead2553a37939834cd0cfdfc72da39a1c7c0036b40"
+  },
+  {
+   "b": "bd73f9d12fd4f7610d51e7ee7bc535269ec2fbb87117",
+   "ccitt": 64452,
+   "ccitt0": 25712,
+   "crc32": 2851858092,
+   "modbus": 33163,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FBC4",
+    "CRC16-Modbus": "818B",
+    "CRC32": "A9FBE6AC",
+    "CRC8 Dallas/Maxim": "E2",
+    "SHA-256": "3cfd2f0c3dbd95eeed6c9e9bdd4f5d8ce0f731eb11f85bda7a49b74ef93172b3"
+   },
+   "sha256": "3cfd2f0c3dbd95eeed6c9e9bdd4f5d8ce0f731eb11f85bda7a49b74ef93172b3"
+  },
+  {
+   "b": "888bed4c01f9ce4caedd2126825a92d5f8f9062ec6efdbec9305ab0b5b7ed2027ac07d8bf0252107ae7abd9dce28692923ba0a210979a92122",
+   "ccitt": 56280,
+   "ccitt0": 26184,
+   "crc32": 660800872,
+   "modbus": 52932,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DBD8",
+    "CRC16-Modbus": "CEC4",
+    "CRC32": "27630568",
+    "CRC8 Dallas/Maxim": "63",
+    "SHA-256": "5c62047e76e0c1a27006345f5f5dc605a9226b0e9374bac7601718ad2c87d137"
+   },
+   "sha256": "5c62047e76e0c1a27006345f5f5dc605a9226b0e9374bac7601718ad2c87d137"
+  },
+  {
+   "b": "a713f9a74f50c425a58b1e5f54aa34cd3db3de728c2205a277bcde85286a0019134f146506dbbb79321693761da6204583ddd7597b9ff6890aeaaf4a71165b2be9",
+   "ccitt": 38185,
+   "ccitt0": 58514,
+   "crc32": 4157482808,
+   "modbus": 36593,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9529",
+    "CRC16-Modbus": "8EF1",
+    "CRC32": "F7CE2738",
+    "CRC8 Dallas/Maxim": "07",
+    "SHA-256": "50ee134b5183d985037f43bcc6c24cab3ca5759407333802db30b512afc25904"
+   },
+   "sha256": "50ee134b5183d985037f43bcc6c24cab3ca5759407333802db30b512afc25904"
+  },
+  {
+   "b": "c3d1325ca950699af2017304fa1e42a726bab6cee779726c5747117224a6",
+   "ccitt": 2695,
+   "ccitt0": 8386,
+   "crc32": 2832423050,
+   "modbus": 1195,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0A87",
+    "CRC16-Modbus": "04AB",
+    "CRC32": "A8D3588A",
+    "CRC8 Dallas/Maxim": "B8",
+    "SHA-256": "2ada133a46344bb5787d8864ec4994464c7c5f63745584ccdafd80885e6db742"
+   },
+   "sha256": "2ada133a46344bb5787d8864ec4994464c7c5f63745584ccdafd80885e6db742"
+  },
+  {
+   "b": "9d996740290891db360cb3fca7d79bdff9989db0affbf191b7d2ad0d6907abfb549e5a90cfb7ae8c8b17bb6aa6f95717eefb49a6041ab6310523acc0d1",
+   "ccitt": 9265,
+   "ccitt0": 37983,
+   "crc32": 3009993661,
+   "modbus": 20407,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2431",
+    "CRC16-Modbus": "4FB7",
+    "CRC32": "B368DBBD",
+    "CRC8 Dallas/Maxim": "23",
+    "SHA-256": "837f44638a6184f94caf5999af91a07a38beec36442b636e12d5ec9e4b004e8d"
+   },
+   "sha256": "837f44638a6184f94caf5999af91a07a38beec36442b636e12d5ec9e4b004e8d"
+  },
+  {
+   "b": "",
+   "ccitt": 65535,
+   "ccitt0": 0,
+   "crc32": 0,
+   "modbus": 65535,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "b": "edfcbbdc16ee4efdbc4c40e48c452b8590c9b46f05cb3107a3151169af246f64a7cc2ab2ed5a81e16f1e2b0f960449c6dca9cf33",
+   "ccitt": 21927,
+   "ccitt0": 4898,
+   "crc32": 78044316,
+   "modbus": 29935,
+   "r": {
+    "CRC16-CCITT (FFFF)": "55A7",
+    "CRC16-Modbus": "74EF",
+    "CRC32": "04A6DC9C",
+    "CRC8 Dallas/Maxim": "BA",
+    "SHA-256": "687baf8da79d51afbde769a59c60713a0441ec7b1f263c38a024bfd1c9bf4101"
+   },
+   "sha256": "687baf8da79d51afbde769a59c60713a0441ec7b1f263c38a024bfd1c9bf4101"
+  },
+  {
+   "b": "4860168be7baa0597bcb14fa2b26e655be92c5937c277d0935a1ba61ff2e364c7bac4a91de166c3b",
+   "ccitt": 61285,
+   "ccitt0": 27324,
+   "crc32": 916950219,
+   "modbus": 64182,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EF65",
+    "CRC16-Modbus": "FAB6",
+    "CRC32": "36A78CCB",
+    "CRC8 Dallas/Maxim": "EF",
+    "SHA-256": "26cb5335ef75fbca7dfa074a120b62830e8a93d69d2debe3c6e3aff142f9270f"
+   },
+   "sha256": "26cb5335ef75fbca7dfa074a120b62830e8a93d69d2debe3c6e3aff142f9270f"
+  },
+  {
+   "b": "5b0c00fc64a947134cb07c4fb8a261cf214276eb72cc",
+   "ccitt": 58171,
+   "ccitt0": 31887,
+   "crc32": 3001518022,
+   "modbus": 56289,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E33B",
+    "CRC16-Modbus": "DBE1",
+    "CRC32": "B2E787C6",
+    "CRC8 Dallas/Maxim": "BB",
+    "SHA-256": "768a9c99994fcfe0124e0bd521ae6fd6f0054b86b74831c922d29444fc83fc52"
+   },
+   "sha256": "768a9c99994fcfe0124e0bd521ae6fd6f0054b86b74831c922d29444fc83fc52"
+  },
+  {
+   "b": "2bd13e3cc91e92e11ad17fee4ac0f2bd74dae48b0de5551e083cf480c454a48e09e176567586c74ba4744f392cc792a9541d334a0f8308",
+   "ccitt": 58838,
+   "ccitt0": 44726,
+   "crc32": 233920510,
+   "modbus": 29135,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E5D6",
+    "CRC16-Modbus": "71CF",
+    "CRC32": "0DF157FE",
+    "CRC8 Dallas/Maxim": "77",
+    "SHA-256": "d6f58deac673ac90718059c521deb22cc6b376d8013b30b9c3484702e26fd087"
+   },
+   "sha256": "d6f58deac673ac90718059c521deb22cc6b376d8013b30b9c3484702e26fd087"
+  },
+  {
+   "b": "91a0e3dc734d41fa41a43217d60c5d73b9af5cfa1e4d839988868b93e2ffc815210bc518418eff8b6e668764115534602a3e8ed72f7ee839c86826cc26b95ad59e2937dacd0c",
+   "ccitt": 56547,
+   "ccitt0": 34042,
+   "crc32": 2929712139,
+   "modbus": 50026,
+   "r": {
+    "CRC16-CCITT (FFFF)": "DCE3",
+    "CRC16-Modbus": "C36A",
+    "CRC32": "AE9FDC0B",
+    "CRC8 Dallas/Maxim": "22",
+    "SHA-256": "11ac5089f65fb0f997af41b490c41efe8bd77768b6a68b036aa2c2fa4fad3aab"
+   },
+   "sha256": "11ac5089f65fb0f997af41b490c41efe8bd77768b6a68b036aa2c2fa4fad3aab"
+  }
+ ],
+ "manifest": [
+  {
+   "author": "Progetto Polpo",
+   "category": "strumenti",
+   "description": "CRC8 Dallas/Maxim, CRC16-CCITT, CRC16-Modbus, CRC32 e SHA-256 di testo o byte esadecimali.",
+   "icon": "apps",
+   "id": "calcolatore_crc",
+   "name": "Calcolatore CRC e impronte",
+   "version": "1.0"
+  }
+ ],
+ "pagina": [
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "29B1",
+    "CRC16-Modbus": "4B37",
+    "CRC32": "CBF43926",
+    "CRC8 Dallas/Maxim": "A1",
+    "SHA-256": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
+   },
+   "t": "123456789"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "123456789"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F218",
+    "CRC16-Modbus": "E95C",
+    "CRC32": "2E8BE8F8",
+    "CRC8 Dallas/Maxim": "13",
+    "SHA-256": "f573e7937a23e1b40b9b72c8f7628a79b7fb88648a7efac0c2b0155320f6979b"
+   },
+   "t": "Polpo"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "Polpo"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5BB1",
+    "CRC16-Modbus": "D336",
+    "CRC32": "BEDBD4F8",
+    "CRC8 Dallas/Maxim": "FB",
+    "SHA-256": "e6c72384a5cddd625911cef723194802d3e548b33efd56f74da5b1e1a4b50ef7"
+   },
+   "t": "àèì🐙"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "àèì🐙"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EB0A",
+    "CRC16-Modbus": "DF7F",
+    "CRC32": "4A8FBE6D",
+    "CRC8 Dallas/Maxim": "4D",
+    "SHA-256": "939b126eed834a3cf1a049b3cbb06355b81a0fcd12ca4c30166176a8457448ef"
+   },
+   "t": "01 02 03"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "ADAD",
+    "CRC16-Modbus": "6161",
+    "CRC32": "55BC801D",
+    "CRC8 Dallas/Maxim": "D8",
+    "SHA-256": "039058c6f2c0cb492c533b0a4d14ef77cc0f78abccced5287d84a1a2011cfb81"
+   },
+   "t": "01 02 03"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8A63",
+    "CRC16-Modbus": "4134",
+    "CRC32": "59F1378D",
+    "CRC8 Dallas/Maxim": "E0",
+    "SHA-256": "33a7183b3c2406a19521da1a47b507b690ed01979aa889b4b705b3797fe2959f"
+   },
+   "t": "0102 03"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "ADAD",
+    "CRC16-Modbus": "6161",
+    "CRC32": "55BC801D",
+    "CRC8 Dallas/Maxim": "D8",
+    "SHA-256": "039058c6f2c0cb492c533b0a4d14ef77cc0f78abccced5287d84a1a2011cfb81"
+   },
+   "t": "0102 03"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2540",
+    "CRC16-Modbus": "33A3",
+    "CRC32": "24D91BA1",
+    "CRC8 Dallas/Maxim": "D7",
+    "SHA-256": "4a60bf7d4bc1e485744cf7e8d0860524752fca1ce42331be7c439fd23043f151"
+   },
+   "t": "zz"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "zz"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "514A",
+    "CRC16-Modbus": "5749",
+    "CRC32": "352441C2",
+    "CRC8 Dallas/Maxim": "42",
+    "SHA-256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+   },
+   "t": "abc"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "abc"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2AC5",
+    "CRC16-Modbus": "37B8",
+    "CRC32": "806C5CD3",
+    "CRC8 Dallas/Maxim": "16",
+    "SHA-256": "c8687a08aa5d6ed2044328fa6a697ab8e96dc34291e8c2034ae8c38e6fcc6d65"
+   },
+   "t": "a b"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E571",
+    "CRC16-Modbus": "FFFE",
+    "CRC32": "930695ED",
+    "CRC8 Dallas/Maxim": "8F",
+    "SHA-256": "087d80f7f182dd44f184aa86ca34488853ebcc04f0c60d5294919a466b463831"
+   },
+   "t": "a b"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6044",
+    "CRC16-Modbus": "94BC",
+    "CRC32": "6CD24DD2",
+    "CRC8 Dallas/Maxim": "03",
+    "SHA-256": "b3bb643c56add1a4b0381e6d5db4935eb05e6cd9aeb9c5d341ec927d89af6a58"
+   },
+   "t": "\n00\nff\n"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "03FF",
+    "CRC16-Modbus": "F041",
+    "CRC32": "6CDBFD72",
+    "CRC8 Dallas/Maxim": "35",
+    "SHA-256": "06eb7d6a69ee19e5fbdf749018d3d2abfa04bcbd1365db312eb86dc7169389b8"
+   },
+   "t": "\n00\nff\n"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0B51",
+    "CRC16-Modbus": "2BB1",
+    "CRC32": "83F2C8D6",
+    "CRC8 Dallas/Maxim": "3A",
+    "SHA-256": "c4cc90ed3d26f12d4b08a75140970a7904035c31cbb4515a83f19b9003c00d1d"
+   },
+   "t": "€"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "€"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FA67",
+    "CRC16-Modbus": "E95A",
+    "CRC32": "0515289C",
+    "CRC8 Dallas/Maxim": "4F",
+    "SHA-256": "b51c80e50d664f281fedd07ba902a21caadc0c7e0b491ece679497391e9f84cf"
+   },
+   "t": "0x01"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "0x01"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D6D3",
+    "CRC16-Modbus": "700E",
+    "CRC32": "5491861B",
+    "CRC8 Dallas/Maxim": "D4",
+    "SHA-256": "23127569beac8a5534e53aef73afcf7da3fc5f5dc8d17a2e9c496de401906cc4"
+   },
+   "t": "ZXb- 9a1b?"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "ZXb- 9a1b?"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0442",
+    "CRC16-Modbus": "ADC5",
+    "CRC32": "44208A82",
+    "CRC8 Dallas/Maxim": "61",
+    "SHA-256": "56aa23be189908c59f4d912d52acc62a98d00a5f2108ebb13a015f882b480466"
+   },
+   "t": "/  à9"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "/  à9"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1A78",
+    "CRC16-Modbus": "3ACD",
+    "CRC32": "756B7396",
+    "CRC8 Dallas/Maxim": "08",
+    "SHA-256": "9e70a9aad33cb0587989798cee6805963ef09c55d283aa81403a5788b28a6a34"
+   },
+   "t": "&'<€<_é"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "&'<€<_é"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4027",
+    "CRC16-Modbus": "B6D1",
+    "CRC32": "16353FAE",
+    "CRC8 Dallas/Maxim": "9D",
+    "SHA-256": "fb6bcf4c90271c69767f03bb4acba13545a164b4fb449c77d2193d150370c205"
+   },
+   "t": "=&b/X>/"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "=&b/X>/"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C02A",
+    "CRC16-Modbus": "EB91",
+    "CRC32": "8BA2B168",
+    "CRC8 Dallas/Maxim": "54",
+    "SHA-256": "47d67874b6342081da3b9e33cd5e8dad4a2e2624ace5cc71e6091e873c1dac44"
+   },
+   "t": ">Z"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ">Z"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0A80",
+    "CRC16-Modbus": "674B",
+    "CRC32": "7689911A",
+    "CRC8 Dallas/Maxim": "29",
+    "SHA-256": "412e57cc9478e516eb81135c8ddc3c3d90c3a9d69300365849322db0b7a1ff0a"
+   },
+   "t": "<=èbX.?<<è"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "<=èbX.?<<è"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7FBD",
+    "CRC16-Modbus": "196A",
+    "CRC32": "82065EA4",
+    "CRC8 Dallas/Maxim": "0B",
+    "SHA-256": "91d9a7206758c424586d5554afa50cb2642e29bc33ab802b2583d441af2b276c"
+   },
+   "t": ":X0"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ":X0"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4109",
+    "CRC16-Modbus": "940E",
+    "CRC32": "56780EE7",
+    "CRC8 Dallas/Maxim": "06",
+    "SHA-256": "f1f19d029e023390307d5361898d0b1689f1a1fe34ccacda844b2510e486cf3a"
+   },
+   "t": "_🐙b?Z>/c​"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "_🐙b?Z>/c​"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D2A0",
+    "CRC16-Modbus": "393A",
+    "CRC32": "B6C09912",
+    "CRC8 Dallas/Maxim": "C9",
+    "SHA-256": "f8d7eab7f54816ace0355606707aba7ee776d133e1c668622176e1a25a0d19b7"
+   },
+   "t": "_ &>€.="
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "_ &>€.="
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "BCEE",
+    "CRC16-Modbus": "53A7",
+    "CRC32": "2FA32151",
+    "CRC8 Dallas/Maxim": "37",
+    "SHA-256": "656b5fcf31d51cd86e6b701cb012c4884f050c413f05ffd902b011bbc107c2ff"
+   },
+   "t": " é​&"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": " é​&"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "239E",
+    "CRC16-Modbus": "AA21",
+    "CRC32": "B5B6DB31",
+    "CRC8 Dallas/Maxim": "BD",
+    "SHA-256": "050725ab748cc94d862e787a88a6d4824e96c65823eb54358aec8c30182b49d0"
+   },
+   "t": "à/ "
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "à/ "
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6AEA",
+    "CRC16-Modbus": "FE50",
+    "CRC32": "7903BDA8",
+    "CRC8 Dallas/Maxim": "8C",
+    "SHA-256": "97c916cd94785d7b9b52ae7013c267854f275691ddaae212bc1c07f639b8a0c7"
+   },
+   "t": "è"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "è"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D843",
+    "CRC16-Modbus": "D582",
+    "CRC32": "1B57D736",
+    "CRC8 Dallas/Maxim": "B0",
+    "SHA-256": "98934186664e99277962c7822fc6c6c58000eb833b9085cb99bd877a9dad3f42"
+   },
+   "t": "<_X🐙:a<1"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "<_X🐙:a<1"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D864",
+    "CRC16-Modbus": "C3E9",
+    "CRC32": "9C591785",
+    "CRC8 Dallas/Maxim": "83",
+    "SHA-256": "50171b381842fe730a0296afd706ba99c36dff1020e0cbc4451a064bbc962555"
+   },
+   "t": "èà'aX< ​à"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "èà'aX< ​à"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C782",
+    "CRC16-Modbus": "947E",
+    "CRC32": "83DCEFB7",
+    "CRC8 Dallas/Maxim": "E0",
+    "SHA-256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+   },
+   "t": "1"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "1"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "482F",
+    "CRC16-Modbus": "F638",
+    "CRC32": "2F7CF448",
+    "CRC8 Dallas/Maxim": "62",
+    "SHA-256": "f22ae67a0c590ca024c5104dbb662382b2f860b1872ba0db2bb6ae5cd3fc3f16"
+   },
+   "t": "XZ/è?Xa? è"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "XZ/è?Xa? è"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B216",
+    "CRC16-Modbus": "21F8",
+    "CRC32": "E2372B6D",
+    "CRC8 Dallas/Maxim": "49",
+    "SHA-256": "75cebf9d29e8233d3f4121cf8a39d49725c1daa3ecf7d128f2f5490ce12ceea3"
+   },
+   "t": "-_a🐙"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "-_a🐙"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8A94",
+    "CRC16-Modbus": "59E8",
+    "CRC32": "E2802080",
+    "CRC8 Dallas/Maxim": "E7",
+    "SHA-256": "346a5f4e1bbcc0c0f5ad9f0c6c5dfb13cf3d2b7b45be0febac29f2d73cc1d397"
+   },
+   "t": ">à Y"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ">à Y"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E550",
+    "CRC16-Modbus": "5FBC",
+    "CRC32": "F45E0DDD",
+    "CRC8 Dallas/Maxim": "D0",
+    "SHA-256": "fdf3c84f53745ee4281fb2883f21b11bce6e17c09dacd31908af1275ccd40719"
+   },
+   "t": ":.=Y"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ":.=Y"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "347D",
+    "CRC16-Modbus": "9CFE",
+    "CRC32": "79D3D2D4",
+    "CRC8 Dallas/Maxim": "62",
+    "SHA-256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+   },
+   "t": "/"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "/"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6AEA",
+    "CRC16-Modbus": "FE50",
+    "CRC32": "7903BDA8",
+    "CRC8 Dallas/Maxim": "8C",
+    "SHA-256": "97c916cd94785d7b9b52ae7013c267854f275691ddaae212bc1c07f639b8a0c7"
+   },
+   "t": "è"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "è"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "796C",
+    "CRC16-Modbus": "D254",
+    "CRC32": "93E48B02",
+    "CRC8 Dallas/Maxim": "FB",
+    "SHA-256": "38491482599c25b63749e4d507f4e5406b2434f54fc45435429243c8f425056a"
+   },
+   "t": "🐙cX"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "🐙cX"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FCCF",
+    "CRC16-Modbus": "552E",
+    "CRC32": "F2B3332A",
+    "CRC8 Dallas/Maxim": "D7",
+    "SHA-256": "f35974d8100be31e83a6b29077fa63a8c3e760ebafe87a0d83d5e93839be047f"
+   },
+   "t": "è🐙 ?1€-.1"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "è🐙 ?1€-.1"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2853",
+    "CRC16-Modbus": "DCD9",
+    "CRC32": "D81B5538",
+    "CRC8 Dallas/Maxim": "8B",
+    "SHA-256": "f87c1bef864346727d69a42d3af2fabf3c801281df2dd3b2e51f9a01c95cf17b"
+   },
+   "t": "0=:>\""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "0=:>\""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "20E2",
+    "CRC16-Modbus": "0AA8",
+    "CRC32": "D614F55C",
+    "CRC8 Dallas/Maxim": "9B",
+    "SHA-256": "75510c11d8b499ecb201411d82b11c8998a767e24818b4e00cd0a5eff2b86ba6"
+   },
+   "t": "🐙&??"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "🐙&??"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1D76",
+    "CRC16-Modbus": "74C1",
+    "CRC32": "81E908F8",
+    "CRC8 Dallas/Maxim": "B5",
+    "SHA-256": "4a4dc5b71f894820f53de437f6a9895e2bd123b328e2731dca8b6f05050183be"
+   },
+   "t": ">=a"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ">=a"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3D05",
+    "CRC16-Modbus": "4F88",
+    "CRC32": "72C97659",
+    "CRC8 Dallas/Maxim": "B9",
+    "SHA-256": "49830cc63b14889e619a78990f0779f5ff5d7aa33c5c27af9b4a13ce3eb095bd"
+   },
+   "t": ".9è"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ".9è"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "55A6",
+    "CRC16-Modbus": "7256",
+    "CRC32": "4DF9ACFA",
+    "CRC8 Dallas/Maxim": "BB",
+    "SHA-256": "c9394c4ebd8f75f389385c96b1d9370840e4f0b2d18364fa326c4ac5685be36e"
+   },
+   "t": ": X=>_"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ": X=>_"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A8D7",
+    "CRC16-Modbus": "B267",
+    "CRC32": "C54CE9D2",
+    "CRC8 Dallas/Maxim": "19",
+    "SHA-256": "7eb0092d1c32168ca28dfc8f2ae5173119521a076a5199b3fcbb46d1ac801514"
+   },
+   "t": "'🐙 €à ?0ca"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "'🐙 €à ?0ca"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "78A5",
+    "CRC16-Modbus": "57EA",
+    "CRC32": "8D9B1A0E",
+    "CRC8 Dallas/Maxim": "7B",
+    "SHA-256": "664152dbb4f4ac7980e0e47db640785f0a7881259d5da8d9b81967ef2ed02dae"
+   },
+   "t": ">.a.9\"èc'/"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": ">.a.9\"èc'/"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0F51",
+    "CRC16-Modbus": "99BA",
+    "CRC32": "D96A3F79",
+    "CRC8 Dallas/Maxim": "19",
+    "SHA-256": "73664fbfaa516e75f8ab05b3aaab089ddc04398581cef2f9c71e2875602e026f"
+   },
+   "t": "€='? &"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "€='? &"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8FAF",
+    "CRC16-Modbus": "E13B",
+    "CRC32": "C721E5B8",
+    "CRC8 Dallas/Maxim": "89",
+    "SHA-256": "44fd986a8683b513337b818044c73056bb5d7103be74969e2abd16b21450d853"
+   },
+   "t": "1_19é<€/9"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "1_19é<€/9"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "3A7B",
+    "CRC16-Modbus": "8478",
+    "CRC32": "9FB821FF",
+    "CRC8 Dallas/Maxim": "56",
+    "SHA-256": "734630ecf1e147b10c752cb1c01e11c9e2306c292dfe4a39462575adf866a856"
+   },
+   "t": "​é__1_\""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "​é__1_\""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B99C",
+    "CRC16-Modbus": "89D7",
+    "CRC32": "5796F01C",
+    "CRC8 Dallas/Maxim": "38",
+    "SHA-256": "e7e81bfbe3843257fadc1e99fe4ff70f9c22dbc3e2f8ce5d94913850743b9785"
+   },
+   "t": " Y?€"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": " Y?€"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9D02",
+    "CRC16-Modbus": "6D5D",
+    "CRC32": "DE224C06",
+    "CRC8 Dallas/Maxim": "78",
+    "SHA-256": "da4bf4748fe31ca5422b8e188a3b46320129444689a30fd1be0016929c40cd22"
+   },
+   "t": "é-€-Z-"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "é-€-Z-"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "060E",
+    "CRC16-Modbus": "917E",
+    "CRC32": "8A6AA39C",
+    "CRC8 Dallas/Maxim": "43",
+    "SHA-256": "380918b946a526640a40df5dced6516794f3d97bbd9e6bb553d037c4439f31c3"
+   },
+   "t": "="
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "esadecimale non valido",
+    "CRC16-Modbus": "esadecimale non valido",
+    "CRC32": "esadecimale non valido",
+    "CRC8 Dallas/Maxim": "esadecimale non valido",
+    "SHA-256": "esadecimale non valido"
+   },
+   "t": "="
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FBB0",
+    "CRC16-Modbus": "B2CF",
+    "CRC32": "C68D39CB",
+    "CRC8 Dallas/Maxim": "8E",
+    "SHA-256": "57d5ceb447619cf962554b8e9c8f0776c7625eea73c3f02fb6926d8a4f564295"
+   },
+   "t": "5a\n1b\nd2\n15"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1B13",
+    "CRC16-Modbus": "94FF",
+    "CRC32": "4B543F3D",
+    "CRC8 Dallas/Maxim": "23",
+    "SHA-256": "1ef8fcd59891232c71b1983e8141000a306ebff44283b22efb98db71f813f874"
+   },
+   "t": "5a\n1b\nd2\n15"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "77D9",
+    "CRC16-Modbus": "01F0",
+    "CRC32": "E1A5AD4B",
+    "CRC8 Dallas/Maxim": "4C",
+    "SHA-256": "ddc4086fca1de134a6ad3200cfc24188e8a1830c4f8e539e1f292481f461be07"
+   },
+   "t": "21 64 2b 23 31 39 2b"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EEA8",
+    "CRC16-Modbus": "240E",
+    "CRC32": "E4C44582",
+    "CRC8 Dallas/Maxim": "54",
+    "SHA-256": "ac53fdcb56358febfe2ddd1a0a367f3f7a9b78433aa2e114d7c785dca0ca6fe9"
+   },
+   "t": "21 64 2b 23 31 39 2b"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A1F0",
+    "CRC16-Modbus": "8B0B",
+    "CRC32": "06F49BD2",
+    "CRC8 Dallas/Maxim": "86",
+    "SHA-256": "e360523025bffe52300b8363ac9692066bd94d4a932c3204d1b5a98dc3c06eb4"
+   },
+   "t": "b3 9a 17 53"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "A147",
+    "CRC16-Modbus": "4249",
+    "CRC32": "29E68796",
+    "CRC8 Dallas/Maxim": "E0",
+    "SHA-256": "af19154d2bc249a67219e01e3face072ddbe6d5cb6ad5fd70bfd360d61770333"
+   },
+   "t": "b3 9a 17 53"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "23EE",
+    "CRC16-Modbus": "8E4F",
+    "CRC32": "2F2CBCBE",
+    "CRC8 Dallas/Maxim": "2F",
+    "SHA-256": "1c49333c4b81ac48cbc1f6abeb4ac1675ef3bf9b147088082da5ab1c115e1f33"
+   },
+   "t": "4d\nee\nd6\nb1\na9\n71\n8f"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C8B3",
+    "CRC16-Modbus": "704A",
+    "CRC32": "AA0FA2DA",
+    "CRC8 Dallas/Maxim": "DE",
+    "SHA-256": "5a49b779963b57e5e5f09c230487b377f9bcccd3fdb6ca801420e7193294baf1"
+   },
+   "t": "4d\nee\nd6\nb1\na9\n71\n8f"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B8B6",
+    "CRC16-Modbus": "582E",
+    "CRC32": "2D309A9F",
+    "CRC8 Dallas/Maxim": "F1",
+    "SHA-256": "37f0c744ec15e8ac7d43dc20ac87590644085dd36d4e040c8d5ba76ccdbdb2f9"
+   },
+   "t": "43\n3f"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "822C",
+    "CRC16-Modbus": "9070",
+    "CRC32": "2CEB2304",
+    "CRC8 Dallas/Maxim": "31",
+    "SHA-256": "e8e7bfea1aeb3bc7a145ef83065e84c11b388b67487a17c834d91b42f3214962"
+   },
+   "t": "43\n3f"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EEF9",
+    "CRC16-Modbus": "3956",
+    "CRC32": "1C7EB368",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "7356887119fd6ed53332f3e902cb547eea30d099e576fbf4e31e3947203cf2c9"
+   },
+   "t": "6c"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4CDA",
+    "CRC16-Modbus": "6DBF",
+    "CRC32": "9606C2FE",
+    "CRC8 Dallas/Maxim": "C6",
+    "SHA-256": "acac86c0e609ca906f632b0e2dacccb2b77d22b0621f20ebece1a4835b93f6f0"
+   },
+   "t": "6c"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5644",
+    "CRC16-Modbus": "1DB4",
+    "CRC32": "84EC40E4",
+    "CRC8 Dallas/Maxim": "E8",
+    "SHA-256": "a19e19333e9e573523381250c9965ffbcae42d442fc3a5ca480a5e1c5a772681"
+   },
+   "t": "59 b3 54 0b 08 05 08 1f fa c6"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4A6D",
+    "CRC16-Modbus": "4D00",
+    "CRC32": "6E203F67",
+    "CRC8 Dallas/Maxim": "AF",
+    "SHA-256": "da66d6e031a57055c4385f38fd1cdf0acf2f4ce51fe1db068ce6366d4c97f9c8"
+   },
+   "t": "59 b3 54 0b 08 05 08 1f fa c6"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5EBC",
+    "CRC16-Modbus": "3E5B",
+    "CRC32": "D6164DEF",
+    "CRC8 Dallas/Maxim": "D1",
+    "SHA-256": "efe8359040c298e6ff5c29865bd5af285453317dace45fde1cdeba7fb21cf62a"
+   },
+   "t": "24 f4 30 f2 ec 55 b3 59 7a 27"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5BDB",
+    "CRC16-Modbus": "EA59",
+    "CRC32": "950F6AD9",
+    "CRC8 Dallas/Maxim": "45",
+    "SHA-256": "4bbb9c0af61a64dd53b8ca4b556ed0d79a888b44b891ea6f132820f83fba02ef"
+   },
+   "t": "24 f4 30 f2 ec 55 b3 59 7a 27"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0166",
+    "CRC16-Modbus": "B9AC",
+    "CRC32": "8A74618C",
+    "CRC8 Dallas/Maxim": "CD",
+    "SHA-256": "d9decbcf0d7385af32207bf91c127731af4ff456eedc22df3a2d9e0d5b4323b1"
+   },
+   "t": "3b e8 a4 e2 64 b3 88"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B383",
+    "CRC16-Modbus": "C3F5",
+    "CRC32": "579B9249",
+    "CRC8 Dallas/Maxim": "6A",
+    "SHA-256": "e737325c457b4db54b4ce2dca0ef9e3a56c646c6f59533a5237c0a4262aefccc"
+   },
+   "t": "3b e8 a4 e2 64 b3 88"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EF76",
+    "CRC16-Modbus": "D004",
+    "CRC32": "0AE576C7",
+    "CRC8 Dallas/Maxim": "AC",
+    "SHA-256": "ba9f7cc26505ec5abd245363039d3ea697c2a0640b7de3af6d7a18194fd08497"
+   },
+   "t": "1e9a067fe19d2442d7e1"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E769",
+    "CRC16-Modbus": "1D03",
+    "CRC32": "E8AD73BF",
+    "CRC8 Dallas/Maxim": "21",
+    "SHA-256": "a5c773af829fc899cb999c63c5fc885d622709e5dbb0a653651fef0e37d9b8a8"
+   },
+   "t": "1e9a067fe19d2442d7e1"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8931",
+    "CRC16-Modbus": "74D1",
+    "CRC32": "0A797853",
+    "CRC8 Dallas/Maxim": "EB",
+    "SHA-256": "0ca492476624ca0b71961702840e36688ff419bef7612c89bf92e5d3f4455e61"
+   },
+   "t": "1ae2b0953e"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F406",
+    "CRC16-Modbus": "DDA4",
+    "CRC32": "980D6C69",
+    "CRC8 Dallas/Maxim": "AE",
+    "SHA-256": "4e1fb15ef2d8493ff3dcf6a6b0abb93844b5782de0d3f4045333f45d5ca66b07"
+   },
+   "t": "1ae2b0953e"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E6E2",
+    "CRC16-Modbus": "5BEB",
+    "CRC32": "7D90298B",
+    "CRC8 Dallas/Maxim": "3B",
+    "SHA-256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578"
+   },
+   "t": "de"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "CB43",
+    "CRC16-Modbus": "183F",
+    "CRC32": "B369105E",
+    "CRC8 Dallas/Maxim": "48",
+    "SHA-256": "7941cb07924fdc7b710e11d98d82850e89566e1c3cb980517ffe4b430f86dfd5"
+   },
+   "t": "de"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FFFF",
+    "CRC16-Modbus": "FFFF",
+    "CRC32": "00000000",
+    "CRC8 Dallas/Maxim": "00",
+    "SHA-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "t": ""
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B82F",
+    "CRC16-Modbus": "86BB",
+    "CRC32": "FB5E818C",
+    "CRC8 Dallas/Maxim": "91",
+    "SHA-256": "72f4649a0fd20cf7e4170b6fb9126dc88e77f19e54495f82bec97aa4dafa5e16"
+   },
+   "t": "ba\ne7\n99\n33"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9C58",
+    "CRC16-Modbus": "4EBF",
+    "CRC32": "E075E782",
+    "CRC8 Dallas/Maxim": "1A",
+    "SHA-256": "b1da776569b80ad91fa6904f86a36d55f3f254d3293a60f8a19d36799e2f91d5"
+   },
+   "t": "ba\ne7\n99\n33"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C25F",
+    "CRC16-Modbus": "0583",
+    "CRC32": "14C4E1B8",
+    "CRC8 Dallas/Maxim": "58",
+    "SHA-256": "525eeedeee527f1ba3fffbb091edc8fcc701e1262563b50cc402ce9f2c2aabd4"
+   },
+   "t": "ef\n15"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5F17",
+    "CRC16-Modbus": "4F8C",
+    "CRC32": "F5E21937",
+    "CRC8 Dallas/Maxim": "CF",
+    "SHA-256": "88c16b90f830cb7c505e0cc4f523f7562a022d292bd4a7f2fb5991a6acca1fb0"
+   },
+   "t": "ef\n15"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E5BC",
+    "CRC16-Modbus": "B199",
+    "CRC32": "4932362C",
+    "CRC8 Dallas/Maxim": "21",
+    "SHA-256": "4ac38144aafe7696e14be1721bd86c35d1451bf9fca060a2e990edd1c5573d9a"
+   },
+   "t": "1f eb cf 18 0d ff 81 2f 0f"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1FF0",
+    "CRC16-Modbus": "26E4",
+    "CRC32": "DADB59A6",
+    "CRC8 Dallas/Maxim": "92",
+    "SHA-256": "8fd4edc2b2b37828b682492124bbecbe9f1fa131cc77ba1c270d88212f687ab5"
+   },
+   "t": "1f eb cf 18 0d ff 81 2f 0f"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "0322",
+    "CRC16-Modbus": "B39B",
+    "CRC32": "062ADD99",
+    "CRC8 Dallas/Maxim": "3F",
+    "SHA-256": "29c0aae1d1539ba084870a0c46ad5d4e59eb9a0551a02c9c7e115c2a19048e6b"
+   },
+   "t": "08\n71\n41\n5d\ne8\na9\n6c\n00"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "647F",
+    "CRC16-Modbus": "F60A",
+    "CRC32": "F475E663",
+    "CRC8 Dallas/Maxim": "C5",
+    "SHA-256": "394bc1a25fee908a5633226fc16f79f418c3823c51226a59274490745792b5c0"
+   },
+   "t": "08\n71\n41\n5d\ne8\na9\n6c\n00"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "91A7",
+    "CRC16-Modbus": "02A2",
+    "CRC32": "F769D643",
+    "CRC8 Dallas/Maxim": "E2",
+    "SHA-256": "7432dbfb31ff75817211965f483148b8b6ba3b326c84117eb659461acb968204"
+   },
+   "t": "40 c7 61 50"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "2BD5",
+    "CRC16-Modbus": "B58D",
+    "CRC32": "393D0CF6",
+    "CRC8 Dallas/Maxim": "8C",
+    "SHA-256": "21d924e848c99041024368f25a43be32a676fbbebdd2050895b5f0e01cc25609"
+   },
+   "t": "40 c7 61 50"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "CF73",
+    "CRC16-Modbus": "0C31",
+    "CRC32": "26D0A6E5",
+    "CRC8 Dallas/Maxim": "4F",
+    "SHA-256": "a89e32dacfab2d57ce59a4f221c0787030f5867c0e1e1eb27b3fcfd09d7befb6"
+   },
+   "t": "4057bc852dfd2d"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "045A",
+    "CRC16-Modbus": "703F",
+    "CRC32": "13042762",
+    "CRC8 Dallas/Maxim": "10",
+    "SHA-256": "082c0da5f7856e31ed688e8a15b09feca9db6c2c2f0f81350bd81555ac83b9f4"
+   },
+   "t": "4057bc852dfd2d"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "92AE",
+    "CRC16-Modbus": "C9F3",
+    "CRC32": "2E6C5B63",
+    "CRC8 Dallas/Maxim": "A6",
+    "SHA-256": "daca7ff5b588362ebf3c0cbce3923396177ccafb4a1f1c5d4fcf5d494d31a05f"
+   },
+   "t": "95 bf f8 f7 26 16 20"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "608E",
+    "CRC16-Modbus": "15B9",
+    "CRC32": "B3C3BD8A",
+    "CRC8 Dallas/Maxim": "C9",
+    "SHA-256": "223f24ef38d62bb6a9894b47e182a9555286c8c94687c03b49d780ac9b798fdd"
+   },
+   "t": "95 bf f8 f7 26 16 20"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F93E",
+    "CRC16-Modbus": "26C9",
+    "CRC32": "EF53C6CB",
+    "CRC8 Dallas/Maxim": "80",
+    "SHA-256": "4fcda636f57f98e839864afda75db2761b45b499aa0aa99409cf73be949c988a"
+   },
+   "t": "5f a5 9d de 49 45 b6 8d de 2c"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "B779",
+    "CRC16-Modbus": "515F",
+    "CRC32": "0E0C3A52",
+    "CRC8 Dallas/Maxim": "85",
+    "SHA-256": "8316677661d3c24e5dc0c8de10b79d1f2df4a92b06859205f7929245a276846c"
+   },
+   "t": "5f a5 9d de 49 45 b6 8d de 2c"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7255",
+    "CRC16-Modbus": "8E2D",
+    "CRC32": "C2AE63F2",
+    "CRC8 Dallas/Maxim": "3F",
+    "SHA-256": "4109189a9d4ae7aca70833a5d9b08c653a03f81d6a8aad63478a95229b0e545f"
+   },
+   "t": "c1dfd25fa4"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1413",
+    "CRC16-Modbus": "77BA",
+    "CRC32": "0EF5588D",
+    "CRC8 Dallas/Maxim": "83",
+    "SHA-256": "64618bf1e44411b9f8412510187d953d44d87992b8e971e10a122444330f78a9"
+   },
+   "t": "c1dfd25fa4"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "589B",
+    "CRC16-Modbus": "FCE8",
+    "CRC32": "99B9EEFD",
+    "CRC8 Dallas/Maxim": "99",
+    "SHA-256": "4f52b61d0ac089380ce1fa58b3d352884088ff7d25a789597ab37dd65c9b485b"
+   },
+   "t": "ad 50 c3 a3 90 65"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5C15",
+    "CRC16-Modbus": "E7B9",
+    "CRC32": "DF0CD144",
+    "CRC8 Dallas/Maxim": "B9",
+    "SHA-256": "09a2ead0cc53ffda7a7514add689a68c56215d97394bc39a5b58642689d4e252"
+   },
+   "t": "ad 50 c3 a3 90 65"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7BAA",
+    "CRC16-Modbus": "C28F",
+    "CRC32": "A5ADF898",
+    "CRC8 Dallas/Maxim": "42",
+    "SHA-256": "99b61abad5c49e6a1dd5a1a91205df689353833f8bff8210ebeedf42f643237c"
+   },
+   "t": "8f\nd6\n91\n4a\n3b"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F389",
+    "CRC16-Modbus": "C96E",
+    "CRC32": "B1E7AA77",
+    "CRC8 Dallas/Maxim": "CD",
+    "SHA-256": "6ecf3d42c7e1e59834771bd4d5f706a1c4332f637a6bfb79fb8e04ead29871d0"
+   },
+   "t": "8f\nd6\n91\n4a\n3b"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6D1F",
+    "CRC16-Modbus": "F655",
+    "CRC32": "3F39B042",
+    "CRC8 Dallas/Maxim": "D4",
+    "SHA-256": "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3"
+   },
+   "t": "17"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "8326",
+    "CRC16-Modbus": "4EFF",
+    "CRC32": "51D16A4A",
+    "CRC8 Dallas/Maxim": "1E",
+    "SHA-256": "8f11b05da785e43e713d03774c6bd3405d99cd3024af334ffd68db663aa37034"
+   },
+   "t": "17"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "E56E",
+    "CRC16-Modbus": "194F",
+    "CRC32": "89ABC297",
+    "CRC8 Dallas/Maxim": "BB",
+    "SHA-256": "1612aba1048faa080b586523ba77023a2603acb147225a4f72923e3950450c89"
+   },
+   "t": "5cd01fa56fc2751e27ff"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C173",
+    "CRC16-Modbus": "CECB",
+    "CRC32": "334415CF",
+    "CRC8 Dallas/Maxim": "C9",
+    "SHA-256": "a52902a7b84acd18da8997d12732b13cdb9a9e68cf1e18e314bf20dac07c4847"
+   },
+   "t": "5cd01fa56fc2751e27ff"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "146F",
+    "CRC16-Modbus": "676E",
+    "CRC32": "443043BC",
+    "CRC8 Dallas/Maxim": "EB",
+    "SHA-256": "26b6d0d34c6a380c9bb84c110b99e038ff402985ed381ea4fd067cf126aa8068"
+   },
+   "t": "14 f2 33 95 0e e6"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "F3FB",
+    "CRC16-Modbus": "58A0",
+    "CRC32": "D5DDA584",
+    "CRC8 Dallas/Maxim": "97",
+    "SHA-256": "9e2398cbd9bbd7f969dfb68731cc11efec794cb1d53d3f4c47cf42cd3b60970b"
+   },
+   "t": "14 f2 33 95 0e e6"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "EC02",
+    "CRC16-Modbus": "DE96",
+    "CRC32": "739A719C",
+    "CRC8 Dallas/Maxim": "17",
+    "SHA-256": "b2d0de8f8a8994d7fc13b8d0defb05f668a1798e5eea73774921e55a51978f4d"
+   },
+   "t": "58 a4 b7 80 e5 49"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7DA8",
+    "CRC16-Modbus": "E0D1",
+    "CRC32": "99218151",
+    "CRC8 Dallas/Maxim": "86",
+    "SHA-256": "7935424e3b58be4348fded0d25daffd4e5c8b7da8828359603ba1f7010337fd1"
+   },
+   "t": "58 a4 b7 80 e5 49"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "AF81",
+    "CRC16-Modbus": "F69F",
+    "CRC32": "1AFA7EB0",
+    "CRC8 Dallas/Maxim": "96",
+    "SHA-256": "67d08fe04e934427b523d0309fb3dd20730176c65d2d13f35180687f4a3b4893"
+   },
+   "t": "23\n18\naf\nbd\n56\n22"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "D180",
+    "CRC16-Modbus": "C329",
+    "CRC32": "8165D55E",
+    "CRC8 Dallas/Maxim": "70",
+    "SHA-256": "662a4ee7ed49d5ea28aa51145010ea5a0c90968c864fbc7e12eeec41367033ef"
+   },
+   "t": "23\n18\naf\nbd\n56\n22"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "BD0E",
+    "CRC16-Modbus": "B617",
+    "CRC32": "41FDF611",
+    "CRC8 Dallas/Maxim": "02",
+    "SHA-256": "c68760767705943a4eb2bf90ed89854826356de20db5c7e39e41cad8c609b53e"
+   },
+   "t": "f6\n53\n8a\n7a\n24\nce\na3"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6573",
+    "CRC16-Modbus": "B955",
+    "CRC32": "CAEEA4A1",
+    "CRC8 Dallas/Maxim": "57",
+    "SHA-256": "05bc509520cfc16e8521b3897051f65a49dcab63894184541ba0a2cf9da994b4"
+   },
+   "t": "f6\n53\n8a\n7a\n24\nce\na3"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5FEA",
+    "CRC16-Modbus": "D770",
+    "CRC32": "D890E5C2",
+    "CRC8 Dallas/Maxim": "97",
+    "SHA-256": "d07235952ed2104e73f0e5cfe1536bb4bc96883786bd7e2796e7891e67cf8af6"
+   },
+   "t": "00\n16\nde\n87\nf7"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4E50",
+    "CRC16-Modbus": "0462",
+    "CRC32": "635C8E57",
+    "CRC8 Dallas/Maxim": "6A",
+    "SHA-256": "1e0b15909ea018c35abdb032e8f53c6a55892fee67e134576ea928f9da7b4917"
+   },
+   "t": "00\n16\nde\n87\nf7"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "35EB",
+    "CRC16-Modbus": "3298",
+    "CRC32": "555BF52E",
+    "CRC8 Dallas/Maxim": "35",
+    "SHA-256": "2681c56c3f29b6e79e4f04929e263ec8a486bcf0e45e456a36bce1fbd76476ed"
+   },
+   "t": "ad 5e a5 e1 3a 05 53 06"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9E40",
+    "CRC16-Modbus": "E730",
+    "CRC32": "9A4DA060",
+    "CRC8 Dallas/Maxim": "3C",
+    "SHA-256": "f069570c77ce9688ec1ed32e621b1ee60b81cfc50fc11dd2e393715998b30df2"
+   },
+   "t": "ad 5e a5 e1 3a 05 53 06"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7C7D",
+    "CRC16-Modbus": "7845",
+    "CRC32": "8B5E9B0E",
+    "CRC8 Dallas/Maxim": "91",
+    "SHA-256": "e7bbb5662f374130aad9a330953ba3c95c18e8dac5971656dc8a47b8fc5f6cd3"
+   },
+   "t": "08 1b 18 4d b9 21 81 d2"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "04A2",
+    "CRC16-Modbus": "2150",
+    "CRC32": "8F4827D3",
+    "CRC8 Dallas/Maxim": "A5",
+    "SHA-256": "0a12d40c9e64ad67931031841df55cb92c29bf9638b710033a6bb3df628dbd6f"
+   },
+   "t": "08 1b 18 4d b9 21 81 d2"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "6633",
+    "CRC16-Modbus": "5330",
+    "CRC32": "958EA02D",
+    "CRC8 Dallas/Maxim": "C5",
+    "SHA-256": "9e987387a705e6b52eb2445ed2ecbcda91b1a60b5dcc73dbe1dcb85b1e52f9e1"
+   },
+   "t": "c4 f7 10 f6"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "17FD",
+    "CRC16-Modbus": "6001",
+    "CRC32": "76FC8660",
+    "CRC8 Dallas/Maxim": "85",
+    "SHA-256": "0c0780cd9288d4a94f03cebbad26f2969fa1c8fdb06262814cee8113c3a000f0"
+   },
+   "t": "c4 f7 10 f6"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "C99E",
+    "CRC16-Modbus": "61F5",
+    "CRC32": "E3816C85",
+    "CRC8 Dallas/Maxim": "85",
+    "SHA-256": "cf475c4e0cb2cbb274bed4758cea0d8b882ff1fdc951cc8291d3f62f341054f6"
+   },
+   "t": "43\ncb\n20\n5b\n05\nb6\n8d\n26\nd1\n58"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "9165",
+    "CRC16-Modbus": "B617",
+    "CRC32": "651B8370",
+    "CRC8 Dallas/Maxim": "23",
+    "SHA-256": "897f7a29a8382acf41f6d35690d2be5c37763ffff569da684ec6a2a50a4631b0"
+   },
+   "t": "43\ncb\n20\n5b\n05\nb6\n8d\n26\nd1\n58"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "4F5E",
+    "CRC16-Modbus": "6761",
+    "CRC32": "1457B054",
+    "CRC8 Dallas/Maxim": "CC",
+    "SHA-256": "7e0387b6a0922c59f2a9c81642bbaa8fff7c1b8fafb74b1c542911c88b82da04"
+   },
+   "t": "af\n8b\n9a\nc9\nb6\ne4"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "FB47",
+    "CRC16-Modbus": "9634",
+    "CRC32": "C6C5004B",
+    "CRC8 Dallas/Maxim": "C4",
+    "SHA-256": "22e04642ca21571ce367e618961b0b1487d6dc54c777110af84b359816651d42"
+   },
+   "t": "af\n8b\n9a\nc9\nb6\ne4"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "35A1",
+    "CRC16-Modbus": "9728",
+    "CRC32": "2EBDDE2E",
+    "CRC8 Dallas/Maxim": "D0",
+    "SHA-256": "0012a3fa000c5dc26ee658c3c58e12cecd58d6455cec3d5621f0c787675b38aa"
+   },
+   "t": "c4"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "7838",
+    "CRC16-Modbus": "D3BE",
+    "CRC32": "4E0BE924",
+    "CRC8 Dallas/Maxim": "AB",
+    "SHA-256": "d1211001882d2ce16a8553e449b6c8b7f71e61836efc2e416143808f20e721e7"
+   },
+   "t": "c4"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "1551",
+    "CRC16-Modbus": "9971",
+    "CRC32": "54FC3884",
+    "CRC8 Dallas/Maxim": "C9",
+    "SHA-256": "c543d970075c190f022e7f405b0e6be367bf03f54774288ec44d3926d204dace"
+   },
+   "t": "0f\nd4"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "86C8",
+    "CRC16-Modbus": "1F04",
+    "CRC32": "47FF18FD",
+    "CRC8 Dallas/Maxim": "2E",
+    "SHA-256": "ac630d04155d9302df8c8eb29becef07df8978279d8f566748613a0ccef9246f"
+   },
+   "t": "0f\nd4"
+  },
+  {
+   "hex": false,
+   "r": {
+    "CRC16-CCITT (FFFF)": "5976",
+    "CRC16-Modbus": "5160",
+    "CRC32": "69DFFDA4",
+    "CRC8 Dallas/Maxim": "A2",
+    "SHA-256": "87689c12222fc4cabc834fb12b22cd5e72ec855fb5da3f9053cec4e246ad5ad3"
+   },
+   "t": "f76d3087922d69"
+  },
+  {
+   "hex": true,
+   "r": {
+    "CRC16-CCITT (FFFF)": "CDDE",
+    "CRC16-Modbus": "5181",
+    "CRC32": "B3A31E24",
+    "CRC8 Dallas/Maxim": "73",
+    "SHA-256": "ee24cd1d8421cd9de13350cb3206dcabb321712ba0e9f51b7ee689bd5d3f1ad7"
+   },
+   "t": "f76d3087922d69"
+  }
+ ]
+}

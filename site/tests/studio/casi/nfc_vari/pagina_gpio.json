@@ -1,0 +1,4697 @@
+{
+ "colori": [
+  {
+   "b": "giallo viola rosso oro",
+   "testo": {
+    "ok": "4,7 kΩ ±5%  ·  giallo viola rosso"
+   },
+   "v": "4700"
+  },
+  {
+   "b": "marrone nero nero",
+   "testo": {
+    "ok": "10 Ω  ·  giallo viola oro"
+   },
+   "v": "4,7"
+  },
+  {
+   "b": "",
+   "testo": {
+    "ok": "servono 3, 4 o 5 fasce  ·  valore non positivo"
+   },
+   "v": "0"
+  },
+  {
+   "b": "rosso rosso",
+   "testo": {
+    "ok": "servono 3, 4 o 5 fasce  ·  valore non positivo"
+   },
+   "v": "-1"
+  },
+  {
+   "b": "Giallo  Viola  Rosso",
+   "testo": {
+    "ok": "4,7 kΩ  ·  could not convert string to float: 'abc'"
+   },
+   "v": "abc"
+  },
+  {
+   "b": "giallo viola rosso nero",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  could not convert string to float: ''"
+   },
+   "v": ""
+  },
+  {
+   "b": "blu grigio oro argento",
+   "testo": {
+    "ok": "6,8 Ω ±10%  ·  marrone nero rosso"
+   },
+   "v": "1e3"
+  },
+  {
+   "b": "a b c d e f",
+   "testo": {
+    "errore": {
+     "msg": "cannot convert float infinity to integer",
+     "tipo": "OverflowError"
+    }
+   },
+   "v": "inf"
+  },
+  {
+   "b": "rosso rosso nero nero marrone",
+   "testo": {
+    "ok": "220 Ω ±1%  ·  valore non positivo"
+   },
+   "v": "-inf"
+  },
+  {
+   "b": "verde\tblu\nmarrone",
+   "testo": {
+    "ok": "560 Ω  ·  cannot convert float NaN to integer"
+   },
+   "v": "nan"
+  },
+  {
+   "b": "rosso rosa verde",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone nero rosso"
+   },
+   "v": "1_000"
+  },
+  {
+   "b": "giallo verde viola",
+   "testo": {
+    "ok": "450 MΩ  ·  valore fuori dalla gamma del codice colori"
+   },
+   "v": "0,005"
+  },
+  {
+   "b": "argento nero viola verde",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone nero marrone"
+   },
+   "v": "99,5"
+  },
+  {
+   "b": "giallo marrone viola nero grigio",
+   "testo": {
+    "ok": "417 Ω ±0.05%  ·  rosso rosso marrone"
+   },
+   "v": " 220 "
+  },
+  {
+   "b": "arancione rosso rosso giallo bianco",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  valore fuori dalla gamma del codice colori"
+   },
+   "v": "1e11"
+  },
+  {
+   "b": "blu bianco viola rosso verde",
+   "testo": {
+    "errore": {
+     "msg": "cannot convert float infinity to integer",
+     "tipo": "OverflowError"
+    }
+   },
+   "v": "1e400"
+  },
+  {
+   "b": "verde marrone giallo viola",
+   "testo": {
+    "ok": "510 kΩ ±0.1%  ·  arancione arancione marrone"
+   },
+   "v": "٣٣٠"
+  },
+  {
+   "b": "blu rosso oro nero blu",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  could not convert string to float: '4.7.1'"
+   },
+   "v": "4,7,1"
+  },
+  {
+   "b": "arancione rosa oro blu",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  could not convert string to float: '0x10'"
+   },
+   "v": "0x10"
+  },
+  {
+   "b": "grigio verde oro",
+   "testo": {
+    "ok": "8,5 Ω  ·  rosso marrone giallo"
+   },
+   "v": "205586.967"
+  },
+  {
+   "b": "grigio viola viola bianco oro",
+   "testo": {
+    "ok": "877000 MΩ ±5%  ·  marrone grigio oro"
+   },
+   "v": "1,839"
+  },
+  {
+   "b": "grigio rosso grigio",
+   "testo": {
+    "ok": "8200 MΩ  ·  blu marrone grigio"
+   },
+   "v": "6142564502.349"
+  },
+  {
+   "b": "grigio marrone viola oro",
+   "testo": {
+    "ok": "810 MΩ ±5%  ·  giallo giallo blu"
+   },
+   "v": "43743491,2"
+  },
+  {
+   "b": "oro arancione nero blu",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone viola rosso"
+   },
+   "v": "1701,058"
+  },
+  {
+   "b": "arancione blu rosa",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  arancione grigio grigio"
+   },
+   "v": "3759848264.69"
+  },
+  {
+   "b": "bianco argento grigio rosa",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone rosso rosso"
+   },
+   "v": "1247,0"
+  },
+  {
+   "b": "argento argento rosso giallo bianco",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  blu grigio marrone"
+   },
+   "v": "678.77"
+  },
+  {
+   "b": "marrone verde arancione bianco bianco",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  verde verde oro"
+   },
+   "v": "5.55"
+  },
+  {
+   "b": "viola marrone marrone",
+   "testo": {
+    "ok": "710 Ω  ·  marrone nero arancione"
+   },
+   "v": "10419,533"
+  },
+  {
+   "b": "grigio oro blu giallo",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  rosso blu giallo"
+   },
+   "v": "264719,0"
+  },
+  {
+   "b": "argento rosa argento blu grigio",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  rosso blu rosso"
+   },
+   "v": "2635.9"
+  },
+  {
+   "b": "viola blu rosa",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  blu verde rosso"
+   },
+   "v": "6454.36"
+  },
+  {
+   "b": "rosa rosa bianco viola bianco",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  bianco nero arancione"
+   },
+   "v": "90430.94"
+  },
+  {
+   "b": "oro arancione rosso argento",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  giallo blu oro"
+   },
+   "v": "4.6"
+  },
+  {
+   "b": "marrone argento rosa grigio marrone",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  rosso marrone marrone"
+   },
+   "v": "214.513"
+  },
+  {
+   "b": "argento viola rosso",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  bianco nero blu"
+   },
+   "v": "89800363.0"
+  },
+  {
+   "b": "arancione arancione blu giallo blu",
+   "testo": {
+    "ok": "3,36 MΩ ±0.25%  ·  arancione grigio verde"
+   },
+   "v": "3848328,7"
+  },
+  {
+   "b": "rosso giallo verde",
+   "testo": {
+    "ok": "2,4 MΩ  ·  giallo viola blu"
+   },
+   "v": "46591852.2"
+  },
+  {
+   "b": "blu giallo nero viola",
+   "testo": {
+    "ok": "64 Ω ±0.1%  ·  arancione blu verde"
+   },
+   "v": "3595682,0"
+  },
+  {
+   "b": "arancione marrone grigio",
+   "testo": {
+    "ok": "3100 MΩ  ·  viola giallo arancione"
+   },
+   "v": "73786.86"
+  },
+  {
+   "b": "marrone arancione viola viola rosso",
+   "testo": {
+    "ok": "1370 MΩ ±2%  ·  viola nero grigio"
+   },
+   "v": "6988334951,257"
+  },
+  {
+   "b": "argento viola marrone giallo marrone",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone arancione blu"
+   },
+   "v": "13206707,5"
+  },
+  {
+   "b": "marrone bianco arancione nero",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  arancione rosso giallo"
+   },
+   "v": "319688,555"
+  },
+  {
+   "b": "bianco nero rosa grigio",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  rosso bianco viola"
+   },
+   "v": "289166584.0"
+  },
+  {
+   "b": "grigio rosso rosa argento",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone rosso blu"
+   },
+   "v": "11586352.0"
+  },
+  {
+   "b": "verde blu argento rosa oro",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone nero oro"
+   },
+   "v": "1,0"
+  },
+  {
+   "b": "arancione viola giallo nero blu",
+   "testo": {
+    "ok": "374 Ω ±0.25%  ·  valore non positivo"
+   },
+   "v": "0,0"
+  },
+  {
+   "b": "argento viola arancione nero",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone nero argento"
+   },
+   "v": "0,1"
+  },
+  {
+   "b": "arancione arancione nero",
+   "testo": {
+    "ok": "33 Ω  ·  blu grigio marrone"
+   },
+   "v": "680,56"
+  },
+  {
+   "b": "marrone grigio bianco marrone argento",
+   "testo": {
+    "ok": "1,89 kΩ ±10%  ·  marrone marrone argento"
+   },
+   "v": "0,11"
+  },
+  {
+   "b": "viola marrone argento grigio verde",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone rosso marrone"
+   },
+   "v": "118.9"
+  },
+  {
+   "b": "arancione viola marrone verde giallo",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  grigio blu rosso"
+   },
+   "v": "8566.16"
+  },
+  {
+   "b": "rosso giallo oro",
+   "testo": {
+    "ok": "2,4 Ω  ·  blu rosso blu"
+   },
+   "v": "62108001,0"
+  },
+  {
+   "b": "marrone marrone nero blu",
+   "testo": {
+    "ok": "11 Ω ±0.25%  ·  arancione viola blu"
+   },
+   "v": "36901175.25"
+  },
+  {
+   "b": "grigio blu oro bianco",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  marrone viola nero"
+   },
+   "v": "17.2"
+  },
+  {
+   "b": "rosso verde argento giallo",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  rosso nero verde"
+   },
+   "v": "1995492.36"
+  },
+  {
+   "b": "marrone blu rosa oro oro",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  arancione nero nero"
+   },
+   "v": "29.9"
+  },
+  {
+   "b": "verde nero rosso",
+   "testo": {
+    "ok": "5 kΩ  ·  verde arancione argento"
+   },
+   "v": "0.53"
+  },
+  {
+   "b": "nero argento blu rosso",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  blu bianco blu"
+   },
+   "v": "69311652,38"
+  },
+  {
+   "b": "argento nero rosso bianco bianco",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  giallo giallo viola"
+   },
+   "v": "439460468.329"
+  },
+  {
+   "b": "arancione argento blu grigio nero",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  grigio grigio rosso"
+   },
+   "v": "8777.0"
+  },
+  {
+   "b": "nero rosa arancione",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone giallo blu"
+   },
+   "v": "14375696.96"
+  },
+  {
+   "b": "viola argento argento bianco",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone blu rosso"
+   },
+   "v": "1633.0"
+  },
+  {
+   "b": "rosso arancione rosa",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone nero argento"
+   },
+   "v": "0.1"
+  },
+  {
+   "b": "blu marrone rosso rosso",
+   "testo": {
+    "ok": "6,1 kΩ ±2%  ·  rosso arancione viola"
+   },
+   "v": "229832640.0"
+  },
+  {
+   "b": "verde viola verde grigio grigio",
+   "testo": {
+    "ok": "57500 MΩ ±0.05%  ·  rosso rosso blu"
+   },
+   "v": "21676881.0"
+  },
+  {
+   "b": "blu viola argento grigio argento",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  blu marrone arancione"
+   },
+   "v": "61085,09"
+  },
+  {
+   "b": "marrone giallo arancione",
+   "testo": {
+    "ok": "14 kΩ  ·  grigio arancione verde"
+   },
+   "v": "8325698.44"
+  },
+  {
+   "b": "marrone blu bianco argento argento",
+   "testo": {
+    "ok": "1,69 Ω ±10%  ·  arancione giallo oro"
+   },
+   "v": "3.43"
+  },
+  {
+   "b": "bianco oro marrone",
+   "testo": {
+    "ok": "colore non valido per questa posizione  ·  marrone nero nero"
+   },
+   "v": "10,1"
+  },
+  {
+   "b": "giallo viola rosso oro",
+   "testo": {
+    "ok": "4,7 kΩ ±5%  ·  arancione nero rosso"
+   },
+   "v": "3014.0"
+  },
+  {
+   "b": "marrone nero nero",
+   "testo": {
+    "ok": "10 Ω  ·  rosso nero blu"
+   },
+   "v": "19519031.344"
+  },
+  {
+   "b": "",
+   "testo": {
+    "ok": "servono 3, 4 o 5 fasce  ·  arancione verde verde"
+   },
+   "v": "3535237.0"
+  },
+  {
+   "b": "rosso rosso",
+   "testo": {
+    "ok": "servono 3, 4 o 5 fasce  ·  rosso marrone argento"
+   },
+   "v": "0.21"
+  },
+  {
+   "b": "Giallo  Viola  Rosso",
+   "testo": {
+    "ok": "4,7 kΩ  ·  rosso verde viola"
+   },
+   "v": "246822527,54"
+  },
+  {
+   "b": "giallo viola rosso nero",
+   "testo": {
+    "ok": "colore di tolleranza non valido  ·  verde nero viola"
+   },
+   "v": "495533582,3"
+  },
+  {
+   "b": "blu grigio oro argento",
+   "testo": {
+    "ok": "6,8 Ω ±10%  ·  rosso viola arancione"
+   },
+   "v": "26611.5"
+  },
+  {
+   "b": "a b c d e f",
+   "testo": {
+    "ok": "servono 3, 4 o 5 fasce  ·  arancione blu blu"
+   },
+   "v": "35717111.772"
+  },
+  {
+   "b": "rosso rosso nero nero marrone",
+   "testo": {
+    "ok": "220 Ω ±1%  ·  rosso grigio grigio"
+   },
+   "v": "2750837055,921"
+  }
+ ],
+ "divider": [
+  {
+   "r1": 10000.0,
+   "r2": 20000.0,
+   "testo": {
+    "ok": "Vout = 3.333 V"
+   },
+   "vin": 5.0
+  },
+  {
+   "r1": 0.0,
+   "r2": 0.0,
+   "testo": {
+    "ok": "R1 + R2 deve essere positivo"
+   },
+   "vin": 5.0
+  },
+  {
+   "r1": 1.0,
+   "r2": 1.0,
+   "testo": {
+    "ok": "Vout = 0.000 V"
+   },
+   "vin": 0.0
+  },
+  {
+   "r1": 3.358,
+   "r2": 0.256,
+   "testo": {
+    "ok": "Vout = 0.011 V"
+   },
+   "vin": 0.153
+  },
+  {
+   "r1": 1183.63,
+   "r2": 4.696,
+   "testo": {
+    "ok": "Vout = 37.568 V"
+   },
+   "vin": 9506.643
+  },
+  {
+   "r1": 7.119,
+   "r2": 40.526,
+   "testo": {
+    "ok": "Vout = 32321.962 V"
+   },
+   "vin": 37999.8
+  },
+  {
+   "r1": 658.592,
+   "r2": 327009.857,
+   "testo": {
+    "ok": "Vout = 5.222 V"
+   },
+   "vin": 5.233
+  },
+  {
+   "r1": 68880.009,
+   "r2": 102983.939,
+   "testo": {
+    "ok": "Vout = 21269.825 V"
+   },
+   "vin": 35495.982
+  },
+  {
+   "r1": 5.682,
+   "r2": 602.571,
+   "testo": {
+    "ok": "Vout = 5870.548 V"
+   },
+   "vin": 5925.905
+  },
+  {
+   "r1": 615.658,
+   "r2": 34.809,
+   "testo": {
+    "ok": "Vout = 5.080 V"
+   },
+   "vin": 94.932
+  },
+  {
+   "r1": 117352.21,
+   "r2": 4728.455,
+   "testo": {
+    "ok": "Vout = 0.073 V"
+   },
+   "vin": 1.877
+  },
+  {
+   "r1": 297.216,
+   "r2": 0.807,
+   "testo": {
+    "ok": "Vout = 3.041 V"
+   },
+   "vin": 1123.128
+  },
+  {
+   "r1": 0.188,
+   "r2": 109.156,
+   "testo": {
+    "ok": "Vout = 272.283 V"
+   },
+   "vin": 272.752
+  },
+  {
+   "r1": 318.966,
+   "r2": 2751.169,
+   "testo": {
+    "ok": "Vout = 28.165 V"
+   },
+   "vin": 31.43
+  },
+  {
+   "r1": 0.605,
+   "r2": 0.907,
+   "testo": {
+    "ok": "Vout = 0.735 V"
+   },
+   "vin": 1.225
+  },
+  {
+   "r1": 4648.691,
+   "r2": 1.304,
+   "testo": {
+    "ok": "Vout = 0.003 V"
+   },
+   "vin": 9.009
+  },
+  {
+   "r1": 0.194,
+   "r2": 81184.882,
+   "testo": {
+    "ok": "Vout = 109.214 V"
+   },
+   "vin": 109.214
+  },
+  {
+   "r1": 161084.152,
+   "r2": 70653.805,
+   "testo": {
+    "ok": "Vout = 49187.841 V"
+   },
+   "vin": 161331.576
+  },
+  {
+   "r1": 130.055,
+   "r2": 9.457,
+   "testo": {
+    "ok": "Vout = 0.032 V"
+   },
+   "vin": 0.474
+  },
+  {
+   "r1": 880.761,
+   "r2": 153664.225,
+   "testo": {
+    "ok": "Vout = 36.580 V"
+   },
+   "vin": 36.79
+  },
+  {
+   "r1": 0.88,
+   "r2": 4452.321,
+   "testo": {
+    "ok": "Vout = 57797.940 V"
+   },
+   "vin": 57809.364
+  },
+  {
+   "r1": 1228.074,
+   "r2": 4.558,
+   "testo": {
+    "ok": "Vout = 1045.670 V"
+   },
+   "vin": 282783.303
+  },
+  {
+   "r1": 0.301,
+   "r2": 2.215,
+   "testo": {
+    "ok": "Vout = 12900.219 V"
+   },
+   "vin": 14653.251
+  },
+  {
+   "r1": 24.659,
+   "r2": 137.151,
+   "testo": {
+    "ok": "Vout = 0.110 V"
+   },
+   "vin": 0.13
+  },
+  {
+   "r1": 5.01,
+   "r2": 0.284,
+   "testo": {
+    "ok": "Vout = 491.572 V"
+   },
+   "vin": 9163.319
+  },
+  {
+   "r1": 0.466,
+   "r2": 17032.73,
+   "testo": {
+    "ok": "Vout = 710.148 V"
+   },
+   "vin": 710.167
+  },
+  {
+   "r1": 62.468,
+   "r2": 544.964,
+   "testo": {
+    "ok": "Vout = 860.417 V"
+   },
+   "vin": 959.045
+  },
+  {
+   "r1": 1225.949,
+   "r2": 422.091,
+   "testo": {
+    "ok": "Vout = 0.071 V"
+   },
+   "vin": 0.278
+  },
+  {
+   "r1": 597547.778,
+   "r2": 205251.617,
+   "testo": {
+    "ok": "Vout = 146163.082 V"
+   },
+   "vin": 571686.77
+  },
+  {
+   "r1": 3.931,
+   "r2": 817262.936,
+   "testo": {
+    "ok": "Vout = 0.199 V"
+   },
+   "vin": 0.199
+  },
+  {
+   "r1": 562358.199,
+   "r2": 5250.035,
+   "testo": {
+    "ok": "Vout = 2236.154 V"
+   },
+   "vin": 241762.094
+  },
+  {
+   "r1": 37.153,
+   "r2": 43.706,
+   "testo": {
+    "ok": "Vout = 0.788 V"
+   },
+   "vin": 1.458
+  },
+  {
+   "r1": 2.035,
+   "r2": 1306.974,
+   "testo": {
+    "ok": "Vout = 50865.424 V"
+   },
+   "vin": 50944.623
+  },
+  {
+   "r1": 434076.708,
+   "r2": 32779.701,
+   "testo": {
+    "ok": "Vout = 71.339 V"
+   },
+   "vin": 1016.022
+  },
+  {
+   "r1": 19894.846,
+   "r2": 158.988,
+   "testo": {
+    "ok": "Vout = 186.525 V"
+   },
+   "vin": 23527.247
+  },
+  {
+   "r1": 395.111,
+   "r2": 2.807,
+   "testo": {
+    "ok": "Vout = 0.329 V"
+   },
+   "vin": 46.677
+  },
+  {
+   "r1": 0.158,
+   "r2": 777.938,
+   "testo": {
+    "ok": "Vout = 359138.051 V"
+   },
+   "vin": 359210.992
+  },
+  {
+   "r1": 446260.273,
+   "r2": 5.024,
+   "testo": {
+    "ok": "Vout = 3.793 V"
+   },
+   "vin": 336908.614
+  },
+  {
+   "r1": 4.166,
+   "r2": 909195.332,
+   "testo": {
+    "ok": "Vout = 10.013 V"
+   },
+   "vin": 10.013
+  },
+  {
+   "r1": 54.876,
+   "r2": 734547.31,
+   "testo": {
+    "ok": "Vout = 42760.034 V"
+   },
+   "vin": 42763.228
+  },
+  {
+   "r1": 10.708,
+   "r2": 3412.129,
+   "testo": {
+    "ok": "Vout = 791.532 V"
+   },
+   "vin": 794.016
+  },
+  {
+   "r1": 129465.481,
+   "r2": 9.798,
+   "testo": {
+    "ok": "Vout = 0.112 V"
+   },
+   "vin": 1475.143
+  },
+  {
+   "r1": 23838.04,
+   "r2": 5.022,
+   "testo": {
+    "ok": "Vout = 143.980 V"
+   },
+   "vin": 683577.773
+  },
+  {
+   "r1": 0.467,
+   "r2": 145887.809,
+   "testo": {
+    "ok": "Vout = 6.455 V"
+   },
+   "vin": 6.455
+  },
+  {
+   "r1": 124835.63,
+   "r2": 2039.663,
+   "testo": {
+    "ok": "Vout = 1.420 V"
+   },
+   "vin": 88.335
+  },
+  {
+   "r1": 0.756,
+   "r2": 5202.793,
+   "testo": {
+    "ok": "Vout = 0.187 V"
+   },
+   "vin": 0.187
+  },
+  {
+   "r1": 0.409,
+   "r2": 26791.275,
+   "testo": {
+    "ok": "Vout = 1.497 V"
+   },
+   "vin": 1.497
+  },
+  {
+   "r1": 57.472,
+   "r2": 844827.714,
+   "testo": {
+    "ok": "Vout = 941238.374 V"
+   },
+   "vin": 941302.405
+  },
+  {
+   "r1": 319.859,
+   "r2": 820.143,
+   "testo": {
+    "ok": "Vout = 659369.734 V"
+   },
+   "vin": 916526.527
+  },
+  {
+   "r1": 542549.816,
+   "r2": 289151.496,
+   "testo": {
+    "ok": "Vout = 2.376 V"
+   },
+   "vin": 6.834
+  },
+  {
+   "r1": 29.95,
+   "r2": 14.997,
+   "testo": {
+    "ok": "Vout = 4348.613 V"
+   },
+   "vin": 13033.08
+  },
+  {
+   "r1": 344147.641,
+   "r2": 1629.538,
+   "testo": {
+    "ok": "Vout = 0.001 V"
+   },
+   "vin": 0.135
+  },
+  {
+   "r1": 0.368,
+   "r2": 3440.632,
+   "testo": {
+    "ok": "Vout = 21.475 V"
+   },
+   "vin": 21.477
+  },
+  {
+   "r1": 52637.452,
+   "r2": 0.659,
+   "testo": {
+    "ok": "Vout = 9.427 V"
+   },
+   "vin": 753023.854
+  },
+  {
+   "r1": 0.145,
+   "r2": 583749.073,
+   "testo": {
+    "ok": "Vout = 7119.212 V"
+   },
+   "vin": 7119.214
+  },
+  {
+   "r1": 120.229,
+   "r2": 1951.389,
+   "testo": {
+    "ok": "Vout = 11948.312 V"
+   },
+   "vin": 12684.471
+  },
+  {
+   "r1": 364.375,
+   "r2": 1352.099,
+   "testo": {
+    "ok": "Vout = 160.907 V"
+   },
+   "vin": 204.27
+  },
+  {
+   "r1": 4359.947,
+   "r2": 720204.706,
+   "testo": {
+    "ok": "Vout = 195961.345 V"
+   },
+   "vin": 197147.648
+  },
+  {
+   "r1": 54015.055,
+   "r2": 3634.625,
+   "testo": {
+    "ok": "Vout = 15.796 V"
+   },
+   "vin": 250.546
+  },
+  {
+   "r1": 31530.324,
+   "r2": 177.358,
+   "testo": {
+    "ok": "Vout = 91.119 V"
+   },
+   "vin": 16290.096
+  },
+  {
+   "r1": 39.334,
+   "r2": 0.2,
+   "testo": {
+    "ok": "Vout = 591.789 V"
+   },
+   "vin": 116978.937
+  },
+  {
+   "r1": 521514.54,
+   "r2": 33.64,
+   "testo": {
+    "ok": "Vout = 0.000 V"
+   },
+   "vin": 0.1
+  },
+  {
+   "r1": 742103.78,
+   "r2": 0.366,
+   "testo": {
+    "ok": "Vout = 0.000 V"
+   },
+   "vin": 21.868
+  },
+  {
+   "r1": 23482.076,
+   "r2": 210.476,
+   "testo": {
+    "ok": "Vout = 0.059 V"
+   },
+   "vin": 6.628
+  },
+  {
+   "r1": 0.238,
+   "r2": 26510.526,
+   "testo": {
+    "ok": "Vout = 1485.792 V"
+   },
+   "vin": 1485.805
+  },
+  {
+   "r1": 247.363,
+   "r2": 300.822,
+   "testo": {
+    "ok": "Vout = 0.642 V"
+   },
+   "vin": 1.17
+  },
+  {
+   "r1": 20.816,
+   "r2": 6.041,
+   "testo": {
+    "ok": "Vout = 173828.101 V"
+   },
+   "vin": 772802.734
+  },
+  {
+   "r1": 163.312,
+   "r2": 6751.127,
+   "testo": {
+    "ok": "Vout = 68.762 V"
+   },
+   "vin": 70.425
+  },
+  {
+   "r1": 513010.254,
+   "r2": 89.994,
+   "testo": {
+    "ok": "Vout = 0.536 V"
+   },
+   "vin": 3057.001
+  },
+  {
+   "r1": 73.786,
+   "r2": 2.259,
+   "testo": {
+    "ok": "Vout = 8587.210 V"
+   },
+   "vin": 289072.33
+  },
+  {
+   "r1": 49.51,
+   "r2": 4.338,
+   "testo": {
+    "ok": "Vout = 105.873 V"
+   },
+   "vin": 1314.211
+  },
+  {
+   "r1": 444513.468,
+   "r2": 22.901,
+   "testo": {
+    "ok": "Vout = 0.362 V"
+   },
+   "vin": 7029.211
+  },
+  {
+   "r1": 9930.519,
+   "r2": 8.581,
+   "testo": {
+    "ok": "Vout = 276.412 V"
+   },
+   "vin": 320159.756
+  },
+  {
+   "r1": 121.928,
+   "r2": 203878.345,
+   "testo": {
+    "ok": "Vout = 0.128 V"
+   },
+   "vin": 0.128
+  },
+  {
+   "r1": 132.308,
+   "r2": 35726.574,
+   "testo": {
+    "ok": "Vout = 903.626 V"
+   },
+   "vin": 906.972
+  },
+  {
+   "r1": 60159.427,
+   "r2": 444.521,
+   "testo": {
+    "ok": "Vout = 17.844 V"
+   },
+   "vin": 2432.705
+  },
+  {
+   "r1": 31.418,
+   "r2": 283182.969,
+   "testo": {
+    "ok": "Vout = 3259.174 V"
+   },
+   "vin": 3259.536
+  },
+  {
+   "r1": 2.456,
+   "r2": 59.185,
+   "testo": {
+    "ok": "Vout = 113148.573 V"
+   },
+   "vin": 117843.899
+  },
+  {
+   "r1": 0.13,
+   "r2": 194944.715,
+   "testo": {
+    "ok": "Vout = 0.120 V"
+   },
+   "vin": 0.12
+  },
+  {
+   "r1": 89791.512,
+   "r2": 17.951,
+   "testo": {
+    "ok": "Vout = 11.558 V"
+   },
+   "vin": 57823.211
+  },
+  {
+   "r1": 0.225,
+   "r2": 717.646,
+   "testo": {
+    "ok": "Vout = 10.814 V"
+   },
+   "vin": 10.817
+  },
+  {
+   "r1": 902.571,
+   "r2": 487.832,
+   "testo": {
+    "ok": "Vout = 5.446 V"
+   },
+   "vin": 15.521
+  },
+  {
+   "r1": 663.8,
+   "r2": 7.6,
+   "testo": {
+    "ok": "Vout = 18.463 V"
+   },
+   "vin": 1631.031
+  },
+  {
+   "r1": 2.565,
+   "r2": 12067.004,
+   "testo": {
+    "ok": "Vout = 79.406 V"
+   },
+   "vin": 79.423
+  },
+  {
+   "r1": 3.122,
+   "r2": 509629.092,
+   "testo": {
+    "ok": "Vout = 3.277 V"
+   },
+   "vin": 3.277
+  },
+  {
+   "r1": 470920.471,
+   "r2": 106.229,
+   "testo": {
+    "ok": "Vout = 96.423 V"
+   },
+   "vin": 427545.697
+  },
+  {
+   "r1": 2193.401,
+   "r2": 7869.12,
+   "testo": {
+    "ok": "Vout = 305.012 V"
+   },
+   "vin": 390.029
+  },
+  {
+   "r1": 5207.82,
+   "r2": 1.997,
+   "testo": {
+    "ok": "Vout = 12.696 V"
+   },
+   "vin": 33121.853
+  },
+  {
+   "r1": 59.586,
+   "r2": 11.616,
+   "testo": {
+    "ok": "Vout = 9779.535 V"
+   },
+   "vin": 59945.115
+  },
+  {
+   "r1": 0.17,
+   "r2": 33898.899,
+   "testo": {
+    "ok": "Vout = 13.029 V"
+   },
+   "vin": 13.029
+  },
+  {
+   "r1": 17332.503,
+   "r2": 3585.332,
+   "testo": {
+    "ok": "Vout = 541.803 V"
+   },
+   "vin": 3161.03
+  },
+  {
+   "r1": 0.334,
+   "r2": 11438.772,
+   "testo": {
+    "ok": "Vout = 0.456 V"
+   },
+   "vin": 0.456
+  },
+  {
+   "r1": 2810.898,
+   "r2": 9932.856,
+   "testo": {
+    "ok": "Vout = 334702.885 V"
+   },
+   "vin": 429420.424
+  },
+  {
+   "r1": 5.961,
+   "r2": 0.56,
+   "testo": {
+    "ok": "Vout = 56461.388 V"
+   },
+   "vin": 657472.701
+  },
+  {
+   "r1": 0.142,
+   "r2": 0.545,
+   "testo": {
+    "ok": "Vout = 0.209 V"
+   },
+   "vin": 0.264
+  },
+  {
+   "r1": 178565.351,
+   "r2": 128220.493,
+   "testo": {
+    "ok": "Vout = 1.401 V"
+   },
+   "vin": 3.351
+  },
+  {
+   "r1": 0.283,
+   "r2": 150.558,
+   "testo": {
+    "ok": "Vout = 601.141 V"
+   },
+   "vin": 602.271
+  },
+  {
+   "r1": 944838.811,
+   "r2": 0.199,
+   "testo": {
+    "ok": "Vout = 0.054 V"
+   },
+   "vin": 255606.101
+  },
+  {
+   "r1": 16.921,
+   "r2": 407.381,
+   "testo": {
+    "ok": "Vout = 0.310 V"
+   },
+   "vin": 0.323
+  },
+  {
+   "r1": 22649.289,
+   "r2": 26.935,
+   "testo": {
+    "ok": "Vout = 0.000 V"
+   },
+   "vin": 0.157
+  },
+  {
+   "r1": 2.323,
+   "r2": 50985.531,
+   "testo": {
+    "ok": "Vout = 79.064 V"
+   },
+   "vin": 79.068
+  },
+  {
+   "r1": 5.232,
+   "r2": 26.872,
+   "testo": {
+    "ok": "Vout = 31.615 V"
+   },
+   "vin": 37.771
+  },
+  {
+   "r1": 210606.875,
+   "r2": 562.182,
+   "testo": {
+    "ok": "Vout = 435.195 V"
+   },
+   "vin": 163469.768
+  }
+ ],
+ "led": [
+  {
+   "l": 2.0,
+   "ma": 10.0,
+   "s": 5.0,
+   "testo": {
+    "ok": "Esatta 300 Ω · standard (E12, per eccesso) 330 Ω · corrente reale 9.1 mA · potenza 27 mW"
+   }
+  },
+  {
+   "l": 5.0,
+   "ma": 10.0,
+   "s": 5.0,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 2.0,
+   "ma": 0.0,
+   "s": 3.3,
+   "testo": {
+    "ok": "corrente non positiva"
+   }
+  },
+  {
+   "l": 3.2,
+   "ma": 20.0,
+   "s": 12.0,
+   "testo": {
+    "ok": "Esatta 440 Ω · standard (E12, per eccesso) 470 Ω · corrente reale 18.7 mA · potenza 165 mW"
+   }
+  },
+  {
+   "l": 2.0,
+   "ma": 1000.0,
+   "s": 5.0,
+   "testo": {
+    "ok": "Esatta 3 Ω · standard (E12, per eccesso) 3,3 Ω · corrente reale 909.1 mA · potenza 2727 mW"
+   }
+  },
+  {
+   "l": 3.17,
+   "ma": 1.806,
+   "s": 19.472,
+   "testo": {
+    "ok": "Esatta 9,0266 kΩ · standard (E12, per eccesso) 10 kΩ · corrente reale 1.6 mA · potenza 27 mW"
+   }
+  },
+  {
+   "l": 2.932,
+   "ma": 7.032,
+   "s": 19.635,
+   "testo": {
+    "ok": "Esatta 2,3753 kΩ · standard (E12, per eccesso) 2,7 kΩ · corrente reale 6.2 mA · potenza 103 mW"
+   }
+  },
+  {
+   "l": 2.157,
+   "ma": 20.569,
+   "s": 8.141,
+   "testo": {
+    "ok": "Esatta 290,9 Ω · standard (E12, per eccesso) 330 Ω · corrente reale 18.1 mA · potenza 109 mW"
+   }
+  },
+  {
+   "l": 0.862,
+   "ma": 288.591,
+   "s": 14.922,
+   "testo": {
+    "ok": "Esatta 48,7 Ω · standard (E12, per eccesso) 56 Ω · corrente reale 251.1 mA · potenza 3530 mW"
+   }
+  },
+  {
+   "l": 0.46,
+   "ma": 843.178,
+   "s": 2.554,
+   "testo": {
+    "ok": "Esatta 2,5 Ω · standard (E12, per eccesso) 2,7 Ω · corrente reale 775.6 mA · potenza 1624 mW"
+   }
+  },
+  {
+   "l": 2.326,
+   "ma": 11.721,
+   "s": 0.593,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 3.177,
+   "ma": 68.929,
+   "s": 15.401,
+   "testo": {
+    "ok": "Esatta 177,3 Ω · standard (E12, per eccesso) 180 Ω · corrente reale 67.9 mA · potenza 830 mW"
+   }
+  },
+  {
+   "l": 0.295,
+   "ma": 1.871,
+   "s": 20.827,
+   "testo": {
+    "ok": "Esatta 10,9738 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 1.7 mA · potenza 35 mW"
+   }
+  },
+  {
+   "l": 1.979,
+   "ma": 0.228,
+   "s": 15.847,
+   "testo": {
+    "ok": "Esatta 60,8246 kΩ · standard (E12, per eccesso) 68 kΩ · corrente reale 0.2 mA · potenza 3 mW"
+   }
+  },
+  {
+   "l": 3.159,
+   "ma": 0.118,
+   "s": 17.017,
+   "testo": {
+    "ok": "Esatta 117,441 kΩ · standard (E12, per eccesso) 120 kΩ · corrente reale 0.1 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 0.747,
+   "ma": 508.509,
+   "s": 1.233,
+   "testo": {
+    "ok": "Esatta 1 Ω · standard (E12, per eccesso) 1 Ω · corrente reale 486.0 mA · potenza 236 mW"
+   }
+  },
+  {
+   "l": 0.173,
+   "ma": 179.724,
+   "s": 16.833,
+   "testo": {
+    "ok": "Esatta 92,7 Ω · standard (E12, per eccesso) 100 Ω · corrente reale 166.6 mA · potenza 2776 mW"
+   }
+  },
+  {
+   "l": 3.477,
+   "ma": 6.738,
+   "s": 19.4,
+   "testo": {
+    "ok": "Esatta 2,3632 kΩ · standard (E12, per eccesso) 2,7 kΩ · corrente reale 5.9 mA · potenza 94 mW"
+   }
+  },
+  {
+   "l": 3.226,
+   "ma": 5.465,
+   "s": 19.519,
+   "testo": {
+    "ok": "Esatta 2,9813 kΩ · standard (E12, per eccesso) 3,3 kΩ · corrente reale 4.9 mA · potenza 80 mW"
+   }
+  },
+  {
+   "l": 0.432,
+   "ma": 256.963,
+   "s": 18.095,
+   "testo": {
+    "ok": "Esatta 68,7 Ω · standard (E12, per eccesso) 82 Ω · corrente reale 215.4 mA · potenza 3805 mW"
+   }
+  },
+  {
+   "l": 3.331,
+   "ma": 232.643,
+   "s": 4.281,
+   "testo": {
+    "ok": "Esatta 4,1 Ω · standard (E12, per eccesso) 4,7 Ω · corrente reale 202.1 mA · potenza 192 mW"
+   }
+  },
+  {
+   "l": 3.47,
+   "ma": 413.474,
+   "s": 9.291,
+   "testo": {
+    "ok": "Esatta 14,1 Ω · standard (E12, per eccesso) 15 Ω · corrente reale 388.1 mA · potenza 2259 mW"
+   }
+  },
+  {
+   "l": 3.66,
+   "ma": 367.102,
+   "s": 21.79,
+   "testo": {
+    "ok": "Esatta 49,4 Ω · standard (E12, per eccesso) 56 Ω · corrente reale 323.8 mA · potenza 5870 mW"
+   }
+  },
+  {
+   "l": 1.276,
+   "ma": 0.375,
+   "s": 23.767,
+   "testo": {
+    "ok": "Esatta 59,976 kΩ · standard (E12, per eccesso) 68 kΩ · corrente reale 0.3 mA · potenza 7 mW"
+   }
+  },
+  {
+   "l": 1.556,
+   "ma": 4.361,
+   "s": 16.878,
+   "testo": {
+    "ok": "Esatta 3,5134 kΩ · standard (E12, per eccesso) 3,9 kΩ · corrente reale 3.9 mA · potenza 60 mW"
+   }
+  },
+  {
+   "l": 3.983,
+   "ma": 0.902,
+   "s": 21.151,
+   "testo": {
+    "ok": "Esatta 19,0333 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.8 mA · potenza 13 mW"
+   }
+  },
+  {
+   "l": 3.635,
+   "ma": 184.932,
+   "s": 2.707,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 2.154,
+   "ma": 496.783,
+   "s": 8.939,
+   "testo": {
+    "ok": "Esatta 13,7 Ω · standard (E12, per eccesso) 15 Ω · corrente reale 452.3 mA · potenza 3069 mW"
+   }
+  },
+  {
+   "l": 0.328,
+   "ma": 11.645,
+   "s": 9.805,
+   "testo": {
+    "ok": "Esatta 813,8 Ω · standard (E12, per eccesso) 820 Ω · corrente reale 11.6 mA · potenza 110 mW"
+   }
+  },
+  {
+   "l": 3.894,
+   "ma": 0.84,
+   "s": 16.409,
+   "testo": {
+    "ok": "Esatta 14,8988 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 0.8 mA · potenza 10 mW"
+   }
+  },
+  {
+   "l": 2.179,
+   "ma": 0.964,
+   "s": 9.615,
+   "testo": {
+    "ok": "Esatta 7,7137 kΩ · standard (E12, per eccesso) 8,2 kΩ · corrente reale 0.9 mA · potenza 7 mW"
+   }
+  },
+  {
+   "l": 3.504,
+   "ma": 40.917,
+   "s": 1.154,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 0.802,
+   "ma": 583.042,
+   "s": 22.807,
+   "testo": {
+    "ok": "Esatta 37,7 Ω · standard (E12, per eccesso) 39 Ω · corrente reale 564.2 mA · potenza 12416 mW"
+   }
+  },
+  {
+   "l": 2.25,
+   "ma": 3.98,
+   "s": 20.767,
+   "testo": {
+    "ok": "Esatta 4,6525 kΩ · standard (E12, per eccesso) 4,7 kΩ · corrente reale 3.9 mA · potenza 73 mW"
+   }
+  },
+  {
+   "l": 1.08,
+   "ma": 0.516,
+   "s": 5.004,
+   "testo": {
+    "ok": "Esatta 7,6047 kΩ · standard (E12, per eccesso) 8,2 kΩ · corrente reale 0.5 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 1.847,
+   "ma": 133.884,
+   "s": 21.865,
+   "testo": {
+    "ok": "Esatta 149,5 Ω · standard (E12, per eccesso) 150 Ω · corrente reale 133.5 mA · potenza 2671 mW"
+   }
+  },
+  {
+   "l": 1.524,
+   "ma": 0.226,
+   "s": 4.366,
+   "testo": {
+    "ok": "Esatta 12,5752 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 0.2 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 0.709,
+   "ma": 135.079,
+   "s": 22.637,
+   "testo": {
+    "ok": "Esatta 162,3 Ω · standard (E12, per eccesso) 180 Ω · corrente reale 121.8 mA · potenza 2671 mW"
+   }
+  },
+  {
+   "l": 3.817,
+   "ma": 0.263,
+   "s": 23.944,
+   "testo": {
+    "ok": "Esatta 76,5285 kΩ · standard (E12, per eccesso) 82 kΩ · corrente reale 0.2 mA · potenza 5 mW"
+   }
+  },
+  {
+   "l": 1.356,
+   "ma": 0.121,
+   "s": 5.499,
+   "testo": {
+    "ok": "Esatta 34,2397 kΩ · standard (E12, per eccesso) 39 kΩ · corrente reale 0.1 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 1.063,
+   "ma": 26.453,
+   "s": 16.185,
+   "testo": {
+    "ok": "Esatta 571,7 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 22.2 mA · potenza 336 mW"
+   }
+  },
+  {
+   "l": 0.711,
+   "ma": 1.59,
+   "s": 21.106,
+   "testo": {
+    "ok": "Esatta 12,827 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 1.4 mA · potenza 28 mW"
+   }
+  },
+  {
+   "l": 1.091,
+   "ma": 3.569,
+   "s": 5.867,
+   "testo": {
+    "ok": "Esatta 1,3382 kΩ · standard (E12, per eccesso) 1,5 kΩ · corrente reale 3.2 mA · potenza 15 mW"
+   }
+  },
+  {
+   "l": 2.917,
+   "ma": 92.595,
+   "s": 16.72,
+   "testo": {
+    "ok": "Esatta 149,1 Ω · standard (E12, per eccesso) 150 Ω · corrente reale 92.0 mA · potenza 1270 mW"
+   }
+  },
+  {
+   "l": 0.18,
+   "ma": 7.082,
+   "s": 22.121,
+   "testo": {
+    "ok": "Esatta 3,0981 kΩ · standard (E12, per eccesso) 3,3 kΩ · corrente reale 6.6 mA · potenza 146 mW"
+   }
+  },
+  {
+   "l": 2.501,
+   "ma": 122.763,
+   "s": 4.764,
+   "testo": {
+    "ok": "Esatta 18,4 Ω · standard (E12, per eccesso) 22 Ω · corrente reale 102.9 mA · potenza 233 mW"
+   }
+  },
+  {
+   "l": 2.687,
+   "ma": 35.366,
+   "s": 3.306,
+   "testo": {
+    "ok": "Esatta 17,5 Ω · standard (E12, per eccesso) 18 Ω · corrente reale 34.4 mA · potenza 21 mW"
+   }
+  },
+  {
+   "l": 3.52,
+   "ma": 0.108,
+   "s": 14.486,
+   "testo": {
+    "ok": "Esatta 101,537 kΩ · standard (E12, per eccesso) 120 kΩ · corrente reale 0.1 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 1.541,
+   "ma": 0.409,
+   "s": 6.864,
+   "testo": {
+    "ok": "Esatta 13,0147 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 0.4 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 3.766,
+   "ma": 0.544,
+   "s": 15.963,
+   "testo": {
+    "ok": "Esatta 22,421 kΩ · standard (E12, per eccesso) 27 kΩ · corrente reale 0.5 mA · potenza 6 mW"
+   }
+  },
+  {
+   "l": 3.621,
+   "ma": 918.903,
+   "s": 20.44,
+   "testo": {
+    "ok": "Esatta 18,3 Ω · standard (E12, per eccesso) 22 Ω · corrente reale 764.5 mA · potenza 12858 mW"
+   }
+  },
+  {
+   "l": 1.298,
+   "ma": 0.14,
+   "s": 22.215,
+   "testo": {
+    "ok": "Esatta 149,407 kΩ · standard (E12, per eccesso) 150 kΩ · corrente reale 0.1 mA · potenza 3 mW"
+   }
+  },
+  {
+   "l": 3.429,
+   "ma": 36.117,
+   "s": 16.792,
+   "testo": {
+    "ok": "Esatta 370 Ω · standard (E12, per eccesso) 390 Ω · corrente reale 34.3 mA · potenza 458 mW"
+   }
+  },
+  {
+   "l": 1.343,
+   "ma": 14.178,
+   "s": 7.524,
+   "testo": {
+    "ok": "Esatta 436 Ω · standard (E12, per eccesso) 470 Ω · corrente reale 13.2 mA · potenza 81 mW"
+   }
+  },
+  {
+   "l": 3.981,
+   "ma": 40.253,
+   "s": 1.029,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 3.723,
+   "ma": 129.716,
+   "s": 21.539,
+   "testo": {
+    "ok": "Esatta 137,3 Ω · standard (E12, per eccesso) 150 Ω · corrente reale 118.8 mA · potenza 2116 mW"
+   }
+  },
+  {
+   "l": 3.251,
+   "ma": 204.522,
+   "s": 11.235,
+   "testo": {
+    "ok": "Esatta 39 Ω · standard (E12, per eccesso) 47 Ω · corrente reale 169.9 mA · potenza 1356 mW"
+   }
+  },
+  {
+   "l": 1.484,
+   "ma": 343.84,
+   "s": 13.98,
+   "testo": {
+    "ok": "Esatta 36,3 Ω · standard (E12, per eccesso) 39 Ω · corrente reale 320.4 mA · potenza 4004 mW"
+   }
+  },
+  {
+   "l": 2.119,
+   "ma": 9.261,
+   "s": 2.086,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 2.361,
+   "ma": 270.809,
+   "s": 17.622,
+   "testo": {
+    "ok": "Esatta 56,4 Ω · standard (E12, per eccesso) 68 Ω · corrente reale 224.4 mA · potenza 3425 mW"
+   }
+  },
+  {
+   "l": 0.592,
+   "ma": 505.629,
+   "s": 11.816,
+   "testo": {
+    "ok": "Esatta 22,2 Ω · standard (E12, per eccesso) 27 Ω · corrente reale 415.7 mA · potenza 4666 mW"
+   }
+  },
+  {
+   "l": 3.792,
+   "ma": 1.986,
+   "s": 15.206,
+   "testo": {
+    "ok": "Esatta 5,7472 kΩ · standard (E12, per eccesso) 6,8 kΩ · corrente reale 1.7 mA · potenza 19 mW"
+   }
+  },
+  {
+   "l": 1.848,
+   "ma": 21.93,
+   "s": 0.236,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 1.885,
+   "ma": 0.21,
+   "s": 20.184,
+   "testo": {
+    "ok": "Esatta 87,1381 kΩ · standard (E12, per eccesso) 100 kΩ · corrente reale 0.2 mA · potenza 3 mW"
+   }
+  },
+  {
+   "l": 3.41,
+   "ma": 0.17,
+   "s": 20.267,
+   "testo": {
+    "ok": "Esatta 99,1588 kΩ · standard (E12, per eccesso) 100 kΩ · corrente reale 0.2 mA · potenza 3 mW"
+   }
+  },
+  {
+   "l": 2.438,
+   "ma": 0.257,
+   "s": 22.964,
+   "testo": {
+    "ok": "Esatta 79,8677 kΩ · standard (E12, per eccesso) 82 kΩ · corrente reale 0.3 mA · potenza 5 mW"
+   }
+  },
+  {
+   "l": 0.59,
+   "ma": 214.179,
+   "s": 23.219,
+   "testo": {
+    "ok": "Esatta 105,7 Ω · standard (E12, per eccesso) 120 Ω · corrente reale 188.6 mA · potenza 4267 mW"
+   }
+  },
+  {
+   "l": 3.771,
+   "ma": 25.58,
+   "s": 14.319,
+   "testo": {
+    "ok": "Esatta 412,4 Ω · standard (E12, per eccesso) 470 Ω · corrente reale 22.4 mA · potenza 237 mW"
+   }
+  },
+  {
+   "l": 3.459,
+   "ma": 34.725,
+   "s": 21.462,
+   "testo": {
+    "ok": "Esatta 518,4 Ω · standard (E12, per eccesso) 560 Ω · corrente reale 32.1 mA · potenza 579 mW"
+   }
+  },
+  {
+   "l": 2.421,
+   "ma": 3.81,
+   "s": 21.869,
+   "testo": {
+    "ok": "Esatta 5,1045 kΩ · standard (E12, per eccesso) 5,6 kΩ · corrente reale 3.5 mA · potenza 68 mW"
+   }
+  },
+  {
+   "l": 0.047,
+   "ma": 34.767,
+   "s": 17.222,
+   "testo": {
+    "ok": "Esatta 494 Ω · standard (E12, per eccesso) 560 Ω · corrente reale 30.7 mA · potenza 527 mW"
+   }
+  },
+  {
+   "l": 1.048,
+   "ma": 0.762,
+   "s": 9.42,
+   "testo": {
+    "ok": "Esatta 10,9869 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 0.7 mA · potenza 6 mW"
+   }
+  },
+  {
+   "l": 2.387,
+   "ma": 2.869,
+   "s": 16.259,
+   "testo": {
+    "ok": "Esatta 4,8351 kΩ · standard (E12, per eccesso) 5,6 kΩ · corrente reale 2.5 mA · potenza 34 mW"
+   }
+  },
+  {
+   "l": 0.177,
+   "ma": 387.4,
+   "s": 0.835,
+   "testo": {
+    "ok": "Esatta 1,7 Ω · standard (E12, per eccesso) 1,8 Ω · corrente reale 365.6 mA · potenza 241 mW"
+   }
+  },
+  {
+   "l": 2.941,
+   "ma": 20.661,
+   "s": 6.295,
+   "testo": {
+    "ok": "Esatta 162,3 Ω · standard (E12, per eccesso) 180 Ω · corrente reale 18.6 mA · potenza 62 mW"
+   }
+  },
+  {
+   "l": 0.492,
+   "ma": 19.757,
+   "s": 12.37,
+   "testo": {
+    "ok": "Esatta 601,2 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 17.5 mA · potenza 207 mW"
+   }
+  },
+  {
+   "l": 1.558,
+   "ma": 56.169,
+   "s": 0.676,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 0.786,
+   "ma": 0.218,
+   "s": 11.414,
+   "testo": {
+    "ok": "Esatta 48,7523 kΩ · standard (E12, per eccesso) 56 kΩ · corrente reale 0.2 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 3.542,
+   "ma": 1.822,
+   "s": 20.027,
+   "testo": {
+    "ok": "Esatta 9,0477 kΩ · standard (E12, per eccesso) 10 kΩ · corrente reale 1.6 mA · potenza 27 mW"
+   }
+  },
+  {
+   "l": 0.733,
+   "ma": 7.546,
+   "s": 14.687,
+   "testo": {
+    "ok": "Esatta 1,8492 kΩ · standard (E12, per eccesso) 2,2 kΩ · corrente reale 6.3 mA · potenza 89 mW"
+   }
+  },
+  {
+   "l": 0.505,
+   "ma": 0.261,
+   "s": 4.535,
+   "testo": {
+    "ok": "Esatta 15,4406 kΩ · standard (E12, per eccesso) 18 kΩ · corrente reale 0.2 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 1.101,
+   "ma": 339.905,
+   "s": 11.214,
+   "testo": {
+    "ok": "Esatta 29,8 Ω · standard (E12, per eccesso) 33 Ω · corrente reale 306.5 mA · potenza 3099 mW"
+   }
+  },
+  {
+   "l": 2.208,
+   "ma": 4.831,
+   "s": 5.066,
+   "testo": {
+    "ok": "Esatta 591,6 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 4.2 mA · potenza 12 mW"
+   }
+  },
+  {
+   "l": 3.842,
+   "ma": 0.386,
+   "s": 4.91,
+   "testo": {
+    "ok": "Esatta 2,7668 kΩ · standard (E12, per eccesso) 3,3 kΩ · corrente reale 0.3 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 2.509,
+   "ma": 64.815,
+   "s": 6.778,
+   "testo": {
+    "ok": "Esatta 65,9 Ω · standard (E12, per eccesso) 68 Ω · corrente reale 62.8 mA · potenza 268 mW"
+   }
+  },
+  {
+   "l": 2.817,
+   "ma": 25.006,
+   "s": 10.373,
+   "testo": {
+    "ok": "Esatta 302,2 Ω · standard (E12, per eccesso) 330 Ω · corrente reale 22.9 mA · potenza 173 mW"
+   }
+  },
+  {
+   "l": 3.244,
+   "ma": 0.48,
+   "s": 4.827,
+   "testo": {
+    "ok": "Esatta 3,2979 kΩ · standard (E12, per eccesso) 3,3 kΩ · corrente reale 0.5 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 2.855,
+   "ma": 66.369,
+   "s": 20.363,
+   "testo": {
+    "ok": "Esatta 263,8 Ω · standard (E12, per eccesso) 270 Ω · corrente reale 64.8 mA · potenza 1135 mW"
+   }
+  },
+  {
+   "l": 3.186,
+   "ma": 123.904,
+   "s": 17.631,
+   "testo": {
+    "ok": "Esatta 116,6 Ω · standard (E12, per eccesso) 120 Ω · corrente reale 120.4 mA · potenza 1739 mW"
+   }
+  },
+  {
+   "l": 2.027,
+   "ma": 810.794,
+   "s": 21.727,
+   "testo": {
+    "ok": "Esatta 24,3 Ω · standard (E12, per eccesso) 27 Ω · corrente reale 729.6 mA · potenza 14374 mW"
+   }
+  },
+  {
+   "l": 0.408,
+   "ma": 2.926,
+   "s": 0.496,
+   "testo": {
+    "ok": "Esatta 30,1 Ω · standard (E12, per eccesso) 33 Ω · corrente reale 2.7 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 0.802,
+   "ma": 0.181,
+   "s": 5.333,
+   "testo": {
+    "ok": "Esatta 25,0331 kΩ · standard (E12, per eccesso) 27 kΩ · corrente reale 0.2 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 3.984,
+   "ma": 0.471,
+   "s": 14.339,
+   "testo": {
+    "ok": "Esatta 21,9851 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.5 mA · potenza 5 mW"
+   }
+  },
+  {
+   "l": 3.61,
+   "ma": 543.929,
+   "s": 2.092,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 0.017,
+   "ma": 4.107,
+   "s": 21.415,
+   "testo": {
+    "ok": "Esatta 5,2101 kΩ · standard (E12, per eccesso) 5,6 kΩ · corrente reale 3.8 mA · potenza 82 mW"
+   }
+  },
+  {
+   "l": 1.494,
+   "ma": 0.579,
+   "s": 17.523,
+   "testo": {
+    "ok": "Esatta 27,6839 kΩ · standard (E12, per eccesso) 33 kΩ · corrente reale 0.5 mA · potenza 8 mW"
+   }
+  },
+  {
+   "l": 3.158,
+   "ma": 56.437,
+   "s": 19.739,
+   "testo": {
+    "ok": "Esatta 293,8 Ω · standard (E12, per eccesso) 330 Ω · corrente reale 50.2 mA · potenza 833 mW"
+   }
+  },
+  {
+   "l": 2.796,
+   "ma": 6.575,
+   "s": 5.381,
+   "testo": {
+    "ok": "Esatta 393,2 Ω · standard (E12, per eccesso) 470 Ω · corrente reale 5.5 mA · potenza 14 mW"
+   }
+  },
+  {
+   "l": 2.103,
+   "ma": 212.398,
+   "s": 4.122,
+   "testo": {
+    "ok": "Esatta 9,5 Ω · standard (E12, per eccesso) 10 Ω · corrente reale 201.9 mA · potenza 408 mW"
+   }
+  },
+  {
+   "l": 2.684,
+   "ma": 1.834,
+   "s": 5.002,
+   "testo": {
+    "ok": "Esatta 1,2639 kΩ · standard (E12, per eccesso) 1,5 kΩ · corrente reale 1.5 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 1.806,
+   "ma": 0.201,
+   "s": 6.551,
+   "testo": {
+    "ok": "Esatta 23,607 kΩ · standard (E12, per eccesso) 27 kΩ · corrente reale 0.2 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 0.613,
+   "ma": 0.721,
+   "s": 8.188,
+   "testo": {
+    "ok": "Esatta 10,5062 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 0.6 mA · potenza 5 mW"
+   }
+  },
+  {
+   "l": 2.921,
+   "ma": 0.701,
+   "s": 17.934,
+   "testo": {
+    "ok": "Esatta 21,4165 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.7 mA · potenza 10 mW"
+   }
+  },
+  {
+   "l": 3.896,
+   "ma": 0.303,
+   "s": 18.706,
+   "testo": {
+    "ok": "Esatta 48,8779 kΩ · standard (E12, per eccesso) 56 kΩ · corrente reale 0.3 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 0.827,
+   "ma": 0.292,
+   "s": 15.91,
+   "testo": {
+    "ok": "Esatta 51,6541 kΩ · standard (E12, per eccesso) 56 kΩ · corrente reale 0.3 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 3.657,
+   "ma": 2.972,
+   "s": 1.397,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 3.15,
+   "ma": 20.367,
+   "s": 10.154,
+   "testo": {
+    "ok": "Esatta 343,9 Ω · standard (E12, per eccesso) 390 Ω · corrente reale 18.0 mA · potenza 126 mW"
+   }
+  },
+  {
+   "l": 3.787,
+   "ma": 195.619,
+   "s": 7.664,
+   "testo": {
+    "ok": "Esatta 19,8 Ω · standard (E12, per eccesso) 22 Ω · corrente reale 176.2 mA · potenza 683 mW"
+   }
+  },
+  {
+   "l": 3.673,
+   "ma": 16.939,
+   "s": 17.192,
+   "testo": {
+    "ok": "Esatta 798,1 Ω · standard (E12, per eccesso) 820 Ω · corrente reale 16.5 mA · potenza 223 mW"
+   }
+  },
+  {
+   "l": 1.727,
+   "ma": 0.249,
+   "s": 11.38,
+   "testo": {
+    "ok": "Esatta 38,7671 kΩ · standard (E12, per eccesso) 39 kΩ · corrente reale 0.2 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 2.205,
+   "ma": 216.894,
+   "s": 4.643,
+   "testo": {
+    "ok": "Esatta 11,2 Ω · standard (E12, per eccesso) 12 Ω · corrente reale 203.2 mA · potenza 495 mW"
+   }
+  },
+  {
+   "l": 0.842,
+   "ma": 9.284,
+   "s": 18.572,
+   "testo": {
+    "ok": "Esatta 1,9097 kΩ · standard (E12, per eccesso) 2,2 kΩ · corrente reale 8.1 mA · potenza 143 mW"
+   }
+  },
+  {
+   "l": 3.418,
+   "ma": 0.388,
+   "s": 11.279,
+   "testo": {
+    "ok": "Esatta 20,2603 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.4 mA · potenza 3 mW"
+   }
+  },
+  {
+   "l": 3.469,
+   "ma": 203.673,
+   "s": 1.886,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 3.118,
+   "ma": 0.593,
+   "s": 7.992,
+   "testo": {
+    "ok": "Esatta 8,2192 kΩ · standard (E12, per eccesso) 10 kΩ · corrente reale 0.5 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 3.764,
+   "ma": 868.98,
+   "s": 1.155,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 2.984,
+   "ma": 0.208,
+   "s": 15.841,
+   "testo": {
+    "ok": "Esatta 61,8125 kΩ · standard (E12, per eccesso) 68 kΩ · corrente reale 0.2 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 1.17,
+   "ma": 30.57,
+   "s": 1.394,
+   "testo": {
+    "ok": "Esatta 7,3 Ω · standard (E12, per eccesso) 8,2 Ω · corrente reale 27.3 mA · potenza 6 mW"
+   }
+  },
+  {
+   "l": 1.192,
+   "ma": 22.179,
+   "s": 14.922,
+   "testo": {
+    "ok": "Esatta 619,1 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 20.2 mA · potenza 277 mW"
+   }
+  },
+  {
+   "l": 1.193,
+   "ma": 205.107,
+   "s": 15.16,
+   "testo": {
+    "ok": "Esatta 68,1 Ω · standard (E12, per eccesso) 82 Ω · corrente reale 170.3 mA · potenza 2379 mW"
+   }
+  },
+  {
+   "l": 2.558,
+   "ma": 0.166,
+   "s": 13.577,
+   "testo": {
+    "ok": "Esatta 66,3795 kΩ · standard (E12, per eccesso) 68 kΩ · corrente reale 0.2 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 0.059,
+   "ma": 0.146,
+   "s": 15.796,
+   "testo": {
+    "ok": "Esatta 107,788 kΩ · standard (E12, per eccesso) 120 kΩ · corrente reale 0.1 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 3.443,
+   "ma": 6.032,
+   "s": 4.916,
+   "testo": {
+    "ok": "Esatta 244,2 Ω · standard (E12, per eccesso) 270 Ω · corrente reale 5.5 mA · potenza 8 mW"
+   }
+  },
+  {
+   "l": 2.664,
+   "ma": 0.136,
+   "s": 19.653,
+   "testo": {
+    "ok": "Esatta 124,919 kΩ · standard (E12, per eccesso) 150 kΩ · corrente reale 0.1 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 3.474,
+   "ma": 24.483,
+   "s": 3.924,
+   "testo": {
+    "ok": "Esatta 18,4 Ω · standard (E12, per eccesso) 22 Ω · corrente reale 20.5 mA · potenza 9 mW"
+   }
+  },
+  {
+   "l": 0.81,
+   "ma": 5.832,
+   "s": 1.069,
+   "testo": {
+    "ok": "Esatta 44,4 Ω · standard (E12, per eccesso) 47 Ω · corrente reale 5.5 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 1.777,
+   "ma": 205.065,
+   "s": 17.235,
+   "testo": {
+    "ok": "Esatta 75,4 Ω · standard (E12, per eccesso) 82 Ω · corrente reale 188.5 mA · potenza 2914 mW"
+   }
+  },
+  {
+   "l": 1.494,
+   "ma": 0.256,
+   "s": 0.399,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 3.473,
+   "ma": 5.448,
+   "s": 13.386,
+   "testo": {
+    "ok": "Esatta 1,8196 kΩ · standard (E12, per eccesso) 2,2 kΩ · corrente reale 4.5 mA · potenza 45 mW"
+   }
+  },
+  {
+   "l": 0.659,
+   "ma": 0.482,
+   "s": 9.629,
+   "testo": {
+    "ok": "Esatta 18,61 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.4 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 2.756,
+   "ma": 139.107,
+   "s": 16.634,
+   "testo": {
+    "ok": "Esatta 99,8 Ω · standard (E12, per eccesso) 100 Ω · corrente reale 138.8 mA · potenza 1926 mW"
+   }
+  },
+  {
+   "l": 1.16,
+   "ma": 0.212,
+   "s": 23.793,
+   "testo": {
+    "ok": "Esatta 106,759 kΩ · standard (E12, per eccesso) 120 kΩ · corrente reale 0.2 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 0.781,
+   "ma": 248.466,
+   "s": 23.396,
+   "testo": {
+    "ok": "Esatta 91 Ω · standard (E12, per eccesso) 100 Ω · corrente reale 226.2 mA · potenza 5114 mW"
+   }
+  },
+  {
+   "l": 3.782,
+   "ma": 0.114,
+   "s": 4.307,
+   "testo": {
+    "ok": "Esatta 4,6053 kΩ · standard (E12, per eccesso) 4,7 kΩ · corrente reale 0.1 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 3.538,
+   "ma": 19.493,
+   "s": 16.092,
+   "testo": {
+    "ok": "Esatta 644 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 18.5 mA · potenza 232 mW"
+   }
+  },
+  {
+   "l": 3.94,
+   "ma": 104.401,
+   "s": 8.718,
+   "testo": {
+    "ok": "Esatta 45,8 Ω · standard (E12, per eccesso) 47 Ω · corrente reale 101.7 mA · potenza 486 mW"
+   }
+  },
+  {
+   "l": 2.123,
+   "ma": 914.75,
+   "s": 13.072,
+   "testo": {
+    "ok": "Esatta 12 Ω · standard (E12, per eccesso) 12 Ω · corrente reale 912.4 mA · potenza 9990 mW"
+   }
+  },
+  {
+   "l": 1.22,
+   "ma": 12.792,
+   "s": 5.976,
+   "testo": {
+    "ok": "Esatta 371,8 Ω · standard (E12, per eccesso) 390 Ω · corrente reale 12.2 mA · potenza 58 mW"
+   }
+  },
+  {
+   "l": 2.342,
+   "ma": 950.451,
+   "s": 15.907,
+   "testo": {
+    "ok": "Esatta 14,3 Ω · standard (E12, per eccesso) 15 Ω · corrente reale 904.3 mA · potenza 12267 mW"
+   }
+  },
+  {
+   "l": 2.163,
+   "ma": 314.666,
+   "s": 10.496,
+   "testo": {
+    "ok": "Esatta 26,5 Ω · standard (E12, per eccesso) 27 Ω · corrente reale 308.6 mA · potenza 2572 mW"
+   }
+  },
+  {
+   "l": 2.813,
+   "ma": 1.188,
+   "s": 5.399,
+   "testo": {
+    "ok": "Esatta 2,1768 kΩ · standard (E12, per eccesso) 2,2 kΩ · corrente reale 1.2 mA · potenza 3 mW"
+   }
+  },
+  {
+   "l": 1.04,
+   "ma": 181.08,
+   "s": 0.219,
+   "testo": {
+    "ok": "la tensione di alimentazione deve superare quella del LED"
+   }
+  },
+  {
+   "l": 3.106,
+   "ma": 19.464,
+   "s": 9.219,
+   "testo": {
+    "ok": "Esatta 314,1 Ω · standard (E12, per eccesso) 330 Ω · corrente reale 18.5 mA · potenza 113 mW"
+   }
+  },
+  {
+   "l": 0.435,
+   "ma": 0.126,
+   "s": 10.77,
+   "testo": {
+    "ok": "Esatta 82,0238 kΩ · standard (E12, per eccesso) 100 kΩ · corrente reale 0.1 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 1.029,
+   "ma": 1.759,
+   "s": 15.269,
+   "testo": {
+    "ok": "Esatta 8,0955 kΩ · standard (E12, per eccesso) 8,2 kΩ · corrente reale 1.7 mA · potenza 25 mW"
+   }
+  },
+  {
+   "l": 3.255,
+   "ma": 127.598,
+   "s": 9.813,
+   "testo": {
+    "ok": "Esatta 51,4 Ω · standard (E12, per eccesso) 56 Ω · corrente reale 117.1 mA · potenza 768 mW"
+   }
+  },
+  {
+   "l": 3.64,
+   "ma": 109.515,
+   "s": 6.043,
+   "testo": {
+    "ok": "Esatta 21,9 Ω · standard (E12, per eccesso) 22 Ω · corrente reale 109.2 mA · potenza 262 mW"
+   }
+  },
+  {
+   "l": 0.4,
+   "ma": 0.312,
+   "s": 1.206,
+   "testo": {
+    "ok": "Esatta 2,5833 kΩ · standard (E12, per eccesso) 2,7 kΩ · corrente reale 0.3 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 2.05,
+   "ma": 45.358,
+   "s": 19.145,
+   "testo": {
+    "ok": "Esatta 376,9 Ω · standard (E12, per eccesso) 390 Ω · corrente reale 43.8 mA · potenza 749 mW"
+   }
+  },
+  {
+   "l": 1.462,
+   "ma": 674.087,
+   "s": 12.094,
+   "testo": {
+    "ok": "Esatta 15,8 Ω · standard (E12, per eccesso) 18 Ω · corrente reale 590.7 mA · potenza 6280 mW"
+   }
+  },
+  {
+   "l": 3.595,
+   "ma": 44.913,
+   "s": 7.157,
+   "testo": {
+    "ok": "Esatta 79,3 Ω · standard (E12, per eccesso) 82 Ω · corrente reale 43.4 mA · potenza 155 mW"
+   }
+  },
+  {
+   "l": 3.868,
+   "ma": 58.049,
+   "s": 12.079,
+   "testo": {
+    "ok": "Esatta 141,4 Ω · standard (E12, per eccesso) 150 Ω · corrente reale 54.7 mA · potenza 449 mW"
+   }
+  },
+  {
+   "l": 1.851,
+   "ma": 339.958,
+   "s": 2.154,
+   "testo": {
+    "ok": "Esatta 0,9 Ω · standard (E12, per eccesso) 1 Ω · corrente reale 303.0 mA · potenza 92 mW"
+   }
+  },
+  {
+   "l": 3.857,
+   "ma": 0.888,
+   "s": 4.39,
+   "testo": {
+    "ok": "Esatta 600,2 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 0.8 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 0.423,
+   "ma": 0.577,
+   "s": 11.475,
+   "testo": {
+    "ok": "Esatta 19,1542 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.5 mA · potenza 6 mW"
+   }
+  },
+  {
+   "l": 3.196,
+   "ma": 0.313,
+   "s": 9.567,
+   "testo": {
+    "ok": "Esatta 20,3546 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.3 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 2.656,
+   "ma": 22.077,
+   "s": 16.069,
+   "testo": {
+    "ok": "Esatta 607,6 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 19.7 mA · potenza 265 mW"
+   }
+  },
+  {
+   "l": 1.519,
+   "ma": 1.103,
+   "s": 14.927,
+   "testo": {
+    "ok": "Esatta 12,1559 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 0.9 mA · potenza 12 mW"
+   }
+  },
+  {
+   "l": 3.93,
+   "ma": 34.876,
+   "s": 17.3,
+   "testo": {
+    "ok": "Esatta 383,4 Ω · standard (E12, per eccesso) 390 Ω · corrente reale 34.3 mA · potenza 458 mW"
+   }
+  },
+  {
+   "l": 1.376,
+   "ma": 1.08,
+   "s": 5.254,
+   "testo": {
+    "ok": "Esatta 3,5907 kΩ · standard (E12, per eccesso) 3,9 kΩ · corrente reale 1.0 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 2.68,
+   "ma": 7.543,
+   "s": 20.097,
+   "testo": {
+    "ok": "Esatta 2,309 kΩ · standard (E12, per eccesso) 2,7 kΩ · corrente reale 6.5 mA · potenza 112 mW"
+   }
+  },
+  {
+   "l": 1.711,
+   "ma": 691.172,
+   "s": 17.093,
+   "testo": {
+    "ok": "Esatta 22,3 Ω · standard (E12, per eccesso) 27 Ω · corrente reale 569.7 mA · potenza 8763 mW"
+   }
+  },
+  {
+   "l": 2.309,
+   "ma": 721.956,
+   "s": 13.555,
+   "testo": {
+    "ok": "Esatta 15,6 Ω · standard (E12, per eccesso) 18 Ω · corrente reale 624.8 mA · potenza 7026 mW"
+   }
+  },
+  {
+   "l": 0.397,
+   "ma": 1.245,
+   "s": 15.359,
+   "testo": {
+    "ok": "Esatta 12,0177 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 1.0 mA · potenza 15 mW"
+   }
+  },
+  {
+   "l": 1.704,
+   "ma": 307.846,
+   "s": 9.197,
+   "testo": {
+    "ok": "Esatta 24,3 Ω · standard (E12, per eccesso) 27 Ω · corrente reale 277.5 mA · potenza 2079 mW"
+   }
+  },
+  {
+   "l": 3.595,
+   "ma": 1.035,
+   "s": 15.201,
+   "testo": {
+    "ok": "Esatta 11,2135 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 1.0 mA · potenza 11 mW"
+   }
+  },
+  {
+   "l": 3.291,
+   "ma": 27.233,
+   "s": 6.426,
+   "testo": {
+    "ok": "Esatta 115,1 Ω · standard (E12, per eccesso) 120 Ω · corrente reale 26.1 mA · potenza 82 mW"
+   }
+  },
+  {
+   "l": 1.994,
+   "ma": 1.347,
+   "s": 7.77,
+   "testo": {
+    "ok": "Esatta 4,288 kΩ · standard (E12, per eccesso) 4,7 kΩ · corrente reale 1.2 mA · potenza 7 mW"
+   }
+  },
+  {
+   "l": 1.195,
+   "ma": 570.596,
+   "s": 7.516,
+   "testo": {
+    "ok": "Esatta 11,1 Ω · standard (E12, per eccesso) 12 Ω · corrente reale 526.7 mA · potenza 3330 mW"
+   }
+  },
+  {
+   "l": 1.339,
+   "ma": 0.877,
+   "s": 13.574,
+   "testo": {
+    "ok": "Esatta 13,951 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 0.8 mA · potenza 10 mW"
+   }
+  },
+  {
+   "l": 0.61,
+   "ma": 61.128,
+   "s": 14.687,
+   "testo": {
+    "ok": "Esatta 230,3 Ω · standard (E12, per eccesso) 270 Ω · corrente reale 52.1 mA · potenza 734 mW"
+   }
+  },
+  {
+   "l": 0.454,
+   "ma": 25.14,
+   "s": 1.568,
+   "testo": {
+    "ok": "Esatta 44,3 Ω · standard (E12, per eccesso) 47 Ω · corrente reale 23.7 mA · potenza 26 mW"
+   }
+  },
+  {
+   "l": 0.119,
+   "ma": 25.151,
+   "s": 18.23,
+   "testo": {
+    "ok": "Esatta 720,1 Ω · standard (E12, per eccesso) 820 Ω · corrente reale 22.1 mA · potenza 400 mW"
+   }
+  },
+  {
+   "l": 0.573,
+   "ma": 16.9,
+   "s": 13.741,
+   "testo": {
+    "ok": "Esatta 779,2 Ω · standard (E12, per eccesso) 820 Ω · corrente reale 16.1 mA · potenza 211 mW"
+   }
+  },
+  {
+   "l": 0.499,
+   "ma": 109.025,
+   "s": 14.391,
+   "testo": {
+    "ok": "Esatta 127,4 Ω · standard (E12, per eccesso) 150 Ω · corrente reale 92.6 mA · potenza 1287 mW"
+   }
+  },
+  {
+   "l": 1.327,
+   "ma": 0.309,
+   "s": 2.134,
+   "testo": {
+    "ok": "Esatta 2,6117 kΩ · standard (E12, per eccesso) 2,7 kΩ · corrente reale 0.3 mA · potenza 0 mW"
+   }
+  },
+  {
+   "l": 1.108,
+   "ma": 0.63,
+   "s": 3.61,
+   "testo": {
+    "ok": "Esatta 3,9714 kΩ · standard (E12, per eccesso) 4,7 kΩ · corrente reale 0.5 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 3.631,
+   "ma": 2.227,
+   "s": 20.792,
+   "testo": {
+    "ok": "Esatta 7,7059 kΩ · standard (E12, per eccesso) 8,2 kΩ · corrente reale 2.1 mA · potenza 36 mW"
+   }
+  },
+  {
+   "l": 0.475,
+   "ma": 4.807,
+   "s": 20.861,
+   "testo": {
+    "ok": "Esatta 4,2409 kΩ · standard (E12, per eccesso) 4,7 kΩ · corrente reale 4.3 mA · potenza 88 mW"
+   }
+  },
+  {
+   "l": 0.679,
+   "ma": 0.447,
+   "s": 11.383,
+   "testo": {
+    "ok": "Esatta 23,9463 kΩ · standard (E12, per eccesso) 27 kΩ · corrente reale 0.4 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 1.475,
+   "ma": 45.221,
+   "s": 6.907,
+   "testo": {
+    "ok": "Esatta 120,1 Ω · standard (E12, per eccesso) 150 Ω · corrente reale 36.2 mA · potenza 197 mW"
+   }
+  },
+  {
+   "l": 3.828,
+   "ma": 1.003,
+   "s": 15.527,
+   "testo": {
+    "ok": "Esatta 11,664 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 1.0 mA · potenza 11 mW"
+   }
+  },
+  {
+   "l": 0.338,
+   "ma": 143.376,
+   "s": 16.456,
+   "testo": {
+    "ok": "Esatta 112,4 Ω · standard (E12, per eccesso) 120 Ω · corrente reale 134.3 mA · potenza 2165 mW"
+   }
+  },
+  {
+   "l": 2.138,
+   "ma": 761.867,
+   "s": 20.606,
+   "testo": {
+    "ok": "Esatta 24,2 Ω · standard (E12, per eccesso) 27 Ω · corrente reale 684.0 mA · potenza 12632 mW"
+   }
+  },
+  {
+   "l": 0.625,
+   "ma": 0.12,
+   "s": 11.308,
+   "testo": {
+    "ok": "Esatta 89,025 kΩ · standard (E12, per eccesso) 100 kΩ · corrente reale 0.1 mA · potenza 1 mW"
+   }
+  },
+  {
+   "l": 2.457,
+   "ma": 631.824,
+   "s": 5.801,
+   "testo": {
+    "ok": "Esatta 5,3 Ω · standard (E12, per eccesso) 5,6 Ω · corrente reale 597.1 mA · potenza 1997 mW"
+   }
+  },
+  {
+   "l": 2.224,
+   "ma": 0.464,
+   "s": 11.94,
+   "testo": {
+    "ok": "Esatta 20,9397 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.4 mA · potenza 4 mW"
+   }
+  },
+  {
+   "l": 3.29,
+   "ma": 3.458,
+   "s": 12.886,
+   "testo": {
+    "ok": "Esatta 2,775 kΩ · standard (E12, per eccesso) 3,3 kΩ · corrente reale 2.9 mA · potenza 28 mW"
+   }
+  },
+  {
+   "l": 0.535,
+   "ma": 0.308,
+   "s": 7.159,
+   "testo": {
+    "ok": "Esatta 21,5065 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.3 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 3.635,
+   "ma": 1.469,
+   "s": 19.903,
+   "testo": {
+    "ok": "Esatta 11,0742 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 1.4 mA · potenza 22 mW"
+   }
+  },
+  {
+   "l": 2.452,
+   "ma": 105.108,
+   "s": 18.555,
+   "testo": {
+    "ok": "Esatta 153,2 Ω · standard (E12, per eccesso) 180 Ω · corrente reale 89.5 mA · potenza 1441 mW"
+   }
+  },
+  {
+   "l": 2.74,
+   "ma": 41.622,
+   "s": 14.585,
+   "testo": {
+    "ok": "Esatta 284,6 Ω · standard (E12, per eccesso) 330 Ω · corrente reale 35.9 mA · potenza 425 mW"
+   }
+  },
+  {
+   "l": 3.044,
+   "ma": 1.333,
+   "s": 21.516,
+   "testo": {
+    "ok": "Esatta 13,8575 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 1.2 mA · potenza 23 mW"
+   }
+  },
+  {
+   "l": 3.461,
+   "ma": 15.724,
+   "s": 13.475,
+   "testo": {
+    "ok": "Esatta 636,9 Ω · standard (E12, per eccesso) 680 Ω · corrente reale 14.7 mA · potenza 147 mW"
+   }
+  },
+  {
+   "l": 3.432,
+   "ma": 1.444,
+   "s": 22.899,
+   "testo": {
+    "ok": "Esatta 13,4813 kΩ · standard (E12, per eccesso) 15 kΩ · corrente reale 1.3 mA · potenza 25 mW"
+   }
+  },
+  {
+   "l": 0.218,
+   "ma": 14.863,
+   "s": 22.305,
+   "testo": {
+    "ok": "Esatta 1,486 kΩ · standard (E12, per eccesso) 1,5 kΩ · corrente reale 14.7 mA · potenza 325 mW"
+   }
+  },
+  {
+   "l": 1.53,
+   "ma": 467.051,
+   "s": 19.827,
+   "testo": {
+    "ok": "Esatta 39,2 Ω · standard (E12, per eccesso) 47 Ω · corrente reale 389.3 mA · potenza 7123 mW"
+   }
+  },
+  {
+   "l": 0.12,
+   "ma": 32.994,
+   "s": 23.406,
+   "testo": {
+    "ok": "Esatta 705,8 Ω · standard (E12, per eccesso) 820 Ω · corrente reale 28.4 mA · potenza 661 mW"
+   }
+  },
+  {
+   "l": 1.739,
+   "ma": 117.796,
+   "s": 23.792,
+   "testo": {
+    "ok": "Esatta 187,2 Ω · standard (E12, per eccesso) 220 Ω · corrente reale 100.2 mA · potenza 2211 mW"
+   }
+  },
+  {
+   "l": 2.025,
+   "ma": 0.142,
+   "s": 13.487,
+   "testo": {
+    "ok": "Esatta 80,7183 kΩ · standard (E12, per eccesso) 82 kΩ · corrente reale 0.1 mA · potenza 2 mW"
+   }
+  },
+  {
+   "l": 1.262,
+   "ma": 1.739,
+   "s": 20.592,
+   "testo": {
+    "ok": "Esatta 11,1156 kΩ · standard (E12, per eccesso) 12 kΩ · corrente reale 1.6 mA · potenza 31 mW"
+   }
+  },
+  {
+   "l": 2.246,
+   "ma": 0.581,
+   "s": 14.213,
+   "testo": {
+    "ok": "Esatta 20,5972 kΩ · standard (E12, per eccesso) 22 kΩ · corrente reale 0.5 mA · potenza 7 mW"
+   }
+  },
+  {
+   "l": 1.177,
+   "ma": 17.708,
+   "s": 14.988,
+   "testo": {
+    "ok": "Esatta 779,9 Ω · standard (E12, per eccesso) 820 Ω · corrente reale 16.8 mA · potenza 233 mW"
+   }
+  },
+  {
+   "l": 2.202,
+   "ma": 2.869,
+   "s": 16.36,
+   "testo": {
+    "ok": "Esatta 4,9348 kΩ · standard (E12, per eccesso) 5,6 kΩ · corrente reale 2.5 mA · potenza 36 mW"
+   }
+  },
+  {
+   "l": 1.757,
+   "ma": 0.695,
+   "s": 6.265,
+   "testo": {
+    "ok": "Esatta 6,4863 kΩ · standard (E12, per eccesso) 6,8 kΩ · corrente reale 0.7 mA · potenza 3 mW"
+   }
+  }
+ ],
+ "ohm": [
+  {
+   "i": 0.0,
+   "r": 220.0,
+   "testo": {
+    "ok": "V = 5 V · I = 22.7 mA · R = 220 Ω · P = 114 mW"
+   },
+   "v": 5.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.02,
+   "r": 220.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 5.0
+  },
+  {
+   "i": 0.02,
+   "r": 220.0,
+   "testo": {
+    "ok": "V = 4.4 V · I = 20 mA · R = 220 Ω · P = 88 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.02,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 5 V · I = 20 mA · R = 250 Ω · P = 100 mW"
+   },
+   "v": 5.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 5.0
+  },
+  {
+   "i": 0.5,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 12 V · I = 500 mA · R = 24 Ω · P = 6e+03 mW"
+   },
+   "v": 12.0
+  },
+  {
+   "i": 0.0,
+   "r": 10000000.0,
+   "testo": {
+    "ok": "V = 0.001 V · I = 1e-07 mA · R = 10 MΩ · P = 1e-10 mW"
+   },
+   "v": 0.001
+  },
+  {
+   "i": 10.491,
+   "r": 830.524,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 21.102
+  },
+  {
+   "i": 0.001,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.618,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 18566.559,
+   "testo": {
+    "ok": "V = 4.04e+05 V · I = 2.17e+04 mA · R = 18,5666 kΩ · P = 8.77e+09 mW"
+   },
+   "v": 403501.669
+  },
+  {
+   "i": 437.259,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.002 V · I = 4.37e+05 mA · R = 4,57395e-06 Ω · P = 875 mW"
+   },
+   "v": 0.002
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 612.634,
+   "r": 0.434,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 1.349
+  },
+  {
+   "i": 31126.845,
+   "r": 51.328,
+   "testo": {
+    "ok": "V = 1.6e+06 V · I = 3.11e+07 mA · R = 51,328 Ω · P = 4.97e+13 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 3555.839,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.004 V · I = 3.56e+06 mA · R = 1,12491e-06 Ω · P = 1.42e+04 mW"
+   },
+   "v": 0.004
+  },
+  {
+   "i": 18.867,
+   "r": 12.257,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 26.533
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 31.124
+  },
+  {
+   "i": 2.105,
+   "r": 859.6,
+   "testo": {
+    "ok": "V = 1.81e+03 V · I = 2.1e+03 mA · R = 859,6 Ω · P = 3.81e+06 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 375745.798,
+   "r": 791.824,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.749
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.112
+  },
+  {
+   "i": 0.0,
+   "r": 185687.645,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 291872.601,
+   "r": 0.024,
+   "testo": {
+    "ok": "V = 7e+03 V · I = 2.92e+08 mA · R = 0,024 Ω · P = 2.04e+12 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.199
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 186575.449
+  },
+  {
+   "i": 3734.798,
+   "r": 0.002,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.002
+  },
+  {
+   "i": 0.0,
+   "r": 211064.723,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.009,
+   "testo": {
+    "ok": "V = 0.009 V · I = 1e+03 mA · R = 0,009 Ω · P = 9 mW"
+   },
+   "v": 0.009
+  },
+  {
+   "i": 36702.536,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.106,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 7.67e+04 V · I = 106 mA · R = 723,635 kΩ · P = 8.13e+06 mW"
+   },
+   "v": 76705.322
+  },
+  {
+   "i": 0.076,
+   "r": 0.002,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 26993.128
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.556,
+   "r": 64.459,
+   "testo": {
+    "ok": "V = 35.8 V · I = 556 mA · R = 64,459 Ω · P = 1.99e+04 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 25.874,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 202 V · I = 2.59e+04 mA · R = 7,80641 Ω · P = 5.23e+06 mW"
+   },
+   "v": 201.983
+  },
+  {
+   "i": 0.66,
+   "r": 18062.25,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 1044.409
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.003
+  },
+  {
+   "i": 0.102,
+   "r": 2919.632,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 4.183
+  },
+  {
+   "i": 405.502,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.099 V · I = 4.06e+05 mA · R = 0,000244142 Ω · P = 4.01e+04 mW"
+   },
+   "v": 0.099
+  },
+  {
+   "i": 0.021,
+   "r": 1684.45,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.002
+  },
+  {
+   "i": 40647.974,
+   "r": 923.105,
+   "testo": {
+    "ok": "V = 3.75e+07 V · I = 4.06e+07 mA · R = 923,105 Ω · P = 1.53e+15 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 42.054,
+   "r": 15284.349,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 4800.054
+  },
+  {
+   "i": 1.393,
+   "r": 5402.571,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.093
+  },
+  {
+   "i": 0.0,
+   "r": 3748.837,
+   "testo": {
+    "ok": "V = 0.01 V · I = 0.00267 mA · R = 3,74884 kΩ · P = 2.67e-05 mW"
+   },
+   "v": 0.01
+  },
+  {
+   "i": 0.025,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 2.11e+04 V · I = 25 mA · R = 844,528 kΩ · P = 5.28e+05 mW"
+   },
+   "v": 21113.198
+  },
+  {
+   "i": 0.0,
+   "r": 0.117,
+   "testo": {
+    "ok": "V = 6.63e+03 V · I = 5.67e+07 mA · R = 0,117 Ω · P = 3.76e+11 mW"
+   },
+   "v": 6631.479
+  },
+  {
+   "i": 0.044,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 5.72,
+   "r": 0.011,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 10453.98
+  },
+  {
+   "i": 0.0,
+   "r": 0.055,
+   "testo": {
+    "ok": "V = 4.9 V · I = 8.9e+04 mA · R = 0,055 Ω · P = 4.36e+05 mW"
+   },
+   "v": 4.896
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 2.335
+  },
+  {
+   "i": 5.015,
+   "r": 219.733,
+   "testo": {
+    "ok": "V = 1.1e+03 V · I = 5.02e+03 mA · R = 219,733 Ω · P = 5.53e+06 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.002,
+   "r": 1.379,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 3884.914
+  },
+  {
+   "i": 0.032,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 5.66 V · I = 32 mA · R = 176,75 Ω · P = 181 mW"
+   },
+   "v": 5.656
+  },
+  {
+   "i": 43077.125,
+   "r": 240914.054,
+   "testo": {
+    "ok": "V = 1.04e+10 V · I = 4.31e+07 mA · R = 240,914 kΩ · P = 4.47e+17 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.032,
+   "r": 0.057,
+   "testo": {
+    "ok": "V = 0.00182 V · I = 32 mA · R = 0,057 Ω · P = 0.0584 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 5.108,
+   "r": 0.003,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 336.445
+  },
+  {
+   "i": 526721.379,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 46.4 V · I = 5.27e+08 mA · R = 8,81206e-05 Ω · P = 2.44e+10 mW"
+   },
+   "v": 46.415
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 190.326
+  },
+  {
+   "i": 4.749,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.352 V · I = 4.75e+03 mA · R = 0,0741209 Ω · P = 1.67e+03 mW"
+   },
+   "v": 0.352
+  },
+  {
+   "i": 0.478,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 2.06e+05 V · I = 478 mA · R = 430,871 kΩ · P = 9.84e+07 mW"
+   },
+   "v": 205956.169
+  },
+  {
+   "i": 0.005,
+   "r": 110030.152,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 9.954
+  },
+  {
+   "i": 0.0,
+   "r": 376809.546,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 4.135,
+   "testo": {
+    "ok": "V = 0.002 V · I = 0.484 mA · R = 4,135 Ω · P = 0.000967 mW"
+   },
+   "v": 0.002
+  },
+  {
+   "i": 0.092,
+   "r": 18.633,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 11.153
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 223747.052,
+   "r": 8388.073,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 412669.597
+  },
+  {
+   "i": 31312.296,
+   "r": 0.718,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 30559.849
+  },
+  {
+   "i": 0.414,
+   "r": 0.026,
+   "testo": {
+    "ok": "V = 0.0108 V · I = 414 mA · R = 0,026 Ω · P = 4.46 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.002,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 1.65,
+   "testo": {
+    "ok": "V = 0.263 V · I = 159 mA · R = 1,65 Ω · P = 41.9 mW"
+   },
+   "v": 0.263
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 22.63,
+   "r": 302.442,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.012
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.022,
+   "r": 7486.852,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 385977.372
+  },
+  {
+   "i": 0.007,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 6.71e+03 V · I = 7 mA · R = 958,597 kΩ · P = 4.7e+04 mW"
+   },
+   "v": 6710.181
+  },
+  {
+   "i": 1.076,
+   "r": 12368.482,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 156519.599
+  },
+  {
+   "i": 69.677,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 1.04 V · I = 6.97e+04 mA · R = 0,0148973 Ω · P = 7.23e+04 mW"
+   },
+   "v": 1.038
+  },
+  {
+   "i": 4.585,
+   "r": 202.301,
+   "testo": {
+    "ok": "V = 928 V · I = 4.58e+03 mA · R = 202,301 Ω · P = 4.25e+06 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.001,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 1.91e+03 V · I = 1 mA · R = 1,9056 MΩ · P = 1.91e+03 mW"
+   },
+   "v": 1905.605
+  },
+  {
+   "i": 744464.952,
+   "r": 0.015,
+   "testo": {
+    "ok": "V = 1.12e+04 V · I = 7.44e+08 mA · R = 0,015 Ω · P = 8.31e+12 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 490.957,
+   "r": 0.156,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.68
+  },
+  {
+   "i": 76585.497,
+   "r": 0.07,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.001
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 7.683
+  },
+  {
+   "i": 0.017,
+   "r": 110176.23,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 295.414
+  },
+  {
+   "i": 0.0,
+   "r": 0.291,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.652,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 1.81e+05 V · I = 652 mA · R = 278,163 kΩ · P = 1.18e+08 mW"
+   },
+   "v": 181362.095
+  },
+  {
+   "i": 0.0,
+   "r": 0.021,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.012,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.161,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.003,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 3.86e+03 V · I = 3 mA · R = 1,28806 MΩ · P = 1.16e+04 mW"
+   },
+   "v": 3864.183
+  },
+  {
+   "i": 985.983,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 19423.376,
+   "r": 332.267,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.567
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 624.451
+  },
+  {
+   "i": 108.087,
+   "r": 0.063,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 94.296
+  },
+  {
+   "i": 0.0,
+   "r": 236.296,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.395,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.069 V · I = 395 mA · R = 0,174684 Ω · P = 27.3 mW"
+   },
+   "v": 0.069
+  },
+  {
+   "i": 2.336,
+   "r": 19642.876,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 15677.397
+  },
+  {
+   "i": 18521.384,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.026,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.568,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 427.772,
+   "r": 488581.36,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.041
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 76.812
+  },
+  {
+   "i": 0.0,
+   "r": 25.964,
+   "testo": {
+    "ok": "V = 1.33 V · I = 51.1 mA · R = 25,964 Ω · P = 67.9 mW"
+   },
+   "v": 1.328
+  },
+  {
+   "i": 0.0,
+   "r": 19716.325,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.058,
+   "r": 0.004,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 6691.339
+  },
+  {
+   "i": 0.0,
+   "r": 0.156,
+   "testo": {
+    "ok": "V = 67.2 V · I = 4.31e+05 mA · R = 0,156 Ω · P = 2.89e+07 mW"
+   },
+   "v": 67.17
+  },
+  {
+   "i": 0.004,
+   "r": 91.086,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 788004.288
+  },
+  {
+   "i": 0.0,
+   "r": 1.139,
+   "testo": {
+    "ok": "V = 0.357 V · I = 313 mA · R = 1,139 Ω · P = 112 mW"
+   },
+   "v": 0.357
+  },
+  {
+   "i": 7019.841,
+   "r": 0.286,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 92985.563
+  },
+  {
+   "i": 0.0,
+   "r": 12.604,
+   "testo": {
+    "ok": "V = 1.33e+03 V · I = 1.06e+05 mA · R = 12,604 Ω · P = 1.4e+08 mW"
+   },
+   "v": 1330.331
+  },
+  {
+   "i": 63562.314,
+   "r": 0.697,
+   "testo": {
+    "ok": "V = 4.43e+04 V · I = 6.36e+07 mA · R = 0,697 Ω · P = 2.82e+12 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 3015.316,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 3.61e+05 V · I = 3.02e+06 mA · R = 119,756 Ω · P = 1.09e+12 mW"
+   },
+   "v": 361101.02
+  },
+  {
+   "i": 0.0,
+   "r": 0.027,
+   "testo": {
+    "ok": "V = 1.15e+03 V · I = 4.26e+07 mA · R = 0,027 Ω · P = 4.91e+10 mW"
+   },
+   "v": 1151.209
+  },
+  {
+   "i": 22676.468,
+   "r": 1.229,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 1048.863
+  },
+  {
+   "i": 2.244,
+   "r": 29524.802,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.014
+  },
+  {
+   "i": 0.0,
+   "r": 0.409,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 302221.281,
+   "testo": {
+    "ok": "V = 2.43e+05 V · I = 804 mA · R = 302,221 kΩ · P = 1.95e+08 mW"
+   },
+   "v": 242965.132
+  },
+  {
+   "i": 0.0,
+   "r": 18598.918,
+   "testo": {
+    "ok": "V = 577 V · I = 31 mA · R = 18,5989 kΩ · P = 1.79e+04 mW"
+   },
+   "v": 576.696
+  },
+  {
+   "i": 0.597,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 945793.25,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 2.09 V · I = 9.46e+08 mA · R = 2,21401e-06 Ω · P = 1.98e+09 mW"
+   },
+   "v": 2.094
+  },
+  {
+   "i": 0.003,
+   "r": 15.466,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.693
+  },
+  {
+   "i": 0.002,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 4.57e+05 V · I = 2 mA · R = 228,378 MΩ · P = 9.14e+05 mW"
+   },
+   "v": 456756.458
+  },
+  {
+   "i": 0.0,
+   "r": 11660.754,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 135.39,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 589 V · I = 1.35e+05 mA · R = 4,35152 Ω · P = 7.98e+07 mW"
+   },
+   "v": 589.152
+  },
+  {
+   "i": 0.262,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 1.05e+04 V · I = 262 mA · R = 40,2256 kΩ · P = 2.76e+06 mW"
+   },
+   "v": 10539.117
+  },
+  {
+   "i": 31629.797,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 6323.125,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 2902.627,
+   "testo": {
+    "ok": "V = 2.35 V · I = 0.809 mA · R = 2,90263 kΩ · P = 1.9 mW"
+   },
+   "v": 2.347
+  },
+  {
+   "i": 0.0,
+   "r": 805.355,
+   "testo": {
+    "ok": "V = 2.19e+03 V · I = 2.71e+03 mA · R = 805,355 Ω · P = 5.93e+06 mW"
+   },
+   "v": 2186.236
+  },
+  {
+   "i": 0.154,
+   "r": 112.824,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.56
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.003
+  },
+  {
+   "i": 283.079,
+   "r": 0.01,
+   "testo": {
+    "ok": "V = 2.83 V · I = 2.83e+05 mA · R = 0,01 Ω · P = 8.01e+05 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 54224.926,
+   "r": 1.385,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.013
+  },
+  {
+   "i": 47767.518,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 9722.489,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 132.054
+  },
+  {
+   "i": 0.016,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.025
+  },
+  {
+   "i": 0.0,
+   "r": 55260.325,
+   "testo": {
+    "ok": "V = 991 V · I = 17.9 mA · R = 55,2603 kΩ · P = 1.78e+04 mW"
+   },
+   "v": 990.596
+  },
+  {
+   "i": 0.001,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 867.765,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 12005.452
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.001
+  },
+  {
+   "i": 0.0,
+   "r": 2957.054,
+   "testo": {
+    "ok": "V = 0.001 V · I = 0.000338 mA · R = 2,95705 kΩ · P = 3.38e-07 mW"
+   },
+   "v": 0.001
+  },
+  {
+   "i": 0.078,
+   "r": 881.572,
+   "testo": {
+    "ok": "V = 68.8 V · I = 78 mA · R = 881,572 Ω · P = 5.36e+03 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 638723.545,
+   "r": 1009.072,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.147
+  },
+  {
+   "i": 0.0,
+   "r": 2173.915,
+   "testo": {
+    "ok": "V = 0.347 V · I = 0.16 mA · R = 2,17392 kΩ · P = 0.0554 mW"
+   },
+   "v": 0.347
+  },
+  {
+   "i": 0.753,
+   "r": 1195.086,
+   "testo": {
+    "ok": "V = 900 V · I = 753 mA · R = 1,19509 kΩ · P = 6.78e+05 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.01,
+   "testo": {
+    "ok": "V = 114 V · I = 1.14e+07 mA · R = 0,01 Ω · P = 1.31e+09 mW"
+   },
+   "v": 114.431
+  },
+  {
+   "i": 0.17,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 5.8 V · I = 170 mA · R = 34,1294 Ω · P = 986 mW"
+   },
+   "v": 5.802
+  },
+  {
+   "i": 0.033,
+   "r": 416528.441,
+   "testo": {
+    "ok": "V = 1.37e+04 V · I = 33 mA · R = 416,528 kΩ · P = 4.54e+05 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 167.108,
+   "r": 87769.22,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 6096.249
+  },
+  {
+   "i": 0.099,
+   "r": 102736.349,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.003
+  },
+  {
+   "i": 0.0,
+   "r": 107370.699,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 230631.92,
+   "r": 662.824,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.008
+  },
+  {
+   "i": 0.0,
+   "r": 0.358,
+   "testo": {
+    "ok": "V = 69.3 V · I = 1.94e+05 mA · R = 0,358 Ω · P = 1.34e+07 mW"
+   },
+   "v": 69.289
+  },
+  {
+   "i": 54.725,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.088 V · I = 5.47e+04 mA · R = 0,00160804 Ω · P = 4.82e+03 mW"
+   },
+   "v": 0.088
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 316688.035
+  },
+  {
+   "i": 0.485,
+   "r": 0.581,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.016
+  },
+  {
+   "i": 176436.879,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.002,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.01 V · I = 2 mA · R = 5 Ω · P = 0.02 mW"
+   },
+   "v": 0.01
+  },
+  {
+   "i": 44.107,
+   "r": 139.922,
+   "testo": {
+    "ok": "V = 6.17e+03 V · I = 4.41e+04 mA · R = 139,922 Ω · P = 2.72e+08 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 10044.798,
+   "testo": {
+    "ok": "V = 0.055 V · I = 0.00548 mA · R = 10,0448 kΩ · P = 0.000301 mW"
+   },
+   "v": 0.055
+  },
+  {
+   "i": 0.0,
+   "r": 36.658,
+   "testo": {
+    "ok": "V = 1.46e+05 V · I = 3.99e+06 mA · R = 36,658 Ω · P = 5.83e+11 mW"
+   },
+   "v": 146221.085
+  },
+  {
+   "i": 14654.555,
+   "r": 1.399,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 652349.608
+  },
+  {
+   "i": 0.013,
+   "r": 18997.446,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 306.54
+  },
+  {
+   "i": 0.0,
+   "r": 129028.415,
+   "testo": {
+    "ok": "V = 16.8 V · I = 0.13 mA · R = 129,028 kΩ · P = 2.19 mW"
+   },
+   "v": 16.817
+  },
+  {
+   "i": 950166.202,
+   "r": 15776.349,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 1.662
+  },
+  {
+   "i": 21.442,
+   "r": 0.396,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.004
+  },
+  {
+   "i": 157851.331,
+   "r": 0.004,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.024
+  },
+  {
+   "i": 0.151,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 5.01e+05 V · I = 151 mA · R = 3,31553 MΩ · P = 7.56e+07 mW"
+   },
+   "v": 500645.408
+  },
+  {
+   "i": 0.0,
+   "r": 0.003,
+   "testo": {
+    "ok": "V = 704 V · I = 2.35e+08 mA · R = 0,003 Ω · P = 1.65e+11 mW"
+   },
+   "v": 703.982
+  },
+  {
+   "i": 335.713,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 2005.617,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.019 V · I = 2.01e+06 mA · R = 9,47339e-06 Ω · P = 3.81e+04 mW"
+   },
+   "v": 0.019
+  },
+  {
+   "i": 0.008,
+   "r": 5.886,
+   "testo": {
+    "ok": "V = 0.0471 V · I = 8 mA · R = 5,886 Ω · P = 0.377 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.838,
+   "testo": {
+    "ok": "V = 4.32e+03 V · I = 5.16e+06 mA · R = 0,838 Ω · P = 2.23e+10 mW"
+   },
+   "v": 4324.105
+  },
+  {
+   "i": 11239.82,
+   "r": 1449.408,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 469.513
+  },
+  {
+   "i": 562.048,
+   "r": 851824.42,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.435
+  },
+  {
+   "i": 596743.369,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 2.945,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 2.4e+03 V · I = 2.94e+03 mA · R = 815,634 Ω · P = 7.07e+06 mW"
+   },
+   "v": 2402.042
+  },
+  {
+   "i": 47.539,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 5.35e+03 V · I = 4.75e+04 mA · R = 112,572 Ω · P = 2.54e+08 mW"
+   },
+   "v": 5351.576
+  },
+  {
+   "i": 673383.575,
+   "r": 26080.288,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 1.327
+  },
+  {
+   "i": 0.045,
+   "r": 0.003,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 5.895
+  },
+  {
+   "i": 0.171,
+   "r": 46.589,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 80574.948
+  },
+  {
+   "i": 0.0,
+   "r": 0.013,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 178176.023
+  },
+  {
+   "i": 0.0,
+   "r": 491.652,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 8.914,
+   "r": 280257.119,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 649.15
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.0,
+   "r": 51.773,
+   "testo": {
+    "ok": "V = 0.456 V · I = 8.81 mA · R = 51,773 Ω · P = 4.02 mW"
+   },
+   "v": 0.456
+  },
+  {
+   "i": 0.043,
+   "r": 2108.413,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.568
+  },
+  {
+   "i": 173435.261,
+   "r": 0.006,
+   "testo": {
+    "ok": "V = 1.04e+03 V · I = 1.73e+08 mA · R = 0,006 Ω · P = 1.8e+11 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 5445.869,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 0.029 V · I = 5.45e+06 mA · R = 5,32514e-06 Ω · P = 1.58e+05 mW"
+   },
+   "v": 0.029
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.005
+  },
+  {
+   "i": 7.748,
+   "r": 166.223,
+   "testo": {
+    "ok": "V = 1.29e+03 V · I = 7.75e+03 mA · R = 166,223 Ω · P = 9.98e+06 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 353600.663,
+   "r": 91.082,
+   "testo": {
+    "ok": "V = 3.22e+07 V · I = 3.54e+08 mA · R = 91,082 Ω · P = 1.14e+16 mW"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 0.002,
+   "r": 981323.593,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 23751.529
+  },
+  {
+   "i": 0.003,
+   "r": 55.046,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 753.945
+  },
+  {
+   "i": 0.0,
+   "r": 0.0,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.0
+  },
+  {
+   "i": 2224.924,
+   "r": 229.221,
+   "testo": {
+    "ok": "servono esattamente due valori tra V, I e R"
+   },
+   "v": 0.1
+  },
+  {
+   "i": 3103.471,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 34.1 V · I = 3.1e+06 mA · R = 0,0109922 Ω · P = 1.06e+08 mW"
+   },
+   "v": 34.114
+  },
+  {
+   "i": 0.474,
+   "r": 0.0,
+   "testo": {
+    "ok": "V = 8.88e+05 V · I = 474 mA · R = 1,87261 MΩ · P = 4.21e+08 mW"
+   },
+   "v": 887614.931
+  },
+  {
+   "i": 0.0,
+   "r": 346.767,
+   "testo": {
+    "ok": "V = 2.34e+04 V · I = 6.74e+04 mA · R = 346,767 Ω · P = 1.58e+09 mW"
+   },
+   "v": 23385.877
+  },
+  {
+   "i": 0.081,
+   "r": 0.063,
+   "testo": {
+    "ok": "V = 0.0051 V · I = 81 mA · R = 0,063 Ω · P = 0.413 mW"
+   },
+   "v": 0.0
+  }
+ ]
+}

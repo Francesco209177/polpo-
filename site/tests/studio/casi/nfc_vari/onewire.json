@@ -1,0 +1,3795 @@
+{
+ "crc8": [
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "313233343536373839",
+   "r": 161
+  },
+  {
+   "b": "29f88512004af0bfa30b8bfa65d33062872d",
+   "r": 39
+  },
+  {
+   "b": "ab2fb9d180e3306495311766b8",
+   "r": 82
+  },
+  {
+   "b": "630eb97ddc9bb63d2d653b899f64c2",
+   "r": 150
+  },
+  {
+   "b": "72466b06605608aa9cbfc1c79440fa",
+   "r": 250
+  },
+  {
+   "b": "5e",
+   "r": 196
+  },
+  {
+   "b": "cb31e17d2de4e4c227daf19bd1",
+   "r": 222
+  },
+  {
+   "b": "6288",
+   "r": 133
+  },
+  {
+   "b": "f958090b3f80b86083e7a882d2d7",
+   "r": 254
+  },
+  {
+   "b": "f889f3f5fb48c1fe9cefa5bb53c088a3cbf950",
+   "r": 230
+  },
+  {
+   "b": "03e61d5d0f39bdb9fe",
+   "r": 113
+  },
+  {
+   "b": "1f624f8907d8fb26f07633bdb94a7ca24913",
+   "r": 159
+  },
+  {
+   "b": "313517f4ec230f412a5287e7ff0a4660e1f5e1e4",
+   "r": 208
+  },
+  {
+   "b": "8df42095ba92b8112a8d8f8cf2dce3be10",
+   "r": 1
+  },
+  {
+   "b": "7f7a",
+   "r": 40
+  },
+  {
+   "b": "1058acbd101a6bddaf27503acc45edfd26",
+   "r": 58
+  },
+  {
+   "b": "25b30f5f",
+   "r": 43
+  },
+  {
+   "b": "4c5e904dc6727140d653a27b02c560a6",
+   "r": 255
+  },
+  {
+   "b": "e104cb4577be8b5e4c5444c4",
+   "r": 93
+  },
+  {
+   "b": "1f06",
+   "r": 41
+  },
+  {
+   "b": "f1",
+   "r": 42
+  },
+  {
+   "b": "3a",
+   "r": 192
+  },
+  {
+   "b": "33bc101e73d073962ff1271e56e03d395b190fd9",
+   "r": 237
+  },
+  {
+   "b": "9282e376676d8e0682a92f10b9bb3b730eb8aedf",
+   "r": 98
+  },
+  {
+   "b": "b0",
+   "r": 50
+  },
+  {
+   "b": "0f05ac22",
+   "r": 147
+  },
+  {
+   "b": "01ed872c8b754340d65d7cc4dbf58a",
+   "r": 102
+  },
+  {
+   "b": "46991062e5355a37",
+   "r": 61
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "523d4dc9f2f8f06ec64fea05acd580a3",
+   "r": 248
+  },
+  {
+   "b": "92bdb972",
+   "r": 190
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "5a2ad0762d63c2d240",
+   "r": 118
+  },
+  {
+   "b": "19f9baa8",
+   "r": 32
+  },
+  {
+   "b": "c78b22854315384f3a2c2c3f6eb3ad517d59",
+   "r": 163
+  },
+  {
+   "b": "7340f5ea38",
+   "r": 149
+  },
+  {
+   "b": "45e964be4aaa86228c001f0ff5e9a21f058c33",
+   "r": 234
+  },
+  {
+   "b": "ac34bf484bbdf0cf094d35e4",
+   "r": 125
+  },
+  {
+   "b": "0641f58724f43dcc6557e0",
+   "r": 89
+  },
+  {
+   "b": "82b1968be7177f01fd82",
+   "r": 69
+  },
+  {
+   "b": "12a4076b9b",
+   "r": 106
+  },
+  {
+   "b": "4e8e1d8b9abf",
+   "r": 94
+  },
+  {
+   "b": "57012eb65eb3",
+   "r": 21
+  },
+  {
+   "b": "f471f3c4b7",
+   "r": 201
+  },
+  {
+   "b": "2cdc1b",
+   "r": 135
+  },
+  {
+   "b": "68e089701cf78188b899dabd30d4538e1fa2",
+   "r": 236
+  },
+  {
+   "b": "1d28391fe0dc2e5a86b40020889eb1c6",
+   "r": 58
+  },
+  {
+   "b": "273a90fde4839e7b071ac24e",
+   "r": 249
+  },
+  {
+   "b": "96063686453c0f",
+   "r": 189
+  },
+  {
+   "b": "83fa6c238d59454e320c6fa7",
+   "r": 176
+  },
+  {
+   "b": "f3f9e7a5e8625a397147c872b4",
+   "r": 129
+  },
+  {
+   "b": "8c62730dd07ccb3d11a1baff81df",
+   "r": 64
+  },
+  {
+   "b": "9bb8be1dd25c9c94f17b35eb",
+   "r": 4
+  },
+  {
+   "b": "52bbdbefa724e8ddf8063721f6de1e0db3b9",
+   "r": 219
+  },
+  {
+   "b": "5bf524cf3a",
+   "r": 115
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "778087c5b801b0d69959fc",
+   "r": 3
+  },
+  {
+   "b": "13086803160ff334d4f7a7",
+   "r": 41
+  },
+  {
+   "b": "6769bf49386c197289d570b6f3bd4c",
+   "r": 0
+  },
+  {
+   "b": "8f611c6666cd17d90c2729",
+   "r": 175
+  },
+  {
+   "b": "6232f6",
+   "r": 255
+  },
+  {
+   "b": "5fe16b0470a76d974c03",
+   "r": 206
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "35cf6e6ad3ff2ddd57",
+   "r": 93
+  },
+  {
+   "b": "6690d799",
+   "r": 10
+  },
+  {
+   "b": "10e06e649877dcb918a1b9b7",
+   "r": 56
+  },
+  {
+   "b": "dcb7d1924e8365ee58034c21",
+   "r": 157
+  },
+  {
+   "b": "82ed066c9c1d14",
+   "r": 154
+  },
+  {
+   "b": "c73fb3a54694018a4289a42cb33d00",
+   "r": 82
+  },
+  {
+   "b": "9c6a6b23dc0db4",
+   "r": 132
+  },
+  {
+   "b": "67d0c31b1e5f787f9556",
+   "r": 251
+  },
+  {
+   "b": "5ab7b49272512440",
+   "r": 173
+  },
+  {
+   "b": "e71c3a2914b7bee4cf8d7ad5d8a7e4c37e19",
+   "r": 166
+  },
+  {
+   "b": "d9c8",
+   "r": 226
+  },
+  {
+   "b": "e6aa58",
+   "r": 6
+  },
+  {
+   "b": "253260",
+   "r": 120
+  },
+  {
+   "b": "fe7c02b75f16",
+   "r": 195
+  },
+  {
+   "b": "c9",
+   "r": 86
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "e23c66f6510107f2b4",
+   "r": 24
+  },
+  {
+   "b": "4ae2c1d479a76e",
+   "r": 112
+  },
+  {
+   "b": "cced18",
+   "r": 75
+  },
+  {
+   "b": "978b368373a8",
+   "r": 198
+  },
+  {
+   "b": "bb9c8ccddda1e5b2663bd4892977b215273a50",
+   "r": 207
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "ae09d8164062063b8c576c71356e05a5",
+   "r": 249
+  },
+  {
+   "b": "cb240cb950e54bde8e1ac499f00099954b006c98",
+   "r": 197
+  },
+  {
+   "b": "4101be",
+   "r": 115
+  },
+  {
+   "b": "3a66b1d0a53862813deadb",
+   "r": 31
+  },
+  {
+   "b": "a9b97b",
+   "r": 16
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "853e580b100706a226e11b4e8c",
+   "r": 2
+  },
+  {
+   "b": "987e707fa98b501a",
+   "r": 215
+  },
+  {
+   "b": "7bee",
+   "r": 99
+  },
+  {
+   "b": "caf9c4",
+   "r": 185
+  },
+  {
+   "b": "43254b8c7d1570a20cc3",
+   "r": 53
+  },
+  {
+   "b": "ab5ae86c3aa15448624f2a",
+   "r": 197
+  },
+  {
+   "b": "f67dd206e2",
+   "r": 166
+  },
+  {
+   "b": "103dab04a0f1ef7f22d6cb08f049",
+   "r": 193
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "1c003c2e23556e6763fc7f2e30b7",
+   "r": 206
+  },
+  {
+   "b": "37f00b",
+   "r": 29
+  },
+  {
+   "b": "785e38f48375a7336ddd",
+   "r": 19
+  },
+  {
+   "b": "ac",
+   "r": 12
+  },
+  {
+   "b": "293e3db33f34c120cd4395e6510d77055b",
+   "r": 230
+  },
+  {
+   "b": "469bdf",
+   "r": 22
+  },
+  {
+   "b": "d02bb1268f7b8cd9be6ea58cbe3cc4975380",
+   "r": 20
+  },
+  {
+   "b": "0a59a9d79006d9926e906673f5",
+   "r": 246
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "5de479d9baf8bd656a0d394bea",
+   "r": 158
+  },
+  {
+   "b": "47fcbc8d76f1",
+   "r": 176
+  },
+  {
+   "b": "7c2b6516",
+   "r": 10
+  },
+  {
+   "b": "cf9f685d9b31fe896e",
+   "r": 98
+  },
+  {
+   "b": "7317772d19dad98d84726936ede378",
+   "r": 82
+  },
+  {
+   "b": "e717ddb5629167f652919a9e57ea7f",
+   "r": 250
+  },
+  {
+   "b": "17aae2adbe457790",
+   "r": 166
+  },
+  {
+   "b": "3d2d2421c7b7f62b51901a7a05d61b",
+   "r": 66
+  },
+  {
+   "b": "03e294a2168fc8075e748d0a03ed625fe942",
+   "r": 224
+  },
+  {
+   "b": "5704f6ff4c0c7077",
+   "r": 180
+  },
+  {
+   "b": "3cd6513a1662c84e5ffa351d8f2c67987686",
+   "r": 91
+  },
+  {
+   "b": "bf3899ff",
+   "r": 180
+  },
+  {
+   "b": "623f9daf01c9fc",
+   "r": 137
+  },
+  {
+   "b": "c3dc7fdf09",
+   "r": 19
+  },
+  {
+   "b": "d90ae81fbd1744f3e5f7ace6563625efea",
+   "r": 65
+  },
+  {
+   "b": "b678d8f4d761814aadc4",
+   "r": 9
+  },
+  {
+   "b": "f03b6e1f44f26f4fc2059a88a900c14a9bb3b324",
+   "r": 234
+  },
+  {
+   "b": "9a69f829496ed36a601b0c08e7629ced8301",
+   "r": 103
+  },
+  {
+   "b": "225520e6ee1e6f50c609cb",
+   "r": 161
+  },
+  {
+   "b": "6a2edd55329e2c",
+   "r": 227
+  },
+  {
+   "b": "e16b5c5a38c1633256e6",
+   "r": 100
+  },
+  {
+   "b": "",
+   "r": 0
+  },
+  {
+   "b": "1968d3",
+   "r": 93
+  },
+  {
+   "b": "eea0",
+   "r": 6
+  },
+  {
+   "b": "bdb455ea",
+   "r": 49
+  },
+  {
+   "b": "45bf26ae9aa4962dd931f8b8e075c57b",
+   "r": 53
+  },
+  {
+   "b": "67dd58",
+   "r": 23
+  },
+  {
+   "b": "c76d0ed913",
+   "r": 31
+  },
+  {
+   "b": "2e1ee4a3233844143498010163a8572e0153ffab",
+   "r": 45
+  },
+  {
+   "b": "89",
+   "r": 16
+  },
+  {
+   "b": "7501e8cfe97827",
+   "r": 67
+  },
+  {
+   "b": "0e3e8ae06693b7cfb3ae0e",
+   "r": 2
+  },
+  {
+   "b": "5f7c8e783ad4fa8864b6230d818372fa9ffc4f",
+   "r": 176
+  },
+  {
+   "b": "460a",
+   "r": 79
+  },
+  {
+   "b": "51f4e9524ad4ee7c64cb",
+   "r": 141
+  },
+  {
+   "b": "ad0600e3a798317ffcd327b395a54f29",
+   "r": 72
+  },
+  {
+   "b": "3d18bc13b5c169ea01d2",
+   "r": 167
+  },
+  {
+   "b": "8b1630c657b845",
+   "r": 112
+  },
+  {
+   "b": "a8067430a8c6",
+   "r": 150
+  },
+  {
+   "b": "cc0561d533523e16d7d1d028c35069c82e",
+   "r": 49
+  },
+  {
+   "b": "64ac1d8bb7d244e2da93",
+   "r": 225
+  }
+ ],
+ "make_rom": [
+  {
+   "f": 1,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 1,
+     "family_name": "DS1990A / DS2401 (solo numero di serie)",
+     "raw": "010000000000003d",
+     "serial": "000000000000",
+     "text": "01 00 00 00 00 00 00 3D"
+    }
+   },
+   "s": 0
+  },
+  {
+   "f": 40,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 40,
+     "family_name": "DS18B20 (sensore di temperatura)",
+     "raw": "28ffffffffffff0c",
+     "serial": "FFFFFFFFFFFF",
+     "text": "28 FF FF FF FF FF FF 0C"
+    }
+   },
+   "s": 281474976710655
+  },
+  {
+   "f": 0,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 0,
+     "family_name": "famiglia sconosciuta",
+     "raw": "0001000000000037",
+     "serial": "000000000001",
+     "text": "00 01 00 00 00 00 00 37"
+    }
+   },
+   "s": 1
+  },
+  {
+   "f": 255,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 255,
+     "family_name": "famiglia sconosciuta",
+     "raw": "ffbc9a785634125f",
+     "serial": "123456789ABC",
+     "text": "FF BC 9A 78 56 34 12 5F"
+    }
+   },
+   "s": 20015998343868
+  },
+  {
+   "f": 256,
+   "r": {
+    "errore": {
+     "msg": "bytes must be in range(0, 256)",
+     "tipo": "ValueError"
+    }
+   },
+   "s": 0
+  },
+  {
+   "f": -1,
+   "r": {
+    "errore": {
+     "msg": "bytes must be in range(0, 256)",
+     "tipo": "ValueError"
+    }
+   },
+   "s": 0
+  },
+  {
+   "f": 1,
+   "r": {
+    "errore": {
+     "msg": "int too big to convert",
+     "tipo": "OverflowError"
+    }
+   },
+   "s": 281474976710656
+  },
+  {
+   "f": 1,
+   "r": {
+    "errore": {
+     "msg": "can't convert negative int to unsigned",
+     "tipo": "OverflowError"
+    }
+   },
+   "s": -1
+  },
+  {
+   "f": 149,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 149,
+     "family_name": "famiglia sconosciuta",
+     "raw": "950b9831e0ec6fc8",
+     "serial": "6FECE031980B",
+     "text": "95 0B 98 31 E0 EC 6F C8"
+    }
+   },
+   "s": 123063164311563
+  },
+  {
+   "f": 187,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 187,
+     "family_name": "famiglia sconosciuta",
+     "raw": "bb4747e504a4fc29",
+     "serial": "FCA404E54747",
+     "text": "BB 47 47 E5 04 A4 FC 29"
+    }
+   },
+   "s": 277781386970951
+  },
+  {
+   "f": 254,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 254,
+     "family_name": "famiglia sconosciuta",
+     "raw": "fe2375bdd622b193",
+     "serial": "B122D6BD7523",
+     "text": "FE 23 75 BD D6 22 B1 93"
+    }
+   },
+   "s": 194763189744931
+  },
+  {
+   "f": 100,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 100,
+     "family_name": "famiglia sconosciuta",
+     "raw": "64103350abd90f09",
+     "serial": "0FD9AB503310",
+     "text": "64 10 33 50 AB D9 0F 09"
+    }
+   },
+   "s": 17427556479760
+  },
+  {
+   "f": 215,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 215,
+     "family_name": "famiglia sconosciuta",
+     "raw": "d71ea97603f4c73e",
+     "serial": "C7F40376A91E",
+     "text": "D7 1E A9 76 03 F4 C7 3E"
+    }
+   },
+   "s": 219850844055838
+  },
+  {
+   "f": 203,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 203,
+     "family_name": "famiglia sconosciuta",
+     "raw": "cb377e26a6fca2d8",
+     "serial": "A2FCA6267E37",
+     "text": "CB 37 7E 26 A6 FC A2 D8"
+    }
+   },
+   "s": 179206002998839
+  },
+  {
+   "f": 223,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 223,
+     "family_name": "famiglia sconosciuta",
+     "raw": "df02acc67db6a562",
+     "serial": "A5B67DC6AC02",
+     "text": "DF 02 AC C6 7D B6 A5 62"
+    }
+   },
+   "s": 182203212803074
+  },
+  {
+   "f": 225,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 225,
+     "family_name": "famiglia sconosciuta",
+     "raw": "e15c1f94bfe2ca9e",
+     "serial": "CAE2BF941F5C",
+     "text": "E1 5C 1F 94 BF E2 CA 9E"
+    }
+   },
+   "s": 223075225575260
+  },
+  {
+   "f": 152,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 152,
+     "family_name": "famiglia sconosciuta",
+     "raw": "98cc7b2d0ad197eb",
+     "serial": "97D10A2D7BCC",
+     "text": "98 CC 7B 2D 0A D1 97 EB"
+    }
+   },
+   "s": 166924074712012
+  },
+  {
+   "f": 121,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 121,
+     "family_name": "famiglia sconosciuta",
+     "raw": "7984cf552e57629d",
+     "serial": "62572E55CF84",
+     "text": "79 84 CF 55 2E 57 62 9D"
+    }
+   },
+   "s": 108126579052420
+  },
+  {
+   "f": 125,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 125,
+     "family_name": "famiglia sconosciuta",
+     "raw": "7d0a249aa5bb21a6",
+     "serial": "21BBA59A240A",
+     "text": "7D 0A 24 9A A5 BB 21 A6"
+    }
+   },
+   "s": 37089820943370
+  },
+  {
+   "f": 213,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 213,
+     "family_name": "famiglia sconosciuta",
+     "raw": "d5e70dfb051d923a",
+     "serial": "921D05FB0DE7",
+     "text": "D5 E7 0D FB 05 1D 92 3A"
+    }
+   },
+   "s": 160653352046055
+  },
+  {
+   "f": 30,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 30,
+     "family_name": "famiglia sconosciuta",
+     "raw": "1e7988ab2cb505af",
+     "serial": "05B52CAB8879",
+     "text": "1E 79 88 AB 2C B5 05 AF"
+    }
+   },
+   "s": 6275696658553
+  },
+  {
+   "f": 45,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 45,
+     "family_name": "DS2431 (EEPROM 1 kbit)",
+     "raw": "2daa68bf28cd19ed",
+     "serial": "19CD28BF68AA",
+     "text": "2D AA 68 BF 28 CD 19 ED"
+    }
+   },
+   "s": 28368942622890
+  },
+  {
+   "f": 36,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 36,
+     "family_name": "famiglia sconosciuta",
+     "raw": "2449788ff22c13d9",
+     "serial": "132CF28F7849",
+     "text": "24 49 78 8F F2 2C 13 D9"
+    }
+   },
+   "s": 21083768977481
+  },
+  {
+   "f": 188,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 188,
+     "family_name": "famiglia sconosciuta",
+     "raw": "bc64c155d39d4bfe",
+     "serial": "4B9DD355C164",
+     "text": "BC 64 C1 55 D3 9D 4B FE"
+    }
+   },
+   "s": 83141227561316
+  },
+  {
+   "f": 182,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 182,
+     "family_name": "famiglia sconosciuta",
+     "raw": "b6ed9f3fbca97d3a",
+     "serial": "7DA9BC3F9FED",
+     "text": "B6 ED 9F 3F BC A9 7D 3A"
+    }
+   },
+   "s": 138167961231341
+  },
+  {
+   "f": 4,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 4,
+     "family_name": "DS1994 / DS2404 (orologio + memoria)",
+     "raw": "047e805d3137f1ed",
+     "serial": "F137315D807E",
+     "text": "04 7E 80 5D 31 37 F1 ED"
+    }
+   },
+   "s": 265219353706622
+  },
+  {
+   "f": 89,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 89,
+     "family_name": "famiglia sconosciuta",
+     "raw": "5983015113d94bfb",
+     "serial": "4BD913510183",
+     "text": "59 83 01 51 13 D9 4B FB"
+    }
+   },
+   "s": 83395704062339
+  },
+  {
+   "f": 17,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 17,
+     "family_name": "famiglia sconosciuta",
+     "raw": "11f9f9cea4157605",
+     "serial": "7615A4CEF9F9",
+     "text": "11 F9 F9 CE A4 15 76 05"
+    }
+   },
+   "s": 129835331418617
+  },
+  {
+   "f": 254,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 254,
+     "family_name": "famiglia sconosciuta",
+     "raw": "fe54e2a593915d55",
+     "serial": "5D9193A5E254",
+     "text": "FE 54 E2 A5 93 91 5D 55"
+    }
+   },
+   "s": 102879828763220
+  },
+  {
+   "f": 146,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 146,
+     "family_name": "famiglia sconosciuta",
+     "raw": "9224b764f5554709",
+     "serial": "4755F564B724",
+     "text": "92 24 B7 64 F5 55 47 09"
+    }
+   },
+   "s": 78434514810660
+  },
+  {
+   "f": 15,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 15,
+     "family_name": "famiglia sconosciuta",
+     "raw": "0fd205372f20e2ab",
+     "serial": "E2202F3705D2",
+     "text": "0F D2 05 37 2F 20 E2 AB"
+    }
+   },
+   "s": 248627858965970
+  },
+  {
+   "f": 60,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 60,
+     "family_name": "famiglia sconosciuta",
+     "raw": "3c752c96e4e24c0b",
+     "serial": "4CE2E4962C75",
+     "text": "3C 75 2C 96 E4 E2 4C 0B"
+    }
+   },
+   "s": 84537381366901
+  },
+  {
+   "f": 167,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 167,
+     "family_name": "famiglia sconosciuta",
+     "raw": "a77034222325d725",
+     "serial": "D72523223470",
+     "text": "A7 70 34 22 23 25 D7 25"
+    }
+   },
+   "s": 236554503206000
+  },
+  {
+   "f": 66,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 66,
+     "family_name": "famiglia sconosciuta",
+     "raw": "42a7408aa188cc22",
+     "serial": "CC88A18A40A7",
+     "text": "42 A7 40 8A A1 88 CC 22"
+    }
+   },
+   "s": 224887197810855
+  },
+  {
+   "f": 7,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 7,
+     "family_name": "famiglia sconosciuta",
+     "raw": "07e52f32dcca7862",
+     "serial": "78CADC322FE5",
+     "text": "07 E5 2F 32 DC CA 78 62"
+    }
+   },
+   "s": 132812673003493
+  },
+  {
+   "f": 102,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 102,
+     "family_name": "famiglia sconosciuta",
+     "raw": "664a19eb75a97e2f",
+     "serial": "7EA975EB194A",
+     "text": "66 4A 19 EB 75 A9 7E 2F"
+    }
+   },
+   "s": 139266292914506
+  },
+  {
+   "f": 21,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 21,
+     "family_name": "famiglia sconosciuta",
+     "raw": "152a5729a69ddb76",
+     "serial": "DB9DA629572A",
+     "text": "15 2A 57 29 A6 9D DB 76"
+    }
+   },
+   "s": 241470144075562
+  },
+  {
+   "f": 123,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 123,
+     "family_name": "famiglia sconosciuta",
+     "raw": "7bedf4de8261d7cc",
+     "serial": "D76182DEF4ED",
+     "text": "7B ED F4 DE 82 61 D7 CC"
+    }
+   },
+   "s": 236813807449325
+  },
+  {
+   "f": 14,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 14,
+     "family_name": "famiglia sconosciuta",
+     "raw": "0e7ca0e1fbc39ecc",
+     "serial": "9EC3FBE1A07C",
+     "text": "0E 7C A0 E1 FB C3 9E CC"
+    }
+   },
+   "s": 174564581679228
+  },
+  {
+   "f": 140,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 140,
+     "family_name": "famiglia sconosciuta",
+     "raw": "8cdd63e8ff6705cf",
+     "serial": "0567FFE863DD",
+     "text": "8C DD 63 E8 FF 67 05 CF"
+    }
+   },
+   "s": 5944233190365
+  },
+  {
+   "f": 54,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 54,
+     "family_name": "famiglia sconosciuta",
+     "raw": "36930d2a9510185b",
+     "serial": "1810952A0D93",
+     "text": "36 93 0D 2A 95 10 18 5B"
+    }
+   },
+   "s": 26459501104531
+  },
+  {
+   "f": 5,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 5,
+     "family_name": "famiglia sconosciuta",
+     "raw": "059269f011d3e4e1",
+     "serial": "E4D311F06992",
+     "text": "05 92 69 F0 11 D3 E4 E1"
+    }
+   },
+   "s": 251595190200722
+  },
+  {
+   "f": 197,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 197,
+     "family_name": "famiglia sconosciuta",
+     "raw": "c536f99d16fa0535",
+     "serial": "05FA169DF936",
+     "text": "C5 36 F9 9D 16 FA 05 35"
+    }
+   },
+   "s": 6571679414582
+  },
+  {
+   "f": 51,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 51,
+     "family_name": "DS1961S / DS2432 (EEPROM con SHA-1)",
+     "raw": "330721a943be3132",
+     "serial": "31BE43A92107",
+     "text": "33 07 21 A9 43 BE 31 32"
+    }
+   },
+   "s": 54693248704775
+  },
+  {
+   "f": 214,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 214,
+     "family_name": "famiglia sconosciuta",
+     "raw": "d61fccef3430623e",
+     "serial": "623034EFCC1F",
+     "text": "D6 1F CC EF 34 30 62 3E"
+    }
+   },
+   "s": 107959186082847
+  },
+  {
+   "f": 87,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 87,
+     "family_name": "famiglia sconosciuta",
+     "raw": "5764563228211963",
+     "serial": "192128325664",
+     "text": "57 64 56 32 28 21 19 63"
+    }
+   },
+   "s": 27630199002724
+  },
+  {
+   "f": 65,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 65,
+     "family_name": "DS1923 (registratore di temperatura e umidità)",
+     "raw": "41b1597cae025f1f",
+     "serial": "5F02AE7C59B1",
+     "text": "41 B1 59 7C AE 02 5F 1F"
+    }
+   },
+   "s": 104465121958321
+  },
+  {
+   "f": 239,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 239,
+     "family_name": "famiglia sconosciuta",
+     "raw": "ef0d34a6b79ce3cf",
+     "serial": "E39CB7A6340D",
+     "text": "EF 0D 34 A6 B7 9C E3 CF"
+    }
+   },
+   "s": 250262235526157
+  },
+  {
+   "f": 197,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 197,
+     "family_name": "famiglia sconosciuta",
+     "raw": "c55c763002f9f8a1",
+     "serial": "F8F90230765C",
+     "text": "C5 5C 76 30 02 F9 F8 A1"
+    }
+   },
+   "s": 273748367275612
+  },
+  {
+   "f": 190,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 190,
+     "family_name": "famiglia sconosciuta",
+     "raw": "be587b725705a5af",
+     "serial": "A50557727B58",
+     "text": "BE 58 7B 72 57 05 A5 AF"
+    }
+   },
+   "s": 181442360539992
+  },
+  {
+   "f": 206,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 206,
+     "family_name": "famiglia sconosciuta",
+     "raw": "ceac1f6236f1cb32",
+     "serial": "CBF136621FAC",
+     "text": "CE AC 1F 62 36 F1 CB 32"
+    }
+   },
+   "s": 224236859957164
+  },
+  {
+   "f": 165,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 165,
+     "family_name": "famiglia sconosciuta",
+     "raw": "a5042228acad4a68",
+     "serial": "4AADAC282204",
+     "text": "A5 04 22 28 AC AD 4A 68"
+    }
+   },
+   "s": 82109778108932
+  },
+  {
+   "f": 191,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 191,
+     "family_name": "famiglia sconosciuta",
+     "raw": "bf08b9f323c47f63",
+     "serial": "7FC423F3B908",
+     "text": "BF 08 B9 F3 23 C4 7F 63"
+    }
+   },
+   "s": 140480393492744
+  },
+  {
+   "f": 64,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 64,
+     "family_name": "famiglia sconosciuta",
+     "raw": "40d856864c314da3",
+     "serial": "4D314C8656D8",
+     "text": "40 D8 56 86 4C 31 4D A3"
+    }
+   },
+   "s": 84874132608728
+  },
+  {
+   "f": 79,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 79,
+     "family_name": "famiglia sconosciuta",
+     "raw": "4f825bcb449aec88",
+     "serial": "EC9A44CB5B82",
+     "text": "4F 82 5B CB 44 9A EC 88"
+    }
+   },
+   "s": 260147323296642
+  },
+  {
+   "f": 227,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 227,
+     "family_name": "famiglia sconosciuta",
+     "raw": "e3670b6a7b6c0f3d",
+     "serial": "0F6C7B6A0B67",
+     "text": "E3 67 0B 6A 7B 6C 0F 3D"
+    }
+   },
+   "s": 16958601431911
+  },
+  {
+   "f": 178,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 178,
+     "family_name": "famiglia sconosciuta",
+     "raw": "b2e6c7ee168859c8",
+     "serial": "598816EEC7E6",
+     "text": "B2 E6 C7 EE 16 88 59 C8"
+    }
+   },
+   "s": 98441035171814
+  },
+  {
+   "f": 131,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 131,
+     "family_name": "famiglia sconosciuta",
+     "raw": "832b9c9b17947e52",
+     "serial": "7E94179B9C2B",
+     "text": "83 2B 9C 9B 17 94 7E 52"
+    }
+   },
+   "s": 139174516333611
+  },
+  {
+   "f": 227,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 227,
+     "family_name": "famiglia sconosciuta",
+     "raw": "e346896c6bfc668d",
+     "serial": "66FC6B6C8946",
+     "text": "E3 46 89 6C 6B FC 66 8D"
+    }
+   },
+   "s": 113234320066886
+  },
+  {
+   "f": 135,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 135,
+     "family_name": "famiglia sconosciuta",
+     "raw": "8754deceace55986",
+     "serial": "59E5ACCEDE54",
+     "text": "87 54 DE CE AC E5 59 86"
+    }
+   },
+   "s": 98842981621332
+  },
+  {
+   "f": 45,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 45,
+     "family_name": "DS2431 (EEPROM 1 kbit)",
+     "raw": "2d1ce1fc1109ffe3",
+     "serial": "FF0911FCE11C",
+     "text": "2D 1C E1 FC 11 09 FF E3"
+    }
+   },
+   "s": 280414421573916
+  },
+  {
+   "f": 34,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 34,
+     "family_name": "DS1822 (sensore di temperatura)",
+     "raw": "22a4726846a38ade",
+     "serial": "8AA3466872A4",
+     "text": "22 A4 72 68 46 A3 8A DE"
+    }
+   },
+   "s": 152433865552548
+  },
+  {
+   "f": 199,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 199,
+     "family_name": "famiglia sconosciuta",
+     "raw": "c7c9c78cb1d01080",
+     "serial": "10D0B18CC7C9",
+     "text": "C7 C9 C7 8C B1 D0 10 80"
+    }
+   },
+   "s": 18488518035401
+  },
+  {
+   "f": 245,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 245,
+     "family_name": "famiglia sconosciuta",
+     "raw": "f5110365feb1109c",
+     "serial": "10B1FE650311",
+     "text": "F5 11 03 65 FE B1 10 9C"
+    }
+   },
+   "s": 18356663288593
+  },
+  {
+   "f": 128,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 128,
+     "family_name": "famiglia sconosciuta",
+     "raw": "80f28dfaf65dde2c",
+     "serial": "DE5DF6FA8DF2",
+     "text": "80 F2 8D FA F6 5D DE 2C"
+    }
+   },
+   "s": 244495156940274
+  },
+  {
+   "f": 86,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 86,
+     "family_name": "famiglia sconosciuta",
+     "raw": "56e3de334282e26b",
+     "serial": "E2824233DEE3",
+     "text": "56 E3 DE 33 42 82 E2 6B"
+    }
+   },
+   "s": 249049084321507
+  },
+  {
+   "f": 214,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 214,
+     "family_name": "famiglia sconosciuta",
+     "raw": "d696c0ea3b8aae31",
+     "serial": "AE8A3BEAC096",
+     "text": "D6 96 C0 EA 3B 8A AE 31"
+    }
+   },
+   "s": 191908733960342
+  },
+  {
+   "f": 25,
+   "r": {
+    "ok": {
+     "crc_ok": {
+      "ok": true
+     },
+     "family": 25,
+     "family_name": "famiglia sconosciuta",
+     "raw": "19d89f8cd58b2dbf",
+     "serial": "2D8BD58C9FD8",
+     "text": "19 D8 9F 8C D5 8B 2D BF"
+    }
+   },
+   "s": 50078606467032
+  }
+ ],
+ "parse_rom": [
+  {
+   "r": null,
+   "t": ""
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "0102030405060708"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "01 02 03 04 05 06 07 08"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "01-02-03-04-05-06-07-08"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "01:02:03:04:05:06:07:08"
+  },
+  {
+   "r": null,
+   "t": "010203040506070"
+  },
+  {
+   "r": null,
+   "t": "01020304050607080"
+  },
+  {
+   "r": null,
+   "t": "0102030405060\n708"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "errore": {
+      "msg": "index out of range",
+      "tipo": "IndexError"
+     }
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01020304050607",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07"
+   },
+   "t": "010203040506\n\n07"
+  },
+  {
+   "r": null,
+   "t": "00            00"
+  },
+  {
+   "r": null,
+   "t": "0102030405060 7 8"
+  },
+  {
+   "r": null,
+   "t": "g102030405060708"
+  },
+  {
+   "r": null,
+   "t": "é102030405060708"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "  0102030405060708  "
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "\t01\t02\t03\t04\t05\t06\t07\t08\t"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0102030405060708",
+    "serial": "070605040302",
+    "text": "01 02 03 04 05 06 07 08"
+   },
+   "t": "0102030405060708　"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28ff4a1b2c3d4e5f",
+    "serial": "4E3D2C1B4AFF",
+    "text": "28 FF 4A 1B 2C 3D 4E 5F"
+   },
+   "t": "28FF4A1B2C3D4E5F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01a2b3c4d5e6007f",
+    "serial": "00E6D5C4B3A2",
+    "text": "01 A2 B3 C4 D5 E6 00 7F"
+   },
+   "t": "01A2B3C4D5E6007F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2deb24aa8a5763c5",
+    "serial": "63578AAA24EB",
+    "text": "2D EB 24 AA 8A 57 63 C5"
+   },
+   "t": "2D-eb-24-aa-8A-57-63-c5"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d8214379a8fea1c",
+    "serial": "EA8F9A371482",
+    "text": "2D 82 14 37 9A 8F EA 1C"
+   },
+   "t": "2D8214379a8Fea1c"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2de3fb2eb1af7532",
+    "serial": "75AFB12EFBE3",
+    "text": "2D E3 FB 2E B1 AF 75 32"
+   },
+   "t": "2d e3 fb 2E b1 af 75 32"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "993d6a2d78d8992f",
+    "serial": "99D8782D6A3D",
+    "text": "99 3D 6A 2D 78 D8 99 2F"
+   },
+   "t": "99:3D:6a:2D:78:d8:99:2F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28ff602c9d7f6f89",
+    "serial": "6F7F9D2C60FF",
+    "text": "28 FF 60 2C 9D 7F 6F 89"
+   },
+   "t": "28-FF-60-2c-9D-7F-6f-89"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "281c9eae0329e29b",
+    "serial": "E22903AE9E1C",
+    "text": "28 1C 9E AE 03 29 E2 9B"
+   },
+   "t": "28:1C:9E:ae:03:29:E2:9b"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28b783df9f4e1f71",
+    "serial": "1F4E9FDF83B7",
+    "text": "28 B7 83 DF 9F 4E 1F 71"
+   },
+   "t": "28:B7:83:df:9f:4E:1f:71"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "995d5416f8487be2",
+    "serial": "7B48F816545D",
+    "text": "99 5D 54 16 F8 48 7B E2"
+   },
+   "t": "99\t5D\t54\t16\tF8\t48\t7b\te2"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "282a7d98f349a045",
+    "serial": "A049F3987D2A",
+    "text": "28 2A 7D 98 F3 49 A0 45"
+   },
+   "t": "28-2a-7d-98-f3-49-a0-45"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 25,
+    "family_name": "famiglia sconosciuta",
+    "raw": "19f8343dfc36a737",
+    "serial": "A736FC3D34F8",
+    "text": "19 F8 34 3D FC 36 A7 37"
+   },
+   "t": "19 - f8 - 34 - 3d - FC - 36 - A7 - 37"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28bdfd90446ceeb6",
+    "serial": "EE6C4490FDBD",
+    "text": "28 BD FD 90 44 6C EE B6"
+   },
+   "t": "28bdFD90446Ceeb6"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "018f41b19879df9c",
+    "serial": "DF7998B1418F",
+    "text": "01 8F 41 B1 98 79 DF 9C"
+   },
+   "t": "018f41B19879df9C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01f7143c54763aca",
+    "serial": "3A76543C14F7",
+    "text": "01 F7 14 3C 54 76 3A CA"
+   },
+   "t": "01-f7-14-3c-54-76-3a-ca"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99770ed306433169",
+    "serial": "314306D30E77",
+    "text": "99 77 0E D3 06 43 31 69"
+   },
+   "t": "99770ed306433169"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 58,
+    "family_name": "DS2413 (2 ingressi/uscite)",
+    "raw": "3a37c1bc8b9b3cbb",
+    "serial": "3C9B8BBCC137",
+    "text": "3A 37 C1 BC 8B 9B 3C BB"
+   },
+   "t": "3a 37 c1 bc 8B 9b 3C bb"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "101981a38dee9ad8",
+    "serial": "9AEE8DA38119",
+    "text": "10 19 81 A3 8D EE 9A D8"
+   },
+   "t": "10-19-81-A3-8d-EE-9a-d8"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99104d603a73719f",
+    "serial": "71733A604D10",
+    "text": "99 10 4D 60 3A 73 71 9F"
+   },
+   "t": "99-10-4d-60-3A-73-71-9f"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "010b31285b9373d6",
+    "serial": "73935B28310B",
+    "text": "01 0B 31 28 5B 93 73 D6"
+   },
+   "t": "01 - 0b - 31 - 28 - 5B - 93 - 73 - d6"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10d2c0c59b7c4903",
+    "serial": "497C9BC5C0D2",
+    "text": "10 D2 C0 C5 9B 7C 49 03"
+   },
+   "t": "10d2C0c59b7C4903"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d29ca635668fba2",
+    "serial": "FB685663CA29",
+    "text": "2D 29 CA 63 56 68 FB A2"
+   },
+   "t": "2d:29:ca:63:56:68:fb:a2"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01c36416a1a15d2d",
+    "serial": "5DA1A11664C3",
+    "text": "01 C3 64 16 A1 A1 5D 2D"
+   },
+   "t": "01 c3 64 16 A1 a1 5D 2d"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "9923f87785c8cc05",
+    "serial": "CCC88577F823",
+    "text": "99 23 F8 77 85 C8 CC 05"
+   },
+   "t": "99-23-f8-77-85-C8-cc-05"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01261ee1d03a39d0",
+    "serial": "393AD0E11E26",
+    "text": "01 26 1E E1 D0 3A 39 D0"
+   },
+   "t": "01-26-1E-e1-D0-3a-39-d0"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2db5f6b3badc1dbb",
+    "serial": "1DDCBAB3F6B5",
+    "text": "2D B5 F6 B3 BA DC 1D BB"
+   },
+   "t": "2d - B5 - F6 - B3 - BA - DC - 1D - bb"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "103593e43b06c03c",
+    "serial": "C0063BE49335",
+    "text": "10 35 93 E4 3B 06 C0 3C"
+   },
+   "t": "10:35:93:E4:3b:06:C0:3C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "100ad560c3266d6c",
+    "serial": "6D26C360D50A",
+    "text": "10 0A D5 60 C3 26 6D 6C"
+   },
+   "t": "10 0A d5 60 C3 26 6d 6C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 64,
+    "family_name": "famiglia sconosciuta",
+    "raw": "404400ae2f1aa4dc",
+    "serial": "A41A2FAE0044",
+    "text": "40 44 00 AE 2F 1A A4 DC"
+   },
+   "t": "40\t44\t00\tAE\t2f\t1a\ta4\tDC"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "994aa67769874501",
+    "serial": "45876977A64A",
+    "text": "99 4A A6 77 69 87 45 01"
+   },
+   "t": "99-4a-a6-77-69-87-45-01"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d3308bedfd3ccfb",
+    "serial": "CCD3DFBE0833",
+    "text": "2D 33 08 BE DF D3 CC FB"
+   },
+   "t": "2D3308BEdfD3CCFB"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10eb13f772d97c10",
+    "serial": "7CD972F713EB",
+    "text": "10 EB 13 F7 72 D9 7C 10"
+   },
+   "t": "10EB13f772D97c10"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "2888df8fbd853139",
+    "serial": "3185BD8FDF88",
+    "text": "28 88 DF 8F BD 85 31 39"
+   },
+   "t": "2888DF8fbd853139"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99a1c65428e82e2d",
+    "serial": "2EE82854C6A1",
+    "text": "99 A1 C6 54 28 E8 2E 2D"
+   },
+   "t": "99a1C65428E82E2D"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "014edbabb95db66b",
+    "serial": "B65DB9ABDB4E",
+    "text": "01 4E DB AB B9 5D B6 6B"
+   },
+   "t": "01 4E db AB b9 5D B6 6B"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99ec43def2815d48",
+    "serial": "5D81F2DE43EC",
+    "text": "99 EC 43 DE F2 81 5D 48"
+   },
+   "t": "99:ec:43:de:f2:81:5d:48"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "284bd6dd88f380ca",
+    "serial": "80F388DDD64B",
+    "text": "28 4B D6 DD 88 F3 80 CA"
+   },
+   "t": "28 - 4b - D6 - DD - 88 - F3 - 80 - CA"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2db6d2deca35229f",
+    "serial": "2235CADED2B6",
+    "text": "2D B6 D2 DE CA 35 22 9F"
+   },
+   "t": "2d:b6:D2:DE:CA:35:22:9F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0151dc1fa196981e",
+    "serial": "9896A11FDC51",
+    "text": "01 51 DC 1F A1 96 98 1E"
+   },
+   "t": "01-51-DC-1f-A1-96-98-1e"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0163fac1dc0b234a",
+    "serial": "230BDCC1FA63",
+    "text": "01 63 FA C1 DC 0B 23 4A"
+   },
+   "t": "0163FAC1DC0B234A"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 139,
+    "family_name": "famiglia sconosciuta",
+    "raw": "8b85bc045eb14b6f",
+    "serial": "4BB15E04BC85",
+    "text": "8B 85 BC 04 5E B1 4B 6F"
+   },
+   "t": "8B85BC045eb14b6f"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "103e6454a7eb29b8",
+    "serial": "29EBA754643E",
+    "text": "10 3E 64 54 A7 EB 29 B8"
+   },
+   "t": "10\t3e\t64\t54\ta7\tEB\t29\tB8"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01bc2351d5458cc1",
+    "serial": "8C45D55123BC",
+    "text": "01 BC 23 51 D5 45 8C C1"
+   },
+   "t": "01\tBC\t23\t51\td5\t45\t8c\tC1"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d2a647775d7a610",
+    "serial": "A6D77577642A",
+    "text": "2D 2A 64 77 75 D7 A6 10"
+   },
+   "t": "2d 2A 64 77 75 D7 a6 10"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99c5b9ed47d6fd8c",
+    "serial": "FDD647EDB9C5",
+    "text": "99 C5 B9 ED 47 D6 FD 8C"
+   },
+   "t": "99 C5 B9 ED 47 D6 FD 8C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01ee3944670273ca",
+    "serial": "7302674439EE",
+    "text": "01 EE 39 44 67 02 73 CA"
+   },
+   "t": "01\tEE\t39\t44\t67\t02\t73\tca"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "014656fc13d3ef9b",
+    "serial": "EFD313FC5646",
+    "text": "01 46 56 FC 13 D3 EF 9B"
+   },
+   "t": "01 46 56 fc 13 d3 EF 9B"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1016f2a6d23e3c2d",
+    "serial": "3C3ED2A6F216",
+    "text": "10 16 F2 A6 D2 3E 3C 2D"
+   },
+   "t": "10:16:F2:A6:D2:3e:3C:2d"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "287c199549c60d0d",
+    "serial": "0DC64995197C",
+    "text": "28 7C 19 95 49 C6 0D 0D"
+   },
+   "t": "28:7c:19:95:49:C6:0D:0D"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99fb90fb3ddb902c",
+    "serial": "90DB3DFB90FB",
+    "text": "99 FB 90 FB 3D DB 90 2C"
+   },
+   "t": "99 FB 90 fb 3d db 90 2C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01a99111970bf7bc",
+    "serial": "F70B971191A9",
+    "text": "01 A9 91 11 97 0B F7 BC"
+   },
+   "t": "01 A9 91 11 97 0B f7 bc"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 88,
+    "family_name": "famiglia sconosciuta",
+    "raw": "580fed2ea030ff54",
+    "serial": "FF30A02EED0F",
+    "text": "58 0F ED 2E A0 30 FF 54"
+   },
+   "t": "58:0F:ED:2E:a0:30:FF:54"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0133d22758fcfcff",
+    "serial": "FCFC5827D233",
+    "text": "01 33 D2 27 58 FC FC FF"
+   },
+   "t": "01 33 D2 27 58 fc fc ff"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 225,
+    "family_name": "famiglia sconosciuta",
+    "raw": "e18e2b5e0a553f23",
+    "serial": "3F550A5E2B8E",
+    "text": "E1 8E 2B 5E 0A 55 3F 23"
+   },
+   "t": "e1-8e-2B-5E-0A-55-3f-23"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 103,
+    "family_name": "famiglia sconosciuta",
+    "raw": "67575a20266e88e5",
+    "serial": "886E26205A57",
+    "text": "67 57 5A 20 26 6E 88 E5"
+   },
+   "t": "67-57-5A-20-26-6e-88-E5"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "016ca43dbc933b75",
+    "serial": "3B93BC3DA46C",
+    "text": "01 6C A4 3D BC 93 3B 75"
+   },
+   "t": "016ca43dbc933B75"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "994717f8987449d1",
+    "serial": "497498F81747",
+    "text": "99 47 17 F8 98 74 49 D1"
+   },
+   "t": "99\t47\t17\tf8\t98\t74\t49\tD1"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "108f52fe3be4a73a",
+    "serial": "A7E43BFE528F",
+    "text": "10 8F 52 FE 3B E4 A7 3A"
+   },
+   "t": "10 - 8f - 52 - fe - 3b - E4 - A7 - 3A"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "012cb637bf96fdfb",
+    "serial": "FD96BF37B62C",
+    "text": "01 2C B6 37 BF 96 FD FB"
+   },
+   "t": "01 - 2c - B6 - 37 - bf - 96 - FD - fb"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1017e2977c7cf313",
+    "serial": "F37C7C97E217",
+    "text": "10 17 E2 97 7C 7C F3 13"
+   },
+   "t": "10 - 17 - E2 - 97 - 7C - 7c - f3 - 13"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d9713123f9ada62",
+    "serial": "DA9A3F121397",
+    "text": "2D 97 13 12 3F 9A DA 62"
+   },
+   "t": "2d\t97\t13\t12\t3f\t9a\tDA\t62"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "992f8a2d6fee8575",
+    "serial": "85EE6F2D8A2F",
+    "text": "99 2F 8A 2D 6F EE 85 75"
+   },
+   "t": "99\t2f\t8a\t2D\t6f\tEE\t85\t75"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "994408dfe2ce5d06",
+    "serial": "5DCEE2DF0844",
+    "text": "99 44 08 DF E2 CE 5D 06"
+   },
+   "t": "99-44-08-DF-E2-ce-5d-06"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "9918c2268ca1de39",
+    "serial": "DEA18C26C218",
+    "text": "99 18 C2 26 8C A1 DE 39"
+   },
+   "t": "9918C2268Ca1de39"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d7162425fc0b203",
+    "serial": "B2C05F426271",
+    "text": "2D 71 62 42 5F C0 B2 03"
+   },
+   "t": "2d:71:62:42:5F:C0:B2:03"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2ddac0da15f1dfd0",
+    "serial": "DFF115DAC0DA",
+    "text": "2D DA C0 DA 15 F1 DF D0"
+   },
+   "t": "2D-DA-c0-DA-15-F1-df-d0"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "9922f516e462c065",
+    "serial": "C062E416F522",
+    "text": "99 22 F5 16 E4 62 C0 65"
+   },
+   "t": "99:22:F5:16:e4:62:C0:65"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1001f6b4173b5651",
+    "serial": "563B17B4F601",
+    "text": "10 01 F6 B4 17 3B 56 51"
+   },
+   "t": "10-01-f6-b4-17-3B-56-51"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1036a74cb012e8da",
+    "serial": "E812B04CA736",
+    "text": "10 36 A7 4C B0 12 E8 DA"
+   },
+   "t": "1036A74Cb012e8da"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01a1a59f5d7cf7ed",
+    "serial": "F77C5D9FA5A1",
+    "text": "01 A1 A5 9F 5D 7C F7 ED"
+   },
+   "t": "01-A1-A5-9f-5D-7C-F7-ED"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01d3e49c7a0be211",
+    "serial": "E20B7A9CE4D3",
+    "text": "01 D3 E4 9C 7A 0B E2 11"
+   },
+   "t": "01d3E49C7a0bE211"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2dc74a4f22090b67",
+    "serial": "0B09224F4AC7",
+    "text": "2D C7 4A 4F 22 09 0B 67"
+   },
+   "t": "2Dc74A4f22090b67"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10c36f6dc9a1ffd8",
+    "serial": "FFA1C96D6FC3",
+    "text": "10 C3 6F 6D C9 A1 FF D8"
+   },
+   "t": "10\tC3\t6f\t6D\tC9\ta1\tFF\td8"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 215,
+    "family_name": "famiglia sconosciuta",
+    "raw": "d77dc1d3ce0ec79e",
+    "serial": "C70ECED3C17D",
+    "text": "D7 7D C1 D3 CE 0E C7 9E"
+   },
+   "t": "D7\t7d\tC1\td3\tce\t0e\tC7\t9E"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10464e263d3da67c",
+    "serial": "A63D3D264E46",
+    "text": "10 46 4E 26 3D 3D A6 7C"
+   },
+   "t": "10 46 4E 26 3d 3d A6 7c"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "287c2b6ff583d633",
+    "serial": "D683F56F2B7C",
+    "text": "28 7C 2B 6F F5 83 D6 33"
+   },
+   "t": "28\t7C\t2b\t6f\tF5\t83\td6\t33"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1044c2ce9d9679ea",
+    "serial": "79969DCEC244",
+    "text": "10 44 C2 CE 9D 96 79 EA"
+   },
+   "t": "10-44-c2-CE-9D-96-79-ea"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 6,
+    "family_name": "DS1993 (memoria 4 kbit)",
+    "raw": "064d358bb9e7b353",
+    "serial": "B3E7B98B354D",
+    "text": "06 4D 35 8B B9 E7 B3 53"
+   },
+   "t": "06 4d 35 8B b9 e7 B3 53"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01b50caee7f0c455",
+    "serial": "C4F0E7AE0CB5",
+    "text": "01 B5 0C AE E7 F0 C4 55"
+   },
+   "t": "01:B5:0c:ae:e7:f0:C4:55"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01f058ad538d56ef",
+    "serial": "568D53AD58F0",
+    "text": "01 F0 58 AD 53 8D 56 EF"
+   },
+   "t": "01 - f0 - 58 - AD - 53 - 8D - 56 - ef"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 44,
+    "family_name": "famiglia sconosciuta",
+    "raw": "2c0542def39c2771",
+    "serial": "279CF3DE4205",
+    "text": "2C 05 42 DE F3 9C 27 71"
+   },
+   "t": "2C - 05 - 42 - DE - f3 - 9C - 27 - 71"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "992941d88e4971a0",
+    "serial": "71498ED84129",
+    "text": "99 29 41 D8 8E 49 71 A0"
+   },
+   "t": "992941d88E4971a0"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01f6d2e9f6611fa9",
+    "serial": "1F61F6E9D2F6",
+    "text": "01 F6 D2 E9 F6 61 1F A9"
+   },
+   "t": "01\tf6\tD2\te9\tF6\t61\t1f\tA9"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0194b95d236a80e8",
+    "serial": "806A235DB994",
+    "text": "01 94 B9 5D 23 6A 80 E8"
+   },
+   "t": "01\t94\tB9\t5D\t23\t6a\t80\tE8"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d2e2f38cfdf78c7",
+    "serial": "78DFCF382F2E",
+    "text": "2D 2E 2F 38 CF DF 78 C7"
+   },
+   "t": "2D - 2e - 2F - 38 - cf - df - 78 - c7"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "012f31476d44426f",
+    "serial": "42446D47312F",
+    "text": "01 2F 31 47 6D 44 42 6F"
+   },
+   "t": "01\t2f\t31\t47\t6d\t44\t42\t6F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 171,
+    "family_name": "famiglia sconosciuta",
+    "raw": "abd50e9459bb093c",
+    "serial": "09BB59940ED5",
+    "text": "AB D5 0E 94 59 BB 09 3C"
+   },
+   "t": "ab\td5\t0E\t94\t59\tbb\t09\t3C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99adebfa76e829f4",
+    "serial": "29E876FAEBAD",
+    "text": "99 AD EB FA 76 E8 29 F4"
+   },
+   "t": "99ADebfa76E829F4"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "995a9dccbb5138b7",
+    "serial": "3851BBCC9D5A",
+    "text": "99 5A 9D CC BB 51 38 B7"
+   },
+   "t": "99-5A-9D-CC-bb-51-38-B7"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28f435033c33c371",
+    "serial": "C3333C0335F4",
+    "text": "28 F4 35 03 3C 33 C3 71"
+   },
+   "t": "28-f4-35-03-3C-33-C3-71"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 122,
+    "family_name": "famiglia sconosciuta",
+    "raw": "7a40917e91fbb480",
+    "serial": "B4FB917E9140",
+    "text": "7A 40 91 7E 91 FB B4 80"
+   },
+   "t": "7a - 40 - 91 - 7e - 91 - FB - B4 - 80"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "9955acffd2495100",
+    "serial": "5149D2FFAC55",
+    "text": "99 55 AC FF D2 49 51 00"
+   },
+   "t": "99 - 55 - AC - ff - D2 - 49 - 51 - 00"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "280c46d60c29490c",
+    "serial": "49290CD6460C",
+    "text": "28 0C 46 D6 0C 29 49 0C"
+   },
+   "t": "28:0C:46:D6:0c:29:49:0C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 178,
+    "family_name": "famiglia sconosciuta",
+    "raw": "b25022e410b628c3",
+    "serial": "28B610E42250",
+    "text": "B2 50 22 E4 10 B6 28 C3"
+   },
+   "t": "b2-50-22-e4-10-B6-28-C3"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 143,
+    "family_name": "famiglia sconosciuta",
+    "raw": "8f962bea32c349a6",
+    "serial": "49C332EA2B96",
+    "text": "8F 96 2B EA 32 C3 49 A6"
+   },
+   "t": "8f-96-2b-EA-32-C3-49-a6"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "2853fe7175997e8f",
+    "serial": "7E997571FE53",
+    "text": "28 53 FE 71 75 99 7E 8F"
+   },
+   "t": "28:53:FE:71:75:99:7E:8F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 22,
+    "family_name": "famiglia sconosciuta",
+    "raw": "163ee281dd0cc26f",
+    "serial": "C20CDD81E23E",
+    "text": "16 3E E2 81 DD 0C C2 6F"
+   },
+   "t": "16-3e-e2-81-DD-0C-C2-6F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "2860497811a322b6",
+    "serial": "22A311784960",
+    "text": "28 60 49 78 11 A3 22 B6"
+   },
+   "t": "28 - 60 - 49 - 78 - 11 - A3 - 22 - B6"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 13,
+    "family_name": "famiglia sconosciuta",
+    "raw": "0dfbaa6a1a21624b",
+    "serial": "62211A6AAAFB",
+    "text": "0D FB AA 6A 1A 21 62 4B"
+   },
+   "t": "0D:FB:aa:6a:1A:21:62:4b"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 209,
+    "family_name": "famiglia sconosciuta",
+    "raw": "d14c4d63b5d6d933",
+    "serial": "D9D6B5634D4C",
+    "text": "D1 4C 4D 63 B5 D6 D9 33"
+   },
+   "t": "D1 - 4C - 4D - 63 - B5 - D6 - D9 - 33"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0105e3864bc28682",
+    "serial": "86C24B86E305",
+    "text": "01 05 E3 86 4B C2 86 82"
+   },
+   "t": "01\t05\te3\t86\t4B\tc2\t86\t82"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28bd8eb5b3a107fa",
+    "serial": "07A1B3B58EBD",
+    "text": "28 BD 8E B5 B3 A1 07 FA"
+   },
+   "t": "28\tbd\t8E\tB5\tB3\ta1\t07\tFA"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d8f0d5e6373e9ef",
+    "serial": "E973635E0D8F",
+    "text": "2D 8F 0D 5E 63 73 E9 EF"
+   },
+   "t": "2d - 8f - 0d - 5e - 63 - 73 - E9 - EF"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d36baad2cea7155",
+    "serial": "71EA2CADBA36",
+    "text": "2D 36 BA AD 2C EA 71 55"
+   },
+   "t": "2d\t36\tba\tad\t2C\tea\t71\t55"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 234,
+    "family_name": "famiglia sconosciuta",
+    "raw": "ea920eaad953238f",
+    "serial": "2353D9AA0E92",
+    "text": "EA 92 0E AA D9 53 23 8F"
+   },
+   "t": "EA-92-0e-aa-d9-53-23-8F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10370e61af73019f",
+    "serial": "0173AF610E37",
+    "text": "10 37 0E 61 AF 73 01 9F"
+   },
+   "t": "10370e61af73019F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 118,
+    "family_name": "famiglia sconosciuta",
+    "raw": "7674fffa9d7595a6",
+    "serial": "95759DFAFF74",
+    "text": "76 74 FF FA 9D 75 95 A6"
+   },
+   "t": "7674fffa9D7595A6"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99fe492e4a0f812f",
+    "serial": "810F4A2E49FE",
+    "text": "99 FE 49 2E 4A 0F 81 2F"
+   },
+   "t": "99-FE-49-2e-4A-0f-81-2f"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 242,
+    "family_name": "famiglia sconosciuta",
+    "raw": "f2805ff8dcb8d19c",
+    "serial": "D1B8DCF85F80",
+    "text": "F2 80 5F F8 DC B8 D1 9C"
+   },
+   "t": "F2805fF8dcB8D19C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "9938686c667a30da",
+    "serial": "307A666C6838",
+    "text": "99 38 68 6C 66 7A 30 DA"
+   },
+   "t": "99\t38\t68\t6C\t66\t7A\t30\tDA"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1071fb789b54b21d",
+    "serial": "B2549B78FB71",
+    "text": "10 71 FB 78 9B 54 B2 1D"
+   },
+   "t": "10-71-fb-78-9b-54-B2-1D"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01e8d0d635290cd8",
+    "serial": "0C2935D6D0E8",
+    "text": "01 E8 D0 D6 35 29 0C D8"
+   },
+   "t": "01 - e8 - D0 - D6 - 35 - 29 - 0c - D8"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0104fec5c336f6c4",
+    "serial": "F636C3C5FE04",
+    "text": "01 04 FE C5 C3 36 F6 C4"
+   },
+   "t": "01 - 04 - fe - c5 - c3 - 36 - f6 - c4"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d535e715908fdba",
+    "serial": "FD0859715E53",
+    "text": "2D 53 5E 71 59 08 FD BA"
+   },
+   "t": "2D\t53\t5E\t71\t59\t08\tFD\tBA"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "100314ab007fabdd",
+    "serial": "AB7F00AB1403",
+    "text": "10 03 14 AB 00 7F AB DD"
+   },
+   "t": "10-03-14-ab-00-7f-ab-DD"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 143,
+    "family_name": "famiglia sconosciuta",
+    "raw": "8f7a2004270b4527",
+    "serial": "450B2704207A",
+    "text": "8F 7A 20 04 27 0B 45 27"
+   },
+   "t": "8F-7A-20-04-27-0B-45-27"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "991d131abcee6e58",
+    "serial": "6EEEBC1A131D",
+    "text": "99 1D 13 1A BC EE 6E 58"
+   },
+   "t": "99\t1D\t13\t1a\tBC\tee\t6E\t58"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2dceb6429bf13e7a",
+    "serial": "3EF19B42B6CE",
+    "text": "2D CE B6 42 9B F1 3E 7A"
+   },
+   "t": "2dceb6429bF13E7a"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28c81c90bdf297a0",
+    "serial": "97F2BD901CC8",
+    "text": "28 C8 1C 90 BD F2 97 A0"
+   },
+   "t": "28 - c8 - 1C - 90 - BD - f2 - 97 - a0"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2dd789a3fd3167a0",
+    "serial": "6731FDA389D7",
+    "text": "2D D7 89 A3 FD 31 67 A0"
+   },
+   "t": "2d\td7\t89\ta3\tfd\t31\t67\tA0"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "0121770cf6ebb640",
+    "serial": "B6EBF60C7721",
+    "text": "01 21 77 0C F6 EB B6 40"
+   },
+   "t": "0121770CF6ebb640"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2dd72943b0ae1fa7",
+    "serial": "1FAEB04329D7",
+    "text": "2D D7 29 43 B0 AE 1F A7"
+   },
+   "t": "2D D7 29 43 B0 ae 1f A7"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01afa1fb4a99ac78",
+    "serial": "AC994AFBA1AF",
+    "text": "01 AF A1 FB 4A 99 AC 78"
+   },
+   "t": "01afA1fb4a99AC78"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 63,
+    "family_name": "famiglia sconosciuta",
+    "raw": "3f03bc4fe6a206af",
+    "serial": "06A2E64FBC03",
+    "text": "3F 03 BC 4F E6 A2 06 AF"
+   },
+   "t": "3F\t03\tBC\t4F\te6\ta2\t06\tAF"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 199,
+    "family_name": "famiglia sconosciuta",
+    "raw": "c721003a5724a272",
+    "serial": "A224573A0021",
+    "text": "C7 21 00 3A 57 24 A2 72"
+   },
+   "t": "c7\t21\t00\t3a\t57\t24\ta2\t72"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01c4228b9be28ab7",
+    "serial": "8AE29B8B22C4",
+    "text": "01 C4 22 8B 9B E2 8A B7"
+   },
+   "t": "01-C4-22-8B-9b-e2-8a-B7"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01735013114c1c18",
+    "serial": "1C4C11135073",
+    "text": "01 73 50 13 11 4C 1C 18"
+   },
+   "t": "01735013114C1c18"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "289ae581ab46cd0f",
+    "serial": "CD46AB81E59A",
+    "text": "28 9A E5 81 AB 46 CD 0F"
+   },
+   "t": "28-9a-E5-81-ab-46-cd-0f"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "109986f1373336ca",
+    "serial": "363337F18699",
+    "text": "10 99 86 F1 37 33 36 CA"
+   },
+   "t": "10\t99\t86\tF1\t37\t33\t36\tCA"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99f53011afc42b2f",
+    "serial": "2BC4AF1130F5",
+    "text": "99 F5 30 11 AF C4 2B 2F"
+   },
+   "t": "99 f5 30 11 af c4 2b 2F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "990bd9255895e70c",
+    "serial": "E7955825D90B",
+    "text": "99 0B D9 25 58 95 E7 0C"
+   },
+   "t": "99 0b D9 25 58 95 E7 0C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01a535ef04c43ebf",
+    "serial": "3EC404EF35A5",
+    "text": "01 A5 35 EF 04 C4 3E BF"
+   },
+   "t": "01\ta5\t35\tEF\t04\tC4\t3E\tBF"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 92,
+    "family_name": "famiglia sconosciuta",
+    "raw": "5cc680089e28116b",
+    "serial": "11289E0880C6",
+    "text": "5C C6 80 08 9E 28 11 6B"
+   },
+   "t": "5cc680089e28116b"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 112,
+    "family_name": "famiglia sconosciuta",
+    "raw": "702ae12050a8d614",
+    "serial": "D6A85020E12A",
+    "text": "70 2A E1 20 50 A8 D6 14"
+   },
+   "t": "702aE12050a8D614"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 139,
+    "family_name": "famiglia sconosciuta",
+    "raw": "8be3f8352c363795",
+    "serial": "37362C35F8E3",
+    "text": "8B E3 F8 35 2C 36 37 95"
+   },
+   "t": "8B E3 F8 35 2c 36 37 95"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 101,
+    "family_name": "famiglia sconosciuta",
+    "raw": "652ad00d334894fc",
+    "serial": "9448330DD02A",
+    "text": "65 2A D0 0D 33 48 94 FC"
+   },
+   "t": "65 2A d0 0D 33 48 94 fc"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2df32ab51f987bd1",
+    "serial": "7B981FB52AF3",
+    "text": "2D F3 2A B5 1F 98 7B D1"
+   },
+   "t": "2D:F3:2A:B5:1f:98:7b:D1"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10d8625c2ec82119",
+    "serial": "21C82E5C62D8",
+    "text": "10 D8 62 5C 2E C8 21 19"
+   },
+   "t": "10\td8\t62\t5c\t2E\tc8\t21\t19"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d00b11c2113ff4f",
+    "serial": "FF13211CB100",
+    "text": "2D 00 B1 1C 21 13 FF 4F"
+   },
+   "t": "2D 00 b1 1C 21 13 FF 4f"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 40,
+    "family_name": "DS18B20 (sensore di temperatura)",
+    "raw": "28eaa6591dc9383c",
+    "serial": "38C91D59A6EA",
+    "text": "28 EA A6 59 1D C9 38 3C"
+   },
+   "t": "28:EA:A6:59:1D:c9:38:3C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "1017c66d5b6f124f",
+    "serial": "126F5B6DC617",
+    "text": "10 17 C6 6D 5B 6F 12 4F"
+   },
+   "t": "10 - 17 - c6 - 6d - 5B - 6F - 12 - 4F"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99a26851bf5ff6cf",
+    "serial": "F65FBF5168A2",
+    "text": "99 A2 68 51 BF 5F F6 CF"
+   },
+   "t": "99:A2:68:51:BF:5F:f6:cf"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10fe32b4520b228a",
+    "serial": "220B52B432FE",
+    "text": "10 FE 32 B4 52 0B 22 8A"
+   },
+   "t": "10 - fe - 32 - b4 - 52 - 0b - 22 - 8a"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 45,
+    "family_name": "DS2431 (EEPROM 1 kbit)",
+    "raw": "2d8c30f415edf2b5",
+    "serial": "F2ED15F4308C",
+    "text": "2D 8C 30 F4 15 ED F2 B5"
+   },
+   "t": "2d-8c-30-f4-15-ED-f2-B5"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99579b63409c4512",
+    "serial": "459C40639B57",
+    "text": "99 57 9B 63 40 9C 45 12"
+   },
+   "t": "99-57-9b-63-40-9C-45-12"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "019f3898412ed35c",
+    "serial": "D32E4198389F",
+    "text": "01 9F 38 98 41 2E D3 5C"
+   },
+   "t": "01\t9f\t38\t98\t41\t2e\tD3\t5C"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01bdcbe874e9d854",
+    "serial": "D8E974E8CBBD",
+    "text": "01 BD CB E8 74 E9 D8 54"
+   },
+   "t": "01:BD:cb:e8:74:E9:d8:54"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "99c608192e0070c1",
+    "serial": "70002E1908C6",
+    "text": "99 C6 08 19 2E 00 70 C1"
+   },
+   "t": "99-c6-08-19-2e-00-70-C1"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "10338c3b53715317",
+    "serial": "5371533B8C33",
+    "text": "10 33 8C 3B 53 71 53 17"
+   },
+   "t": "10338c3b53715317"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 16,
+    "family_name": "DS18S20 (sensore di temperatura)",
+    "raw": "102de1f6d655c761",
+    "serial": "C755D6F6E12D",
+    "text": "10 2D E1 F6 D6 55 C7 61"
+   },
+   "t": "10 - 2d - e1 - F6 - D6 - 55 - C7 - 61"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": false
+    },
+    "family": 1,
+    "family_name": "DS1990A / DS2401 (solo numero di serie)",
+    "raw": "01af66fdcd78ef15",
+    "serial": "EF78CDFD66AF",
+    "text": "01 AF 66 FD CD 78 EF 15"
+   },
+   "t": "01:AF:66:fd:CD:78:ef:15"
+  },
+  {
+   "r": {
+    "crc_ok": {
+     "ok": true
+    },
+    "family": 153,
+    "family_name": "famiglia sconosciuta",
+    "raw": "994d6ff46c3c0fa1",
+    "serial": "0F3C6CF46F4D",
+    "text": "99 4D 6F F4 6C 3C 0F A1"
+   },
+   "t": "99:4d:6f:F4:6c:3C:0f:A1"
+  }
+ ]
+}

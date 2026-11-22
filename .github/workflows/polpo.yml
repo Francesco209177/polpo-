@@ -109,6 +109,7 @@ jobs:
       # Studio nel telefono è scritto in JavaScript: deve dare gli stessi risultati di Polpo Studio per PC. I casi di
       # prova si generano qui dal codice Python e devono essere quelli salvati nel repository.
       - name: Studio nel telefono, casi di prova generati da Polpo Studio
+        env: { QT_QPA_PLATFORM: offscreen }
         run: |
           shopt -s nullglob
           for g in site/tests/studio/casi/genera_*.py; do python "$g"; done

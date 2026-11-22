@@ -1,0 +1,4372 @@
+{
+ "archivio": [
+  {
+   "meta": {
+    "hex": "0A1B2C3D4E",
+    "prova": true
+   },
+   "nome": "a",
+   "riga": [
+    "a",
+    "0A1B2C3D4E",
+    "044,15694",
+    "sì"
+   ]
+  },
+  {
+   "meta": {
+    "hex": "zz"
+   },
+   "nome": "b",
+   "riga": [
+    "b",
+    "zz",
+    "",
+    ""
+   ]
+  },
+  {
+   "meta": {},
+   "nome": "c<",
+   "riga": [
+    "c<",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "meta": {
+    "hex": "0012345678",
+    "prova": 0
+   },
+   "nome": "d",
+   "riga": [
+    "d",
+    "0012345678",
+    "188,24910",
+    ""
+   ]
+  },
+  {
+   "meta": {
+    "hex": "255,65535",
+    "prova": "sì"
+   },
+   "nome": "e",
+   "riga": [
+    "e",
+    "255,65535",
+    "255,65535",
+    "sì"
+   ]
+  }
+ ],
+ "burst": [
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (5 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (5 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (5 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (5 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (399 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (399 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (399 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (399 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (400 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (400 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (400 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (400 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (12 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (12 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (14 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (14 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (14 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (14 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · digitato a mano? · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Codice accettato, ma è arrivato lentamente: sembra digitato a mano, non da un lettore.",
+     false
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "digitato a mano?",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · digitato a mano? · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Codice accettato, ma è arrivato lentamente: sembra digitato a mano, non da un lettore.",
+     false
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "digitato a mano?",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (0 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (0 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (0 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (0 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (2 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (2 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": "0000BC614E",
+   "html": "<b>EM4100</b> · lettore USB (2 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (2 ms)",
+   "t": "0012345678"
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«abc» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«1234,5678» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 1.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 1.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 39.9,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 39.9,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 10.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 10.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 2.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 2.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 2.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 2.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 100.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 100.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 0.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 0.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 1.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [],
+   "pausa": 1.0,
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": null,
+   "html": "",
+   "msg": [
+    [
+     "«<script>» non è un codice 125 kHz riconosciuto.",
+     true
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (5 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (5 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (5 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (5 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (399 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (399 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (399 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (399 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (400 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (400 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (400 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (400 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (12 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (12 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (12 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (12 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (14 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (14 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (14 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (14 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · digitato a mano? · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Codice accettato, ma è arrivato lentamente: sembra digitato a mano, non da un lettore.",
+     false
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "digitato a mano?",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · digitato a mano? · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Codice accettato, ma è arrivato lentamente: sembra digitato a mano, non da un lettore.",
+     false
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "digitato a mano?",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (0 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (0 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (0 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (0 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (2 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (2 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": "0A1B2C3D4E",
+   "html": "<b>EM4100</b> · lettore USB (2 ms) · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (2 ms)",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "dich": false,
+   "durata": 5.0,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (5 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (5 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 5.0,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (5 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (5 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 399.4,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (399 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (399 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 399.4,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (399 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 39.9,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (399 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 399.5,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (400 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (400 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 399.5,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (400 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 10.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (400 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 12.5,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (12 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (12 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 12.5,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (12 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (12 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 13.5,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (14 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (14 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 13.5,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (14 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 2.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (14 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 500.0,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · digitato a mano? · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Codice accettato, ma è arrivato lentamente: sembra digitato a mano, non da un lettore.",
+     false
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "digitato a mano?",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 500.0,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · digitato a mano? · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Codice accettato, ma è arrivato lentamente: sembra digitato a mano, non da un lettore.",
+     false
+    ]
+   ],
+   "pausa": 100.0,
+   "r": {
+    "ok": null
+   },
+   "src": "digitato a mano?",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 0.0,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (0 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (0 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 0.0,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (0 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 0.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (0 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": false,
+   "durata": 2.4999,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (2 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ],
+    [
+     "Tessera letta. Sembra un lettore USB: puoi dichiararlo in Impostazioni › Hardware.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (2 ms)",
+   "t": "12345678"
+  },
+  {
+   "dich": true,
+   "durata": 2.4999,
+   "hex": "00007BB26E",
+   "html": "<b>EM4100</b> · lettore USB (2 ms) · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [
+    [
+     "Tessera letta.",
+     false
+    ]
+   ],
+   "pausa": 1.0,
+   "r": {
+    "ok": null
+   },
+   "src": "lettore USB (2 ms)",
+   "t": "12345678"
+  }
+ ],
+ "convert": [
+  {
+   "html": "<b>EM4100</b> · scritto a mano · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": "0012345678"
+  },
+  {
+   "html": "",
+   "msg": [
+    [
+     "Formato non riconosciuto.",
+     true
+    ]
+   ],
+   "r": {
+    "ok": false
+   },
+   "src": "",
+   "t": "abc"
+  },
+  {
+   "html": "",
+   "msg": [
+    [
+     "Formato non riconosciuto.",
+     true
+    ]
+   ],
+   "r": {
+    "ok": false
+   },
+   "src": "",
+   "t": ""
+  },
+  {
+   "html": "",
+   "msg": [
+    [
+     "Formato non riconosciuto.",
+     true
+    ]
+   ],
+   "r": {
+    "ok": false
+   },
+   "src": "",
+   "t": "1234,5678"
+  },
+  {
+   "html": "",
+   "msg": [],
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²²²²²²²²²²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "",
+   "t": "²²²²²²²²²²"
+  },
+  {
+   "html": "",
+   "msg": [
+    [
+     "Formato non riconosciuto.",
+     true
+    ]
+   ],
+   "r": {
+    "ok": false
+   },
+   "src": "",
+   "t": "<script>"
+  },
+  {
+   "html": "<b>EM4100</b> · scritto a mano · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0A1B2C3D4E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0455884110</tt></td></tr><tr><td>Wiegand 26</td><td><tt>044,15694</tt> (impianto 44, numero 15694)</td></tr><tr><td>Bit Wiegand</td><td><tt>10010110000111101010011100</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": "0A1B2C3D4E"
+  },
+  {
+   "html": "<b>EM4100</b> · scritto a mano · 8 cifre (impianto + numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00007BB26E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0008106606</tt></td></tr><tr><td>Wiegand 26</td><td><tt>123,45678</tt> (impianto 123, numero 45678)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111101110110010011011101</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": "12345678"
+  },
+  {
+   "html": "<b>EM4100</b> · scritto a mano · Wiegand 26 (impianto,numero)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000FFFFFF</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0016777215</tt></td></tr><tr><td>Wiegand 26</td><td><tt>255,65535</tt> (impianto 255, numero 65535)</td></tr><tr><td>Bit Wiegand</td><td><tt>01111111111111111111111111</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": "255,65535"
+  },
+  {
+   "html": "<b>EM4100</b> · scritto a mano · esadecimale a 10 cifre (40 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>FFFFFFFFFF</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4294967295</tt></td></tr><tr><td>Wiegand 26</td><td><tt>255,65535</tt> (impianto 255, numero 65535)</td></tr><tr><td>Bit Wiegand</td><td><tt>01111111111111111111111111</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": "FFFFFFFFFF"
+  },
+  {
+   "html": "<b>EM4100</b> · scritto a mano · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000BC614E</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0012345678</tt></td></tr><tr><td>Wiegand 26</td><td><tt>188,24910</tt> (impianto 188, numero 24910)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011110001100001010011100</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": " 0012345678 "
+  },
+  {
+   "html": "<b>EM4100</b> · scritto a mano · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>00499602D2</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1234567890</tt></td></tr><tr><td>Wiegand 26</td><td><tt>150,00722</tt> (impianto 150, numero 722)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001011000000010110100100</tt></td></tr></table>",
+   "msg": [],
+   "r": {
+    "ok": true
+   },
+   "src": "scritto a mano",
+   "t": "١٢٣٤٥٦٧٨٩٠"
+  }
+ ],
+ "rdm_feed": [
+  {
+   "dati": "39735523",
+   "html": "",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "024442303043324630393137380302303030303030303030303030038927",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02303030303030303030303030034ffe",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02303030303030303030303030034a",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02383433373135374143353139037d93",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>8437157AC5</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0924154565</tt></td></tr><tr><td>Wiegand 26</td><td><tt>021,31429</tt> (impianto 21, numero 31429)</td></tr><tr><td>Bit Wiegand</td><td><tt>00001010101111010110001011</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02303030303030303030303030032c2317",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02303234453645453430384345030230303030303030303030303003c7aa1f94",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "",
+   "html": "",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "0230303030303030303030303003c69411b1",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02343131393833354130443843030230303030303030303030303003de16b397",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "40027f4c",
+   "html": "",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "0232443546323439453444383503023030303030303030303030300318",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "0237394546373244344239383903023739454637324434423938390363c91b",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>79EF72D4B9</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4017280185</tt></td></tr><tr><td>Wiegand 26</td><td><tt>114,54457</tt> (impianto 114, numero 54457)</td></tr><tr><td>Bit Wiegand</td><td><tt>10111001011010100101110011</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02314143464641454130434339030231414346464145413043433903023030303030303030303030300398",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "07",
+   "html": "",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "1438",
+   "html": "",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "023330344546373343323339360302303030303030303030303030034d4c",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "0245363444303935374642304503024536344430393537464230450302303030303030303030303030038da9",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02373344413830444445463142030230303030303030303030303003d1854f",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02454337363931434239313531030e",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>EC7691CB91</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1989266321</tt></td></tr><tr><td>Wiegand 26</td><td><tt>145,52113</tt> (impianto 145, numero 52113)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001000111001011100100011</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "0230303030303030303030303003449d29fe",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "02314336444145343534374444030231433644414534353437444403023030303030303030303030300398",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "0234454136374345353131363003023445413637434535313136300373f9",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>4EA67CE511</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2793202961</tt></td></tr><tr><td>Wiegand 26</td><td><tt>124,58641</tt> (impianto 124, numero 58641)</td></tr><tr><td>Bit Wiegand</td><td><tt>00111110011100101000100011</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ],
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "023030303030303030303030300304e6ae70",
+   "html": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [
+    [
+     "Tessera letta dall'RDM6300.",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "dati": "",
+   "html": "",
+   "info": "Trame scartate (controllo errato): 0",
+   "msg": [],
+   "r": {
+    "ok": null
+   }
+  }
+ ],
+ "report": [
+  {
+   "doc": "<!doctype html><meta charset='utf-8'><title>Report RFID 125 kHz</title><style>body{font-family:sans-serif;margin:2em}td,th{border-bottom:1px solid #ccc;padding:4px 8px}</style><h1>Tessere 125 kHz</h1><p>22/11/2026 09:05 · solo tessere proprie.</p><table><tr><th>Nome</th><th>Esadecimale</th><th>Decimale</th><th>W26</th><th>Prova</th></tr></table>",
+   "voci": []
+  },
+  {
+   "doc": "<!doctype html><meta charset='utf-8'><title>Report RFID 125 kHz</title><style>body{font-family:sans-serif;margin:2em}td,th{border-bottom:1px solid #ccc;padding:4px 8px}</style><h1>Tessere 125 kHz</h1><p>22/11/2026 09:05 · solo tessere proprie.</p><table><tr><th>Nome</th><th>Esadecimale</th><th>Decimale</th><th>W26</th><th>Prova</th></tr><tr><td>a</td><td><tt>0A1B2C3D4E</tt></td><td><tt>0455884110</tt></td><td><tt>044,15694</tt></td><td>sì</td></tr><tr><td>d</td><td><tt>0000BC614E</tt></td><td><tt>0012345678</tt></td><td><tt>188,24910</tt></td><td></td></tr><tr><td>e</td><td><tt>0000FFFFFF</tt></td><td><tt>0016777215</tt></td><td><tt>255,65535</tt></td><td>sì</td></tr></table>",
+   "voci": [
+    {
+     "meta": {
+      "hex": "0A1B2C3D4E",
+      "prova": true
+     },
+     "nome": "a"
+    },
+    {
+     "meta": {
+      "hex": "zz"
+     },
+     "nome": "b"
+    },
+    {
+     "meta": {},
+     "nome": "c<"
+    },
+    {
+     "meta": {
+      "hex": "0012345678",
+      "prova": 0
+     },
+     "nome": "d"
+    },
+    {
+     "meta": {
+      "hex": "255,65535",
+      "prova": "sì"
+     },
+     "nome": "e"
+    }
+   ]
+  },
+  {
+   "doc": "<!doctype html><meta charset='utf-8'><title>Report RFID 125 kHz</title><style>body{font-family:sans-serif;margin:2em}td,th{border-bottom:1px solid #ccc;padding:4px 8px}</style><h1>Tessere 125 kHz</h1><p>22/11/2026 09:05 · solo tessere proprie.</p><table><tr><th>Nome</th><th>Esadecimale</th><th>Decimale</th><th>W26</th><th>Prova</th></tr><tr><td>a</td><td><tt>0A1B2C3D4E</tt></td><td><tt>0455884110</tt></td><td><tt>044,15694</tt></td><td>sì</td></tr></table>",
+   "voci": [
+    {
+     "meta": {
+      "hex": "0A1B2C3D4E",
+      "prova": true
+     },
+     "nome": "a"
+    }
+   ]
+  }
+ ],
+ "save": [
+  {
+   "att": [],
+   "c": null,
+   "messi": [],
+   "msg": [
+    [
+     "Leggi prima una tessera.",
+     true
+    ]
+   ],
+   "nome": "",
+   "prova": false,
+   "r": {
+    "ok": false
+   }
+  },
+  {
+   "att": [],
+   "c": null,
+   "messi": [],
+   "msg": [
+    [
+     "Leggi prima una tessera.",
+     true
+    ]
+   ],
+   "nome": "",
+   "prova": true,
+   "r": {
+    "ok": false
+   }
+  },
+  {
+   "att": [],
+   "c": null,
+   "messi": [],
+   "msg": [
+    [
+     "Leggi prima una tessera.",
+     true
+    ]
+   ],
+   "nome": "  badge palestra mio  ",
+   "prova": false,
+   "r": {
+    "ok": false
+   }
+  },
+  {
+   "att": [],
+   "c": null,
+   "messi": [],
+   "msg": [
+    [
+     "Leggi prima una tessera.",
+     true
+    ]
+   ],
+   "nome": "  badge palestra mio  ",
+   "prova": true,
+   "r": {
+    "ok": false
+   }
+  },
+  {
+   "att": [],
+   "c": null,
+   "messi": [],
+   "msg": [
+    [
+     "Leggi prima una tessera.",
+     true
+    ]
+   ],
+   "nome": "x",
+   "prova": false,
+   "r": {
+    "ok": false
+   }
+  },
+  {
+   "att": [],
+   "c": null,
+   "messi": [],
+   "msg": [
+    [
+     "Leggi prima una tessera.",
+     true
+    ]
+   ],
+   "nome": "x",
+   "prova": true,
+   "r": {
+    "ok": false
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: tessera-84E3D6E4B9",
+     "ok"
+    ]
+   ],
+   "c": [
+    132,
+    3822511289
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"84E3D6E4B9\",\n  \"decimale\": \"3822511289\",\n  \"w26\": \"214,58553\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "84E3D6E4B9",
+      "prova": false
+     },
+     "nome": "tessera-84E3D6E4B9.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "",
+   "prova": false,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: tessera-84E3D6E4B9",
+     "ok"
+    ]
+   ],
+   "c": [
+    132,
+    3822511289
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"84E3D6E4B9\",\n  \"decimale\": \"3822511289\",\n  \"w26\": \"214,58553\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "84E3D6E4B9",
+      "prova": true
+     },
+     "nome": "tessera-84E3D6E4B9.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "",
+   "prova": true,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: badge palestra mio",
+     "ok"
+    ]
+   ],
+   "c": [
+    132,
+    3822511289
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"84E3D6E4B9\",\n  \"decimale\": \"3822511289\",\n  \"w26\": \"214,58553\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "84E3D6E4B9",
+      "prova": false
+     },
+     "nome": "badge palestra mio.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "  badge palestra mio  ",
+   "prova": false,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: badge palestra mio",
+     "ok"
+    ]
+   ],
+   "c": [
+    132,
+    3822511289
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"84E3D6E4B9\",\n  \"decimale\": \"3822511289\",\n  \"w26\": \"214,58553\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "84E3D6E4B9",
+      "prova": true
+     },
+     "nome": "badge palestra mio.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "  badge palestra mio  ",
+   "prova": true,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: x",
+     "ok"
+    ]
+   ],
+   "c": [
+    132,
+    3822511289
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"84E3D6E4B9\",\n  \"decimale\": \"3822511289\",\n  \"w26\": \"214,58553\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "84E3D6E4B9",
+      "prova": false
+     },
+     "nome": "x.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "x",
+   "prova": false,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: x",
+     "ok"
+    ]
+   ],
+   "c": [
+    132,
+    3822511289
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"84E3D6E4B9\",\n  \"decimale\": \"3822511289\",\n  \"w26\": \"214,58553\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "84E3D6E4B9",
+      "prova": true
+     },
+     "nome": "x.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "x",
+   "prova": true,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: tessera-76AA8B230F",
+     "ok"
+    ]
+   ],
+   "c": [
+    118,
+    2861245199
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"76AA8B230F\",\n  \"decimale\": \"2861245199\",\n  \"w26\": \"139,08975\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "76AA8B230F",
+      "prova": false
+     },
+     "nome": "tessera-76AA8B230F.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "",
+   "prova": false,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: tessera-76AA8B230F",
+     "ok"
+    ]
+   ],
+   "c": [
+    118,
+    2861245199
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"76AA8B230F\",\n  \"decimale\": \"2861245199\",\n  \"w26\": \"139,08975\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "76AA8B230F",
+      "prova": true
+     },
+     "nome": "tessera-76AA8B230F.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "",
+   "prova": true,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: badge palestra mio",
+     "ok"
+    ]
+   ],
+   "c": [
+    118,
+    2861245199
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"76AA8B230F\",\n  \"decimale\": \"2861245199\",\n  \"w26\": \"139,08975\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "76AA8B230F",
+      "prova": false
+     },
+     "nome": "badge palestra mio.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "  badge palestra mio  ",
+   "prova": false,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: badge palestra mio",
+     "ok"
+    ]
+   ],
+   "c": [
+    118,
+    2861245199
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"76AA8B230F\",\n  \"decimale\": \"2861245199\",\n  \"w26\": \"139,08975\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "76AA8B230F",
+      "prova": true
+     },
+     "nome": "badge palestra mio.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "  badge palestra mio  ",
+   "prova": true,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: x",
+     "ok"
+    ]
+   ],
+   "c": [
+    118,
+    2861245199
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"76AA8B230F\",\n  \"decimale\": \"2861245199\",\n  \"w26\": \"139,08975\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": false,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "76AA8B230F",
+      "prova": false
+     },
+     "nome": "x.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "x",
+   "prova": false,
+   "r": {
+    "ok": true
+   }
+  },
+  {
+   "att": [
+    [
+     "rfid",
+     "Tessera 125 kHz salvata: x",
+     "ok"
+    ]
+   ],
+   "c": [
+    118,
+    2861245199
+   ],
+   "messi": [
+    {
+     "categoria": "rfid",
+     "dati": "{\n  \"formato\": \"EM4100\",\n  \"hex\": \"76AA8B230F\",\n  \"decimale\": \"2861245199\",\n  \"w26\": \"139,08975\",\n  \"fonte\": \"lettore USB (5 ms)\",\n  \"supporto_di_prova\": true,\n  \"letto_il\": \"2026-11-22 09:05\"\n}",
+     "meta": {
+      "hex": "76AA8B230F",
+      "prova": true
+     },
+     "nome": "x.json"
+    }
+   ],
+   "msg": [
+    [
+     "Salvata nella cassaforte.",
+     false
+    ]
+   ],
+   "nome": "x",
+   "prova": true,
+   "r": {
+    "ok": true
+   }
+  }
+ ],
+ "show_card": [
+  {
+   "c": [
+    132,
+    3822511289
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>84E3D6E4B9</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3822511289</tt></td></tr><tr><td>Wiegand 26</td><td><tt>214,58553</tt> (impianto 214, numero 58553)</td></tr><tr><td>Bit Wiegand</td><td><tt>01101011011100100101110011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    132,
+    3822511289
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>84E3D6E4B9</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3822511289</tt></td></tr><tr><td>Wiegand 26</td><td><tt>214,58553</tt> (impianto 214, numero 58553)</td></tr><tr><td>Bit Wiegand</td><td><tt>01101011011100100101110011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    132,
+    3822511289
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>84E3D6E4B9</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3822511289</tt></td></tr><tr><td>Wiegand 26</td><td><tt>214,58553</tt> (impianto 214, numero 58553)</td></tr><tr><td>Bit Wiegand</td><td><tt>01101011011100100101110011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    118,
+    2861245199
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>76AA8B230F</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2861245199</tt></td></tr><tr><td>Wiegand 26</td><td><tt>139,08975</tt> (impianto 139, numero 8975)</td></tr><tr><td>Bit Wiegand</td><td><tt>11000101100100011000011111</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    118,
+    2861245199
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>76AA8B230F</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2861245199</tt></td></tr><tr><td>Wiegand 26</td><td><tt>139,08975</tt> (impianto 139, numero 8975)</td></tr><tr><td>Bit Wiegand</td><td><tt>11000101100100011000011111</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    118,
+    2861245199
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>76AA8B230F</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2861245199</tt></td></tr><tr><td>Wiegand 26</td><td><tt>139,08975</tt> (impianto 139, numero 8975)</td></tr><tr><td>Bit Wiegand</td><td><tt>11000101100100011000011111</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    115,
+    804765948
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>732FF7C0FC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0804765948</tt></td></tr><tr><td>Wiegand 26</td><td><tt>247,49404</tt> (impianto 247, numero 49404)</td></tr><tr><td>Bit Wiegand</td><td><tt>11111011111000000111111001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    115,
+    804765948
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>732FF7C0FC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0804765948</tt></td></tr><tr><td>Wiegand 26</td><td><tt>247,49404</tt> (impianto 247, numero 49404)</td></tr><tr><td>Bit Wiegand</td><td><tt>11111011111000000111111001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    115,
+    804765948
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>732FF7C0FC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0804765948</tt></td></tr><tr><td>Wiegand 26</td><td><tt>247,49404</tt> (impianto 247, numero 49404)</td></tr><tr><td>Bit Wiegand</td><td><tt>11111011111000000111111001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    36,
+    1265541136
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>244B6EA010</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1265541136</tt></td></tr><tr><td>Wiegand 26</td><td><tt>110,40976</tt> (impianto 110, numero 40976)</td></tr><tr><td>Bit Wiegand</td><td><tt>10110111010100000000100000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    36,
+    1265541136
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>244B6EA010</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1265541136</tt></td></tr><tr><td>Wiegand 26</td><td><tt>110,40976</tt> (impianto 110, numero 40976)</td></tr><tr><td>Bit Wiegand</td><td><tt>10110111010100000000100000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    36,
+    1265541136
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>244B6EA010</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1265541136</tt></td></tr><tr><td>Wiegand 26</td><td><tt>110,40976</tt> (impianto 110, numero 40976)</td></tr><tr><td>Bit Wiegand</td><td><tt>10110111010100000000100000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    220,
+    4286406336
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>DCFF7D5EC0</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4286406336</tt></td></tr><tr><td>Wiegand 26</td><td><tt>125,24256</tt> (impianto 125, numero 24256)</td></tr><tr><td>Bit Wiegand</td><td><tt>00111110101011110110000000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    220,
+    4286406336
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>DCFF7D5EC0</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4286406336</tt></td></tr><tr><td>Wiegand 26</td><td><tt>125,24256</tt> (impianto 125, numero 24256)</td></tr><tr><td>Bit Wiegand</td><td><tt>00111110101011110110000000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    220,
+    4286406336
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>DCFF7D5EC0</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4286406336</tt></td></tr><tr><td>Wiegand 26</td><td><tt>125,24256</tt> (impianto 125, numero 24256)</td></tr><tr><td>Bit Wiegand</td><td><tt>00111110101011110110000000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    141,
+    3583641125
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>8DD59A0625</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3583641125</tt></td></tr><tr><td>Wiegand 26</td><td><tt>154,01573</tt> (impianto 154, numero 1573)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001101000000110001001010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    141,
+    3583641125
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>8DD59A0625</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3583641125</tt></td></tr><tr><td>Wiegand 26</td><td><tt>154,01573</tt> (impianto 154, numero 1573)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001101000000110001001010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    141,
+    3583641125
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>8DD59A0625</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3583641125</tt></td></tr><tr><td>Wiegand 26</td><td><tt>154,01573</tt> (impianto 154, numero 1573)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001101000000110001001010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    43,
+    3461944806
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>2BCE5915E6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3461944806</tt></td></tr><tr><td>Wiegand 26</td><td><tt>089,05606</tt> (impianto 89, numero 5606)</td></tr><tr><td>Bit Wiegand</td><td><tt>10101100100010101111001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    43,
+    3461944806
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>2BCE5915E6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3461944806</tt></td></tr><tr><td>Wiegand 26</td><td><tt>089,05606</tt> (impianto 89, numero 5606)</td></tr><tr><td>Bit Wiegand</td><td><tt>10101100100010101111001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    43,
+    3461944806
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>2BCE5915E6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3461944806</tt></td></tr><tr><td>Wiegand 26</td><td><tt>089,05606</tt> (impianto 89, numero 5606)</td></tr><tr><td>Bit Wiegand</td><td><tt>10101100100010101111001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    230,
+    3198677561
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>E6BEA7F239</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3198677561</tt></td></tr><tr><td>Wiegand 26</td><td><tt>167,62009</tt> (impianto 167, numero 62009)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010011111110010001110010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    230,
+    3198677561
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>E6BEA7F239</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3198677561</tt></td></tr><tr><td>Wiegand 26</td><td><tt>167,62009</tt> (impianto 167, numero 62009)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010011111110010001110010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    230,
+    3198677561
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>E6BEA7F239</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3198677561</tt></td></tr><tr><td>Wiegand 26</td><td><tt>167,62009</tt> (impianto 167, numero 62009)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010011111110010001110010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    71,
+    1102552373
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>4741B79D35</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1102552373</tt></td></tr><tr><td>Wiegand 26</td><td><tt>183,40245</tt> (impianto 183, numero 40245)</td></tr><tr><td>Bit Wiegand</td><td><tt>01011011110011101001101010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    71,
+    1102552373
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>4741B79D35</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1102552373</tt></td></tr><tr><td>Wiegand 26</td><td><tt>183,40245</tt> (impianto 183, numero 40245)</td></tr><tr><td>Bit Wiegand</td><td><tt>01011011110011101001101010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    71,
+    1102552373
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>4741B79D35</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1102552373</tt></td></tr><tr><td>Wiegand 26</td><td><tt>183,40245</tt> (impianto 183, numero 40245)</td></tr><tr><td>Bit Wiegand</td><td><tt>01011011110011101001101010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    119,
+    504057573
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>771E0B4EE5</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0504057573</tt></td></tr><tr><td>Wiegand 26</td><td><tt>011,20197</tt> (impianto 11, numero 20197)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000101101001110111001011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    119,
+    504057573
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>771E0B4EE5</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0504057573</tt></td></tr><tr><td>Wiegand 26</td><td><tt>011,20197</tt> (impianto 11, numero 20197)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000101101001110111001011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    119,
+    504057573
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>771E0B4EE5</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0504057573</tt></td></tr><tr><td>Wiegand 26</td><td><tt>011,20197</tt> (impianto 11, numero 20197)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000101101001110111001011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    134,
+    2967490192
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>86B0E04E90</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2967490192</tt></td></tr><tr><td>Wiegand 26</td><td><tt>224,20112</tt> (impianto 224, numero 20112)</td></tr><tr><td>Bit Wiegand</td><td><tt>01110000001001110100100000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    134,
+    2967490192
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>86B0E04E90</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2967490192</tt></td></tr><tr><td>Wiegand 26</td><td><tt>224,20112</tt> (impianto 224, numero 20112)</td></tr><tr><td>Bit Wiegand</td><td><tt>01110000001001110100100000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    134,
+    2967490192
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>86B0E04E90</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2967490192</tt></td></tr><tr><td>Wiegand 26</td><td><tt>224,20112</tt> (impianto 224, numero 20112)</td></tr><tr><td>Bit Wiegand</td><td><tt>01110000001001110100100000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    69,
+    3130812298
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>45BA9C678A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3130812298</tt></td></tr><tr><td>Wiegand 26</td><td><tt>156,26506</tt> (impianto 156, numero 26506)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001110001100111100010101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    69,
+    3130812298
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>45BA9C678A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3130812298</tt></td></tr><tr><td>Wiegand 26</td><td><tt>156,26506</tt> (impianto 156, numero 26506)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001110001100111100010101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    69,
+    3130812298
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>45BA9C678A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3130812298</tt></td></tr><tr><td>Wiegand 26</td><td><tt>156,26506</tt> (impianto 156, numero 26506)</td></tr><tr><td>Bit Wiegand</td><td><tt>01001110001100111100010101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    90,
+    1259746529
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>5A4B1634E1</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1259746529</tt></td></tr><tr><td>Wiegand 26</td><td><tt>022,13537</tt> (impianto 22, numero 13537)</td></tr><tr><td>Bit Wiegand</td><td><tt>10001011000110100111000010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    90,
+    1259746529
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>5A4B1634E1</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1259746529</tt></td></tr><tr><td>Wiegand 26</td><td><tt>022,13537</tt> (impianto 22, numero 13537)</td></tr><tr><td>Bit Wiegand</td><td><tt>10001011000110100111000010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    90,
+    1259746529
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>5A4B1634E1</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1259746529</tt></td></tr><tr><td>Wiegand 26</td><td><tt>022,13537</tt> (impianto 22, numero 13537)</td></tr><tr><td>Bit Wiegand</td><td><tt>10001011000110100111000010</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    91,
+    2244950635
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>5B85CF3A6B</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2244950635</tt></td></tr><tr><td>Wiegand 26</td><td><tt>207,14955</tt> (impianto 207, numero 14955)</td></tr><tr><td>Bit Wiegand</td><td><tt>01100111100111010011010110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    91,
+    2244950635
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>5B85CF3A6B</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2244950635</tt></td></tr><tr><td>Wiegand 26</td><td><tt>207,14955</tt> (impianto 207, numero 14955)</td></tr><tr><td>Bit Wiegand</td><td><tt>01100111100111010011010110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    91,
+    2244950635
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>5B85CF3A6B</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2244950635</tt></td></tr><tr><td>Wiegand 26</td><td><tt>207,14955</tt> (impianto 207, numero 14955)</td></tr><tr><td>Bit Wiegand</td><td><tt>01100111100111010011010110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    129,
+    1593916546
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>815F013C82</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1593916546</tt></td></tr><tr><td>Wiegand 26</td><td><tt>001,15490</tt> (impianto 1, numero 15490)</td></tr><tr><td>Bit Wiegand</td><td><tt>10000000100111100100000101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    129,
+    1593916546
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>815F013C82</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1593916546</tt></td></tr><tr><td>Wiegand 26</td><td><tt>001,15490</tt> (impianto 1, numero 15490)</td></tr><tr><td>Bit Wiegand</td><td><tt>10000000100111100100000101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    129,
+    1593916546
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>815F013C82</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>1593916546</tt></td></tr><tr><td>Wiegand 26</td><td><tt>001,15490</tt> (impianto 1, numero 15490)</td></tr><tr><td>Bit Wiegand</td><td><tt>10000000100111100100000101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    134,
+    2600597452
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>869B01F7CC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2600597452</tt></td></tr><tr><td>Wiegand 26</td><td><tt>001,63436</tt> (impianto 1, numero 63436)</td></tr><tr><td>Bit Wiegand</td><td><tt>10000000111110111110011000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    134,
+    2600597452
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>869B01F7CC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2600597452</tt></td></tr><tr><td>Wiegand 26</td><td><tt>001,63436</tt> (impianto 1, numero 63436)</td></tr><tr><td>Bit Wiegand</td><td><tt>10000000111110111110011000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    134,
+    2600597452
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>869B01F7CC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2600597452</tt></td></tr><tr><td>Wiegand 26</td><td><tt>001,63436</tt> (impianto 1, numero 63436)</td></tr><tr><td>Bit Wiegand</td><td><tt>10000000111110111110011000</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    202,
+    3819374550
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>CAE3A707D6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3819374550</tt></td></tr><tr><td>Wiegand 26</td><td><tt>167,02006</tt> (impianto 167, numero 2006)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010011100000111110101101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    202,
+    3819374550
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>CAE3A707D6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3819374550</tt></td></tr><tr><td>Wiegand 26</td><td><tt>167,02006</tt> (impianto 167, numero 2006)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010011100000111110101101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    202,
+    3819374550
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>CAE3A707D6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3819374550</tt></td></tr><tr><td>Wiegand 26</td><td><tt>167,02006</tt> (impianto 167, numero 2006)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010011100000111110101101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    251,
+    2362345748
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>FB8CCE8914</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2362345748</tt></td></tr><tr><td>Wiegand 26</td><td><tt>206,35092</tt> (impianto 206, numero 35092)</td></tr><tr><td>Bit Wiegand</td><td><tt>01100111010001001000101001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    251,
+    2362345748
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>FB8CCE8914</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2362345748</tt></td></tr><tr><td>Wiegand 26</td><td><tt>206,35092</tt> (impianto 206, numero 35092)</td></tr><tr><td>Bit Wiegand</td><td><tt>01100111010001001000101001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    251,
+    2362345748
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>FB8CCE8914</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2362345748</tt></td></tr><tr><td>Wiegand 26</td><td><tt>206,35092</tt> (impianto 206, numero 35092)</td></tr><tr><td>Bit Wiegand</td><td><tt>01100111010001001000101001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    120,
+    3808009002
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>78E2F99B2A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3808009002</tt></td></tr><tr><td>Wiegand 26</td><td><tt>249,39722</tt> (impianto 249, numero 39722)</td></tr><tr><td>Bit Wiegand</td><td><tt>01111100110011011001010101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    120,
+    3808009002
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>78E2F99B2A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3808009002</tt></td></tr><tr><td>Wiegand 26</td><td><tt>249,39722</tt> (impianto 249, numero 39722)</td></tr><tr><td>Bit Wiegand</td><td><tt>01111100110011011001010101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    120,
+    3808009002
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>78E2F99B2A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3808009002</tt></td></tr><tr><td>Wiegand 26</td><td><tt>249,39722</tt> (impianto 249, numero 39722)</td></tr><tr><td>Bit Wiegand</td><td><tt>01111100110011011001010101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    187,
+    563076115
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>BB218FDC13</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0563076115</tt></td></tr><tr><td>Wiegand 26</td><td><tt>143,56339</tt> (impianto 143, numero 56339)</td></tr><tr><td>Bit Wiegand</td><td><tt>01000111111011100000100110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    187,
+    563076115
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>BB218FDC13</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0563076115</tt></td></tr><tr><td>Wiegand 26</td><td><tt>143,56339</tt> (impianto 143, numero 56339)</td></tr><tr><td>Bit Wiegand</td><td><tt>01000111111011100000100110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    187,
+    563076115
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>BB218FDC13</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0563076115</tt></td></tr><tr><td>Wiegand 26</td><td><tt>143,56339</tt> (impianto 143, numero 56339)</td></tr><tr><td>Bit Wiegand</td><td><tt>01000111111011100000100110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    220,
+    4095964454
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>DCF4237526</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4095964454</tt></td></tr><tr><td>Wiegand 26</td><td><tt>035,29990</tt> (impianto 35, numero 29990)</td></tr><tr><td>Bit Wiegand</td><td><tt>00010001101110101001001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    220,
+    4095964454
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>DCF4237526</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4095964454</tt></td></tr><tr><td>Wiegand 26</td><td><tt>035,29990</tt> (impianto 35, numero 29990)</td></tr><tr><td>Bit Wiegand</td><td><tt>00010001101110101001001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    220,
+    4095964454
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>DCF4237526</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>4095964454</tt></td></tr><tr><td>Wiegand 26</td><td><tt>035,29990</tt> (impianto 35, numero 29990)</td></tr><tr><td>Bit Wiegand</td><td><tt>00010001101110101001001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    199,
+    3725901810
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>C7DE14BFF2</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3725901810</tt></td></tr><tr><td>Wiegand 26</td><td><tt>020,49138</tt> (impianto 20, numero 49138)</td></tr><tr><td>Bit Wiegand</td><td><tt>10001010010111111111100100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    199,
+    3725901810
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>C7DE14BFF2</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3725901810</tt></td></tr><tr><td>Wiegand 26</td><td><tt>020,49138</tt> (impianto 20, numero 49138)</td></tr><tr><td>Bit Wiegand</td><td><tt>10001010010111111111100100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    199,
+    3725901810
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>C7DE14BFF2</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3725901810</tt></td></tr><tr><td>Wiegand 26</td><td><tt>020,49138</tt> (impianto 20, numero 49138)</td></tr><tr><td>Bit Wiegand</td><td><tt>10001010010111111111100100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    115,
+    608792547
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>7324496FE3</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0608792547</tt></td></tr><tr><td>Wiegand 26</td><td><tt>073,28643</tt> (impianto 73, numero 28643)</td></tr><tr><td>Bit Wiegand</td><td><tt>10100100101101111111000110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    115,
+    608792547
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>7324496FE3</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0608792547</tt></td></tr><tr><td>Wiegand 26</td><td><tt>073,28643</tt> (impianto 73, numero 28643)</td></tr><tr><td>Bit Wiegand</td><td><tt>10100100101101111111000110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    115,
+    608792547
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>7324496FE3</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0608792547</tt></td></tr><tr><td>Wiegand 26</td><td><tt>073,28643</tt> (impianto 73, numero 28643)</td></tr><tr><td>Bit Wiegand</td><td><tt>10100100101101111111000110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    227,
+    2744722529
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>E3A3992461</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2744722529</tt></td></tr><tr><td>Wiegand 26</td><td><tt>153,09313</tt> (impianto 153, numero 9313)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001100100100100011000011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    227,
+    2744722529
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>E3A3992461</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2744722529</tt></td></tr><tr><td>Wiegand 26</td><td><tt>153,09313</tt> (impianto 153, numero 9313)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001100100100100011000011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    227,
+    2744722529
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>E3A3992461</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2744722529</tt></td></tr><tr><td>Wiegand 26</td><td><tt>153,09313</tt> (impianto 153, numero 9313)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001100100100100011000011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    81,
+    3148862085
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>51BBAFD285</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3148862085</tt></td></tr><tr><td>Wiegand 26</td><td><tt>175,53893</tt> (impianto 175, numero 53893)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010111111010010100001011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    81,
+    3148862085
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>51BBAFD285</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3148862085</tt></td></tr><tr><td>Wiegand 26</td><td><tt>175,53893</tt> (impianto 175, numero 53893)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010111111010010100001011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    81,
+    3148862085
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>51BBAFD285</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3148862085</tt></td></tr><tr><td>Wiegand 26</td><td><tt>175,53893</tt> (impianto 175, numero 53893)</td></tr><tr><td>Bit Wiegand</td><td><tt>11010111111010010100001011</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    128,
+    3449598010
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>80CD9CB03A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3449598010</tt></td></tr><tr><td>Wiegand 26</td><td><tt>156,45114</tt> (impianto 156, numero 45114)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001110010110000001110101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    128,
+    3449598010
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>80CD9CB03A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3449598010</tt></td></tr><tr><td>Wiegand 26</td><td><tt>156,45114</tt> (impianto 156, numero 45114)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001110010110000001110101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    128,
+    3449598010
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>80CD9CB03A</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3449598010</tt></td></tr><tr><td>Wiegand 26</td><td><tt>156,45114</tt> (impianto 156, numero 45114)</td></tr><tr><td>Bit Wiegand</td><td><tt>11001110010110000001110101</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    103,
+    2707969222
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>67A16854C6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2707969222</tt></td></tr><tr><td>Wiegand 26</td><td><tt>104,21702</tt> (impianto 104, numero 21702)</td></tr><tr><td>Bit Wiegand</td><td><tt>10110100001010100110001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    103,
+    2707969222
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>67A16854C6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2707969222</tt></td></tr><tr><td>Wiegand 26</td><td><tt>104,21702</tt> (impianto 104, numero 21702)</td></tr><tr><td>Bit Wiegand</td><td><tt>10110100001010100110001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    103,
+    2707969222
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>67A16854C6</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2707969222</tt></td></tr><tr><td>Wiegand 26</td><td><tt>104,21702</tt> (impianto 104, numero 21702)</td></tr><tr><td>Bit Wiegand</td><td><tt>10110100001010100110001100</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    70,
+    2131784172
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>467F1071EC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2131784172</tt></td></tr><tr><td>Wiegand 26</td><td><tt>016,29164</tt> (impianto 16, numero 29164)</td></tr><tr><td>Bit Wiegand</td><td><tt>00001000001110001111011001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    70,
+    2131784172
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>467F1071EC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2131784172</tt></td></tr><tr><td>Wiegand 26</td><td><tt>016,29164</tt> (impianto 16, numero 29164)</td></tr><tr><td>Bit Wiegand</td><td><tt>00001000001110001111011001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    70,
+    2131784172
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>467F1071EC</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2131784172</tt></td></tr><tr><td>Wiegand 26</td><td><tt>016,29164</tt> (impianto 16, numero 29164)</td></tr><tr><td>Bit Wiegand</td><td><tt>00001000001110001111011001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    21,
+    2539291984
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>15975A8550</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2539291984</tt></td></tr><tr><td>Wiegand 26</td><td><tt>090,34128</tt> (impianto 90, numero 34128)</td></tr><tr><td>Bit Wiegand</td><td><tt>10101101010000101010100001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    21,
+    2539291984
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>15975A8550</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2539291984</tt></td></tr><tr><td>Wiegand 26</td><td><tt>090,34128</tt> (impianto 90, numero 34128)</td></tr><tr><td>Bit Wiegand</td><td><tt>10101101010000101010100001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    21,
+    2539291984
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>15975A8550</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2539291984</tt></td></tr><tr><td>Wiegand 26</td><td><tt>090,34128</tt> (impianto 90, numero 34128)</td></tr><tr><td>Bit Wiegand</td><td><tt>10101101010000101010100001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    183,
+    2447649483
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>B791E42ACB</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2447649483</tt></td></tr><tr><td>Wiegand 26</td><td><tt>228,10955</tt> (impianto 228, numero 10955)</td></tr><tr><td>Bit Wiegand</td><td><tt>11110010000101010110010110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    183,
+    2447649483
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>B791E42ACB</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2447649483</tt></td></tr><tr><td>Wiegand 26</td><td><tt>228,10955</tt> (impianto 228, numero 10955)</td></tr><tr><td>Bit Wiegand</td><td><tt>11110010000101010110010110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    183,
+    2447649483
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>B791E42ACB</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>2447649483</tt></td></tr><tr><td>Wiegand 26</td><td><tt>228,10955</tt> (impianto 228, numero 10955)</td></tr><tr><td>Bit Wiegand</td><td><tt>11110010000101010110010110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    0,
+    0
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    0,
+    0
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    0,
+    0
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>0000000000</tt></td></tr><tr><td>Wiegand 26</td><td><tt>000,00000</tt> (impianto 0, numero 0)</td></tr><tr><td>Bit Wiegand</td><td><tt>00000000000000000000000001</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    -2,
+    3703216247
+   ],
+   "fmt": "decimale a 10 cifre (32 bit)",
+   "fonte": "lettore USB (12 ms)",
+   "r": "<b>EM4100</b> · lettore USB (12 ms) · decimale a 10 cifre (32 bit)<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>-123456789</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3703216247</tt></td></tr><tr><td>Wiegand 26</td><td><tt>186,39031</tt> (impianto 186, numero 39031)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011101010011000011101110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    -2,
+    3703216247
+   ],
+   "fmt": "",
+   "fonte": "<b>&'\"",
+   "r": "<b>EM4100</b> · &lt;b&gt;&amp;&#x27;&quot;<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>-123456789</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3703216247</tt></td></tr><tr><td>Wiegand 26</td><td><tt>186,39031</tt> (impianto 186, numero 39031)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011101010011000011101110</tt></td></tr></table>"
+  },
+  {
+   "c": [
+    -2,
+    3703216247
+   ],
+   "fmt": "trama con controllo XOR valido",
+   "fonte": "RDM6300",
+   "r": "<b>EM4100</b> · RDM6300 · trama con controllo XOR valido<table cellspacing='4'><tr><td>Esadecimale (40 bit)</td><td><tt>-123456789</tt></td></tr><tr><td>Decimale (32 bit)</td><td><tt>3703216247</tt></td></tr><tr><td>Wiegand 26</td><td><tt>186,39031</tt> (impianto 186, numero 39031)</td></tr><tr><td>Bit Wiegand</td><td><tt>11011101010011000011101110</tt></td></tr></table>"
+  }
+ ]
+}

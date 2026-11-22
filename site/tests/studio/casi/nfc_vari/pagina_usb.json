@@ -1,0 +1,2026 @@
+{
+ "check": [
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "REM commento",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "// nota",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "DELAY 0",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "DELAY 60000",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 60.0 s, durata stimata 60.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY -1",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY abc",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "DELAY ٣٠",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY 9999999999",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "DEFAULT_DELAY 50",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "DEFAULTDELAY 0",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DEFAULT_DELAY x",
+   "testo": "Riga 1: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING Ciao",
+   "testo": "Valido: 1 azioni, 4 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING  doppio spazio",
+   "testo": "Valido: 1 azioni, 14 caratteri, pause totali 0.0 s, durata stimata 0.2 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "STRINGLN riga",
+   "testo": "Valido: 2 azioni, 4 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING àèìòù",
+   "testo": "Valido: 1 azioni, 5 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING £§°ç",
+   "testo": "Riga 1: carattere '£' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING ~`",
+   "testo": "Riga 1: carattere '~' non digitabile con layout IT"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING a\tb",
+   "testo": "Valido: 1 azioni, 3 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING é",
+   "testo": "Valido: 1 azioni, 1 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "ENTER",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL ALT DEL",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL-ALT-DELETE",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "SHIFT TAB",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "ALTGR e",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "F12",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "F13",
+   "testo": "Riga 1: comando sconosciuto: F13"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "F01",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "f5",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "WINDOWS",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "A",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "è",
+   "testo": "Riga 1: comando sconosciuto: è"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "-",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "--",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL x y",
+   "testo": "Riga 1: comando sconosciuto: x"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "ENTER ENTER",
+   "testo": "Riga 1: comando sconosciuto: ENTER"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT 0",
+   "testo": "Riga 1: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT 501",
+   "testo": "Riga 1: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT x",
+   "testo": "Riga 1: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "PIPPO",
+   "testo": "Riga 1: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "  STRING indentato  ",
+   "testo": "Valido: 1 azioni, 9 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "\tDELAY 5",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "UPARROW",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "MENU",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "ALT F4",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL SHIFT ESC",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "SHIFT",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT a b",
+   "testo": "Riga 1: comando sconosciuto: a"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "0",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": " ",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING\tTab",
+   "testo": "Valido: 1 azioni, 3 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING　x",
+   "testo": "Valido: 1 azioni, 1 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRİNG x",
+   "testo": "Riga 1: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "GUİ",
+   "testo": "Riga 1: comando sconosciuto: GUİ"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "€",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "£",
+   "testo": "Riga 1: comando sconosciuto: £"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "ALT-F4",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL--",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "SHIFT-",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING ab\nREPEAT 500\nREPEAT 500\nREPEAT 500",
+   "testo": "Riga 4: script troppo lungo (max 1200 azioni)"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "REM x\nREPEAT 2",
+   "testo": "Riga 2: REPEAT senza un comando precedente"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "F²",
+   "testo": ""
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "errore": {
+     "msg": "invalid literal for int() with base 10: '²'",
+     "tipo": "ValueError"
+    }
+   },
+   "src": "REPEAT ²",
+   "testo": ""
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING è",
+   "testo": "Valido: 1 azioni, 1 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRINGLN riga\nCTRL -\nCTRL £\nDELAY -1\nDELAY ٣٠\nCOMMAND SPACE\n",
+   "testo": "Riga 4: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "ENTER\n",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT a b\nDELAY",
+   "testo": "Riga 1: comando sconosciuto: a\nRiga 2: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL\nSTRINGLN riga\nSTRING x\r\nREPEAT 3\nDELAY 60001\nCTRL--\nDELAY ٣٠\n1\n \nf5\nCTRL\na\nSTRING　x\n",
+   "testo": "Riga 5: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "--\nCTRL--\na\nDELAY 100\nstring minuscolo\n",
+   "testo": "Valido: 5 azioni, 9 caratteri, pause totali 0.1 s, durata stimata 0.3 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRINGLN riga\nDELAY 9999999999\nSTRING £§°ç\nSTRINGLN riga\n",
+   "testo": "Riga 2: DELAY richiede un numero 0-60000\nRiga 3: carattere '£' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI\nGUİ\nCTRL £",
+   "testo": "Riga 2: comando sconosciuto: GUİ"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "REM commento\n0\n",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "\tDELAY 5\nF01\nDELAY 9999999999\nSTRING  doppio spazio\nDEFAULTDELAY 0\nCTRL\nSHIFT TAB\n\tDELAY 5",
+   "testo": "Riga 3: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL ALT DEL\nCTRL x y\nGUI r\nSTRING a\tb\nALT F4\nUPARROW\nA\nDELAY 0\nDELAY 0\nF1\n  STRING indentato  \nSHIFT TAB\nSTRING ~`",
+   "testo": "Riga 2: comando sconosciuto: x\nRiga 13: carattere '~' non digitabile con layout IT"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING £§°ç\nREPEAT 501\n€\nWINDOWS\nDELAY 99999999999\nCTRL -\nstring minuscolo\nCTRL x y",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 5: DELAY richiede un numero 0-60000\nRiga 8: comando sconosciuto: x"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING \nREPEAT 501\nSTRING ~`\nSTRING é\nDELAY 0\nctrl c\nSTRING é\nF13\nMENU\n",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 3: carattere '~' non digitabile con layout IT\nRiga 8: comando sconosciuto: F13"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY abc\nF٣\nSHIFT-\nALT F4\nCTRL SHIFT ESC\n1\n\tDELAY 5\nDEFAULTDELAY 0\n1\n",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL-ALT-DELETE\nALT F4\nSHIFT TAB\n1\nSTRING a\tb\nREPEAT x\nSTRING \nREPEAT 3\nDEFAULT_DELAY x\n",
+   "testo": "Riga 6: REPEAT richiede un numero 1-500\nRiga 9: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING x\r\nSTRING €@#\nCTRL--\nENTER\nSTRING €@#\nREPEAT 501\nGUI\n",
+   "testo": "Riga 6: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY 9999999999\nSHIFT TAB\n",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT TAB\nDEFAULT_DELAY x\n",
+   "testo": "Riga 2: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "MENU\n-CTRL\nSTRING £§°ç\nALTGR e\na\nDELAY 100\nctrl c\nDELAY 60000\n",
+   "testo": "Riga 2: comando sconosciuto: -CTRL\nRiga 3: carattere '£' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "DELAY ٣٠",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING é\nA\nSTRING 🐙\nREM commento\nWINDOWS\n",
+   "testo": "Riga 3: carattere '🐙' non digitabile con layout IT"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "rem x\nGUI r\nDELAY 9999999999\n\nCTRL SHIFT ESC",
+   "testo": "Riga 3: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "è\nDEFAULTDELAY 0\n-\nREPEAT x\n1\nDELAY -1\nrem x\nDELAY 100\nrem x\nCOMMAND SPACE\nSHIFT-\n",
+   "testo": "Riga 4: REPEAT richiede un numero 1-500\nRiga 6: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "\tDELAY 5\nSHIFT-\n",
+   "testo": "Valido: 2 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DEFAULT_DELAY 50\nSTRING é\n-CTRL\nSTRING x\r\nF13\nALT F4\nF12\nstring minuscolo\nstring minuscolo\nstring minuscolo\nDEFAULT_DELAY x",
+   "testo": "Riga 2: carattere 'é' non digitabile con layout US\nRiga 3: comando sconosciuto: -CTRL\nRiga 5: comando sconosciuto: F13\nRiga 11: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING Ciao\nÄ\nrem x\nGUI\nF1\nDEFAULT_DELAY 10001",
+   "testo": "Riga 2: comando sconosciuto: Ä\nRiga 6: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING a\tb\n// nota",
+   "testo": "Valido: 1 azioni, 3 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT 0\nDELAY 0\nrem x\nCTRL x y\nSHIFT a b\nSHIFT a b\nSTRING {}[]\nDELAY 9999999999\nDELAY -1\nENTER ENTER\nREPEAT x\nSTRİNG x\nSTRING ",
+   "testo": "Riga 1: REPEAT richiede un numero 1-500\nRiga 4: comando sconosciuto: x\nRiga 5: comando sconosciuto: a\nRiga 6: comando sconosciuto: a\nRiga 8: DELAY richiede un numero 0-60000\nRiga 9: DELAY richiede un numero 0-60000\nRiga 10: comando sconosciuto: ENTER\nRiga 11: REPEAT richiede un numero 1-500\nRiga 12: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING {}[]\nMENU",
+   "testo": "Valido: 2 azioni, 4 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "ALTGR e\nCTRL\nDELAY abc\nUPARROW\nF1\n \nè\n",
+   "testo": "Riga 3: DELAY richiede un numero 0-60000\nRiga 7: comando sconosciuto: è"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL SHIFT ESC\nstring minuscolo\nREPEAT x\nCTRL-ALT-DELETE\nDEFAULTDELAY 0\nENTER\nSTRINGLN riga\n",
+   "testo": "Riga 3: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "F1\nf5\n£\nCTRL-ALT-DELETE\n  STRING indentato  \nCTRL SHIFT ESC\nCTRL ALT DEL\nSHIFT a b\n",
+   "testo": "Riga 8: comando sconosciuto: a"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "REM commento\nF13\nMENU\nDELAY\n",
+   "testo": "Riga 2: comando sconosciuto: F13\nRiga 4: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT 3\nCTRL--\nDELAY abc\nSTRING　x\nSTRING  doppio spazio\nCTRL -\nDELAY -1\nSTRING é\n",
+   "testo": "Riga 1: REPEAT senza un comando precedente\nRiga 3: DELAY richiede un numero 0-60000\nRiga 7: DELAY richiede un numero 0-60000\nRiga 8: carattere 'é' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "@\nWINDOWS\nREPEAT\nSTRING àèìòù\nDEFAULTDELAY 0\nREM commento\nDELAY 9999999999\nF1\nDELAY 9999999999\na\nREPEAT 3\nDEFAULT_DELAY x\n1\nSTRING {}[]\n",
+   "testo": "Riga 3: REPEAT richiede un numero 1-500\nRiga 7: DELAY richiede un numero 0-60000\nRiga 9: DELAY richiede un numero 0-60000\nRiga 12: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY abc\nctrl c\nSTRING ~`\nDELAY\nÄ\nCTRL\nè\nALTGR e\nWINDOWS\nSTRİNG x\nDELAY 60001\nSHIFT TAB\nf5",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000\nRiga 3: carattere '~' non digitabile con layout IT\nRiga 4: DELAY richiede un numero 0-60000\nRiga 5: comando sconosciuto: Ä\nRiga 10: comando sconosciuto: STRİNG\nRiga 11: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "--\nctrl c\nREPEAT 501\nUPARROW\nSTRING Ciao\nUPARROW\nSTRING 🐙\n// nota\nF0\nSTRINGLN riga\nÄ\nCTRL ALT DEL\nF٣",
+   "testo": "Riga 3: REPEAT richiede un numero 1-500\nRiga 7: carattere '🐙' non digitabile con layout IT\nRiga 9: comando sconosciuto: F0\nRiga 11: comando sconosciuto: Ä"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "UPARROW\nREPEAT x\nSTRING £§°ç\nGUI r\nSTRING \nREPEAT 3\nPIPPO",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 3: carattere '£' non digitabile con layout US\nRiga 7: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "ctrl c\nCTRL-ALT-DELETE\nMENU\nCTRL SHIFT ESC\nGUI r\nCTRL £\nDEFAULT_DELAY 50",
+   "testo": "Valido: 6 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT TAB\nCTRL--\nREM commento\nDEFAULTDELAY 0\n€\nSTRING　x\nGUİ\na\nSTRING é\nDELAY 60000\n",
+   "testo": "Riga 5: comando sconosciuto: €\nRiga 7: comando sconosciuto: GUİ\nRiga 9: carattere 'é' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "UPARROW\nSHIFT a b\n\tDELAY 5\nDELAY\nENTER ENTER\nDEFAULT_DELAY 50\nCTRL -\nALT-F4\nSHIFT a b\nSTRINGLN riga\n€\nCOMMAND SPACE\nDELAY 99999999999",
+   "testo": "Riga 2: comando sconosciuto: a\nRiga 4: DELAY richiede un numero 0-60000\nRiga 5: comando sconosciuto: ENTER\nRiga 9: comando sconosciuto: a\nRiga 13: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING €@#\nSTRING Ciao\n// nota\nDELAY -1\nSHIFT a b\nSTRING  doppio spazio\n£\nCTRL -\n",
+   "testo": "Riga 4: DELAY richiede un numero 0-60000\nRiga 5: comando sconosciuto: a"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "GUİ\nSTRING €@#",
+   "testo": "Riga 1: comando sconosciuto: GUİ\nRiga 2: carattere '€' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "1",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL ALT DEL\nREPEAT x\nGUİ\nPIPPO\nSTRING £§°ç\n  STRING indentato  \nCTRL x y\nDEFAULTDELAY 0\n",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 3: comando sconosciuto: GUİ\nRiga 4: comando sconosciuto: PIPPO\nRiga 7: comando sconosciuto: x"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING \nDELAY 0\nDELAY\nSTRİNG x\nDEFAULT_DELAY 10001\nSTRING ~`\nSTRING Ciao\nSTRING x\r\nF12\nSTRING àèìòù\nSHIFT-",
+   "testo": "Riga 3: DELAY richiede un numero 0-60000\nRiga 4: comando sconosciuto: STRİNG\nRiga 5: DEFAULT_DELAY richiede un numero 0-10000\nRiga 10: carattere 'à' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING\tTab\nSHIFT TAB\nSTRİNG x\nMENU\n",
+   "testo": "Riga 3: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "ALT F4\n\nDEFAULTDELAY 0\nctrl c\nCOMMAND SPACE\nrem x\nCTRL -\n@\nSHIFT TAB\n",
+   "testo": "Valido: 6 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "F13\nSTRİNG x\nrem x\n",
+   "testo": "Riga 1: comando sconosciuto: F13\nRiga 2: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "DEFAULTDELAY 0\nALT F4\nA\nCOMMAND SPACE\nENTER\n",
+   "testo": "Valido: 4 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "ALT F4\nUPARROW\nCTRL-ALT-DELETE\nSTRING àèìòù\nREM commento\nDELAY 60001\nDELAY abc\nCOMMAND SPACE\nDELAY 0\nCTRL x y\n",
+   "testo": "Riga 4: carattere 'à' non digitabile con layout US\nRiga 6: DELAY richiede un numero 0-60000\nRiga 7: DELAY richiede un numero 0-60000\nRiga 10: comando sconosciuto: x"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRİNG x\nSTRING £§°ç\nGUI\nF01\nDELAY\nF0\nrem x\nDELAY -1\n\tDELAY 5\nCOMMAND SPACE\nREM commento\n-\nREPEAT 501\nstring minuscolo\n",
+   "testo": "Riga 1: comando sconosciuto: STRİNG\nRiga 2: carattere '£' non digitabile con layout US\nRiga 5: DELAY richiede un numero 0-60000\nRiga 6: comando sconosciuto: F0\nRiga 8: DELAY richiede un numero 0-60000\nRiga 13: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT a b\n-CTRL\nREPEAT 501\nSHIFT-\nALT F4\nSHIFT TAB\nF13\n£\nSTRING é\nDELAY 9999999999\nMENU\n",
+   "testo": "Riga 1: comando sconosciuto: a\nRiga 2: comando sconosciuto: -CTRL\nRiga 3: REPEAT richiede un numero 1-500\nRiga 7: comando sconosciuto: F13\nRiga 10: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "F01\nSTRING é\nCTRL -\nGUİ\n\nDELAY ٣٠\n0\nSTRING àèìòù\nSTRING  doppio spazio\nDELAY 60000\n",
+   "testo": "Riga 4: comando sconosciuto: GUİ"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "--\nDEFAULTDELAY 0\nCTRL-ALT-DELETE\nSTRING {}[]\nSTRING {}[]\nDEFAULT_DELAY 10001\nDELAY 60000\nDELAY 60000\n€\nDELAY 99999999999\nrem x\nrem x\nF12\n\tDELAY 5\n",
+   "testo": "Riga 6: DEFAULT_DELAY richiede un numero 0-10000\nRiga 10: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "F12\nSTRING àèìòù\nREPEAT 501\nREM commento\nCTRL SHIFT ESC\nSTRING a\tb\nF12\nDELAY -1\nREM commento\na\n",
+   "testo": "Riga 3: REPEAT richiede un numero 1-500\nRiga 8: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "£\nDELAY 0\n@\nSTRING {}[]\nF0\nSHIFT TAB\nREPEAT 0",
+   "testo": "Riga 1: comando sconosciuto: £\nRiga 5: comando sconosciuto: F0\nRiga 7: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI r\nSTRING Ciao\nWINDOWS\nstring minuscolo\n£\nCTRL ALT DEL\nMENU\nSTRING ~`\nALTGR e\nF0",
+   "testo": "Riga 5: comando sconosciuto: £\nRiga 10: comando sconosciuto: F0"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING a\tb\nDEFAULTDELAY 0\n€\nDEFAULTDELAY 0\nF1\n",
+   "testo": "Valido: 3 azioni, 3 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI r\nCTRL--\nCTRL £\n£\n\nGUI r\n-CTRL\nSTRING 🐙\n£\nDEFAULT_DELAY x\nPIPPO\nREPEAT 501\nf5\nSHIFT TAB",
+   "testo": "Riga 7: comando sconosciuto: -CTRL\nRiga 8: carattere '🐙' non digitabile con layout IT\nRiga 10: DEFAULT_DELAY richiede un numero 0-10000\nRiga 11: comando sconosciuto: PIPPO\nRiga 12: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING a\tb\nALT F4\na\n",
+   "testo": "Valido: 3 azioni, 3 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRİNG x\nA\n€\nDELAY abc\nctrl c\nF1\n-\nCTRL x y\nDELAY abc\n// nota\nDELAY ٣٠\nREPEAT 3",
+   "testo": "Riga 1: comando sconosciuto: STRİNG\nRiga 4: DELAY richiede un numero 0-60000\nRiga 8: comando sconosciuto: x\nRiga 9: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "  STRING indentato  \nA\nGUI r\nALTGR e\n-\nSHIFT-\nctrl c\nREPEAT 0\n-CTRL\nSTRING 🐙\n\tDELAY 5\nREM commento\nF1\n",
+   "testo": "Riga 8: REPEAT richiede un numero 1-500\nRiga 9: comando sconosciuto: -CTRL\nRiga 10: carattere '🐙' non digitabile con layout IT"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING \nCTRL SHIFT ESC\na\n€\n\n// nota\nALT-F4\n// nota\nSTRING {}[]\nDELAY ٣٠\nCTRL £\nF13\nctrl c",
+   "testo": "Riga 4: comando sconosciuto: €\nRiga 11: comando sconosciuto: £\nRiga 12: comando sconosciuto: F13"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DEFAULT_DELAY 10001\n1\nDEFAULT_DELAY x\nSHIFT TAB\nREPEAT 3\nGUI r\nSTRING \n  STRING indentato  \nUPARROW\n1\nDELAY abc\n",
+   "testo": "Riga 1: DEFAULT_DELAY richiede un numero 0-10000\nRiga 3: DEFAULT_DELAY richiede un numero 0-10000\nRiga 11: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRİNG x\n",
+   "testo": "Riga 1: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "MENU\nALTGR e\nMENU\na\nSTRING {}[]\nCTRL £\n",
+   "testo": "Valido: 6 azioni, 4 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "  STRING indentato  \nÄ\nALT-F4\nDELAY abc",
+   "testo": "Riga 2: comando sconosciuto: Ä\nRiga 4: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DEFAULT_DELAY 50\nCTRL £\n// nota\n@\nSTRING \nF01\n1\nSHIFT TAB\nF0\nSTRING 🐙\nREPEAT 3\nDELAY 60000\nf5\n",
+   "testo": "Riga 9: comando sconosciuto: F0\nRiga 10: carattere '🐙' non digitabile con layout IT"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "// nota\nREPEAT 0\nREM commento\n// nota\nSHIFT-\nCTRL--\nDEFAULT_DELAY x\nDELAY 99999999999\nSTRING é\nDEFAULT_DELAY x\nSTRING Ciao\n",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 7: DEFAULT_DELAY richiede un numero 0-10000\nRiga 8: DELAY richiede un numero 0-60000\nRiga 10: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT-\nGUİ\nDELAY 9999999999\n--\nF01\nF01\nSTRING　x\nSTRING àèìòù\nSTRING x\r\nÄ\nDELAY abc\n",
+   "testo": "Riga 2: comando sconosciuto: GUİ\nRiga 3: DELAY richiede un numero 0-60000\nRiga 8: carattere 'à' non digitabile con layout US\nRiga 10: comando sconosciuto: Ä\nRiga 11: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "Ä\n// nota\nSTRINGLN riga\nSTRING　x\nF01\n\nREPEAT 0\nCTRL-ALT-DELETE\n-\n--\nSHIFT-\n-\nÄ\nGUI r",
+   "testo": "Riga 1: comando sconosciuto: Ä\nRiga 7: REPEAT richiede un numero 1-500\nRiga 13: comando sconosciuto: Ä"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "Ä\nDELAY abc\n-CTRL\nCTRL -\nstring minuscolo",
+   "testo": "Riga 1: comando sconosciuto: Ä\nRiga 2: DELAY richiede un numero 0-60000\nRiga 3: comando sconosciuto: -CTRL"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "ALT F4\nSTRINGLN riga\nCTRL-ALT-DELETE\nDELAY 60001\nUPARROW\n@\nDEFAULTDELAY 0\n@\nrem x\nstring minuscolo\nDELAY 9999999999\nSTRINGLN riga\nf5",
+   "testo": "Riga 4: DELAY richiede un numero 0-60000\nRiga 11: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING a\tb\nSTRING 🐙\n-\nDELAY 9999999999\nDELAY 0\nDELAY -1\n",
+   "testo": "Riga 2: carattere '🐙' non digitabile con layout IT\nRiga 4: DELAY richiede un numero 0-60000\nRiga 6: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "DELAY 60000\nctrl c\nA\n",
+   "testo": "Valido: 3 azioni, 0 caratteri, pause totali 60.0 s, durata stimata 60.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING  doppio spazio\n-CTRL\n// nota\nstring minuscolo\nSTRING ~`\nDELAY 60000\nSTRING €@#\nENTER\nDELAY ٣٠\nGUİ\n@\nSTRING \nREPEAT x",
+   "testo": "Riga 2: comando sconosciuto: -CTRL\nRiga 7: carattere '€' non digitabile con layout US\nRiga 10: comando sconosciuto: GUİ\nRiga 13: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING àèìòù\nSHIFT TAB\nSTRING x\r\nDEFAULTDELAY 0\nf5\nPIPPO",
+   "testo": "Riga 6: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "F13\nREPEAT 3\nSTRING €@#\nDELAY abc\nF13\nSTRING  doppio spazio\n€\n",
+   "testo": "Riga 1: comando sconosciuto: F13\nRiga 2: REPEAT senza un comando precedente\nRiga 4: DELAY richiede un numero 0-60000\nRiga 5: comando sconosciuto: F13"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING　x\nDELAY 9999999999\nDELAY 99999999999\nÄ",
+   "testo": "Riga 2: DELAY richiede un numero 0-60000\nRiga 3: DELAY richiede un numero 0-60000\nRiga 4: comando sconosciuto: Ä"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "// nota\nENTER ENTER",
+   "testo": "Riga 2: comando sconosciuto: ENTER"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "ALT F4\nREPEAT x\nALT F4\nDELAY ٣٠\nDEFAULT_DELAY x\nA",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 5: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "DEFAULT_DELAY 50",
+   "testo": "Valido: 0 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DEFAULT_DELAY x\nstring minuscolo\nUPARROW\n\nMENU",
+   "testo": "Riga 1: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "è\nCTRL\nCTRL x y\nCTRL ALT DEL\nWINDOWS\nREPEAT 501\n0\nF٣\nCTRL x y\n1\nDELAY -1\nF٣\nALT F4\n",
+   "testo": "Riga 3: comando sconosciuto: x\nRiga 6: REPEAT richiede un numero 1-500\nRiga 9: comando sconosciuto: x\nRiga 11: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING \nREPEAT 3\nCTRL -\nPIPPO",
+   "testo": "Riga 4: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "£\nSTRING àèìòù\nDEFAULT_DELAY x\nDELAY abc\nSTRING　x\nGUI",
+   "testo": "Riga 3: DEFAULT_DELAY richiede un numero 0-10000\nRiga 4: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "--\nSTRING a\tb\nSHIFT a b\nè\nPIPPO\nSHIFT a b\nF0\nSTRİNG x\n\tDELAY 5\n  STRING indentato  \nF01\n",
+   "testo": "Riga 3: comando sconosciuto: a\nRiga 5: comando sconosciuto: PIPPO\nRiga 6: comando sconosciuto: a\nRiga 7: comando sconosciuto: F0\nRiga 8: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "1\nF٣\nSTRING x\r\nALTGR e\nF12\nSTRING é\n",
+   "testo": "Valido: 6 azioni, 2 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "-CTRL\nSTRING a\tb\nSTRİNG x",
+   "testo": "Riga 1: comando sconosciuto: -CTRL\nRiga 3: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "A\nCTRL -\nCTRL SHIFT ESC\n1\nSTRING　x\n",
+   "testo": "Valido: 5 azioni, 1 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI r\nDELAY 99999999999\nWINDOWS\nF٣\nÄ\nCTRL-ALT-DELETE\nF٣\nSTRING {}[]\nREPEAT 0\n// nota\n",
+   "testo": "Riga 2: DELAY richiede un numero 0-60000\nRiga 5: comando sconosciuto: Ä\nRiga 9: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "ENTER ENTER\n@",
+   "testo": "Riga 1: comando sconosciuto: ENTER"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI\nREPEAT 3\nrem x\nSTRING €@#\nCTRL SHIFT ESC\nF13\nGUI\nSTRING {}[]\nMENU\nSTRING ~`\nENTER ENTER\nSTRING 🐙\nDELAY abc\nrem x",
+   "testo": "Riga 6: comando sconosciuto: F13\nRiga 10: carattere '~' non digitabile con layout IT\nRiga 11: comando sconosciuto: ENTER\nRiga 12: carattere '🐙' non digitabile con layout IT\nRiga 13: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "£\nCOMMAND SPACE\nGUI\nSTRING  doppio spazio\n \nSTRING a\tb\nENTER ENTER\nÄ\nDEFAULT_DELAY x\nSTRING  doppio spazio\nSTRING €@#\nALT F4\nGUI\nDEFAULTDELAY 0\n",
+   "testo": "Riga 7: comando sconosciuto: ENTER\nRiga 8: comando sconosciuto: Ä\nRiga 9: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING ~`\nREPEAT x\nGUİ\n--\nDELAY 100\nDELAY -1\n",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 3: comando sconosciuto: GUİ\nRiga 6: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY\nCTRL-ALT-DELETE\n-CTRL\n--\n-CTRL\n\nENTER\nENTER ENTER\n",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000\nRiga 3: comando sconosciuto: -CTRL\nRiga 5: comando sconosciuto: -CTRL\nRiga 8: comando sconosciuto: ENTER"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "--\nWINDOWS\nCTRL x y\nCTRL £\nDELAY\nDEFAULT_DELAY x\nREPEAT 0\na\nSHIFT a b\n",
+   "testo": "Riga 3: comando sconosciuto: x\nRiga 4: comando sconosciuto: £\nRiga 5: DELAY richiede un numero 0-60000\nRiga 6: DEFAULT_DELAY richiede un numero 0-10000\nRiga 7: REPEAT richiede un numero 1-500\nRiga 9: comando sconosciuto: a"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT\nstring minuscolo\nCTRL ALT DEL\nSTRING €@#\n@\nA\nSTRING é\nCTRL x y\n-",
+   "testo": "Riga 1: REPEAT richiede un numero 1-500\nRiga 4: carattere '€' non digitabile con layout US\nRiga 7: carattere 'é' non digitabile con layout US\nRiga 8: comando sconosciuto: x"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI\nDELAY 99999999999\nSHIFT\nALTGR e\n--\nDELAY 0\nALT-F4\n0\nSTRING  doppio spazio\nF01\n// nota\n",
+   "testo": "Riga 2: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "A\nCTRL x y\nstring minuscolo\nrem x\nrem x",
+   "testo": "Riga 2: comando sconosciuto: x"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL x y\nA\nrem x\nDEFAULT_DELAY 50\n",
+   "testo": "Riga 1: comando sconosciuto: x"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUI r\n0\nUPARROW\nALT F4\nctrl c\nREPEAT 501\nCTRL--\nSHIFT-\n \na",
+   "testo": "Riga 6: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING {}[]\nREPEAT 0\n-CTRL\nGUI\nSTRING Ciao\nSTRING x\r\nSTRING ~`\nDELAY 60001\n1\nSHIFT TAB\nSTRING £§°ç",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 3: comando sconosciuto: -CTRL\nRiga 8: DELAY richiede un numero 0-60000\nRiga 11: carattere '£' non digitabile con layout US"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "GUI",
+   "testo": "Valido: 1 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "F0\nSTRING a\tb\nDEFAULT_DELAY 10001\nF01\nREPEAT x",
+   "testo": "Riga 1: comando sconosciuto: F0\nRiga 3: DEFAULT_DELAY richiede un numero 0-10000\nRiga 5: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "WINDOWS\n0\n",
+   "testo": "Valido: 2 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "F01\nSTRİNG x\n",
+   "testo": "Riga 2: comando sconosciuto: STRİNG"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING €@#\nF0\nÄ\n\nrem x\nDELAY 9999999999\nSTRING  doppio spazio\nGUI r\nSTRING €@#\nSTRING \nREPEAT\n€",
+   "testo": "Riga 2: comando sconosciuto: F0\nRiga 3: comando sconosciuto: Ä\nRiga 6: DELAY richiede un numero 0-60000\nRiga 11: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "REPEAT\n// nota",
+   "testo": "Riga 1: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "-CTRL\nWINDOWS\nÄ\nALT-F4\nF0\n0\n \nREPEAT 3\n@\n\tDELAY 5\nALT-F4\n£\n",
+   "testo": "Riga 1: comando sconosciuto: -CTRL\nRiga 3: comando sconosciuto: Ä\nRiga 5: comando sconosciuto: F0"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT a b\nDEFAULT_DELAY 10001\nENTER\nctrl c",
+   "testo": "Riga 1: comando sconosciuto: a\nRiga 2: DEFAULT_DELAY richiede un numero 0-10000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "0\n  STRING indentato  \nDELAY 99999999999\nSTRING \n",
+   "testo": "Riga 3: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL ALT DEL\n@",
+   "testo": "Valido: 2 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DEFAULT_DELAY 10001\nDELAY ٣٠\nSHIFT TAB\nSTRING 🐙\nSTRINGLN riga\nSHIFT a b\nF13\nSHIFT-",
+   "testo": "Riga 1: DEFAULT_DELAY richiede un numero 0-10000\nRiga 4: carattere '🐙' non digitabile con layout US\nRiga 6: comando sconosciuto: a\nRiga 7: comando sconosciuto: F13"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "WINDOWS\nCTRL SHIFT ESC\nSTRING é\nF01\nSTRING Ciao\nSTRING\tTab",
+   "testo": "Riga 3: carattere 'é' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "Ä\nDELAY 60001\nrem x\nSTRING  doppio spazio\nCTRL--\nSTRING  doppio spazio\nALTGR e\n--\n",
+   "testo": "Riga 1: comando sconosciuto: Ä\nRiga 2: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "SHIFT a b\nCTRL x y\nWINDOWS\nDELAY abc\nCTRL\nCTRL--\n",
+   "testo": "Riga 1: comando sconosciuto: a\nRiga 2: comando sconosciuto: x\nRiga 4: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": " \nSHIFT a b\nALT-F4\nCTRL\nDELAY ٣٠\nSTRING ~`\n\nDELAY 9999999999\n\nSTRING £§°ç\nF0\n\n",
+   "testo": "Riga 2: comando sconosciuto: a\nRiga 8: DELAY richiede un numero 0-60000\nRiga 10: carattere '£' non digitabile con layout US\nRiga 11: comando sconosciuto: F0"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY abc\nSTRING Ciao\nSTRING　x\nDELAY -1\n",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000\nRiga 4: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL x y\nctrl c\nstring minuscolo\n// nota\nDELAY 0\nf5\n0\nCTRL £\nf5\nDELAY abc\n",
+   "testo": "Riga 1: comando sconosciuto: x\nRiga 10: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "Ä\n \nWINDOWS\nGUI r\nGUİ\nSHIFT TAB\n\tDELAY 5\nDELAY 60000\n£\nF01\nCTRL £",
+   "testo": "Riga 1: comando sconosciuto: Ä\nRiga 5: comando sconosciuto: GUİ\nRiga 9: comando sconosciuto: £\nRiga 11: comando sconosciuto: £"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "GUİ\n",
+   "testo": "Riga 1: comando sconosciuto: GUİ"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY 0\nDEFAULTDELAY 0\nALT-F4\n// nota\nDELAY\n£\nCTRL x y\n-CTRL\na\nDELAY abc\nGUI r\n0\n-\n",
+   "testo": "Riga 5: DELAY richiede un numero 0-60000\nRiga 7: comando sconosciuto: x\nRiga 8: comando sconosciuto: -CTRL\nRiga 10: DELAY richiede un numero 0-60000"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "CTRL-ALT-DELETE\nSTRING €@#\nf5\nSHIFT-\nSTRİNG x\nSTRING　x\nREPEAT x\nSTRING é",
+   "testo": "Riga 2: carattere '€' non digitabile con layout US\nRiga 5: comando sconosciuto: STRİNG\nRiga 7: REPEAT richiede un numero 1-500\nRiga 8: carattere 'é' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "CTRL\n£\nCTRL--\nCTRL -\nWINDOWS\nDELAY 60000\n\n",
+   "testo": "Valido: 6 azioni, 0 caratteri, pause totali 60.0 s, durata stimata 60.1 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "ENTER\nSHIFT-\nSHIFT\n",
+   "testo": "Valido: 3 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.1 s (layout IT)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "1\nè\nALTGR e\n// nota\nF٣\nDELAY 60001\nCTRL £\nPIPPO\nSHIFT\nF12\nSHIFT a b\nWINDOWS\nENTER ENTER",
+   "testo": "Riga 6: DELAY richiede un numero 0-60000\nRiga 8: comando sconosciuto: PIPPO\nRiga 11: comando sconosciuto: a\nRiga 13: comando sconosciuto: ENTER"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY -1\nCTRL x y\n1\nF٣\nSHIFT-\n£\nREPEAT\nSHIFT a b\nCTRL--\nf5\nPIPPO\n \n",
+   "testo": "Riga 1: DELAY richiede un numero 0-60000\nRiga 2: comando sconosciuto: x\nRiga 6: comando sconosciuto: £\nRiga 7: REPEAT richiede un numero 1-500\nRiga 8: comando sconosciuto: a\nRiga 11: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "a\nALT F4\nSTRING\tTab\n\tDELAY 5\n \nENTER\nSTRING  doppio spazio\nDELAY\nCTRL SHIFT ESC\nè\nCTRL SHIFT ESC\nSTRING {}[]\nCTRL SHIFT ESC\nSTRING àèìòù",
+   "testo": "Riga 8: DELAY richiede un numero 0-60000\nRiga 10: comando sconosciuto: è\nRiga 14: carattere 'à' non digitabile con layout US"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": true
+   },
+   "src": "è\nA",
+   "testo": "Valido: 2 azioni, 0 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": true
+   },
+   "src": "DELAY 100\n1\nSTRING a\tb\nREM commento\n \n",
+   "testo": "Valido: 3 azioni, 3 caratteri, pause totali 0.1 s, durata stimata 0.2 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING Ciao\nREPEAT 0\nF13\nGUİ",
+   "testo": "Riga 2: REPEAT richiede un numero 1-500\nRiga 3: comando sconosciuto: F13\nRiga 4: comando sconosciuto: GUİ"
+  },
+  {
+   "layout": "US",
+   "r": {
+    "ok": false
+   },
+   "src": "£\nDELAY 0\nDEFAULTDELAY 0\nSTRING\tTab\n0\nstring minuscolo\nstring minuscolo\nREPEAT 501\n",
+   "testo": "Riga 1: comando sconosciuto: £\nRiga 8: REPEAT richiede un numero 1-500"
+  },
+  {
+   "layout": "IT",
+   "r": {
+    "ok": false
+   },
+   "src": "DELAY ٣٠\n \n// nota\nDEFAULTDELAY 0\nUPARROW\nDELAY 99999999999\nSTRING é\n0\nPIPPO\nDELAY abc\nSHIFT-\nSTRING a\tb\nWINDOWS\n\tDELAY 5",
+   "testo": "Riga 6: DELAY richiede un numero 0-60000\nRiga 9: comando sconosciuto: PIPPO\nRiga 10: DELAY richiede un numero 0-60000"
+  }
+ ],
+ "copy": [
+  {
+   "att": [
+    [
+     "usb",
+     "Script copiato sul Polpo: /polpo/badusb/prova.txt",
+     "avviso",
+     false
+    ]
+   ],
+   "msg": [
+    [
+     "Conferma sullo schermo del Polpo per salvare lo script…",
+     false
+    ],
+    [
+     "Copiato in /polpo/badusb/prova.txt. Per eseguirlo usa l'app BadUSB sul Polpo.",
+     false
+    ]
+   ],
+   "n": "prova",
+   "scritti": [
+    [
+     "/polpo/badusb/prova.txt",
+     "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n"
+    ]
+   ],
+   "sim": false,
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n"
+  },
+  {
+   "att": [
+    [
+     "usb",
+     "Script copiato sul Polpo: /polpo/badusb/prova.txt",
+     "avviso",
+     true
+    ]
+   ],
+   "msg": [
+    [
+     "Conferma sullo schermo del Polpo per salvare lo script…",
+     false
+    ],
+    [
+     "Copiato in /polpo/badusb/prova.txt. Per eseguirlo usa l'app BadUSB sul Polpo. · SIMULATO",
+     false
+    ]
+   ],
+   "n": "prova",
+   "scritti": [
+    [
+     "/polpo/badusb/prova.txt",
+     "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n"
+    ]
+   ],
+   "sim": true,
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n"
+  },
+  {
+   "att": [],
+   "msg": [
+    [
+     "Scrivi un nome per lo script.",
+     true
+    ]
+   ],
+   "n": "",
+   "scritti": [],
+   "sim": false,
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n"
+  },
+  {
+   "att": [],
+   "msg": [
+    [
+     "Scrivi un nome per lo script.",
+     true
+    ]
+   ],
+   "n": "",
+   "scritti": [],
+   "sim": true,
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n"
+  },
+  {
+   "att": [],
+   "msg": [
+    [
+     "Correggi prima gli errori.",
+     true
+    ]
+   ],
+   "n": "x",
+   "scritti": [],
+   "sim": false,
+   "src": "PIPPO"
+  },
+  {
+   "att": [],
+   "msg": [
+    [
+     "Correggi prima gli errori.",
+     true
+    ]
+   ],
+   "n": "x",
+   "scritti": [],
+   "sim": true,
+   "src": "PIPPO"
+  },
+  {
+   "att": [
+    [
+     "usb",
+     "Script copiato sul Polpo: /polpo/badusb/__.txt",
+     "avviso",
+     false
+    ]
+   ],
+   "msg": [
+    [
+     "Conferma sullo schermo del Polpo per salvare lo script…",
+     false
+    ],
+    [
+     "Copiato in /polpo/badusb/__.txt. Per eseguirlo usa l'app BadUSB sul Polpo.",
+     false
+    ]
+   ],
+   "n": "àè",
+   "scritti": [
+    [
+     "/polpo/badusb/__.txt",
+     "STRING ok"
+    ]
+   ],
+   "sim": false,
+   "src": "STRING ok"
+  },
+  {
+   "att": [
+    [
+     "usb",
+     "Script copiato sul Polpo: /polpo/badusb/__.txt",
+     "avviso",
+     true
+    ]
+   ],
+   "msg": [
+    [
+     "Conferma sullo schermo del Polpo per salvare lo script…",
+     false
+    ],
+    [
+     "Copiato in /polpo/badusb/__.txt. Per eseguirlo usa l'app BadUSB sul Polpo. · SIMULATO",
+     false
+    ]
+   ],
+   "n": "àè",
+   "scritti": [
+    [
+     "/polpo/badusb/__.txt",
+     "STRING ok"
+    ]
+   ],
+   "sim": true,
+   "src": "STRING ok"
+  }
+ ],
+ "filename": [
+  {
+   "msg": [],
+   "n": "mio_script",
+   "r": "mio_script.txt"
+  },
+  {
+   "msg": [
+    [
+     "Scrivi un nome per lo script.",
+     true
+    ]
+   ],
+   "n": "",
+   "r": null
+  },
+  {
+   "msg": [
+    [
+     "Scrivi un nome per lo script.",
+     true
+    ]
+   ],
+   "n": "   ",
+   "r": null
+  },
+  {
+   "msg": [],
+   "n": "a b/c",
+   "r": "a_b_c.txt"
+  },
+  {
+   "msg": [],
+   "n": "àèì",
+   "r": "___.txt"
+  },
+  {
+   "msg": [],
+   "n": "🐙",
+   "r": "_.txt"
+  },
+  {
+   "msg": [],
+   "n": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "r": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.txt"
+  },
+  {
+   "msg": [],
+   "n": "nome-ok_1",
+   "r": "nome-ok_1.txt"
+  },
+  {
+   "msg": [],
+   "n": "..",
+   "r": "__.txt"
+  },
+  {
+   "msg": [],
+   "n": "\tpippo\n",
+   "r": "pippo.txt"
+  },
+  {
+   "msg": [],
+   "n": "a　b",
+   "r": "a_b.txt"
+  },
+  {
+   "msg": [],
+   "n": "Ciao Mondo!",
+   "r": "Ciao_Mondo_.txt"
+  }
+ ],
+ "save": [
+  {
+   "layout": "IT",
+   "messi": [
+    {
+     "categoria": "altro",
+     "dati": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n",
+     "meta": {
+      "layout": "IT",
+      "tipo": "duckyscript"
+     },
+     "nome": "prova.txt"
+    }
+   ],
+   "msg": [
+    [
+     "Script salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "n": "prova",
+   "r": {
+    "ok": true
+   },
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n",
+   "testo": "Valido: 8 azioni, 22 caratteri, pause totali 1.5 s, durata stimata 1.8 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "messi": [
+    {
+     "categoria": "altro",
+     "dati": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n",
+     "meta": {
+      "layout": "US",
+      "tipo": "duckyscript"
+     },
+     "nome": "prova.txt"
+    }
+   ],
+   "msg": [
+    [
+     "Script salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "n": "prova",
+   "r": {
+    "ok": true
+   },
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n",
+   "testo": "Valido: 8 azioni, 22 caratteri, pause totali 1.5 s, durata stimata 1.8 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "messi": [],
+   "msg": [
+    [
+     "Scrivi un nome per lo script.",
+     true
+    ]
+   ],
+   "n": "",
+   "r": {
+    "ok": false
+   },
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n",
+   "testo": ""
+  },
+  {
+   "layout": "US",
+   "messi": [],
+   "msg": [
+    [
+     "Scrivi un nome per lo script.",
+     true
+    ]
+   ],
+   "n": "",
+   "r": {
+    "ok": false
+   },
+   "src": "REM Apre il Blocco note e scrive un saluto (Windows)\nDELAY 500\nGUI r\nDELAY 300\nSTRING notepad\nENTER\nDELAY 700\nSTRINGLN Ciao dal Polpo!\n",
+   "testo": ""
+  },
+  {
+   "layout": "IT",
+   "messi": [],
+   "msg": [],
+   "n": "x y",
+   "r": {
+    "ok": false
+   },
+   "src": "PIPPO",
+   "testo": "Riga 1: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "US",
+   "messi": [],
+   "msg": [],
+   "n": "x y",
+   "r": {
+    "ok": false
+   },
+   "src": "PIPPO",
+   "testo": "Riga 1: comando sconosciuto: PIPPO"
+  },
+  {
+   "layout": "IT",
+   "messi": [
+    {
+     "categoria": "altro",
+     "dati": "STRING ok",
+     "meta": {
+      "layout": "IT",
+      "tipo": "duckyscript"
+     },
+     "nome": "__.txt"
+    }
+   ],
+   "msg": [
+    [
+     "Script salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "n": "àè",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING ok",
+   "testo": "Valido: 1 azioni, 2 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout IT)."
+  },
+  {
+   "layout": "US",
+   "messi": [
+    {
+     "categoria": "altro",
+     "dati": "STRING ok",
+     "meta": {
+      "layout": "US",
+      "tipo": "duckyscript"
+     },
+     "nome": "__.txt"
+    }
+   ],
+   "msg": [
+    [
+     "Script salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "n": "àè",
+   "r": {
+    "ok": true
+   },
+   "src": "STRING ok",
+   "testo": "Valido: 1 azioni, 2 caratteri, pause totali 0.0 s, durata stimata 0.0 s (layout US)."
+  },
+  {
+   "layout": "IT",
+   "messi": [],
+   "msg": [],
+   "n": "z",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING 🐙",
+   "testo": "Riga 1: carattere '🐙' non digitabile con layout IT"
+  },
+  {
+   "layout": "US",
+   "messi": [],
+   "msg": [],
+   "n": "z",
+   "r": {
+    "ok": false
+   },
+   "src": "STRING 🐙",
+   "testo": "Riga 1: carattere '🐙' non digitabile con layout US"
+  }
+ ]
+}
