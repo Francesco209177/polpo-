@@ -1,0 +1,32 @@
+schermo universale-tv a8fba8e6
+schermo universale-fine fb155a40
+evento {"tipo":"luminosita","valore":170}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"ir.tx","portante":38000,"impulsi":67,"protocollo":"Samsung32","indirizzo":7,"comando":2,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"ir.tx","portante":38000,"impulsi":67,"protocollo":"NEC","indirizzo":4,"comando":8,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"ir.tx","portante":40000,"impulsi":77,"protocollo":"SIRC","indirizzo":1,"comando":21,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"ir.tx","portante":36000,"impulsi":23,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"ir.tx","portante":36000,"impulsi":41,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"ir.tx","portante":37000,"impulsi":99,"protocollo":"Kaseikyo","indirizzo":2097792,"comando":976,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"ir.tx","portante":38000,"impulsi":67,"protocollo":"NEC","indirizzo":64,"comando":18,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+schermo impara-in-ascolto 1801af51
+mondo {"ok":false,"errore":"nessuna IR Unit collegata alla porta Grove"}
+schermo impara-senza-modulo 1801af51
+mondo {"ok":true,"modulo":"ir","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":false,"tipo_tag":"ntag213","luminosita":170}
+mondo {"ok":true,"ms":67}
+schermo impara-ricevuto 4cc876d7
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":1760,"ms":60}
+evento {"tipo":"ir.tx","portante":38000,"impulsi":67,"protocollo":"NEC","indirizzo":4,"comando":8,"nota":"SIMULATO: nessuna luce infrarossa emessa"}
+evento {"tipo":"suono","hz":2900,"ms":25}
+schermo impara-salvato 88a47b52
+schermo dopo-il-salvataggio 1801af51

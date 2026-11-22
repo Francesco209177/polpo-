@@ -1,0 +1,38 @@
+# Telecomando universale (la TV finta deve riconoscere i codici) e apprendimento di un tasto con la IR Unit.
+attendi 500
+tasto ok
+tasto ok
+tasto ok
+schermo universale-tv
+tasto ok
+attendi 2500
+schermo universale-fine
+eventi
+tasto indietro
+tasto indietro
+# impara un telecomando: serve la IR Unit sulla porta Grove
+tasto giu
+tasto giu
+tasto giu
+tasto ok
+attendi 300
+schermo impara-in-ascolto
+mondo {"cmd":"telecomando","protocollo":"NEC","indirizzo":4,"comando":8}
+attendi 300
+schermo impara-senza-modulo
+mondo {"cmd":"modulo","valore":"ir"}
+mondo {"cmd":"telecomando","protocollo":"NEC","indirizzo":4,"comando":8}
+attendi 300
+schermo impara-ricevuto
+# t = prova: ritrasmette ciò che ha imparato
+tasto t
+attendi 300
+eventi
+tasto ok
+scrivi Volume
+tasto ok
+attendi 300
+schermo impara-salvato
+tasto ok
+attendi 200
+schermo dopo-il-salvataggio
