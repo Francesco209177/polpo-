@@ -88,6 +88,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
       - uses: actions/download-artifact@v4
         with: { name: polpo-sim, path: firmware-web }
       - name: Firmware simulato per gli script del Polpo virtuale
@@ -104,6 +106,17 @@ jobs:
         # le prove degli script non si possono saltare: il firmware simulato qui c'è sempre
         env: { QT_QPA_PLATFORM: offscreen, POLPO_FIRMWARE_SIM: obbligatorio }
         run: python -m pytest -q
+      # Studio nel telefono è scritto in JavaScript: deve dare gli stessi risultati di Polpo Studio per PC. I casi di
+      # prova si generano qui dal codice Python e devono essere quelli salvati nel repository.
+      - name: Studio nel telefono, casi di prova generati da Polpo Studio
+        run: |
+          shopt -s nullglob
+          for g in site/tests/studio/casi/genera_*.py; do python "$g"; done
+          git diff --exit-code -- site/tests/studio/casi || { echo "Casi di prova non aggiornati: rigenerali e salvali"; exit 1; }
+      - name: Studio nel telefono, prove JavaScript (parità, cassaforte compatibile, collegamento)
+        env:
+          POLPO_SIM_WASM: ${{ github.workspace }}/firmware-web/polpo-sim.wasm
+        run: POLPO_PYTHON="$(command -v python)" node --test "site/tests/studio/**/*.test.mjs"
 
   package:
     needs: studio-test
@@ -203,7 +216,7 @@ jobs:
           SITO_DIR: ${{ github.workspace }}/android/app/build/sito
         run: |
           npm ci && npx playwright install --with-deps chromium
-          node --test tests/e2e/app.test.mjs
+          node --test tests/e2e/app.test.mjs tests/e2e/studio.test.mjs
       - name: Compilazione, prove e controlli di Android
         working-directory: android
         run: gradle --no-daemon assembleDebug testDebugUnitTest lintDebug assembleDebugAndroidTest

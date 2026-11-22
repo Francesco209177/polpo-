@@ -66,6 +66,24 @@ class AppTest {
     }
 
     @Test
+    fun studioSiCollegaAlPolpoVirtualeConLaConfermaSulSuoSchermo() {
+        ActivityScenario.launch(MainActivity::class.java).use { s ->
+            vai(s, "studio/")
+            aspetta(s, "document.readyState === 'complete' && window.__studio")
+            // sull'emulatore non c'è nessun dispositivo USB
+            assertEquals("\"[]\"", js(s, "PolpoNativo.serialeElenco()"))
+            js(s, "document.getElementById('st-collega').click(); document.getElementById('st-virtuale').click(); 1")
+            aspetta(s, "document.getElementById('st-stato').dataset.stato === 'attesa_conferma'", 90)
+            Thread.sleep(500)
+            js(s, "document.querySelector('[data-tasto=destra]').click(); 1")
+            Thread.sleep(400)
+            js(s, "document.querySelector('[data-tasto=ok]').click(); 1")
+            aspetta(s, "document.getElementById('st-stato').dataset.stato === 'collegato'", 20)
+            assertTrue(js(s, "document.getElementById('st-stato').textContent").contains("SIMULATO"))
+        }
+    }
+
+    @Test
     fun nienteRete() {
         ActivityScenario.launch(MainActivity::class.java).use { s ->
             aspetta(s, "document.readyState === 'complete'")
