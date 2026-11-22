@@ -1,0 +1,24 @@
+schermo conferma-predefinito-no ad169781
+evento {"tipo":"luminosita","valore":170}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+schermo dopo-il-no 954120a2
+schermo conto-alla-rovescia 5185e202
+schermo dopo-la-scrittura b153b79a
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"usb.tasto","modificatori":2,"codice":6}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":12}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":4}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":18}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":44}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":7}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":4}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":15}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":44}
+evento {"tipo":"usb.tasto","modificatori":2,"codice":19}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":18}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":15}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":19}
+evento {"tipo":"usb.tasto","modificatori":0,"codice":18}
+evento {"tipo":"suono","hz":1760,"ms":60}
+schermo ritorno 954120a2

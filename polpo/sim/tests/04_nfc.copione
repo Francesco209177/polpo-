@@ -1,0 +1,48 @@
+# NFC: senza modulo, lettura di un tag NTAG213 con un testo, scrittura di un link e rilettura, carta non leggibile.
+attendi 500
+tasto ok
+tasto giu
+tasto giu
+tasto ok
+tasto ok
+attendi 800
+schermo senza-modulo
+tasto indietro
+mondo {"cmd":"modulo","valore":"rfid2"}
+tasto ok
+attendi 800
+schermo in-attesa-del-tag
+mondo {"cmd":"tag","tipo":"ntag213","vicino":true,"testo":"Ciao dal tag finto"}
+attendi 800
+schermo letto
+tasto indietro
+attendi 200
+schermo menu-nfc
+# scrivi un link
+tasto giu
+tasto ok
+attendi 300
+schermo scrivi-link
+scrivi polpo.example
+tasto ok
+attendi 1500
+schermo scritto-e-verificato
+eventi
+tasto ok
+# rilettura: deve comparire il link appena scritto
+tasto su
+tasto ok
+attendi 800
+schermo riletto
+tasto indietro
+# una carta che il Polpo riconosce ma non legge (MIFARE Classic): nessun dato deve comparire
+mondo {"cmd":"tag","tipo":"classic","vicino":true}
+tasto ok
+attendi 800
+schermo carta-classic
+tasto indietro
+# un Ultralight originale, senza comando di versione
+mondo {"cmd":"tag","tipo":"ultralight","vicino":true}
+tasto ok
+attendi 800
+schermo ultralight

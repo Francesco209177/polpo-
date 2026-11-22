@@ -1,0 +1,29 @@
+# BadUSB: la prova «Ciao» parte solo dopo la conferma; i tasti arrivano al PC finto. Poi uno script dalla microSD.
+attendi 500
+tasto ok
+tasto giu
+tasto giu
+tasto giu
+tasto ok
+tasto giu
+tasto giu
+tasto ok
+attendi 300
+schermo conferma-predefinito-no
+# OK sul «No» predefinito: non deve partire nulla
+tasto ok
+attendi 1500
+eventi
+schermo dopo-il-no
+tasto ok
+attendi 300
+tasto destra
+tasto ok
+attendi 500
+schermo conto-alla-rovescia
+attendi 6000
+schermo dopo-la-scrittura
+eventi
+tasto ok
+attendi 200
+schermo ritorno

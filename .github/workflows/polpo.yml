@@ -36,6 +36,15 @@ jobs:
       - name: Compilazione del firmware
         working-directory: polpo
         run: pio run -e cardputer
+      # Il firmware vero eseguito sul PC (polpo/sim): prove dell'interfaccia con controlli di memoria.
+      # Usa le stesse librerie appena scaricate per il dispositivo.
+      - name: Simulatore, compilazione
+        run: |
+          sudo apt-get install -y ninja-build
+          cmake -S polpo/sim -B build/sim -G Ninja
+          cmake --build build/sim
+      - name: Simulatore, prove dell'interfaccia
+        run: ctest --test-dir build/sim --output-on-failure
 
   studio-test:
     runs-on: ubuntu-24.04

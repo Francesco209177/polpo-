@@ -1,0 +1,23 @@
+# Senza microSD il Polpo si accende lo stesso e lo dice; le app che ne hanno bisogno lo spiegano.
+mondo {"cmd":"sd","presente":false}
+attendi 500
+schermo scrivania-senza-sd
+tasto ok
+tasto ok
+tasto giu
+tasto giu
+tasto ok
+attendi 300
+schermo telecomandi-senza-sd
+tasto indietro
+tasto indietro
+tasto indietro
+attendi 200
+tasto ok
+tasto su
+tasto su
+tasto su
+tasto su
+tasto ok
+attendi 300
+schermo file-senza-sd

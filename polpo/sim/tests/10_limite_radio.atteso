@@ -1,0 +1,23 @@
+mondo {"ok":true,"modulo":"rf433","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":false,"tipo_tag":"ntag213","luminosita":0}
+mondo {"ok":true,"ms":359}
+schermo pronto-a-ritrasmettere 59124f4c
+evento {"tipo":"luminosita","valore":170}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"rf.tx","impulsi":399,"ms":347,"valore":5592405,"bit":24,"impulso":350,"nota":"SIMULATO: nessuna onda radio emessa"}
+schermo ancora-sotto-il-limite 59124f4c
+conta rf.tx=801 suono=1602
+schermo limite-raggiunto 973afca5
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":330,"ms":180}
+schermo limite-quasi-esaurito 8337b694
+stato 2771 byte
+--- riavvio
+carica ok
+mondo {"ok":true,"modulo":"rf433","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":false,"tipo_tag":"ntag213","luminosita":0}
+schermo dopo-il-riavvio-il-limite-resta 8337b694
+schermo dopo-un-ora f021e3a8

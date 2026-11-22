@@ -12,14 +12,17 @@
 //   seriale <riga>          manda una riga sulla porta USB (Polpo Link) e stampa le risposte
 //   schermo <nome>          stampa l'impronta dello schermo e, se c'è la cartella, salva <nome>.ppm
 //   eventi                  stampa gli eventi accumulati (trasmissioni simulate, suoni...)
+//   conta                   li toglie dalla coda stampando solo quanti erano, per tipo
 //   stato <file>            salva microSD e impostazioni;   carica <file> le rilegge (solo prima di «avvia»)
 //   avvia                   accende il Polpo (se manca, viene fatto alla prima riga che lo richiede)
+//   ripeti <n> <riga>       esegue <n> volte la riga che segue (es. «ripeti 20 tasto ok»)
 //   # commento
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <fstream>
 #include <iostream>
+#include <map>
 #include <sstream>
 #include <string>
 #include <vector>
@@ -59,16 +62,29 @@ bool posto_di(const std::string& nome, Posto& p) {
 }
 
 void premi(const Posto& p, uint32_t ms) {
+    sim_avanza(sim_occupato());  // come una persona: si aspetta che il Polpo abbia finito prima di premere
     if (p.maiuscolo) sim_tasto(2, 1, 1);  // Maiusc
     sim_tasto(p.fila, p.colonna, 1);
     sim_avanza(ms);
     sim_tasto(p.fila, p.colonna, 0);
     if (p.maiuscolo) sim_tasto(2, 1, 0);
-    sim_avanza(60);
+    sim_avanza(sim_occupato() + 60);  // il rilascio va visto dal firmware, altrimenti la pressione successiva non conta
 }
 
 void stampa_eventi() {
     while (const char* e = sim_evento()) std::printf("evento %s\n", e);
+}
+
+void conta_eventi() {
+    std::map<std::string, int> quanti;
+    while (const char* e = sim_evento()) {
+        const std::string j = e;
+        const size_t a = j.find("\"tipo\":\""), b = a == std::string::npos ? a : j.find('"', a + 8);
+        ++quanti[b == std::string::npos ? "?" : j.substr(a + 8, b - a - 8)];
+    }
+    std::string riga = "conta";
+    for (const auto& q : quanti) riga += " " + q.first + "=" + std::to_string(q.second);
+    std::printf("%s\n", riga.c_str());
 }
 
 void stampa_seriale() {
@@ -98,10 +114,24 @@ int main(int argc, char** argv) {
         if (!acceso) sim_avvia();
         acceso = true;
     };
-    int numero = 0, errori = 0;
-    for (std::string riga; std::getline(copione, riga);) {
-        ++numero;
+    int numero = 0, errori = 0, volte = 0;
+    std::string riga, ripetuta;
+    for (;;) {
+        if (volte > 0) {
+            --volte;
+            riga = ripetuta;
+        } else {
+            if (!std::getline(copione, riga)) break;
+            ++numero;
+        }
         if (riga.empty() || riga[0] == '#') continue;
+        if (riga.compare(0, 7, "ripeti ") == 0) {
+            const size_t fine = riga.find(' ', 7);
+            volte = fine == std::string::npos ? 0 : std::atoi(riga.substr(7, fine - 7).c_str());
+            ripetuta = fine == std::string::npos ? "" : riga.substr(fine + 1);
+            if (volte <= 0 || ripetuta.empty() || ripetuta.compare(0, 7, "ripeti ") == 0) std::printf("riga %d: «ripeti» va scritto come: ripeti <n> <riga>\n", numero), ++errori, volte = 0;
+            continue;
+        }
         const size_t sp = riga.find(' ');
         const std::string cmd = riga.substr(0, sp);
         const std::string resto = sp == std::string::npos ? "" : riga.substr(sp + 1);
@@ -163,6 +193,8 @@ int main(int argc, char** argv) {
             }
         } else if (cmd == "eventi") {
             stampa_eventi();
+        } else if (cmd == "conta") {
+            conta_eventi();
         } else if (cmd == "stato") {
             size_t n = 0;
             const uint8_t* d = sim_stato_esporta(&n);

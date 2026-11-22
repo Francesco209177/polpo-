@@ -1,0 +1,46 @@
+# Radio 433 MHz: ricezione di un codice fisso dal telecomando finto, salvataggio, ritrasmissione, limite orario.
+attendi 500
+tasto ok
+tasto giu
+tasto ok
+tasto ok
+attendi 300
+schermo ricevi-in-ascolto
+# senza il modulo collegato il telecomando finto non arriva
+mondo {"cmd":"radiocomando","valore":5592405,"bit":24}
+mondo {"cmd":"modulo","valore":"rf433"}
+mondo {"cmd":"radiocomando","valore":5592405,"bit":24}
+attendi 800
+schermo ricevuto
+tasto ok
+schermo azioni
+tasto ok
+scrivi Presa
+tasto ok
+attendi 300
+schermo salvato
+tasto ok
+tasto giu
+tasto ok
+attendi 600
+schermo dopo-ritrasmissione
+eventi
+tasto giu
+tasto ok
+attendi 200
+schermo dettagli
+tasto indietro
+tasto indietro
+tasto indietro
+# limite di trasmissione: deve mostrare il tempo appena usato
+tasto giu
+tasto giu
+tasto giu
+tasto ok
+attendi 200
+schermo limite
+tasto indietro
+tasto su
+tasto ok
+attendi 300
+schermo segnali-salvati

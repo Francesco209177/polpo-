@@ -1,0 +1,37 @@
+# Wi-Fi e Bluetooth: scansioni con reti e dispositivi inventati dal mondo simulato; telecomando multimediale.
+attendi 500
+tasto ok
+tasto giu
+tasto giu
+tasto giu
+tasto giu
+tasto giu
+tasto ok
+tasto ok
+attendi 500
+schermo wifi-scansione
+attendi 2500
+schermo wifi-reti
+tasto ok
+attendi 200
+schermo wifi-dettaglio
+tasto indietro
+tasto indietro
+tasto indietro
+tasto su
+tasto ok
+tasto ok
+attendi 1000
+schermo ble-scansione
+attendi 6000
+schermo ble-dispositivi
+tasto indietro
+tasto giu
+tasto ok
+attendi 500
+schermo ble-telecomando-in-attesa
+attendi 3000
+schermo ble-telecomando-collegato
+tasto ok
+attendi 300
+eventi

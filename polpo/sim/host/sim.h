@@ -21,6 +21,8 @@ void sim_avvia(void);
 void sim_avanza(uint32_t ms);
 /* Millisecondi dell'orologio virtuale. */
 uint32_t sim_ora(void);
+/* Per quanti millisecondi ancora il firmware è occupato in un'operazione bloccante (0 = sta rispondendo). */
+uint32_t sim_occupato(void);
 
 /* Tastiera del Cardputer: fila 0-3, colonna 0-13. */
 void sim_tasto(int fila, int colonna, int premuto);

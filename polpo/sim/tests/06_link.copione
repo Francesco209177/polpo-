@@ -1,0 +1,50 @@
+# Polpo Link: il PC chiede il collegamento, il Polpo lo mostra e decide chi sta davanti allo schermo.
+attendi 500
+seriale {"id":1,"cmd":"ping"}
+seriale {"id":2,"cmd":"info"}
+seriale {"id":3,"cmd":"hello","args":{"client":"prova","proto":1}}
+attendi 200
+schermo richiesta-di-collegamento
+# rifiuto (OK sul «No» predefinito)
+tasto ok
+attendi 300
+seriale {"id":4,"cmd":"info"}
+# seconda richiesta, accettata
+seriale {"id":5,"cmd":"hello","args":{"client":"prova","proto":1}}
+attendi 200
+tasto destra
+tasto ok
+attendi 300
+schermo collegato
+seriale {"id":6,"cmd":"info"}
+seriale {"id":7,"cmd":"fs.list","args":{"path":"/polpo"}}
+seriale {"id":8,"cmd":"fs.read","args":{"path":"/polpo/badusb/ciao_linux.txt","offset":0,"len":64}}
+# un file scritto dal PC: prima con il controllo sbagliato (rifiutato), poi giusto
+seriale {"id":9,"cmd":"fs.write","args":{"path":"/polpo/rf433/rotto.sub","offset":0,"data":"RmlsZXR5cGU6IEZsaXBwZXIgU3ViR2h6IEtleSBGaWxlClZlcnNpb246IDEKRnJlcXVlbmN5OiA0MzM5MjAwMDAKUHJlc2V0OiBGdXJpSGFsU3ViR2h6UHJlc2V0T29rNjUwQXN5bmMKUHJvdG9jb2w6IFByaW5jZXRvbgpCaXQ6IDI0CktleTogMDAgMDAgMDAgMDAgMDAgNTUgNTUgNTUKVEU6IDM1MAo=","crc32":12345,"final":true}}
+seriale {"id":10,"cmd":"fs.write","args":{"path":"/polpo/rf433/dal_pc.sub","offset":0,"data":"RmlsZXR5cGU6IEZsaXBwZXIgU3ViR2h6IEtleSBGaWxlClZlcnNpb246IDEKRnJlcXVlbmN5OiA0MzM5MjAwMDAKUHJlc2V0OiBGdXJpSGFsU3ViR2h6UHJlc2V0T29rNjUwQXN5bmMKUHJvdG9jb2w6IFByaW5jZXRvbgpCaXQ6IDI0CktleTogMDAgMDAgMDAgMDAgMDAgNTUgNTUgNTUKVEU6IDM1MAo=","crc32":4190605686,"final":true}}
+seriale {"id":11,"cmd":"fs.list","args":{"path":"/polpo/rf433"}}
+# fuori dalla cartella del Polpo non si scrive e non si legge
+seriale {"id":12,"cmd":"fs.read","args":{"path":"/../segreto.txt","offset":0,"len":16}}
+# una trasmissione radio chiesta dal PC va confermata sul Polpo: senza risposta entro 20 secondi è rifiutata
+mondo {"cmd":"modulo","valore":"rf433"}
+seriale {"id":13,"cmd":"rf.tx","args":{"file":"/polpo/rf433/dal_pc.sub"}}
+attendi 300
+schermo conferma-trasmissione
+attendi 21000
+seriale {"id":14,"cmd":"ping"}
+eventi
+# seconda richiesta, questa volta accettata: il mondo simulato deve vedere il codice
+seriale {"id":15,"cmd":"rf.tx","args":{"file":"/polpo/rf433/dal_pc.sub"}}
+attendi 300
+tasto destra
+tasto ok
+attendi 1500
+seriale {"id":16,"cmd":"ping"}
+eventi
+# un comando che non esiste, e una riga che non è JSON
+seriale {"id":17,"cmd":"badusb.run","args":{"file":"/polpo/badusb/ciao_linux.txt"}}
+seriale questa non è una richiesta
+seriale {"id":18,"cmd":"bye"}
+attendi 300
+schermo scollegato
+seriale {"id":19,"cmd":"info"}

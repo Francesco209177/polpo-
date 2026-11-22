@@ -76,7 +76,7 @@ if(EMSCRIPTEN)
   set_target_properties(polpo-sim PROPERTIES SUFFIX ".wasm")
   target_link_options(polpo-sim PRIVATE
     -sSTANDALONE_WASM --no-entry -sALLOW_MEMORY_GROWTH=1 -sINITIAL_MEMORY=8MB -sSTACK_SIZE=1MB -Wl,--gc-sections
-    "-sEXPORTED_FUNCTIONS=_sim_avvia,_sim_avanza,_sim_ora,_sim_tasto,_sim_g0,_sim_schermo,_sim_impronta_schermo,_sim_mondo,_sim_evento,_sim_seriale_scrivi,_sim_seriale_leggi,_sim_stato_esporta,_sim_stato_importa,_sim_alloca,_sim_libera")
+    "-sEXPORTED_FUNCTIONS=_sim_avvia,_sim_avanza,_sim_ora,_sim_occupato,_sim_tasto,_sim_g0,_sim_schermo,_sim_impronta_schermo,_sim_mondo,_sim_evento,_sim_seriale_scrivi,_sim_seriale_leggi,_sim_stato_esporta,_sim_stato_importa,_sim_alloca,_sim_libera")
 else()
   option(POLPO_SIM_CONTROLLI "Controlli di memoria (AddressSanitizer, UBSan)" ON)
   if(POLPO_SIM_CONTROLLI)

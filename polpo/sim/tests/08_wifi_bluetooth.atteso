@@ -1,0 +1,19 @@
+schermo wifi-scansione 7f4a8389
+schermo wifi-reti f9e8a577
+schermo wifi-dettaglio 5754e4c6
+schermo ble-scansione a6f8f53d
+schermo ble-dispositivi 9636bba4
+schermo ble-telecomando-in-attesa 8d4674fc
+schermo ble-telecomando-collegato b9d67cb4
+evento {"tipo":"luminosita","valore":170}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":1760,"ms":60}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":1760,"ms":60}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"ble.annuncio","nome":"Polpo Remote","nota":"SIMULATO: nessun segnale Bluetooth emesso"}
+evento {"tipo":"ble.tasto","uso":205}
+evento {"tipo":"suono","hz":2400,"ms":12}

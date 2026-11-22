@@ -1,0 +1,26 @@
+schermo senza-modulo 5ca8a17a
+mondo {"ok":true,"modulo":"rfid2","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":false,"tipo_tag":"ntag213","luminosita":170}
+schermo in-attesa-del-tag 1f00cdac
+mondo {"ok":true,"modulo":"rfid2","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":true,"tipo_tag":"ntag213","luminosita":170}
+schermo letto f53571ef
+schermo menu-nfc 9816d238
+schermo scrivi-link b249ef41
+schermo scritto-e-verificato 26502e0e
+evento {"tipo":"luminosita","valore":170}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":1760,"ms":60}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"nfc.scrittura","pagina":4}
+evento {"tipo":"nfc.scrittura","pagina":5}
+evento {"tipo":"nfc.scrittura","pagina":6}
+evento {"tipo":"nfc.scrittura","pagina":7}
+evento {"tipo":"nfc.scrittura","pagina":8}
+evento {"tipo":"nfc.scrittura","pagina":9}
+evento {"tipo":"suono","hz":1760,"ms":60}
+schermo riletto 9df2f77c
+mondo {"ok":true,"modulo":"rfid2","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":true,"tipo_tag":"classic","luminosita":170}
+schermo carta-classic 967b92a8
+mondo {"ok":true,"modulo":"rfid2","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":true,"tipo_tag":"ultralight","luminosita":170}
+schermo ultralight b4f7ce20

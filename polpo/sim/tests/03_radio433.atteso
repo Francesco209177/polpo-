@@ -1,0 +1,21 @@
+schermo ricevi-in-ascolto 44674ee7
+mondo {"ok":false,"errore":"nessun ricevitore 433 collegato alla porta Grove"}
+mondo {"ok":true,"modulo":"rf433","sd":true,"batteria":82,"in_carica":false,"pc":true,"telefono":true,"tag":false,"tipo_tag":"ntag213","luminosita":170}
+mondo {"ok":true,"ms":359}
+schermo ricevuto a58fe063
+schermo azioni df56e1ac
+schermo salvato 5ce5a625
+schermo dopo-ritrasmissione 59124f4c
+evento {"tipo":"luminosita","valore":170}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":1760,"ms":60}
+evento {"tipo":"suono","hz":2400,"ms":12}
+evento {"tipo":"suono","hz":2900,"ms":25}
+evento {"tipo":"rf.tx","impulsi":399,"ms":347,"valore":5592405,"bit":24,"impulso":350,"nota":"SIMULATO: nessuna onda radio emessa"}
+schermo dettagli 5e317a1e
+schermo limite f021e3a8
+schermo segnali-salvati d4b2370b

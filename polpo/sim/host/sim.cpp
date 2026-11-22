@@ -49,6 +49,11 @@ void sim_avanza(uint32_t ms) {
 
 uint32_t sim_ora(void) { return static_cast<uint32_t>(sim::ora_us() / 1000); }
 
+uint32_t sim_occupato(void) {
+    const uint64_t ora = sim::ora_us();
+    return ora > bersaglio_us ? static_cast<uint32_t>((ora - bersaglio_us + 999) / 1000) : 0;
+}
+
 void sim_tasto(int fila, int colonna, int premuto) {
     prepara();
     if (fila < 0 || fila > 3 || colonna < 0 || colonna > 13) return;

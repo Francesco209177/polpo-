@@ -1,0 +1,57 @@
+# Il limite orario di trasmissione a 433 MHz (8% di un'ora = 288 secondi) viene rispettato, resta dopo un riavvio
+# e si ricarica con il passare del tempo.
+mondo {"cmd":"modulo","valore":"rf433"}
+attendi 500
+tasto ok
+tasto giu
+tasto ok
+tasto ok
+attendi 300
+mondo {"cmd":"radiocomando","valore":5592405,"bit":24}
+attendi 800
+tasto ok
+tasto giu
+schermo pronto-a-ritrasmettere
+# una trasmissione dura circa 0,35 secondi: il mondo simulato la vede
+tasto ok
+attendi 600
+eventi
+# altre 801: in tutto 802 trasmissioni da 0,359 s = 287,9 secondi, a un soffio dal limite di 288
+ripeti 801 tasto ok
+attendi 600
+schermo ancora-sotto-il-limite
+conta
+# la numero 803 non parte: il Polpo spiega perché e il mondo simulato non vede nulla
+tasto ok
+attendi 600
+schermo limite-raggiunto
+eventi
+tasto ok
+tasto indietro
+tasto indietro
+tasto giu
+tasto giu
+tasto giu
+tasto ok
+attendi 200
+schermo limite-quasi-esaurito
+stato {TMP}/stato.bin
+---
+carica {TMP}/stato.bin
+mondo {"cmd":"modulo","valore":"rf433"}
+attendi 500
+tasto ok
+tasto giu
+tasto ok
+tasto giu
+tasto giu
+tasto giu
+tasto ok
+attendi 200
+schermo dopo-il-riavvio-il-limite-resta
+# passa più di un'ora: il tempo usato esce dalla finestra
+attendi 3700000
+tasto indietro
+tasto ok
+attendi 200
+schermo dopo-un-ora
