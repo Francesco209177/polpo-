@@ -345,3 +345,34 @@ html.fermo .bolle, html.fermo .hero::before { display: none; }
 html.fermo .reveal { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .bolle, .hero::before { display: none; } .reveal { opacity: 1 !important; transform: none !important; } }
 @media print { .bolle, .hero::before, .anim-btn { display: none; } .reveal { opacity: 1 !important; transform: none !important; } }
+
+/* ---------- Polpo Onde ---------- */
+.eyebrow .badge { text-transform: none; letter-spacing: 0; font-family: var(--font); vertical-align: 1px; }
+.onde-pannello { display: grid; gap: 12px; align-content: start; }
+.onde-pannello > * { margin: 0; }
+.onde-pannello h3, .onde-pannello h4 { margin: 0; }
+.onde-pannello h4 { font-size: 1rem; margin-top: 6px; }
+.onde-pannello .btn-row { margin: 0; }
+.onde-pannello textarea { width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 10px; padding: 10px 12px; resize: vertical; min-height: 5.2em; }
+.band .onde-pannello textarea { background: var(--surface); }
+.onde-pannello textarea:focus-visible { outline-offset: 0; border-color: var(--accent); }
+.onde-pannello button:disabled, #scarica:disabled { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; }
+.onde-pannello progress, .onde-pannello meter { width: 100%; height: 12px; accent-color: var(--btn-bg); }
+.onde-pannello meter.forte { outline: 2px solid var(--warn); border-radius: 6px; }
+.onde-pannello input[type="range"] { width: 100%; accent-color: var(--btn-bg); margin: 0 0 6px; }
+.onde-pannello label { font-weight: 600; }
+.onde-pannello label span { font-weight: 400; color: var(--muted); }
+.errore { color: var(--warn); font-weight: 600; }
+.onde-messaggi { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.onde-messaggi li { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--ok); border-radius: 10px; padding: 10px 12px; animation: su .4s var(--dolce) both; }
+.onde-messaggi li p { margin: 0; }
+.onde-testo { font-size: 1.1rem; font-weight: 600; overflow-wrap: anywhere; white-space: pre-wrap; }
+.onde-grafico { position: relative; }
+.onde-grafico canvas, .onde-spartito canvas { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+.onde-grafico canvas { background: rgb(8, 12, 22); image-rendering: pixelated; }
+.onde-spartito canvas { background: var(--surface); }
+.band .onde-spartito canvas { background: var(--bg); }
+.onde-scala { position: absolute; left: 8px; top: 6px; height: calc(100% - 3.2em); display: flex; flex-direction: column; justify-content: space-between; font: 600 .7rem var(--mono); color: rgba(255, 255, 255, .7); pointer-events: none; }
+@media (max-width: 600px) { .onde-scala { font-size: .6rem; } }
+.onde-invito h2 { color: var(--accent); font-size: clamp(1.25rem, 2.6vw, 1.6rem); }
+.onde-invito p { max-width: 70ch; }

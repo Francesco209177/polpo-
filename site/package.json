@@ -1,0 +1,13 @@
+{
+  "name": "polpo-sito-prove",
+  "private": true,
+  "type": "module",
+  "description": "Solo per le prove automatiche del sito: il sito pubblicato non usa nessun pacchetto.",
+  "scripts": {
+    "test": "node --test \"tests/onde/*.test.mjs\"",
+    "test:browser": "node --test \"tests/e2e/*.test.mjs\""
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

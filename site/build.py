@@ -43,6 +43,7 @@ NAV = [
     ("simulatore", "Simulatore"),
     ("installa", "Installa"),
     ("studio", "Polpo Studio"),
+    ("onde", "Onde"),
     ("componenti", "Componenti"),
     ("documentazione", "Documentazione"),
 ]
@@ -56,6 +57,7 @@ DOCS = [
     ("studio/docs/PROTOCOLLO_POLPO_LINK.md", "protocollo-polpo-link", "Protocollo Polpo Link", "Come si parlano Polpo e PC via USB: messaggi, comandi, errori."),
     ("studio/docs/ARCHITETTURA.md", "architettura", "Architettura di Polpo Studio", "Com'è organizzato il codice e come viene verificato."),
     ("studio/bridge/LEGGIMI.md", "polpo-bridge", "Polpo Bridge", "Lo sketch per Arduino ed ESP32: come caricarlo e collegare un lettore iButton."),
+    ("site/docs/PROTOCOLLO_ONDE.md", "protocollo-onde", "Protocollo di Polpo Onde", "Come viaggiano i messaggi nel suono: note, tempi, preambolo, correzione degli errori, vettori di prova."),
 ]
 
 
@@ -394,6 +396,11 @@ def check(out: Path, site_url: str) -> list[str]:
     for css in out.rglob("*.css"):
         if re.search(r"url\(\s*['\"]?(https?:)?//|@import", css.read_text(encoding="utf-8")):
             problems.append(f"{css.relative_to(out)}: carica risorse esterne")
+    # Il codice scritto per il sito non deve poter parlare con nessun server: né indirizzi né funzioni di rete.
+    for js in (out / "assets").rglob("*.js"):
+        m = re.search(r"https?://|\b(fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|RTCPeerConnection|importScripts)\b", js.read_text(encoding="utf-8"))
+        if m:
+            problems.append(f"{js.relative_to(out)}: contiene «{m.group(0)}» (il codice del sito non deve fare richieste di rete)")
     entry = out / EWT_ENTRY
     if not entry.exists() or base64.b64encode(hashlib.sha256(entry.read_bytes()).digest()).decode() != EWT_SHA256:
         problems.append("ESP Web Tools: file mancante o diverso dalla versione verificata")

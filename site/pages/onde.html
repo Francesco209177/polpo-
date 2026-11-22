@@ -1,0 +1,145 @@
+<!--
+title: Polpo Onde: messaggi tra due dispositivi con il suono
+description: Scrivi un messaggio su un dispositivo e fallo arrivare a un altro attraverso l'aria, con altoparlante e microfono. Con le stesse tecniche della radio: modulazione, sincronizzazione, correzione degli errori.
+nav: onde
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Polpo Onde · <span class="badge exp">Sperimentale</span></p>
+    <h1>Messaggi che viaggiano nell'aria</h1>
+    <p class="lead">Scrivi un messaggio qui e fallo arrivare a un altro dispositivo usando solo altoparlante e microfono. Dentro ci sono le stesse idee della radio: note al posto delle onde, un segnale di partenza, codici che riparano gli errori.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#prova">Provalo</a>
+      <a class="btn btn-ghost" href="#come-funziona">Come funziona</a>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="notice">
+      <h2>A che punto è</h2>
+      <p>Il modem supera prove automatiche severe in un <strong>canale simulato</strong> (rumore, eco, orologi diversi, distorsione) e non ha mai consegnato un testo sbagliato. <strong>Nell'aria vera non è ancora stato provato</strong>: altoparlanti, microfoni e stanze reali sono meno prevedibili. Se lo provi, <a href="{{issues_url}}">raccontaci com'è andata</a>.</p>
+    </div>
+    <div class="notice warn mt" id="supporto" hidden></div>
+  </div>
+</section>
+
+<section class="band" id="prova">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Prova</p>
+      <h2>Due dispositivi, una pagina</h2>
+      <p class="lead">Apri questa pagina su due dispositivi vicini, per esempio computer e telefono. Su uno premi <strong>Ascolta</strong>, sull'altro scrivi e premi <strong>Trasmetti</strong>.</p>
+    </div>
+    <div class="grid two">
+      <div class="card onde-pannello">
+        <h3><label for="testo">Trasmetti</label></h3>
+        <textarea id="testo" rows="3" spellcheck="false" autocomplete="off">Ciao dal Polpo!</textarea>
+        <p class="small" id="conta" aria-live="polite"></p>
+        <div class="btn-row">
+          <button class="btn btn-primary" type="button" id="trasmetti">Trasmetti</button>
+        </div>
+        <progress id="tx-barra" value="0" max="1" hidden></progress>
+        <p class="small" id="tx-stato" role="status">Volume a metà o poco più: troppo forte distorce. Si sente una serie di note, come un vecchio modem.</p>
+      </div>
+      <div class="card onde-pannello">
+        <h3>Ascolta</h3>
+        <div class="btn-row">
+          <button class="btn btn-primary" type="button" id="ascolta" aria-pressed="false">Ascolta</button>
+        </div>
+        <p id="rx-stato" role="status">Il microfono si accende solo quando premi «Ascolta».</p>
+        <meter id="livello" min="0" max="1" low="0.02" high="0.9" optimum="0.4" value="0" hidden aria-label="Livello del microfono"></meter>
+        <p class="small" id="impostazioni"></p>
+        <h4>Messaggi ricevuti</h4>
+        <p class="small" id="vuoto">Ancora nessuno.</p>
+        <ol id="messaggi" class="onde-messaggi" aria-live="polite"></ol>
+      </div>
+    </div>
+    <figure class="onde-grafico mt">
+      <div class="onde-scala" aria-hidden="true"><span>3700 Hz</span><span>2300 Hz</span><span>900 Hz</span></div>
+      <canvas id="spettro" width="720" height="200" role="img" aria-label="Grafico del suono ricevuto: il tempo scorre verso sinistra, in alto le note acute. Ogni nota del messaggio appare come un trattino luminoso."></canvas>
+      <figcaption>Il suono che arriva al ricevitore, in tempo reale: il tempo scorre da destra a sinistra, più in alto ci sono le note più acute. Un messaggio si riconosce dai due fischi iniziali (una riga che sale e una che scende) seguiti da trattini a quote diverse.</figcaption>
+    </figure>
+    <p class="small">Il microfono serve solo a questa pagina: l'audio viene elaborato nel tuo browser e <strong>non viene inviato né salvato da nessuna parte</strong>.</p>
+  </div>
+</section>
+
+<section id="simulato">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Senza microfono · <span class="badge sim">Simulato</span></p>
+      <h2>Prova con un solo dispositivo</h2>
+      <p class="lead">Qui il messaggio scritto sopra attraversa una stanza finta, calcolata dal browser: puoi aggiungere rumore ed eco e vedere fino a dove regge.</p>
+      <p class="small">È una simulazione: serve a capire e a fare esperimenti, non dice come andrà nella tua stanza.</p>
+    </div>
+    <div class="card onde-pannello">
+      <label for="sim-rumore">Rumore: <span id="sim-rumore-val"></span></label>
+      <input type="range" id="sim-rumore" min="-30" max="12" step="1" value="-10">
+      <label for="sim-eco">Riverbero: <span id="sim-eco-val"></span></label>
+      <input type="range" id="sim-eco" min="0" max="1" step="0.1" value="0.3">
+      <div class="btn-row">
+        <button class="btn btn-primary" type="button" id="sim-vai">Trasmetti nel canale simulato</button>
+        <button class="btn btn-ghost" type="button" id="sim-suona" disabled>Fammi sentire com'era</button>
+      </div>
+      <p id="sim-esito" role="status"></p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="come-funziona">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Come funziona</p>
+      <h2>Dalle lettere alle note, e ritorno</h2>
+    </div>
+    <figure class="onde-spartito">
+      <canvas id="spartito" width="720" height="130" role="img" aria-label="Il messaggio scritto sopra trasformato in note: prima un tono d'avvio e due fischi, poi una nota ogni 60 millesimi di secondo."></canvas>
+      <figcaption>Il tuo messaggio come lo "sente" l'altro dispositivo. In viola i due fischi di partenza, in grigio le note di prova, in blu l'intestazione, in arancione il testo con i suoi codici di correzione. <span id="dettagli"></span></figcaption>
+    </figure>
+    <ol class="steps row mt">
+      <li><h3>Le lettere diventano numeri</h3><p>Ogni carattere è uno o più byte (UTF-8). In coda si aggiunge un codice di controllo che permette di accorgersi se qualcosa è cambiato.</p></li>
+      <li><h3>Si aggiungono byte di riserva</h3><p>Un codice di Reed–Solomon, lo stesso dei codici QR e dei CD, aggiunge byte calcolati dal messaggio. Con quelli il ricevitore ricostruisce fino a un quarto dei byte rovinati.</p></li>
+      <li><h3>Ogni mezzo byte diventa una nota</h3><p>16 note possibili, una per ogni valore di 4 bit, lunghe 60 millesimi di secondo. Le note cambiano gruppo a ogni passo, così l'eco della nota precedente non disturba la successiva.</p></li>
+      <li><h3>Due fischi dicono «si parte»</h3><p>Un fischio che sale e uno che scende sono facili da riconoscere anche nel rumore: il ricevitore li usa per sapere esattamente quando cominciano le note.</p></li>
+      <li><h3>Il ricevitore misura le note</h3><p>Per ogni nota guarda quale delle 16 frequenze è la più forte rispetto al suo rumore di fondo, e insegue il ritmo di chi trasmette anche se i due orologi non vanno d'accordo.</p></li>
+      <li><h3>Gli errori vengono riparati</h3><p>Le note incerte vengono segnate come dubbie, il codice ricostruisce i byte mancanti e il controllo finale garantisce che il testo sia proprio quello spedito. Se non lo è, il messaggio viene scartato.</p></li>
+    </ol>
+    <p class="mt">È lo stesso schema di una trasmissione radio digitale: cambiano solo le frequenze, che qui sono suoni tra 1600 e 3150 Hz invece di onde a 433 MHz. I dettagli, con i numeri per rifarlo da sé, sono nella <a href="../documentazione/protocollo-onde.html">specifica del protocollo</a>.</p>
+  </div>
+</section>
+
+<section id="aiuto">
+  <div class="container grid two">
+    <div>
+      <h2>Se non arriva</h2>
+      <details>
+        <summary>Non si sente nessun suono</summary>
+        <p>Controlla il volume e che la pagina non sia silenziata. Su iPhone il tasto laterale del silenzioso azzera anche l'audio delle pagine web. Se sono collegate cuffie o casse Bluetooth, il suono esce da lì.</p>
+      </details>
+      <details>
+        <summary>L'altro dispositivo non reagisce</summary>
+        <p>Avvicinali a 20–50 cm, con l'altoparlante rivolto verso il microfono. Guarda il grafico di chi ascolta: durante la trasmissione devono comparire i due fischi e i trattini. Se non compaiono, il volume è troppo basso o il microfono è un altro. Tieni la pagina aperta e in primo piano: se lo schermo si spegne o cambi scheda, il browser ferma l'ascolto.</p>
+      </details>
+      <details>
+        <summary>Trova l'inizio ma poi «troppo rovinato»</summary>
+        <p>Di solito è il volume troppo alto, che distorce, oppure una stanza che rimbomba. Abbassa un po', avvicina i dispositivi, prova con un messaggio più corto.</p>
+      </details>
+      <details>
+        <summary>Il browser dice che ha lasciato accesi dei filtri</summary>
+        <p>Alcuni telefoni non permettono di spegnere la riduzione del rumore pensata per le telefonate, che cancella proprio le note fisse. In quel caso la ricezione peggiora molto: prova un altro browser o ascolta dal computer.</p>
+      </details>
+      <details>
+        <summary>Il permesso del microfono non compare</summary>
+        <p>Il microfono funziona solo su pagine sicure (https) e se non l'hai negato in precedenza: controlla l'icona accanto all'indirizzo.</p>
+      </details>
+    </div>
+    <div class="card">
+      <h2>Aiutaci a migliorarlo</h2>
+      <p>Se la ricezione fallisce, la cosa più utile è la registrazione di ciò che il microfono ha sentito: con quella il problema si può riprodurre e correggere.</p>
+      <p><button class="btn btn-ghost" type="button" id="scarica" disabled>Scarica la registrazione</button></p>
+      <p class="small">Contiene gli ultimi 30 secondi di ascolto, quindi anche le voci e i rumori della stanza. Resta sul tuo dispositivo: decidi tu se allegarla a una <a href="{{issues_url}}">segnalazione</a>.</p>
+    </div>
+  </div>
+</section>
+<script type="module" src="../assets/js/onde/ui.js"></script>
