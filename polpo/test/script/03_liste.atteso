@@ -1,0 +1,35 @@
+== creare e leggere
+scrivi: [10, 20, 30] 10 30 3 0
+scrivi: [10, 99, 30, 40]
+scrivi: 15
+fine
+== aggiungere, togliere, inserire
+scrivi: ["zero", "a", "b", "c", "fine"]
+scrivi: a fine ["zero", "b", "c"]
+fine
+== lista di liste
+scrivi: [[1, 2], [30, 4]] 30 2
+scrivi: [[1, 102], [30, 4]]
+fine
+== due nomi, la stessa lista
+scrivi: [1, 2, 3] vero vero falso vero
+fine
+== unire due liste
+scrivi: [1, 2, 3] []
+fine
+== lista(n) e cercare
+scrivi: [niente, niente, niente] [0, 7, 0, 0] 2 0 2
+fine
+== ordinare
+scrivi: [1, 3, 3, 5, 9] ["Uva", "kiwi", "mela", "pera"]
+fine
+== per ogni
+scrivi: 10
+scrivi: 1
+scrivi: 2
+scrivi: 3
+fine
+== una lista dentro sé stessa non blocca nulla
+scrivi: 2 vero
+scrivi: [1, [1, [1, [...]]]]
+fine

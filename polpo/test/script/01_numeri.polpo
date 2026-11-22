@@ -1,0 +1,43 @@
+#--- le quattro operazioni
+scrivi(1 + 2, 7 - 10, 6 * 7, 7 / 2, 1 / 3)
+scrivi(2 + 3 * 4, (2 + 3) * 4, -2 * -3, 10 - 4 - 3)
+scrivi(7 % 3, -1 % 5, 7 % -3, 7.5 % 2)
+scrivi(0.1 + 0.2, 1 / 3 * 3, 100 / 8)
+scrivi(-0, 0 * -5, 5 - 5)
+#--- numeri grandi e piccoli
+scrivi(1000000, 123456789012345, 1234567.891, 0.000001, 0.0000001)
+scrivi(2.5, 2.50, 3.14159265, 99999.9999996)
+scrivi(1000000 * 1000000, 1000000 * 1000000 * 1000000, 123456789 * 1000000000)
+scrivi(10000000000 * 1000000000, 123456789012345 * 100000, 2 / 3 * 1000000000000000)
+scrivi(12345678912.5, 999999999999.9)
+x = 1
+ripeti 60 volte
+  x = x * 10
+fine
+scrivi(x)
+#--- arrotondamenti
+scrivi(intero(3.7), intero(-3.7), arrotonda(3.5), arrotonda(-3.5), arrotonda(2.4))
+scrivi(assoluto(-4), assoluto(4), minimo(3, 1, 2), massimo(3, 1, 2), minimo([5, 4, 9]))
+scrivi(radice(16), radice(2), radice(0))
+#--- seno e coseno in gradi
+scrivi(seno(0), seno(30), seno(90), seno(180), seno(270), seno(360))
+scrivi(coseno(0), coseno(60), coseno(90), coseno(180))
+scrivi(seno(45), coseno(45), seno(-90), seno(720 + 30), coseno(-60))
+scrivi(seno(1), coseno(1), seno(89), seno(12.5))
+#--- assegnazioni composte
+x = 10
+x += 5
+x -= 3
+x *= 4
+x /= 6
+scrivi(x)
+#--- costanti
+scrivi(LARGHEZZA_SCHERMO, ALTEZZA_SCHERMO, PI_GRECO)
+larghezza = 10
+altezza = 4
+scrivi(larghezza * altezza)
+scrivi(ROSSO, VERDE, BLU, BIANCO, NERO, colore(255, 128, 0), colore(300, -5, 0))
+#--- testo in numero e viceversa
+scrivi(numero("42") + 1, numero("3,5") * 2, numero(" -7 "), numero("ciao"), numero("1e5"), numero(""))
+scrivi(numero(8), testo(12) + testo(3), tipo(numero("x")))
+scrivi(numero("123456789012345"), numero("12345678901234567"), numero("0.5"), numero(".5"), numero("5."))

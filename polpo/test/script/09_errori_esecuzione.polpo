@@ -1,0 +1,145 @@
+#--- dividere per zero
+x = 0
+scrivi("prima")
+scrivi(10 / x)
+#--- resto per zero
+scrivi(10 % 0)
+#--- variabile senza valore
+punti = 1
+scrivi(punti + pnti)
+#--- sommare cose diverse
+scrivi(1 + [2])
+#--- sottrarre un testo
+scrivi("10" - 1)
+#--- moltiplicare niente
+x = niente
+scrivi(x * 2)
+#--- segno meno davanti a un testo
+t = "ciao"
+scrivi(-t)
+#--- confrontare numero e testo
+scrivi(1 < "2")
+#--- condizione che non è vero o falso
+x = 5
+se x allora
+  scrivi("mai")
+fine
+#--- ripeti finché con un numero
+ripeti finché 1
+fine
+#--- e con un numero
+scrivi(vero e 5)
+#--- non con un testo
+scrivi(non "no")
+#--- posizione che non esiste
+l = [1, 2, 3]
+scrivi(l[4])
+#--- posizione zero
+l = [1, 2, 3]
+scrivi(l[0])
+#--- lista vuota
+l = []
+scrivi(l[1])
+#--- posizione con la virgola
+l = [1, 2, 3]
+scrivi(l[1.5])
+#--- posizione che non è un numero
+l = [1, 2, 3]
+scrivi(l["uno"])
+#--- scrivere troppo oltre la fine
+l = [1]
+l[3] = 9
+#--- parentesi quadre su un numero
+n = 5
+scrivi(n[1])
+#--- cambiare una lettera di un testo
+t = "ciao"
+t[1] = "C"
+#--- togliere da una lista vuota
+togli([])
+#--- funzione pronta con il valore sbagliato
+cerchio(10, 10, "grande", ROSSO)
+#--- colore non valido
+punto(1, 1, -4)
+#--- radice di un numero negativo
+scrivi(radice(-1))
+#--- lunghezza di un numero
+scrivi(lunghezza(12))
+#--- ordinare cose diverse
+ordina([1, "a"])
+#--- nome di file non valido
+salva("../segreto.txt", "x")
+#--- nome di file troppo lungo
+carica("abcdefghijklmnopqrstuvwxyz.txt")
+#--- ripeti con un testo
+ripeti "tre" volte
+fine
+#--- per con un testo
+per i da "a" a 3
+fine
+#--- passo zero
+per i da 1 a 3 passo 0
+fine
+#--- la variabile di per diventa un testo
+per i da 1 a 3
+  i = "x"
+fine
+#--- per ogni su un numero
+per ogni x in 5
+fine
+#--- numero troppo grande
+x = 10
+ripeti 400 volte
+  x = x * x
+fine
+#--- funzione che si richiama per sempre
+funzione giu(n)
+  ritorna giu(n + 1)
+fine
+giu(1)
+#--- l'errore dice la riga giusta anche dopo una funzione
+funzione doppio(n)
+  ritorna n * 2
+fine
+x = doppio(4)
+y = doppio(x) + niente
+#--- l'errore dentro una funzione dice la riga della funzione
+funzione rotta(v)
+  scrivi("dentro")
+  ritorna v + "a" - 1
+fine
+scrivi("fuori")
+rotta(1)
+#--- ciclo senza fine: lo ferma la prova
+#! limite: 5000
+n = 0
+ripeti sempre
+  n += 1
+fine
+#--- memoria: una lista che cresce senza fine
+#! memoria: 4000
+l = []
+ripeti sempre
+  aggiungi(l, "elemento numero " + lunghezza(l))
+fine
+#--- memoria: un testo che raddoppia
+t = "ab"
+ripeti sempre
+  t = t + t
+fine
+#--- memoria: tanti testi buttati via non danno problemi
+#! memoria: 3000
+ripeti 5000 volte
+  t = "provvisorio " + casuale(1, 1000)
+fine
+scrivi("finito")
+#--- lista troppo lunga
+l = lista(5000)
+#--- pila piccola
+#! pila: 24
+funzione somma(n)
+  se n == 0 allora ritorna 0
+  ritorna n + somma(n - 1)
+fine
+scrivi(somma(3))
+scrivi(somma(20))

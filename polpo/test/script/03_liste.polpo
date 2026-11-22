@@ -1,0 +1,57 @@
+#--- creare e leggere
+l = [10, 20, 30]
+scrivi(l, l[1], l[3], lunghezza(l), lunghezza([]))
+l[2] = 99
+l[4] = 40
+scrivi(l)
+l[1] += 5
+scrivi(l[1])
+#--- aggiungere, togliere, inserire
+l = []
+aggiungi(l, "a")
+aggiungi(l, "b")
+aggiungi(l, "c")
+inserisci(l, 1, "zero")
+inserisci(l, 5, "fine")
+scrivi(l)
+scrivi(togli(l, 2), togli(l), l)
+#--- lista di liste
+griglia = [[1, 2], [3, 4]]
+griglia[2][1] = 30
+scrivi(griglia, griglia[2][1], griglia[1][2])
+griglia[1][2] += 100
+scrivi(griglia)
+#--- due nomi, la stessa lista
+a = [1, 2]
+b = a
+aggiungi(b, 3)
+scrivi(a, a == b, [1, 2, 3] == a, [1, 2] == a, [[1], "x"] == [[1], "x"])
+#--- unire due liste
+scrivi([1, 2] + [3], [] + [])
+#--- lista(n) e cercare
+vuote = lista(3)
+zeri = lista(4, 0)
+zeri[2] = 7
+scrivi(vuote, zeri, trova(zeri, 7), trova(zeri, 8), trova(["a", [1]], [1]))
+#--- ordinare
+numeri = [5, 3, 9, 1, 3]
+ordina(numeri)
+nomi = ["pera", "mela", "Uva", "kiwi"]
+ordina(nomi)
+scrivi(numeri, nomi)
+#--- per ogni
+somma = 0
+per ogni n in [1, 2, 3, 4]
+  somma += n
+fine
+scrivi(somma)
+per ogni riga in [[1, 2], [3]]
+  per ogni x in riga
+    scrivi(x)
+  fine
+fine
+#--- una lista dentro sé stessa non blocca nulla
+l = [1]
+aggiungi(l, l)
+scrivi(lunghezza(l), l == l)
+scrivi(l)

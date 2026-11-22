@@ -1,0 +1,50 @@
+== tasto() non aspetta
+scrivi: su a ok niente
+fine
+== aspetta_tasto() aspetta
+scrivi: primo: sinistra
+scrivi: secondo: 7
+fine
+== premuto
+scrivi: vero falso vero vero
+fine
+== chiedi
+chiedi: «Come ti chiami?» -> «Ada»
+chiedi: «Quanti anni hai?» -> «12»
+scrivi: Ciao Ada, tra un anno ne avrai 13
+chiedi: «» -> «»
+chiedi: «ancora?» -> «»
+scrivi: [] 0
+fine
+== aspetta e tempo
+scrivi: 0
+aspetta: 250
+aspetta: 0
+aspetta: 1000
+scrivi: 1250
+aspetta: 0
+scrivi: 1250
+fine
+== suoni
+suona: 440 100
+suona: 20000 5000
+suona: 0 0
+fine
+== numeri casuali: stessi numeri con lo stesso seme
+scrivi: [4, 2, 2, 4, 8] vero
+scrivi: vero 5 -3
+scrivi: [121, 94, 101, 112, 93, 79]
+fine
+== seme dato dalla prova
+scrivi: 31 8 5
+fine
+== file
+scrivi: 42 niente 43
+salva: punti.txt = 99
+scrivi: vero 99
+salva: lista.txt = [1, "a"]
+scrivi: vero [1, "a"]
+fine
+== termina
+scrivi: prima
+fine

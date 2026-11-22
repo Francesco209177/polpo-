@@ -1,0 +1,42 @@
+== ripeti N volte
+scrivi: 24
+fine
+== ripeti finché
+scrivi: 128
+fine
+== ripeti sempre con esci e continua
+scrivi: [2, 4, 6, 8, 10]
+fine
+== per
+scrivi: 1
+scrivi: 2
+scrivi: 3
+scrivi: 10
+scrivi: 5
+scrivi: 0
+scrivi: 0
+scrivi: 0.25
+scrivi: 0.5
+scrivi: 0.75
+scrivi: 1
+scrivi: dopo il ciclo i vale -5
+fine
+== per con esci e continua
+scrivi: 1
+scrivi: 3
+scrivi: 4
+fine
+== cicli uno dentro l'altro
+scrivi: 1 1
+scrivi: 1 3
+scrivi: 2 1
+scrivi: 2 3
+fine
+== cambiare la variabile dentro il ciclo
+scrivi: 1
+scrivi: 5
+scrivi: 9
+fine
+== per ogni su una lista che cresce
+scrivi: [1, 2, 3, 4, 5]
+fine

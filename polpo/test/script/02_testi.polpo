@@ -1,0 +1,28 @@
+#--- unire
+nome = "Polpo"
+scrivi("Ciao " + nome + "!", "Punti: " + 12, 3 + " mele", "vero? " + vero, "niente: " + niente)
+scrivi("lista: " + [1, 2], "" + 1.5)
+#--- lunghezza, parti, lettere accentate
+t = "perché no"
+scrivi(lunghezza(t), lunghezza(""), lunghezza("città"))
+scrivi(parte(t, 1, 3), parte(t, 6, 1), parte(t, 8), parte(t, 20), parte(t, 3, 0))
+scrivi(t[1], t[6], t[9])
+scrivi(maiuscolo(t), minuscolo("CITTÀ È"), maiuscolo("über"))
+#--- cercare
+scrivi(trova("banana", "na"), trova("banana", "x"), trova("città", "à"), trova("abc", ""))
+#--- dividere e unire
+parole = dividi("uno,due,,tre", ",")
+scrivi(parole, lunghezza(parole))
+scrivi(unisci(parole, " - "), unisci([1, 2, 3]), unisci([], "x"))
+scrivi(dividi("ciao", ""), dividi("", ","), dividi("a b", " "))
+#--- virgolette e caratteri speciali
+scrivi('singole', "con 'apostrofo'", 'con "doppie"', "a capo\nqui", "barra \\ e \"virgolette\"")
+scrivi(“tipografiche”, "l'albero", ‘anche queste’)
+#--- confronti tra testi
+scrivi("a" < "b", "abc" < "abd", "Z" < "a", "uno" == "uno", "uno" != "due", "10" == 10)
+#--- per ogni lettera
+per ogni lettera in "più"
+  scrivi(lettera)
+fine
+#--- tipo
+scrivi(tipo(1), tipo("a"), tipo([1]), tipo(vero), tipo(niente))

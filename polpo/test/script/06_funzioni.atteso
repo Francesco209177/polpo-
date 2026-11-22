@@ -1,0 +1,30 @@
+== usare una funzione prima di definirla
+scrivi: 42
+fine
+== ricorsione
+scrivi: 3628800 2432902008176640000 610
+fine
+== senza ritorna il valore è niente
+scrivi: Ciao Ada
+scrivi: niente
+fine
+== le variabili valgono dappertutto, i valori tra parentesi e le «locale» solo dentro
+scrivi: 30 40 7
+scrivi: 1001 7
+fine
+== locale dentro un blocco finisce con il blocco
+scrivi: dentro
+scrivi: fuori
+fine
+== le liste passate a una funzione sono le stesse
+scrivi: ["nuovo"]
+fine
+== funzioni che si chiamano a vicenda
+scrivi: vero falso
+fine
+== ritorna dentro un ciclo
+scrivi: 8 niente
+fine
+== una variabile può chiamarsi come una funzione pronta
+scrivi: x 3
+fine

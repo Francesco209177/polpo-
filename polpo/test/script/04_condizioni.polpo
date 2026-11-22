@@ -1,0 +1,52 @@
+#--- se, altrimenti se, altrimenti
+funzione voto(n)
+  se n >= 9 allora
+    ritorna "ottimo"
+  altrimenti se n >= 6 allora
+    ritorna "sufficiente"
+  altrimenti
+    ritorna "insufficiente"
+  fine
+fine
+scrivi(voto(10), voto(6), voto(2))
+#--- forma corta su una riga
+x = 5
+se x > 3 allora scrivi("grande")
+se x > 30 allora scrivi("enorme")
+se x = 5 allora x = 6
+scrivi(x)
+#--- e, oppure, non
+a = vero
+b = falso
+scrivi(a e b, a oppure b, non a, non b, a e non b, a o b)
+scrivi(1 < 2 e 2 < 3, 1 > 2 oppure 2 > 1, non 1 == 2, non (1 == 1))
+#--- «e» e «oppure» si fermano appena sanno la risposta
+funzione rumorosa(v)
+  scrivi("chiamata")
+  ritorna v
+fine
+scrivi(falso e rumorosa(vero))
+scrivi(vero oppure rumorosa(vero))
+scrivi(vero e rumorosa(falso))
+#--- uguale con un solo segno e diverso
+n = 3
+scrivi(n = 3, n == 3, n != 3, n <> 4, niente == niente, niente == falso, 0 == falso)
+#--- maiuscole e accenti non contano nelle parole
+n = 3
+SE n == 3 Allora
+  Scrivi("maiuscole")
+FINE
+ripeti finché n > 0
+  n -= 1
+fine
+scrivi(n)
+velocità = 4
+scrivi(velocita, VELOCITÀ)
+#--- nomi di una lettera che sono anche parole: e, o, a
+e = 2
+o = 3
+a = 4
+scrivi(e + o + a, e < o e o < a)
+per i da a a a + 1
+  scrivi(i)
+fine

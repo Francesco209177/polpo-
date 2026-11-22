@@ -1,0 +1,162 @@
+#--- manca fine
+se vero allora
+  scrivi("a")
+#--- manca fine in un ciclo dentro una funzione
+funzione f()
+  ripeti 3 volte
+    scrivi("a")
+fine
+#--- fine di troppo
+scrivi("a")
+fine
+#--- altrimenti senza se
+altrimenti
+#--- manca allora
+x = 1
+se x > 0
+  scrivi("a")
+fine
+#--- funzione che non esiste, con suggerimento
+cerhio(10, 10, 5, ROSSO)
+#--- funzione che non esiste, senza suggerimento
+qualcosadistrano(1)
+#--- funzione mia scritta male
+funzione disegna_nave(x)
+  scrivi(x)
+fine
+disegna_navi(3)
+#--- parola del linguaggio scritta male
+ripeit 3 volte
+  scrivi("a")
+fine
+#--- fine scritto male
+se vero allora
+  scrivi("a")
+fien
+#--- troppi valori a una funzione pronta
+cerchio(1, 2, 3, 4, 5)
+#--- pochi valori a una funzione pronta
+aspetta()
+#--- valori sbagliati a una funzione mia
+funzione somma(a, b)
+  ritorna a + b
+fine
+scrivi(somma(1))
+#--- testo non chiuso
+scrivi("ciao)
+#--- parentesi non chiusa
+scrivi((1 + 2)
+#--- parentesi quadra non chiusa
+l = [1, 2
+#--- carattere sconosciuto
+x = 5 @ 3
+#--- numero attaccato a una lettera
+x = 3x
+#--- numero con troppe cifre
+x = 123456789012345678
+#--- cambiare un colore
+ROSSO = 5
+#--- cambiare una costante in un ciclo
+per rosso da 1 a 3
+fine
+#--- esci fuori da un ciclo
+esci
+#--- continua fuori da un ciclo
+se vero allora continua
+#--- ritorna fuori da una funzione
+ritorna 5
+#--- locale fuori da una funzione
+locale x = 1
+#--- funzione dentro un blocco
+se vero allora
+  funzione f()
+  fine
+fine
+#--- funzione definita due volte
+funzione f()
+fine
+funzione f()
+fine
+#--- funzione con il nome di una pronta
+funzione cerchio(x)
+fine
+#--- nome ripetuto tra le parentesi
+funzione f(a, a)
+fine
+#--- funzione senza parentesi
+funzione saluta
+fine
+#--- usare una funzione senza parentesi
+pulisci
+#--- nome da solo
+x
+#--- riga che comincia con un numero
+5 + 3
+#--- due istruzioni sulla stessa riga
+x = 1 y = 2
+#--- qualcosa dopo fine
+se vero allora
+fine fine
+#--- valore mancante
+x = 
+#--- operazione senza secondo valore
+x = 3 +
+#--- due confronti di fila
+x = 5
+se 1 < x < 10 allora scrivi("a")
+#--- ripeti senza niente
+ripeti
+fine
+#--- ripeti senza volte
+ripeti 3
+  scrivi("a")
+fine
+#--- per senza da
+per i in 1 a 3
+fine
+#--- per ogni senza in
+per ogni x [1, 2]
+fine
+#--- se dentro se sulla stessa riga
+se vero allora se vero allora scrivi("a")
+#--- allora senza niente dopo
+se vero allora
+#--- altrimenti due volte
+se vero allora
+altrimenti
+altrimenti
+fine
+#--- espressione troppo complicata
+x = ((((((((((((((1))))))))))))))
+#--- troppi blocchi uno dentro l'altro
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+se vero allora
+scrivi("a")
+fine
+fine
+fine
+fine
+fine
+fine
+fine
+fine
+fine
+fine
+fine
+#--- parola riservata come nome
+fine = 3
+#--- assegnare con le parentesi quadre senza uguale
+l = [1]
+l[1]
+#--- carattere strano in un testo va bene, fuori no
+scrivi("€ 5")
+x = €

@@ -1,0 +1,33 @@
+== unire
+scrivi: Ciao Polpo! Punti: 12 3 mele vero? vero niente: niente
+scrivi: lista: [1, 2] 1.5
+fine
+== lunghezza, parti, lettere accentate
+scrivi: 9 0 5
+scrivi: per é no  
+scrivi: p é o
+scrivi: PERCHÉ NO città è ÜBER
+fine
+== cercare
+scrivi: 3 0 5 0
+fine
+== dividere e unire
+scrivi: ["uno", "due", "", "tre"] 4
+scrivi: uno - due -  - tre 123 
+scrivi: ["c", "i", "a", "o"] [""] ["a", "b"]
+fine
+== virgolette e caratteri speciali
+scrivi: singole con 'apostrofo' con "doppie" a capo\nqui barra \ e "virgolette"
+scrivi: tipografiche l'albero anche queste
+fine
+== confronti tra testi
+scrivi: vero vero vero vero vero falso
+fine
+== per ogni lettera
+scrivi: p
+scrivi: i
+scrivi: ù
+fine
+== tipo
+scrivi: numero testo lista vero/falso niente
+fine

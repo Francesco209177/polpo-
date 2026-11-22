@@ -1,0 +1,72 @@
+#--- usare una funzione prima di definirla
+scrivi(doppio(21))
+funzione doppio(n)
+  ritorna n * 2
+fine
+#--- ricorsione
+funzione fattoriale(n)
+  se n <= 1 allora ritorna 1
+  ritorna n * fattoriale(n - 1)
+fine
+funzione fib(n)
+  se n < 2 allora ritorna n
+  ritorna fib(n - 1) + fib(n - 2)
+fine
+scrivi(fattoriale(10), fattoriale(20), fib(15))
+#--- senza ritorna il valore è niente
+funzione saluta(chi)
+  scrivi("Ciao " + chi)
+fine
+scrivi(saluta("Ada"))
+#--- le variabili valgono dappertutto, i valori tra parentesi e le «locale» solo dentro
+punti = 0
+funzione segna(quanti)
+  punti = punti + quanti
+  locale provvisorio = quanti * 10
+  ritorna provvisorio
+fine
+scrivi(segna(3), segna(4), punti)
+funzione ombra(punti)
+  punti = punti + 1000
+  ritorna punti
+fine
+scrivi(ombra(1), punti)
+#--- locale dentro un blocco finisce con il blocco
+x = "fuori"
+funzione prova()
+  se vero allora
+    locale x = "dentro"
+    scrivi(x)
+  fine
+  scrivi(x)
+fine
+prova()
+#--- le liste passate a una funzione sono le stesse
+funzione riempi(l)
+  aggiungi(l, "nuovo")
+fine
+cose = []
+riempi(cose)
+scrivi(cose)
+#--- funzioni che si chiamano a vicenda
+funzione pari(n)
+  se n == 0 allora ritorna vero
+  ritorna dispari(n - 1)
+fine
+funzione dispari(n)
+  se n == 0 allora ritorna falso
+  ritorna pari(n - 1)
+fine
+scrivi(pari(10), pari(7))
+#--- ritorna dentro un ciclo
+funzione primo_pari(l)
+  per ogni x in l
+    se x % 2 == 0 allora ritorna x
+  fine
+  ritorna niente
+fine
+scrivi(primo_pari([3, 5, 8, 10]), primo_pari([1]))
+#--- una variabile può chiamarsi come una funzione pronta
+tasto = "x"
+tempo = 3
+scrivi(tasto, tempo)

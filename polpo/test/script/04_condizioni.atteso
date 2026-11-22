@@ -1,0 +1,30 @@
+== se, altrimenti se, altrimenti
+scrivi: ottimo sufficiente insufficiente
+fine
+== forma corta su una riga
+scrivi: grande
+scrivi: 6
+fine
+== e, oppure, non
+scrivi: falso vero falso vero vero vero
+scrivi: vero vero vero falso
+fine
+== «e» e «oppure» si fermano appena sanno la risposta
+scrivi: falso
+scrivi: vero
+scrivi: chiamata
+scrivi: falso
+fine
+== uguale con un solo segno e diverso
+scrivi: vero vero falso vero vero falso falso
+fine
+== maiuscole e accenti non contano nelle parole
+scrivi: maiuscole
+scrivi: 0
+scrivi: 4 4
+fine
+== nomi di una lettera che sono anche parole: e, o, a
+scrivi: 9 vero
+scrivi: 4
+scrivi: 5
+fine

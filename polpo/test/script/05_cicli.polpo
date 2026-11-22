@@ -1,0 +1,69 @@
+#--- ripeti N volte
+n = 0
+ripeti 4 volte
+  n += 1
+fine
+ripeti 0 volte
+  n += 100
+fine
+ripeti -3 volte
+  n += 100
+fine
+ripeti 2.9 volte
+  n += 10
+fine
+scrivi(n)
+#--- ripeti finché
+n = 1
+ripeti finché n < 100
+  n = n * 2
+fine
+scrivi(n)
+#--- ripeti sempre con esci e continua
+n = 0
+pari = []
+ripeti sempre
+  n += 1
+  se n > 10 allora esci
+  se n % 2 == 1 allora continua
+  aggiungi(pari, n)
+fine
+scrivi(pari)
+#--- per
+per i da 1 a 3
+  scrivi(i)
+fine
+per i da 3 a 1
+  scrivi("mai")
+fine
+per i da 10 a 0 passo -5
+  scrivi(i)
+fine
+per x da 0 a 1 passo 0.25
+  scrivi(x)
+fine
+scrivi("dopo il ciclo i vale", i)
+#--- per con esci e continua
+per i da 1 a 10
+  se i == 2 allora continua
+  se i == 5 allora esci
+  scrivi(i)
+fine
+#--- cicli uno dentro l'altro
+per r da 1 a 2
+  per c da 1 a 3
+    se c == 2 allora continua
+    scrivi(r, c)
+  fine
+fine
+#--- cambiare la variabile dentro il ciclo
+per i da 1 a 10
+  scrivi(i)
+  i = i + 3
+fine
+#--- per ogni su una lista che cresce
+l = [1, 2]
+per ogni x in l
+  se x < 4 allora aggiungi(l, x + 2)
+fine
+scrivi(l)

@@ -1,0 +1,91 @@
+== dividere per zero
+scrivi: prima
+errore: Riga 3: non si può dividere per zero
+== resto per zero
+errore: Riga 1: non si può dividere per zero
+== variabile senza valore
+errore: Riga 2: la variabile «pnti» non ha ancora un valore: dagliene uno prima di usarla
+== sommare cose diverse
+errore: Riga 1: non posso sommare un numero e una lista
+== sottrarre un testo
+errore: Riga 1: non posso sottrarre un testo e un numero
+== moltiplicare niente
+errore: Riga 2: non posso moltiplicare niente e un numero
+== segno meno davanti a un testo
+errore: Riga 2: il segno meno si mette davanti a un numero, non a un testo
+== confrontare numero e testo
+errore: Riga 1: «<» e «>» confrontano due numeri o due testi: qui ci sono un numero e un testo
+== condizione che non è vero o falso
+errore: Riga 2: qui serve una condizione, cioè qualcosa che sia vero o falso: ho trovato un numero
+== ripeti finché con un numero
+errore: Riga 1: qui serve una condizione, cioè qualcosa che sia vero o falso: ho trovato un numero
+== e con un numero
+errore: Riga 1: qui serve una condizione, cioè qualcosa che sia vero o falso: ho trovato un numero
+== non con un testo
+errore: Riga 1: qui serve una condizione, cioè qualcosa che sia vero o falso: ho trovato un testo
+== posizione che non esiste
+errore: Riga 2: la posizione 4 non esiste: qui gli elementi vanno da 1 a 3
+== posizione zero
+errore: Riga 2: la posizione 0 non esiste: qui gli elementi vanno da 1 a 3
+== lista vuota
+errore: Riga 2: qui non c'è nessun elemento da prendere: è vuoto
+== posizione con la virgola
+errore: Riga 2: la posizione dev'essere un numero intero (1 è il primo), ho trovato un numero con la virgola
+== posizione che non è un numero
+errore: Riga 2: la posizione dev'essere un numero intero (1 è il primo), ho trovato un testo
+== scrivere troppo oltre la fine
+errore: Riga 2: la posizione 3 non esiste: qui gli elementi vanno da 1 a 1
+== parentesi quadre su un numero
+errore: Riga 2: le parentesi quadre si usano con le liste e con i testi, non con un numero
+== cambiare una lettera di un testo
+errore: Riga 2: le lettere di un testo non si possono cambiare una per volta: costruisci un testo nuovo
+== togliere da una lista vuota
+errore: Riga 1: qui non c'è nessun elemento da prendere: è vuoto
+== funzione pronta con il valore sbagliato
+errore: Riga 1: «cerchio»: ogni misura dev'essere un numero, ho trovato un testo
+== colore non valido
+errore: Riga 1: «punto»: il colore non è valido: usa un colore pronto (ROSSO, BLU, …) oppure colore(rosso, verde, blu)
+== radice di un numero negativo
+errore: Riga 1: «radice»: non esiste la radice di un numero negativo
+== lunghezza di un numero
+errore: Riga 1: «lunghezza»: misura testi e liste, non un numero
+== ordinare cose diverse
+errore: Riga 1: «ordina»: si possono mettere in ordine solo liste di soli numeri o di soli testi
+== nome di file non valido
+errore: Riga 1: «salva»: il nome del file può avere solo lettere, cifre, «_», «-» e «.», al massimo 24 caratteri
+== nome di file troppo lungo
+errore: Riga 1: «carica»: il nome del file può avere solo lettere, cifre, «_», «-» e «.», al massimo 24 caratteri
+== ripeti con un testo
+errore: Riga 1: dopo «ripeti» ci vuole un numero di volte, ho trovato un testo
+== per con un testo
+errore: Riga 1: «per» conta con i numeri: ho trovato un testo
+== passo zero
+errore: Riga 1: il passo di «per» non può essere zero: il ciclo non finirebbe mai
+== la variabile di per diventa un testo
+errore: Riga 1: la variabile di «per» dev'essere un numero, ma dentro il ciclo è diventata un testo
+== per ogni su un numero
+errore: Riga 1: dopo «per ogni … in» ci vuole una lista o un testo, ho trovato un numero
+== numero troppo grande
+errore: Riga 3: il risultato è un numero troppo grande
+== funzione che si richiama per sempre
+errore: Riga 2: troppe funzioni una dentro l'altra: «giu» richiama sé stessa senza mai fermarsi?
+== l'errore dice la riga giusta anche dopo una funzione
+errore: Riga 5: non posso sommare un numero e niente
+== l'errore dentro una funzione dice la riga della funzione
+scrivi: fuori
+scrivi: dentro
+errore: Riga 3: non posso sottrarre un testo e un numero
+== ciclo senza fine: lo ferma la prova
+fermato dopo 5000 istruzioni
+== memoria: una lista che cresce senza fine
+errore: Riga 4: memoria esaurita: il programma tiene insieme troppi testi e liste
+== memoria: un testo che raddoppia
+errore: Riga 3: il testo è diventato troppo lungo (al massimo 2048 caratteri)
+== memoria: tanti testi buttati via non danno problemi
+scrivi: finito
+fine
+== lista troppo lunga
+errore: Riga 1: la lista è troppo lunga (al massimo 1024 elementi)
+== pila piccola
+scrivi: 6
+errore: Riga 3: il programma usa troppa memoria tutta insieme (troppi valori in sospeso o funzioni una dentro l'altra)

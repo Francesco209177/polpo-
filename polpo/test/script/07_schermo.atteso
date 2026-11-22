@@ -1,0 +1,37 @@
+== tutte le forme
+disegna: pulisci 0000
+disegna: pulisci 001f
+disegna: punto 10 20 ffff
+disegna: linea 0 0 239 134 07e0
+disegna: rettangolo 10 10 50 30 f800
+disegna: cornice 10 10 50 30 ffe0
+disegna: cerchio 120 67 20 fd20
+disegna: anello 120 67 25 05ff
+disegna: scritta 5 5 ffff x1 «Punti: 3»
+disegna: scritta 5 100 901f x3 «42»
+disegna: scritta 0 0 fc18 x4 «grande»
+disegna: mostra
+fine
+== le misure con la virgola si arrotondano, quelle enormi si limitano
+disegna: punto 1 2 ffff
+disegna: cerchio -5 32000 3 0000
+fine
+== la pallina che rimbalza
+disegna: pulisci 0000
+disegna: cerchio 230 60 5 f800
+disegna: mostra
+aspetta: 30
+disegna: pulisci 0000
+disegna: cerchio 234 60 5 f800
+suona: 880 30
+disegna: mostra
+aspetta: 30
+disegna: pulisci 0000
+disegna: cerchio 238 60 5 f800
+disegna: mostra
+aspetta: 30
+disegna: pulisci 0000
+disegna: cerchio 234 60 5 f800
+disegna: mostra
+aspetta: 30
+fine

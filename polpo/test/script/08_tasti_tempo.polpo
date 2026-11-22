@@ -1,0 +1,55 @@
+#--- tasto() non aspetta
+#! tasti: su a ok
+scrivi(tasto(), tasto(), tasto(), tasto())
+#--- aspetta_tasto() aspetta
+#! tasti: sinistra 7
+t = aspetta_tasto()
+scrivi("primo:", t)
+scrivi("secondo:", aspetta_tasto())
+#--- premuto
+#! premuti: sinistra spazio
+scrivi(premuto("sinistra"), premuto("destra"), premuto("Spazio"), premuto("SINISTRA"))
+#--- chiedi
+#! risposte: Ada | 12 | 
+nome = chiedi("Come ti chiami?")
+anni = numero(chiedi("Quanti anni hai?"))
+scrivi("Ciao " + nome + ", tra un anno ne avrai " + (anni + 1))
+scrivi("[" + chiedi() + "]", lunghezza(chiedi("ancora?")))
+#--- aspetta e tempo
+scrivi(tempo())
+aspetta(250)
+aspetta(0)
+aspetta(1000.4)
+scrivi(tempo())
+aspetta(-5)
+scrivi(tempo())
+#--- suoni
+suona(440, 100)
+suona(99999, 99999)
+suona(-1, -1)
+#--- numeri casuali: stessi numeri con lo stesso seme
+seme(7)
+a = [casuale(1, 6), casuale(1, 6), casuale(1, 6), casuale(6), casuale(10, 1)]
+seme(7)
+b = [casuale(1, 6), casuale(1, 6), casuale(1, 6), casuale(6), casuale(10, 1)]
+scrivi(a, a == b)
+x = casuale()
+scrivi(x >= 0 e x < 1, casuale(5, 5), casuale(-3, -3))
+conta = lista(6, 0)
+ripeti 600 volte
+  d = casuale(6)
+  conta[d] += 1
+fine
+scrivi(conta)
+#--- seme dato dalla prova
+#! seme: 12345
+scrivi(casuale(1, 100), casuale(1, 100), casuale(1, 100))
+#--- file
+#! file: record.txt = 42
+scrivi(carica("record.txt"), carica("manca.txt"), numero(carica("record.txt")) + 1)
+scrivi(salva("Punti.TXT", 99), carica("punti.txt"))
+scrivi(salva("lista.txt", [1, "a"]), carica("lista.txt"))
+#--- termina
+scrivi("prima")
+termina()
+scrivi("dopo")

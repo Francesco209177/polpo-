@@ -1,0 +1,100 @@
+== manca fine
+errore nel programma: Riga 3: manca «fine» per chiudere «se» della riga 1
+== manca fine in un ciclo dentro una funzione
+errore nel programma: Riga 5: manca «fine» per chiudere «funzione» della riga 1
+== fine di troppo
+errore nel programma: Riga 2: questo «fine» è di troppo: non chiude niente
+== altrimenti senza se
+errore nel programma: Riga 1: questo «altrimenti» non ha un «se» a cui riferirsi
+== manca allora
+errore nel programma: Riga 2: dopo la condizione di «se» ci vuole «allora» (ho trovato la fine della riga)
+== funzione che non esiste, con suggerimento
+errore nel programma: Riga 1: non conosco la funzione «cerhio». Forse volevi «cerchio»?
+== funzione che non esiste, senza suggerimento
+errore nel programma: Riga 1: non conosco la funzione «qualcosadistrano»
+== funzione mia scritta male
+errore nel programma: Riga 4: non conosco la funzione «disegna_navi». Forse volevi «disegna_nave»?
+== parola del linguaggio scritta male
+errore nel programma: Riga 1: non capisco «ripeit» seguito da un numero. Forse volevi «ripeti»?
+== fine scritto male
+errore nel programma: Riga 3: «fien» da solo non fa niente: per dargli un valore scrivi «fien = …». Forse volevi «fine»?
+== troppi valori a una funzione pronta
+errore nel programma: Riga 1: «cerchio» vuole 4 valori tra le parentesi, qui ce ne sono 5
+== pochi valori a una funzione pronta
+errore nel programma: Riga 1: «aspetta» vuole 1 valore tra le parentesi, qui non ce n'è nessuno
+== valori sbagliati a una funzione mia
+errore nel programma: Riga 4: la funzione «somma» vuole 2 valori tra le parentesi, qui ce n'è 1
+== testo non chiuso
+errore nel programma: Riga 1: questo testo non è chiuso: manca la virgoletta in fondo
+== parentesi non chiusa
+errore nel programma: Riga 1: manca la parentesi «)» dopo i valori di «scrivi» (ho trovato la fine della riga)
+== parentesi quadra non chiusa
+errore nel programma: Riga 1: manca «]» per chiudere la lista (ho trovato la fine della riga)
+== carattere sconosciuto
+errore nel programma: Riga 1: non conosco il carattere «@»
+== numero attaccato a una lettera
+errore nel programma: Riga 1: dopo un numero non può esserci subito una lettera: manca uno spazio o un segno?
+== numero con troppe cifre
+errore nel programma: Riga 1: questo numero ha troppe cifre (al massimo 15)
+== cambiare un colore
+errore nel programma: Riga 1: «rosso» è un valore già pronto e non si può cambiare: scegli un altro nome
+== cambiare una costante in un ciclo
+errore nel programma: Riga 1: «rosso» è un valore già pronto e non si può cambiare: scegli un altro nome
+== esci fuori da un ciclo
+errore nel programma: Riga 1: «esci» si usa solo dentro un ciclo («ripeti» o «per»)
+== continua fuori da un ciclo
+errore nel programma: Riga 1: «continua» si usa solo dentro un ciclo («ripeti» o «per»)
+== ritorna fuori da una funzione
+errore nel programma: Riga 1: «ritorna» si usa solo dentro una funzione (per fermare il programma c'è termina())
+== locale fuori da una funzione
+errore nel programma: Riga 1: «locale» si usa solo dentro una funzione: fuori dalle funzioni le variabili valgono già dappertutto
+== funzione dentro un blocco
+errore nel programma: Riga 2: una funzione si definisce fuori da tutto il resto, non dentro un blocco o un'altra funzione
+== funzione definita due volte
+errore nel programma: Riga 3: la funzione «f» è già definita alla riga 1
+== funzione con il nome di una pronta
+errore nel programma: Riga 1: «cerchio» esiste già nel linguaggio: scegli un altro nome per la tua funzione
+== nome ripetuto tra le parentesi
+errore nel programma: Riga 1: il nome «a» compare due volte tra le parentesi
+== funzione senza parentesi
+errore nel programma: Riga 1: dopo il nome della funzione ci vogliono le parentesi, per esempio: funzione saluta() (ho trovato la fine della riga)
+== usare una funzione senza parentesi
+errore nel programma: Riga 1: per usare la funzione «pulisci» ci vogliono le parentesi: pulisci()
+== nome da solo
+errore nel programma: Riga 1: «x» da solo non fa niente: per dargli un valore scrivi «x = …»
+== riga che comincia con un numero
+errore nel programma: Riga 1: una riga non può cominciare con un numero
+== due istruzioni sulla stessa riga
+errore nel programma: Riga 1: non capisco «y» in fondo alla riga: ogni istruzione sta su una riga sua
+== qualcosa dopo fine
+errore nel programma: Riga 2: non capisco «fine» in fondo alla riga: ogni istruzione sta su una riga sua
+== valore mancante
+errore nel programma: Riga 1: qui mi aspettavo un valore (un numero, un testo, una variabile…), ho trovato la fine della riga
+== operazione senza secondo valore
+errore nel programma: Riga 1: qui mi aspettavo un valore (un numero, un testo, una variabile…), ho trovato la fine della riga
+== due confronti di fila
+errore nel programma: Riga 2: due confronti di fila non si possono scrivere: usa «e», per esempio «a < b e b < c»
+== ripeti senza niente
+errore nel programma: Riga 1: dopo «ripeti» ci vuole «sempre», «finché …» oppure un numero seguito da «volte»
+== ripeti senza volte
+errore nel programma: Riga 1: dopo «ripeti» ci vuole «sempre», «finché …» oppure un numero seguito da «volte» (ho trovato la fine della riga)
+== per senza da
+errore nel programma: Riga 1: dopo il nome ci vuole «da», per esempio: per i da 1 a 10 (ho trovato «in»)
+== per ogni senza in
+errore nel programma: Riga 1: dopo il nome ci vuole «in», per esempio: per ogni x in lista (ho trovato «[»)
+== se dentro se sulla stessa riga
+errore nel programma: Riga 1: sulla stessa riga di «allora» può stare solo un'istruzione semplice: per le altre vai a capo e chiudi con «fine»
+== allora senza niente dopo
+errore nel programma: Riga 2: manca «fine» per chiudere «se» della riga 1
+== altrimenti due volte
+errore nel programma: Riga 3: dopo un «altrimenti» non ce ne può essere un altro: per più casi usa «altrimenti se … allora»
+== espressione troppo complicata
+errore nel programma: Riga 1: questa espressione è troppo complicata: spezzala su più righe usando delle variabili
+== troppi blocchi uno dentro l'altro
+errore nel programma: Riga 11: troppi blocchi uno dentro l'altro (al massimo 10): sposta una parte in una funzione
+== parola riservata come nome
+errore nel programma: Riga 1: «fine» è una parola del linguaggio e non può essere il nome di una variabile: scegline un altro
+== assegnare con le parentesi quadre senza uguale
+errore nel programma: Riga 2: dopo «l[…]» ci vuole «=» e il nuovo valore: da sola questa riga non fa niente
+== carattere strano in un testo va bene, fuori no
+errore nel programma: Riga 2: non conosco il carattere «€»

@@ -1,0 +1,39 @@
+== le quattro operazioni
+scrivi: 3 -3 42 3.5 0.333333
+scrivi: 14 20 6 3
+scrivi: 1 4 -2 1.5
+scrivi: 0.3 1 12.5
+scrivi: 0 0 0
+fine
+== numeri grandi e piccoli
+scrivi: 1000000 123456789012345 1234567.891 0.000001 0
+scrivi: 2.5 2.5 3.141593 100000
+scrivi: 1000000000000 1000000000000000000 123456789000000000
+scrivi: 1e+19 1.23457e+19 666666666666667
+scrivi: 12345678912.5 999999999999.9
+scrivi: 1e+60
+fine
+== arrotondamenti
+scrivi: 3 -3 4 -4 2
+scrivi: 4 4 1 3 4
+scrivi: 4 1.414214 0
+fine
+== seno e coseno in gradi
+scrivi: 0 0.5 1 0 -1 0
+scrivi: 1 0.5 0 -1
+scrivi: 0.707107 0.707107 -1 0.5 0.5
+scrivi: 0.017452 0.999848 0.999848 0.21644
+fine
+== assegnazioni composte
+scrivi: 8
+fine
+== costanti
+scrivi: 240 135 3.141593
+scrivi: 40
+scrivi: 63488 2016 31 65535 0 64512 63488
+fine
+== testo in numero e viceversa
+scrivi: 43 7 -7 niente niente niente
+scrivi: 8 123 niente
+scrivi: 123456789012345 niente 0.5 0.5 5
+fine

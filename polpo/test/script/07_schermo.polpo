@@ -1,0 +1,30 @@
+#--- tutte le forme
+pulisci()
+pulisci(BLU)
+punto(10, 20, BIANCO)
+linea(0, 0, 239, 134, VERDE)
+rettangolo(10, 10, 50, 30, ROSSO)
+cornice(10, 10, 50, 30, GIALLO)
+cerchio(120, 67, 20, ARANCIO)
+anello(120, 67, 25, AZZURRO)
+scritta(5, 5, "Punti: " + 3, BIANCO)
+scritta(5, 100, 42, VIOLA, 3)
+scritta(0, 0, "grande", ROSA, 9)
+mostra()
+#--- le misure con la virgola si arrotondano, quelle enormi si limitano
+punto(1.4, 1.6, 65535)
+cerchio(-5, 1000000, 2.5, 0)
+#--- la pallina che rimbalza
+x = 230
+vx = 4
+ripeti 4 volte
+  pulisci()
+  cerchio(x, 60, 5, ROSSO)
+  x = x + vx
+  se x > 235 oppure x < 5 allora
+    vx = -vx
+    suona(880, 30)
+  fine
+  mostra()
+  aspetta(30)
+fine
