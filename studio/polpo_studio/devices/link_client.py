@@ -25,6 +25,7 @@ TIMEOUTS = {
     "hello": 35.0,
     "rf.tx": 35.0,
     "nfc.write_ndef": 45.0,
+    "script.run": 35.0,
     "wifi.scan": 15.0,
     "ble.scan": 16.0,
     "diag": 10.0,

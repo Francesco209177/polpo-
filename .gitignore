@@ -10,3 +10,4 @@ site/_site/
 node_modules/
 # il firmware simulato per Polpo Studio: lo costruisce polpo/sim/scripts/compila_web.sh (nei pacchetti lo mette la CI)
 studio/polpo_studio/resources/polpo-sim.wasm
+studio/polpo_studio/resources/polpo-sim-licenze/

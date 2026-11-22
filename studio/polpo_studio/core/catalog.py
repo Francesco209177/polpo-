@@ -282,6 +282,32 @@ MODULES: tuple[ModuleSpec, ...] = (
               "Lab mode only. They are not sandboxed: install only apps you trust.", experimental=True, needs_lab=True),
         ),
     ),
+    ModuleSpec(
+        "script",
+        T("Script", "Scripts"),
+        T("Mini-app in PolpoScript, il linguaggio in italiano del Polpo: scrivile, controllale e falle girare, anche una riga alla volta.",
+          "Mini-apps in PolpoScript, the Polpo's Italian-keyword language: write them, check them and run them, even one line at a time."),
+        "script",
+        (
+            C("script.files", "Programmi sul PC e sulla microSD", "Programs on the PC and on the microSD",
+              "Scrivi il programma qui, aprilo o salvalo come file .polpo sul PC; si copia da solo nella cartella /polpo/script del Polpo.",
+              "Write the program here, open or save it as a .polpo file on the PC; it is copied to the Polpo's /polpo/script folder."),
+            C("script.check", "Controllo degli errori", "Error check",
+              "Lo fa il Polpo, con lo stesso linguaggio che userà per eseguirlo: dice la riga e spesso la parola giusta.",
+              "Done by the Polpo, with the same language it uses to run it: it tells the line and often the right word.", R("polpo")),
+            C("script.run", "Esecuzione sul Polpo", "Running on the Polpo",
+              "Chiede conferma sullo schermo del Polpo. Ciò che il programma scrive compare qui; il tasto G0 lo ferma sempre.",
+              "Asks for confirmation on the Polpo screen. What the program writes shows here; the G0 key always stops it.", R("polpo")),
+            C("script.debug", "Una riga alla volta, con le variabili", "One line at a time, with variables",
+              "Il programma si ferma su ogni riga: vedi quanto valgono le variabili e dove si trova.",
+              "The program stops on every line: you see the value of each variable and where it is.", R("polpo")),
+            C("script.transmit", "Trasmettere da uno script", "Transmitting from a script",
+              "Radio, infrarossi, NFC, tastiera USB, Bluetooth e Wi-Fi dentro un programma.",
+              "Radio, infrared, NFC, USB keyboard, Bluetooth and Wi-Fi inside a program.",
+              unsupported=T("Esclusa per scelta: un programma che trasmette in un ciclo servirebbe a provare codici a raffica.",
+                            "Excluded by design: a program transmitting in a loop would be a tool for trying codes one after another.")),
+        ),
+    ),
 )
 
 MODULE_IDS = {m.id: m for m in MODULES}

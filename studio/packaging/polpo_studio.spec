@@ -1,5 +1,6 @@
 # PyInstaller (cartella unica, "onedir"): pyinstaller packaging/polpo_studio.spec  (dalla cartella studio/)
 # Prima della build copia il firmware: polpo/release/polpo-cardputer-<ver>-app.bin -> polpo_studio/resources/firmware/
+# e il firmware simulato per gli script del Polpo virtuale: polpo-sim.wasm (e licenze/) -> polpo_studio/resources/
 import sys
 from pathlib import Path
 
@@ -11,8 +12,11 @@ datas = [(str(ROOT / "polpo_studio" / "resources"), "polpo_studio/resources")]  
 datas += collect_data_files("esptool")
 datas += collect_data_files("libusb_package")
 binaries = collect_dynamic_libs("libusb_package")
+# wasmtime esegue il firmware simulato: la sua libreria nativa (_libwasmtime.so / wasmtime.dll) va nella sua cartella,
+# dove la cerca con ctypes. Il nome non segue lo schema «lib*.so», quindi gli schemi sono indicati qui.
+binaries += collect_dynamic_libs("wasmtime", search_patterns=["*.so", "*.dll", "*.dylib"])
 hidden = collect_submodules("keyring.backends") + collect_submodules("bleak.backends") + collect_submodules("polpo_studio")
-hidden += ["esptool", "serial.tools.list_ports"]
+hidden += ["esptool", "serial.tools.list_ports"] + collect_submodules("wasmtime")
 
 a = Analysis(  # noqa: F821
     [str(ROOT / "packaging" / "polpo_studio_entry.py")],

@@ -6,12 +6,13 @@ polpo_studio/
     tools/      strumenti di ogni modulo (registrati in TOOL_FACTORIES)
   core/         modello delle capacità, catalogo moduli e hardware, impostazioni, lingue, registro, eventi, app
   devices/      trasporti (seriale, Polpo virtuale), client Polpo Link, gestore del Polpo, Polpo Bridge,
-                Bluetooth (bleak), elenco USB/HID, PC/SC, console seriale, firmware/esptool
+                Bluetooth (bleak), elenco USB/HID, PC/SC, console seriale, firmware/esptool,
+                firmware simulato (firmware_sim: il firmware vero in WebAssembly, per gli script)
   protocols/    formati puri e testabili: Polpo Link, NDEF, Type 2, .ir, .sub, RFID 125 kHz, 1-Wire,
                 DuckyScript, elettronica
   security/     crittografia, cassaforte, registro con catena HMAC, modalità laboratorio, backup
   apps/         app integrate
-  resources/    microSD del Polpo virtuale, casi golden, manifest del firmware
+  resources/    microSD del Polpo virtuale, casi golden, manifest del firmware; polpo-sim.wasm (costruito, non nel repo)
 bridge/         sketch Polpo Bridge (Arduino/ESP32)
 packaging/      PyInstaller, Inno Setup, udev, .desktop
 tests/          pytest e pytest-qt
@@ -29,7 +30,10 @@ tests/          pytest e pytest-qt
   `GuiBridge` riporta eventi e risultati nel thread di Qt (segnali in coda): i widget non si toccano mai da
   altri thread.
 * **Polpo virtuale.** Usa lo stesso `preprocess` del firmware (copia Python verificata con i casi golden) e
-  risponde a tutti i comandi con dati segnati come simulati.
+  risponde a tutti i comandi con dati segnati come simulati. I comandi `script.*` li passa al **firmware vero**
+  compilato in WebAssembly (`devices/firmware_sim.py`, eseguito con `wasmtime`): lo stesso file del simulatore del
+  sito, costruito da `polpo/sim/scripts/compila_web.sh`. Così un programma PolpoScript si comporta in Polpo Studio
+  esattamente come sul dispositivo; la pagina Script ne mostra anche lo schermo e gli manda i tasti.
 * **Sicurezza.** `Vault` (cassaforte), `AuditLog` (registro), `LabMode` (permessi temporanei) vivono in
   `AppContext`; il registro attività resta in memoria finché la cassaforte non è aperta, poi viene scritto cifrato.
 

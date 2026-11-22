@@ -40,7 +40,10 @@ GitHub Actions (`.github/workflows/polpo.yml`), che su entrambi i sistemi esegue
 la Release si crea avviando a mano il workflow con il numero di versione. **macOS**: per ora da sorgente.
 
 Build locale: `pip install pyinstaller==6.22.0`, copia `polpo/release/polpo-cardputer-<ver>-app.bin` in
-`polpo_studio/resources/firmware/`, poi `pyinstaller packaging/polpo_studio.spec` (cartella `dist/PolpoStudio`).
+`polpo_studio/resources/firmware/`, costruisci il firmware simulato per gli script del Polpo virtuale
+(`polpo/sim/scripts/compila_web.sh /tmp/web`, poi copia `/tmp/web/polpo-sim.wasm` in `polpo_studio/resources/` e
+`/tmp/web/licenze` in `polpo_studio/resources/polpo-sim-licenze`), poi `pyinstaller packaging/polpo_studio.spec`
+(cartella `dist/PolpoStudio`). Senza il firmware simulato tutto funziona, tranne gli script nel Polpo virtuale.
 
 ## Documentazione
 

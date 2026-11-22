@@ -11,6 +11,7 @@ from .nfc_tools import NfcTools
 from .polpo_tools import PolpoTools
 from .radio_tools import RadioTools
 from .rfid_tools import RfidTools
+from .script_tools import ScriptTools
 from .usb_tools import UsbTools
 
 TOOL_FACTORIES.update(
@@ -26,5 +27,6 @@ TOOL_FACTORIES.update(
         "rfid125": RfidTools,
         "ibutton": IButtonTools,
         "apps": AppsTools,
+        "script": ScriptTools,
     }
 )

@@ -186,6 +186,19 @@ def _draw_apps(p: QPainter, c: QColor) -> None:
     p.drawEllipse(QRectF(36, 36, 18, 18))
 
 
+def _draw_script(p: QPainter, c: QColor) -> None:
+    # un foglio con le righe del programma e il triangolo di «Esegui»
+    p.drawRoundedRect(QRectF(10, 8, 34, 46), 5, 5)
+    for y in (19, 28, 37):
+        p.drawLine(18, y, 36 if y != 28 else 30, y)
+    path = QPainterPath()
+    path.moveTo(38, 36)
+    path.lineTo(56, 46)
+    path.lineTo(38, 56)
+    path.closeSubpath()
+    p.drawPath(path)
+
+
 def _draw_settings(p: QPainter, c: QColor) -> None:
     p.drawEllipse(QRectF(24, 24, 16, 16))
     for i in range(8):
@@ -222,6 +235,7 @@ _DRAW = {
     "ibutton": _draw_ibutton,
     "files": _draw_files,
     "apps": _draw_apps,
+    "script": _draw_script,
     "settings": _draw_settings,
     "activity": _draw_activity,
     "security": _draw_security,

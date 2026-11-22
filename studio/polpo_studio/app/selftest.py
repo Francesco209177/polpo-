@@ -43,6 +43,52 @@ def _virtual_polpo() -> None:
         c.close()
 
 
+class Skipped(Exception):
+    """Controllo non applicabile qui (non è un errore)."""
+
+
+def _scripts() -> None:
+    """Gli script nel Polpo virtuale: li esegue il firmware simulato (polpo-sim.wasm con wasmtime)."""
+    import threading
+    import time
+
+    from ..devices import firmware_sim
+    from ..devices.link_client import PolpoLinkClient
+    from ..devices.transport import VirtualTransport
+    from ..devices.virtual_polpo import VirtualPolpo
+
+    reason = firmware_sim.unavailable_reason()
+    if reason:
+        # nel programma installato deve esserci; da sorgente (senza il file costruito) si può saltare
+        if getattr(sys, "frozen", False) or os.environ.get("POLPO_FIRMWARE_SIM") == "obbligatorio":
+            raise RuntimeError(reason)
+        raise Skipped(reason)
+    events: list[tuple[str, dict]] = []
+    ended = threading.Event()
+
+    def on_event(ev: str, data: dict) -> None:
+        events.append((ev, data))
+        if ev == "script.end":
+            ended.set()
+
+    c = PolpoLinkClient(VirtualTransport(VirtualPolpo(latency=0.0, auto_confirm_delay=0.05)), on_event=on_event)
+    c.open()
+    try:
+        c.hello()
+        path = "/polpo/script/autodiagnosi.polpo"
+        c.write_file(path, "x = seno(30) * 4\nscrivi(\"risultato\", x + 1)\n".encode())
+        assert c.call("script.check", {"file": path}) == {"valid": True, "line": 0, "message": ""}
+        started = time.monotonic()
+        c.call("script.run", {"file": path}, timeout=20.0)
+        assert ended.wait(20.0), "il programma non è finito"
+        prints = [d.get("text") for ev, d in events if ev == "script.print"]
+        assert prints == ["risultato 3"], prints
+        assert [d for ev, d in events if ev == "script.end"] == [{"line": 2, "error": ""}]
+        assert time.monotonic() - started < 20
+    finally:
+        c.close()
+
+
 def _vault() -> None:
     from ..security.audit import AuditLog
     from ..security.vault import Vault
@@ -97,6 +143,7 @@ CHECKS: list[tuple[str, Callable[[], None]]] = [
     ("moduli e catalogo", _modules),
     ("protocollo Polpo Link (casi del firmware)", _golden),
     ("Polpo virtuale e trasferimento file", _virtual_polpo),
+    ("script nel Polpo virtuale (firmware simulato)", _scripts),
     ("cassaforte cifrata e registro", _vault),
     ("finestra e pagine", _window),
 ]
@@ -111,6 +158,8 @@ def run(out=print) -> int:
         try:
             fn()
             out(f"  OK      {name}")
+        except Skipped as e:
+            out(f"  SALTATO {name}: {e}")
         except Exception:  # noqa: BLE001 - si riporta tutto
             failed += 1
             out(f"  ERRORE  {name}")

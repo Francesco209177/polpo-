@@ -69,6 +69,28 @@ Senza hardware puoi usare **Home › Usa il Polpo virtuale**: tutto ciò che pro
 | **iButton** | Ricerca ROM, famiglia, CRC8, archivio (Sperimentale) | Polpo Bridge + sonda 1-Wire |
 | **Archivio file** | Tutti i file della cassaforte: categorie, ricerca, note, import/export, verifica | — |
 | **App** | App integrate e app di terze parti (solo in modalità laboratorio) | — |
+| **Script** | Mini-app in PolpoScript: editor, controllo degli errori, esecuzione e passo passo con le variabili; con il Polpo virtuale anche lo schermo da comandare con la tastiera del PC | Polpo (vero o virtuale) |
+
+### Script
+
+Il modulo **Script** serve a scrivere mini-app in **PolpoScript**, il linguaggio in italiano del Polpo
+(manuale del linguaggio: `polpo/docs/POLPOSCRIPT.md`, anche nella Documentazione del sito).
+
+1. Scrivi il programma nell'editor, oppure aprilo da un file `.polpo` del PC o dalla microSD del Polpo
+   (**Aggiorna elenco**, scegli, **Apri**). La bozza resta salvata quando chiudi il programma.
+2. **Controlla**: il programma viene copiato nella cartella `/polpo/script` del Polpo, che lo controlla con lo stesso
+   linguaggio che userà per eseguirlo. Se c'è un errore la riga si colora e il messaggio la indica.
+3. **Esegui**: il Polpo chiede conferma sul suo schermo. Ciò che il programma scrive compare in **Che cosa fa**.
+4. **Una riga alla volta**: il programma si ferma su ogni riga, la riga si colora e la tabella mostra le variabili.
+   **Riga successiva** avanza, **Riprendi** lo lascia andare, **Ferma** lo chiude (come il tasto G0 sul Polpo).
+
+Con il **Polpo virtuale** a eseguire il programma è il firmware vero, compilato per il PC: nel riquadro
+**Schermo del Polpo virtuale** vedi ciò che disegna; clicca sullo schermo e usa frecce, Invio (OK), Esc (indietro),
+lettere e numeri. Tutto è segnato SIMULATO.
+
+Uno script disegna, suona, legge i tasti e salva piccoli file nella sua cartella: **non può trasmettere** (radio,
+infrarossi, NFC), né scrivere come una tastiera USB, né usare Bluetooth e Wi-Fi. Per questo non serve la modalità
+laboratorio.
 
 ## 6. Modalità laboratorio
 
@@ -92,6 +114,8 @@ tastiera, schede della Home, notifiche, hardware dichiarato. In ogni modulo la s
 | "Rifiutato sullo schermo del Polpo" | Hai premuto No sul Polpo, o sono passati 20 secondi. |
 | Bluetooth "Richiede hardware esterno" | Adattatore assente o spento; su Linux serve BlueZ attivo. |
 | Funzione "Non verificabile" | Dichiara il componente in Impostazioni › Hardware. |
+| Script: "comando sconosciuto" con il Polpo vero | Il firmware è più vecchio della 0.2.0: aggiornalo. |
+| Script: "il Polpo virtuale non può eseguire gli script" | Manca il firmware simulato (`polpo-sim.wasm`): succede solo avviando Polpo Studio dal codice sorgente senza averlo costruito. |
 
 ## 9. Limiti onesti
 

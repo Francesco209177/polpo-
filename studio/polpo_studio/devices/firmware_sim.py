@@ -13,8 +13,14 @@ import threading
 from pathlib import Path
 from typing import Any
 
+from ..paths import resources_dir
+
 WIDTH, HEIGHT = 240, 135
-WASM = Path(__file__).resolve().parent.parent / "resources" / "polpo-sim.wasm"
+
+
+def wasm_path() -> Path:
+    return resources_dir() / "polpo-sim.wasm"
+
 
 # Tastiera del Cardputer: fila e colonna dei tasti che servono a chi prova un programma.
 _ROWS = ("`1234567890-=\b", "\tqwertyuiop[]\\", "\0\0asdfghjkl;'\r", "\0\0\0zxcvbnm,./ ")
@@ -29,7 +35,7 @@ class FirmwareSimUnavailable(Exception):
 
 def unavailable_reason(wasm: Path | None = None) -> str | None:
     """None se il firmware simulato si può usare, altrimenti il motivo (in italiano)."""
-    if not (wasm or WASM).is_file():
+    if not (wasm or wasm_path()).is_file():
         return "manca il file del firmware simulato (polpo-sim.wasm)"
     try:
         import wasmtime  # noqa: F401
@@ -49,7 +55,7 @@ class FirmwareSim:
 
         self._lock = threading.RLock()
         engine = wasmtime.Engine()
-        module = wasmtime.Module.from_file(engine, str(wasm or WASM))
+        module = wasmtime.Module.from_file(engine, str(wasm or wasm_path()))
         self._store = wasmtime.Store(engine)
         linker = wasmtime.Linker(engine)
         # l'unica cosa che il modulo chiede a chi lo ospita: un avviso (ignorato) quando gli serve più memoria

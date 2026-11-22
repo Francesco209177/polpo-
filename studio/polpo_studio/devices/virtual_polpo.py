@@ -592,6 +592,28 @@ class VirtualPolpo:
         if self._script_tick is None:
             self._script_tick = self._sched.call_soon(self._script_pump)
 
+    # Per Polpo Studio: lo schermo e i tasti del firmware simulato, come se si avesse il Polpo in mano.
+
+    def script_screen(self) -> bytes | None:
+        """Lo schermo del Polpo virtuale (RGB565, byte più significativo per primo), se il firmware simulato è attivo."""
+        sim = self.sim
+        return sim.screen_rgb565() if sim is not None else None
+
+    def script_screen_hash(self) -> int | None:
+        sim = self.sim
+        return sim.screen_hash() if sim is not None else None
+
+    def script_key(self, name: str, down: bool) -> None:
+        sim = self.sim
+        if sim is not None and sim.key(name, down):
+            self._sched.call_soon(self._script_wake)  # il tempo deve passare perché il firmware legga il tasto
+
+    def script_g0(self) -> None:
+        sim = self.sim
+        if sim is not None:
+            sim.g0()
+            self._sched.call_soon(self._script_wake)
+
     def _script_close(self) -> None:
         if self.sim is not None and self.sim.script({"cmd": "stato"}).get("stato", "none") != "none":
             self.sim.script({"cmd": "ferma"})

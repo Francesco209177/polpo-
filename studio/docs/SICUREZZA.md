@@ -4,7 +4,8 @@
 
 * **Solo dispositivi tuoi o autorizzati.** Il programma non contiene funzioni per entrare in cancelli,
   veicoli, allarmi o sistemi di altre persone: niente disturbo radio, prove a forza bruta, rolling code,
-  copie di badge o chiavi, emulazione di carte, attacchi Wi-Fi/Bluetooth, esecuzione di script dal PC.
+  copie di badge o chiavi, emulazione di carte, attacchi Wi-Fi/Bluetooth, avvio dal PC degli script BadUSB
+  (quelli che scrivono come una tastiera).
   Queste funzioni compaiono nei moduli come **Non disponibile**, con il motivo.
 * **Mai fingere hardware assente.** Lo stato di ogni funzione dipende da cosa è davvero collegato; il Polpo
   virtuale è sempre segnato **SIMULATO** e i suoi dati non si inviano al Polpo vero (anche un telecomando
@@ -43,6 +44,17 @@ file già presenti.
 Serve per: trasmettere a 433 MHz, scrivere tag NFC, aggiornare il firmware del Polpo, programmare schede ESP32,
 pilotare uscite GPIO, usare app di terze parti. Si attiva accettando le regole e confermando con PIN o frase;
 si spegne da sola (predefinito 30 minuti), al blocco dello schermo e alla chiusura del programma.
+
+## Programmi PolpoScript
+
+Le mini-app in PolpoScript (modulo Script) non sono script BadUSB: il linguaggio ha solo funzioni per disegnare,
+suonare, leggere i tasti, contare il tempo e tenere piccoli file in `/polpo/script/dati`. **Non esistono** funzioni
+per trasmettere (radio, infrarossi, NFC), scrivere come una tastiera USB, usare Bluetooth o Wi-Fi: un programma che
+trasmette dentro un ciclo servirebbe a provare codici a raffica. Il firmware lo garantisce in tre modi: un test fissa
+l'elenco delle funzioni del linguaggio; `polpo/scripts/check_script.py` (in CI) controlla che il codice che esegue gli
+script non includa i moduli che trasmettono; Polpo Link accetta da avviare solo file `.polpo` di `/polpo/script`.
+L'avvio dal PC chiede sempre conferma sullo schermo del Polpo e il tasto G0 ferma sempre il programma. Ogni programma
+ha memoria e tempo di calcolo limitati: non può bloccare il Polpo né riempirne la memoria.
 
 ## App di terze parti
 
