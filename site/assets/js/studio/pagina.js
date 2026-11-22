@@ -82,6 +82,15 @@ const ctx = {
     for (const f of this._aggiornamenti) { try { f(); } catch (e) { console.error(e); } }
   },
 
+  /** Rilegge le informazioni del Polpo (moduli collegati, batteria): gli stati delle funzioni seguono. */
+  async aggiornaInfo() {
+    if (!this.collegato()) return;
+    try {
+      this.info = { ...this.info, ...(await this.client.richiesta("info")) };
+      this.aggiorna();
+    } catch { /* il prossimo giro riprova */ }
+  },
+
   salvaImpostazioni() {
     try { localStorage.setItem(CHIAVE_IMPOSTAZIONI, JSON.stringify(this.impostazioni)); } catch { /* senza memoria */ }
     this.aggiorna();
@@ -265,7 +274,10 @@ $("st-grove").addEventListener("change", (e) => {
   if (!ctx.virtuale) return;
   ctx.virtuale.mondo({ cmd: "modulo", valore: e.target.value });
   ctx.avvisa(`Polpo virtuale: porta Grove con ${e.target.selectedOptions[0].textContent}.`);
+  setTimeout(() => ctx.aggiornaInfo(), 300); // il Polpo se ne accorge al prossimo controllo del bus I2C
 });
+// i moduli sulla porta Grove si possono collegare e staccare in ogni momento: ogni tanto si ricontrolla
+setInterval(() => { if (ctx.collegato() && ctx.client.risponde) ctx.aggiornaInfo(); }, 20000);
 $("st-tag").addEventListener("change", (e) => {
   if (!ctx.virtuale) return;
   ctx.virtuale.mondo({ cmd: "tag", tipo: e.target.value || "ntag213", vicino: !!e.target.value });

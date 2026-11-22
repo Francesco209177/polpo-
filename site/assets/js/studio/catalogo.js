@@ -35,7 +35,7 @@ const MODULI_POLPO = ["ir_tx", "ir_unit", "rf433", "rfid2", "wifi", "ble", "usb_
  */
 export const NELL_APP = new Set([
   "polpo.info", "polpo.diag", "polpo.sd_backup", "polpo.wifi_scan", "polpo.ble_scan",
-  "radio.bands", "radio.rx", "radio.raw", "radio.analysis", "radio.archive", "radio.tx",
+  "radio.bands", "radio.rx", "radio.raw", "radio.analysis", "radio.archive", "radio.tx", "radio.editor", "radio.report",
   "nfc.detect", "nfc.read", "nfc.analysis", "nfc.ndef", "nfc.archive", "nfc.write",
   "ir.library", "ir.send", "ir.learn",
   "gpio.grove",

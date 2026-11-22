@@ -151,3 +151,111 @@ test("Studio: cassaforte creata nel telefono, chiave di recupero, PIN, laborator
   assert.deepEqual(problemi, []);
   await contesto.close();
 });
+
+/** Cassaforte nuova e aperta (serve per salvare codici e telecomandi). */
+async function creaCassaforte(pagina, frase = "polpo blu mangia sedici biscotti") {
+  await pagina.click('a[href="#sicurezza"]');
+  await pagina.fill('[aria-label="Frase di accesso"]', frase);
+  await pagina.fill('[aria-label="Ripeti la frase"]', frase);
+  await pagina.click("text=Crea la cassaforte >> nth=-1");
+  await pagina.waitForSelector("#st-recupero", { timeout: 30000 });
+  await pagina.click("text=L'ho scritta su carta");
+  await pagina.waitForSelector('#m-sicurezza h3:has-text("Modalità laboratorio")');
+}
+
+async function confermaSulPolpo(pagina) {
+  await pagina.waitForTimeout(500);
+  await pagina.click('[data-tasto="destra"]');
+  await pagina.waitForTimeout(200);
+  await pagina.click('[data-tasto="ok"]');
+}
+
+test("Studio: infrarossi dalla libreria e un tasto imparato dal telecomando simulato", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  await creaCassaforte(pagina);
+  await collegaVirtuale(pagina);
+  await pagina.click('a[href="#infrarossi"]');
+  await pagina.click('#m-infrarossi button:has-text("Apri") >> nth=0');
+  await pagina.locator("#m-infrarossi .st-telecomando button").first().click();
+  await pagina.waitForSelector("#st-avviso >> text=/^Inviato «.*»\\. · SIMULATO/");
+  // apprendimento: la IR Unit sulla porta Grove del Polpo virtuale, poi un tasto del telecomando simulato
+  await pagina.click("summary:has-text('Il mondo simulato')");
+  await pagina.locator("#st-grove").selectOption("ir");
+  await pagina.click("text=Impara un tasto…");
+  await pagina.waitForSelector("#st-avviso >> text=/In ascolto/");
+  await pagina.click("[data-ir]");
+  await pagina.waitForSelector("#st-avviso >> text=/^Imparato «tasto 1»/", { timeout: 10000 });
+  assert.match(await pagina.textContent('#m-infrarossi [aria-label="I miei telecomandi"]'), /telecomando imparato\.ir · SIMULATO/);
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
+
+test("Studio: un codice a 433 MHz ricevuto, salvato e trasmesso con laboratorio e conferma sul Polpo", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  pagina.on("dialog", (d) => (d.type() === "prompt" ? d.accept("presa salotto") : d.accept()));
+  await creaCassaforte(pagina);
+  await collegaVirtuale(pagina);
+  await pagina.click("summary:has-text('Il mondo simulato')");
+  await pagina.locator("#st-grove").selectOption("rf433");
+  await pagina.click('a[href="#radio"]');
+  await pagina.click("text=Avvia ascolto");
+  await pagina.click('[data-rf="5592405"]');
+  await pagina.waitForSelector('#m-radio [aria-label="Codici ricevuti"] >> text=0x555555');
+  await pagina.click('#m-radio button:has-text("Salva…")');
+  await pagina.waitForSelector("#m-radio >> text=presa salotto.sub");
+  await pagina.check('#m-radio input[name="st-radio-voce"]');
+  // senza laboratorio non parte
+  await pagina.click("text=Trasmetti il codice selezionato…");
+  await pagina.waitForSelector("#st-avviso >> text=/modalità laboratorio/i");
+  await pagina.click('a[href="#sicurezza"]');
+  await pagina.check("text=Ho letto e accetto queste regole");
+  await pagina.fill('[aria-label="PIN o frase di accesso, per conferma"]', "polpo blu mangia sedici biscotti");
+  await pagina.click("button:has-text('Attiva')");
+  await pagina.waitForSelector("#m-sicurezza >> text=Disattiva ora", { timeout: 20000 });
+  await pagina.click('a[href="#radio"]');
+  await pagina.check('#m-radio input[name="st-radio-voce"]');
+  await pagina.click("text=Trasmetti il codice selezionato…");
+  await pagina.waitForSelector("#st-avviso >> text=/attendo la conferma sul suo schermo/");
+  await confermaSulPolpo(pagina);
+  await pagina.waitForSelector("#st-avviso >> text=/^Trasmesso\\. Tempo radio usato/", { timeout: 15000 });
+  assert.match(await pagina.textContent("#st-avviso"), /SIMULATO/);
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
+
+test("Studio: un tag NFC simulato letto, analizzato, salvato e scritto con laboratorio e conferma sul Polpo", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  pagina.on("dialog", (d) => d.accept());
+  await creaCassaforte(pagina);
+  await collegaVirtuale(pagina);
+  await pagina.click("summary:has-text('Il mondo simulato')");
+  await pagina.locator("#st-grove").selectOption("rfid2");
+  await pagina.locator("#st-tag").selectOption("ntag213");
+  await pagina.click('a[href="#nfc"]');
+  await pagina.click("text=Leggi dal Polpo");
+  await pagina.waitForSelector("#m-nfc .st-nfc >> text=NTAG213");
+  assert.match(await pagina.textContent("#m-nfc .st-nfc"), /SIMULATO: tag inventato dal Polpo virtuale/);
+  await pagina.click("text=Salva la lettura");
+  await pagina.waitForSelector("#m-nfc >> text=/^tag-.*\\.json$/");
+  // analizzatore NDEF: il messaggio d'esempio
+  await pagina.fill('[aria-label="Byte in esadecimale"]', "03 11 D1 01 0D 55 04 65 78 61 6D 70 6C 65 2E 6F 72 67 FE");
+  await pagina.click("#m-nfc button:has-text('Analizza')");
+  await pagina.waitForSelector("#m-nfc >> text=/example\\.org/");
+  // scrittura: laboratorio, poi conferma sul Polpo
+  await pagina.click('a[href="#sicurezza"]');
+  await pagina.check("text=Ho letto e accetto queste regole");
+  await pagina.fill('[aria-label="PIN o frase di accesso, per conferma"]', "polpo blu mangia sedici biscotti");
+  await pagina.click("button:has-text('Attiva')");
+  await pagina.waitForSelector("#m-sicurezza >> text=Disattiva ora", { timeout: 20000 });
+  await pagina.click('a[href="#nfc"]');
+  await pagina.locator('[aria-label="Tipo"]').selectOption("text");
+  await pagina.fill('[aria-label="Contenuto"]', "ciao dal telefono");
+  await pagina.click("text=Scrivi sul tag…");
+  await pagina.waitForSelector("#st-avviso >> text=/Conferma sullo schermo del Polpo/");
+  await confermaSulPolpo(pagina);
+  await pagina.waitForSelector("#st-avviso >> text=/^Scritto e verificato/", { timeout: 20000 });
+  await pagina.click("text=Leggi dal Polpo");
+  await pagina.waitForSelector("#m-nfc .st-nfc >> text=ciao dal telefono");
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
