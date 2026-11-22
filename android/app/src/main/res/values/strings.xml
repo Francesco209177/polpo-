@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nome_app">Polpo</string>
+    <string name="microfono_negato">Senza il permesso del microfono Polpo Onde non può ascoltare.</string>
+    <string name="salvato">File salvato.</string>
+    <string name="non_salvato">File non salvato.</string>
+    <string name="nessun_browser">Nessun browser per aprire il link.</string>
+</resources>

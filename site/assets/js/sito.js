@@ -29,6 +29,20 @@
     noSerial.forEach(function (el) { el.hidden = false; });
   }
 
+  // Nell'app per Android i file del sito (per esempio lo zip per la microSD) si salvano con il selettore del
+  // telefono: la WebView da sola non scarica nulla.
+  var nativo = window.PolpoNativo;
+  if (nativo && nativo.salvaRisorsa) {
+    document.addEventListener("click", function (e) {
+      var a = e.target && e.target.closest ? e.target.closest("a[download]") : null;
+      if (!a) return;
+      var u = new URL(a.href, document.baseURI);
+      if (u.origin !== location.origin) return;
+      e.preventDefault();
+      nativo.salvaRisorsa(u.pathname, a.getAttribute("download") || u.pathname.split("/").pop());
+    });
+  }
+
   // Pulsanti "Copia".
   document.querySelectorAll("[data-copy]").forEach(function (b) {
     b.addEventListener("click", function () {

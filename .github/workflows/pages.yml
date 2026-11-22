@@ -20,6 +20,7 @@ on:
       - "studio/docs/**"
       - "studio/bridge/LEGGIMI.md"
       - "studio/polpo_studio/__init__.py"
+      - "android/certificato-sha256.txt"
       - ".github/workflows/pages.yml"
   pull_request:
     paths:

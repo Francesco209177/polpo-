@@ -13,11 +13,12 @@ export const SITO = path.resolve(process.env.SITO_DIR || path.join(qui, "../../_
 if (!fs.existsSync(path.join(SITO, "index.html"))) {
   throw new Error(`Sito non trovato in ${SITO}: costruiscilo con «python site/build.py --out site/_site» o indica SITO_DIR.`);
 }
+const SITO_PREDEFINITO = SITO;
 
-const TIPI = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp", ".json": "application/json", ".wasm": "application/wasm" };
+const TIPI = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp", ".json": "application/json", ".wasm": "application/wasm", ".zip": "application/zip" };
 
-/** Serve il sito sotto /sito/ (come GitHub Pages, che lo pubblica in una sottocartella). */
-export async function servi() {
+/** Serve il sito (o un'altra cartella costruita) sotto /sito/, come GitHub Pages che lo pubblica in una sottocartella. */
+export async function servi(SITO = SITO_PREDEFINITO) {
   const server = http.createServer((req, res) => {
     let p = decodeURIComponent(new URL(req.url, "http://x").pathname);
     if (!p.startsWith("/sito/")) { res.writeHead(404).end(); return; }

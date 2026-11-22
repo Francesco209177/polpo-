@@ -1,0 +1,50 @@
+<!--
+title: Installa il firmware Polpo sul Cardputer
+description: Come installare il firmware Polpo sul Cardputer: dal telefono non si può ancora, serve un computer con Chrome o Edge.
+nav: installa
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Installazione · versione {{fw_version}}</p>
+    <h1>Installa il firmware sul Cardputer</h1>
+    <p class="lead">Dal telefono non si può ancora: l'installazione si fa da un <strong>computer</strong> con Google Chrome o Microsoft Edge e un cavo USB, in circa un minuto.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="{{site_url}}installa/">Apri la pagina Installa nel browser</a>
+    </div>
+    <p class="small">La pagina si apre nel browser del telefono: puoi mandarti il link e aprirlo sul computer.</p>
+  </div>
+</section>
+
+<section class="tight" data-app-installa>
+  <div class="container grid two">
+    <div>
+      <h2>Sul computer, i passi</h2>
+      <ol class="steps">
+        <li><h3>Spegni il Cardputer</h3><p>Usa l'interruttore sul lato.</p></li>
+        <li><h3>Entra in modalità download</h3><p>Tieni premuto <kbd>G0</kbd>, collega il cavo USB al computer, poi rilascia <kbd>G0</kbd>. Lo schermo resta nero: è normale.</p></li>
+        <li><h3>Premi «Installa Polpo»</h3><p>Sulla pagina Installa del sito, aperta con Chrome o Edge. Scegli la porta che compare e conferma.</p></li>
+        <li><h3>Riaccendi</h3><p>Scollega il cavo e accendi il Cardputer: compare il polpo.</p></li>
+      </ol>
+      <p class="small">L'aggiornamento del firmware con il telefono e un cavo USB è previsto in una prossima versione dell'app, come funzione <span class="badge exp">Sperimentale</span>.</p>
+    </div>
+    <div>
+      <div class="install-box">
+        <h2>Polpo {{fw_version}}</h2>
+        <dl class="facts">
+          <dt>Per</dt><dd>M5Stack Cardputer v1.1 e Adv (ESP32-S3)</dd>
+          <dt>File</dt><dd>{{fw_file}} ({{fw_size}}), sul sito e su GitHub</dd>
+          <dt>SHA-256</dt><dd><span class="sha" id="sha">{{fw_sha256}}</span> <button class="copy-btn" type="button" data-copy="sha">Copia</button></dd>
+        </dl>
+      </div>
+      <div class="notice mt" id="microsd">
+        <h3>Prepara la microSD</h3>
+        <p>Il Polpo salva telecomandi, segnali, letture e script su una microSD (da 4 a 32 GB, FAT32).</p>
+        <ol>
+          <li><a href="sd-polpo.zip" download>Salva sd-polpo.zip</a> nel telefono.</li>
+          <li>Estrailo (con l'app <em>File</em> del telefono o sul computer) e copia la cartella <code>polpo</code> nella microSD.</li>
+          <li>Inserisci la microSD nel Cardputer spento, poi accendilo.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>

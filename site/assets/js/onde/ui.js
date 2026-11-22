@@ -6,6 +6,7 @@ import { sintetizza } from "./tx.js";
 import { Ricevitore, ricevi } from "./rx.js";
 import { canale, casuale } from "./canale.js";
 import { fft } from "./fft.js";
+import { salvaFile } from "../salva.js";
 
 const $ = (id) => document.getElementById(id);
 const el = {
@@ -380,11 +381,7 @@ function scaricaRegistrazione() {
   wav.setUint16(32, 2, true); wav.setUint16(34, 16, true); scrivi(36, "data"); wav.setUint32(40, 2 * n, true);
   let o = 44;
   for (const b of registrazione.blocchi) for (let i = 0; i < b.length; i++, o += 2) wav.setInt16(o, Math.round(32767 * Math.max(-1, Math.min(1, b[i]))), true);
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([wav], { type: "audio/wav" }));
-  a.download = "polpo-onde-registrazione.wav";
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+  salvaFile(new Blob([wav], { type: "audio/wav" }), "polpo-onde-registrazione.wav");
 }
 
 // ---------------- avvio ----------------

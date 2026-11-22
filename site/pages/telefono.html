@@ -1,0 +1,90 @@
+<!--
+title: Polpo per Android: l'app per il telefono
+description: L'app Polpo per Android: il simulatore con il firmware vero, PolpoScript, Polpo Onde e i manuali, senza Internet e senza Cardputer.
+nav: telefono
+-->
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">App per Android · versione {{fw_version}}</p>
+    <h1>Il Polpo sul telefono</h1>
+    <p class="lead">Un'app per Android con il simulatore che esegue il firmware vero, le mini-app in PolpoScript, Polpo Onde e tutti i manuali. Funziona <strong>senza Internet</strong> e senza Cardputer.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="{{dl_android}}">Scarica l'app (Polpo-Android.apk)</a>
+      <a class="btn btn-ghost" href="#installa">Come si installa</a>
+    </div>
+    <p class="small">Per Android 8.0 o più recente. Gratuita e libera (licenza MIT), senza pubblicità. Il file arriva dalla <a href="{{releases_url}}">pagina delle versioni su GitHub</a>.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="notice">
+      <h2>A che punto è</h2>
+      <p>Questa prima versione contiene <strong>tutto ciò che c'è sul sito</strong>, dentro il telefono. <strong>Comandare il Polpo vero</strong> dal telefono, con il cavo USB e poi via Bluetooth, arriverà nelle prossime versioni, una parte alla volta. L'app è provata in automatico su un telefono Android emulato a ogni versione, <strong>non ancora su un telefono vero</strong>: se la provi, <a href="{{issues_url}}">dicci com'è andata</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="cosa-fa">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Cosa c'è dentro</p>
+      <h2>Quello che fa davvero, e quello che è simulato</h2>
+    </div>
+    <div class="grid two">
+      <div class="card">
+        <h3>Simulatore <span class="badge sim">Simulato</span></h3>
+        <p>Lo stesso firmware che installi sul Cardputer, eseguito nel telefono: menu, telecomandi, radio, NFC, con un televisore, una presa e dei tag finti. Ciò che il Polpo «trasmette» qui non esce dal telefono.</p>
+      </div>
+      <div class="card">
+        <h3>PolpoScript</h3>
+        <p>Scrivi e prova le mini-app in italiano, anche una riga alla volta guardando le variabili. Gli script disegnano, suonano e leggono i tasti: non trasmettono niente.</p>
+      </div>
+      <div class="card">
+        <h3>Polpo Onde <span class="badge exp">Sperimentale</span></h3>
+        <p>Messaggi attraverso il suono, con il <strong>microfono e l'altoparlante veri</strong> del telefono: prova a parlare con il computer che ha aperto la pagina Onde del sito.</p>
+      </div>
+      <div class="card">
+        <h3>Manuali e componenti</h3>
+        <p>Il manuale del Polpo, di PolpoScript e di Polpo Studio, la lista dei pezzi e l'hardware esterno, da leggere anche senza connessione.</p>
+      </div>
+    </div>
+    <h3 class="mt">Cosa non fa (ancora)</h3>
+    <ul>
+      <li><strong>Installare il firmware sul Cardputer</strong>: serve un computer con Chrome o Edge (<a href="../installa/">pagina Installa</a>).</li>
+      <li><strong>Comandare il Polpo vero</strong> e le funzioni di Polpo Studio: arriveranno nelle prossime versioni.</li>
+      <li>Il telefono <strong>non ha</strong> la radio a 433 MHz, il lettore RFID e la porta Grove del Polpo: quelle funzioni passeranno sempre dal Polpo vero, mai finte.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="tight" id="installa">
+  <div class="container grid two">
+    <div>
+      <h2>Come si installa</h2>
+      <ol class="steps">
+        <li><h3>Scarica l'app dal telefono</h3><p>Apri questa pagina sul telefono e tocca <em>Scarica l'app</em>. Il file si chiama <code>Polpo-Android.apk</code>.</p></li>
+        <li><h3>Apri il file scaricato</h3><p>Dalla notifica del download o dall'app <em>File</em>. La prima volta Android chiede di <strong>consentire l'installazione da questa fonte</strong> (il browser o l'app File): consentila.</p></li>
+        <li><h3>Se compare un avviso di Play Protect</h3><p>Succede con tutte le app che non arrivano dal Play Store. Se hai scaricato il file da questo sito o da GitHub, scegli <em>Altri dettagli</em>, poi <em>Installa comunque</em>.</p></li>
+        <li><h3>Apri Polpo</h3><p>L'icona è la mascotte. Puoi togliere di nuovo il permesso di installare dal browser: per gli aggiornamenti lo riattivi solo quando serve.</p></li>
+      </ol>
+      <p><strong>Aggiornare:</strong> scarica la nuova versione e installala sopra quella vecchia. Script e microSD del Polpo simulato restano.</p>
+    </div>
+    <div>
+      <div class="notice">
+        <h3>Permessi e riservatezza</h3>
+        <ul>
+          <li><strong>Microfono</strong>: solo per Polpo Onde, chiesto la prima volta che premi <em>Ascolta</em>. Puoi dire di no: il resto funziona.</li>
+          <li><strong>Nessun permesso Internet</strong>: l'app non può collegarsi a nessun server. I link a GitHub e al sito si aprono nel browser del telefono.</li>
+          <li>Nessun account, nessuna pubblicità, nessun tracciamento. I dati restano nel telefono e non finiscono nei backup sul cloud.</li>
+        </ul>
+      </div>
+      <details class="mt">
+        <summary>Controllare che il file sia quello giusto</summary>
+        <p>L'impronta SHA-256 di ogni file della versione è nell'elenco <a href="{{dl_sums}}">SHA256SUMS.txt</a>. L'app è firmata sempre con lo stesso certificato, la cui impronta SHA-256 è:</p>
+        <p><span class="sha" id="certificato">{{android_cert}}</span> <button class="copy-btn" type="button" data-copy="certificato">Copia</button></p>
+        <p class="small">Chi ha gli strumenti per Android può confrontarla con <code>apksigner verify --print-certs Polpo-Android.apk</code>. Android stesso rifiuta un aggiornamento firmato con un certificato diverso.</p>
+      </details>
+    </div>
+  </div>
+</section>

@@ -8,7 +8,9 @@
 * copia il firmware da ``polpo/release``, ne calcola l'impronta e genera il manifest per ESP Web Tools;
 * crea lo zip dei file per la microSD;
 * converte i manuali Markdown in pagine;
-* con ``--check`` fa fallire la build se trova link rotti o risorse caricate da siti esterni.
+* con ``--check`` fa fallire la build se trova link rotti o risorse caricate da siti esterni;
+* con ``--app`` costruisce le pagine per l'app Android (android/): niente installazione via Web Serial, che sul
+  telefono non c'è, e al posto di alcune pagine le versioni in ``app/``.
 
 Unica dipendenza: il pacchetto ``markdown``.
 """
@@ -43,6 +45,7 @@ NAV = [
     ("simulatore", "Simulatore"),
     ("installa", "Installa"),
     ("studio", "Polpo Studio"),
+    ("telefono", "Telefono"),
     ("onde", "Onde"),
     ("componenti", "Componenti"),
     ("documentazione", "Documentazione"),
@@ -142,6 +145,8 @@ def base_context(repo: str, site_url: str) -> dict[str, str]:
         "dl_win_zip": f"{dl}/PolpoStudio-windows-x64.zip",
         "dl_linux": f"{dl}/PolpoStudio-linux-x64.tar.gz",
         "dl_sums": f"{dl}/SHA256SUMS.txt",
+        "dl_android": f"{dl}/Polpo-Android.apk",
+        "android_cert": android_cert(),
         "fw_version": fw_version,
         "studio_version": studio_version,
         "fw_file": fw.name,
@@ -149,6 +154,17 @@ def base_context(repo: str, site_url: str) -> dict[str, str]:
         "fw_bytes": str(len(data)),
         "fw_sha256": hashlib.sha256(data).hexdigest(),
     }
+
+
+def android_cert() -> str:
+    """L'impronta SHA-256 del certificato con cui è firmata l'app Android (pubblica: serve a verificare l'APK)."""
+    f = ROOT / "android/certificato-sha256.txt"
+    if not f.is_file():
+        return "non ancora disponibile"
+    v = f.read_text(encoding="utf-8").strip().upper()
+    if not re.fullmatch(r"([0-9A-F]{2}:){31}[0-9A-F]{2}", v):
+        raise BuildError(f"{f}: impronta del certificato non valida")
+    return v
 
 
 def page_context(ctx: dict[str, str], *, root: str, path: str, meta: dict[str, str]) -> dict[str, str]:
@@ -170,9 +186,11 @@ def page_context(ctx: dict[str, str], *, root: str, path: str, meta: dict[str, s
 # ---------------- pagine ----------------
 
 
-def build_pages(out: Path, ctx: dict[str, str], template: str) -> list[str]:
+def build_pages(out: Path, ctx: dict[str, str], template: str, app: bool = False) -> list[str]:
     made = []
     for src in sorted((SITE / "pages").glob("*.html")):
+        if app and (SITE / "app" / src.name).is_file():
+            src = SITE / "app" / src.name  # la versione della pagina pensata per l'app
         meta, body = front_matter(src.read_text(encoding="utf-8"), src.name)
         name = src.stem
         if name in ("index", "404"):
@@ -261,9 +279,12 @@ def build_firmware_simulator(out: Path, ctx: dict[str, str], template: str, cart
 # ---------------- firmware e microSD ----------------
 
 
-def build_install_files(out: Path, ctx: dict[str, str]) -> None:
+def build_install_files(out: Path, ctx: dict[str, str], app: bool = False) -> None:
     dest = out / "installa"
     dest.mkdir(parents=True, exist_ok=True)
+    build_sd_zip(dest / "sd-polpo.zip")
+    if app:
+        return  # nell'app il firmware non si installa (serve Web Serial): basta lo zip per la microSD
     shutil.copyfile(ROOT / "polpo/release" / ctx["fw_file"], dest / ctx["fw_file"])
     manifest = {
         "name": "Polpo",
@@ -272,8 +293,11 @@ def build_install_files(out: Path, ctx: dict[str, str]) -> None:
         "builds": [{"chipFamily": "ESP32-S3", "parts": [{"path": ctx["fw_file"], "offset": 0}]}],
     }
     write(dest / "manifest.json", json.dumps(manifest, indent=2) + "\n")
+
+
+def build_sd_zip(dest: Path) -> None:
     sd = ROOT / "polpo/sd_template"
-    with zipfile.ZipFile(dest / "sd-polpo.zip", "w", zipfile.ZIP_DEFLATED) as z:
+    with zipfile.ZipFile(dest, "w", zipfile.ZIP_DEFLATED) as z:
         for p in sorted(sd.rglob("*")):
             if p.is_file() and p.name != ".gitkeep":
                 z.write(p, p.relative_to(sd).as_posix())
@@ -374,9 +398,9 @@ class _Links(HTMLParser):
                 self.links.append((tag, u, is_res))
 
 
-def check(out: Path, site_url: str) -> list[str]:
+def check(out: Path, site_url: str, app: bool = False) -> list[str]:
     problems: list[str] = []
-    site_path = urlsplit(site_url).path or "/"
+    site_path = "/" if app else (urlsplit(site_url).path or "/")  # l'app serve le pagine dalla radice
     site_host = urlsplit(site_url).netloc
     pages = sorted(out.rglob("*.html"))
     parsed: dict[Path, _Links] = {}
@@ -393,7 +417,7 @@ def check(out: Path, site_url: str) -> list[str]:
             if parts.scheme in ("http", "https") or url.startswith("//"):
                 if is_res:
                     problems.append(f"{rel}: risorsa caricata da un sito esterno: {url}")
-                elif parts.netloc == site_host and not (parts.path + "/").startswith(site_path):
+                elif parts.netloc == site_host and not (parts.path + "/").startswith(urlsplit(site_url).path or "/"):
                     problems.append(f"{rel}: link al sito con un indirizzo diverso da {site_url}: {url}")
                 continue
             if parts.scheme in ("mailto", "data"):
@@ -430,6 +454,15 @@ def check(out: Path, site_url: str) -> list[str]:
         m = re.search(r"https?://|\b(fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|RTCPeerConnection|importScripts)\b", testo)
         if m:
             problems.append(f"{js.relative_to(out)}: contiene «{m.group(0)}» (il codice del sito non deve fare richieste di rete)")
+    if app:
+        # sul telefono non c'è Web Serial: niente pulsante di installazione né file che non servono
+        for p in pages:
+            if "esp-web-install-button" in p.read_text(encoding="utf-8"):
+                problems.append(f"{p.relative_to(out)}: pulsante di installazione via Web Serial nell'app")
+        for extra in ("vendor", "installa/manifest.json", "sitemap.xml", "robots.txt"):
+            if (out / extra).exists():
+                problems.append(f"{extra}: non serve nell'app")
+        return problems
     entry = out / EWT_ENTRY
     if not entry.exists() or base64.b64encode(hashlib.sha256(entry.read_bytes()).digest()).decode() != EWT_SHA256:
         problems.append("ESP Web Tools: file mancante o diverso dalla versione verificata")
@@ -450,6 +483,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--repo", default=DEFAULT_REPO, help="utente/repository su GitHub")
     ap.add_argument("--site-url", default=DEFAULT_SITE_URL, help="indirizzo pubblico del sito")
     ap.add_argument("--check", action="store_true", help="controlla link e risorse; esce con errore se trova problemi")
+    ap.add_argument("--app", action="store_true", help="pagine per l'app Android (vedi android/LEGGIMI.md)")
     ap.add_argument("--firmware-web", metavar="CARTELLA", help="cartella con polpo-sim.wasm e licenze/ (da polpo/sim/scripts/compila_web.sh): "
                     "il simulatore del sito usa il firmware vero; senza, resta quello riscritto a mano")
     args = ap.parse_args(argv)
@@ -463,16 +497,29 @@ def main(argv: list[str] | None = None) -> int:
         out.mkdir(parents=True)
         ctx = base_context(args.repo, site_url)
         ctx["docs_cards"] = docs_cards()
+        if args.app:
+            if not args.firmware_web:
+                raise BuildError("l'app usa il simulatore con il firmware vero: serve --firmware-web")
+            ctx["site_path"] = "/"  # la pagina 404 dell'app: l'app serve il sito dalla radice
         template = (SITE / "templates/base.html").read_text(encoding="utf-8")
-        shutil.copytree(SITE / "assets", out / "assets")
-        shutil.copytree(SITE / "vendor", out / "vendor", ignore=shutil.ignore_patterns("*.md"))
-        urls = build_pages(out, ctx, template)
+        # l'immagine per le anteprime dei link serve solo al sito pubblicato
+        shutil.copytree(SITE / "assets", out / "assets", ignore=shutil.ignore_patterns("og.png") if args.app else None)
+        if not args.app:
+            shutil.copytree(SITE / "vendor", out / "vendor", ignore=shutil.ignore_patterns("*.md"))
+        urls = build_pages(out, ctx, template, app=args.app)
         if args.firmware_web:
             urls += build_firmware_simulator(out, ctx, template, Path(args.firmware_web).resolve())
         else:
             urls.append(build_simulator(out, ctx))
-        build_install_files(out, ctx)
+        build_install_files(out, ctx, app=args.app)
         urls += build_docs(out, ctx, template)
+    except BuildError as e:
+        print(f"ERRORE: {e}", file=sys.stderr)
+        return 1
+    if args.app:
+        print(f"Pagine per l'app create in {out} ({sum(1 for _ in out.rglob('*.html'))} pagine)")
+        return report(check(out, site_url, app=True)) if args.check else 0
+    try:
         write(out / "sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{site_url}{u}</loc></url>\n" for u in sorted(set(urls))) + "</urlset>\n")
         write(out / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {site_url}sitemap.xml\n")
         write(out / ".nojekyll", "")
@@ -480,13 +527,15 @@ def main(argv: list[str] | None = None) -> int:
         print(f"ERRORE: {e}", file=sys.stderr)
         return 1
     print(f"Sito creato in {out} ({sum(1 for _ in out.rglob('*.html'))} pagine) per {site_url}")
-    if args.check:
-        problems = check(out, site_url)
-        for p in problems:
-            print(f"  PROBLEMA: {p}", file=sys.stderr)
-        if problems:
-            return 1
-        print("Controlli superati: nessun link rotto, nessuna risorsa esterna.")
+    return report(check(out, site_url)) if args.check else 0
+
+
+def report(problems: list[str]) -> int:
+    for p in problems:
+        print(f"  PROBLEMA: {p}", file=sys.stderr)
+    if problems:
+        return 1
+    print("Controlli superati: nessun link rotto, nessuna risorsa esterna.")
     return 0
 
 

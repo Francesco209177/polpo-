@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- La mascotte del Polpo (stessa geometria di site/assets/img/polpo.svg). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:scaleX="0.62" android:scaleY="0.62" android:translateX="23.00" android:translateY="19.90">
+        <path android:fillColor="#FFFFFF" android:pathData="M17.5 58C16 74 29 80 26 92C24 96 19 94 21 90C23 82 24 74 26.5 58 M28.7 58C27.2 74 26.2 80 29.2 92C31.2 96 36.2 94 34.2 90C32.2 82 35.2 74 37.7 58 M39.9 58C38.4 74 51.4 80 48.4 92C46.4 96 41.4 94 43.4 90C45.4 82 46.4 74 48.9 58 M51.1 58C49.6 74 48.6 80 51.6 92C53.6 96 58.6 94 56.6 90C54.6 82 57.6 74 60.1 58 M62.3 58C60.8 74 73.8 80 70.8 92C68.8 96 63.8 94 65.8 90C67.8 82 68.8 74 71.3 58 M73.5 58C72 74 71 80 74 92C76 96 81 94 79 90C77 82 80 74 82.5 58" />
+        <path android:fillColor="#FFFFFF" android:pathData="M14 62C8 14 92 14 86 62C70 70 30 70 14 62Z" />
+        <path android:fillColor="#000000" android:pathData="M32,43 a5,6 0 1,0 10,0 a5,6 0 1,0 -10,0 Z" />
+        <path android:fillColor="#000000" android:pathData="M58,43 a5,6 0 1,0 10,0 a5,6 0 1,0 -10,0 Z" />
+        <path android:strokeColor="#000000" android:strokeWidth="2.6" android:strokeLineCap="round" android:pathData="M44.36,55.37 A6,4 0 0,0 55.64,55.37" />
+    </group>
+</vector>
