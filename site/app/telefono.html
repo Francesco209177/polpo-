@@ -7,9 +7,10 @@ nav: telefono
   <div class="container">
     <p class="eyebrow">App per Android · versione {{fw_version}}</p>
     <h1>Stai usando l'app Polpo</h1>
-    <p class="lead">Dentro c'è tutto il sito del Polpo: il simulatore con il firmware vero, PolpoScript, Polpo Onde e i manuali. Funziona <strong>senza Internet</strong>.</p>
+    <p class="lead">Dentro c'è <strong>Polpo Studio</strong> per comandare il Polpo con il cavo USB o il Polpo virtuale, e tutto il sito: simulatore, PolpoScript, Polpo Onde e manuali. Funziona <strong>senza Internet</strong>.</p>
     <div class="btn-row">
-      <a class="btn btn-primary" href="../simulatore/">Apri il simulatore</a>
+      <a class="btn btn-studio" href="../studio/">Apri Polpo Studio</a>
+      <a class="btn btn-ghost" href="../simulatore/">Apri il simulatore</a>
       <a class="btn btn-ghost" href="../onde/">Polpo Onde</a>
     </div>
   </div>
@@ -22,7 +23,9 @@ nav: telefono
       <ul>
         <li><span class="badge sim">Simulato</span> Il <strong>Polpo del simulatore</strong>: esegue il firmware vero, ma ciò che «trasmette» non esce dal telefono.</li>
         <li><span class="badge exp">Sperimentale</span> <strong>Polpo Onde</strong> usa davvero il microfono e l'altoparlante del telefono.</li>
-        <li>Comandare il <strong>Polpo vero</strong> dal telefono (cavo USB, poi Bluetooth) arriverà nelle prossime versioni.</li>
+        <li><span class="badge exp">Sperimentale</span> <strong>Polpo Studio con il Polpo vero</strong>, via cavo USB OTG: ogni collegamento si accetta sullo schermo del Polpo, trasmettere o scrivere richiede la modalità laboratorio.</li>
+        <li><span class="badge sim">Simulato</span> <strong>Il Polpo virtuale</strong> di Studio: il firmware vero nel telefono, con dati inventati.</li>
+        <li>L'NFC, il Bluetooth e l'infrarosso del telefono, e il Polpo via Bluetooth, arriveranno nelle prossime versioni.</li>
         <li>Per <strong>installare il firmware</strong> sul Cardputer serve un computer: vedi <a href="../installa/">Installa</a>.</li>
       </ul>
       <p>Questa versione è stata provata in automatico su un telefono emulato, <strong>non ancora su un telefono vero</strong>. Se qualcosa non va, <a href="{{issues_url}}">segnalalo su GitHub</a> (si apre nel browser), meglio con uno screenshot.</p>
@@ -32,8 +35,9 @@ nav: telefono
         <h3>Permessi e riservatezza</h3>
         <ul>
           <li><strong>Microfono</strong>: solo per Polpo Onde, chiesto la prima volta che premi <em>Ascolta</em>.</li>
+          <li><strong>USB</strong>: Android chiede il permesso la prima volta che colleghi il Polpo con il cavo.</li>
           <li><strong>Nessun permesso Internet</strong>: l'app non può collegarsi a nessun server. I link verso altri siti si aprono nel browser.</li>
-          <li>I dati (bozze degli script, microSD e impostazioni del Polpo simulato) restano nel telefono e non vanno nei backup sul cloud.</li>
+          <li>I dati (archivio cifrato di Studio, bozze degli script, microSD del Polpo simulato) restano nel telefono e non vanno nei backup sul cloud.</li>
         </ul>
       </div>
       <h3 class="mt">Aggiornare l'app</h3>
