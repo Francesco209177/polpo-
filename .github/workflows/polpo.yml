@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       pubblica:
-        description: "Versione da pubblicare come Release (es. 0.2.0). Vuoto = solo build e test."
+        description: "Versione da pubblicare come Release (es. 0.3.0). Vuoto = solo build e test."
         required: false
         default: ""
 

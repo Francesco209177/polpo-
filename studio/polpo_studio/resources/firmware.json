@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "app_file": "polpo-cardputer-0.2.0-app.bin",
+  "version": "0.3.0",
+  "app_file": "polpo-cardputer-0.3.0-app.bin",
   "app_offset": "0x10000",
-  "sha256": "d9e8c630be31a59ecd23574a02e61e6ea4629f4bb311b9d0e63ad48835692638"
+  "sha256": "00599b712fa9c76c08d55aa24dd3fe4de2010269643aefad3f0ce0431ec291a2"
 }

@@ -2,7 +2,7 @@ script {"ok":true}
 script {"ok":true}
 script {"ok":true}
 < {"id":1,"ok":false,"error":{"code":"not_connected","msg":"collegamento non accettato sul Polpo: invia hello"}}
-< {"id":2,"ok":true,"data":{"proto":1,"firmware":"0.2.0","board":"Cardputer Adv","battery":82,"charging":false,"heap_free":215040,"uptime_s":1,"sd":{"ok":true,"total":8.589935e9,"used":393216},"modules":{"ir_tx":"available","wifi":"available","ble":"available","usb_hid":"available","rfid2":"missing","rf433":"unverifiable","ir_unit":"unverifiable"},"rf_budget":{"used_ms":0,"limit_ms":288000},"level":1,"layout":"IT"}}
+< {"id":2,"ok":true,"data":{"proto":1,"firmware":"0.3.0","board":"Cardputer Adv","battery":82,"charging":false,"heap_free":215040,"uptime_s":1,"sd":{"ok":true,"total":8.589935e9,"used":393216},"modules":{"ir_tx":"available","wifi":"available","ble":"available","usb_hid":"available","rfid2":"missing","rf433":"unverifiable","ir_unit":"unverifiable"},"rf_budget":{"used_ms":0,"limit_ms":288000},"level":1,"layout":"IT"}}
 < {"id":3,"ok":true,"data":{"valid":true,"line":0,"message":""}}
 < {"id":4,"ok":true,"data":{"valid":false,"line":2,"message":"dopo la condizione di «se» ci vuole «allora» (ho trovato la fine della riga)"}}
 < {"id":5,"ok":false,"error":{"code":"io_error","msg":"file non trovato"}}

@@ -44,7 +44,7 @@ Vedi `studio/README.md` e `studio/docs/MANUALE_STUDIO.md`.
 | `simulator/index.html` | simulatore precedente, riscritto a mano: stessi menu, microSD virtuale, pannello per moduli e oggetti simulati (`scripts/sim_samples.py` copia dentro i file di `sd_template`) |
 | `src/` | firmware: `core` interfaccia, `hal` driver, `apps` funzioni |
 | `lib/polpo_core/` | logica pura testata sul PC (protocolli IR, DuckyScript, NDEF, `.sub`) e il linguaggio PolpoScript (`polpo/script`) |
-| `docs/POLPOSCRIPT.md` | il linguaggio per le mini-app: manuale ed elenco delle funzioni (in arrivo sul Polpo con la versione 0.2.0) |
+| `docs/POLPOSCRIPT.md` | il linguaggio per le mini-app: manuale ed elenco delle funzioni (sul Polpo dalla versione 0.2.0) |
 | `test/` | test unitari (`pio test -e native`) |
 | `sd_template/` | file di esempio copiati sulla microSD al primo avvio |
 

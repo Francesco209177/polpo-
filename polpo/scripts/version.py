@@ -3,7 +3,7 @@ import subprocess
 
 Import("env")  # noqa: F821
 
-VERSION = "0.2.0"
+VERSION = "0.3.0"
 
 
 def git_rev():
