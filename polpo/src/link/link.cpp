@@ -599,6 +599,7 @@ void on_script_event(const char* event, const std::string& text, uint16_t line) 
     } else {
         d["line"] = line;
         d["error"] = text;
+        if (std::strcmp(event, "stopped") == 0) d["stopped"] = true;  // fermato (G0, PC, collegamento chiuso), non finito da solo
         emit("script.end", d);
         activity.clear();
     }

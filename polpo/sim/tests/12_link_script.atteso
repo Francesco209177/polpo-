@@ -54,13 +54,13 @@ schermo di-nuovo-collegato 53c62931
 < {"id":30,"ok":true,"data":{}}
 < {"ev":"script.paused","data":{"line":2}}
 < {"id":31,"ok":true,"data":{"state":"paused","line":2,"file":"/polpo/script/attesa.polpo","error":"","vars":[],"stack":[]}}
-< {"ev":"script.end","data":{"line":2,"error":""}}
+< {"ev":"script.end","data":{"line":2,"error":"","stopped":true}}
 < {"id":32,"ok":true,"data":{}}
 < {"id":33,"ok":true,"data":{"state":"none","line":0,"file":"","error":"","vars":[],"stack":[]}}
 schermo di-nuovo-collegato 390a4d14
 < {"id":34,"ok":true,"data":{}}
 < {"id":35,"ok":true,"data":{}}
-< {"ev":"script.end","data":{"line":2,"error":""}}
+< {"ev":"script.end","data":{"line":2,"error":"","stopped":true}}
 < {"ev":"link.closed","data":{"reason":"closed_on_device"}}
 schermo scrivania dce4f06a
 script {"ok":true,"stato":"none","riga":0,"file":"","errore":"","variabili":[],"pila":[]}

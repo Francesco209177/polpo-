@@ -42,6 +42,10 @@ Un programma è un file di testo con il nome che finisce in **`.polpo`**, nella 
 microSD. Si scrive con un qualsiasi editor di testo (Blocco note, Gedit…) e si esegue dal menu **Script** del Polpo.
 Al primo avvio il Polpo ci mette quattro esempi: `pallina`, `indovina`, `dado` e `serpente`.
 
+Per provare senza dispositivo c'è il riquadro **Script** del
+[simulatore del sito](https://francesco209177.github.io/polpo-/simulatore/): scrivi il programma, premi **Esegui** e
+lo vedi girare sul Polpo simulato; con **Una riga alla volta** lo segui passo passo guardando le variabili.
+
 ## Le regole in breve
 
 - **Un'istruzione per riga.** I rientri (gli spazi a inizio riga) servono solo a leggere meglio.

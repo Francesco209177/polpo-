@@ -34,8 +34,9 @@ struct Snapshot {
 };
 Snapshot snapshot(bool with_variables);
 
-// Chi vuole sapere che cosa succede: "print" con il testo scritto, "paused" e "end" con la riga (per "end" il
-// testo è l'eventuale errore). Due posti: uno per Polpo Link e uno per il simulatore; nullptr per smettere.
+// Chi vuole sapere che cosa succede: "print" con il testo scritto; "paused", "end" e "stopped" con la riga
+// ("end": finito da solo, e il testo è l'eventuale errore; "stopped": fermato con G0, dal PC o chiudendo).
+// Due posti: uno per Polpo Link e uno per il simulatore; nullptr per smettere.
 using Listener = std::function<void(const char* event, const std::string& text, uint16_t line)>;
 enum ListenerSlot { kLinkListener = 0, kSimulatorListener = 1 };
 void set_listener(ListenerSlot slot, Listener listener);

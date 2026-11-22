@@ -125,6 +125,7 @@ function suEvento(e) {
   prova.eventi.push(e);
   if (prova.eventi.length > 500) prova.eventi.shift();
   if (e.tipo === "suono") suona(e.hz, e.ms);
+  else if (e.tipo.startsWith("script.")) scriptEvento(e);
   else if (e.tipo === "luminosita") tela.style.filter = `brightness(${(0.35 + (0.65 * e.valore) / 255).toFixed(2)})`;
   else if (e.tipo === "ir.tx") {
     lampeggia("led-ir");
@@ -181,6 +182,7 @@ async function accendi() {
   impronta = -1;
   ultimoTempo = performance.now();
   stato.textContent = "Polpo acceso. Premi OK (Invio) per aprire il menu.";
+  scriptPulsanti(false, false); // dopo un riavvio non c'è nessun programma aperto
   prova.pronto = true;
 }
 
@@ -317,6 +319,123 @@ function sveglia() { // l'audio del browser parte solo dopo un gesto di chi guar
   if (audio && audio.state === "suspended") audio.resume();
 }
 tela.addEventListener("pointerdown", () => { sveglia(); tela.focus(); });
+
+// ---------------- script (PolpoScript) ----------------
+// Il programma scritto qui viene copiato sulla microSD del Polpo simulato ed eseguito dal firmware vero, come se lo
+// si scegliesse dal menu «Script». Tutto resta in questa pagina.
+const FILE_SCRIPT = "/polpo/script/prova.polpo";
+const BOZZA = "polpo-simulatore-script-v1";
+const scriptTesto = $("script-testo"), scriptStato = $("script-stato"), scriptUscita = $("script-uscita");
+try { const b = localStorage.getItem(BOZZA); if (b !== null) scriptTesto.value = b; } catch (e) { /* senza memoria si parte dall'esempio */ }
+scriptTesto.addEventListener("input", () => { try { localStorage.setItem(BOZZA, scriptTesto.value); } catch (e) { /* pazienza */ } });
+
+function scriptDice(testo, errore = false) {
+  scriptStato.textContent = testo;
+  scriptStato.classList.toggle("errore", errore);
+}
+function scriptSegnaRiga(riga) { // mette il cursore sulla riga, così si vede dov'è il problema o dove si è fermi
+  if (!riga) return;
+  const righe = scriptTesto.value.split("\n");
+  let da = 0;
+  for (let i = 0; i < riga - 1 && i < righe.length; i++) da += righe[i].length + 1;
+  scriptTesto.setSelectionRange(da, da + (righe[riga - 1] ?? "").length);
+  const altezza = parseFloat(getComputedStyle(scriptTesto).lineHeight) || 18;
+  scriptTesto.scrollTop = Math.max(0, (riga - 3) * altezza);
+}
+function scriptPulsanti(aperto, fermoSuUnaRiga) {
+  $("script-ferma").disabled = !aperto;
+  $("script-riprendi").hidden = !fermoSuUnaRiga;
+  $("script-passo").textContent = fermoSuUnaRiga ? "Riga successiva" : "Una riga alla volta";
+  if (!fermoSuUnaRiga) $("script-variabili").hidden = true;
+}
+function scriptMostraVariabili() {
+  const s = polpo.script({ cmd: "stato" });
+  const corpo = $("script-variabili").querySelector("tbody");
+  corpo.replaceChildren();
+  for (const v of s.variabili ?? []) {
+    const tr = document.createElement("tr");
+    if (v.locale) tr.className = "locale";
+    const nome = document.createElement("td"), valore = document.createElement("td");
+    nome.textContent = v.nome;
+    valore.textContent = v.valore;
+    tr.append(nome, valore);
+    corpo.append(tr);
+  }
+  $("script-variabili").hidden = corpo.children.length === 0;
+  const dove = (s.pila ?? []).length > 1 ? ` (dentro «${s.pila[0].funzione}»)` : "";
+  scriptDice(`Fermo alla riga ${s.riga}${dove}`);
+  scriptSegnaRiga(s.riga);
+}
+function scriptAvvia(passo) {
+  if (!polpo) return;
+  sveglia();
+  polpo.script({ cmd: "ferma" }); // se ce n'era uno aperto, lascia il posto
+  polpo.avanza(30);
+  const scritto = polpo.script({ cmd: "scrivi", file: FILE_SCRIPT, testo: scriptTesto.value });
+  if (!scritto.ok) { scriptDice("Non riesco a salvare il programma: la microSD del Polpo simulato è inserita?", true); return; }
+  const controllo = polpo.script({ cmd: "controlla", file: FILE_SCRIPT });
+  scriptUscita.value = "";
+  if (!controllo.valido) {
+    scriptDice(controllo.riga ? `Riga ${controllo.riga}: ${controllo.errore}` : controllo.errore, true);
+    scriptSegnaRiga(controllo.riga);
+    scriptPulsanti(false, false);
+    return;
+  }
+  const r = polpo.script({ cmd: "apri", file: FILE_SCRIPT, passo });
+  if (!r.ok) { scriptDice(r.errore ?? "Non riesco ad avviare il programma.", true); return; }
+  scriptDice(passo ? "Pronto: una riga alla volta" : "In esecuzione sul Polpo");
+  scriptPulsanti(true, false);
+  salva();
+  if (!passo) { // i tasti vanno al Polpo (le frecce comandano il gioco) e, se lo schermo non si vede, ci si torna
+    tela.focus({ preventScroll: true });
+    const r = tela.getBoundingClientRect();
+    if (r.bottom < 60 || r.top > window.innerHeight - 60) {
+      tela.scrollIntoView({ block: "center", behavior: document.documentElement.classList.contains("fermo") ? "auto" : "smooth" });
+    }
+  }
+}
+function scriptEvento(e) {
+  if (e.tipo === "script.print") {
+    scriptUscita.value += e.testo + "\n";
+    if (scriptUscita.value.length > 20000) scriptUscita.value = scriptUscita.value.slice(-15000);
+    scriptUscita.scrollTop = scriptUscita.scrollHeight;
+  } else if (e.tipo === "script.paused") {
+    scriptPulsanti(true, true);
+    scriptMostraVariabili();
+  } else if (e.tipo === "script.end") {
+    if (e.testo) {
+      scriptDice(e.testo, true);
+      scriptSegnaRiga(e.riga);
+    } else {
+      scriptDice(e.fermato ? "Programma fermato" : "Programma finito");
+    }
+    scriptPulsanti(false, false);
+  }
+}
+$("script-esegui").addEventListener("click", () => scriptAvvia(false));
+$("script-passo").addEventListener("click", () => {
+  if (polpo && polpo.script({ cmd: "stato" }).stato === "paused") polpo.script({ cmd: "passo", modo: "entra" });
+  else scriptAvvia(true);
+});
+$("script-riprendi").addEventListener("click", () => {
+  polpo.script({ cmd: "riprendi" });
+  scriptDice("In esecuzione sul Polpo");
+  scriptPulsanti(true, false);
+});
+$("script-ferma").addEventListener("click", () => {
+  polpo.script({ cmd: "ferma" }); // lo stato lo aggiorna l'evento script.end che arriva subito dopo
+});
+$("script-esempio").addEventListener("change", (ev) => {
+  const nome = ev.target.value;
+  ev.target.value = "";
+  if (!nome || !polpo) return;
+  const r = polpo.script({ cmd: "leggi", file: `/polpo/script/${nome}.polpo` });
+  if (!r.ok) { scriptDice("Questo esempio non c'è sulla microSD del Polpo simulato (prova «Cancella microSD e impostazioni»).", true); return; }
+  scriptTesto.value = r.testo;
+  scriptTesto.dispatchEvent(new Event("input"));
+  scriptTesto.scrollTop = 0;
+  scriptDice("Esempio caricato: premi Esegui");
+});
 
 // ---------------- pannelli ----------------
 $("grove").addEventListener("change", (e) => { comandoMondo({ cmd: "modulo", valore: e.target.value }); annota(e.target.value === "nessuno" ? "Porta Grove: modulo scollegato." : `Porta Grove: collegato ${e.target.selectedOptions[0].textContent}.`); });

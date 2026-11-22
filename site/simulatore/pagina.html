@@ -33,6 +33,37 @@ nav: simulatore
     </div>
 
     <div class="sim-pannelli">
+      <div class="card sim-pannello" id="script">
+        <h2>Script <span class="badge">PolpoScript</span></h2>
+        <p class="small">Scrivi una mini-app in italiano e guardala girare sul Polpo qui accanto. <a href="../documentazione/polposcript.html">Manuale del linguaggio</a></p>
+        <label for="script-esempio">Parti da un esempio</label>
+        <select id="script-esempio">
+          <option value="">Scegli…</option>
+          <option value="pallina">Pallina che rimbalza</option>
+          <option value="dado">Dado</option>
+          <option value="indovina">Indovina il numero</option>
+          <option value="serpente">Serpente</option>
+        </select>
+        <label for="script-testo">Il programma</label>
+        <textarea id="script-testo" rows="11" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" wrap="off">scrivi("Ciao!")
+per i da 1 a 5
+  scrivi(i, "per", i, "fa", i * i)
+fine</textarea>
+        <div class="sim-tasti">
+          <button type="button" class="btn btn-primary" id="script-esegui">Esegui</button>
+          <button type="button" class="btn btn-ghost" id="script-passo" title="Esegue una riga per volta e mostra le variabili">Una riga alla volta</button>
+          <button type="button" class="btn btn-ghost" id="script-riprendi" hidden>Riprendi</button>
+          <button type="button" class="btn btn-ghost" id="script-ferma" disabled>Ferma</button>
+        </div>
+        <p id="script-stato" class="sim-oggetto" aria-live="polite">Nessun programma in esecuzione</p>
+        <div id="script-variabili" hidden>
+          <table class="sim-variabili"><caption>Variabili</caption><tbody></tbody></table>
+        </div>
+        <label for="script-uscita">Ciò che il programma scrive</label>
+        <textarea id="script-uscita" rows="4" readonly aria-live="polite" placeholder="Qui compaiono le righe scritte con scrivi()."></textarea>
+        <p class="small">Il programma viene salvato sulla microSD del Polpo simulato come <code>prova.polpo</code>: lo ritrovi anche nel menu <strong>Script</strong>. Sul Polpo, il tasto <kbd>G0</kbd> lo ferma sempre.</p>
+      </div>
+
       <div class="card sim-pannello">
         <h2>Porta Grove</h2>
         <label for="grove">Modulo collegato</label>
@@ -123,6 +154,7 @@ nav: simulatore
         <thead><tr><th>Parte</th><th>Qui</th></tr></thead>
         <tbody>
           <tr><td>Menu, schermate, app, formati dei file, collegamento con il PC</td><td><span class="badge ok">Vero</span> lo stesso codice del dispositivo</td></tr>
+          <tr><td>Programmi PolpoScript (menu Script e riquadro qui sopra)</td><td><span class="badge ok">Vero</span> li esegue il firmware, con lo stesso linguaggio del dispositivo; qui i programmi che fanno molti calcoli vanno più veloci</td></tr>
           <tr><td>Disegno dello schermo e caratteri</td><td><span class="badge ok">Vero</span> lo stesso motore grafico, punto per punto</td></tr>
           <tr><td>Moduli infrarossi, radio 433 MHz, NFC, tastiera USB</td><td><span class="badge ok">Vero</span> il codice; <span class="badge sim">Simulato</span> ciò che sta sotto (piedini, bus, chip del lettore)</td></tr>
           <tr><td>Bluetooth e Wi-Fi</td><td><span class="badge sim">Simulato</span> dispositivi e reti sono inventati</td></tr>

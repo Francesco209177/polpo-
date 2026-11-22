@@ -139,6 +139,77 @@ test("app Script: una mini-app in PolpoScript gira nel firmware e G0 la ferma", 
   await contesto.close();
 });
 
+test("riquadro Script: scrivere un programma, eseguirlo, vedere errori e variabili", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await pronto();
+  const stato = pagina.locator("#script-stato"), uscita = pagina.locator("#script-uscita");
+  const diventa = (re) => pagina.waitForFunction((r) => new RegExp(r).test(document.getElementById("script-stato").textContent), re.source, { timeout: 8000 })
+    .catch(async () => assert.fail(`stato atteso ${re}, trovato «${await stato.textContent()}»`));
+  // il programma già scritto nel riquadro
+  await pagina.click("#script-esegui");
+  await diventa(/Programma finito/);
+  assert.match(await uscita.inputValue(), /^Ciao!\n1 per 1 fa 1\n[^]*5 per 5 fa 25\n$/);
+  assert.equal(await pagina.locator("#script-ferma").isDisabled(), true);
+  // un errore di scrittura: non parte, e il messaggio dice la riga e suggerisce la parola giusta
+  await pagina.fill("#script-testo", 'scrivi("uno")\ncerhio(10, 10, 5, ROSSO)\n');
+  await pagina.click("#script-esegui");
+  await diventa(/Riga 2: non conosco la funzione «cerhio»\. Forse volevi «cerchio»\?/);
+  assert.equal(await uscita.inputValue(), "");
+  assert.equal(await stato.evaluate((e) => e.classList.contains("errore")), true);
+  assert.equal(await pagina.locator("#script-testo").evaluate((t) => t.value.slice(t.selectionStart, t.selectionEnd)), "cerhio(10, 10, 5, ROSSO)");
+  // un errore mentre gira: prima scrive, poi si ferma dicendo la riga
+  await pagina.fill("#script-testo", 'scrivi("prima")\nx = 10 / 0\nscrivi("mai")\n');
+  await pagina.click("#script-esegui");
+  await diventa(/Riga 2: non si può dividere per zero/);
+  assert.equal(await uscita.inputValue(), "prima\n");
+  // una riga alla volta, con le variabili
+  await pagina.fill("#script-testo", 'funzione doppio(n)\n  ritorna n * 2\nfine\nx = 4\ny = doppio(x)\nscrivi(x + y)\n');
+  await pagina.click("#script-passo");
+  await diventa(/Fermo alla riga 1/);
+  assert.equal(await pagina.locator("#script-passo").textContent(), "Riga successiva");
+  await pagina.click("#script-passo");
+  await diventa(/Fermo alla riga 4/);
+  await pagina.click("#script-passo");
+  await diventa(/Fermo alla riga 5/);
+  assert.deepEqual(await pagina.locator("#script-variabili td").allTextContents(), ["x", "4"]);
+  await pagina.click("#script-passo");
+  await diventa(/Fermo alla riga 2 \(dentro «doppio»\)/);
+  assert.deepEqual(await pagina.locator("#script-variabili td").allTextContents(), ["n", "4", "x", "4"]);
+  assert.equal(await pagina.locator("#script-variabili tr").first().getAttribute("class"), "locale");
+  await pagina.click("#script-riprendi");
+  await diventa(/Programma finito/);
+  assert.equal(await uscita.inputValue(), "12\n");
+  assert.equal(await pagina.locator("#script-variabili").isHidden(), true);
+  // un esempio dalla microSD del Polpo: gira finché non lo si ferma
+  await pagina.selectOption("#script-esempio", "pallina");
+  assert.match(await pagina.locator("#script-testo").inputValue(), /^# Pallina: rimbalza sullo schermo\./);
+  await pagina.click("#script-esegui");
+  await diventa(/In esecuzione sul Polpo/);
+  const rossi = () => pagina.evaluate(() => {
+    const s = window.__sim.polpo.schermo();
+    let n = 0;
+    for (let i = 0; i < s.length; i += 2) if (s[i] === 0xf8 && s[i + 1] === 0x00) n++;
+    return n;
+  });
+  for (let i = 0; i < 40 && (await rossi()) < 50; i++) await pagina.waitForTimeout(100);
+  assert.ok((await rossi()) >= 50, "la pallina rossa è sullo schermo del Polpo");
+  // dopo «Esegui» i tasti del computer vanno al Polpo: la freccia arriva al programma come «destra»
+  assert.equal(await pagina.evaluate(() => document.activeElement.id), "schermo");
+  await pagina.click("#script-ferma");
+  await diventa(/Programma fermato/);
+  // anche il tasto G0 del Polpo lo ferma, e la pagina lo sa
+  await pagina.click("#script-esegui");
+  await diventa(/In esecuzione sul Polpo/);
+  await pagina.click("#g0");
+  await diventa(/Programma fermato/);
+  // ciò che si è scritto resta dopo aver ricaricato la pagina
+  await pagina.fill("#script-testo", 'scrivi("resto qui")\n');
+  await pagina.reload({ waitUntil: "networkidle" });
+  await pagina.waitForFunction(() => window.__sim && window.__sim.pronto);
+  assert.equal(await pagina.locator("#script-testo").inputValue(), 'scrivi("resto qui")\n');
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
+
 test("infrarossi: il telecomando universale del Polpo accende il televisore finto", { skip: salta }, async () => {
   const { pagina, contesto, problemi } = await pronto();
   assert.equal(await pagina.locator("#tv").textContent(), "TV spenta");

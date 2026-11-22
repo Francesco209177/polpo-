@@ -218,7 +218,7 @@ public:
 
     void on_exit() override {
         M5Cardputer.Speaker.stop();
-        if (vm_ && !finished_) notify("end", "", vm_->line());
+        if (vm_ && !finished_) notify("stopped", "", vm_->line());
         if (g_running == this) g_running = nullptr;
     }
 
@@ -294,7 +294,7 @@ public:
     void stop() {
         if (vm_ && !finished_) {
             vm_->stop();
-            notify("end", "", vm_->line());
+            notify("stopped", "", vm_->line());
         }
         finished_ = true;
         nav.pop();

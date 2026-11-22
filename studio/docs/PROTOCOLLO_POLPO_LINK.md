@@ -81,7 +81,8 @@ conferma sul Polpo**. Eventi inviati mentre il programma gira:
 {"ev":"script.print","data":{"text":"giro 1 2"}}        una riga scritta con scrivi(); al massimo 40 al secondo,
                                                          le altre sono contate in "dropped" nella riga successiva
 {"ev":"script.paused","data":{"line":7}}                 fermo su una riga (passo passo o punto di sosta)
-{"ev":"script.end","data":{"line":5,"error":""}}         finito; con un errore, "error" lo spiega
+{"ev":"script.end","data":{"line":5,"error":""}}         finito; con un errore, "error" lo spiega;
+                                                         con "stopped":true è stato fermato (G0, script.stop, bye)
 ```
 
 Chiudere il collegamento (`bye`, o «scollega» sul Polpo) chiude anche il programma in corso.

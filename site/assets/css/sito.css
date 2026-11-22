@@ -422,6 +422,13 @@ html.fermo .reveal { opacity: 1; transform: none; }
 .sim-tasti .btn { padding: 8px 14px; font-size: .92rem; }
 .sim-oggetto { font-weight: 700; padding: 8px 12px; border-radius: 9px; background: var(--surface-2); border: 1px solid var(--line); transition: background-color .2s ease, color .2s ease; }
 .sim-oggetto.acceso { background: color-mix(in srgb, var(--ok) 18%, var(--surface)); color: var(--ok); border-color: var(--ok); }
+#script-testo { min-height: 12em; tab-size: 2; white-space: pre; }
+#script-stato.errore { background: color-mix(in srgb, var(--warn) 16%, var(--surface)); border-color: var(--warn); }
+.sim-variabili { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.sim-variabili caption { text-align: left; font-weight: 600; padding-bottom: 4px; }
+.sim-variabili td { padding: 3px 8px; border-top: 1px solid var(--line); font-family: var(--mono); vertical-align: top; overflow-wrap: anywhere; }
+.sim-variabili td:first-child { white-space: nowrap; font-weight: 600; }
+.sim-variabili .locale td:first-child::after { content: " (locale)"; font-weight: 400; color: var(--muted); font-family: var(--sans, inherit); }
 .sim-registro { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; max-height: 15em; overflow-y: auto; font-size: .9rem; }
 .sim-registro li { padding: 6px 10px; border-left: 3px solid var(--sim); background: var(--surface-2); border-radius: 0 8px 8px 0; }
 .sim-registro li.errore { border-left-color: var(--warn); }

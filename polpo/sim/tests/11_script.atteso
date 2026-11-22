@@ -9,7 +9,7 @@ schermo indovina-domanda d46f10e6
 schermo indovina-seconda-domanda a69f9296
 schermo indovina-senza-risposta 068db116
 schermo elenco-su-indovina 6e386991
-evento {"tipo":"script.end","riga":28,"testo":""}
+evento {"tipo":"script.end","riga":28,"testo":"","fermato":true}
 evento {"tipo":"suono","hz":2400,"ms":12}
 evento {"tipo":"script.print","riga":0,"testo":"Ho pensato un numero"}
 evento {"tipo":"script.print","riga":0,"testo":"da 1 a 100. Indovina!"}
@@ -17,7 +17,7 @@ evento {"tipo":"script.print","riga":0,"testo":"Che numero è? 50"}
 evento {"tipo":"script.print","riga":0,"testo":"50 è troppo piccolo"}
 evento {"tipo":"script.print","riga":0,"testo":"Che numero è?"}
 evento {"tipo":"script.print","riga":0,"testo":"Scrivi un numero."}
-evento {"tipo":"script.end","riga":7,"testo":""}
+evento {"tipo":"script.end","riga":7,"testo":"","fermato":true}
 script {"ok":true}
 script {"ok":true,"valido":false,"riga":2,"errore":"non conosco la funzione «cerhio». Forse volevi «cerchio»?"}
 script {"ok":true}
@@ -43,7 +43,7 @@ script {"ok":true}
 script {"ok":true}
 script {"ok":true,"stato":"running","riga":3,"file":"/polpo/script/prove/sempre.polpo","errore":"","variabili":[],"pila":[]}
 schermo elenco-su-indovina 6e386991
-evento {"tipo":"script.end","riga":3,"testo":""}
+evento {"tipo":"script.end","riga":3,"testo":"","fermato":true}
 script {"ok":true}
 script {"ok":true}
 evento {"tipo":"script.print","riga":0,"testo":"vero falso"}

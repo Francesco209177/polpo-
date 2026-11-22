@@ -43,7 +43,8 @@ const char* sim_evento(void);
  * sceglierlo nell'app «Script»; in più il passo passo. Comandi ("cmd"):
  *   scrivi {file, testo}   leggi {file}   controlla {file}   apri {file, passo}   ferma   pausa   riprendi
  *   passo {modo: "entra" | "scavalca" | "esci"}   soste {righe: [..]}   stato
- * Ciò che il programma scrive e come finisce arriva tra gli eventi: script.print, script.paused, script.end. */
+ * Ciò che il programma scrive e come finisce arriva tra gli eventi: script.print, script.paused, script.end
+ * (con "fermato": true se è stato fermato con G0 o con «ferma», e con il testo dell'errore se ce n'è uno). */
 const char* sim_script(const char* json);
 
 /* Porta seriale USB del Polpo (protocollo Polpo Link). */

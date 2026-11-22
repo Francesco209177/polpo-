@@ -29,9 +29,11 @@ void prepara() {
     // ciò che fa un programma PolpoScript diventa un evento, come le trasmissioni simulate
     script_runner::set_listener(script_runner::kSimulatorListener, [](const char* cosa, const std::string& testo, uint16_t riga) {
         JsonDocument e;
-        e["tipo"] = std::string("script.") + cosa;
+        const bool fermato = std::string(cosa) == "stopped";  // fermato con G0 o da fuori, non finito da solo
+        e["tipo"] = fermato ? std::string("script.end") : std::string("script.") + cosa;
         e["riga"] = riga;
         e["testo"] = testo;
+        if (fermato) e["fermato"] = true;
         std::string json;
         serializeJson(e, json);
         sim::evento(json);
