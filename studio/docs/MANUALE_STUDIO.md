@@ -117,8 +117,34 @@ tastiera, schede della Home, notifiche, hardware dichiarato. In ogni modulo la s
 | Script: "comando sconosciuto" con il Polpo vero | Il firmware è più vecchio della 0.2.0: aggiornalo. |
 | Script: "il Polpo virtuale non può eseguire gli script" | Manca il firmware simulato (`polpo-sim.wasm`): succede solo avviando Polpo Studio dal codice sorgente senza averlo costruito. |
 
-## 9. Limiti onesti
+## 9. Polpo Studio nel telefono (app per Android)
+
+Dalla versione 0.4 l'**app Polpo per Android** contiene una versione di Polpo Studio pensata per il telefono (voce
+«Polpo Studio» del menu dell'app). È la stessa logica del programma per PC, riscritta in JavaScript e controllata
+con migliaia di casi di prova generati dal codice Python: i file `.ir` e `.sub`, le analisi e i controlli prima di
+trasmettere danno gli stessi risultati.
+
+- **Collegamento**: il Polpo vero con un cavo **USB OTG** (Android chiede il permesso la prima volta; poi accetta il
+  collegamento sullo schermo del Polpo, come con il PC), oppure il **Polpo virtuale**: il firmware vero eseguito nel
+  telefono, con il suo schermo e i suoi tasti per le conferme e un piccolo mondo simulato (modulo Grove, telecomandi,
+  tag). Tutto ciò che viene dal Polpo virtuale è segnato **Simulato** e non si invia mai al Polpo vero.
+- **Moduli**: Polpo (informazioni, diagnostica, microSD, reti Wi-Fi e Bluetooth vicine), Script, Infrarossi
+  (libreria, telecomandi personali, apprendimento), Radio 433 (ricezione, RAW e analisi, archivio con i tuoi
+  dispositivi, editor, report, trasmissione), NFC (lettura e analisi, analizzatore NDEF, archivio, scrittura su tag
+  tuoi), GPIO (pin e bus I2C della porta Grove), Archivio, Sicurezza, Registro, Impostazioni e l'elenco di tutte le
+  funzioni con il loro stato nel telefono.
+- **Sicurezza**: la stessa cassaforte cifrata del PC (frase di accesso, chiave di recupero, PIN e blocco
+  automatico, registro attività con catena HMAC). I backup **`.polpobak` si scambiano tra telefono e PC** in entrambe
+  le direzioni. Trasmettere e scrivere richiedono la **modalità laboratorio**, con le stesse regole.
+- **Non ancora nel telefono**: RFID 125 kHz, iButton, Bluetooth e USB del telefono, console seriale, Polpo Bridge,
+  aggiornamento del firmware, DuckyScript e app. Nell'elenco delle funzioni sono segnate «Non disponibile», con il
+  motivo.
+
+Il codice è in `site/assets/js/studio/` e `site/app/studio.html`; l'app in `android/` (vedi `android/LEGGIMI.md`).
+
+## 10. Limiti onesti
 
 Polpo Studio è stato provato con test automatici, il Polpo virtuale e porte seriali simulate (pty), non con un
-Polpo, adattatori Bluetooth, lettori NFC/125 kHz o schede Arduino veri. Le parti segnate **Sperimentali**
+Polpo, adattatori Bluetooth, lettori NFC/125 kHz o schede Arduino veri. La versione nel telefono è provata nel
+browser con lo schermo di un telefono e su un telefono Android emulato, non su un telefono vero con il cavo OTG. Le parti segnate **Sperimentali**
 (aggiornamento firmware, lettore PC/SC, Polpo Bridge, iButton, app di terze parti) vanno provate con attenzione.

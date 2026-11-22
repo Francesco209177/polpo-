@@ -2,13 +2,26 @@ Firmware per M5Stack Cardputer, **Polpo Studio** per PC e l'**app per Android**.
 
 Sito del progetto, con simulatore e installazione del firmware dal browser: {{sito}}
 
-**Novità della 0.3.0**
+**Novità della 0.4.0: Polpo Studio nel telefono**
 
-- **App per Android** (`Polpo-Android.apk`, Android 8.0 o più recente): il simulatore con il firmware vero,
-  PolpoScript, Polpo Onde con il microfono del telefono e tutti i manuali, **senza Internet** (l'app non chiede
-  nemmeno il permesso). Come installarla: pagina «Telefono» del sito. Comandare il Polpo vero dal telefono arriverà
-  nelle prossime versioni.
-- Firmware e Polpo Studio sono identici alla 0.2.0, cambia solo il numero di versione.
+- Nell'app per Android c'è **Polpo Studio**: comanda il **Polpo vero con un cavo USB OTG** (Android chiede il
+  permesso, poi accetti il collegamento sullo schermo del Polpo) oppure il **Polpo virtuale**, cioè il firmware vero
+  eseguito nel telefono, con il suo schermo per le conferme e un piccolo mondo simulato.
+- Moduli: Polpo (informazioni, diagnostica, microSD, reti vicine), Script, Infrarossi, Radio 433 (ricezione, RAW,
+  archivio con i tuoi dispositivi, trasmissione), NFC (lettura, analisi, scrittura su tag tuoi), GPIO, Archivio,
+  Sicurezza, Registro e l'elenco di tutte le funzioni con il loro stato.
+- La stessa **cassaforte cifrata** del programma per PC: i backup **`.polpobak` si scambiano tra telefono e PC**.
+  Trasmettere e scrivere richiedono la modalità laboratorio e la conferma sullo schermo del Polpo, come sul PC.
+- La logica di Polpo Studio è stata riscritta in JavaScript e confrontata con quella Python su circa 27.000 casi di
+  prova generati automaticamente.
+- Firmware: identico alla 0.3.0, cambia solo il numero di versione. Polpo Studio per PC: corretto il registro
+  attività, che andava in errore su una riga rovinata.
+
+**Dalla 0.3.0**
+
+- **App per Android** (`Polpo-Android.apk`, Android 8.0 o più recente) con il simulatore, PolpoScript, Polpo Onde e
+  tutti i manuali, **senza Internet** (l'app non chiede nemmeno il permesso). Come installarla: pagina «Telefono»
+  del sito.
 
 **Dalla 0.2.0**
 
@@ -26,14 +39,14 @@ Sito del progetto, con simulatore e installazione del firmware dal browser: {{si
 | `PolpoStudio-linux-x64.tar.gz` | Polpo Studio per Linux (Ubuntu 22.04 o più recente), con `installa.sh` |
 | `polpo-cardputer-<versione>.bin` | Firmware completo per il Cardputer (indirizzo `0x0`) |
 | `polpo-cardputer-<versione>-app.bin` | Solo l'applicazione, per gli aggiornamenti (indirizzo `0x10000`) |
-| `Polpo-Android.apk` | L'app per Android (simulatore, Script, Onde, manuali), senza Internet |
+| `Polpo-Android.apk` | L'app per Android: Polpo Studio nel telefono, simulatore, Script, Onde, manuali, senza Internet |
 | `sd-polpo.zip` | Cartelle e file d'esempio da copiare sulla microSD |
 | `SHA256SUMS.txt` | Impronte SHA-256 di tutti i file |
 
 **Da sapere**
 
 - Verificato con test automatici, simulatore, autodiagnosi dei pacchetti e un telefono Android emulato;
-  **non ancora provato su hardware vero** (né Cardputer né telefono).
+  **non ancora provato su hardware vero** (né Cardputer né telefono, né il cavo OTG).
 - L'app per Android non arriva dal Play Store: Android chiede di consentire l'installazione e Play Protect può
   avvisare. Il certificato di firma è sempre lo stesso; la sua impronta SHA-256 è sulla pagina «Telefono» del sito.
 - L'installer per Windows non è firmato: Windows può mostrare «PC protetto» (Ulteriori informazioni › Esegui comunque).

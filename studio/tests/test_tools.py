@@ -66,7 +66,7 @@ def test_polpo_info_diag_sd_backup_and_scans(win, qtbot, tmp_path):
 
 def test_firmware_manifest_and_command(win):
     fw = firmware.bundled()
-    assert fw.sha256 == "00599b712fa9c76c08d55aa24dd3fe4de2010269643aefad3f0ce0431ec291a2"
+    assert fw.sha256 == "ac3320c8fa1894468e9a383b70c7831c6b6b610455bef59157357a502f93fbf4"
     if fw.available:
         assert firmware.verify(fw)
         cmd = firmware.esptool_command("/dev/ttyACM0", fw)

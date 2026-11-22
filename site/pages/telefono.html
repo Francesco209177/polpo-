@@ -1,13 +1,13 @@
 <!--
 title: Polpo per Android: l'app per il telefono
-description: L'app Polpo per Android: il simulatore con il firmware vero, PolpoScript, Polpo Onde e i manuali, senza Internet e senza Cardputer.
+description: L'app Polpo per Android: Polpo Studio per comandare il Polpo con il cavo USB, il Polpo virtuale, il simulatore, PolpoScript, Polpo Onde e i manuali, senza Internet.
 nav: telefono
 -->
 <section class="page-head">
   <div class="container">
     <p class="eyebrow">App per Android · versione {{fw_version}}</p>
     <h1>Il Polpo sul telefono</h1>
-    <p class="lead">Un'app per Android con il simulatore che esegue il firmware vero, le mini-app in PolpoScript, Polpo Onde e tutti i manuali. Funziona <strong>senza Internet</strong> e senza Cardputer.</p>
+    <p class="lead">Un'app per Android con <strong>Polpo Studio</strong> per comandare il Polpo con un cavo USB, il <strong>Polpo virtuale</strong> per provare tutto senza Cardputer, il simulatore, PolpoScript, Polpo Onde e i manuali. Funziona <strong>senza Internet</strong>.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="{{dl_android}}">Scarica l'app (Polpo-Android.apk)</a>
       <a class="btn btn-ghost" href="#installa">Come si installa</a>
@@ -20,7 +20,7 @@ nav: telefono
   <div class="container">
     <div class="notice">
       <h2>A che punto è</h2>
-      <p>Questa prima versione contiene <strong>tutto ciò che c'è sul sito</strong>, dentro il telefono. <strong>Comandare il Polpo vero</strong> dal telefono, con il cavo USB e poi via Bluetooth, arriverà nelle prossime versioni, una parte alla volta. L'app è provata in automatico su un telefono Android emulato a ogni versione, <strong>non ancora su un telefono vero</strong>: se la provi, <a href="{{issues_url}}">dicci com'è andata</a>.</p>
+      <p>Dalla versione 0.4 l'app contiene <strong>Polpo Studio</strong>: comanda il Polpo vero con un <strong>cavo USB OTG</strong>, oppure il Polpo virtuale. Le funzioni del telefono da solo (il suo NFC, il suo Bluetooth, lettori via cavo) e il Polpo via Bluetooth arriveranno nelle prossime versioni. L'app è provata in automatico su un telefono Android emulato a ogni versione, <strong>non ancora su un telefono vero</strong> né con un Cardputer vero: se la provi, <a href="{{issues_url}}">dicci com'è andata</a>.</p>
     </div>
   </div>
 </section>
@@ -32,6 +32,14 @@ nav: telefono
       <h2>Quello che fa davvero, e quello che è simulato</h2>
     </div>
     <div class="grid two">
+      <div class="card">
+        <h3>Polpo Studio <span class="badge exp">Sperimentale</span></h3>
+        <p>Informazioni, diagnostica e microSD del Polpo, script, infrarossi, radio a 433 MHz, NFC e porta Grove, con l'archivio cifrato compatibile con il programma per PC. Con il <strong>cavo USB</strong> parla con il Polpo vero; ogni collegamento va accettato sul suo schermo, e trasmettere o scrivere richiede la modalità laboratorio.</p>
+      </div>
+      <div class="card">
+        <h3>Polpo virtuale <span class="badge sim">Simulato</span></h3>
+        <p>Il firmware vero, eseguito nel telefono, collegato a Polpo Studio: stesse conferme sul suo schermo. Ciò che riceve è inventato e ciò che «trasmette» non esce dal telefono.</p>
+      </div>
       <div class="card">
         <h3>Simulatore <span class="badge sim">Simulato</span></h3>
         <p>Lo stesso firmware che installi sul Cardputer, eseguito nel telefono: menu, telecomandi, radio, NFC, con un televisore, una presa e dei tag finti. Ciò che il Polpo «trasmette» qui non esce dal telefono.</p>
@@ -52,7 +60,7 @@ nav: telefono
     <h3 class="mt">Cosa non fa (ancora)</h3>
     <ul>
       <li><strong>Installare il firmware sul Cardputer</strong>: serve un computer con Chrome o Edge (<a href="../installa/">pagina Installa</a>).</li>
-      <li><strong>Comandare il Polpo vero</strong> e le funzioni di Polpo Studio: arriveranno nelle prossime versioni.</li>
+      <li><strong>Usare l'NFC, il Bluetooth o l'infrarosso del telefono</strong>, i lettori collegati via cavo e il Polpo via Bluetooth: arriveranno nelle prossime versioni.</li>
       <li>Il telefono <strong>non ha</strong> la radio a 433 MHz, il lettore RFID e la porta Grove del Polpo: quelle funzioni passeranno sempre dal Polpo vero, mai finte.</li>
     </ul>
   </div>
@@ -75,6 +83,7 @@ nav: telefono
         <h3>Permessi e riservatezza</h3>
         <ul>
           <li><strong>Microfono</strong>: solo per Polpo Onde, chiesto la prima volta che premi <em>Ascolta</em>. Puoi dire di no: il resto funziona.</li>
+          <li><strong>USB</strong>: quando colleghi il Polpo con il cavo, Android chiede se l'app può usarlo. Senza il tuo sì l'app non lo vede.</li>
           <li><strong>Nessun permesso Internet</strong>: l'app non può collegarsi a nessun server. I link a GitHub e al sito si aprono nel browser del telefono.</li>
           <li>Nessun account, nessuna pubblicità, nessun tracciamento. I dati restano nel telefono e non finiscono nei backup sul cloud.</li>
         </ul>

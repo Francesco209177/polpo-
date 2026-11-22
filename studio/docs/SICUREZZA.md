@@ -39,6 +39,16 @@ Tutto il contenuto della cassaforte in un file cifrato (AES-256-GCM) con una **p
 (scrypt), così si ripristina anche su un altro computer. Il ripristino controlla le impronte e salta i
 file già presenti.
 
+## Nel telefono (app per Android)
+
+Polpo Studio nell'app per Android usa **la stessa cassaforte**, con gli stessi formati: le chiavi vengono da
+WebCrypto (AES-256-GCM, HKDF, HMAC-SHA256, SHA-256) e da scrypt della libreria
+[@noble/hashes](https://www.npmjs.com/package/@noble/hashes) 2.4.0 (copiata nell'app con l'impronta di ogni file).
+I dati stanno nella memoria dell'app (IndexedDB), che Android esclude dai backup sul cloud. Le prove automatiche
+aprono nel telefono cassaforti, registri e backup creati dal programma per PC e viceversa, e controllano che le
+manomissioni siano segnalate allo stesso modo. «Ricorda su questo computer» non c'è ancora nel telefono: serve
+sempre la frase (o il PIN per il blocco rapido). Anche nel telefono i file esportati e i report non sono cifrati.
+
 ## Modalità laboratorio
 
 Serve per: trasmettere a 433 MHz, scrivere tag NFC, aggiornare il firmware del Polpo, programmare schede ESP32,

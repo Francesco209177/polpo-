@@ -22,7 +22,7 @@ from .scheduler import Handle, Scheduler
 log = logging.getLogger(__name__)
 
 BOARD = "Polpo virtuale (SIMULATO)"
-FIRMWARE = "0.3.0-virtuale"
+FIRMWARE = "0.4.0-virtuale"
 RF_BUDGET_LIMIT_MS = 288_000  # 8% di un'ora, come il firmware
 IR_PROTOCOLS = (
     "NEC", "NECext", "NEC42", "NEC42ext", "Samsung32", "RC5", "RC5X", "RC6",

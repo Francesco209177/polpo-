@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "polpo-studio"
-version = "0.3.0"
+version = "0.4.0"
 description = "Programma per PC che comanda il Polpo (M5Stack Cardputer) e i lettori esterni: radio 433 MHz, NFC, RFID 125 kHz, infrarossi, GPIO, Bluetooth, USB, iButton."
 readme = "README.md"
 license = "MIT"
