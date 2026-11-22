@@ -1,0 +1,87 @@
+<!--
+title: Polpo Studio nel telefono
+description: Polpo Studio nell'app per Android: comanda il Polpo con il cavo USB oppure prova tutto con il Polpo virtuale.
+nav: studio
+class: pagina-studio
+-->
+<section class="page-head st-testa">
+  <div class="container">
+    <p class="eyebrow studio">Polpo Studio · versione {{studio_version}}</p>
+    <h1>Polpo Studio</h1>
+    <p class="lead">Comanda il Polpo dal telefono con un cavo USB, oppure prova tutto con il <strong>Polpo virtuale</strong>, che esegue il firmware vero qui dentro.</p>
+  </div>
+</section>
+
+<section class="tight" id="studio" data-app-studio>
+  <div class="container">
+    <div class="st-barra card">
+      <p class="st-stato" id="st-stato" role="status" aria-live="polite">Nessun Polpo collegato.</p>
+      <div class="btn-row">
+        <button type="button" class="btn btn-studio" id="st-collega">Collega un Polpo</button>
+        <button type="button" class="btn btn-ghost" id="st-scollega" hidden>Scollega</button>
+      </div>
+    </div>
+
+    <div class="card st-scelta" id="st-scelta" hidden>
+      <h2>Quale Polpo?</h2>
+      <div class="grid two">
+        <div>
+          <h3>Il Polpo vero, con il cavo USB</h3>
+          <p class="small">Serve un cavo o un adattatore <strong>USB OTG</strong> (USB-C ↔ USB-C va bene). Collega il Cardputer acceso al telefono: Android chiede il permesso la prima volta, poi sullo schermo del Polpo accetta il collegamento.</p>
+          <ul class="st-elenco" id="st-usb"></ul>
+          <div class="btn-row">
+            <button type="button" class="btn btn-ghost" id="st-usb-cerca">Cerca di nuovo</button>
+            <button type="button" class="btn btn-ghost" id="st-webserial" hidden>Scegli la porta USB</button>
+          </div>
+        </div>
+        <div>
+          <h3>Il Polpo virtuale <span class="badge sim">Simulato</span></h3>
+          <p class="small">Il firmware vero, eseguito nel telefono: stessi menu e stesse conferme del Cardputer. Ciò che «trasmette» non esce dal telefono e tutto ciò che riceve è inventato. È lo stesso Polpo del simulatore: stessa microSD.</p>
+          <button type="button" class="btn btn-studio" id="st-virtuale">Avvia il Polpo virtuale</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card st-virt" id="st-virt" hidden>
+      <div class="st-virt-schermo">
+        <canvas id="st-schermo" width="240" height="135" role="img" aria-label="Lo schermo del Polpo virtuale"></canvas>
+        <div class="st-tasti" role="group" aria-label="Tasti del Polpo virtuale">
+          <button type="button" data-tasto="g0" title="G0: torna indietro">G0</button>
+          <button type="button" data-tasto="sinistra" aria-label="Sinistra">◀</button>
+          <button type="button" data-tasto="su" aria-label="Su">▲</button>
+          <button type="button" data-tasto="giu" aria-label="Giù">▼</button>
+          <button type="button" data-tasto="destra" aria-label="Destra">▶</button>
+          <button type="button" data-tasto="ok">OK</button>
+        </div>
+      </div>
+      <details class="st-mondo">
+        <summary>Il mondo simulato attorno al Polpo</summary>
+        <label for="st-grove">Porta Grove</label>
+        <select id="st-grove">
+          <option value="nessuno">Nessun modulo</option>
+          <option value="rf433">Radio 433 MHz (RF433R + RF433T)</option>
+          <option value="ir">Ricevitore IR (IR Unit)</option>
+          <option value="rfid2">NFC (RFID2)</option>
+        </select>
+        <div class="btn-row">
+          <button type="button" class="btn btn-ghost" data-rf="5592405">Telecomando 433: ON</button>
+          <button type="button" class="btn btn-ghost" data-rf="5592404">Telecomando 433: OFF</button>
+          <button type="button" class="btn btn-ghost" data-ir="8">Telecomando IR: un tasto</button>
+        </div>
+        <label for="st-tag">Tag NFC appoggiato</label>
+        <select id="st-tag">
+          <option value="">Nessuno</option>
+          <option value="ntag213">NTAG213 (adesivo comune)</option>
+          <option value="ntag215">NTAG215</option>
+          <option value="ultralight">MIFARE Ultralight</option>
+          <option value="classic">MIFARE Classic (non leggibile)</option>
+        </select>
+      </details>
+    </div>
+
+    <nav class="st-schede" id="st-schede" aria-label="Moduli di Polpo Studio"></nav>
+    <div id="st-moduli"></div>
+    <p class="small" id="st-avviso" role="status" aria-live="polite"></p>
+  </div>
+</section>
+<script type="module" src="../assets/js/studio/pagina.js"></script>

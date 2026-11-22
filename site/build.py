@@ -276,6 +276,46 @@ def build_firmware_simulator(out: Path, ctx: dict[str, str], template: str, cart
     return ["simulatore/"]
 
 
+# ---------------- catalogo di Polpo Studio ----------------
+
+
+def build_studio_catalog(out: Path) -> None:
+    """Moduli, funzioni e hardware di Polpo Studio (studio/polpo_studio/core), per la versione nel telefono.
+
+    Un modulo JavaScript generato a ogni costruzione: l'elenco resta lo stesso del programma per PC.
+    """
+    sys.path.insert(0, str(ROOT / "studio"))
+    try:
+        from polpo_studio.core import catalog, hardware
+    finally:
+        sys.path.pop(0)
+
+    def it(t: object) -> str | None:
+        return None if t is None else str(getattr(t, "it", t))
+
+    dati = {
+        "moduli": [
+            {
+                "id": m.id, "titolo": it(m.title), "sommario": it(m.summary),
+                "funzioni": [
+                    {
+                        "id": c.id, "titolo": it(c.title), "descrizione": it(c.description),
+                        "strade": [{"hardware": list(r.hardware), "sperimentale": r.experimental, "nota": it(r.note)} for r in c.routes],
+                        "sperimentale": c.experimental, "laboratorio": c.needs_lab, "esclusa": it(c.unsupported),
+                    }
+                    for c in m.capabilities
+                ],
+            }
+            for m in catalog.MODULES
+        ],
+        "hardware": [{"id": h.id, "nome": it(h.name), "come": it(h.how), "gruppo": h.group, "dichiarabile": h.declarable} for h in hardware.HARDWARE],
+    }
+    testo = json.dumps(dati, ensure_ascii=False, indent=1)
+    if re.search(r"https?://", testo):
+        raise BuildError("catalogo di Polpo Studio: contiene un indirizzo web, che il codice del sito non può avere")
+    write(out / "assets/js/studio/catalogo-dati.js", "// Generato da site/build.py dal catalogo di Polpo Studio: non modificare a mano.\nexport const CATALOGO = " + testo + ";\n")
+
+
 # ---------------- firmware e microSD ----------------
 
 
@@ -398,6 +438,20 @@ class _Links(HTMLParser):
                 self.links.append((tag, u, is_res))
 
 
+def third_party_ok(out: Path, problems: list[str]) -> set[Path]:
+    """Le librerie in assets/js/terze-parti: ogni file .js deve avere l'impronta scritta nel loro INTEGRITA.json."""
+    ok: set[Path] = set()
+    for lista in (out / "assets/js/terze-parti").glob("*/INTEGRITA.json"):
+        attese = json.loads(lista.read_text(encoding="utf-8"))
+        for js in lista.parent.rglob("*.js"):
+            nome = js.relative_to(lista.parent).as_posix()
+            if attese.get(nome) == hashlib.sha256(js.read_bytes()).hexdigest():
+                ok.add(js)
+            else:
+                problems.append(f"{js.relative_to(out)}: impronta diversa da quella in INTEGRITA.json")
+    return ok
+
+
 def check(out: Path, site_url: str, app: bool = False) -> list[str]:
     problems: list[str] = []
     site_path = "/" if app else (urlsplit(site_url).path or "/")  # l'app serve le pagine dalla radice
@@ -444,13 +498,17 @@ def check(out: Path, site_url: str, app: bool = False) -> list[str]:
         if re.search(r"url\(\s*['\"]?(https?:)?//|@import", css.read_text(encoding="utf-8")):
             problems.append(f"{css.relative_to(out)}: carica risorse esterne")
     # Il codice scritto per il sito non deve poter parlare con nessun server: né indirizzi né funzioni di rete.
-    # Unica eccezione, in un solo file: la pagina del simulatore scarica il file del firmware da questo stesso sito.
+    # Unica eccezione, in un solo file: il caricatore del firmware scarica polpo-sim.wasm da questo stesso sito.
+    # Le librerie di terze parti copiate nel sito sono controllate con la loro impronta (INTEGRITA.json).
+    verificate = third_party_ok(out, problems)
     for js in (out / "assets").rglob("*.js"):
+        if js in verificate:
+            continue
         testo = js.read_text(encoding="utf-8")
-        if js.relative_to(out).as_posix() == "assets/js/simulatore/pagina.js":
-            if testo.count("fetch(") != 1 or 'fetch(new URL("polpo-sim.wasm", document.baseURI))' not in testo:
-                problems.append("assets/js/simulatore/pagina.js: deve contenere una sola richiesta, quella del file polpo-sim.wasm")
-            testo = testo.replace('fetch(new URL("polpo-sim.wasm", document.baseURI))', "")
+        if js.relative_to(out).as_posix() == "assets/js/simulatore/carica.js":
+            if testo.count("fetch(") != 1 or 'fetch(new URL("polpo-sim.wasm", base))' not in testo:
+                problems.append("assets/js/simulatore/carica.js: deve contenere una sola richiesta, quella del file polpo-sim.wasm")
+            testo = testo.replace('fetch(new URL("polpo-sim.wasm", base))', "")
         m = re.search(r"https?://|\b(fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|RTCPeerConnection|importScripts)\b", testo)
         if m:
             problems.append(f"{js.relative_to(out)}: contiene «{m.group(0)}» (il codice del sito non deve fare richieste di rete)")
@@ -507,6 +565,7 @@ def main(argv: list[str] | None = None) -> int:
         if not args.app:
             shutil.copytree(SITE / "vendor", out / "vendor", ignore=shutil.ignore_patterns("*.md"))
         urls = build_pages(out, ctx, template, app=args.app)
+        build_studio_catalog(out)
         if args.firmware_web:
             urls += build_firmware_simulator(out, ctx, template, Path(args.firmware_web).resolve())
         else:

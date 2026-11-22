@@ -93,6 +93,7 @@ tasks.named("preBuild") {
 dependencies {
     implementation("androidx.activity:activity-ktx:1.11.0")
     implementation("androidx.core:core-ktx:1.17.0")
+    implementation("com.github.mik3y:usb-serial-for-android:3.11.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")
     androidTestImplementation("androidx.test:runner:1.7.0")

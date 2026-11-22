@@ -31,6 +31,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
+import org.json.JSONObject
 import java.io.ByteArrayInputStream
 import java.io.FileNotFoundException
 import java.io.IOException
@@ -39,13 +40,16 @@ import java.io.IOException
  * L'app Polpo: il sito del Polpo (simulatore con il firmware vero, Script, Onde, manuali) dentro il telefono,
  * senza Internet. Le pagine sono quelle di site/, costruite con «site/build.py --app».
  *
- * Cosa può fare la pagina oltre a una pagina web qualsiasi (oggetto «PolpoNativo» in JavaScript):
- * salvare un file dove scegli tu, con il selettore di Android. Niente altro.
+ * Cosa può fare la pagina oltre a una pagina web qualsiasi (oggetto «PolpoNativo» in JavaScript): salvare un file
+ * dove scegli tu, con il selettore di Android, e parlare con il Polpo collegato con un cavo USB (solo dopo il permesso
+ * di Android per quel dispositivo). Niente altro.
  */
 class MainActivity : ComponentActivity() {
 
     internal lateinit var webView: WebView
         private set
+
+    private lateinit var seriale: Seriale
 
     // file da salvare in attesa che si scelga dove (uno per volta)
     private var daSalvare: ByteArray? = null
@@ -132,6 +136,8 @@ class MainActivity : ComponentActivity() {
         webView.webViewClient = Client()
         webView.webChromeClient = Chrome()
         webView.addJavascriptInterface(Ponte(), "PolpoNativo")
+        seriale = Seriale(this) { evento -> mandaAllaPagina(evento) }
+        seriale.avvia()
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
@@ -154,7 +160,14 @@ class MainActivity : ComponentActivity() {
         webView.saveState(outState)
     }
 
+    /** Un evento per la pagina: window.__polpoNativo({...}). Si può chiamare da qualsiasi thread. */
+    private fun mandaAllaPagina(evento: JSONObject) {
+        val js = "window.__polpoNativo&&window.__polpoNativo(" + evento.toString() + ")"
+        runOnUiThread { if (!isDestroyed) webView.evaluateJavascript(js, null) }
+    }
+
     override fun onDestroy() {
+        seriale.ferma()
         permessoInAttesa?.deny()
         sceltaFile?.onReceiveValue(null)
         webView.destroy()
@@ -251,6 +264,25 @@ class MainActivity : ComponentActivity() {
             val dati = try { Base64.decode(base64, Base64.DEFAULT) } catch (e: IllegalArgumentException) { return }
             val sicuro = Risorse.nomeFile(nome)
             runOnUiThread { chiediDove(sicuro, Risorse.tipo(sicuro), dati, null) }
+        }
+
+        /** Le porte seriali USB collegate (JSON): id, nome, vid, pid, polpo, permesso. */
+        @JavascriptInterface
+        fun serialeElenco(): String = seriale.elenco()
+
+        /** Apre la porta (chiedendo il permesso di Android se serve); l'esito arriva come evento. */
+        @JavascriptInterface
+        fun serialeApri(id: String) {
+            runOnUiThread { seriale.apri(id) }
+        }
+
+        /** Scrive byte (base64) sulla porta aperta. */
+        @JavascriptInterface
+        fun serialeScrivi(base64: String): Boolean = seriale.scrivi(base64)
+
+        @JavascriptInterface
+        fun serialeChiudi() {
+            seriale.chiudi("porta chiusa")
         }
 
         /** Salva una copia di un file del sito incluso nell'app (per esempio sd-polpo.zip). */

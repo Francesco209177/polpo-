@@ -432,3 +432,49 @@ html.fermo .reveal { opacity: 1; transform: none; }
 .sim-registro { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; max-height: 15em; overflow-y: auto; font-size: .9rem; }
 .sim-registro li { padding: 6px 10px; border-left: 3px solid var(--sim); background: var(--surface-2); border-radius: 0 8px 8px 0; }
 .sim-registro li.errore { border-left-color: var(--warn); }
+
+/* ---------- Polpo Studio nell'app ---------- */
+.st-testa { padding-bottom: 8px; }
+.st-testa .lead { font-size: 1.02rem; }
+.st-barra { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; padding: 14px 16px; position: sticky; top: 72px; z-index: 5; }
+.st-barra .btn-row { margin: 0; }
+.st-stato { margin: 0; font-weight: 600; }
+.st-stato[data-stato="collegato"] { color: var(--ok); }
+.st-stato[data-stato="attesa_conferma"] { color: var(--warn); }
+.st-scelta, .st-virt { margin-top: 14px; }
+.st-elenco, .st-file, .st-righe { list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 8px; }
+.st-elenco li, .st-file li { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.st-righe li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.st-virt { display: grid; gap: 12px; }
+.st-virt-schermo { display: grid; gap: 10px; justify-items: center; }
+.st-virt canvas { width: min(100%, 480px); aspect-ratio: 240 / 135; image-rendering: pixelated; border-radius: 8px; background: #000; border: 6px solid #2b2f36; }
+.st-tasti { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.st-tasti button { min-width: 52px; min-height: 48px; font: 700 1rem var(--font); color: var(--ink); background: var(--surface-2); border: 2px solid var(--line); border-radius: 10px; cursor: pointer; }
+.st-tasti button:active { transform: translateY(1px); }
+.st-mondo { display: grid; gap: 8px; }
+.st-mondo summary { font-weight: 600; cursor: pointer; }
+.st-schede { display: flex; gap: 6px; overflow-x: auto; padding: 14px 2px 6px; scrollbar-width: thin; }
+.st-scheda { flex: none; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: .95rem; }
+.st-scheda[aria-current="page"] { background: var(--studio-soft); color: var(--studio); border-color: var(--studio); }
+.st-modulo > h2 { margin: 12px 0; }
+.st-griglia { display: grid; gap: 14px; }
+@media (min-width: 900px) { .st-griglia { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.st-funz h3 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 0; font-size: 1.08rem; }
+.st-motivo { color: var(--muted); }
+.st-campo { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 10px; }
+.st-campo:disabled { opacity: .55; }
+.st-funz[data-stato="non_disponibile"] .st-campo:empty, .st-campo:empty { display: none; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.pagina-studio input[type="text"], .pagina-studio input[type="number"], .pagina-studio input[type="password"], .pagina-studio select, .pagina-studio textarea {
+  font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 9px; padding: 7px 10px; max-width: 100%;
+}
+.pagina-studio textarea { width: 100%; font-family: var(--mono); font-size: .9rem; resize: vertical; box-sizing: border-box; }
+.pagina-studio input[type="number"] { width: 5em; }
+.st-avviso { position: sticky; bottom: 0; background: var(--surface); border-top: 1px solid var(--line); padding: 10px 12px; margin: 14px 0 0; }
+.st-avviso:empty { display: none; }
+.st-avviso.errore { color: var(--warn); font-weight: 600; }
+.st-avviso.ok { color: var(--ok); }
+.st-registro { padding-left: 1.2em; display: grid; gap: 6px; }
+.st-registro li.off { color: var(--warn); }
+[data-livello="errore"] { color: var(--warn); font-weight: 600; }
+[data-livello="ok"] { color: var(--ok); }

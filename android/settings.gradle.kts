@@ -11,6 +11,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // solo per usb-serial-for-android (licenza MIT), pubblicata su JitPack
+        exclusiveContent {
+            forRepository { maven("https://jitpack.io") }
+            filter { includeGroup("com.github.mik3y") }
+        }
     }
 }
 rootProject.name = "Polpo"

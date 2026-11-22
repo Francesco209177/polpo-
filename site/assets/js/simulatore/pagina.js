@@ -2,6 +2,7 @@
 // L'unica cosa che questa pagina scarica è il file del firmware, da questo stesso sito.
 
 import { creaPolpo, TASTI, postoDelTasto, LARGHEZZA, ALTEZZA } from "./firmware.js";
+import { caricaFirmware } from "./carica.js";
 
 const $ = (id) => document.getElementById(id);
 const CHIAVE = "polpo-simulatore-firmware-v1";
@@ -470,9 +471,7 @@ mostraTv();
   if (typeof WebAssembly !== "object") { stato.textContent = "Questo browser non supporta WebAssembly: il simulatore non può partire."; return; }
   try {
     // l'unico file che la pagina scarica: il firmware, da questo stesso sito
-    const risposta = await fetch(new URL("polpo-sim.wasm", document.baseURI));
-    if (!risposta.ok) throw new Error(`risposta ${risposta.status}`);
-    modulo = await WebAssembly.compile(await risposta.arrayBuffer());
+    modulo = await caricaFirmware(document.baseURI);
     await accendi();
     requestAnimationFrame(ciclo);
     setInterval(salva, 3000);

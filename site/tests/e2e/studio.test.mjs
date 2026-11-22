@@ -1,0 +1,111 @@
+// Polpo Studio nell'app (pagine di site/build.py --app): con lo schermo di un telefono e il Polpo virtuale, cioè il
+// firmware vero. Si eseguono solo se APP_DIR indica la cartella costruita.
+import test, { before, after } from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import { chromium, devices, servi } from "./aiuto.mjs";
+
+const APP = process.env.APP_DIR ? path.resolve(process.env.APP_DIR) : "";
+const salta = APP && fs.existsSync(path.join(APP, "studio/index.html")) && fs.existsSync(path.join(APP, "simulatore/polpo-sim.wasm"))
+  ? false : "APP_DIR non indicata (o senza firmware): prove di Studio saltate";
+
+let server, browser;
+before(async () => {
+  if (salta) return;
+  server = await servi(APP);
+  browser = await chromium.launch();
+});
+after(async () => {
+  await browser?.close();
+  await server?.chiudi();
+});
+
+async function apriStudio() {
+  const contesto = await browser.newContext({ ...devices["Pixel 7"], reducedMotion: "reduce" });
+  const pagina = await contesto.newPage();
+  const problemi = [];
+  pagina.on("console", (m) => { if (m.type() === "error") problemi.push("console: " + m.text()); });
+  pagina.on("pageerror", (e) => problemi.push("errore: " + e));
+  pagina.on("request", (r) => { if (!r.url().startsWith(new URL(server.base).origin)) problemi.push("richiesta esterna: " + r.url()); });
+  await pagina.goto(server.base + "studio/", { waitUntil: "networkidle" });
+  return { pagina, contesto, problemi };
+}
+
+const stato = (p) => p.evaluate(() => document.getElementById("st-stato").dataset.stato);
+
+/** Avvia il Polpo virtuale e accetta il collegamento sul suo schermo, come farebbe una persona. */
+async function collegaVirtuale(pagina) {
+  await pagina.click("#st-collega");
+  await pagina.click("#st-virtuale");
+  await pagina.waitForFunction(() => document.getElementById("st-stato").dataset.stato === "attesa_conferma", null, { timeout: 30000 });
+  await pagina.waitForTimeout(400);
+  await pagina.click('[data-tasto="destra"]');
+  await pagina.waitForTimeout(200);
+  await pagina.click('[data-tasto="ok"]');
+  await pagina.waitForFunction(() => document.getElementById("st-stato").dataset.stato === "collegato", null, { timeout: 10000 });
+}
+
+const statoFunzione = (p, id) => p.evaluate((x) => document.querySelector(`#st-moduli [data-funzione="${x}"]`)?.dataset.stato, id);
+
+test("Studio: senza Polpo le funzioni dicono cosa serve, il collegamento va accettato sul Polpo virtuale", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  assert.equal(await stato(pagina), "chiuso");
+  assert.equal(await statoFunzione(pagina, "polpo.info"), "richiede_hardware");
+  assert.equal(await statoFunzione(pagina, "polpo.firmware"), "non_disponibile");
+  assert.equal(await pagina.locator('[data-funzione="polpo.info"] fieldset[disabled]').count(), 1);
+  await collegaVirtuale(pagina);
+  assert.match(await pagina.textContent("#st-stato"), /Polpo virtuale \(SIMULATO\)/);
+  assert.equal(await statoFunzione(pagina, "polpo.info"), "simulato");
+  await pagina.click("text=Leggi le informazioni");
+  await pagina.waitForSelector('[data-funzione="polpo.info"] table');
+  assert.match(await pagina.textContent('[data-funzione="polpo.info"] table'), /Cardputer/);
+  // la microSD: una cartella del Polpo virtuale
+  await pagina.click("text=Apri la microSD");
+  await pagina.waitForSelector("text=📁 script");
+  // scollegare chiude anche la sessione sul Polpo
+  await pagina.click("#st-scollega");
+  await pagina.waitForFunction(() => document.getElementById("st-stato").dataset.stato === "chiuso", null, { timeout: 5000 });
+  assert.equal(await statoFunzione(pagina, "polpo.info"), "richiede_hardware");
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
+
+test("Studio: uno script copiato sul Polpo virtuale ed eseguito dopo la conferma sul suo schermo", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  await collegaVirtuale(pagina);
+  await pagina.click('a[href="#script"]');
+  await pagina.fill('[aria-label="Il programma"]', 'scrivi("ciao dal telefono")\nscrivi(6 * 7)\n');
+  await pagina.click("text=Controlla");
+  await pagina.waitForSelector("text=Nessun errore: il programma è scritto bene (SIMULATO).");
+  await pagina.click("text=Esegui sul Polpo");
+  await pagina.waitForSelector("text=Chiedo di avviarlo: conferma sullo schermo del Polpo.");
+  await pagina.waitForTimeout(500);
+  await pagina.click('[data-tasto="destra"]');
+  await pagina.waitForTimeout(200);
+  await pagina.click('[data-tasto="ok"]');
+  await pagina.waitForFunction(() => document.querySelector('[aria-label="Ciò che il programma scrive"]').value.includes("42"), null, { timeout: 10000 });
+  assert.match(await pagina.inputValue('[aria-label="Ciò che il programma scrive"]'), /ciao dal telefono\n42/);
+  // un errore nel programma: riga e spiegazione, niente esecuzione
+  await pagina.fill('[aria-label="Il programma"]', "se 1 > 0\n  scrivi(1)\n");
+  await pagina.click("text=Controlla");
+  await pagina.waitForSelector("text=/^Riga 1: /");
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
+
+test("Studio: l'elenco di tutte le funzioni, con le escluse per scelta e le non ancora nell'app", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  await pagina.click('a[href="#funzioni"]');
+  await pagina.waitForSelector('#m-funzioni [data-funzione="radio.jam"]');
+  const stato1 = (id) => pagina.evaluate((x) => document.querySelector(`#m-funzioni [data-funzione="${x}"]`)?.dataset.stato, id);
+  assert.equal(await stato1("radio.jam"), "non_disponibile");
+  assert.equal(await stato1("nfc.emulate"), "non_disponibile");
+  assert.equal(await stato1("usb.run"), "non_disponibile");
+  assert.equal(await stato1("radio.rx"), "richiede_hardware");
+  assert.match(await pagina.textContent('#m-funzioni [data-funzione="apps.third_party"]'), /Solo nel programma per PC/);
+  const larghezza = await pagina.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+  assert.ok(larghezza <= 1, `${larghezza} px oltre il bordo`);
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
