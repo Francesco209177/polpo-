@@ -28,10 +28,15 @@ class AuditLog:
         self._k_enc = vault.key_for("registro-cifratura")
         self._k_mac = vault.key_for("registro-hmac")
         if self.path.exists():
-            lines = self._lines()
-            if lines:
-                tail = json.loads(lines[-1])
-                self._seq, self._last = int(tail["seq"]), str(tail["mac"])
+            # si riparte dall'ultima riga leggibile: una riga finale rovinata non impedisce di aprire la cassaforte
+            # (la segnala ``verify``)
+            for line in reversed(self._lines()):
+                try:
+                    tail = json.loads(line)
+                    self._seq, self._last = int(tail["seq"]), str(tail["mac"])
+                    break
+                except (ValueError, KeyError, TypeError):
+                    continue
 
     @property
     def path(self) -> Path:
@@ -70,7 +75,7 @@ class AuditLog:
             try:
                 d = json.loads(line)
                 out.append(json.loads(crypto.unseal(self._k_enc, crypto.b64d(d["c"]), self._aad("log", d["seq"]))))
-            except (ValueError, KeyError, IntegrityError):
+            except (ValueError, KeyError, TypeError, IntegrityError):
                 continue
         return out
 

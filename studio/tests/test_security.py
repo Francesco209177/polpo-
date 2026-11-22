@@ -168,6 +168,18 @@ def test_audit_chain_detects_edits_deletions_and_truncation(vault):
     assert log2.verify() == []
 
 
+def test_audit_survives_malformed_lines(vault):
+    """Una riga JSON che non è un oggetto o una riga finale rovinata: il registro si apre e si legge lo stesso."""
+    log = AuditLog(vault)
+    log.append({"ts": 1, "category": "t", "message": "prima", "level": "info", "simulated": False})
+    with log.path.open("a", encoding="utf-8") as f:
+        f.write("[1, 2]\n{rotta\n")
+    assert [e["message"] for e in log.read()] == ["prima"]
+    assert any("formato non valido" in p for p in log.verify())
+    log2 = AuditLog(vault)  # prima andava in errore sull'ultima riga
+    assert [e["message"] for e in log2.read()] == ["prima"]
+
+
 def test_activity_buffers_until_vault_open(vault):
     act = ActivityLog()
     act.add("polpo", "prima dello sblocco")
