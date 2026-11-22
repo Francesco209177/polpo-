@@ -109,3 +109,45 @@ test("Studio: l'elenco di tutte le funzioni, con le escluse per scelta e le non 
   assert.deepEqual(problemi, []);
   await contesto.close();
 });
+
+test("Studio: cassaforte creata nel telefono, chiave di recupero, PIN, laboratorio e archivio", { skip: salta }, async () => {
+  const { pagina, contesto, problemi } = await apriStudio();
+  await pagina.click('a[href="#sicurezza"]');
+  await pagina.fill('[aria-label="Frase di accesso"]', "corto");
+  await pagina.fill('[aria-label="Ripeti la frase"]', "corto");
+  await pagina.click("text=Crea la cassaforte >> nth=-1");
+  await pagina.waitForSelector("text=/Frase troppo debole/");
+  const frase = "polpo blu mangia sedici biscotti";
+  await pagina.fill('[aria-label="Frase di accesso"]', frase);
+  await pagina.fill('[aria-label="Ripeti la frase"]', frase);
+  await pagina.click("text=Crea la cassaforte >> nth=-1");
+  await pagina.waitForSelector("#st-recupero", { timeout: 30000 });
+  assert.match(await pagina.textContent("#st-recupero"), /^[A-Z2-7]{4}(-[A-Z2-7]{4})+$/);
+  await pagina.click("text=L'ho scritta su carta");
+  await pagina.waitForSelector('#m-sicurezza h3:has-text("Modalità laboratorio")');
+  // il laboratorio chiede le regole accettate e la frase (o il PIN)
+  await pagina.fill('[aria-label="Nuovo PIN (da 4 a 12 cifre)"]', "2468");
+  await pagina.click("text=Imposta il PIN");
+  await pagina.waitForSelector("#m-sicurezza >> text=Togli il PIN");
+  await pagina.fill('[aria-label="PIN o frase di accesso, per conferma"]', "2468");
+  await pagina.click("button:has-text('Attiva')");
+  await pagina.waitForSelector("#st-avviso >> text=Serve accettare le regole.");
+  await pagina.check("text=Ho letto e accetto queste regole");
+  await pagina.fill('[aria-label="PIN o frase di accesso, per conferma"]', "2468");
+  await pagina.click("button:has-text('Attiva')");
+  await pagina.waitForSelector("#m-sicurezza >> text=Disattiva ora");
+  assert.equal(await pagina.evaluate(() => window.__studio.richiediLaboratorio("rf.tx")), true);
+  // archivio: un file importato, poi bloccato con il PIN
+  await pagina.click('a[href="#archivio"]');
+  await pagina.setInputFiles('#m-archivio input[type="file"]', { name: "nota.txt", mimeType: "text/plain", buffer: Buffer.from("ciao") });
+  await pagina.waitForSelector("#m-archivio >> text=nota.txt");
+  await pagina.click('a[href="#sicurezza"]');
+  await pagina.click("text=Blocca ora");
+  await pagina.waitForSelector("#m-sicurezza >> text=Studio bloccato");
+  assert.equal(await pagina.evaluate(() => window.__studio.richiediLaboratorio("rf.tx")), false, "bloccando si spegne il laboratorio");
+  await pagina.fill('[aria-label="PIN"]', "2468");
+  await pagina.click("text=Sblocca");
+  await pagina.waitForSelector("#m-sicurezza >> text=Imposta il PIN");
+  assert.deepEqual(problemi, []);
+  await contesto.close();
+});
