@@ -20,13 +20,13 @@
 <meta property="og:image" content="{{og_image}}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="{{root}}assets/css/sito.css">
-<script>document.documentElement.classList.add("js")</script>
+<script>(function(d){d.classList.add("js");try{if(localStorage.getItem("polpo-animazioni")==="ferme")d.classList.add("fermo")}catch(e){}})(document.documentElement)</script>
 </head>
 <body class="{{body_class}}">
 <a class="skip" href="#contenuto">Vai al contenuto</a>
 <header class="site-header">
   <div class="container bar">
-    <a class="brand" href="{{root}}"><img src="{{root}}assets/img/polpo.svg" alt="" width="38" height="38"><span>Polpo</span></a>
+    <a class="brand" href="{{root}}">{{mascotte}}<span>Polpo</span></a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav id="menu" aria-label="Principale">
       <a href="{{root}}simulatore/"{{cur_simulatore}}>Simulatore</a>
@@ -65,7 +65,7 @@
     </nav>
   </div>
   <div class="container footer-notes">
-    <p>Questo sito non usa cookie, non traccia chi lo visita e non carica nulla da altri siti.</p>
+    <p>Questo sito non usa cookie, non traccia chi lo visita e non carica nulla da altri siti. <button class="anim-btn" type="button" data-anim hidden>Ferma le animazioni</button></p>
     <p>Polpo è un progetto indipendente: non è affiliato a Flipper Devices Inc. né a M5Stack. I nomi dei prodotti citati appartengono ai rispettivi proprietari.</p>
   </div>
 </footer>

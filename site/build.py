@@ -121,7 +121,13 @@ def base_context(repo: str, site_url: str) -> dict[str, str]:
     if not fw.is_file():
         raise BuildError(f"firmware non trovato: {fw}")
     data = fw.read_bytes()
+    mascot = (SITE / "assets/img/polpo.svg").read_text(encoding="utf-8")
+    mascot = re.sub(r"<!--.*?-->\s*", "", mascot, flags=re.S)
+    mascot, n = re.subn(r"<svg[^>]*>", '<svg class="mascotte" viewBox="0 0 100 100" aria-hidden="true" focusable="false">', mascot, count=1)
+    if n != 1 or 'class="occhi"' not in mascot or 'class="tentacoli"' not in mascot:
+        raise BuildError("polpo.svg: struttura inattesa (servono le classi «occhi» e «tentacoli» per le animazioni)")
     return {
+        "mascotte": mascot.strip(),
         "site_url": site_url,
         "site_path": urlsplit(site_url).path or "/",
         "repo": repo,

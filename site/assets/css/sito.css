@@ -70,7 +70,7 @@ pre { background: var(--surface-2); border: 1px solid var(--line); border-radius
 pre code { background: none; border: 0; padding: 0; font-size: 1em; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
 [hidden] { display: none !important; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
 
 .container { width: min(1120px, 100% - 40px); margin-inline: auto; }
 .skip { position: absolute; left: 12px; top: -60px; background: var(--btn-bg); color: var(--btn-fg); padding: 10px 14px; border-radius: 8px; font-weight: 700; z-index: 20; }
@@ -233,3 +233,115 @@ html[data-os="windows"] .dl[data-os="windows"] .os-hint, html[data-os="linux"] .
 .footer-notes { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
 .footer-notes p { margin: 0 0 6px; }
 @media (max-width: 720px) { .footer-grid { grid-template-columns: 1fr; } }
+
+/* ====================================================================
+   Animazioni. Solo trasformazioni e opacità (leggere per il browser).
+   Si fermano da sole se il sistema chiede meno movimento, oppure con il
+   pulsante «Ferma le animazioni» nel piè di pagina (classe .fermo).
+   ==================================================================== */
+:root { --molla: cubic-bezier(.3, 1.5, .5, 1); --dolce: cubic-bezier(.2, .7, .2, 1); --bolla: rgba(28, 98, 179, .3); }
+@media (prefers-color-scheme: dark) { :root { --bolla: rgba(124, 188, 255, .32); } }
+
+@keyframes su { from { opacity: 0; transform: translateY(16px); } }
+@keyframes compari { from { opacity: 0; transform: translateY(18px) scale(.97); } }
+@keyframes galleggia { 0%, 100% { transform: translateY(0) rotate(1.5deg); } 50% { transform: translateY(-12px) rotate(.4deg); } }
+@keyframes sali { from { transform: translateY(100%); } to { transform: translateY(-12%); } }
+@keyframes ondeggia { from { transform: translateX(-9px); } to { transform: translateX(9px); } }
+@keyframes svanisci { 0% { opacity: 0; } 12% { opacity: 1; } 78% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes deriva { to { transform: translate3d(3%, -4%, 0) scale(1.08); } }
+@keyframes battito { 0%, 93%, 100% { transform: scaleY(1); } 96% { transform: scaleY(.1); } }
+@keyframes saluta { 0%, 100% { transform: skewX(0); } 25% { transform: skewX(7deg); } 75% { transform: skewX(-7deg); } }
+@keyframes salto { 0%, 100% { transform: translateY(0) scale(1); } 35% { transform: translateY(-4px) scale(1.06, .96); } 70% { transform: translateY(0) scale(.97, 1.04); } }
+@keyframes nuota { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-14px) rotate(3deg); } }
+@keyframes richiamo { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--btn-bg) 55%, transparent); } 100% { box-shadow: 0 0 0 18px transparent; } }
+@keyframes apri { from { opacity: 0; transform: translateY(-6px); } }
+
+/* passaggio morbido da una pagina all'altra (nei browser che lo prevedono) */
+@media (prefers-reduced-motion: no-preference) { @view-transition { navigation: auto; } }
+
+/* ---------- mascotte ---------- */
+.mascotte { display: block; width: 38px; height: 38px; flex: none; overflow: visible; }
+.mascotte .occhi { transform-box: fill-box; transform-origin: center; animation: battito 5.6s infinite; }
+.mascotte .tentacoli { transform-box: fill-box; transform-origin: 50% 0; }
+.brand:hover .mascotte, .brand:focus-visible .mascotte { animation: salto .6s var(--dolce); }
+.brand:hover .mascotte .tentacoli, .brand:focus-visible .mascotte .tentacoli { animation: saluta .6s ease-in-out 2; }
+
+/* ---------- testata ---------- */
+.site-header { transition: box-shadow .25s ease; }
+.site-header.scorsa { box-shadow: 0 6px 20px rgba(16, 24, 40, .1); }
+#menu a { transition: background-color .15s ease, color .15s ease; }
+@media (max-width: 860px) { .js #menu.open { animation: apri .22s var(--dolce) both; } }
+
+/* ---------- ingresso della parte alta ---------- */
+.hero .hero-grid > :first-child > *, .page-head .container > * { animation: su .6s var(--dolce) both; }
+.hero .hero-grid > :first-child > :nth-child(2), .page-head .container > :nth-child(2) { animation-delay: .07s; }
+.hero .hero-grid > :first-child > :nth-child(3), .page-head .container > :nth-child(3) { animation-delay: .14s; }
+.hero .hero-grid > :first-child > :nth-child(4), .page-head .container > :nth-child(4) { animation-delay: .21s; }
+.hero .hero-grid > :first-child > :nth-child(n+5), .page-head .container > :nth-child(n+5) { animation-delay: .28s; }
+.hero-art { animation: compari .8s var(--dolce) .12s both; }
+
+/* ---------- pagina iniziale: mare, bolle e dispositivo che galleggia ---------- */
+.hero { position: relative; overflow: hidden; overflow: clip; isolation: isolate; }
+.hero::before { content: ""; position: absolute; inset: -20% -10%; z-index: -2; pointer-events: none;
+  background: radial-gradient(40% 50% at 78% 40%, color-mix(in srgb, var(--btn-bg) 15%, transparent), transparent 70%), radial-gradient(34% 44% at 10% 82%, color-mix(in srgb, var(--studio) 13%, transparent), transparent 70%);
+  animation: deriva 15s ease-in-out infinite alternate; }
+.bolle { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.bolle span { position: absolute; top: 0; bottom: 0; left: var(--x); width: var(--d); transform: translateY(100%); animation: sali var(--t) linear var(--r) infinite; }
+.bolle span::before { content: ""; display: block; width: var(--d); height: var(--d); border-radius: 50%; border: 2px solid var(--bolla); background: radial-gradient(circle at 32% 30%, var(--bolla), transparent 62%); opacity: 0; animation: ondeggia 3.4s ease-in-out var(--r) infinite alternate, svanisci var(--t) linear var(--r) infinite; }
+.bolle span:nth-child(1) { --x: 4%; --d: 18px; --t: 15s; --r: -3s; }
+.bolle span:nth-child(2) { --x: 13%; --d: 9px; --t: 11s; --r: -8s; }
+.bolle span:nth-child(3) { --x: 24%; --d: 26px; --t: 19s; --r: -12s; }
+.bolle span:nth-child(4) { --x: 37%; --d: 11px; --t: 13s; --r: -1s; }
+.bolle span:nth-child(5) { --x: 48%; --d: 16px; --t: 17s; --r: -9s; }
+.bolle span:nth-child(6) { --x: 58%; --d: 8px; --t: 10s; --r: -5s; }
+.bolle span:nth-child(7) { --x: 69%; --d: 22px; --t: 21s; --r: -15s; }
+.bolle span:nth-child(8) { --x: 80%; --d: 10px; --t: 12s; --r: -6s; }
+.bolle span:nth-child(9) { --x: 90%; --d: 15px; --t: 16s; --r: -11s; }
+.bolle span:nth-child(10) { --x: 96%; --d: 7px; --t: 9s; --r: -2s; }
+/* su schermi stretti il testo occupa tutta la larghezza: meno bolle e più tenui, così non disturbano la lettura */
+@media (max-width: 900px) { .bolle { opacity: .5; } .bolle span:nth-child(even) { display: none; } }
+.hero-art a { display: block; transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .25s ease-out; }
+.hero-art img.device { animation: galleggia 7s ease-in-out infinite; }
+
+/* ---------- comparsa mentre si scorre (classi messe da sito.js) ---------- */
+.reveal { opacity: 0; transform: translateY(20px); }
+.reveal.in { opacity: 1; transform: none; transition: opacity .6s var(--dolce), transform .6s var(--dolce); transition-delay: calc(var(--i, 0) * 70ms); }
+.steps > li.reveal::before { transform: scale(.3); }
+.steps > li.reveal.in::before { transform: none; transition: transform .5s var(--molla) calc(var(--i, 0) * 70ms + .2s); }
+
+/* ---------- pulsanti, schede, immagini ---------- */
+.btn { transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, border-color .15s ease; }
+.btn:active { transform: translateY(0) scale(.98); }
+.btn-primary, .btn-studio { position: relative; overflow: hidden; }
+.btn-primary::after, .btn-studio::after { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, .3) 50%, transparent 65%); transform: translateX(-120%); pointer-events: none; }
+.icon { transition: transform .35s var(--molla); }
+.card { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.gallery .shot { transition: transform .25s ease, box-shadow .25s ease; }
+@media (hover: hover) {
+  .btn-primary:hover, .btn-studio:hover { box-shadow: 0 2px 4px rgba(16, 24, 40, .1), 0 12px 28px rgba(16, 24, 40, .18); }
+  .btn-primary:hover::after, .btn-studio:hover::after { transform: translateX(120%); transition: transform .7s ease; }
+  .btn-ghost:hover { border-color: var(--accent); }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+  .card:hover .icon { transform: rotate(-7deg) scale(1.12); }
+  .gallery figure:hover .shot { transform: translateY(-4px) scale(1.012); }
+}
+.install-box esp-web-install-button button { animation: richiamo 2s ease-out 1.2s 3; }
+details[open] > :not(summary) { animation: apri .25s var(--dolce) both; }
+
+/* ---------- pagina non trovata ---------- */
+.perso-polpo { width: 132px; margin: 0 0 18px; }
+.perso-polpo .mascotte { width: 100%; height: auto; animation: nuota 5s ease-in-out infinite; }
+.perso-polpo .mascotte .tentacoli { animation: saluta 2.6s ease-in-out infinite; }
+
+/* ---------- pulsante per fermarle ---------- */
+.anim-btn { font: inherit; color: inherit; background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.anim-btn:hover { color: var(--ink); }
+
+/* ---------- ferme: su richiesta del sistema o di chi visita ---------- */
+html.fermo { scroll-behavior: auto; }
+html.fermo *, html.fermo *::before, html.fermo *::after { animation: none !important; transition: none !important; }
+html.fermo::view-transition-group(*), html.fermo::view-transition-old(*), html.fermo::view-transition-new(*) { animation: none !important; }
+html.fermo .bolle, html.fermo .hero::before { display: none; }
+html.fermo .reveal { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .bolle, .hero::before { display: none; } .reveal { opacity: 1 !important; transform: none !important; } }
+@media print { .bolle, .hero::before, .anim-btn { display: none; } .reveal { opacity: 1 !important; transform: none !important; } }
