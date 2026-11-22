@@ -1,0 +1,23 @@
+# Indovina il numero: il Polpo ne pensa uno da 1 a 100.
+segreto = casuale(1, 100)
+tentativi = 0
+scrivi("Ho pensato un numero")
+scrivi("da 1 a 100. Indovina!")
+ripeti sempre
+  n = numero(chiedi("Che numero è?"))
+  se n == niente allora
+    scrivi("Scrivi un numero.")
+    continua
+  fine
+  tentativi = tentativi + 1
+  se n < segreto allora
+    scrivi(n, "è troppo piccolo")
+  altrimenti se n > segreto allora
+    scrivi(n, "è troppo grande")
+  altrimenti
+    scrivi("Bravo! Era proprio", segreto)
+    scrivi("Tentativi:", tentativi)
+    suona(1320, 150)
+    esci
+  fine
+fine

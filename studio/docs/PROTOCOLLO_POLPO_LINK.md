@@ -58,10 +58,33 @@ DTR attivo e RTS basso **prima** dell'apertura (alcune combinazioni riavviano l'
 | `ble.scan` | `ms` (≤10000) | `devices[{name,addr,rssi,mfr_id,connectable}]` (≤40) |
 | `gpio.i2c_scan` | — | `devices[{addr,name}]` |
 | `gpio.pins` | — | `g1`, `g2` |
+| `script.check` | `file` (un `.polpo` dentro `/polpo/script`) | `valid`, `line`, `message`: controlla il programma senza eseguirlo |
+| `script.run` | `file`, `paused` (facoltativo: si ferma sulla prima riga) | **conferma sul Polpo**; `busy` se un altro programma sta girando |
+| `script.stop` / `pause` / `resume` | — | fermare, mettere in pausa (alla riga successiva), riprendere |
+| `script.step` | `mode`: `into`, `over`, `out` | un passo: entra nelle funzioni, le scavalca, esce da quella in corso |
+| `script.breakpoints` | `lines` (≤ 32 numeri di riga) | punti di sosta |
+| `script.state` | `vars` (facoltativo) | `state` (`none`, `running`, `waiting`, `paused`, `done`, `failed`), `line`, `file`, `error`; con `vars` e in pausa anche `vars[{name,value,local}]` (≤ 48) e `stack[{function,line}]` |
 
 Percorsi: solo dentro `/polpo`, senza `..` né `//`, caratteri `A-Z a-z 0-9 _ - . /`, 6–96 caratteri.
 
 Non esiste un comando per **eseguire** script BadUSB dal PC: gli script si copiano e partono solo dal Polpo.
+
+### Programmi PolpoScript
+
+I comandi `script.*` riguardano le mini-app in PolpoScript (`polpo/docs/POLPOSCRIPT.md`), che sono un'altra cosa
+rispetto agli script BadUSB: un programma PolpoScript può solo disegnare, suonare, leggere i tasti e i file dei
+propri dati; non ha funzioni per trasmettere né per scrivere come una tastiera. Il PC copia il file con `fs.write`
+in `/polpo/script`, lo fa controllare con `script.check` e chiede di avviarlo con `script.run`, che **mostra una
+conferma sul Polpo**. Eventi inviati mentre il programma gira:
+
+```text
+{"ev":"script.print","data":{"text":"giro 1 2"}}        una riga scritta con scrivi(); al massimo 40 al secondo,
+                                                         le altre sono contate in "dropped" nella riga successiva
+{"ev":"script.paused","data":{"line":7}}                 fermo su una riga (passo passo o punto di sosta)
+{"ev":"script.end","data":{"line":5,"error":""}}         finito; con un errore, "error" lo spiega
+```
+
+Chiudere il collegamento (`bye`, o «scollega» sul Polpo) chiude anche il programma in corso.
 
 ## Codici di errore
 

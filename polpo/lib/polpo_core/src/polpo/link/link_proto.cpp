@@ -49,6 +49,11 @@ const std::vector<CommandSpec>& commands() {
         {"nfc.read", true, false},       {"nfc.write_ndef", true, true},
         {"wifi.scan", true, false},      {"ble.scan", true, false},
         {"gpio.i2c_scan", true, false},  {"gpio.pins", true, false},
+        // PolpoScript: l'avvio di un programma dal PC chiede conferma sul Polpo
+        {"script.check", true, false},   {"script.run", true, true},
+        {"script.stop", true, false},    {"script.pause", true, false},
+        {"script.resume", true, false},  {"script.step", true, false},
+        {"script.breakpoints", true, false}, {"script.state", true, false},
     };
     return list;
 }

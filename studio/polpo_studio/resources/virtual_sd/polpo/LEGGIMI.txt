@@ -8,6 +8,8 @@ Questa cartella viene creata dal firmware Polpo al primo avvio.
   rf433/    segnali radio a 433,92 MHz (.sub, codici fissi o RAW)
   nfc/      letture di tag NFC (.nfc)
   logs/     risultati delle scansioni Wi-Fi e Bluetooth (.csv)
+  script/   mini-app scritte in PolpoScript (.polpo); in script/dati/ i
+            file che le mini-app salvano (per esempio i record)
 
 Puoi copiare qui file .ir scaricati da raccolte pubbliche di telecomandi:
 il Polpo li legge se usano i protocolli supportati (NEC, Samsung32, RC5,

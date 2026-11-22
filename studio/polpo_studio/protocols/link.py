@@ -59,6 +59,15 @@ _COMMAND_LIST = [
     CommandSpec("ble.scan", True, False),
     CommandSpec("gpio.i2c_scan", True, False),
     CommandSpec("gpio.pins", True, False),
+    # PolpoScript: l'avvio di un programma dal PC chiede conferma sul Polpo
+    CommandSpec("script.check", True, False),
+    CommandSpec("script.run", True, True),
+    CommandSpec("script.stop", True, False),
+    CommandSpec("script.pause", True, False),
+    CommandSpec("script.resume", True, False),
+    CommandSpec("script.step", True, False),
+    CommandSpec("script.breakpoints", True, False),
+    CommandSpec("script.state", True, False),
 ]
 COMMANDS: dict[str, CommandSpec] = {c.name: c for c in _COMMAND_LIST}
 

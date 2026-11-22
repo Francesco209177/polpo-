@@ -5,10 +5,12 @@
 #include <SD.h>
 #include <WiFi.h>
 
+#include <cstring>
 #include <functional>
 #include <string>
 #include <vector>
 
+#include "apps/script_runner.h"
 #include "board_pins.h"
 #include "core/gfx.h"
 #include "core/screen.h"
@@ -547,6 +549,139 @@ void finish_ble() {
     reply_ok(id, d);
 }
 
+// ---------------- script (PolpoScript) ----------------
+// Il PC può copiare un programma sulla microSD (fs.write), farlo controllare e chiedere di eseguirlo: l'avvio
+// richiede la conferma sul Polpo. Un programma può solo disegnare, suonare, leggere i tasti e i file dei suoi dati.
+
+bool check_script_path(uint32_t id, JsonObjectConst a, std::string& path) {
+    path = a["file"] | "";
+    const std::string dir = std::string(storage::kScriptDir) + "/";
+    const bool ok = polpo::link::valid_sd_path(path) && path.compare(0, dir.size(), dir) == 0 && path.size() > dir.size() + 6 &&
+                    path.compare(path.size() - 6, 6, ".polpo") == 0;
+    if (!ok) {
+        reply_err(id, "bad_args", "serve un file .polpo dentro /polpo/script");
+        return false;
+    }
+    if (!storage::ok()) {
+        reply_err(id, "no_hardware", "microSD assente");
+        return false;
+    }
+    if (!storage::exists(path)) {
+        reply_err(id, "io_error", "file non trovato");
+        return false;
+    }
+    return true;
+}
+
+// Ciò che fa il programma arriva al PC come eventi; le righe scritte sono limitate a 40 al secondo.
+void on_script_event(const char* event, const std::string& text, uint16_t line) {
+    static uint32_t window_start = 0;
+    static uint16_t in_window = 0, dropped = 0;
+    if (!session) return;
+    JsonDocument d;
+    if (std::strcmp(event, "print") == 0) {
+        const uint32_t now = millis();
+        if (now - window_start >= 1000) {
+            window_start = now;
+            in_window = 0;
+        }
+        if (++in_window > 40) {
+            if (dropped < 65535) ++dropped;
+            return;
+        }
+        d["text"] = text.size() > 512 ? text.substr(0, 512) : text;
+        if (dropped) d["dropped"] = dropped;
+        dropped = 0;
+        emit("script.print", d);
+    } else if (std::strcmp(event, "paused") == 0) {
+        d["line"] = line;
+        emit("script.paused", d);
+    } else {
+        d["line"] = line;
+        d["error"] = text;
+        emit("script.end", d);
+        activity.clear();
+    }
+}
+
+void cmd_script(uint32_t id, const std::string& c, JsonObjectConst a) {
+    if (c == "script.check") {
+        std::string path;
+        if (!check_script_path(id, a, path)) return;
+        polpo::script::Error error;
+        JsonDocument d;
+        d["valid"] = script_runner::check(path, error);
+        d["line"] = error.line;
+        d["message"] = error.message;
+        return reply_ok(id, d);
+    }
+    if (c == "script.run") {
+        std::string path;
+        if (!check_script_path(id, a, path)) return;
+        if (script_runner::active()) {
+            // un programma già finito, rimasto sullo schermo, lascia il posto; uno che gira no
+            const std::string state = script_runner::snapshot(false).state;
+            if (state != "done" && state != "failed") return reply_err(id, "busy", "c'è già un programma in esecuzione sul Polpo");
+            script_runner::stop();
+        }
+        const bool paused = a["paused"] | false;
+        ask("Eseguire lo script?",
+            "Il PC chiede di avviare " + storage::basename(path) + ". Uno script disegna, suona e legge i tasti: non trasmette niente.",
+            id, [id, path, paused](bool yes) {
+                if (!yes) return reply_err(id, "denied", "rifiutato sul Polpo");
+                script_runner::open(path, paused);
+                activity = "Script: " + storage::basename(path);
+                reply_ok(id);
+            });
+        return;
+    }
+    if (c == "script.state") {
+        const script_runner::Snapshot s = script_runner::snapshot(a["vars"] | false);
+        JsonDocument d;
+        d["state"] = s.state;
+        d["line"] = s.line;
+        d["file"] = s.file;
+        d["error"] = s.error;
+        JsonArray vars = d["vars"].to<JsonArray>();
+        for (size_t i = 0; i < s.variables.size() && i < 48; ++i) {
+            JsonObject o = vars.add<JsonObject>();
+            o["name"] = s.variables[i].name;
+            o["value"] = s.variables[i].value;
+            o["local"] = s.variables[i].local;
+        }
+        JsonArray stack = d["stack"].to<JsonArray>();
+        for (const auto& entry : s.stack) {
+            JsonObject o = stack.add<JsonObject>();
+            o["function"] = entry.function;
+            o["line"] = entry.line;
+        }
+        return reply_ok(id, d);
+    }
+    if (!script_runner::active()) return reply_err(id, "bad_args", "nessun programma aperto sul Polpo");
+    if (c == "script.stop") {
+        script_runner::stop();
+    } else if (c == "script.pause") {
+        script_runner::pause();
+    } else if (c == "script.resume") {
+        script_runner::resume();
+    } else if (c == "script.step") {
+        const std::string mode = a["mode"] | "into";
+        if (mode != "into" && mode != "over" && mode != "out") return reply_err(id, "bad_args", "mode deve essere into, over o out");
+        script_runner::step(mode == "over" ? polpo::script::StepMode::Over
+                            : mode == "out" ? polpo::script::StepMode::Out
+                                            : polpo::script::StepMode::Into);
+    } else if (c == "script.breakpoints") {
+        JsonArrayConst lines = a["lines"];
+        if (lines.isNull() || lines.size() > 32) return reply_err(id, "bad_args", "lines dev'essere un elenco di al massimo 32 righe");
+        std::vector<uint16_t> list;
+        for (JsonVariantConst v : lines) list.push_back(v.as<uint16_t>());
+        script_runner::set_breakpoints(list);
+    } else {
+        return reply_err(id, "unknown_cmd", "comando non gestito");
+    }
+    reply_ok(id);
+}
+
 // ---------------- smistamento ----------------
 
 void handle(polpo::link::Request& r) {
@@ -648,6 +783,7 @@ void handle(polpo::link::Request& r) {
         return reply_ok(id);
     }
     if (c == "rf.tx") return cmd_rf_tx(id, a);
+    if (c.compare(0, 7, "script.") == 0) return cmd_script(id, c, a);
     if (c == "nfc.read") return cmd_nfc_read(id);
     if (c == "nfc.write_ndef") return cmd_nfc_write_ndef(id, a);
     if (c == "wifi.scan") {
@@ -743,6 +879,7 @@ void poll_events(uint32_t now) {
 }  // namespace
 
 void begin() {
+    script_runner::set_listener(script_runner::kLinkListener, on_script_event);
     Serial.setRxBufferSize(4096);
     Serial.setTxTimeoutMs(20);  // senza PC in ascolto non si blocca l'interfaccia
 }

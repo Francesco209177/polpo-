@@ -1,0 +1,66 @@
+script {"ok":true}
+script {"ok":true}
+script {"ok":true}
+< {"id":1,"ok":false,"error":{"code":"not_connected","msg":"collegamento non accettato sul Polpo: invia hello"}}
+< {"id":2,"ok":true,"data":{"proto":1,"firmware":"0.1.0","board":"Cardputer Adv","battery":82,"charging":false,"heap_free":215040,"uptime_s":1,"sd":{"ok":true,"total":8.589935e9,"used":393216},"modules":{"ir_tx":"available","wifi":"available","ble":"available","usb_hid":"available","rfid2":"missing","rf433":"unverifiable","ir_unit":"unverifiable"},"rf_budget":{"used_ms":0,"limit_ms":288000},"level":1,"layout":"IT"}}
+< {"id":3,"ok":true,"data":{"valid":true,"line":0,"message":""}}
+< {"id":4,"ok":true,"data":{"valid":false,"line":2,"message":"dopo la condizione di «se» ci vuole «allora» (ho trovato la fine della riga)"}}
+< {"id":5,"ok":false,"error":{"code":"io_error","msg":"file non trovato"}}
+< {"id":6,"ok":false,"error":{"code":"bad_args","msg":"serve un file .polpo dentro /polpo/script"}}
+< {"id":7,"ok":false,"error":{"code":"bad_args","msg":"serve un file .polpo dentro /polpo/script"}}
+< {"id":8,"ok":false,"error":{"code":"bad_args","msg":"serve un file .polpo dentro /polpo/script"}}
+< {"id":9,"ok":false,"error":{"code":"bad_args","msg":"nessun programma aperto sul Polpo"}}
+< {"id":10,"ok":true,"data":{"state":"none","line":0,"file":"","error":"","vars":[],"stack":[]}}
+schermo conferma-avvio e556e131
+< {"id":12,"ok":false,"error":{"code":"busy","msg":"un'altra richiesta è in corso"}}
+< {"id":11,"ok":false,"error":{"code":"denied","msg":"rifiutato sul Polpo"}}
+< {"id":13,"ok":true,"data":{"state":"none","line":0,"file":"","error":"","vars":[],"stack":[]}}
+schermo programma-finito 610708e6
+< {"id":14,"ok":true,"data":{}}
+< {"ev":"script.print","data":{"text":"giro 1 2"}}
+< {"ev":"script.print","data":{"text":"giro 2 6"}}
+< {"ev":"script.print","data":{"text":"giro 3 12"}}
+< {"ev":"script.end","data":{"line":5,"error":""}}
+< {"id":15,"ok":true,"data":{"state":"done","line":5,"file":"/polpo/script/conta.polpo","error":"","vars":[],"stack":[]}}
+schermo conferma-avvio e556e131
+schermo programma-finito 610708e6
+schermo di-nuovo-collegato 53c62931
+< {"id":16,"ok":true,"data":{}}
+< {"ev":"script.print","data":{"text":"giro 1 2"}}
+< {"ev":"script.print","data":{"text":"giro 2 6"}}
+< {"ev":"script.print","data":{"text":"giro 3 12"}}
+< {"ev":"script.end","data":{"line":5,"error":""}}
+< {"id":17,"ok":true,"data":{}}
+< {"ev":"script.paused","data":{"line":1}}
+< {"id":18,"ok":true,"data":{"state":"paused","line":1,"file":"/polpo/script/conta.polpo","error":"","vars":[],"stack":[{"function":"","line":1}]}}
+< {"id":19,"ok":true,"data":{}}
+< {"id":20,"ok":true,"data":{}}
+< {"ev":"script.paused","data":{"line":2}}
+< {"id":21,"ok":true,"data":{"state":"paused","line":2,"file":"/polpo/script/conta.polpo","error":"","vars":[{"name":"n","value":"1","local":true},{"name":"totale","value":"0","local":false},{"name":"i","value":"1","local":false}],"stack":[{"function":"doppio","line":2},{"function":"","line":6}]}}
+< {"id":22,"ok":true,"data":{}}
+< {"ev":"script.paused","data":{"line":7}}
+< {"id":23,"ok":true,"data":{"state":"paused","line":7,"file":"/polpo/script/conta.polpo","error":"","vars":[{"name":"totale","value":"2","local":false},{"name":"i","value":"1","local":false}],"stack":[{"function":"","line":7}]}}
+< {"id":24,"ok":false,"error":{"code":"bad_args","msg":"mode deve essere into, over o out"}}
+< {"id":25,"ok":true,"data":{}}
+< {"id":26,"ok":true,"data":{}}
+< {"ev":"script.print","data":{"text":"giro 1 2"}}
+< {"ev":"script.print","data":{"text":"giro 2 6"}}
+< {"ev":"script.print","data":{"text":"giro 3 12"}}
+< {"ev":"script.end","data":{"line":5,"error":""}}
+< {"id":27,"ok":true,"data":{"state":"done","line":5,"file":"/polpo/script/conta.polpo","error":"","vars":[],"stack":[]}}
+< {"id":28,"ok":true,"data":{}}
+< {"id":29,"ok":true,"data":{"state":"waiting","line":2,"file":"/polpo/script/attesa.polpo","error":"","vars":[],"stack":[]}}
+< {"id":36,"ok":false,"error":{"code":"busy","msg":"c'è già un programma in esecuzione sul Polpo"}}
+< {"id":30,"ok":true,"data":{}}
+< {"ev":"script.paused","data":{"line":2}}
+< {"id":31,"ok":true,"data":{"state":"paused","line":2,"file":"/polpo/script/attesa.polpo","error":"","vars":[],"stack":[]}}
+< {"ev":"script.end","data":{"line":2,"error":""}}
+< {"id":32,"ok":true,"data":{}}
+< {"id":33,"ok":true,"data":{"state":"none","line":0,"file":"","error":"","vars":[],"stack":[]}}
+schermo di-nuovo-collegato 390a4d14
+< {"id":34,"ok":true,"data":{}}
+< {"id":35,"ok":true,"data":{}}
+< {"ev":"script.end","data":{"line":2,"error":""}}
+< {"ev":"link.closed","data":{"reason":"closed_on_device"}}
+schermo scrivania dce4f06a
+script {"ok":true,"stato":"none","riga":0,"file":"","errore":"","variabili":[],"pila":[]}

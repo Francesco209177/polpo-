@@ -1,0 +1,66 @@
+# Serpente: mangia i quadratini gialli senza morderti.
+# Frecce per girare. Il tasto G0 ferma il programma.
+celle_x = 24
+celle_y = 12
+serpente = [[12, 6], [11, 6], [10, 6]]
+dx = 1
+dy = 0
+punti = 0
+record = numero(carica("serpente.txt"))
+se record == niente allora record = 0
+
+funzione nuovo_cibo()
+  ripeti sempre
+    locale c = [casuale(1, celle_x) - 1, casuale(1, celle_y) - 1]
+    se trova(serpente, c) == 0 allora ritorna c
+  fine
+fine
+
+funzione disegna()
+  pulisci()
+  rettangolo(cibo[1] * 10 + 2, cibo[2] * 10 + 2, 6, 6, GIALLO)
+  per ogni pezzo in serpente
+    rettangolo(pezzo[1] * 10 + 1, pezzo[2] * 10 + 1, 8, 8, VERDE)
+  fine
+  scritta(2, 122, "Punti " + punti + "   Record " + record, GRIGIO)
+  mostra()
+fine
+
+cibo = nuovo_cibo()
+vivo = vero
+ripeti finché vivo
+  t = tasto()
+  se t == "su" e dy == 0 allora
+    dx = 0
+    dy = -1
+  altrimenti se t == "giu" e dy == 0 allora
+    dx = 0
+    dy = 1
+  altrimenti se t == "sinistra" e dx == 0 allora
+    dx = -1
+    dy = 0
+  altrimenti se t == "destra" e dx == 0 allora
+    dx = 1
+    dy = 0
+  fine
+  testa = [(serpente[1][1] + dx + celle_x) % celle_x, (serpente[1][2] + dy + celle_y) % celle_y]
+  se trova(serpente, testa) > 0 allora
+    vivo = falso
+  altrimenti
+    inserisci(serpente, 1, testa)
+    se testa == cibo allora
+      punti = punti + 1
+      suona(990, 30)
+      cibo = nuovo_cibo()
+    altrimenti
+      togli(serpente)
+    fine
+    disegna()
+    aspetta(120)
+  fine
+fine
+
+suona(200, 300)
+se punti > record allora salva("serpente.txt", punti)
+scritta(60, 55, "Fine! Punti: " + punti, BIANCO)
+mostra()

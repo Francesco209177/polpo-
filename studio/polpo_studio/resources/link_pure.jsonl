@@ -12,3 +12,7 @@
 {"name":"hello va al dispositivo","send":"{\"id\":10,\"cmd\":\"hello\",\"args\":{\"client\":\"Polpo Studio\"}}","session":false,"busy":false,"expect":null}
 {"name":"info va al dispositivo","send":"{\"id\":11,\"cmd\":\"info\"}","session":true,"busy":false,"expect":null}
 {"name":"rf.tx va al dispositivo","send":"{\"id\":12,\"cmd\":\"rf.tx\",\"args\":{\"file\":\"/polpo/rf433/presa.sub\"}}","session":true,"busy":false,"expect":null}
+{"name":"script.run senza sessione","send":"{\"id\":13,\"cmd\":\"script.run\",\"args\":{\"file\":\"/polpo/script/dado.polpo\"}}","session":false,"busy":false,"expect":{"id":13,"ok":false,"error":{"code":"not_connected","msg":"collegamento non accettato sul Polpo: invia hello"}}}
+{"name":"script.run va al dispositivo","send":"{\"id\":14,\"cmd\":\"script.run\",\"args\":{\"file\":\"/polpo/script/dado.polpo\"}}","session":true,"busy":false,"expect":null}
+{"name":"script.state mentre aspetta una conferma","send":"{\"id\":15,\"cmd\":\"script.state\"}","session":true,"busy":true,"expect":{"id":15,"ok":false,"error":{"code":"busy","msg":"un'altra richiesta è in corso"}}}
+{"name":"non esiste un comando per trasmettere da uno script","send":"{\"id\":16,\"cmd\":\"script.send\"}","session":true,"busy":false,"expect":{"id":16,"ok":false,"error":{"code":"unknown_cmd","msg":"comando sconosciuto"}}}

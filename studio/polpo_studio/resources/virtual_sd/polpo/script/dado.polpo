@@ -1,0 +1,35 @@
+# Dado: premi OK per lanciare. Il tasto G0 ferma il programma.
+funzione pallino(colonna, riga)
+  cerchio(90 + colonna * 30, 37 + riga * 30, 6, NERO)
+fine
+
+funzione disegna(n)
+  pulisci(colore(20, 30, 45))
+  rettangolo(70, 17, 100, 100, BIANCO)
+  se n % 2 == 1 allora pallino(1, 1)
+  se n >= 2 allora
+    pallino(0, 0)
+    pallino(2, 2)
+  fine
+  se n >= 4 allora
+    pallino(2, 0)
+    pallino(0, 2)
+  fine
+  se n == 6 allora
+    pallino(0, 1)
+    pallino(2, 1)
+  fine
+  scritta(6, 120, "OK lancia", GRIGIO)
+  mostra()
+fine
+
+disegna(casuale(6))
+ripeti sempre
+  se aspetta_tasto() == "ok" allora
+    ripeti 8 volte
+      disegna(casuale(6))
+      suona(500 + casuale(400), 15)
+      aspetta(60)
+    fine
+  fine
+fine

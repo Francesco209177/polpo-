@@ -1,0 +1,96 @@
+# Polpo Link e PolpoScript: il PC controlla un programma e chiede di eseguirlo; l'avvio lo decide chi ha il Polpo in mano.
+attendi 500
+script {"cmd":"scrivi","file":"/polpo/script/conta.polpo","testo":"funzione doppio(n)\n  ritorna n * 2\nfine\ntotale = 0\nper i da 1 a 3\n  totale = totale + doppio(i)\n  scrivi(\"giro\", i, totale)\nfine\n"}
+script {"cmd":"scrivi","file":"/polpo/script/sbagliato.polpo","testo":"x = 1\nse x > 0\n  scrivi(x)\nfine\n"}
+script {"cmd":"scrivi","file":"/polpo/script/attesa.polpo","testo":"ripeti sempre\n  aspetta(50)\nfine\n"}
+# senza collegamento accettato non si può fare niente
+seriale {"id":1,"cmd":"script.run","args":{"file":"/polpo/script/conta.polpo"}}
+seriale {"id":2,"cmd":"hello","args":{"client":"prova","proto":1}}
+attendi 200
+tasto destra
+tasto ok
+attendi 300
+# controllare un programma non chiede conferme e non esegue niente
+seriale {"id":3,"cmd":"script.check","args":{"file":"/polpo/script/conta.polpo"}}
+seriale {"id":4,"cmd":"script.check","args":{"file":"/polpo/script/sbagliato.polpo"}}
+seriale {"id":5,"cmd":"script.check","args":{"file":"/polpo/script/manca.polpo"}}
+# solo file .polpo dentro /polpo/script: niente script BadUSB, niente percorsi strani
+seriale {"id":6,"cmd":"script.run","args":{"file":"/polpo/badusb/ciao_linux.txt"}}
+seriale {"id":7,"cmd":"script.run","args":{"file":"/polpo/script/../badusb/ciao_linux.polpo"}}
+seriale {"id":8,"cmd":"script.check","args":{"file":"/polpo/LEGGIMI.txt"}}
+seriale {"id":9,"cmd":"script.stop"}
+seriale {"id":10,"cmd":"script.state"}
+# l'avvio chiede conferma sullo schermo: OK sul «No» predefinito lo rifiuta
+seriale {"id":11,"cmd":"script.run","args":{"file":"/polpo/script/conta.polpo"}}
+attendi 200
+schermo conferma-avvio
+seriale {"id":12,"cmd":"script.state"}
+tasto ok
+attendi 300
+seriale {"id":13,"cmd":"script.state"}
+# accettato: il programma gira e ciò che scrive arriva al PC
+seriale {"id":14,"cmd":"script.run","args":{"file":"/polpo/script/conta.polpo"}}
+attendi 200
+tasto destra
+tasto ok
+attendi 400
+schermo programma-finito
+seriale {"id":15,"cmd":"script.state"}
+# a programma finito lo schermo resta finché non si preme un tasto; un nuovo avvio dal PC prende il suo posto
+seriale {"id":16,"cmd":"script.run","args":{"file":"/polpo/script/conta.polpo"}}
+attendi 200
+schermo conferma-avvio
+tasto destra
+tasto ok
+attendi 400
+schermo programma-finito
+tasto a
+attendi 200
+schermo di-nuovo-collegato
+# passo passo dal PC
+seriale {"id":17,"cmd":"script.run","args":{"file":"/polpo/script/conta.polpo","paused":true}}
+attendi 200
+tasto destra
+tasto ok
+attendi 300
+seriale {"id":18,"cmd":"script.state","args":{"vars":true}}
+seriale {"id":19,"cmd":"script.breakpoints","args":{"lines":[2]}}
+seriale {"id":20,"cmd":"script.resume"}
+attendi 100
+seriale {"id":21,"cmd":"script.state","args":{"vars":true}}
+seriale {"id":22,"cmd":"script.step","args":{"mode":"out"}}
+attendi 100
+seriale {"id":23,"cmd":"script.state","args":{"vars":true}}
+seriale {"id":24,"cmd":"script.step","args":{"mode":"sideways"}}
+seriale {"id":25,"cmd":"script.breakpoints","args":{"lines":[]}}
+seriale {"id":26,"cmd":"script.resume"}
+attendi 300
+seriale {"id":27,"cmd":"script.state"}
+tasto a
+attendi 200
+# un programma che non finisce: il PC lo ferma
+seriale {"id":28,"cmd":"script.run","args":{"file":"/polpo/script/attesa.polpo"}}
+attendi 200
+tasto destra
+tasto ok
+attendi 500
+seriale {"id":29,"cmd":"script.state"}
+# mentre un programma gira non se ne può avviare un altro
+seriale {"id":36,"cmd":"script.run","args":{"file":"/polpo/script/conta.polpo"}}
+seriale {"id":30,"cmd":"script.pause"}
+attendi 100
+seriale {"id":31,"cmd":"script.state"}
+seriale {"id":32,"cmd":"script.stop"}
+attendi 200
+seriale {"id":33,"cmd":"script.state"}
+schermo di-nuovo-collegato
+# chiudere il collegamento chiude anche il programma
+seriale {"id":34,"cmd":"script.run","args":{"file":"/polpo/script/attesa.polpo"}}
+attendi 200
+tasto destra
+tasto ok
+attendi 300
+seriale {"id":35,"cmd":"bye"}
+attendi 300
+schermo scrivania
+script {"cmd":"stato"}
