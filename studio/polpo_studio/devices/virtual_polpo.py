@@ -16,6 +16,7 @@ from typing import Any
 
 from ..protocols import link, ndef
 from ..protocols.link import make_error, make_event, make_ok
+from .firmware_sim import FirmwareSim, FirmwareSimUnavailable
 from .scheduler import Handle, Scheduler
 
 log = logging.getLogger(__name__)
@@ -68,6 +69,7 @@ class VirtualPolpo:
         sd_present: bool = True,
         rfid2: bool = True,
         tag_present: bool = True,
+        firmware_wasm: Path | None = None,
     ) -> None:
         self.time_scale = time_scale
         self.latency = latency
@@ -98,6 +100,11 @@ class VirtualPolpo:
         self._budget: list[tuple[float, int]] = []
         self.files: dict[str, bytes] = {}
         self.dirs: set[str] = {"/polpo"}
+        # Programmi PolpoScript: li esegue il firmware vero (firmware_sim), creato solo quando serve.
+        self.firmware_wasm = firmware_wasm
+        self.sim: FirmwareSim | None = None
+        self._sim_error: str | None = None
+        self._script_tick: Handle | None = None
         self.tag_pages = self._blank_tag()
         self._write_tag(ndef.wrap_tlv(ndef.uri_message("https://example.org/polpo-simulato")))
         if sd_present:
@@ -174,11 +181,13 @@ class VirtualPolpo:
     def _end_session(self) -> None:
         if not self.session:
             return
+        self._script_close()  # chiudere il collegamento chiude anche il programma in corso (l'evento parte prima)
         self.session = False
         self._stop_streams()
         self._emit("link.closed", {"reason": "closed_on_device"})
 
     def _end_session_silent(self) -> None:
+        self._script_close()
         self.session = False
         self._stop_streams()
 
@@ -207,7 +216,7 @@ class VirtualPolpo:
     # ---------------- microSD simulata ----------------
 
     def _seed(self, root: Path) -> None:
-        self.dirs.update(f"/polpo/{d}" for d in ("ir", "rf433", "nfc", "badusb", "logs"))  # come sd_template
+        self.dirs.update(f"/polpo/{d}" for d in ("ir", "rf433", "nfc", "badusb", "logs", "script", "script/dati"))  # come il firmware
         if not root.is_dir():
             return
         for p in sorted(root.rglob("*")):
@@ -490,12 +499,167 @@ class VirtualPolpo:
             return self._ok(rid, {"devices": devs})
         if c == "gpio.pins":
             return self._ok(rid, {"g1": 1, "g2": 1})
+        if c.startswith("script."):
+            return self._script(rid, c, a)
         self._err(rid, "unknown_cmd", "comando non gestito")
 
     def _finish(self, kind: str, rid: int, data: dict[str, Any]) -> None:
         if self._pending == kind:
             self._pending = None
             self._ok(rid, data)
+
+    # ---------------- script (PolpoScript) ----------------
+    # A eseguirli è il firmware vero (firmware_sim): qui si fa da tramite, con le stesse risposte del dispositivo.
+
+    def _script_sim(self, rid: int) -> FirmwareSim | None:
+        if self.sim is None and self._sim_error is None:
+            try:
+                sim = FirmwareSim(self.firmware_wasm)
+                sim.start()
+                sim.advance(300)
+                sim.events()
+                self.sim = sim
+            except FirmwareSimUnavailable as e:
+                self._sim_error = str(e)
+            except Exception as e:  # la parte nativa di wasmtime può non caricarsi
+                log.exception("firmware simulato non avviato")
+                self._sim_error = f"il firmware simulato non parte ({e})"
+        if self.sim is None:
+            self._err(rid, "unsupported", f"il Polpo virtuale non può eseguire gli script: {self._sim_error}")
+        return self.sim
+
+    def _script_path(self, rid: int, a: dict[str, Any]) -> str | None:
+        path = a.get("file") if isinstance(a.get("file"), str) else ""
+        folder = "/polpo/script/"
+        if not (link.valid_sd_path(path) and path.startswith(folder) and path.endswith(".polpo") and len(path) > len(folder) + 6):
+            self._err(rid, "bad_args", "serve un file .polpo dentro /polpo/script")
+            return None
+        if not self.sd_present:
+            self._err(rid, "no_hardware", "microSD assente")
+            return None
+        if path not in self.files:
+            self._err(rid, "io_error", "file non trovato")
+            return None
+        return path
+
+    def _script_copy(self, sim: FirmwareSim, path: str) -> bool:
+        """Copia il programma dalla microSD del Polpo virtuale a quella del firmware simulato."""
+        try:
+            text = self.files[path].decode("utf-8")
+        except UnicodeDecodeError:
+            return False
+        return bool(sim.script({"cmd": "scrivi", "file": path, "testo": text}).get("ok"))
+
+    def _script_state(self, with_vars: bool = False) -> dict[str, Any]:
+        s = self.sim.script({"cmd": "stato"}) if self.sim else {}
+        paused = s.get("stato") == "paused"
+        return {
+            "state": s.get("stato", "none"),
+            "line": s.get("riga", 0),
+            "file": s.get("file", ""),
+            "error": s.get("errore", ""),
+            "vars": [{"name": v["nome"], "value": v["valore"], "local": bool(v["locale"])} for v in (s.get("variabili") or [])[:48]]
+            if with_vars and paused else [],
+            "stack": [{"function": p["funzione"], "line": p["riga"]} for p in s.get("pila") or []] if with_vars and paused else [],
+        }  # fmt: skip
+
+    def _script_pump(self) -> None:
+        """Fa passare il tempo del firmware simulato e inoltra al PC ciò che il programma ha fatto."""
+        self._script_tick = None
+        sim = self.sim
+        if sim is None:
+            return
+        sim.advance(20)
+        for e in sim.events():
+            kind = e.get("tipo", "")
+            if kind == "script.print":
+                if self.session:
+                    self._emit("script.print", {"text": str(e.get("testo", ""))[:512]})
+            elif kind == "script.paused":
+                if self.session:
+                    self._emit("script.paused", {"line": e.get("riga", 0)})
+            elif kind == "script.end":
+                data: dict[str, Any] = {"line": e.get("riga", 0), "error": e.get("testo", "")}
+                if e.get("fermato"):
+                    data["stopped"] = True
+                if self.session:
+                    self._emit("script.end", data)
+        # finché il programma può ancora fare qualcosa, il tempo continua a passare
+        if sim.script({"cmd": "stato"}).get("stato") in ("running", "waiting", "paused"):
+            self._script_tick = self._sched.call_later(self._t(0.02), self._script_pump)
+
+    def _script_wake(self) -> None:
+        if self._script_tick is None:
+            self._script_tick = self._sched.call_soon(self._script_pump)
+
+    def _script_close(self) -> None:
+        if self.sim is not None and self.sim.script({"cmd": "stato"}).get("stato", "none") != "none":
+            self.sim.script({"cmd": "ferma"})
+            self._script_pump()
+
+    def _script(self, rid: int, c: str, a: dict[str, Any]) -> None:
+        if c == "script.check":
+            path = self._script_path(rid, a)
+            sim = self._script_sim(rid) if path else None
+            if not path or sim is None:
+                return
+            if not self._script_copy(sim, path):
+                return self._ok(rid, {"valid": False, "line": 0, "message": "c'è un carattere rovinato: il file dev'essere un testo semplice (UTF-8)"})
+            r = sim.script({"cmd": "controlla", "file": path})
+            return self._ok(rid, {"valid": bool(r.get("valido")), "line": r.get("riga", 0), "message": r.get("errore", "")})
+        if c == "script.run":
+            path = self._script_path(rid, a)
+            sim = self._script_sim(rid) if path else None
+            if not path or sim is None:
+                return
+            state = self._script_state()["state"]
+            if state not in ("none", "done", "failed"):
+                return self._err(rid, "busy", "c'è già un programma in esecuzione sul Polpo")
+            paused = a.get("paused") is True
+            name = path.rsplit("/", 1)[-1]
+
+            def then(yes: bool) -> None:
+                if not yes:
+                    return self._err(rid, "denied", "rifiutato sul Polpo")
+                sim.script({"cmd": "ferma"})  # uno già finito, rimasto sullo schermo, lascia il posto
+                sim.advance(20)
+                sim.events()
+                if not self._script_copy(sim, path) or not sim.script({"cmd": "apri", "file": path, "passo": paused}).get("ok"):
+                    return self._err(rid, "io_error", "il programma non parte")
+                self._ok(rid)
+                self._script_wake()
+
+            return self._ask(
+                "Eseguire lo script?",
+                f"Il PC chiede di avviare {name}. Uno script disegna, suona e legge i tasti: non trasmette niente.",
+                then,
+            )
+        if c == "script.state":
+            return self._ok(rid, self._script_state(a.get("vars") is True))
+        if self._script_state()["state"] == "none":
+            return self._err(rid, "bad_args", "nessun programma aperto sul Polpo")
+        sim = self.sim
+        assert sim is not None
+        if c == "script.stop":
+            sim.script({"cmd": "ferma"})
+        elif c == "script.pause":
+            sim.script({"cmd": "pausa"})
+        elif c == "script.resume":
+            sim.script({"cmd": "riprendi"})
+        elif c == "script.step":
+            mode = a.get("mode", "into")
+            if mode not in ("into", "over", "out"):
+                return self._err(rid, "bad_args", "mode deve essere into, over o out")
+            sim.script({"cmd": "passo", "modo": {"into": "entra", "over": "scavalca", "out": "esci"}[mode]})
+        elif c == "script.breakpoints":
+            lines = a.get("lines")
+            if not isinstance(lines, list) or len(lines) > 32 or not all(isinstance(n, int) and not isinstance(n, bool) and 0 <= n <= 65535 for n in lines):
+                return self._err(rid, "bad_args", "lines dev'essere un elenco di al massimo 32 righe")
+            sim.script({"cmd": "soste", "righe": lines})
+        else:
+            return self._err(rid, "unknown_cmd", "comando non gestito")
+        self._ok(rid)
+        self._script_wake()
 
     # ---------------- infrarossi ----------------
 
