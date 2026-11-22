@@ -149,4 +149,13 @@ jobs:
       - name: Crea la Release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "v$V" out/* --target "$GITHUB_SHA" --title "Polpo $V" --notes-file .github/release-notes.md
+        run: |
+          # l'indirizzo del sito segue il nome del repository
+          SITO="https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/"
+          sed "s#{{sito}}#$SITO#g" .github/release-notes.md > note.md
+          if gh release view "v$V" > /dev/null 2>&1; then
+            echo "La Release v$V esiste già: aggiorno solo le note, i file restano quelli pubblicati."
+            gh release edit "v$V" --notes-file note.md
+          else
+            gh release create "v$V" out/* --target "$GITHUB_SHA" --title "Polpo $V" --notes-file note.md
+          fi

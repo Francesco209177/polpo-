@@ -24,7 +24,7 @@ Esclusi di proposito:
 
 ## Sito
 
-Simulatore, installazione del firmware dal browser e manuali: <https://francesco209177.github.io/polpo/>
+Simulatore, installazione del firmware dal browser e manuali: <https://francesco209177.github.io/polpo-/>
 (il sito si costruisce dalla cartella `site/` nella radice del repository).
 
 ## Polpo Studio (programma per PC)

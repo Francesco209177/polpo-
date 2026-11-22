@@ -33,8 +33,8 @@ ROOT = SITE.parent
 
 # Valori predefiniti per le build locali; la pubblicazione li passa da GitHub (--repo, --site-url),
 # così il sito segue da solo il nome del repository.
-DEFAULT_REPO = "Francesco209177/polpo"
-DEFAULT_SITE_URL = "https://francesco209177.github.io/polpo/"
+DEFAULT_REPO = "Francesco209177/polpo-"
+DEFAULT_SITE_URL = "https://francesco209177.github.io/polpo-/"  # è anche l'indirizzo scritto nei manuali
 
 EWT_ENTRY = "vendor/esp-web-tools/install-button.js"
 EWT_SHA256 = "HoBbJeJR8uEdDiFzNOaViwBdMXvm6FpeuX34ozlonVo="  # base64, come lo pubblica unpkg
@@ -270,6 +270,9 @@ def build_docs(out: Path, ctx: dict[str, str], template: str) -> list[str]:
         def fix(m: re.Match, src: Path = src) -> str:
             url = m.group(2)
             parts = urlsplit(url)
+            if url.startswith(DEFAULT_SITE_URL):
+                # un manuale che cita una pagina del sito: link interno, giusto ovunque il sito venga pubblicato
+                return f'{m.group(1)}"{html.escape("../" + url[len(DEFAULT_SITE_URL):], quote=True)}"'
             if parts.scheme or url.startswith(("#", "mailto:")):
                 return m.group(0)
             target = (src.parent / unquote(parts.path)).resolve()
@@ -288,6 +291,7 @@ def build_docs(out: Path, ctx: dict[str, str], template: str) -> list[str]:
             return f'{m.group(1)}"{html.escape(new, quote=True)}"'
 
         body = re.sub(r'(<a\s+href=)"([^"]*)"', fix, body)
+        body = body.replace(DEFAULT_SITE_URL, ctx["site_url"])  # l'indirizzo scritto come testo
         body = body.replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
         content = (
             '<article class="prose container">\n'
@@ -342,6 +346,7 @@ class _Links(HTMLParser):
 def check(out: Path, site_url: str) -> list[str]:
     problems: list[str] = []
     site_path = urlsplit(site_url).path or "/"
+    site_host = urlsplit(site_url).netloc
     pages = sorted(out.rglob("*.html"))
     parsed: dict[Path, _Links] = {}
     for p in pages:
@@ -357,6 +362,8 @@ def check(out: Path, site_url: str) -> list[str]:
             if parts.scheme in ("http", "https") or url.startswith("//"):
                 if is_res:
                     problems.append(f"{rel}: risorsa caricata da un sito esterno: {url}")
+                elif parts.netloc == site_host and not (parts.path + "/").startswith(site_path):
+                    problems.append(f"{rel}: link al sito con un indirizzo diverso da {site_url}: {url}")
                 continue
             if parts.scheme in ("mailto", "data"):
                 continue

@@ -35,7 +35,7 @@ altre persone): niente disturbo radio, forza bruta, rolling code, copie di badge
 ## Pacchetti
 
 Installer e zip per **Windows**, archivio per **Linux** (con `installa.sh`, regola udev e voce di menu) si scaricano
-dalla [pagina delle versioni](https://github.com/Francesco209177/polpo/releases/latest). Li produce la build di
+dalla [pagina delle versioni](https://github.com/Francesco209177/polpo-/releases/latest). Li produce la build di
 GitHub Actions (`.github/workflows/polpo.yml`), che su entrambi i sistemi esegue `PolpoStudio --self-test`;
 la Release si crea avviando a mano il workflow con il numero di versione. **macOS**: per ora da sorgente.
 

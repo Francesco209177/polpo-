@@ -16,21 +16,21 @@ Usali solo con dispositivi tuoi o per cui hai l'autorizzazione.
 
 ## Sito
 
-**<https://francesco209177.github.io/polpo/>** — simulatore nel browser, installazione del firmware con un clic,
+**<https://francesco209177.github.io/polpo-/>** — simulatore nel browser, installazione del firmware con un clic,
 download di Polpo Studio, lista dei componenti e manuali.
 
 ## Scaricare
 
 | Cosa | Dove |
 |---|---|
-| Firmware per il Cardputer | Pagina [Installa](https://francesco209177.github.io/polpo/installa/) del sito (dal browser, con un cavo USB) |
-| Polpo Studio per Windows e Linux | [Ultima versione](https://github.com/Francesco209177/polpo/releases/latest) |
+| Firmware per il Cardputer | Pagina [Installa](https://francesco209177.github.io/polpo-/installa/) del sito (dal browser, con un cavo USB) |
+| Polpo Studio per Windows e Linux | [Ultima versione](https://github.com/Francesco209177/polpo-/releases/latest) |
 
 **Polpo Studio dal codice** (Ubuntu/Debian; su altri sistemi serve Python 3.11 o più recente):
 
 ```bash
 sudo apt install git python3-venv
-git clone https://github.com/Francesco209177/polpo.git
+git clone https://github.com/Francesco209177/polpo-.git
 cd polpo/studio
 python3 -m venv .venv
 . .venv/bin/activate

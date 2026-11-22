@@ -1,6 +1,6 @@
 Firmware per M5Stack Cardputer e **Polpo Studio** per PC.
 
-Sito del progetto, con simulatore e installazione del firmware dal browser: https://francesco209177.github.io/polpo/
+Sito del progetto, con simulatore e installazione del firmware dal browser: {{sito}}
 
 | File | Cos'è |
 |---|---|

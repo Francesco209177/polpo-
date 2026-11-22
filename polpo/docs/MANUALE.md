@@ -44,7 +44,7 @@ Ti servono:
    - rilascia G0.
 
    Lo schermo resta nero: è normale.
-2. Apri la pagina **Installa** del sito del Polpo: <https://francesco209177.github.io/polpo/installa/>.
+2. Apri la pagina **Installa** del sito del Polpo: <https://francesco209177.github.io/polpo-/installa/>.
 3. Premi **Installa Polpo**, scegli la porta che compare (es. "USB JTAG/serial debug unit") e aspetta la fine (circa 1 minuto).
 4. Scollega il cavo, accendi il Cardputer: compare il polpo.
 
