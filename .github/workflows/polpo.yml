@@ -86,8 +86,10 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+      # 3.13: i casi di prova di Studio nel telefono si generano con questa versione (alcuni messaggi d'errore di
+      # Python cambiano da una versione all'altra)
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+        with: { python-version: "3.13" }
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - uses: actions/download-artifact@v4

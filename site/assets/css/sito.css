@@ -436,7 +436,9 @@ html.fermo .reveal { opacity: 1; transform: none; }
 /* ---------- Polpo Studio nell'app ---------- */
 .st-testa { padding-bottom: 8px; }
 .st-testa .lead { font-size: 1.02rem; }
-.st-barra { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; padding: 14px 16px; position: sticky; top: 72px; z-index: 5; }
+.st-barra { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; padding: 14px 16px; }
+/* la testata del sito e la riga degli avvisi restano fisse: ciò che si porta in vista non deve finirci sotto */
+html:has(body.pagina-studio) { scroll-padding: 96px 0 88px; }
 .st-barra .btn-row { margin: 0; }
 .st-stato { margin: 0; font-weight: 600; }
 .st-stato[data-stato="collegato"] { color: var(--ok); }
