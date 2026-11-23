@@ -1,0 +1,2581 @@
+{
+ "hexdump": [
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "00",
+   "r": "00"
+  },
+  {
+   "d": "4369616f0d0a",
+   "r": "43 69 61 6F 0D 0A"
+  },
+  {
+   "d": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+   "r": "00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F 20 21 22 23 24 25 26 27 28 29 2A 2B 2C 2D 2E 2F 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F 40 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F 60 61 62 63 64 65 66 67 68 69 6A 6B 6C 6D 6E 6F 70 71 72 73 74 75 76 77 78 79 7A 7B 7C 7D 7E 7F 80 81 82 83 84 85 86 87 88 89 8A 8B 8C 8D 8E 8F 90 91 92 93 94 95 96 97 98 99 9A 9B 9C 9D 9E 9F A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 AA AB AC AD AE AF B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 BA BB BC BD BE BF C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 CA CB CC CD CE CF D0 D1 D2 D3 D4 D5 D6 D7 D8 D9 DA DB DC DD DE DF E0 E1 E2 E3 E4 E5 E6 E7 E8 E9 EA EB EC ED EE EF F0 F1 F2 F3 F4 F5 F6 F7 F8 F9 FA FB FC FD FE FF"
+  },
+  {
+   "d": "6ee9f7b8e80f1256b043851c5618b875e16575",
+   "r": "6E E9 F7 B8 E8 0F 12 56 B0 43 85 1C 56 18 B8 75 E1 65 75"
+  },
+  {
+   "d": "46b3a2ce",
+   "r": "46 B3 A2 CE"
+  },
+  {
+   "d": "aa",
+   "r": "AA"
+  },
+  {
+   "d": "4e2ed3c6e07e4f1a",
+   "r": "4E 2E D3 C6 E0 7E 4F 1A"
+  },
+  {
+   "d": "f576b074492810301af4caa78378",
+   "r": "F5 76 B0 74 49 28 10 30 1A F4 CA A7 83 78"
+  },
+  {
+   "d": "c4",
+   "r": "C4"
+  },
+  {
+   "d": "485f65a8bb61f271f5b358f866",
+   "r": "48 5F 65 A8 BB 61 F2 71 F5 B3 58 F8 66"
+  },
+  {
+   "d": "9a31d821c7c1279740cc75eb799f7861f0f9da",
+   "r": "9A 31 D8 21 C7 C1 27 97 40 CC 75 EB 79 9F 78 61 F0 F9 DA"
+  },
+  {
+   "d": "5b6faa445c8fe0",
+   "r": "5B 6F AA 44 5C 8F E0"
+  },
+  {
+   "d": "d231057d29c0b8856183",
+   "r": "D2 31 05 7D 29 C0 B8 85 61 83"
+  },
+  {
+   "d": "f2ab505cb12d1fc1dc0adcecf54acc6fbc1b",
+   "r": "F2 AB 50 5C B1 2D 1F C1 DC 0A DC EC F5 4A CC 6F BC 1B"
+  },
+  {
+   "d": "86d40ca40bac86",
+   "r": "86 D4 0C A4 0B AC 86"
+  },
+  {
+   "d": "c218",
+   "r": "C2 18"
+  },
+  {
+   "d": "1210c810f342ba35ced2021ad1d46e1dcf819463",
+   "r": "12 10 C8 10 F3 42 BA 35 CE D2 02 1A D1 D4 6E 1D CF 81 94 63"
+  },
+  {
+   "d": "c39d6af3",
+   "r": "C3 9D 6A F3"
+  },
+  {
+   "d": "f677d0",
+   "r": "F6 77 D0"
+  },
+  {
+   "d": "c0",
+   "r": "C0"
+  },
+  {
+   "d": "406bcf9be8b77de7da",
+   "r": "40 6B CF 9B E8 B7 7D E7 DA"
+  },
+  {
+   "d": "7cf35a34",
+   "r": "7C F3 5A 34"
+  },
+  {
+   "d": "f87143588fa527ad532b90",
+   "r": "F8 71 43 58 8F A5 27 AD 53 2B 90"
+  },
+  {
+   "d": "cd23301f36b90abad99fca42",
+   "r": "CD 23 30 1F 36 B9 0A BA D9 9F CA 42"
+  },
+  {
+   "d": "3f24eec58e58",
+   "r": "3F 24 EE C5 8E 58"
+  },
+  {
+   "d": "9b5906423422a8998d150a",
+   "r": "9B 59 06 42 34 22 A8 99 8D 15 0A"
+  },
+  {
+   "d": "82824eca",
+   "r": "82 82 4E CA"
+  },
+  {
+   "d": "e3cde2c83cbe122d7862f6a65426b4",
+   "r": "E3 CD E2 C8 3C BE 12 2D 78 62 F6 A6 54 26 B4"
+  },
+  {
+   "d": "4afd59e8a9cf19b7f8dd69",
+   "r": "4A FD 59 E8 A9 CF 19 B7 F8 DD 69"
+  },
+  {
+   "d": "7853132cc134bc5d6f46ab",
+   "r": "78 53 13 2C C1 34 BC 5D 6F 46 AB"
+  },
+  {
+   "d": "43aa17",
+   "r": "43 AA 17"
+  },
+  {
+   "d": "be3e71a6a603973a0040",
+   "r": "BE 3E 71 A6 A6 03 97 3A 00 40"
+  },
+  {
+   "d": "e8bc8352bbfb8ba11b4685",
+   "r": "E8 BC 83 52 BB FB 8B A1 1B 46 85"
+  }
+ ],
+ "invio": [
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Apri prima la console.",
+     true
+    ]
+   ],
+   "fine": null,
+   "testo": null
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     ""
+    ]
+   ],
+   "fine": "",
+   "testo": ""
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "0a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": ""
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "0d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": ""
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "0d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": ""
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "6369616f"
+    ]
+   ],
+   "fine": "",
+   "testo": "ciao"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "6369616f0a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": "ciao"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "6369616f0d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": "ciao"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "6369616f0d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": "ciao"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "41542b474d52"
+    ]
+   ],
+   "fine": "",
+   "testo": "AT+GMR"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "41542b474d520a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": "AT+GMR"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "41542b474d520d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": "AT+GMR"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "41542b474d520d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": "AT+GMR"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "c3a8f09f9099e282ac"
+    ]
+   ],
+   "fine": "",
+   "testo": "è🐙€"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "c3a8f09f9099e282ac0a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": "è🐙€"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "c3a8f09f9099e282ac0d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": "è🐙€"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "c3a8f09f9099e282ac0d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": "è🐙€"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "726967610a636f6e2061206361706f"
+    ]
+   ],
+   "fine": "",
+   "testo": "riga\ncon a capo"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "726967610a636f6e2061206361706f0a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": "riga\ncon a capo"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "726967610a636f6e2061206361706f0d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": "riga\ncon a capo"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "726967610a636f6e2061206361706f0d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": "riga\ncon a capo"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "207370617a6920"
+    ]
+   ],
+   "fine": "",
+   "testo": " spazi "
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "207370617a69200a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": " spazi "
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "207370617a69200d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": " spazi "
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "207370617a69200d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": " spazi "
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "09"
+    ]
+   ],
+   "fine": "",
+   "testo": "\t"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "090a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": "\t"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "090d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": "\t"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "090d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": "\t"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878"
+    ]
+   ],
+   "fine": "",
+   "testo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "7878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878780a"
+    ]
+   ],
+   "fine": "LF",
+   "testo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "7878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878780d"
+    ]
+   ],
+   "fine": "CR",
+   "testo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+   "dopo": "",
+   "eventi": [
+    [
+     "scritti",
+     "7878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878780d0a"
+    ]
+   ],
+   "fine": "CRLF",
+   "testo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  }
+ ],
+ "menu": {
+  "baud": [
+   [
+    "300",
+    300
+   ],
+   [
+    "2400",
+    2400
+   ],
+   [
+    "4800",
+    4800
+   ],
+   [
+    "9600",
+    9600
+   ],
+   [
+    "19200",
+    19200
+   ],
+   [
+    "38400",
+    38400
+   ],
+   [
+    "57600",
+    57600
+   ],
+   [
+    "74880",
+    74880
+   ],
+   [
+    "115200",
+    115200
+   ],
+   [
+    "230400",
+    230400
+   ],
+   [
+    "460800",
+    460800
+   ],
+   [
+    "921600",
+    921600
+   ]
+  ],
+  "baud_attuale": "115200",
+  "costanti": {
+   "BAUD_RATES": [
+    300,
+    2400,
+    4800,
+    9600,
+    19200,
+    38400,
+    57600,
+    74880,
+    115200,
+    230400,
+    460800,
+    921600
+   ],
+   "LINE_ENDINGS": {
+    "": "",
+    "CR": "\r",
+    "CRLF": "\r\n",
+    "LF": "\n"
+   }
+  },
+  "esadecimale": [
+   "Esadecimale",
+   false
+  ],
+  "fine_riga": [
+   [
+    "nessuno",
+    ""
+   ],
+   [
+    "LF",
+    "LF"
+   ],
+   [
+    "CR",
+    "CR"
+   ],
+   [
+    "CRLF",
+    "CRLF"
+   ]
+  ],
+  "fine_riga_attuale": 1,
+  "riavvia": [
+   "Riavvia la scheda all'apertura",
+   true
+  ],
+  "righe_max": 5000,
+  "segnaposto": "Testo da inviare…"
+ },
+ "registro": [
+  {
+   "eventi": [],
+   "testo": ""
+  },
+  {
+   "eventi": [
+    [
+     "messo",
+     "diagnostica",
+     "console-20261122-0905.txt",
+     "ciao\nmondo",
+     {}
+    ],
+    [
+     "avviso",
+     "Registro salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "testo": "ciao\nmondo"
+  },
+  {
+   "eventi": [
+    [
+     "messo",
+     "diagnostica",
+     "console-20261122-0905.txt",
+     "riga è 🐙\n",
+     {}
+    ],
+    [
+     "avviso",
+     "Registro salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "testo": "riga è 🐙\n"
+  },
+  {
+   "eventi": [
+    [
+     "messo",
+     "diagnostica",
+     "console-20261122-0905.txt",
+     "a\nb",
+     {}
+    ],
+    [
+     "avviso",
+     "Registro salvato nella cassaforte.",
+     false
+    ]
+   ],
+   "testo": "a b"
+  }
+ ],
+ "ricevi": [
+  {
+   "esa": true,
+   "max": 1,
+   "pezzi": [
+    "56ae4e335a56994b1ad0d01e",
+    "62e282ac0ae280a862e282acc3a9f09f9099f09f9099e280a8e280a90d096120",
+    "0d0a780d787878",
+    "f09f9099200b0d0af09f9099",
+    "726967612033390d0a726967612033390d0a726967612033390d0a726967612033390d0a",
+    "c0af",
+    "0a0a",
+    "e282ac00e280a961c3a9e282acc3a9c3a90d0a00"
+   ],
+   "righe": 1,
+   "testo": "56 AE 4E 33 5A 56 99 4B 1A D0 D0 1E 62 E2 82 AC 0A E2 80 A8 62 E2 82 AC C3 A9 F0 9F 90 99 F0 9F 90 99 E2 80 A8 E2 80 A9 0D 09 61 20 0D 0A 78 0D 78 78 78 F0 9F 90 99 20 0B 0D 0A F0 9F 90 99 72 69 67 61 20 33 39 0D 0A 72 69 67 61 20 33 39 0D 0A 72 69 67 61 20 33 39 0D 0A 72 69 67 61 20 33 39 0D 0A C0 AF 0A 0A E2 82 AC 00 E2 80 A9 61 C3 A9 E2 82 AC C3 A9 C3 A9 0D 0A 00 "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "0d0a0d",
+    "726967612031310d0a726967612031310d0a726967612031310d0a",
+    "ef30e753",
+    "c3a9e280a9e280a90b0b0be282ac",
+    "726967612038380d0a726967612038380d0a",
+    "3606b119",
+    "0d0d78",
+    "0d780d0d0a",
+    "0a780a0d",
+    "0dc3a961620b20",
+    "fb86ce3c5363aba9e3b3",
+    "726967612032320d0a"
+   ],
+   "righe": 20,
+   "testo": "\n\nriga 11\nriga 11\nriga 11\n�0�Sé\n\n\u000b\u000b\u000b€riga 88\nriga 88\n6\u0006�\u0019\n\nx\nx\n\n\nx\n\n\néab\u000b ���<Sc���riga 22\n"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "10a4227ba5149f",
+    "0b006120e280a8e280a9e282ac0d0a0b62f09f9099",
+    "875bf8cac416"
+   ],
+   "righe": 1,
+   "testo": "\u000bb🐙�[���\u0016"
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "e3fb28",
+    "61efb79062efb79163",
+    "0d780a0a",
+    "0d",
+    "0a780d0a0d78",
+    "0d0d61620a61c3a920610b0df09f9099",
+    "726967612039360d0a726967612039360d0a",
+    "0d78",
+    "726967612032310d0a726967612032310d0a",
+    "0d0a0d0af09f9099"
+   ],
+   "righe": 1,
+   "testo": "E3 FB 28 61 EF B7 90 62 EF B7 91 63 0D 78 0A 0A 0D 0A 78 0D 0A 0D 78 0D 0D 61 62 0A 61 C3 A9 20 61 0B 0D F0 9F 90 99 72 69 67 61 20 39 36 0D 0A 72 69 67 61 20 39 36 0D 0A 0D 78 72 69 67 61 20 32 31 0D 0A 72 69 67 61 20 32 31 0D 0A 0D 0A 0D 0A F0 9F 90 99 "
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "23ec05f2bfbc62a9ba32",
+    "78",
+    "0a0a0d787878780a",
+    "9942117abac48e25ee5c06",
+    "090dc3a9",
+    "0d0d0a780d0d0d",
+    "eda080",
+    "61c2a062",
+    "f09f",
+    "0d0d780d78",
+    "0a78"
+   ],
+   "righe": 1,
+   "testo": "23 EC 05 F2 BF BC 62 A9 BA 32 78 0A 0A 0D 78 78 78 78 0A 99 42 11 7A BA C4 8E 25 EE 5C 06 09 0D C3 A9 0D 0D 0A 78 0D 0D 0D ED A0 80 61 C2 A0 62 F0 9F 0D 0D 78 0D 78 0A 78 "
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "780a0d",
+    "726967612037330d0a726967612037330d0a"
+   ],
+   "righe": 1,
+   "testo": "78 0A 0D 72 69 67 61 20 37 33 0D 0A 72 69 67 61 20 37 33 0D 0A "
+  },
+  {
+   "esa": true,
+   "max": 1,
+   "pezzi": [
+    "780a78"
+   ],
+   "righe": 1,
+   "testo": "78 0A 78 "
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "620d62c3a9",
+    "0d0d7878",
+    "61c2a062",
+    "890f",
+    "78780a"
+   ],
+   "righe": 5,
+   "testo": "b\nbé\n\nxxa b�\u000fxx\n"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "0a0b610a0bf09f90996209f09f90992020f09f9099",
+    "726967612031380d0a",
+    "98a1412bed",
+    "",
+    "f09f"
+   ],
+   "righe": 4,
+   "testo": "\n\u000ba\n\u000b🐙b\t🐙  🐙riga 18\n��A+��"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "ab4159fdade5",
+    "4c",
+    "78efbbbf6369616f"
+   ],
+   "righe": 1,
+   "testo": "�AY���Lx﻿ciao"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "726967612035390d0a726967612035390d0a",
+    "78",
+    "f09f909961610ae280a961f09f909962e280a9c3a962e282ac0be280a8",
+    "78780a78780a0d",
+    "78",
+    "62e280a9c3a90de280a9e282ac0d0ae282acf09f909920620d",
+    "4fd7a03ddc80f076efd8483b",
+    "",
+    "726967612033380d0a726967612033380d0a",
+    "78"
+   ],
+   "righe": 3,
+   "testo": "Oנ=܀�v��H;riga 38\nriga 38\nx"
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "726967612036320d0a726967612036320d0a",
+    "726967612037360d0a726967612037360d0a726967612037360d0a726967612037360d0a",
+    "c1"
+   ],
+   "righe": 1,
+   "testo": "72 69 67 61 20 36 32 0D 0A 72 69 67 61 20 36 32 0D 0A 72 69 67 61 20 37 36 0D 0A 72 69 67 61 20 37 36 0D 0A 72 69 67 61 20 37 36 0D 0A 72 69 67 61 20 37 36 0D 0A C1 "
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "0d78780d0a780d",
+    "fffe",
+    "0a0d78780a0d780d",
+    "",
+    "726967612031380d0a726967612031380d0a726967612031380d0a",
+    "c0af",
+    "0a0a780d7878",
+    "0d0a780a",
+    "000d20f09f9099e280a90a0a"
+   ],
+   "righe": 2,
+   "testo": "\n"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "726967612034370d0a726967612034370d0a",
+    "2acc0956"
+   ],
+   "righe": 3,
+   "testo": "riga 47\nriga 47\n*�\tV"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "726967612039360d0a726967612039360d0a726967612039360d0a",
+    "15faa030ea0c0b1ff6"
+   ],
+   "righe": 4,
+   "testo": "riga 96\nriga 96\nriga 96\n\u0015��0�\f\u000b\u001f�"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "09e280a9c3a9f09f90990962c3a9e280a92061e282ac",
+    "e280a8",
+    "5e0f1062eef692ca9a6a"
+   ],
+   "righe": 3,
+   "testo": "\t\né🐙\tbé\n a€\n^\u000f\u0010b���ʚj"
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "0a0d780a78",
+    "726967612038390d0a726967612038390d0a726967612038390d0a",
+    "30",
+    "0a7878",
+    "0a0d0a0a"
+   ],
+   "righe": 10,
+   "testo": "\nx\nxriga 89\nriga 89\nriga 89\n0\nxx\n\n\n"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "726967612031320d0a726967612031320d0a726967612031320d0a",
+    "726967612038360d0a",
+    "401126f8f3903955cbc822",
+    "78efbbbf6369616f",
+    "9099",
+    "6220c3a90d0ae282ac0900e282acf09f9099090d0a00e282ac6262",
+    "f09f",
+    "780d0a0a780a0a0d",
+    "22",
+    "62610a0dc3a90a0df09f9099f09f9099c3a9e280a9e280a90909c3a9",
+    "0d78"
+   ],
+   "righe": 1,
+   "testo": "x"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "0a0d780d0a78",
+    "00c3a9200d0062626220e280a961c3a9c3a96161",
+    "30028fbcf350bc7488bfe1",
+    "c0af",
+    "e282acc3a9620a620d0ae280a9e280a90de280a80d0a0b62",
+    "726967612038370d0a726967612038370d0a726967612038370d0a",
+    "780d0d",
+    "e282",
+    "f09f90990d0a62e280a9e280a8e280a8e280a909"
+   ],
+   "righe": 20,
+   "testo": "\n\nx\nx\u0000é \n\u0000bbb \naééaa0\u0002���P�t�����€éb\nb\n\n\n\n\n\n\u000bbriga 87\nriga 87\nriga 87\nx\n\n�🐙\nb\n\n\n\n\t"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "638d75e2bdfdee24a0e811",
+    "7269676120360d0a",
+    "780a0d0a78",
+    "700a79354dd68e97e6ae",
+    "1091306578db",
+    "",
+    "eda080",
+    "0a",
+    "7ee4f59414bbfafca2",
+    "8997e1ccc99c8a",
+    "0a0d"
+   ],
+   "righe": 8,
+   "testo": "c�u���$��\u0011riga 6\nx\n\nxp\ny5M֎��\u0010�0ex����\n~���\u0014��������ɜ�\n\n"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "726967612037370d0a726967612037370d0a726967612037370d0a726967612037370d0a",
+    "e282ac20620b61f09f90990be280a90009e280a9",
+    "09",
+    "780a0d0a0a"
+   ],
+   "righe": 1,
+   "testo": ""
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "780d0d0d0a780d0d",
+    "dfef9eff",
+    "c0af",
+    "0d0a20",
+    "e282",
+    "9544b556d545a2a8db8366d4",
+    "7269676120380d0a7269676120380d0a7269676120380d0a7269676120380d0a",
+    "726967612039340d0a726967612039340d0a726967612039340d0a726967612039340d0a",
+    "c3a9e280a8",
+    "0a780a0d0d",
+    "e1"
+   ],
+   "righe": 10,
+   "testo": "riga 8\nriga 94\nriga 94\nriga 94\nriga 94\né\n\nx\n\n\n�"
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "780a0a780a780d",
+    "00e280a9c3a92009e280a9e280a96209e280a962",
+    "e47dc1bc8730ce1195194aa6",
+    "090ac3a90d61e282ac200be280a90d0a0a",
+    "",
+    "726967612038370d0a726967612038370d0a726967612038370d0a726967612038370d0a",
+    "599f05c81eba",
+    "0d0a0a78780a780a",
+    "a516aa62e7bd3d175ea0c2",
+    "0a0900000b620de280a80d0a000b"
+   ],
+   "righe": 2,
+   "testo": "\n\n\u0000\u000b"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "9099",
+    "61efb79062efb79163"
+   ],
+   "righe": 1,
+   "testo": "c"
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "c0af",
+    "61efb79062efb79163",
+    "726967612038320d0a726967612038320d0a726967612038320d0a726967612038320d0a",
+    "726967612031300d0a726967612031300d0a726967612031300d0a",
+    "61c2a062",
+    "780a0a",
+    "f88d",
+    "0d7878780a",
+    "7269676120310d0a7269676120310d0a7269676120310d0a",
+    "936e180f7d",
+    "78efbbbf6369616f",
+    "0b0df09f9099e282ace280a90920c3a9c3a9e282ac"
+   ],
+   "righe": 2,
+   "testo": "🐙€\n\t éé€"
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "c83739289e8c5c93fa1f",
+    "61efb79062efb79163"
+   ],
+   "righe": 1,
+   "testo": "C8 37 39 28 9E 8C 5C 93 FA 1F 61 EF B7 90 62 EF B7 91 63 "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "69e0",
+    "726967612031370d0a",
+    "a232d35c6e87c1858a",
+    "000af09f90990af09f90990de282ac09"
+   ],
+   "righe": 5,
+   "testo": "i�riga 17\n�2�\\n����\u0000\n🐙\n🐙\n€\t"
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "c0af",
+    "49db0572bb12ff47",
+    "e130cc13b913",
+    "9099",
+    "78"
+   ],
+   "righe": 1,
+   "testo": "C0 AF 49 DB 05 72 BB 12 FF 47 E1 30 CC 13 B9 13 90 99 78 "
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "726967612037340d0a726967612037340d0a726967612037340d0a",
+    "",
+    "fffe",
+    "0df09f9099e280a861610ae280a861f09f9099f09f90990a0a09",
+    "f09f90990a0d6209e280a9e280a90b62090bc3a920f09f909909",
+    "726967612039320d0a726967612039320d0a726967612039320d0a",
+    "fffe",
+    "0062",
+    "f09f90990d0a0d0d0d"
+   ],
+   "righe": 2,
+   "testo": "\n"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "0a0a",
+    "",
+    "ae6fa17ce54fc3",
+    "7269676120390d0a7269676120390d0a7269676120390d0a7269676120390d0a",
+    "726967612032360d0a726967612032360d0a726967612032360d0a"
+   ],
+   "righe": 1,
+   "testo": ""
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "726967612038320d0a726967612038320d0a726967612038320d0a",
+    "8054ffb37c",
+    "eda080"
+   ],
+   "righe": 4,
+   "testo": "riga 82\nriga 82\nriga 82\n�T��|���"
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "780d0d0d0a0a0d0a"
+   ],
+   "righe": 2,
+   "testo": "\n"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "726967612035310d0a726967612035310d0a726967612035310d0a",
+    "c6d9e111",
+    "579368cf190dd96e702494",
+    "ee38b3ce9e2ab1a8c7f2",
+    "e280a9e282ac09",
+    "726967612039380d0a726967612039380d0a",
+    "00e282ace282ac",
+    "726967612036330d0a726967612036330d0a726967612036330d0a"
+   ],
+   "righe": 5,
+   "testo": "riga 98\n\u0000€€riga 63\nriga 63\nriga 63\n"
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "726967612034370d0a726967612034370d0a",
+    "726967612037310d0a726967612037310d0a726967612037310d0a",
+    "0d0a0d0ae280a90a0a206220e282ac61200de280a80a0a",
+    "0d78780d",
+    "726967612035360d0a726967612035360d0a"
+   ],
+   "righe": 10,
+   "testo": "\n\n b €a \n\n\n\n\nxx\nriga 56\nriga 56\n"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "726967612034350d0a726967612034350d0a726967612034350d0a",
+    "0a0d0a0d0d0a7878",
+    "726967612031300d0a726967612031300d0a726967612031300d0a"
+   ],
+   "righe": 3,
+   "testo": "riga 10\nriga 10\n"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "780d0d0a",
+    "726967612031330d0a726967612031330d0a726967612031330d0a726967612031330d0a",
+    "726967612038350d0a",
+    "61efb79062efb79163",
+    "c3a90009f09f909961200b62c3a9610de280a80b00",
+    "09e282ac09200ae282ac",
+    "f09f90990d",
+    "61c2a062",
+    "fffe",
+    "0a0d",
+    "78780a0d780a0d0d",
+    "91f6fb048bfa8cc909"
+   ],
+   "righe": 5,
+   "testo": "\nx\n\n\n���\u0004����\t"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "0a00f09f90990d0ae280a8e280a9"
+   ],
+   "righe": 1,
+   "testo": ""
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "0a0d0d780a",
+    "726967612038390d0a726967612038390d0a",
+    "c0af",
+    "726967612037350d0a726967612037350d0a",
+    "e280a8e282ac0d0a0d0af09f90990009c3a9e280a90920e280a8e282ac",
+    "0d0d0a0a",
+    "6959",
+    "9f8183",
+    "726967612034350d0a726967612034350d0a726967612034350d0a726967612034350d0a",
+    "0a0d0a0a780d0a",
+    "e282"
+   ],
+   "righe": 1,
+   "testo": "0A 0D 0D 78 0A 72 69 67 61 20 38 39 0D 0A 72 69 67 61 20 38 39 0D 0A C0 AF 72 69 67 61 20 37 35 0D 0A 72 69 67 61 20 37 35 0D 0A E2 80 A8 E2 82 AC 0D 0A 0D 0A F0 9F 90 99 00 09 C3 A9 E2 80 A9 09 20 E2 80 A8 E2 82 AC 0D 0D 0A 0A 69 59 9F 81 83 72 69 67 61 20 34 35 0D 0A 72 69 67 61 20 34 35 0D 0A 72 69 67 61 20 34 35 0D 0A 72 69 67 61 20 34 35 0D 0A 0A 0D 0A 0A 78 0D 0A E2 82 "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "76c8eb391227ccc09bca",
+    "0d0a0a0a0d0a780d",
+    "726967612031310d0a726967612031310d0a",
+    "726967612033360d0a726967612033360d0a726967612033360d0a"
+   ],
+   "righe": 11,
+   "testo": "v��9\u0012'����\n\n\n\nx\nriga 11\nriga 11\nriga 36\nriga 36\nriga 36\n"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "c3a920620b0d0a6109f09f90990ae280a80a20",
+    "e282ac200d0a200d6220090d0ac3a920e282ac0af09f90990d0a",
+    "a459bbd962cb08abb97ab0",
+    "092020e280a90ae282acf09f909962",
+    "726967612031350d0a",
+    "726967612038340d0a726967612038340d0a726967612038340d0a",
+    "780a780d",
+    "0a0a0a0d0a0a0a0d",
+    "8ffbfa09b14129",
+    "9099"
+   ],
+   "righe": 3,
+   "testo": "\n\n���\t�A)��"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "0d",
+    "61efb79062efb79163",
+    "e280a8",
+    "61efb79062efb79163"
+   ],
+   "righe": 3,
+   "testo": "c\na\nb\nc"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "f09f9099",
+    "f09f9099e280a8e282ac610009e280a900c3a9e280a9c3a9",
+    "",
+    "726967612033370d0a726967612033370d0a726967612033370d0a726967612033370d0a",
+    "0d780d780a0a",
+    "726967612039330d0a726967612039330d0a726967612039330d0a726967612039330d0a"
+   ],
+   "righe": 5,
+   "testo": "riga 93\nriga 93\nriga 93\nriga 93\n"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "e83ff6dd279b18",
+    "",
+    "",
+    "726967612034370d0a",
+    "726967612037300d0a",
+    "0a0d0ae280a9090d00",
+    "d8d4b37dd3033eeacebc",
+    "39217a60"
+   ],
+   "righe": 7,
+   "testo": "�?��'�\u0018riga 47\nriga 70\n\n\n\n\t\n\u0000�Գ}�\u0003>�μ9!z`"
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "726967612035330d0a726967612035330d0a726967612035330d0a",
+    "0a78",
+    "5952b08182105d07a9a89a",
+    "0a780d78780d78",
+    "e282",
+    "0d0a0a0a780a78",
+    "7bf938c6d3471efc7d58cb15",
+    "ac",
+    "e282",
+    "0a0d0a0d"
+   ],
+   "righe": 1,
+   "testo": "72 69 67 61 20 35 33 0D 0A 72 69 67 61 20 35 33 0D 0A 72 69 67 61 20 35 33 0D 0A 0A 78 59 52 B0 81 82 10 5D 07 A9 A8 9A 0A 78 0D 78 78 0D 78 E2 82 0D 0A 0A 0A 78 0A 78 7B F9 38 C6 D3 47 1E FC 7D 58 CB 15 AC E2 82 0A 0D 0A 0D "
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "78",
+    "9fe6765a0f6fc43f81b4b9e0",
+    "0d780d0d0a",
+    "e282"
+   ],
+   "righe": 1,
+   "testo": "�"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "e282ac20e282acc3a90b",
+    "fffe"
+   ],
+   "righe": 1,
+   "testo": "€ €é\u000b��"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "0d780a0d",
+    "f09f"
+   ],
+   "righe": 1,
+   "testo": "�"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "726967612034390d0a726967612034390d0a",
+    "f09f90990b0d0a0ae282ac0d0a09e280a909",
+    "78",
+    "eda080",
+    "0a0d78780d78",
+    "68d262e8b649a4",
+    "b9093244bdd1dc34",
+    "e282ace280a9200af09f90990a0ae280a900",
+    "78780a780d780d"
+   ],
+   "righe": 5,
+   "testo": "\n\u0000xx\nx\nx\n"
+  },
+  {
+   "esa": true,
+   "max": 10,
+   "pezzi": [
+    "",
+    "726967612032340d0a726967612032340d0a726967612032340d0a",
+    "74df4d75e2777963",
+    "20e280a90b6262",
+    "00",
+    "6e9ad9843fbb03231a",
+    "0a"
+   ],
+   "righe": 1,
+   "testo": " 72 69 67 61 20 32 34 0D 0A 72 69 67 61 20 32 34 0D 0A 72 69 67 61 20 32 34 0D 0A 74 DF 4D 75 E2 77 79 63 20 E2 80 A9 0B 62 62 00 6E 9A D9 84 3F BB 03 23 1A 0A "
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "20f09f909961e282ac0dc3a90ac3a9f09f90996262",
+    "9099",
+    "726967612039390d0a726967612039390d0a",
+    "0d78780a0d0d",
+    "726967612031360d0a726967612031360d0a",
+    "0a780d0d0d",
+    "61c2a062",
+    "000d0a0a6120e280a80dc3a90d",
+    "1c364c964fea80a6b7c1cd",
+    "20096100e280a9c3a9",
+    "dabc534a8fe6"
+   ],
+   "righe": 3,
+   "testo": "é\n\u001c6L�Oꀦ��� \ta\u0000\néڼSJ��"
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "0a0d0a0a0d0a"
+   ],
+   "righe": 1,
+   "testo": "0A 0D 0A 0A 0D 0A "
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "9099",
+    "726967612038340d0a726967612038340d0a",
+    "0d0a78",
+    "0d0d"
+   ],
+   "righe": 2,
+   "testo": "\n"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "77def7e465",
+    "726967612034350d0a"
+   ],
+   "righe": 2,
+   "testo": "w���eriga 45\n"
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "a0a3d88cc0bc4980",
+    "78",
+    "780a7878780d0d",
+    "9099",
+    "726967612039370d0a726967612039370d0a",
+    "726967612035330d0a726967612035330d0a726967612035330d0a726967612035330d0a",
+    "726967612038370d0a"
+   ],
+   "righe": 10,
+   "testo": "xxx\n\n��riga 97\nriga 97\nriga 53\nriga 53\nriga 53\nriga 53\nriga 87\n"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "0a0a0a780d0d78",
+    "726967612032350d0a726967612032350d0a",
+    "78efbbbf6369616f",
+    "726967612033350d0a",
+    "e280a80af09f90990d0a",
+    "e280a9e282ace282acc3a90b",
+    "0d0d0d0a",
+    "c0af",
+    "726967612032320d0a726967612032320d0a726967612032320d0a",
+    "971a161bc504b8df",
+    "78efbbbf6369616f",
+    "11a0ebc0c2c090b8cd64bf"
+   ],
+   "righe": 1,
+   "testo": "�\u001a\u0016\u001b�\u0004��x﻿ciao\u0011��������d�"
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "726967612032310d0a",
+    "0a0a7878780a"
+   ],
+   "righe": 1,
+   "testo": "72 69 67 61 20 32 31 0D 0A 0A 0A 78 78 78 0A "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "f09f9099e280a8000ac3a96262090d0a0d200d0d0a09e280a8",
+    "fffe",
+    "e280a90d0a61c3a920e282ac0d0af09f909962c3a9",
+    "00f09f909961e282ac0b0d0de280a8e282ac0962c3a909",
+    "726967612039360d0a726967612039360d0a726967612039360d0a"
+   ],
+   "righe": 14,
+   "testo": "🐙\n\u0000\nébb\t\n\n \n\n\t\n��\n\naé €\n🐙bé\u0000🐙a€\u000b\n\n\n€\tbé\triga 96\nriga 96\nriga 96\n"
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "61c2a062"
+   ],
+   "righe": 1,
+   "testo": "a b"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "e280a90d0be280a8616209",
+    "62090d0a6100c3a9",
+    "9099",
+    "726967612039300d0a726967612039300d0a726967612039300d0a"
+   ],
+   "righe": 5,
+   "testo": "\u000b\nab\tb\t\na\u0000é��riga 90\nriga 90\nriga 90\n"
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "2061e280a9f09f90990b",
+    "726967612033330d0a726967612033330d0a",
+    "656688",
+    "726967612033300d0a726967612033300d0a",
+    "e282",
+    "c3a9f09f90990d0ae280a809e282ac0b0d0ae282ac00e280a8e282ace280a8e282ac20",
+    "726967612039370d0a",
+    "0df09f9099e282ac62e280a80d20e280a809f09f90990d0ae280a8c3a9",
+    "0bc3a9",
+    "68207bf3099227955e92a4"
+   ],
+   "righe": 1,
+   "testo": "20 61 E2 80 A9 F0 9F 90 99 0B 72 69 67 61 20 33 33 0D 0A 72 69 67 61 20 33 33 0D 0A 65 66 88 72 69 67 61 20 33 30 0D 0A 72 69 67 61 20 33 30 0D 0A E2 82 C3 A9 F0 9F 90 99 0D 0A E2 80 A8 09 E2 82 AC 0B 0D 0A E2 82 AC 00 E2 80 A8 E2 82 AC E2 80 A8 E2 82 AC 20 72 69 67 61 20 39 37 0D 0A 0D F0 9F 90 99 E2 82 AC 62 E2 80 A8 0D 20 E2 80 A8 09 F0 9F 90 99 0D 0A E2 80 A8 C3 A9 0B C3 A9 68 20 7B F3 09 92 27 95 5E 92 A4 "
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "0a780a0a",
+    "0b00",
+    "e282ac6200",
+    "0a0d0d",
+    "726967612035390d0a726967612035390d0a",
+    "200b62",
+    "726967612032310d0a726967612032310d0a726967612032310d0a726967612032310d0a"
+   ],
+   "righe": 2,
+   "testo": "riga 21\n"
+  },
+  {
+   "esa": true,
+   "max": 10,
+   "pezzi": [
+    "c78b4e2a49b5bff2935a884a",
+    "22fbdac1ce21bfc66dd32d",
+    "726967612035350d0a726967612035350d0a726967612035350d0a726967612035350d0a",
+    "0d",
+    "0a78",
+    "cdc884d60a9be587",
+    "e282",
+    "726967612031380d0a726967612031380d0a726967612031380d0a",
+    "78efbbbf6369616f",
+    "726967612035360d0a"
+   ],
+   "righe": 1,
+   "testo": "C7 8B 4E 2A 49 B5 BF F2 93 5A 88 4A 22 FB DA C1 CE 21 BF C6 6D D3 2D 72 69 67 61 20 35 35 0D 0A 72 69 67 61 20 35 35 0D 0A 72 69 67 61 20 35 35 0D 0A 72 69 67 61 20 35 35 0D 0A 0D 0A 78 CD C8 84 D6 0A 9B E5 87 E2 82 72 69 67 61 20 31 38 0D 0A 72 69 67 61 20 31 38 0D 0A 72 69 67 61 20 31 38 0D 0A 78 EF BB BF 63 69 61 6F 72 69 67 61 20 35 36 0D 0A "
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "0a78780a780d",
+    "726967612033370d0a726967612033370d0a",
+    "726967612034360d0a726967612034360d0a726967612034360d0a726967612034360d0a",
+    "62e280a8",
+    "e282ac092020e280a80b0d0ac3a9000b0de282ac0d",
+    "0a0d0d780a780d",
+    "0de280a8f09f9099000000f09f90990d00c3a962",
+    "28b017697f5744ff09",
+    "0d78",
+    "e8f8d6715552287d5d",
+    "0a0d0a0d0d0a78",
+    "0d0d0a0a780a0a0a"
+   ],
+   "righe": 1,
+   "testo": "0A 78 78 0A 78 0D 72 69 67 61 20 33 37 0D 0A 72 69 67 61 20 33 37 0D 0A 72 69 67 61 20 34 36 0D 0A 72 69 67 61 20 34 36 0D 0A 72 69 67 61 20 34 36 0D 0A 72 69 67 61 20 34 36 0D 0A 62 E2 80 A8 E2 82 AC 09 20 20 E2 80 A8 0B 0D 0A C3 A9 00 0B 0D E2 82 AC 0D 0A 0D 0D 78 0A 78 0D 0D E2 80 A8 F0 9F 90 99 00 00 00 F0 9F 90 99 0D 00 C3 A9 62 28 B0 17 69 7F 57 44 FF 09 0D 78 E8 F8 D6 71 55 52 28 7D 5D 0A 0D 0A 0D 0D 0A 78 0D 0D 0A 0A 78 0A 0A 0A "
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "c3a90b",
+    "9099",
+    "71b3d3",
+    "61efb79062efb79163"
+   ],
+   "righe": 1,
+   "testo": "C3 A9 0B 90 99 71 B3 D3 61 EF B7 90 62 EF B7 91 63 "
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "0a0a0d0a",
+    "4d1f85e3c440",
+    "0bb48ebe338b76adbb",
+    "fffe",
+    "0d0a0a",
+    "5763d7bb",
+    "726967612034380d0a726967612034380d0a726967612034380d0a",
+    "09e280a80bc3a90be282ac0020",
+    "0d0ae280a80061"
+   ],
+   "righe": 1,
+   "testo": "0A 0A 0D 0A 4D 1F 85 E3 C4 40 0B B4 8E BE 33 8B 76 AD BB FF FE 0D 0A 0A 57 63 D7 BB 72 69 67 61 20 34 38 0D 0A 72 69 67 61 20 34 38 0D 0A 72 69 67 61 20 34 38 0D 0A 09 E2 80 A8 0B C3 A9 0B E2 82 AC 00 20 0D 0A E2 80 A8 00 61 "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "726967612039350d0a726967612039350d0a726967612039350d0a726967612039350d0a",
+    "0bf09f909920e280a90be280a90a0be280a8c3a90a002020",
+    "",
+    "726967612037340d0a726967612037340d0a726967612037340d0a726967612037340d0a",
+    "e282",
+    "61",
+    "c3a9090a0909e282ac0d0b0d0ae280a8f09f90996261c3a9",
+    "2282b8d0dc98"
+   ],
+   "righe": 16,
+   "testo": "riga 95\nriga 95\nriga 95\nriga 95\n\u000b🐙 \n\u000b\n\n\u000b\né\n\u0000  riga 74\nriga 74\nriga 74\nriga 74\n�aé\t\n\t\t€\n\u000b\n\n🐙baé\"���ܘ"
+  },
+  {
+   "esa": true,
+   "max": 5,
+   "pezzi": [
+    "20c3a909e280a8c3a90ae280a90b0d0a61f09f90990d0a",
+    "78"
+   ],
+   "righe": 1,
+   "testo": "20 C3 A9 09 E2 80 A8 C3 A9 0A E2 80 A9 0B 0D 0A 61 F0 9F 90 99 0D 0A 78 "
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "ac",
+    "e282",
+    "726967612035320d0a726967612035320d0a",
+    "e280a92000f09f9099e280a9000ae280a9e280a8e280a9f09f9099620d0a",
+    "6109610b0b",
+    "09c3a9e280a82009f09f909961610b0be280a962"
+   ],
+   "righe": 2,
+   "testo": "a\ta\u000b\u000b\té\n \t🐙aa\u000b\u000b\nb"
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "726967612031350d0a726967612031350d0a",
+    "78efbbbf6369616f",
+    "780d0a0a",
+    "0d787878",
+    "78efbbbf6369616f",
+    "f09f",
+    "06",
+    "0a",
+    "7c1109e6"
+   ],
+   "righe": 1,
+   "testo": "72 69 67 61 20 31 35 0D 0A 72 69 67 61 20 31 35 0D 0A 78 EF BB BF 63 69 61 6F 78 0D 0A 0A 0D 78 78 78 78 EF BB BF 63 69 61 6F F0 9F 06 0A 7C 11 09 E6 "
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "0d0d0d0d0a",
+    "62",
+    "59cb0a9eceef",
+    "e282ac0de280a80d0b620d0dc3a9",
+    "df742675e7d0",
+    "eda080",
+    "6262",
+    "9099",
+    "0d0a0a0a"
+   ],
+   "righe": 1,
+   "testo": "0D 0D 0D 0D 0A 62 59 CB 0A 9E CE EF E2 82 AC 0D E2 80 A8 0D 0B 62 0D 0D C3 A9 DF 74 26 75 E7 D0 ED A0 80 62 62 90 99 0D 0A 0A 0A "
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "77f1a29f5dadd05f",
+    "c2d2b83e598de26681"
+   ],
+   "righe": 1,
+   "testo": "w�]��_�Ҹ>Y��f�"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "e282",
+    "0d0d0a780a0a0a0a",
+    "0d0a78780d0d0a",
+    "ac"
+   ],
+   "righe": 1,
+   "testo": "�"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "780d0d780a78",
+    "61200d0a00e282ac0a200ae282ac09",
+    "57cf",
+    "0d780a0a",
+    "0d0d",
+    "61c2a062",
+    "726967612035310d0a726967612035310d0a726967612035310d0a726967612035310d0a",
+    "726967612035310d0a726967612035310d0a726967612035310d0a",
+    "168469a2f4df"
+   ],
+   "righe": 19,
+   "testo": "x\n\nx\nxa \n\u0000€\n \n€\tW�\nx\n\n\n\na briga 51\nriga 51\nriga 51\nriga 51\nriga 51\nriga 51\nriga 51\n\u0016�i���"
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "726967612037330d0a726967612037330d0a726967612037330d0a726967612037330d0a",
+    "fffe",
+    "726967612038320d0a726967612038320d0a726967612038320d0a",
+    "780d0a78780d0a78",
+    "30f995fa84336b5ac128",
+    "e280a8f09f9099000a0de282ace280a80b0d0020f09f9099e282ac",
+    "61efb79062efb79163",
+    "09e280a8e280a8e280a909e280a920e282ac0020e280a9c3a962",
+    "780d0a0a0d0d0a0d",
+    "726967612033370d0a726967612033370d0a726967612033370d0a726967612033370d0a"
+   ],
+   "righe": 1,
+   "testo": "72 69 67 61 20 37 33 0D 0A 72 69 67 61 20 37 33 0D 0A 72 69 67 61 20 37 33 0D 0A 72 69 67 61 20 37 33 0D 0A FF FE 72 69 67 61 20 38 32 0D 0A 72 69 67 61 20 38 32 0D 0A 72 69 67 61 20 38 32 0D 0A 78 0D 0A 78 78 0D 0A 78 30 F9 95 FA 84 33 6B 5A C1 28 E2 80 A8 F0 9F 90 99 00 0A 0D E2 82 AC E2 80 A8 0B 0D 00 20 F0 9F 90 99 E2 82 AC 61 EF B7 90 62 EF B7 91 63 09 E2 80 A8 E2 80 A8 E2 80 A9 09 E2 80 A9 20 E2 82 AC 00 20 E2 80 A9 C3 A9 62 78 0D 0A 0A 0D 0D 0A 0D 72 69 67 61 20 33 37 0D 0A 72 69 67 61 20 33 37 0D 0A 72 69 67 61 20 33 37 0D 0A 72 69 67 61 20 33 37 0D 0A "
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "0f638900747af9",
+    "61c2a062",
+    "61efb79062efb79163",
+    "7269676120300d0a7269676120300d0a",
+    "0d0d780d78",
+    "eda080",
+    "0ae282ac0ac3a90d0d0af09f9099c3a9e280a9200a0b20e280a8e280a9"
+   ],
+   "righe": 1,
+   "testo": ""
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "0b0de282ac610d0a61000be282ac000de280a9f09f9099e282ace282ac",
+    "726967612034350d0a726967612034350d0a726967612034350d0a",
+    "726967612032390d0a",
+    "ac4d6f6e",
+    "09e280a9e280a90d0a0d0a0d090be280a8620b0d0a62",
+    "ecf6b56de96a",
+    "",
+    "726967612031360d0a726967612031360d0a",
+    "eda080",
+    "78780d",
+    "726967612032380d0a726967612032380d0a726967612032380d0a726967612032380d0a"
+   ],
+   "righe": 2,
+   "testo": "riga 28\n"
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "ea4a",
+    "23ceadc108d37e08c7d0",
+    "0d0a2062",
+    "f09f9099e280a809c3a9610df09f9099",
+    "61090ac3a90a0b61c3a90d0a0ae282ace280a909f09f909961",
+    "726967612035310d0a",
+    "fffe"
+   ],
+   "righe": 2,
+   "testo": "\t🐙ariga 51\n��"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "0d0a0d78",
+    "09f09f909900",
+    "9099"
+   ],
+   "righe": 3,
+   "testo": "\n\nx\t🐙\u0000��"
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "0a0a0a780d0a7878",
+    "de91672137e016",
+    "726967612031370d0a726967612031370d0a726967612031370d0a726967612031370d0a"
+   ],
+   "righe": 1,
+   "testo": "0A 0A 0A 78 0D 0A 78 78 DE 91 67 21 37 E0 16 72 69 67 61 20 31 37 0D 0A 72 69 67 61 20 31 37 0D 0A 72 69 67 61 20 31 37 0D 0A 72 69 67 61 20 31 37 0D 0A "
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "9099",
+    "c0af",
+    "578b19d48b750138e895",
+    "06a7cea2d2e88930",
+    "0d0a0d0d0d0d",
+    "780d0a780d",
+    "0a0d780d0d0a0a",
+    "94f3",
+    "0d0d0a780a0d78"
+   ],
+   "righe": 1,
+   "testo": "90 99 C0 AF 57 8B 19 D4 8B 75 01 38 E8 95 06 A7 CE A2 D2 E8 89 30 0D 0A 0D 0D 0D 0D 78 0D 0A 78 0D 0A 0D 78 0D 0D 0A 0A 94 F3 0D 0D 0A 78 0A 0D 78 "
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "eddb",
+    "7269676120310d0a7269676120310d0a"
+   ],
+   "righe": 1,
+   "testo": "ED DB 72 69 67 61 20 31 0D 0A 72 69 67 61 20 31 0D 0A "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "61c2a062"
+   ],
+   "righe": 1,
+   "testo": "a b"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "e280a920",
+    "0062",
+    "00e280a800e280a86120",
+    "0d0a780a0d",
+    "e282",
+    "",
+    "fffe",
+    "ac",
+    "41b64e6fc1022df9f3",
+    "cec2",
+    "000d0be280a9",
+    "c3a9c3a90d00c3a9"
+   ],
+   "righe": 8,
+   "testo": "\n \u0000b\u0000\n\u0000\na \nx\n\n����A�No�\u0002-����\u0000\n\u000b\néé\n\u0000é"
+  },
+  {
+   "esa": true,
+   "max": 10,
+   "pezzi": [
+    "0d",
+    "0961e280a9e282ac20c3a961e280a800e282ace280a800e282ace282acf09f9099",
+    "20",
+    "726967612036370d0a726967612036370d0a726967612036370d0a",
+    "726967612033310d0a726967612033310d0a",
+    "f9b48c0a325588648f36"
+   ],
+   "righe": 1,
+   "testo": "0D 09 61 E2 80 A9 E2 82 AC 20 C3 A9 61 E2 80 A8 00 E2 82 AC E2 80 A8 00 E2 82 AC E2 82 AC F0 9F 90 99 20 72 69 67 61 20 36 37 0D 0A 72 69 67 61 20 36 37 0D 0A 72 69 67 61 20 36 37 0D 0A 72 69 67 61 20 33 31 0D 0A 72 69 67 61 20 33 31 0D 0A F9 B4 8C 0A 32 55 88 64 8F 36 "
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "0a0d",
+    "78efbbbf6369616f",
+    "0ae280a80d09e280a8e280a9c3a9",
+    "0a",
+    "9099",
+    "61efb79062efb79163",
+    "726967612032370d0a726967612032370d0a",
+    "0a780d78780a0a",
+    "2e495d867e5be1429393bfce"
+   ],
+   "righe": 3,
+   "testo": "xx\n\n.I]�~[�B����"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "726967612036350d0a726967612036350d0a",
+    "e24a7f96",
+    "78efbbbf6369616f",
+    "0a0a",
+    "14bba2a600",
+    "e282",
+    "0d0a61e280a861",
+    "620d620a09090920"
+   ],
+   "righe": 8,
+   "testo": "riga 65\nriga 65\n�J�x﻿ciao\n\n\u0014���\u0000�\na\nab\nb\n\t\t\t "
+  },
+  {
+   "esa": false,
+   "max": 2,
+   "pezzi": [
+    "726967612031370d0a726967612031370d0a726967612031370d0a",
+    "7269676120320d0a7269676120320d0a",
+    "726967612034350d0a726967612034350d0a726967612034350d0a726967612034350d0a",
+    "fffe",
+    "726967612036340d0a726967612036340d0a726967612036340d0a",
+    "e1128cdaf7c035",
+    "f09f",
+    "0d0d",
+    "726967612036360d0a726967612036360d0a726967612036360d0a726967612036360d0a"
+   ],
+   "righe": 2,
+   "testo": "riga 66\n"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "e280a80af09f9099c3a9f09f909909c3a962e280a9e280a90b090d",
+    "f09f90990b0d0ae280a9e280a80d0d0a",
+    "ac"
+   ],
+   "righe": 9,
+   "testo": "\n\n🐙é🐙\téb\n\n\u000b\t\n🐙\u000b\n\n\n\n\n�"
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "61efb79062efb79163",
+    "726967612033350d0a",
+    "dee15f2c4f0112609cf7e2",
+    "0a780a0d0a",
+    "0d",
+    "7269676120390d0a",
+    "88c094db353b4c3c257dc955",
+    "e282acc3a9e280a809c3a9c3a9",
+    "fffe",
+    "0a78780d",
+    "726967612036300d0a726967612036300d0a726967612036300d0a",
+    "6209e280a9200d0a0ae282ac09e282ac"
+   ],
+   "righe": 10,
+   "testo": "riga 9\n����5;L<%}�U€é\n\téé��\nxx\nriga 60\nriga 60\nriga 60\nb\t\n \n\n€\t€"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "89e5fab1eb3584d5",
+    "",
+    "0d0a0d780a",
+    "d3e1",
+    "0d0af09f90990a0d000d0af09f90990a0920e280a90000f09f909962",
+    "f09f9099e280a90d0be280a8",
+    "c0af",
+    "78efbbbf6369616f",
+    "",
+    "726967612037300d0a",
+    "8dfe6cdc78fe8ed2"
+   ],
+   "righe": 1,
+   "testo": "��l�x���"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "62e280a861",
+    "0d78780a",
+    "726967612036360d0a",
+    "f09f",
+    "eda080",
+    "0a0d",
+    "ac"
+   ],
+   "righe": 3,
+   "testo": "����\n\n�"
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "0d780d",
+    "0d780d780a0d0d",
+    "0af09f9099620a09090a",
+    "4a7cfaa3fcc2c3682c",
+    "0a0d0d780a0d0d",
+    "726967612033370d0a726967612033370d0a",
+    "f09f"
+   ],
+   "righe": 10,
+   "testo": "\t\t\nJ|�����h,\n\n\nx\n\n\nriga 37\nriga 37\n�"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "fffe",
+    "00e280a80d0a200a0d0a",
+    "e9071a33f74ff52771500d8f",
+    "0d0d0a78",
+    "726967612032370d0a726967612032370d0a",
+    "0b0af09f90992020f09f9099",
+    "61efb79062efb79163",
+    "0a0a780a"
+   ],
+   "righe": 15,
+   "testo": "��\u0000\n\n \n\n�\u0007\u001a3�O�'qP\n�\n\nxriga 27\nriga 27\n\u000b\n🐙  🐙a\nb\nc\n\nx\n"
+  },
+  {
+   "esa": false,
+   "max": 3,
+   "pezzi": [
+    "78780a",
+    "c3a9e280a9090b0dc3a90d0ae280a862e280a862",
+    "7269676120380d0a7269676120380d0a7269676120380d0a7269676120380d0a",
+    "ef191ba645565625df",
+    "5e562738c6857800",
+    "ac"
+   ],
+   "righe": 3,
+   "testo": "riga 8\nriga 8\n�\u0019\u001b�EVV%�^V'8ƅx\u0000�"
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "e282ac0900",
+    "0dc3a9",
+    "68f40caa9eea",
+    "726967612037330d0a726967612037330d0a726967612037330d0a726967612037330d0a",
+    "f125",
+    "ac",
+    "c0af",
+    "726967612039360d0a726967612039360d0a726967612039360d0a726967612039360d0a"
+   ],
+   "righe": 1,
+   "testo": ""
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "61c2a062",
+    "e280a90d62f09f909909e282acc3a9620d00000b",
+    "0d0a0a0d0d",
+    "0d78",
+    "0a0d0d0d7878",
+    "19f4edd4",
+    "",
+    "e282",
+    "ac",
+    "0a00000bc3a90062e280a800e280a9e280a862f09f9099f09f9099",
+    "61efb79062efb79163",
+    "fffe"
+   ],
+   "righe": 1,
+   "testo": "61 C2 A0 62 E2 80 A9 0D 62 F0 9F 90 99 09 E2 82 AC C3 A9 62 0D 00 00 0B 0D 0A 0A 0D 0D 0D 78 0A 0D 0D 0D 78 78 19 F4 ED D4  E2 82 AC 0A 00 00 0B C3 A9 00 62 E2 80 A8 00 E2 80 A9 E2 80 A8 62 F0 9F 90 99 F0 9F 90 99 61 EF B7 90 62 EF B7 91 63 FF FE "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "e280a800090b61e280a8",
+    "f043ec8a3f7a1f83b29e3b55",
+    "c0af",
+    "ac798589e2"
+   ],
+   "righe": 1,
+   "testo": "\n\u0000\t\u000ba\n�C�?z\u001f���;U���y���"
+  },
+  {
+   "esa": true,
+   "max": 10,
+   "pezzi": [
+    ""
+   ],
+   "righe": 1,
+   "testo": " "
+  },
+  {
+   "esa": true,
+   "max": 3,
+   "pezzi": [
+    "cc818d72c47952427ab9c4d1",
+    "fffe",
+    "0d",
+    "",
+    "780d0d0a0a0a",
+    "78",
+    "780d780a0a0d",
+    "611559c026be",
+    "f3",
+    "0d0a200a0d0d20e282ac",
+    "75989b79",
+    "726967612036370d0a"
+   ],
+   "righe": 1,
+   "testo": "CC 81 8D 72 C4 79 52 42 7A B9 C4 D1 FF FE 0D  78 0D 0D 0A 0A 0A 78 78 0D 78 0A 0A 0D 61 15 59 C0 26 BE F3 0D 0A 20 0A 0D 0D 20 E2 82 AC 75 98 9B 79 72 69 67 61 20 36 37 0D 0A "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "8a66"
+   ],
+   "righe": 1,
+   "testo": "�f"
+  },
+  {
+   "esa": true,
+   "max": 5000,
+   "pezzi": [
+    "726967612031310d0a726967612031310d0a726967612031310d0a",
+    "9099",
+    "f09f"
+   ],
+   "righe": 1,
+   "testo": "72 69 67 61 20 31 31 0D 0A 72 69 67 61 20 31 31 0D 0A 72 69 67 61 20 31 31 0D 0A 90 99 F0 9F "
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "0a78",
+    "",
+    "e280a8e282ac0909f09f9099e280a900e282acf09f90990d0b00",
+    "61c2a062",
+    "09",
+    "726967612035350d0a726967612035350d0a726967612035350d0a"
+   ],
+   "righe": 7,
+   "testo": "\nx\n€\t\t🐙\n\u0000€🐙\n\u000b\u0000a b\triga 55\nriga 55\nriga 55\n"
+  },
+  {
+   "esa": true,
+   "max": 5,
+   "pezzi": [
+    "ac",
+    "726967612036390d0a",
+    "0a0d",
+    "5aaac406623d94035c42",
+    "6209e280a90d0ac3a9e282ac0b0ac3a9000ae280a80b2000",
+    "0a0d78",
+    "eda080",
+    "61c2a062"
+   ],
+   "righe": 1,
+   "testo": "AC 72 69 67 61 20 36 39 0D 0A 0A 0D 5A AA C4 06 62 3D 94 03 5C 42 62 09 E2 80 A9 0D 0A C3 A9 E2 82 AC 0B 0A C3 A9 00 0A E2 80 A8 0B 20 00 0A 0D 78 ED A0 80 61 C2 A0 62 "
+  },
+  {
+   "esa": true,
+   "max": 10,
+   "pezzi": [
+    "0a78780a0d780d0a",
+    "090d0a0de280a9e280a80a0d0a00e280a8",
+    "620d0a00620a0d0d0a6162626120e280a920",
+    "726967612039360d0a726967612039360d0a",
+    "9099"
+   ],
+   "righe": 1,
+   "testo": "0A 78 78 0A 0D 78 0D 0A 09 0D 0A 0D E2 80 A9 E2 80 A8 0A 0D 0A 00 E2 80 A8 62 0D 0A 00 62 0A 0D 0D 0A 61 62 62 61 20 E2 80 A9 20 72 69 67 61 20 39 36 0D 0A 72 69 67 61 20 39 36 0D 0A 90 99 "
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "e280a909e280a90900620be282ace280a9",
+    "e280a80a61e282ac090a090d0a0d0d0a00"
+   ],
+   "righe": 5,
+   "testo": "a€\t\n\t\n\n\n\u0000"
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "c05cf1",
+    "",
+    "78780d0d",
+    "0a0d78780a0d",
+    "26b96c",
+    "e280a9620b0d",
+    "0d0d0a0a",
+    "0a",
+    "62c3a90bc3a9f09f9099000d0ae282ac000a096120",
+    "0d0ae280a909",
+    "726967612037300d0a726967612037300d0a"
+   ],
+   "righe": 10,
+   "testo": "\n\n\nbé\u000bé🐙\u0000\n€\u0000\n\ta \n\n\triga 70\nriga 70\n"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "e280a8200bf09f909962e280a90d200de280a8",
+    "ac",
+    "eda080"
+   ],
+   "righe": 4,
+   "testo": "\n \u000b🐙b\n\n \n\n����"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "726967612035320d0a"
+   ],
+   "righe": 2,
+   "testo": "riga 52\n"
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "090a202062f09f90990ae282ac00e282ace280a9e280a80dc3a9f09f9099",
+    "0d0d",
+    "6bd276a4",
+    ""
+   ],
+   "righe": 1,
+   "testo": "09 0A 20 20 62 F0 9F 90 99 0A E2 82 AC 00 E2 82 AC E2 80 A9 E2 80 A8 0D C3 A9 F0 9F 90 99 0D 0D 6B D2 76 A4  "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "62c3a9e280a80d0d0a0ac3a961f09f9099e282ac090920e282ac",
+    "67b886a061",
+    "",
+    "ac",
+    "00e280a861002062c3a9e282ac000d0020e282ac610b",
+    "726967612035380d0a726967612035380d0a",
+    "0d78",
+    "780d0d78780d",
+    "",
+    "780a7878",
+    "a62d9bcb47aa2c2346032d",
+    "0d78"
+   ],
+   "righe": 13,
+   "testo": "bé\n\n\n\néa🐙€\t\t €g���a�\u0000\na\u0000 bé€\u0000\n\u0000 €a\u000briga 58\nriga 58\n\nxx\n\nxx\nx\nxx�-��G�,#F\u0003-\nx"
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "000b000b",
+    "f09f",
+    "f09f",
+    "e280a9090bf09f90990000e282ace280a862e280a862",
+    "a142b0589012bab4f5e045",
+    "c0af",
+    "62e280a9"
+   ],
+   "righe": 1,
+   "testo": "00 0B 00 0B F0 9F F0 9F E2 80 A9 09 0B F0 9F 90 99 00 00 E2 82 AC E2 80 A8 62 E2 80 A8 62 A1 42 B0 58 90 12 BA B4 F5 E0 45 C0 AF 62 E2 80 A9 "
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "78780a",
+    "34db3abc631bc2a657",
+    "e282",
+    "0a78780a0d78"
+   ],
+   "righe": 5,
+   "testo": "xx\n4�:�c\u001b¦W�\nxx\n\nx"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "62620962f09f9099",
+    "61efb79062efb79163",
+    "726967612039320d0a",
+    "61c2a062",
+    "7269676120330d0a",
+    "78efbbbf6369616f",
+    "0a78",
+    "0d0a0d0d0d780d",
+    "59d7995d",
+    "0a",
+    "0a",
+    "0909"
+   ],
+   "righe": 13,
+   "testo": "bb\tb🐙a\nb\ncriga 92\na briga 3\nx﻿ciao\nx\n\n\n\nx\nYי]\n\n\t\t"
+  },
+  {
+   "esa": true,
+   "max": 10,
+   "pezzi": [
+    "61e280a9006161e282ac000a0a09",
+    "726967612033360d0a",
+    "0d0a0a0a7878",
+    "fffe",
+    "f8",
+    "78efbbbf6369616f",
+    "726967612033390d0a726967612033390d0a"
+   ],
+   "righe": 1,
+   "testo": "61 E2 80 A9 00 61 61 E2 82 AC 00 0A 0A 09 72 69 67 61 20 33 36 0D 0A 0D 0A 0A 0A 78 78 FF FE F8 78 EF BB BF 63 69 61 6F 72 69 67 61 20 33 39 0D 0A 72 69 67 61 20 33 39 0D 0A "
+  },
+  {
+   "esa": false,
+   "max": 1,
+   "pezzi": [
+    "6161f09f9099f09f9099f09f9099",
+    "726967612037350d0a726967612037350d0a",
+    "726967612036310d0a726967612036310d0a726967612036310d0a",
+    "620de280a8",
+    "0a0d0a0d0a",
+    "9099",
+    "fe4eb7c526",
+    "e280a8e280a9",
+    "db097fcde6e5c3c74886e4a3",
+    "62e280a800c3a90b20e280a80b0d0ae280a8c3a9c3a90009e280a9",
+    "bed916a8664c6103c8a6db",
+    "20620be280a9e282ac0d090a0ae280a961"
+   ],
+   "righe": 1,
+   "testo": "a"
+  },
+  {
+   "esa": true,
+   "max": 2,
+   "pezzi": [
+    "f09f",
+    "ac"
+   ],
+   "righe": 1,
+   "testo": "F0 9F AC "
+  },
+  {
+   "esa": false,
+   "max": 10,
+   "pezzi": [
+    "0a0d",
+    "726967612036310d0a726967612036310d0a",
+    "c0af",
+    "0de280a9090a00610d0a09e280a90d610a0ac3a9e282ac",
+    "780a780a0d",
+    "c7a7ea0cb852305a9d",
+    "726967612032330d0a726967612032330d0a"
+   ],
+   "righe": 10,
+   "testo": "\t\n\na\n\né€x\nx\n\nǧ�\f�R0Z�riga 23\nriga 23\n"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "e282acc3a9e282ac20f09f90990ae282ac090d0a0d0d0ae280a9",
+    "0d",
+    "e9fdf13c1c6a71",
+    "4d41242c03a00b4d46d01b",
+    "7269676120360d0a7269676120360d0a",
+    "8cb224561b8b",
+    "fffe",
+    "61c2a062",
+    "e1",
+    "fffe",
+    "0a"
+   ],
+   "righe": 5,
+   "testo": "\n���<\u001cjqMA$,\u0003�\u000bMF�\u001briga 6\nriga 6\n��$V\u001b���a b���\n"
+  },
+  {
+   "esa": false,
+   "max": 5000,
+   "pezzi": [
+    "123aa4",
+    "78780d0d78780d78",
+    "0b620d0ac3a961e282ac",
+    "726967612039390d0a726967612039390d0a726967612039390d0a",
+    "54640ddbf6aadb6bfb10",
+    "f9d33ed8cb3018",
+    "726967612031390d0a726967612031390d0a726967612031390d0a726967612031390d0a"
+   ],
+   "righe": 13,
+   "testo": "\u0012:�xx\n\nxx\nx\u000bb\néa€riga 99\nriga 99\nriga 99\nTd\n����k�\u0010��>��0\u0018riga 19\nriga 19\nriga 19\nriga 19\n"
+  },
+  {
+   "esa": false,
+   "max": 5,
+   "pezzi": [
+    "7d1aa2e0a2bc48efac86de",
+    "61c2a062",
+    "61efb79062efb79163",
+    "c0af",
+    "0a0dc3a90df09f90990de280a8",
+    "0a0a0a0d780d0d0a",
+    "0d0a61e280a8c3a90dc3a9e280a90d0bc3a909c3a9",
+    "4baee1bee4665240",
+    "0d0d780a",
+    "4cb75a9ef7",
+    "726967612034340d0a726967612034340d0a726967612034340d0a",
+    "000a0961c3a90b0d0a09c3a90ae280a861"
+   ],
+   "righe": 5,
+   "testo": "riga 44\n\u0000\n\taé\u000b\n\té\n\na"
+  }
+ ],
+ "sequenza": [
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Nessuna porta seriale disponibile.",
+     true
+    ]
+   ],
+   "passo": "apri_senza_porte"
+  },
+  {
+   "eventi": [
+    [
+     "console",
+     "COM4",
+     115200,
+     true
+    ],
+    [
+     "avviso",
+     "Console aperta su COM4 a 115200 baud.",
+     false
+    ]
+   ],
+   "passo": "apri"
+  },
+  {
+   "eventi": [
+    [
+     "chiusa"
+    ],
+    [
+     "avviso",
+     "Console chiusa.",
+     false
+    ],
+    [
+     "console",
+     "COM4",
+     115200,
+     true
+    ],
+    [
+     "avviso",
+     "Console aperta su COM4 a 115200 baud.",
+     false
+    ]
+   ],
+   "passo": "apri_di_nuovo"
+  },
+  {
+   "eventi": [
+    [
+     "chiusa"
+    ],
+    [
+     "avviso",
+     "Console chiusa.",
+     false
+    ]
+   ],
+   "passo": "chiudi"
+  },
+  {
+   "eventi": [],
+   "passo": "chiudi_di_nuovo"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Apri prima la console.",
+     true
+    ]
+   ],
+   "passo": "invia_senza_console"
+  },
+  {
+   "eventi": [
+    [
+     "console",
+     "COM4",
+     300,
+     false
+    ],
+    [
+     "avviso",
+     "Console aperta su COM4 a 300 baud.",
+     false
+    ]
+   ],
+   "passo": "apri_300_senza_riavvio"
+  },
+  {
+   "eventi": [
+    [
+     "console",
+     "COM4",
+     300,
+     false
+    ],
+    [
+     "avviso",
+     "Porta COM4 occupata da un altro programma",
+     true
+    ]
+   ],
+   "passo": "apri_errore"
+  }
+ ],
+ "velocita": [
+  {
+   "baud": 1200,
+   "r": {
+    "errore": {
+     "msg": "1200 baud fa ripartire molte schede (ESP32-S3, Leonardo) nel bootloader: scegli un'altra velocità",
+     "tipo": "ConsoleError"
+    }
+   }
+  },
+  {
+   "baud": 300,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 115200,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 0,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 1199,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 1201,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": -1200,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 2400,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 921600,
+   "r": {
+    "ok": null
+   }
+  },
+  {
+   "baud": 1200.0,
+   "r": {
+    "errore": {
+     "msg": "1200 baud fa ripartire molte schede (ESP32-S3, Leonardo) nel bootloader: scegli un'altra velocità",
+     "tipo": "ConsoleError"
+    }
+   }
+  }
+ ]
+}

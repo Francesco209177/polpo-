@@ -75,3 +75,39 @@ Solo se il telefono ha un emettitore infrarosso (pochi modelli).
 | Metodo | Risultato |
 |---|---|
 | `irTrasmetti(frequenza, tempi)` | `tempi` = JSON di durate in µs, impulso e pausa alternati, primo = impulso. Rifiutato se il telefono non ha l'emettitore, oltre 1024 durate, oltre 2 s in tutto o con frequenza fuori da 20–60 kHz. `true` se trasmesso |
+
+## Dettagli dell'app (versione 0.5)
+
+Comportamenti precisi dell'app per Android, da tenere presenti nelle pagine:
+
+- **Esiti come eventi.** Anche un rifiuto immediato arriva come evento: `nfcAvvia()` e `nfcScrivi()` restituiscono
+  `false` e mandano `nfc.errore {messaggio}` con il motivo vero (NFC spento, contenuto non valido, scrittura già in
+  attesa). I metodi Bluetooth non restituiscono niente: errori con `ble.errore`.
+- **USB.**
+  - L'`id` è il numero che Android dà al dispositivo e **cambia quando il dispositivo si ricollega** (per esempio
+    dopo il tocco a 1200 baud il Polpo ricompare nel bootloader con un `id` nuovo, annunciato da `usb.cambiati`).
+  - `serialeApri(id)` funziona anche con un solo argomento; opzioni vuote valgono `{baud: 115200, dtr: true, rts: false}`.
+    Aprire una porta chiude quella aperta prima.
+  - `serialeScrivi` e `serialeLinee` sono sincroni e in ordine (almeno 4 KB per scrittura); `serialeLinee` cambia solo
+    le linee diverse, prima DTR. `serialeBaud` accetta da 300 a 4 000 000 baud, mai 1200.
+  - `seriale.dati` porta i byte in ordine, senza perdite. Staccando il dispositivo arriva prima `usb.cambiati`, poi
+    `seriale.chiusa {motivo: "scollegato"}`.
+  - `serialeToccoBootloader(id)` non restituisce niente: l'esito è l'evento `seriale.tocco`.
+- **NFC.**
+  - La lettura si ferma quando l'app va in secondo piano e riparte da sola al ritorno, se la pagina non ha chiamato
+    `nfcFerma()`. Con una scrittura in attesa, il tag appoggiato è usato per la scrittura (niente `nfc.tag`).
+  - I tag che non sono ISO 14443-A hanno `atqa: -1` e `sak: -1` e una famiglia come «FeliCa (NFC-F)».
+  - `nfc.scritto.bytes` conta i byte che il messaggio occupa sul tag, come il firmware.
+- **Bluetooth LE.**
+  - `mfr_id` vale `-1` quando l'annuncio non ha dati del produttore (il firmware del Polpo manda 0).
+  - `bleScansiona(ms)` porta `ms` tra 500 e 10 000; dopo 5 ricerche in 30 s Android smette di rispondere, quindi
+    l'app rifiuta la sesta con un `ble.errore` chiaro.
+  - Un collegamento può metterci fino a 15 s prima di «il dispositivo non risponde». `bleScollega()` manda sempre
+    `ble.scollegato`. Gli UUID negli eventi sono completi e minuscoli; i metodi accettano anche le forme brevi
+    (`"180F"`, `"0x2A19"`).
+  - Leggere una caratteristica cifrata può far proporre ad Android l'abbinamento: l'app non lo avvia mai e la persona
+    può rifiutarlo.
+- **Infrarossi.** Oltre ai limiti scritti sopra valgono le frequenze dichiarate dal telefono, se le dichiara.
+  `irTrasmetti` blocca la pagina per tutta la trasmissione (al massimo 2 s).
+- **Schermo.** Durante l'aggiornamento del firmware la pagina chiede di tenere lo schermo acceso (Wake Lock, dove la
+  WebView lo permette) e lo scrive nella conferma.

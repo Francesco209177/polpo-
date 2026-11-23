@@ -316,6 +316,30 @@ def build_studio_catalog(out: Path) -> None:
     write(out / "assets/js/studio/catalogo-dati.js", "// Generato da site/build.py dal catalogo di Polpo Studio: non modificare a mano.\nexport const CATALOGO = " + testo + ";\n")
 
 
+def build_firmware_data(out: Path, ctx: dict[str, str], app: bool = False) -> None:
+    """Il firmware che Polpo Studio nel telefono sa scrivere (studio/polpo_studio/resources/firmware.json).
+
+    Genera assets/js/studio/firmware-dati.js con versione, file, indirizzo e impronta SHA-256; nell'app copia anche
+    l'immagine dell'applicazione in installa/, dove la legge l'aggiornamento via cavo (aggiornamento/firmware.js).
+    """
+    info = json.loads((ROOT / "studio/polpo_studio/resources/firmware.json").read_text(encoding="utf-8"))
+    dati = {k: info[k] for k in ("version", "app_file", "app_offset", "sha256")}
+    if dati["version"] != ctx["fw_version"]:
+        raise BuildError(f"firmware.json è della versione {dati['version']}, il firmware della {ctx['fw_version']}")
+    if int(dati["app_offset"], 0) != 0x10000:
+        raise BuildError(f"firmware.json: l'applicazione va a 0x10000, non a {dati['app_offset']}")
+    sorgente = ROOT / "polpo/release" / dati["app_file"]
+    if not sorgente.is_file():
+        raise BuildError(f"firmware dell'applicazione non trovato: {sorgente}")
+    if hashlib.sha256(sorgente.read_bytes()).hexdigest() != dati["sha256"]:
+        raise BuildError(f"{dati['app_file']}: l'impronta SHA-256 non è quella di firmware.json")
+    testo = json.dumps(dati, indent=1)
+    write(out / "assets/js/studio/firmware-dati.js", "// Generato da site/build.py da studio/polpo_studio/resources/firmware.json: non modificare a mano.\nexport const FIRMWARE = Object.freeze(" + testo + ");\n")
+    if app:
+        (out / "installa").mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(sorgente, out / "installa" / dati["app_file"])
+
+
 # ---------------- firmware e microSD ----------------
 
 
@@ -566,6 +590,7 @@ def main(argv: list[str] | None = None) -> int:
             shutil.copytree(SITE / "vendor", out / "vendor", ignore=shutil.ignore_patterns("*.md"))
         urls = build_pages(out, ctx, template, app=args.app)
         build_studio_catalog(out)
+        build_firmware_data(out, ctx, app=args.app)
         if args.firmware_web:
             urls += build_firmware_simulator(out, ctx, template, Path(args.firmware_web).resolve())
         else:

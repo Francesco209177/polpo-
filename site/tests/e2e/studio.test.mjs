@@ -52,7 +52,9 @@ test("Studio: senza Polpo le funzioni dicono cosa serve, il collegamento va acce
   const { pagina, contesto, problemi } = await apriStudio();
   assert.equal(await stato(pagina), "chiuso");
   assert.equal(await statoFunzione(pagina, "polpo.info"), "richiede_hardware");
-  assert.equal(await statoFunzione(pagina, "polpo.firmware"), "non_disponibile");
+  // l'aggiornamento del firmware chiede il Polpo con il cavo; le app di terze parti (Python) ci sono solo sul PC
+  assert.equal(await statoFunzione(pagina, "polpo.firmware"), "richiede_hardware");
+  assert.equal(await statoFunzione(pagina, "apps.third_party"), "non_disponibile");
   assert.equal(await pagina.locator('[data-funzione="polpo.info"] fieldset[disabled]').count(), 1);
   await collegaVirtuale(pagina);
   assert.match(await pagina.textContent("#st-stato"), /Polpo virtuale \(SIMULATO\)/);
@@ -76,7 +78,7 @@ test("Studio: uno script copiato sul Polpo virtuale ed eseguito dopo la conferma
   await collegaVirtuale(pagina);
   await pagina.click('a[href="#script"]');
   await pagina.fill('[aria-label="Il programma"]', 'scrivi("ciao dal telefono")\nscrivi(6 * 7)\n');
-  await pagina.click("text=Controlla");
+  await pagina.click('#m-script button:text-is("Controlla")');
   await pagina.waitForSelector("text=Nessun errore: il programma è scritto bene (SIMULATO).");
   await pagina.click("text=Esegui sul Polpo");
   await pagina.waitForSelector("text=Chiedo di avviarlo: conferma sullo schermo del Polpo.");
@@ -88,7 +90,7 @@ test("Studio: uno script copiato sul Polpo virtuale ed eseguito dopo la conferma
   assert.match(await pagina.inputValue('[aria-label="Ciò che il programma scrive"]'), /ciao dal telefono\n42/);
   // un errore nel programma: riga e spiegazione, niente esecuzione
   await pagina.fill('[aria-label="Il programma"]', "se 1 > 0\n  scrivi(1)\n");
-  await pagina.click("text=Controlla");
+  await pagina.click('#m-script button:text-is("Controlla")');
   await pagina.waitForSelector("text=/^Riga 1: /");
   assert.deepEqual(problemi, []);
   await contesto.close();

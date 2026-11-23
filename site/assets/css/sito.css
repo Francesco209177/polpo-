@@ -459,7 +459,9 @@ html:has(body.pagina-studio) { scroll-padding: 96px 0 88px; }
 .st-scheda { flex: none; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: .95rem; }
 .st-scheda[aria-current="page"] { background: var(--studio-soft); color: var(--studio); border-color: var(--studio); }
 .st-modulo > h2 { margin: 12px 0; }
-.st-griglia { display: grid; gap: 14px; }
+.st-griglia { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); } /* una tabella larga scorre, non allarga la pagina */
+.st-log { margin: 0; max-height: 16em; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .86rem; }
+.st-log:empty { display: none; }
 @media (min-width: 900px) { .st-griglia { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .st-funz h3 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 0; font-size: 1.08rem; }
 .st-motivo { color: var(--muted); }

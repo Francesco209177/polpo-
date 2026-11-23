@@ -281,6 +281,18 @@ export function prendiPy(oggetto, chiave, predefinito = null) {
   return Object.prototype.hasOwnProperty.call(oggetto, chiave) && oggetto[chiave] !== undefined ? oggetto[chiave] : predefinito;
 }
 
+/** Come `valore[chiave]` in Python su un valore arrivato da JSON (chiave testo): KeyError o TypeError come Python. */
+export function chiavePy(valore, chiave) {
+  const tipo = nomeTipoPy(valore);
+  if (tipo === "dict") {
+    if (!Object.prototype.hasOwnProperty.call(valore, chiave) || valore[chiave] === undefined) throw errorePy("KeyError", reprPy(chiave));
+    return valore[chiave];
+  }
+  if (tipo === "str") throw errorePy("TypeError", "string indices must be integers, not 'str'");
+  if (tipo === "list") throw errorePy("TypeError", "list indices must be integers or slices, not str");
+  throw errorePy("TypeError", `'${tipo}' object is not subscriptable`);
+}
+
 // ---------------- int() e float() ----------------
 
 const LIMITE_CIFRE = 4300; // sys.get_int_max_str_digits() di Python
@@ -575,6 +587,18 @@ export function formatIntPy(n, spec) {
   const larghezza = m[2] ? Number(m[2]) : 0;
   if (m[1]) return segno + s.padStart(larghezza - segno.length, "0");
   return (segno + s).padStart(larghezza, " ");
+}
+
+/**
+ * Come format(x, spec) (o f"{x:spec}") di Python con una specifica da interi ("02X", "04X", "d"...) su un valore arrivato
+ * da JSON: interi e booleani si formattano, gli altri tipi danno lo stesso errore di Python.
+ */
+export function formatValorePy(x, spec) {
+  if (typeof x === "boolean") return formatIntPy(x ? 1 : 0, spec);
+  if (typeof x === "bigint" || (typeof x === "number" && Number.isInteger(x))) return formatIntPy(x, spec);
+  const tipo = nomeTipoPy(x);
+  if (tipo === "float" || tipo === "str") throw errorePy("ValueError", `Unknown format code '${spec.at(-1)}' for object of type '${tipo}'`);
+  throw errorePy("TypeError", `unsupported format string passed to ${tipo}.__format__`);
 }
 
 /** Come round(x, cifre) di Python per un numero decimale (cifre >= 0): arrotondamento al pari sul valore esatto. */

@@ -1,7 +1,10 @@
 package io.github.francesco209177.polpo
 
+import android.util.Base64
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import org.json.JSONArray
+import org.json.JSONObject
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Assert.fail
@@ -13,7 +16,7 @@ import java.util.concurrent.atomic.AtomicReference
 
 /**
  * Sull'emulatore (in CI): l'app si apre, mostra il sito, accende il Polpo simulato con il firmware vero,
- * esegue uno script e non chiede nulla a Internet.
+ * esegue uno script e non chiede nulla a Internet; il ponte con il telefono risponde anche senza NFC né infrarossi.
  */
 @RunWith(AndroidJUnit4::class)
 class AppTest {
@@ -36,6 +39,9 @@ class AppTest {
         }
         fail("non succede entro $secondi s: $condizione — pagina: " + js(scenario, "location.href + ' ' + document.title"))
     }
+
+    // il risultato di evaluateJavascript per una stringa è la stringa in JSON
+    private fun stringa(json: String): String = JSONArray("[$json]").getString(0)
 
     private fun vai(scenario: ActivityScenario<MainActivity>, percorso: String) {
         scenario.onActivity { it.webView.loadUrl(Risorse.INIZIO + percorso) }
@@ -80,6 +86,45 @@ class AppTest {
             js(s, "document.querySelector('[data-tasto=ok]').click(); 1")
             aspetta(s, "document.getElementById('st-stato').dataset.stato === 'collegato'", 20)
             assertTrue(js(s, "document.getElementById('st-stato').textContent").contains("SIMULATO"))
+        }
+    }
+
+    @Test
+    fun ilPonteRispondeAncheSenzaNfcNeInfrarossi() {
+        ActivityScenario.launch(MainActivity::class.java).use { s ->
+            aspetta(s, "document.readyState === 'complete'")
+            val t = JSONObject(stringa(js(s, "PolpoNativo.telefono()")))
+            val stati = setOf("assente", "spento", "pronto")
+            assertTrue(t.toString(), t.getString("nfc") in stati && t.getString("bluetooth") in stati)
+            val ir = t.getBoolean("ir")
+            t.getBoolean("usbHost")
+            // sull'emulatore non c'è nessun dispositivo USB
+            assertEquals("\"[]\"", js(s, "PolpoNativo.usbElenco()"))
+            // fuori dai limiti la trasmissione è sempre rifiutata; senza emettitore lo è sempre
+            assertEquals("false", js(s, "PolpoNativo.irTrasmetti(10000, '[9000,4500,560]')"))
+            assertEquals("false", js(s, "PolpoNativo.irTrasmetti(38000, JSON.stringify(new Array(1025).fill(100)))"))
+            assertEquals("false", js(s, "PolpoNativo.irTrasmetti(38000, 'non json')"))
+            if (!ir) assertEquals("false", js(s, "PolpoNativo.irTrasmetti(38000, '[9000,4500,560]')"))
+            // i file del sito inclusi nell'app, in base64; niente fuori dalla cartella
+            val indice = String(Base64.decode(stringa(js(s, "PolpoNativo.risorsaBase64('index.html')")), Base64.DEFAULT))
+            assertTrue(indice.contains("<html"))
+            assertEquals("\"\"", js(s, "PolpoNativo.risorsaBase64('../segreto')"))
+            assertEquals("\"\"", js(s, "PolpoNativo.risorsaBase64('non-esiste.bin')"))
+            if (t.getString("nfc") != "pronto") {
+                assertEquals("false", js(s, "PolpoNativo.nfcAvvia()"))
+                assertEquals("false", js(s, "PolpoNativo.nfcScrivi('{\"kind\":\"text\",\"value\":\"ciao\"}')"))
+            }
+            // gli esiti arrivano come eventi: 1200 baud rifiutato (con le opzioni), dispositivo assente (senza)
+            js(s, "window.__eventi = []; window.__polpoNativo = function (e) { window.__eventi.push(e) }; " +
+                "PolpoNativo.serialeApri('1', '{\"baud\":1200}'); PolpoNativo.serialeApri('999999'); 1")
+            aspetta(s, "window.__eventi.length >= 2", 10)
+            val eventi = JSONArray(stringa(js(s, "JSON.stringify(window.__eventi)")))
+            assertEquals("seriale.errore", eventi.getJSONObject(0).getString("tipo"))
+            assertTrue(eventi.getJSONObject(0).getString("messaggio").contains("1200"))
+            assertEquals("seriale.errore", eventi.getJSONObject(1).getString("tipo"))
+            assertTrue(eventi.getJSONObject(1).getString("messaggio").contains("scollegato"))
+            assertEquals("false", js(s, "PolpoNativo.serialeLinee(true, false)")) // nessuna porta aperta
+            assertEquals("false", js(s, "PolpoNativo.serialeBaud(9600)"))
         }
     }
 

@@ -34,11 +34,13 @@ const MODULI_POLPO = ["ir_tx", "ir_unit", "rf433", "rfid2", "wifi", "ble", "usb_
  * niente viene finto.
  */
 export const NELL_APP = new Set([
-  "polpo.info", "polpo.diag", "polpo.sd_backup", "polpo.wifi_scan", "polpo.ble_scan",
+  "polpo.info", "polpo.diag", "polpo.sd_backup", "polpo.wifi_scan", "polpo.ble_scan", "polpo.firmware",
   "radio.bands", "radio.rx", "radio.raw", "radio.analysis", "radio.archive", "radio.tx", "radio.editor", "radio.report",
   "nfc.detect", "nfc.read", "nfc.analysis", "nfc.ndef", "nfc.archive", "nfc.write",
-  "ir.library", "ir.send", "ir.learn",
-  "gpio.grove", "gpio.calc",
+  "ble.scan", "ble.gatt", "ble.rw", "ble.connect", "ble.authorized",
+  "ir.library", "ir.send", "ir.learn", "ir.import", "ir.profiles",
+  "gpio.grove", "gpio.calc", "gpio.console", "gpio.boards", "gpio.bridge",
+  "ib.read", "ib.analysis", "ib.archive",
   "apps.catalog", "apps.builtin",
   "rfid125.read", "rfid125.formats", "rfid125.archive",
   "usb.devices", "usb.serial", "usb.hid", "usb.tester", "usb.ducky", "usb.ducky_copy",
@@ -78,7 +80,8 @@ const STRADE_TELEFONO = {
   "gpio.console": [["otg.seriale"]],
   "gpio.boards": [["telefono.usb"]],
   "gpio.flash": [{ hardware: ["otg.seriale"], sperimentale: true }],
-  "polpo.firmware": [{ hardware: ["polpo", "otg.seriale"], sperimentale: true }],
+  // basta il Polpo collegato con il cavo (anche senza Polpo Link): l'aggiornamento cerca un dispositivo Espressif
+  "polpo.firmware": [{ hardware: ["otg.seriale"], sperimentale: true }],
   "rfid125.read": [["rfid125.usb", "telefono.usb"], ["rfid125.rdm6300", "otg.seriale"]],
 };
 

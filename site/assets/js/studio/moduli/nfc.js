@@ -67,22 +67,32 @@ export function crea(ctx) {
     }
   });
   const leggiTelefono = () => {
-    if (!nativo || !nativo.nfcAvvia || !nativo.nfcAvvia()) { ctx.avvisa("L'NFC del telefono non è disponibile: è acceso?", "errore"); return; }
+    if (!nativo || !nativo.nfcAvvia) { ctx.avvisa("L'NFC del telefono si usa dall'app per Android.", "errore"); return; }
+    ctx.avvisa("Appoggia il tag sul retro del telefono (dove c'è l'antenna NFC)…");
     attesaTelefono = "lettura";
     clearTimeout(fineAttesa);
+    if (!nativo.nfcAvvia()) {
+      // il motivo arriva con «nfc.errore»
+      fineAttesa = setTimeout(() => { if (attesaTelefono === "lettura") { attesaTelefono = null; ctx.avvisa("L'NFC del telefono non è disponibile: è acceso?", "errore"); } }, 3000);
+      return;
+    }
     fineAttesa = setTimeout(() => { if (attesaTelefono === "lettura") { fermaTelefono(); ctx.avvisa("Nessun tag appoggiato al telefono."); } }, 30000);
-    ctx.avvisa("Appoggia il tag sul retro del telefono (dove c'è l'antenna NFC)…");
   };
   const scriviTelefono = () => {
     const p = preparaScrittura(tipo.value, valore.value, lingua.value);
     if (!p.ok) { ctx.avvisa(p.errore, "errore"); return; }
     if (!ctx.richiediLaboratorio(p.azioneLaboratorio)) return;
     if (!confirm(`${p.titoloConferma}\n\nContenuto: ${p.args.value}\nDopo la conferma appoggia il TUO tag sul retro del telefono entro 20 secondi.`)) return;
-    if (!nativo || !nativo.nfcScrivi || !nativo.nfcScrivi(JSON.stringify(p.args))) { ctx.avvisa("L'NFC del telefono non è disponibile: è acceso?", "errore"); return; }
+    if (!nativo || !nativo.nfcScrivi) { ctx.avvisa("L'NFC del telefono si usa dall'app per Android.", "errore"); return; }
+    ctx.avvisa("Appoggia il tag sul retro del telefono…");
     attesaTelefono = "scrittura";
     clearTimeout(fineAttesa);
+    if (!nativo.nfcScrivi(JSON.stringify(p.args))) {
+      // rifiutata subito: il motivo arriva con «nfc.errore» (android/PONTE.md)
+      fineAttesa = setTimeout(() => { if (attesaTelefono === "scrittura") { attesaTelefono = null; ctx.avvisa("La scrittura con il telefono non è partita: l'NFC è acceso?", "errore"); } }, 3000);
+      return;
+    }
     fineAttesa = setTimeout(() => { if (attesaTelefono === "scrittura") { attesaTelefono = null; ctx.avvisa("Nessun tag appoggiato: niente è stato scritto.", "avviso"); } }, 21000);
-    ctx.avvisa("Appoggia il tag sul retro del telefono…");
   };
   const conTelefono = () => !!(ctx.hw["telefono.nfc"] && ctx.hw["telefono.nfc"].presenza === "rilevato");
   const bottoniTelefono = [];

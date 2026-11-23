@@ -131,14 +131,32 @@ trasmettere danno gli stessi risultati.
 - **Moduli**: Polpo (informazioni, diagnostica, microSD, reti Wi-Fi e Bluetooth vicine), Script, Infrarossi
   (libreria, telecomandi personali, apprendimento), Radio 433 (ricezione, RAW e analisi, archivio con i tuoi
   dispositivi, editor, report, trasmissione), NFC (lettura e analisi, analizzatore NDEF, archivio, scrittura su tag
-  tuoi), GPIO (pin e bus I2C della porta Grove), Archivio, Sicurezza, Registro, Impostazioni e l'elenco di tutte le
-  funzioni con il loro stato nel telefono.
+  tuoi), Bluetooth, RFID 125 kHz, iButton, USB (dispositivi collegati, tester di tastiera e mouse, editor
+  DuckyScript), GPIO (pin e bus I2C della porta Grove, console seriale, schede collegate, Polpo Bridge, calcolatori),
+  App (strumenti integrati), Archivio, Sicurezza, Registro, Impostazioni e l'elenco di tutte le funzioni con il loro
+  stato nel telefono.
+- **Il telefono da solo** (dalla versione 0.5), senza Cardputer:
+  - **NFC del telefono**: legge i tag (con la stessa analisi del Polpo) e scrive un link o un testo NDEF su tag tuoi,
+    già formattati e non bloccati, con modalità laboratorio e conferma; poi rilegge per verificare. Niente emulazione
+    di carte e niente formattazione o blocco dei tag.
+  - **Bluetooth del telefono**: ricerca passiva dei dispositivi vicini; collegamento, servizi, letture e notifiche
+    solo con i dispositivi che hai autorizzato (registro nella cassaforte, compatibile con il PC). Niente scritture,
+    abbinamenti o annunci.
+  - **Infrarossi del telefono**: se il telefono ha l'emettitore, «Invia con il telefono» nel modulo Infrarossi.
+  - **Cavo OTG** (hardware esterno): lettori RFID 125 kHz «a tastiera» e RDM6300, console seriale (mai 1200 baud),
+    schede collegate, **Polpo Bridge** con pin, ADC, I2C e chiavi **iButton** (solo il codice ROM). Le uscite del
+    Bridge chiedono la modalità laboratorio.
+  - **Aggiornamento del firmware** (*Sperimentale*, modulo Polpo): scrive con il cavo il firmware incluso nell'app,
+    solo l'applicazione a 0x10000 e solo se l'impronta SHA-256 è quella fissata; modalità laboratorio e conferma.
+    Usa esptool-js 0.7.1 (Apache-2.0), copiato nell'app con la sua impronta.
+  - **DuckyScript**: l'editor controlla lo script e lo copia sul Polpo con la conferma sul suo schermo; dal telefono
+    non parte mai.
 - **Sicurezza**: la stessa cassaforte cifrata del PC (frase di accesso, chiave di recupero, PIN e blocco
   automatico, registro attività con catena HMAC). I backup **`.polpobak` si scambiano tra telefono e PC** in entrambe
   le direzioni. Trasmettere e scrivere richiedono la **modalità laboratorio**, con le stesse regole.
-- **Non ancora nel telefono**: RFID 125 kHz, iButton, Bluetooth e USB del telefono, console seriale, Polpo Bridge,
-  aggiornamento del firmware, DuckyScript e app. Nell'elenco delle funzioni sono segnate «Non disponibile», con il
-  motivo.
+- **Non nel telefono**: le app di terze parti (sono programmi Python), i lettori NFC PC/SC (c'è l'NFC del telefono),
+  la programmazione di altre schede ESP32 e la sincronizzazione con la microSD. Nell'elenco delle funzioni sono
+  segnate «Non disponibile», con il motivo. Il Polpo via Bluetooth arriverà nella versione 0.6.
 
 Il codice è in `site/assets/js/studio/` e `site/app/studio.html`; l'app in `android/` (vedi `android/LEGGIMI.md`).
 
@@ -146,5 +164,5 @@ Il codice è in `site/assets/js/studio/` e `site/app/studio.html`; l'app in `and
 
 Polpo Studio è stato provato con test automatici, il Polpo virtuale e porte seriali simulate (pty), non con un
 Polpo, adattatori Bluetooth, lettori NFC/125 kHz o schede Arduino veri. La versione nel telefono è provata nel
-browser con lo schermo di un telefono e su un telefono Android emulato, non su un telefono vero con il cavo OTG. Le parti segnate **Sperimentali**
+browser con lo schermo di un telefono e su un telefono Android emulato, non su un telefono vero con il cavo OTG, l'NFC, il Bluetooth o l'infrarosso veri. Le parti segnate **Sperimentali**
 (aggiornamento firmware, lettore PC/SC, Polpo Bridge, iButton, app di terze parti) vanno provate con attenzione.

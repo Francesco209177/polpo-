@@ -2,6 +2,7 @@
 import { h, tabella, sostituisci, dimensione } from "../ui.js";
 import { percorsoValido } from "../link/proto.js";
 import { creaZip } from "../zip.js";
+import { schedaFirmware } from "./firmware_polpo.js";
 
 const WIFI_AUTH = { 0: "aperta", 1: "WEP", 2: "WPA", 3: "WPA2", 4: "WPA/WPA2", 5: "WPA2 Enterprise", 6: "WPA3", 7: "WPA2/WPA3", 8: "WAPI" };
 const MODULI = { ir_tx: "Trasmettitore IR", wifi: "Wi-Fi", ble: "Bluetooth", usb_hid: "Tastiera USB", rfid2: "NFC (RFID2)", rf433: "Radio 433 MHz", ir_unit: "Ricevitore IR" };
@@ -149,7 +150,7 @@ export function crea(ctx) {
       h("button", { type: "button", class: "btn btn-ghost", onclick: reti }, "Cerca le reti"), wifiOut),
     ctx.scheda("polpo.ble_scan", h("p", { class: "small" }, "Scansione passiva: il Polpo non si collega a nessun dispositivo."),
       h("button", { type: "button", class: "btn btn-ghost", onclick: bluetooth }, "Cerca i dispositivi"), bleOut),
-    ctx.scheda("polpo.firmware"),
+    schedaFirmware(ctx, () => ctx.scollega(true)),
   );
   ctx.suAggiornamento(() => { if (!ctx.collegato()) { sostituisci(sdElenco); sdPercorso.textContent = ""; } });
   return { id: "polpo", titolo: "Polpo", el };

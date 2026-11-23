@@ -1,0 +1,10441 @@
+{
+ "chip": [
+  {
+   "pid": 4097,
+   "r": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+   "vid": 12346
+  },
+  {
+   "pid": 16385,
+   "r": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+   "vid": 12346
+  },
+  {
+   "pid": 29987,
+   "r": "WCH CH340",
+   "vid": 6790
+  },
+  {
+   "pid": 21972,
+   "r": "WCH CH9102",
+   "vid": 6790
+  },
+  {
+   "pid": 21795,
+   "r": "WCH CH341",
+   "vid": 6790
+  },
+  {
+   "pid": 4660,
+   "r": "",
+   "vid": 6790
+  },
+  {
+   "pid": 60000,
+   "r": "Silicon Labs CP210x",
+   "vid": 4292
+  },
+  {
+   "pid": 24577,
+   "r": "FTDI FT232R",
+   "vid": 1027
+  },
+  {
+   "pid": 24592,
+   "r": "FTDI FT2232",
+   "vid": 1027
+  },
+  {
+   "pid": 24596,
+   "r": "FTDI FT232H",
+   "vid": 1027
+  },
+  {
+   "pid": 24597,
+   "r": "FTDI FT231X",
+   "vid": 1027
+  },
+  {
+   "pid": 24593,
+   "r": "",
+   "vid": 1027
+  },
+  {
+   "pid": 8963,
+   "r": "Prolific PL2303",
+   "vid": 1659
+  },
+  {
+   "pid": 67,
+   "r": "Arduino",
+   "vid": 9025
+  },
+  {
+   "pid": 67,
+   "r": "Arduino (arduino.org)",
+   "vid": 10755
+  },
+  {
+   "pid": 10,
+   "r": "Raspberry Pi (RP2040/RP2350)",
+   "vid": 11914
+  },
+  {
+   "pid": 32788,
+   "r": "Adafruit",
+   "vid": 9114
+  },
+  {
+   "pid": 37382,
+   "r": "SparkFun",
+   "vid": 6991
+  },
+  {
+   "pid": 50475,
+   "r": "",
+   "vid": 1133
+  },
+  {
+   "pid": 4776,
+   "r": "",
+   "vid": 1452
+  },
+  {
+   "pid": 65535,
+   "r": "",
+   "vid": 65535
+  },
+  {
+   "pid": 0,
+   "r": "",
+   "vid": 0
+  },
+  {
+   "pid": null,
+   "r": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+   "vid": 12346
+  },
+  {
+   "pid": null,
+   "r": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+   "vid": 12346
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": 6790
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": 6790
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": 6790
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": 6790
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": 4292
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": 1027
+  },
+  {
+   "pid": null,
+   "r": "",
+   "vid": null
+  },
+  {
+   "pid": 29987,
+   "r": "",
+   "vid": null
+  },
+  {
+   "pid": 0,
+   "r": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+   "vid": 12346
+  },
+  {
+   "pid": 65535,
+   "r": "Arduino",
+   "vid": 9025
+  },
+  {
+   "pid": 7146,
+   "r": "",
+   "vid": 35168
+  },
+  {
+   "pid": 48630,
+   "r": "",
+   "vid": 63420
+  },
+  {
+   "pid": 4463,
+   "r": "",
+   "vid": 53327
+  },
+  {
+   "pid": 20859,
+   "r": "",
+   "vid": 18385
+  },
+  {
+   "pid": 24005,
+   "r": "",
+   "vid": 54130
+  },
+  {
+   "pid": 57615,
+   "r": "",
+   "vid": 45363
+  },
+  {
+   "pid": 4481,
+   "r": "",
+   "vid": 148
+  },
+  {
+   "pid": 57401,
+   "r": "",
+   "vid": 50748
+  },
+  {
+   "pid": 31096,
+   "r": "",
+   "vid": 1455
+  },
+  {
+   "pid": 20840,
+   "r": "",
+   "vid": 9092
+  },
+  {
+   "pid": 63158,
+   "r": "",
+   "vid": 22320
+  },
+  {
+   "pid": 35961,
+   "r": "",
+   "vid": 30228
+  },
+  {
+   "pid": 65417,
+   "r": "",
+   "vid": 64036
+  },
+  {
+   "pid": 16098,
+   "r": "",
+   "vid": 54526
+  },
+  {
+   "pid": 49572,
+   "r": "",
+   "vid": 4413
+  },
+  {
+   "pid": 51775,
+   "r": "",
+   "vid": 11936
+  },
+  {
+   "pid": 17249,
+   "r": "",
+   "vid": 47970
+  },
+  {
+   "pid": 52036,
+   "r": "",
+   "vid": 18649
+  },
+  {
+   "pid": 36701,
+   "r": "",
+   "vid": 23547
+  },
+  {
+   "pid": 42225,
+   "r": "",
+   "vid": 12151
+  }
+ ],
+ "dispositivo": [
+  {
+   "classe": "Del produttore",
+   "d": {
+    "classe": 255,
+    "driver": "cp210x",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 67,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 9025
+   },
+   "produttore": "Arduino",
+   "usb_id": "2341:0043"
+  },
+  {
+   "classe": "Fisica",
+   "d": {
+    "classe": 5,
+    "driver": "cp210x",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 4660,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:1234"
+  },
+  {
+   "classe": "HID (tastiere, mouse…)",
+   "d": {
+    "classe": 3,
+    "driver": "cdc_acm",
+    "nome": "Espressif",
+    "numeroSerie": "1234",
+    "pid": 4660,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:1234"
+  },
+  {
+   "classe": "Wireless (Bluetooth…)",
+   "d": {
+    "classe": 224,
+    "driver": "cdc_acm",
+    "nome": "Mouse ottico ñ",
+    "numeroSerie": "",
+    "pid": 0,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 0
+   },
+   "produttore": "",
+   "usb_id": "0000:0000"
+  },
+  {
+   "classe": "Smart card",
+   "d": {
+    "classe": 11,
+    "driver": "cdc_acm",
+    "nome": "Tastiera",
+    "numeroSerie": "1234",
+    "pid": 4776,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "",
+    "vid": 1452
+   },
+   "produttore": "Apple",
+   "usb_id": "05AC:12A8"
+  },
+  {
+   "classe": "Wireless (Bluetooth…)",
+   "d": {
+    "classe": 224,
+    "driver": "",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "",
+    "pid": 4776,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 1452
+   },
+   "produttore": "Apple",
+   "usb_id": "05AC:12A8"
+  },
+  {
+   "classe": "HID (tastiere, mouse…)",
+   "d": {
+    "classe": 3,
+    "driver": "usbhid, usbfs",
+    "nome": "USB",
+    "numeroSerie": "1234",
+    "pid": 21795,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:5523"
+  },
+  {
+   "classe": "Memoria di massa",
+   "d": {
+    "classe": 8,
+    "driver": "usbhid, usbfs",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 21795,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:5523"
+  },
+  {
+   "classe": "",
+   "d": {
+    "classe": null,
+    "driver": "cdc_acm",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 24593,
+    "posizione": "",
+    "produttore": "Silicon Labs",
+    "velocita": "12 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "0403:6011"
+  },
+  {
+   "classe": "Hub",
+   "d": {
+    "classe": 9,
+    "driver": "cp210x",
+    "nome": "Tastiera",
+    "numeroSerie": "1234",
+    "pid": 42834,
+    "posizione": "0x14100000",
+    "produttore": "Logitech",
+    "velocita": "480 Mbit/s",
+    "vid": 6294
+   },
+   "produttore": "Logitech",
+   "usb_id": "1896:A752"
+  },
+  {
+   "classe": "Wireless (Bluetooth…)",
+   "d": {
+    "classe": 224,
+    "driver": "",
+    "nome": "USB",
+    "numeroSerie": "1234",
+    "pid": 35134,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "",
+    "vid": 63066
+   },
+   "produttore": "",
+   "usb_id": "F65A:893E"
+  },
+  {
+   "classe": "Memoria di massa",
+   "d": {
+    "classe": 8,
+    "driver": "cdc_acm",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "",
+    "pid": 7486,
+    "posizione": "",
+    "produttore": "Espressif Systems",
+    "velocita": "12 Mbit/s",
+    "vid": 33985
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "84C1:1D3E"
+  },
+  {
+   "classe": "Audio/Video",
+   "d": {
+    "classe": 16,
+    "driver": "",
+    "nome": "USB",
+    "numeroSerie": "1234",
+    "pid": 65535,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "",
+    "vid": 65535
+   },
+   "produttore": "",
+   "usb_id": "FFFF:FFFF"
+  },
+  {
+   "classe": "Memoria di massa",
+   "d": {
+    "classe": 8,
+    "driver": "cp210x",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "1234",
+    "pid": 32788,
+    "posizione": "0x14100000",
+    "produttore": "Espressif Systems",
+    "velocita": "12 Mbit/s",
+    "vid": 9114
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "239A:8014"
+  },
+  {
+   "classe": "Smart card",
+   "d": {
+    "classe": 11,
+    "driver": "cdc_acm",
+    "nome": "Espressif",
+    "numeroSerie": "",
+    "pid": 16405,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Espressif Systems",
+    "velocita": "12 Mbit/s",
+    "vid": 59697
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "E931:4015"
+  },
+  {
+   "classe": "Comunicazioni (CDC)",
+   "d": {
+    "classe": 2,
+    "driver": "cdc_acm",
+    "nome": "Mouse ottico ñ",
+    "numeroSerie": "1234",
+    "pid": 1767,
+    "posizione": "0x14100000",
+    "produttore": "Silicon Labs",
+    "velocita": "",
+    "vid": 27633
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "6BF1:06E7"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "",
+    "nome": "Espressif",
+    "numeroSerie": "1234",
+    "pid": 28099,
+    "posizione": "0x14100000",
+    "produttore": "Silicon Labs",
+    "velocita": "12 Mbit/s",
+    "vid": 43198
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "A8BE:6DC3"
+  },
+  {
+   "classe": "",
+   "d": {
+    "classe": 112,
+    "driver": "usbhid, usbfs",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "1234",
+    "pid": 50746,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 63743
+   },
+   "produttore": "",
+   "usb_id": "F8FF:C63A"
+  },
+  {
+   "classe": "",
+   "d": {
+    "classe": 197,
+    "driver": "usbhid, usbfs",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "",
+    "pid": 43060,
+    "posizione": "0x14100000",
+    "produttore": "Logitech",
+    "velocita": "480 Mbit/s",
+    "vid": 15407
+   },
+   "produttore": "Logitech",
+   "usb_id": "3C2F:A834"
+  },
+  {
+   "classe": "Diagnostica",
+   "d": {
+    "classe": 220,
+    "driver": "cp210x",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "1234",
+    "pid": 58728,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 339
+   },
+   "produttore": "",
+   "usb_id": "0153:E568"
+  },
+  {
+   "classe": "Comunicazioni (CDC)",
+   "d": {
+    "classe": 2,
+    "driver": "cdc_acm",
+    "nome": "USB",
+    "numeroSerie": "1234",
+    "pid": 24592,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Logitech",
+    "velocita": "",
+    "vid": 1027
+   },
+   "produttore": "Logitech",
+   "usb_id": "0403:6010"
+  },
+  {
+   "classe": "Fisica",
+   "d": {
+    "classe": 5,
+    "driver": "",
+    "nome": "Espressif",
+    "numeroSerie": "",
+    "pid": 21795,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:5523"
+  },
+  {
+   "classe": "Memoria di massa",
+   "d": {
+    "classe": 8,
+    "driver": "cdc_acm",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "",
+    "pid": 21972,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:55D4"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "cdc_acm",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "1234",
+    "pid": 6399,
+    "posizione": "0x14100000",
+    "produttore": "Espressif Systems",
+    "velocita": "480 Mbit/s",
+    "vid": 13981
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "369D:18FF"
+  },
+  {
+   "classe": "Comunicazioni (CDC)",
+   "d": {
+    "classe": 2,
+    "driver": "",
+    "nome": "Tastiera",
+    "numeroSerie": "1234",
+    "pid": 35168,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Espressif Systems",
+    "velocita": "480 Mbit/s",
+    "vid": 50162
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "C3F2:8960"
+  },
+  {
+   "classe": "per interfaccia",
+   "d": {
+    "classe": 0,
+    "driver": "usbhid, usbfs",
+    "nome": "Espressif",
+    "numeroSerie": "",
+    "pid": 24596,
+    "posizione": "0x14100000",
+    "produttore": "Logitech",
+    "velocita": "480 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "Logitech",
+   "usb_id": "0403:6014"
+  },
+  {
+   "classe": "",
+   "d": {
+    "classe": 194,
+    "driver": "usbhid, usbfs",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 24593,
+    "posizione": "",
+    "produttore": "Espressif Systems",
+    "velocita": "480 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "0403:6011"
+  },
+  {
+   "classe": "Audio",
+   "d": {
+    "classe": 1,
+    "driver": "cp210x",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 50003,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 44695
+   },
+   "produttore": "",
+   "usb_id": "AE97:C353"
+  },
+  {
+   "classe": "Fisica",
+   "d": {
+    "classe": 5,
+    "driver": "cp210x",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 10,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 11914
+   },
+   "produttore": "Raspberry Pi",
+   "usb_id": "2E8A:000A"
+  },
+  {
+   "classe": "Smart card",
+   "d": {
+    "classe": 11,
+    "driver": "cp210x",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "1234",
+    "pid": 61364,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Logitech",
+    "velocita": "",
+    "vid": 25584
+   },
+   "produttore": "Logitech",
+   "usb_id": "63F0:EFB4"
+  },
+  {
+   "classe": "",
+   "d": {
+    "classe": 58,
+    "driver": "",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "",
+    "pid": 6915,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "",
+    "vid": 43
+   },
+   "produttore": "",
+   "usb_id": "002B:1B03"
+  },
+  {
+   "classe": "Immagini",
+   "d": {
+    "classe": 6,
+    "driver": "cdc_acm",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 67,
+    "posizione": "",
+    "produttore": "Silicon Labs",
+    "velocita": "480 Mbit/s",
+    "vid": 9025
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "2341:0043"
+  },
+  {
+   "classe": "Varie",
+   "d": {
+    "classe": 239,
+    "driver": "usbhid, usbfs",
+    "nome": "Tastiera",
+    "numeroSerie": "1234",
+    "pid": 14918,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 43966
+   },
+   "produttore": "",
+   "usb_id": "ABBE:3A46"
+  },
+  {
+   "classe": "Diagnostica",
+   "d": {
+    "classe": 220,
+    "driver": "usbhid, usbfs",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "1234",
+    "pid": 29987,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Logitech",
+    "velocita": "480 Mbit/s",
+    "vid": 6790
+   },
+   "produttore": "Logitech",
+   "usb_id": "1A86:7523"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "usbhid, usbfs",
+    "nome": "Mouse ottico ñ",
+    "numeroSerie": "",
+    "pid": 4660,
+    "posizione": "",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 6790
+   },
+   "produttore": "WCH (QinHeng)",
+   "usb_id": "1A86:1234"
+  },
+  {
+   "classe": "Smart card",
+   "d": {
+    "classe": 11,
+    "driver": "",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 61376,
+    "posizione": "",
+    "produttore": "Espressif Systems",
+    "velocita": "12 Mbit/s",
+    "vid": 14360
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "3818:EFC0"
+  },
+  {
+   "classe": "Audio/Video",
+   "d": {
+    "classe": 16,
+    "driver": "cdc_acm",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 67,
+    "posizione": "0x14100000",
+    "produttore": "Espressif Systems",
+    "velocita": "480 Mbit/s",
+    "vid": 10755
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "2A03:0043"
+  },
+  {
+   "classe": "Wireless (Bluetooth…)",
+   "d": {
+    "classe": 224,
+    "driver": "cp210x",
+    "nome": "Tastiera",
+    "numeroSerie": "1234",
+    "pid": 29496,
+    "posizione": "",
+    "produttore": "Silicon Labs",
+    "velocita": "12 Mbit/s",
+    "vid": 10346
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "286A:7338"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "cdc_acm",
+    "nome": "Espressif",
+    "numeroSerie": "",
+    "pid": 24592,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Silicon Labs",
+    "velocita": "480 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "0403:6010"
+  },
+  {
+   "classe": "Wireless (Bluetooth…)",
+   "d": {
+    "classe": 224,
+    "driver": "cp210x",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 51520,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "",
+    "vid": 21222
+   },
+   "produttore": "",
+   "usb_id": "52E6:C940"
+  },
+  {
+   "classe": "Varie",
+   "d": {
+    "classe": 239,
+    "driver": "",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "1234",
+    "pid": 60000,
+    "posizione": "",
+    "produttore": "Espressif Systems",
+    "velocita": "480 Mbit/s",
+    "vid": 4292
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "10C4:EA60"
+  },
+  {
+   "classe": "HID (tastiere, mouse…)",
+   "d": {
+    "classe": 3,
+    "driver": "",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 67,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Logitech",
+    "velocita": "480 Mbit/s",
+    "vid": 9025
+   },
+   "produttore": "Logitech",
+   "usb_id": "2341:0043"
+  },
+  {
+   "classe": "HID (tastiere, mouse…)",
+   "d": {
+    "classe": 3,
+    "driver": "cdc_acm",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "",
+    "pid": 24593,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "FTDI",
+   "usb_id": "0403:6011"
+  },
+  {
+   "classe": "Specifica applicazione",
+   "d": {
+    "classe": 254,
+    "driver": "cp210x",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "",
+    "pid": 37704,
+    "posizione": "",
+    "produttore": "Logitech",
+    "velocita": "",
+    "vid": 28963
+   },
+   "produttore": "Logitech",
+   "usb_id": "7123:9348"
+  },
+  {
+   "classe": "",
+   "d": {
+    "classe": null,
+    "driver": "cp210x",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "",
+    "pid": 39075,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 9979
+   },
+   "produttore": "",
+   "usb_id": "26FB:98A3"
+  },
+  {
+   "classe": "Memoria di massa",
+   "d": {
+    "classe": 8,
+    "driver": "cp210x",
+    "nome": "Mouse ottico ñ",
+    "numeroSerie": "1234",
+    "pid": 65535,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 65535
+   },
+   "produttore": "",
+   "usb_id": "FFFF:FFFF"
+  },
+  {
+   "classe": "HID (tastiere, mouse…)",
+   "d": {
+    "classe": 3,
+    "driver": "cp210x",
+    "nome": "CP2102 USB to UART",
+    "numeroSerie": "1234",
+    "pid": 21795,
+    "posizione": "0x14100000",
+    "produttore": "Espressif Systems",
+    "velocita": "480 Mbit/s",
+    "vid": 6790
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "1A86:5523"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "",
+    "pid": 64926,
+    "posizione": "0x14100000",
+    "produttore": "Silicon Labs",
+    "velocita": "480 Mbit/s",
+    "vid": 10338
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "2862:FD9E"
+  },
+  {
+   "classe": "Audio",
+   "d": {
+    "classe": 1,
+    "driver": "cdc_acm",
+    "nome": "Hub USB 2.0",
+    "numeroSerie": "",
+    "pid": 16385,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "",
+    "vid": 12346
+   },
+   "produttore": "Espressif",
+   "usb_id": "303A:4001"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 24596,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Logitech",
+    "velocita": "480 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "Logitech",
+   "usb_id": "0403:6014"
+  },
+  {
+   "classe": "Dati CDC",
+   "d": {
+    "classe": 10,
+    "driver": "usbhid, usbfs",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "",
+    "pid": 0,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Silicon Labs",
+    "velocita": "",
+    "vid": 0
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "0000:0000"
+  },
+  {
+   "classe": "Video",
+   "d": {
+    "classe": 14,
+    "driver": "usbhid, usbfs",
+    "nome": "🐙 Polpo",
+    "numeroSerie": "",
+    "pid": 24577,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 1027
+   },
+   "produttore": "FTDI",
+   "usb_id": "0403:6001"
+  },
+  {
+   "classe": "Wireless (Bluetooth…)",
+   "d": {
+    "classe": 224,
+    "driver": "cdc_acm",
+    "nome": "Mouse ottico ñ",
+    "numeroSerie": "",
+    "pid": 0,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "480 Mbit/s",
+    "vid": 0
+   },
+   "produttore": "",
+   "usb_id": "0000:0000"
+  },
+  {
+   "classe": "Fisica",
+   "d": {
+    "classe": 5,
+    "driver": "usbhid, usbfs",
+    "nome": "Espressif",
+    "numeroSerie": "1234",
+    "pid": 61844,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Espressif Systems",
+    "velocita": "",
+    "vid": 41003
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "A02B:F194"
+  },
+  {
+   "classe": "Salute",
+   "d": {
+    "classe": 15,
+    "driver": "usbhid, usbfs",
+    "nome": "USB",
+    "numeroSerie": "",
+    "pid": 21795,
+    "posizione": "0x14100000",
+    "produttore": "Logitech",
+    "velocita": "",
+    "vid": 6790
+   },
+   "produttore": "Logitech",
+   "usb_id": "1A86:5523"
+  },
+  {
+   "classe": "Dati CDC",
+   "d": {
+    "classe": 10,
+    "driver": "cp210x",
+    "nome": "Tastiera",
+    "numeroSerie": "",
+    "pid": 60000,
+    "posizione": "0x14100000",
+    "produttore": "Silicon Labs",
+    "velocita": "12 Mbit/s",
+    "vid": 4292
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "10C4:EA60"
+  },
+  {
+   "classe": "Specifica applicazione",
+   "d": {
+    "classe": 254,
+    "driver": "usbhid, usbfs",
+    "nome": "Mouse ottico ñ",
+    "numeroSerie": "1234",
+    "pid": 4097,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "Espressif Systems",
+    "velocita": "12 Mbit/s",
+    "vid": 12346
+   },
+   "produttore": "Espressif Systems",
+   "usb_id": "303A:1001"
+  },
+  {
+   "classe": "HID (tastiere, mouse…)",
+   "d": {
+    "classe": 3,
+    "driver": "",
+    "nome": "Espressif",
+    "numeroSerie": "1234",
+    "pid": 35627,
+    "posizione": "0x14100000",
+    "produttore": "",
+    "velocita": "12 Mbit/s",
+    "vid": 45728
+   },
+   "produttore": "",
+   "usb_id": "B2A0:8B2B"
+  },
+  {
+   "classe": "Smart card",
+   "d": {
+    "classe": 11,
+    "driver": "",
+    "nome": "Tastiera",
+    "numeroSerie": "",
+    "pid": 24596,
+    "posizione": "bus 1 · 1-1.2",
+    "produttore": "",
+    "velocita": "",
+    "vid": 1027
+   },
+   "produttore": "FTDI",
+   "usb_id": "0403:6014"
+  },
+  {
+   "classe": "per interfaccia",
+   "d": {
+    "classe": 0,
+    "driver": "usbhid, usbfs",
+    "nome": "USB",
+    "numeroSerie": "1234",
+    "pid": 67,
+    "posizione": "",
+    "produttore": "Silicon Labs",
+    "velocita": "12 Mbit/s",
+    "vid": 9025
+   },
+   "produttore": "Silicon Labs",
+   "usb_id": "2341:0043"
+  }
+ ],
+ "hid": [
+  {
+   "d": [],
+   "eventi": [
+    [
+     "avviso",
+     "0 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": []
+  },
+  {
+   "d": [
+    {
+     "interface_number": 0,
+     "manufacturer_string": "Logitech",
+     "product_id": 50475,
+     "product_string": "Mouse",
+     "usage": 2,
+     "usage_page": 1,
+     "vendor_id": 1133
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse",
+     "046D:C52B",
+     "Logitech",
+     "mouse",
+     "0"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "interface_number": 0,
+     "manufacturer_string": "Logitech",
+     "product_id": 50475,
+     "product_string": "Mouse",
+     "usage": 2,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": 1,
+     "manufacturer_string": null,
+     "product_id": 50475,
+     "product_string": "",
+     "usage": 6,
+     "usage_page": 1,
+     "vendor_id": 1133
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse",
+     "046D:C52B",
+     "Logitech",
+     "mouse",
+     "0"
+    ],
+    [
+     "—",
+     "046D:C52B",
+     "",
+     "tastiera",
+     "1"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "interface_number": 0,
+     "manufacturer_string": "Logitech",
+     "product_id": 50475,
+     "product_string": "Mouse",
+     "usage": 2,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": 1,
+     "manufacturer_string": null,
+     "product_id": 50475,
+     "product_string": "",
+     "usage": 6,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": -1,
+     "product_id": 4097,
+     "product_string": null,
+     "usage": 1,
+     "usage_page": 65280,
+     "vendor_id": 12346
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "3 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse",
+     "046D:C52B",
+     "Logitech",
+     "mouse",
+     "0"
+    ],
+    [
+     "—",
+     "046D:C52B",
+     "",
+     "tastiera",
+     "1"
+    ],
+    [
+     "—",
+     "303A:1001",
+     "",
+     "0xFF00/0x0001",
+     "-1"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "interface_number": 0,
+     "manufacturer_string": "Logitech",
+     "product_id": 50475,
+     "product_string": "Mouse",
+     "usage": 2,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": 1,
+     "manufacturer_string": null,
+     "product_id": 50475,
+     "product_string": "",
+     "usage": 6,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": -1,
+     "product_id": 4097,
+     "product_string": null,
+     "usage": 1,
+     "usage_page": 65280,
+     "vendor_id": 12346
+    },
+    {}
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse",
+     "046D:C52B",
+     "Logitech",
+     "mouse",
+     "0"
+    ],
+    [
+     "—",
+     "046D:C52B",
+     "",
+     "tastiera",
+     "1"
+    ],
+    [
+     "—",
+     "303A:1001",
+     "",
+     "0xFF00/0x0001",
+     "-1"
+    ],
+    [
+     "—",
+     "0000:0000",
+     "",
+     "0x0000/0x0000",
+     ""
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "interface_number": 0,
+     "manufacturer_string": "Logitech",
+     "product_id": 50475,
+     "product_string": "Mouse",
+     "usage": 2,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": 1,
+     "manufacturer_string": null,
+     "product_id": 50475,
+     "product_string": "",
+     "usage": 6,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": -1,
+     "product_id": 4097,
+     "product_string": null,
+     "usage": 1,
+     "usage_page": 65280,
+     "vendor_id": 12346
+    },
+    {},
+    {
+     "usage": 1,
+     "usage_page": 12
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "5 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse",
+     "046D:C52B",
+     "Logitech",
+     "mouse",
+     "0"
+    ],
+    [
+     "—",
+     "046D:C52B",
+     "",
+     "tastiera",
+     "1"
+    ],
+    [
+     "—",
+     "303A:1001",
+     "",
+     "0xFF00/0x0001",
+     "-1"
+    ],
+    [
+     "—",
+     "0000:0000",
+     "",
+     "0x0000/0x0000",
+     ""
+    ],
+    [
+     "—",
+     "0000:0000",
+     "",
+     "tasti multimediali",
+     ""
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "interface_number": 0,
+     "manufacturer_string": "Logitech",
+     "product_id": 50475,
+     "product_string": "Mouse",
+     "usage": 2,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": 1,
+     "manufacturer_string": null,
+     "product_id": 50475,
+     "product_string": "",
+     "usage": 6,
+     "usage_page": 1,
+     "vendor_id": 1133
+    },
+    {
+     "interface_number": -1,
+     "product_id": 4097,
+     "product_string": null,
+     "usage": 1,
+     "usage_page": 65280,
+     "vendor_id": 12346
+    },
+    {},
+    {
+     "usage": 1,
+     "usage_page": 12
+    },
+    {
+     "interface_number": 2,
+     "usage": 5,
+     "usage_page": 13
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "6 interfacce HID.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse",
+     "046D:C52B",
+     "Logitech",
+     "mouse",
+     "0"
+    ],
+    [
+     "—",
+     "046D:C52B",
+     "",
+     "tastiera",
+     "1"
+    ],
+    [
+     "—",
+     "303A:1001",
+     "",
+     "0xFF00/0x0001",
+     "-1"
+    ],
+    [
+     "—",
+     "0000:0000",
+     "",
+     "0x0000/0x0000",
+     ""
+    ],
+    [
+     "—",
+     "0000:0000",
+     "",
+     "tasti multimediali",
+     ""
+    ],
+    [
+     "—",
+     "0000:0000",
+     "",
+     "touchpad",
+     "2"
+    ]
+   ]
+  }
+ ],
+ "periferiche": [
+  {
+   "d": [],
+   "eventi": [
+    [
+     "avviso",
+     "Nessuna periferica elencata (o elenco non disponibile su questo sistema).",
+     false
+    ]
+   ],
+   "righe": []
+  },
+  {
+   "d": [
+    {
+     "classe": 254,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 4097,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 12346
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Tastiera",
+     "303A:1001",
+     "Espressif",
+     "Specifica applicazione",
+     "12 Mbit/s",
+     "usbhid, usbfs",
+     "bus 1 · 1-1.2"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 2,
+     "driver": "cdc_acm",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 6,
+     "driver": "",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 8963,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Espressif Systems",
+     "velocita": "",
+     "vid": 1659
+    },
+    {
+     "classe": 8,
+     "driver": "cdc_acm",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "3 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "USB",
+     "1A86:55D4",
+     "Logitech",
+     "Comunicazioni (CDC)",
+     "480 Mbit/s",
+     "cdc_acm",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "Tastiera",
+     "067B:2303",
+     "Espressif Systems",
+     "Immagini",
+     "",
+     "",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "USB",
+     "0403:6014",
+     "Logitech",
+     "Memoria di massa",
+     "",
+     "cdc_acm",
+     ""
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 0,
+     "driver": "usbhid, usbfs",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 42850,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "480 Mbit/s",
+     "vid": 62423
+    },
+    {
+     "classe": 255,
+     "driver": "",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 39851,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 53600
+    },
+    {
+     "classe": 1,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 0,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "480 Mbit/s",
+     "vid": 0
+    },
+    {
+     "classe": 239,
+     "driver": "usbhid, usbfs",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 37382,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6991
+    },
+    {
+     "classe": 16,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 50475,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1133
+    },
+    {
+     "classe": 5,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 224,
+     "driver": "cp210x",
+     "nome": "Espressif",
+     "numeroSerie": "",
+     "pid": 67,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 9025
+    },
+    {
+     "classe": 255,
+     "driver": "cdc_acm",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 67,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 9025
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "8 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Hub USB 2.0",
+     "F3D7:A762",
+     "Espressif Systems",
+     "per interfaccia",
+     "480 Mbit/s",
+     "usbhid, usbfs",
+     ""
+    ],
+    [
+     "Hub USB 2.0",
+     "D160:9BAB",
+     "",
+     "Del produttore",
+     "",
+     "",
+     "0x14100000"
+    ],
+    [
+     "Hub USB 2.0",
+     "0000:0000",
+     "Espressif Systems",
+     "Audio",
+     "480 Mbit/s",
+     "cdc_acm",
+     "0x14100000"
+    ],
+    [
+     "Hub USB 2.0",
+     "1B4F:9206",
+     "SparkFun",
+     "Varie",
+     "",
+     "usbhid, usbfs",
+     ""
+    ],
+    [
+     "🐙 Polpo",
+     "046D:C52B",
+     "Logitech",
+     "Audio/Video",
+     "12 Mbit/s",
+     "cp210x",
+     "0x14100000"
+    ],
+    [
+     "USB",
+     "1A86:5523",
+     "Silicon Labs",
+     "Fisica",
+     "12 Mbit/s",
+     "cp210x",
+     ""
+    ],
+    [
+     "Espressif",
+     "2341:0043",
+     "Arduino",
+     "Wireless (Bluetooth…)",
+     "",
+     "cp210x",
+     "0x14100000"
+    ],
+    [
+     "Tastiera",
+     "2341:0043",
+     "Silicon Labs",
+     "Del produttore",
+     "480 Mbit/s",
+     "cdc_acm",
+     "bus 1 · 1-1.2"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 0,
+     "driver": "usbhid, usbfs",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "1234",
+     "pid": 13606,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 22882
+    },
+    {
+     "classe": 15,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 2128,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 7335
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1027
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "3 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse ottico ñ",
+     "5962:3526",
+     "Silicon Labs",
+     "per interfaccia",
+     "480 Mbit/s",
+     "usbhid, usbfs",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "🐙 Polpo",
+     "1CA7:0850",
+     "Logitech",
+     "Salute",
+     "480 Mbit/s",
+     "usbhid, usbfs",
+     ""
+    ],
+    [
+     "🐙 Polpo",
+     "0403:6010",
+     "FTDI",
+     "",
+     "12 Mbit/s",
+     "",
+     "bus 1 · 1-1.2"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 254,
+     "driver": "cdc_acm",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 25932,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 33159
+    },
+    {
+     "classe": 9,
+     "driver": "cp210x",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": 15,
+     "driver": "",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "1234",
+     "pid": 67,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 10755
+    },
+    {
+     "classe": 94,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": 6,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 4660,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 3,
+     "driver": "",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 4097,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 12346
+    },
+    {
+     "classe": 255,
+     "driver": "cp210x",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": 239,
+     "driver": "",
+     "nome": "Tastiera",
+     "numeroSerie": "",
+     "pid": 16385,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 12346
+    },
+    {
+     "classe": 5,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 4776,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1452
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "9 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "USB",
+     "8187:654C",
+     "Espressif Systems",
+     "Specifica applicazione",
+     "12 Mbit/s",
+     "cdc_acm",
+     "0x14100000"
+    ],
+    [
+     "Tastiera",
+     "1A86:7523",
+     "Logitech",
+     "Hub",
+     "",
+     "cp210x",
+     ""
+    ],
+    [
+     "Mouse ottico ñ",
+     "2A03:0043",
+     "Arduino",
+     "Salute",
+     "480 Mbit/s",
+     "",
+     ""
+    ],
+    [
+     "🐙 Polpo",
+     "0403:6011",
+     "Logitech",
+     "",
+     "12 Mbit/s",
+     "usbhid, usbfs",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "CP2102 USB to UART",
+     "1A86:1234",
+     "WCH (QinHeng)",
+     "Immagini",
+     "12 Mbit/s",
+     "",
+     "0x14100000"
+    ],
+    [
+     "Hub USB 2.0",
+     "303A:1001",
+     "Silicon Labs",
+     "HID (tastiere, mouse…)",
+     "12 Mbit/s",
+     "",
+     ""
+    ],
+    [
+     "Hub USB 2.0",
+     "0403:6011",
+     "FTDI",
+     "Del produttore",
+     "480 Mbit/s",
+     "cp210x",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "Tastiera",
+     "303A:4001",
+     "Logitech",
+     "Varie",
+     "12 Mbit/s",
+     "",
+     "0x14100000"
+    ],
+    [
+     "CP2102 USB to UART",
+     "05AC:12A8",
+     "Apple",
+     "Fisica",
+     "12 Mbit/s",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 220,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 4660,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 254,
+     "driver": "cdc_acm",
+     "nome": "Tastiera",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 0,
+     "driver": "cdc_acm",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 50475,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 1133
+    },
+    {
+     "classe": 14,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 1659
+    },
+    {
+     "classe": 6,
+     "driver": "usbhid, usbfs",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "1234",
+     "pid": 15529,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 45364
+    },
+    {
+     "classe": 220,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 6167,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 62107
+    },
+    {
+     "classe": 9,
+     "driver": "cdc_acm",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 4292
+    },
+    {
+     "classe": 1,
+     "driver": "cdc_acm",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 16385,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 12346
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "8 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Hub USB 2.0",
+     "1A86:1234",
+     "Logitech",
+     "Diagnostica",
+     "480 Mbit/s",
+     "cdc_acm",
+     ""
+    ],
+    [
+     "Tastiera",
+     "1A86:5523",
+     "WCH (QinHeng)",
+     "Specifica applicazione",
+     "12 Mbit/s",
+     "cdc_acm",
+     ""
+    ],
+    [
+     "Tastiera",
+     "046D:C52B",
+     "Logitech",
+     "per interfaccia",
+     "480 Mbit/s",
+     "cdc_acm",
+     ""
+    ],
+    [
+     "CP2102 USB to UART",
+     "067B:2303",
+     "Silicon Labs",
+     "Video",
+     "12 Mbit/s",
+     "",
+     ""
+    ],
+    [
+     "Mouse ottico ñ",
+     "B134:3CA9",
+     "Silicon Labs",
+     "Immagini",
+     "",
+     "usbhid, usbfs",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "CP2102 USB to UART",
+     "F29B:1817",
+     "Silicon Labs",
+     "Diagnostica",
+     "12 Mbit/s",
+     "",
+     "0x14100000"
+    ],
+    [
+     "Tastiera",
+     "10C4:EA60",
+     "Logitech",
+     "Hub",
+     "480 Mbit/s",
+     "cdc_acm",
+     ""
+    ],
+    [
+     "Mouse ottico ñ",
+     "303A:4001",
+     "Espressif Systems",
+     "Audio",
+     "12 Mbit/s",
+     "cdc_acm",
+     "bus 1 · 1-1.2"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 254,
+     "driver": "usbhid, usbfs",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "1234",
+     "pid": 18504,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 23763
+    },
+    {
+     "classe": 224,
+     "driver": "cp210x",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 67,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 10755
+    },
+    {
+     "classe": 11,
+     "driver": "",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 0,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "480 Mbit/s",
+     "vid": 0
+    },
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 6790
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse ottico ñ",
+     "5CD3:4848",
+     "",
+     "Specifica applicazione",
+     "12 Mbit/s",
+     "usbhid, usbfs",
+     "0x14100000"
+    ],
+    [
+     "Hub USB 2.0",
+     "2A03:0043",
+     "Arduino",
+     "Wireless (Bluetooth…)",
+     "480 Mbit/s",
+     "cp210x",
+     ""
+    ],
+    [
+     "Tastiera",
+     "0000:0000",
+     "Espressif Systems",
+     "Smart card",
+     "480 Mbit/s",
+     "",
+     ""
+    ],
+    [
+     "Espressif",
+     "1A86:5523",
+     "Silicon Labs",
+     "Stampante",
+     "480 Mbit/s",
+     "cp210x",
+     ""
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 254,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 53139,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 2262
+    },
+    {
+     "classe": 7,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 30277,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 23216
+    },
+    {
+     "classe": 16,
+     "driver": "",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 5884,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 2194
+    },
+    {
+     "classe": 1,
+     "driver": "",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 50475,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "480 Mbit/s",
+     "vid": 1133
+    },
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 32788,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 9114
+    },
+    {
+     "classe": 15,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 55621,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "",
+     "vid": 28228
+    },
+    {
+     "classe": 239,
+     "driver": "usbhid, usbfs",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 35032,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 29929
+    },
+    {
+     "classe": 7,
+     "driver": "usbhid, usbfs",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 65273,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 44458
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "8 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Hub USB 2.0",
+     "08D6:CF93",
+     "",
+     "Specifica applicazione",
+     "12 Mbit/s",
+     "cdc_acm",
+     "0x14100000"
+    ],
+    [
+     "CP2102 USB to UART",
+     "5AB0:7645",
+     "Logitech",
+     "Stampante",
+     "",
+     "",
+     ""
+    ],
+    [
+     "USB",
+     "0892:16FC",
+     "Silicon Labs",
+     "Audio/Video",
+     "480 Mbit/s",
+     "",
+     "0x14100000"
+    ],
+    [
+     "Hub USB 2.0",
+     "046D:C52B",
+     "Espressif Systems",
+     "Audio",
+     "480 Mbit/s",
+     "",
+     ""
+    ],
+    [
+     "USB",
+     "239A:8014",
+     "Logitech",
+     "Stampante",
+     "480 Mbit/s",
+     "cp210x",
+     "0x14100000"
+    ],
+    [
+     "CP2102 USB to UART",
+     "6E44:D945",
+     "",
+     "Salute",
+     "",
+     "cdc_acm",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "Hub USB 2.0",
+     "74E9:88D8",
+     "",
+     "Varie",
+     "480 Mbit/s",
+     "usbhid, usbfs",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "CP2102 USB to UART",
+     "ADAA:FEF9",
+     "Silicon Labs",
+     "Stampante",
+     "",
+     "usbhid, usbfs",
+     ""
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 7,
+     "driver": "",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 4660,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 2,
+     "driver": "cp210x",
+     "nome": "Espressif",
+     "numeroSerie": "",
+     "pid": 16385,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 12346
+    },
+    {
+     "classe": 10,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "",
+     "pid": 67,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 9025
+    },
+    {
+     "classe": 15,
+     "driver": "usbhid, usbfs",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 49546,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 56811
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "USB",
+     "1A86:1234",
+     "Logitech",
+     "Stampante",
+     "12 Mbit/s",
+     "",
+     ""
+    ],
+    [
+     "Espressif",
+     "303A:4001",
+     "Espressif",
+     "Comunicazioni (CDC)",
+     "480 Mbit/s",
+     "cp210x",
+     "bus 1 · 1-1.2"
+    ],
+    [
+     "Tastiera",
+     "2341:0043",
+     "Arduino",
+     "Dati CDC",
+     "",
+     "usbhid, usbfs",
+     "0x14100000"
+    ],
+    [
+     "USB",
+     "DDEB:C18A",
+     "Silicon Labs",
+     "Salute",
+     "12 Mbit/s",
+     "usbhid, usbfs",
+     "0x14100000"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 0,
+     "driver": "",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 1019,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 62836
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Mouse ottico ñ",
+     "F574:03FB",
+     "Logitech",
+     "per interfaccia",
+     "",
+     "",
+     "0x14100000"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "classe": 14,
+     "driver": "usbhid, usbfs",
+     "nome": "Espressif",
+     "numeroSerie": "",
+     "pid": 40049,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 8401
+    },
+    {
+     "classe": null,
+     "driver": "cdc_acm",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 13976,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 63867
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 periferiche USB.",
+     false
+    ]
+   ],
+   "righe": [
+    [
+     "Espressif",
+     "20D1:9C71",
+     "Espressif Systems",
+     "Video",
+     "12 Mbit/s",
+     "usbhid, usbfs",
+     ""
+    ],
+    [
+     "Espressif",
+     "F97B:3698",
+     "",
+     "",
+     "",
+     "cdc_acm",
+     "0x14100000"
+    ]
+   ]
+  }
+ ],
+ "porte": [
+  {
+   "console": [
+    [
+     "/dev/cu.usbmodem31 · Arduino",
+     "/dev/cu.usbmodem31"
+    ],
+    [
+     "/dev/cu.usbserial-185 · SparkFun",
+     "/dev/cu.usbserial-185"
+    ],
+    [
+     "/dev/cu.usbserial-300 · FTDI FT232H",
+     "/dev/cu.usbserial-300"
+    ],
+    [
+     "COM304 · WCH CH340",
+     "COM304"
+    ],
+    [
+     "/dev/cu.usbmodem163 ",
+     "/dev/cu.usbmodem163"
+    ],
+    [
+     "/dev/ttyACM32 ",
+     "/dev/ttyACM32"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 10,
+     "driver": "usbhid, usbfs",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 37382,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 6991
+    },
+    {
+     "classe": 16,
+     "driver": "cdc_acm",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 15924,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "",
+     "vid": 8354
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 67,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 9025
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 37382,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6991
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/cu.usbserial-300",
+     "manufacturer": null,
+     "pid": 24596,
+     "serial_number": "",
+     "vid": 1027
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/cu.usbmodem31",
+     "manufacturer": "Silicon Labs",
+     "pid": 67,
+     "serial_number": "A50285BI",
+     "vid": 9025
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyACM32",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "n/a",
+     "device": "/dev/cu.usbmodem163",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": null,
+     "device": "COM304",
+     "manufacturer": "wch.cn",
+     "pid": 29987,
+     "serial_number": "",
+     "vid": 6790
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbserial-185",
+     "manufacturer": "Silicon Labs",
+     "pid": 37382,
+     "serial_number": "",
+     "vid": 6991
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: CP2102 (0403:6015). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Arduino",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/cu.usbmodem31",
+     "numeroSerie": "A50285BI",
+     "pid": 67,
+     "produttore": "Silicon Labs",
+     "vid": 9025
+    },
+    {
+     "chip": "SparkFun",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbserial-185",
+     "numeroSerie": "",
+     "pid": 37382,
+     "produttore": "Silicon Labs",
+     "vid": 6991
+    },
+    {
+     "chip": "FTDI FT232H",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-300",
+     "numeroSerie": "",
+     "pid": 24596,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "WCH CH340",
+     "descrizione": "",
+     "dispositivo": "COM304",
+     "numeroSerie": "",
+     "pid": 29987,
+     "produttore": "wch.cn",
+     "vid": 6790
+    },
+    {
+     "chip": "",
+     "descrizione": "n/a",
+     "dispositivo": "/dev/cu.usbmodem163",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM32",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbmodem31",
+     "Scheda ñ 🐙",
+     "2341:0043",
+     "Arduino",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/cu.usbserial-185",
+     "Arduino Uno",
+     "1B4F:9206",
+     "SparkFun",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/cu.usbserial-300",
+     "",
+     "0403:6014",
+     "FTDI FT232H",
+     ""
+    ],
+    [
+     "COM304",
+     "",
+     "1A86:7523",
+     "WCH CH340",
+     "wch.cn"
+    ],
+    [
+     "/dev/cu.usbmodem163",
+     "n/a",
+     "",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyACM32",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbmodem31",
+     "Arduino",
+     "2341:0043",
+     "Scheda ñ 🐙",
+     "Arduino originale (5 V per Uno/Mega)"
+    ],
+    [
+     "/dev/cu.usbserial-185",
+     "SparkFun",
+     "1B4F:9206",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "/dev/cu.usbserial-300",
+     "FTDI FT232H",
+     "0403:6014",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "COM304",
+     "WCH CH340",
+     "1A86:7523",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbmodem163",
+     "—",
+     "",
+     "n/a",
+     ""
+    ],
+    [
+     "/dev/ttyACM32",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "2341:0043",
+    "1B4F:9206",
+    "0403:6014",
+    "1A86:7523",
+    "",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyUSB91 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "/dev/ttyUSB91"
+    ],
+    [
+     "/dev/ttyUSB80 ",
+     "/dev/ttyUSB80"
+    ],
+    [
+     "/dev/ttyUSB152 ",
+     "/dev/ttyUSB152"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 5,
+     "driver": "",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 4097,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 0,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 0
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": null,
+     "device": "/dev/ttyUSB80",
+     "manufacturer": null,
+     "pid": 0,
+     "serial_number": "A50285BI",
+     "vid": 0
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/ttyUSB91",
+     "manufacturer": null,
+     "pid": 4097,
+     "serial_number": "0001",
+     "vid": 12346
+    },
+    {
+     "description": "n/a",
+     "device": "/dev/ttyUSB152",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 5,
+     "driver": "",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: 🐙 Polpo (1A86:7523), CH340 (10C4:EA60), CP2102 (0403:6014). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    true,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/ttyUSB91",
+     "numeroSerie": "0001",
+     "pid": 4097,
+     "produttore": "",
+     "vid": 12346
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB80",
+     "numeroSerie": "A50285BI",
+     "pid": 0,
+     "produttore": "",
+     "vid": 0
+    },
+    {
+     "chip": "",
+     "descrizione": "n/a",
+     "dispositivo": "/dev/ttyUSB152",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyUSB91",
+     "Scheda ñ 🐙",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     ""
+    ],
+    [
+     "/dev/ttyUSB80",
+     "",
+     "0000:0000",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB152",
+     "n/a",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyUSB91",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "Scheda ñ 🐙",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/ttyUSB80",
+     "—",
+     "0000:0000",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB152",
+     "—",
+     "",
+     "n/a",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:1001",
+    "0000:0000",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM125 · Silicon Labs CP210x",
+     "/dev/ttyACM125"
+    ],
+    [
+     "/dev/ttyUSB130 ",
+     "/dev/ttyUSB130"
+    ],
+    [
+     "/dev/ttyUSB134 ",
+     "/dev/ttyUSB134"
+    ],
+    [
+     "COM282 · WCH CH340",
+     "COM282"
+    ],
+    [
+     "COM83 ",
+     "COM83"
+    ],
+    [
+     "COM161 ",
+     "COM161"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 4776,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1452
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 10373,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 16049
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyUSB130",
+     "manufacturer": null,
+     "pid": 4776,
+     "serial_number": "0001",
+     "vid": 1452
+    },
+    {
+     "description": "",
+     "device": "COM161",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "COM282",
+     "manufacturer": "FTDI",
+     "pid": 29987,
+     "serial_number": "0001",
+     "vid": 6790
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "COM83",
+     "manufacturer": "wch.cn",
+     "pid": 60893,
+     "serial_number": null,
+     "vid": 2994
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyUSB134",
+     "manufacturer": "FTDI",
+     "pid": 10373,
+     "serial_number": "",
+     "vid": 16049
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyACM125",
+     "manufacturer": "wch.cn",
+     "pid": 60000,
+     "serial_number": null,
+     "vid": 4292
+    }
+   ],
+   "mancanti": [],
+   "nota": "Nessun problema di driver rilevato.",
+   "occupata": "COM1",
+   "polpo": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Silicon Labs CP210x",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyACM125",
+     "numeroSerie": "",
+     "pid": 60000,
+     "produttore": "wch.cn",
+     "vid": 4292
+    },
+    {
+     "chip": "",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyUSB130",
+     "numeroSerie": "0001",
+     "pid": 4776,
+     "produttore": "",
+     "vid": 1452
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyUSB134",
+     "numeroSerie": "",
+     "pid": 10373,
+     "produttore": "FTDI",
+     "vid": 16049
+    },
+    {
+     "chip": "WCH CH340",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "COM282",
+     "numeroSerie": "0001",
+     "pid": 29987,
+     "produttore": "FTDI",
+     "vid": 6790
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "COM83",
+     "numeroSerie": "",
+     "pid": 60893,
+     "produttore": "wch.cn",
+     "vid": 2994
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "COM161",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyACM125",
+     "USB Serial",
+     "10C4:EA60",
+     "Silicon Labs CP210x",
+     "wch.cn"
+    ],
+    [
+     "/dev/ttyUSB130",
+     "USB Serial",
+     "05AC:12A8",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB134",
+     "Arduino Uno",
+     "3EB1:2885",
+     "",
+     "FTDI"
+    ],
+    [
+     "COM282",
+     "Scheda ñ 🐙",
+     "1A86:7523",
+     "WCH CH340",
+     "FTDI"
+    ],
+    [
+     "COM83",
+     "Arduino Uno",
+     "0BB2:EDDD",
+     "",
+     "wch.cn"
+    ],
+    [
+     "COM161",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyACM125",
+     "Silicon Labs CP210x",
+     "10C4:EA60",
+     "USB Serial",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB130",
+     "—",
+     "05AC:12A8",
+     "USB Serial",
+     ""
+    ],
+    [
+     "/dev/ttyUSB134",
+     "—",
+     "3EB1:2885",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "COM282",
+     "WCH CH340",
+     "1A86:7523",
+     "Scheda ñ 🐙",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "COM83",
+     "—",
+     "0BB2:EDDD",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "COM161",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "10C4:EA60",
+    "05AC:12A8",
+    "3EB1:2885",
+    "1A86:7523",
+    "0BB2:EDDD",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbserial-150 ",
+     "/dev/cu.usbserial-150"
+    ],
+    [
+     "/dev/cu.usbserial-161 · WCH CH9102",
+     "/dev/cu.usbserial-161"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 9722,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 13233
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 4660,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbserial-150",
+     "manufacturer": "Espressif",
+     "pid": 4660,
+     "serial_number": "",
+     "vid": 6790
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/cu.usbserial-161",
+     "manufacturer": "",
+     "pid": 21972,
+     "serial_number": "",
+     "vid": 6790
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/cu.usbserial-142",
+     "manufacturer": "FTDI",
+     "pid": 9722,
+     "serial_number": "0001",
+     "vid": 13233
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: CH340 (1A86:5523), CH340 (1A86:7523), CP2102 (0403:6001). Installa il driver del produttore del chip.",
+   "occupata": "/dev/cu.usbserial-142",
+   "polpo": [
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/cu.usbserial-142",
+     "numeroSerie": "0001",
+     "pid": 9722,
+     "produttore": "FTDI",
+     "vid": 13233
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbserial-150",
+     "numeroSerie": "",
+     "pid": 4660,
+     "produttore": "Espressif",
+     "vid": 6790
+    },
+    {
+     "chip": "WCH CH9102",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/cu.usbserial-161",
+     "numeroSerie": "",
+     "pid": 21972,
+     "produttore": "",
+     "vid": 6790
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbserial-142",
+     "Scheda ñ 🐙",
+     "33B1:25FA",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/cu.usbserial-150",
+     "Arduino Uno",
+     "1A86:1234",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/cu.usbserial-161",
+     "CP2102 USB to UART Bridge Controller",
+     "1A86:55D4",
+     "WCH CH9102",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbserial-142",
+     "—",
+     "33B1:25FA",
+     "Scheda ñ 🐙",
+     ""
+    ],
+    [
+     "/dev/cu.usbserial-150",
+     "—",
+     "1A86:1234",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-161",
+     "WCH CH9102",
+     "1A86:55D4",
+     "CP2102 USB to UART Bridge Controller",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ]
+   ],
+   "usb_id": [
+    "33B1:25FA",
+    "1A86:1234",
+    "1A86:55D4"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyUSB13 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "/dev/ttyUSB13"
+    ],
+    [
+     "/dev/cu.usbmodem4 ",
+     "/dev/cu.usbmodem4"
+    ],
+    [
+     "/dev/cu.usbmodem40 ",
+     "/dev/cu.usbmodem40"
+    ],
+    [
+     "/dev/ttyACM62 · FTDI FT231X",
+     "/dev/ttyACM62"
+    ],
+    [
+     "COM161 ",
+     "COM161"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 224,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 43392,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 56813
+    },
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 51843,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 16591
+    },
+    {
+     "classe": 0,
+     "driver": "cp210x",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 4097,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 2624,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 16011
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/cu.usbmodem40",
+     "manufacturer": "Silicon Labs",
+     "pid": 4660,
+     "serial_number": "A50285BI",
+     "vid": 6790
+    },
+    {
+     "description": "n/a",
+     "device": "COM161",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/ttyACM62",
+     "manufacturer": "Silicon Labs",
+     "pid": 24597,
+     "serial_number": "A50285BI",
+     "vid": 1027
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/ttyUSB13",
+     "manufacturer": null,
+     "pid": 4097,
+     "serial_number": "",
+     "vid": 12346
+    },
+    {
+     "description": null,
+     "device": "/dev/cu.usbmodem4",
+     "manufacturer": "FTDI",
+     "pid": 2624,
+     "serial_number": "",
+     "vid": 16011
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: CH340 (0403:6001), CH340 (0403:6010), CH340 (1A86:55D4). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/ttyUSB13",
+     "numeroSerie": "",
+     "pid": 4097,
+     "produttore": "",
+     "vid": 12346
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbmodem4",
+     "numeroSerie": "",
+     "pid": 2624,
+     "produttore": "FTDI",
+     "vid": 16011
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbmodem40",
+     "numeroSerie": "A50285BI",
+     "pid": 4660,
+     "produttore": "Silicon Labs",
+     "vid": 6790
+    },
+    {
+     "chip": "FTDI FT231X",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/ttyACM62",
+     "numeroSerie": "A50285BI",
+     "pid": 24597,
+     "produttore": "Silicon Labs",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "n/a",
+     "dispositivo": "COM161",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyUSB13",
+     "Scheda ñ 🐙",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem4",
+     "",
+     "3E8B:0A40",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/cu.usbmodem40",
+     "",
+     "1A86:1234",
+     "",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyACM62",
+     "Scheda ñ 🐙",
+     "0403:6015",
+     "FTDI FT231X",
+     "Silicon Labs"
+    ],
+    [
+     "COM161",
+     "n/a",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyUSB13",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "Scheda ñ 🐙",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem4",
+     "—",
+     "3E8B:0A40",
+     "",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem40",
+     "—",
+     "1A86:1234",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyACM62",
+     "FTDI FT231X",
+     "0403:6015",
+     "Scheda ñ 🐙",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "COM161",
+     "—",
+     "",
+     "n/a",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:1001",
+    "3E8B:0A40",
+    "1A86:1234",
+    "0403:6015",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "COM50 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "COM50"
+    ],
+    [
+     "/dev/cu.usbmodem92 · FTDI FT231X",
+     "/dev/cu.usbmodem92"
+    ],
+    [
+     "/dev/ttyUSB251 · Prolific PL2303",
+     "/dev/ttyUSB251"
+    ],
+    [
+     "/dev/ttyUSB74 · Adafruit",
+     "/dev/ttyUSB74"
+    ],
+    [
+     "COM75 ",
+     "COM75"
+    ],
+    [
+     "/dev/cu.usbmodem306 ",
+     "/dev/cu.usbmodem306"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 5,
+     "driver": "usbhid, usbfs",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 37485,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 47592
+    },
+    {
+     "classe": 8,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 29854,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 34812
+    },
+    {
+     "classe": 2,
+     "driver": "",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 7460,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 38519
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 4097,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 32788,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 9114
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Arduino Uno",
+     "device": "COM50",
+     "manufacturer": "FTDI",
+     "pid": 4097,
+     "serial_number": "",
+     "vid": 12346
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyUSB251",
+     "manufacturer": "Silicon Labs",
+     "pid": 8963,
+     "serial_number": "A50285BI",
+     "vid": 1659
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/cu.usbmodem92",
+     "manufacturer": "Espressif",
+     "pid": 24597,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": "USB Serial",
+     "device": "COM133",
+     "manufacturer": "Espressif",
+     "pid": 4097,
+     "serial_number": "A50285BI",
+     "vid": 12346
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/ttyUSB74",
+     "manufacturer": "wch.cn",
+     "pid": 32788,
+     "serial_number": null,
+     "vid": 9114
+    },
+    {
+     "description": "",
+     "device": "COM75",
+     "manufacturer": null,
+     "pid": 24593,
+     "serial_number": null,
+     "vid": 1027
+    },
+    {
+     "description": "n/a",
+     "device": "/dev/cu.usbmodem306",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    }
+   ],
+   "mancanti": [],
+   "nota": "Nessun problema di driver rilevato.",
+   "occupata": "COM133",
+   "polpo": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "USB Serial",
+     "dispositivo": "COM133",
+     "numeroSerie": "A50285BI",
+     "pid": 4097,
+     "produttore": "Espressif",
+     "vid": 12346
+    },
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "COM50",
+     "numeroSerie": "",
+     "pid": 4097,
+     "produttore": "FTDI",
+     "vid": 12346
+    },
+    {
+     "chip": "FTDI FT231X",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/cu.usbmodem92",
+     "numeroSerie": "0001",
+     "pid": 24597,
+     "produttore": "Espressif",
+     "vid": 1027
+    },
+    {
+     "chip": "Prolific PL2303",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyUSB251",
+     "numeroSerie": "A50285BI",
+     "pid": 8963,
+     "produttore": "Silicon Labs",
+     "vid": 1659
+    },
+    {
+     "chip": "Adafruit",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/ttyUSB74",
+     "numeroSerie": "",
+     "pid": 32788,
+     "produttore": "wch.cn",
+     "vid": 9114
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "COM75",
+     "numeroSerie": "",
+     "pid": 24593,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "n/a",
+     "dispositivo": "/dev/cu.usbmodem306",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "COM133",
+     "USB Serial",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "Espressif"
+    ],
+    [
+     "COM50",
+     "Arduino Uno",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "FTDI"
+    ],
+    [
+     "/dev/cu.usbmodem92",
+     "USB Serial",
+     "0403:6015",
+     "FTDI FT231X",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyUSB251",
+     "Arduino Uno",
+     "067B:2303",
+     "Prolific PL2303",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyUSB74",
+     "Scheda ñ 🐙",
+     "239A:8014",
+     "Adafruit",
+     "wch.cn"
+    ],
+    [
+     "COM75",
+     "",
+     "0403:6011",
+     "",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem306",
+     "n/a",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "COM133",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "USB Serial",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "COM50",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "Arduino Uno",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem92",
+     "FTDI FT231X",
+     "0403:6015",
+     "USB Serial",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB251",
+     "Prolific PL2303",
+     "067B:2303",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB74",
+     "Adafruit",
+     "239A:8014",
+     "Scheda ñ 🐙",
+     ""
+    ],
+    [
+     "COM75",
+     "—",
+     "0403:6011",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbmodem306",
+     "—",
+     "",
+     "n/a",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:1001",
+    "303A:1001",
+    "0403:6015",
+    "067B:2303",
+    "239A:8014",
+    "0403:6011",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "COM190 ",
+     "COM190"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 9,
+     "driver": "",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 56512,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 36546
+    },
+    {
+     "classe": 10,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 47713,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 57458
+    },
+    {
+     "classe": 224,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 67,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 9025
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 65535,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 65535
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "COM190",
+     "manufacturer": "Silicon Labs",
+     "pid": 65535,
+     "serial_number": "A50285BI",
+     "vid": 65535
+    }
+   ],
+   "mancanti": [],
+   "nota": "Nessun problema di driver rilevato.",
+   "occupata": null,
+   "polpo": [
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "COM190",
+     "numeroSerie": "A50285BI",
+     "pid": 65535,
+     "produttore": "Silicon Labs",
+     "vid": 65535
+    }
+   ],
+   "righe": [
+    [
+     "COM190",
+     "USB JTAG/serial debug unit",
+     "FFFF:FFFF",
+     "",
+     "Silicon Labs"
+    ]
+   ],
+   "schede": [
+    [
+     "COM190",
+     "—",
+     "FFFF:FFFF",
+     "USB JTAG/serial debug unit",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "FFFF:FFFF"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbserial-100 ",
+     "/dev/cu.usbserial-100"
+    ],
+    [
+     "/dev/ttyACM202 ",
+     "/dev/ttyACM202"
+    ],
+    [
+     "/dev/ttyS33 · FTDI FT2232",
+     "/dev/ttyS33"
+    ],
+    [
+     "/dev/ttyS71 · FTDI FT232R",
+     "/dev/ttyS71"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 50475,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1133
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": null,
+     "device": "/dev/cu.usbserial-100",
+     "manufacturer": "FTDI",
+     "pid": 49133,
+     "serial_number": "",
+     "vid": 10118
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyS71",
+     "manufacturer": "Silicon Labs",
+     "pid": 24577,
+     "serial_number": "",
+     "vid": 1027
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyACM202",
+     "manufacturer": "wch.cn",
+     "pid": 50475,
+     "serial_number": "0001",
+     "vid": 1133
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyS33",
+     "manufacturer": null,
+     "pid": 24592,
+     "serial_number": null,
+     "vid": 1027
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB Serial (0403:6015), CH340 (1A86:7523). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-100",
+     "numeroSerie": "",
+     "pid": 49133,
+     "produttore": "FTDI",
+     "vid": 10118
+    },
+    {
+     "chip": "",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyACM202",
+     "numeroSerie": "0001",
+     "pid": 50475,
+     "produttore": "wch.cn",
+     "vid": 1133
+    },
+    {
+     "chip": "FTDI FT2232",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyS33",
+     "numeroSerie": "",
+     "pid": 24592,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "FTDI FT232R",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyS71",
+     "numeroSerie": "",
+     "pid": 24577,
+     "produttore": "Silicon Labs",
+     "vid": 1027
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbserial-100",
+     "",
+     "2786:BFED",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyACM202",
+     "USB Serial",
+     "046D:C52B",
+     "",
+     "wch.cn"
+    ],
+    [
+     "/dev/ttyS33",
+     "USB JTAG/serial debug unit",
+     "0403:6010",
+     "FTDI FT2232",
+     ""
+    ],
+    [
+     "/dev/ttyS71",
+     "",
+     "0403:6001",
+     "FTDI FT232R",
+     "Silicon Labs"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbserial-100",
+     "—",
+     "2786:BFED",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyACM202",
+     "—",
+     "046D:C52B",
+     "USB Serial",
+     ""
+    ],
+    [
+     "/dev/ttyS33",
+     "FTDI FT2232",
+     "0403:6010",
+     "USB JTAG/serial debug unit",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyS71",
+     "FTDI FT232R",
+     "0403:6001",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ]
+   ],
+   "usb_id": [
+    "2786:BFED",
+    "046D:C52B",
+    "0403:6010",
+    "0403:6001"
+   ]
+  },
+  {
+   "console": [],
+   "dispositivi": [
+    {
+     "classe": 1,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 3088,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 6083
+    },
+    {
+     "classe": 8,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 50475,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 1133
+    },
+    {
+     "classe": 15,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 67,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 10755
+    },
+    {
+     "classe": 239,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 4776,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1452
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB Serial (10C4:EA60), CH340 (0403:6014), USB Serial (0403:6010). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [],
+   "porte": [],
+   "righe": [],
+   "schede": [],
+   "usb_id": []
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyS225 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "/dev/ttyS225"
+    ],
+    [
+     "/dev/ttyACM193 ",
+     "/dev/ttyACM193"
+    ],
+    [
+     "/dev/ttyS212 ",
+     "/dev/ttyS212"
+    ],
+    [
+     "/dev/ttyUSB131 ",
+     "/dev/ttyUSB131"
+    ],
+    [
+     "/dev/ttyUSB160 ",
+     "/dev/ttyUSB160"
+    ],
+    [
+     "COM284 · WCH CH341",
+     "COM284"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 9,
+     "driver": "cp210x",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 43434,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 2133
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyUSB160",
+     "manufacturer": "Espressif",
+     "pid": 42623,
+     "serial_number": "A50285BI",
+     "vid": 53105
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyUSB131",
+     "manufacturer": "",
+     "pid": 58685,
+     "serial_number": "A50285BI",
+     "vid": 10491
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyS212",
+     "manufacturer": "Espressif",
+     "pid": 24593,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": "",
+     "device": "/dev/ttyACM193",
+     "manufacturer": "wch.cn",
+     "pid": 43434,
+     "serial_number": "0001",
+     "vid": 2133
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "COM284",
+     "manufacturer": "Espressif",
+     "pid": 21795,
+     "serial_number": "A50285BI",
+     "vid": 6790
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/ttyS225",
+     "manufacturer": "Silicon Labs",
+     "pid": 16385,
+     "serial_number": "0001",
+     "vid": 12346
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 9,
+     "driver": "cp210x",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: Mouse ottico ñ (0403:6015), CH340 (1A86:55D4), CP2102 (1A86:7523). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/ttyS225",
+     "numeroSerie": "0001",
+     "pid": 16385,
+     "produttore": "Silicon Labs",
+     "vid": 12346
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM193",
+     "numeroSerie": "0001",
+     "pid": 43434,
+     "produttore": "wch.cn",
+     "vid": 2133
+    },
+    {
+     "chip": "",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyS212",
+     "numeroSerie": "0001",
+     "pid": 24593,
+     "produttore": "Espressif",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyUSB131",
+     "numeroSerie": "A50285BI",
+     "pid": 58685,
+     "produttore": "",
+     "vid": 10491
+    },
+    {
+     "chip": "",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyUSB160",
+     "numeroSerie": "A50285BI",
+     "pid": 42623,
+     "produttore": "Espressif",
+     "vid": 53105
+    },
+    {
+     "chip": "WCH CH341",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "COM284",
+     "numeroSerie": "A50285BI",
+     "pid": 21795,
+     "produttore": "Espressif",
+     "vid": 6790
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyS225",
+     "CP2102 USB to UART Bridge Controller",
+     "303A:4001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyACM193",
+     "",
+     "0855:A9AA",
+     "",
+     "wch.cn"
+    ],
+    [
+     "/dev/ttyS212",
+     "USB JTAG/serial debug unit",
+     "0403:6011",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyUSB131",
+     "USB JTAG/serial debug unit",
+     "28FB:E53D",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB160",
+     "USB Serial",
+     "CF71:A67F",
+     "",
+     "Espressif"
+    ],
+    [
+     "COM284",
+     "USB JTAG/serial debug unit",
+     "1A86:5523",
+     "WCH CH341",
+     "Espressif"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyS225",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:4001",
+     "CP2102 USB to UART Bridge Controller",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/ttyACM193",
+     "—",
+     "0855:A9AA",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyS212",
+     "—",
+     "0403:6011",
+     "USB JTAG/serial debug unit",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB131",
+     "—",
+     "28FB:E53D",
+     "USB JTAG/serial debug unit",
+     ""
+    ],
+    [
+     "/dev/ttyUSB160",
+     "—",
+     "CF71:A67F",
+     "USB Serial",
+     ""
+    ],
+    [
+     "COM284",
+     "WCH CH341",
+     "1A86:5523",
+     "USB JTAG/serial debug unit",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ]
+   ],
+   "usb_id": [
+    "303A:4001",
+    "0855:A9AA",
+    "0403:6011",
+    "28FB:E53D",
+    "CF71:A67F",
+    "1A86:5523"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbmodem183 · SparkFun",
+     "/dev/cu.usbmodem183"
+    ],
+    [
+     "/dev/ttyUSB12 · Prolific PL2303",
+     "/dev/ttyUSB12"
+    ],
+    [
+     "/dev/ttyACM220 ",
+     "/dev/ttyACM220"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 1,
+     "driver": "cp210x",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 12015,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 37204
+    },
+    {
+     "classe": 0,
+     "driver": "cp210x",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 24577,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 37382,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6991
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/ttyACM220",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": null,
+     "device": "COM271",
+     "manufacturer": "wch.cn",
+     "pid": 4097,
+     "serial_number": "A50285BI",
+     "vid": 12346
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyUSB12",
+     "manufacturer": "wch.cn",
+     "pid": 8963,
+     "serial_number": "A50285BI",
+     "vid": 1659
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/cu.usbmodem183",
+     "manufacturer": "",
+     "pid": 37382,
+     "serial_number": "A50285BI",
+     "vid": 6991
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 0,
+     "driver": "cp210x",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 24577,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "480 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: Espressif (0403:6001), CP2102 (1A86:7523). Installa il driver del produttore del chip.",
+   "occupata": "COM271",
+   "polpo": [
+    true,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "",
+     "dispositivo": "COM271",
+     "numeroSerie": "A50285BI",
+     "pid": 4097,
+     "produttore": "wch.cn",
+     "vid": 12346
+    },
+    {
+     "chip": "SparkFun",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/cu.usbmodem183",
+     "numeroSerie": "A50285BI",
+     "pid": 37382,
+     "produttore": "",
+     "vid": 6991
+    },
+    {
+     "chip": "Prolific PL2303",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB12",
+     "numeroSerie": "A50285BI",
+     "pid": 8963,
+     "produttore": "wch.cn",
+     "vid": 1659
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM220",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "COM271",
+     "",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "wch.cn"
+    ],
+    [
+     "/dev/cu.usbmodem183",
+     "CP2102 USB to UART Bridge Controller",
+     "1B4F:9206",
+     "SparkFun",
+     ""
+    ],
+    [
+     "/dev/ttyUSB12",
+     "",
+     "067B:2303",
+     "Prolific PL2303",
+     "wch.cn"
+    ],
+    [
+     "/dev/ttyACM220",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "COM271",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem183",
+     "SparkFun",
+     "1B4F:9206",
+     "CP2102 USB to UART Bridge Controller",
+     ""
+    ],
+    [
+     "/dev/ttyUSB12",
+     "Prolific PL2303",
+     "067B:2303",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyACM220",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:1001",
+    "1B4F:9206",
+    "067B:2303",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "COM40 ",
+     "COM40"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "COM40",
+     "manufacturer": null,
+     "pid": 65535,
+     "serial_number": "A50285BI",
+     "vid": 65535
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB Serial (10C4:EA60), CH340 (1A86:55D4). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "COM40",
+     "numeroSerie": "A50285BI",
+     "pid": 65535,
+     "produttore": "",
+     "vid": 65535
+    }
+   ],
+   "righe": [
+    [
+     "COM40",
+     "USB JTAG/serial debug unit",
+     "FFFF:FFFF",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "COM40",
+     "—",
+     "FFFF:FFFF",
+     "USB JTAG/serial debug unit",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "FFFF:FFFF"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyS175 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "/dev/ttyS175"
+    ],
+    [
+     "/dev/cu.usbmodem74 ",
+     "/dev/cu.usbmodem74"
+    ],
+    [
+     "/dev/ttyACM60 ",
+     "/dev/ttyACM60"
+    ],
+    [
+     "/dev/ttyS101 · Silicon Labs CP210x",
+     "/dev/ttyS101"
+    ],
+    [
+     "/dev/ttyS196 ",
+     "/dev/ttyS196"
+    ],
+    [
+     "/dev/ttyS302 · Prolific PL2303",
+     "/dev/ttyS302"
+    ],
+    [
+     "/dev/cu.usbserial-3 ",
+     "/dev/cu.usbserial-3"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 224,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 4776,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1452
+    },
+    {
+     "classe": 254,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 4776,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1452
+    },
+    {
+     "classe": 14,
+     "driver": "usbhid, usbfs",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 26142,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 19821
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 4097,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 65535,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 65535
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 0,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 0
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": null,
+     "device": "/dev/ttyACM60",
+     "manufacturer": "FTDI",
+     "pid": 65535,
+     "serial_number": "A50285BI",
+     "vid": 65535
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyS101",
+     "manufacturer": "Silicon Labs",
+     "pid": 60000,
+     "serial_number": "",
+     "vid": 4292
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyS302",
+     "manufacturer": "Espressif",
+     "pid": 8963,
+     "serial_number": null,
+     "vid": 1659
+    },
+    {
+     "description": null,
+     "device": "/dev/cu.usbserial-3",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbmodem74",
+     "manufacturer": "Espressif",
+     "pid": 50475,
+     "serial_number": null,
+     "vid": 1133
+    },
+    {
+     "description": "",
+     "device": "/dev/ttyS175",
+     "manufacturer": "",
+     "pid": 4097,
+     "serial_number": null,
+     "vid": 12346
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyS196",
+     "manufacturer": "",
+     "pid": 0,
+     "serial_number": "",
+     "vid": 0
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: CP2102 (0403:6014), CP2102 (1A86:55D4), CH340 (0403:6010). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyS175",
+     "numeroSerie": "",
+     "pid": 4097,
+     "produttore": "",
+     "vid": 12346
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbmodem74",
+     "numeroSerie": "",
+     "pid": 50475,
+     "produttore": "Espressif",
+     "vid": 1133
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM60",
+     "numeroSerie": "A50285BI",
+     "pid": 65535,
+     "produttore": "FTDI",
+     "vid": 65535
+    },
+    {
+     "chip": "Silicon Labs CP210x",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyS101",
+     "numeroSerie": "",
+     "pid": 60000,
+     "produttore": "Silicon Labs",
+     "vid": 4292
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyS196",
+     "numeroSerie": "",
+     "pid": 0,
+     "produttore": "",
+     "vid": 0
+    },
+    {
+     "chip": "Prolific PL2303",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyS302",
+     "numeroSerie": "",
+     "pid": 8963,
+     "produttore": "Espressif",
+     "vid": 1659
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-3",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyS175",
+     "",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem74",
+     "Arduino Uno",
+     "046D:C52B",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyACM60",
+     "",
+     "FFFF:FFFF",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyS101",
+     "Arduino Uno",
+     "10C4:EA60",
+     "Silicon Labs CP210x",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyS196",
+     "",
+     "0000:0000",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyS302",
+     "USB JTAG/serial debug unit",
+     "067B:2303",
+     "Prolific PL2303",
+     "Espressif"
+    ],
+    [
+     "/dev/cu.usbserial-3",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyS175",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem74",
+     "—",
+     "046D:C52B",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "/dev/ttyACM60",
+     "—",
+     "FFFF:FFFF",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyS101",
+     "Silicon Labs CP210x",
+     "10C4:EA60",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyS196",
+     "—",
+     "0000:0000",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyS302",
+     "Prolific PL2303",
+     "067B:2303",
+     "USB JTAG/serial debug unit",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-3",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:1001",
+    "046D:C52B",
+    "FFFF:FFFF",
+    "10C4:EA60",
+    "0000:0000",
+    "067B:2303",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "COM21 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "COM21"
+    ],
+    [
+     "/dev/cu.usbmodem0 · Prolific PL2303",
+     "/dev/cu.usbmodem0"
+    ],
+    [
+     "/dev/ttyACM154 ",
+     "/dev/ttyACM154"
+    ],
+    [
+     "/dev/ttyS23 · Adafruit",
+     "/dev/ttyS23"
+    ],
+    [
+     "/dev/ttyUSB102 ",
+     "/dev/ttyUSB102"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 65535,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 65535
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB Serial",
+     "device": "/dev/cu.usbmodem0",
+     "manufacturer": "Silicon Labs",
+     "pid": 8963,
+     "serial_number": "0001",
+     "vid": 1659
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "COM21",
+     "manufacturer": null,
+     "pid": 4097,
+     "serial_number": "A50285BI",
+     "vid": 12346
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyUSB102",
+     "manufacturer": "",
+     "pid": 65535,
+     "serial_number": "A50285BI",
+     "vid": 65535
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyS23",
+     "manufacturer": "Espressif",
+     "pid": 32788,
+     "serial_number": null,
+     "vid": 9114
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyACM154",
+     "manufacturer": "",
+     "pid": 24593,
+     "serial_number": "0001",
+     "vid": 1027
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: CH340 (0403:6014), CH340 (0403:6015). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "COM21",
+     "numeroSerie": "A50285BI",
+     "pid": 4097,
+     "produttore": "",
+     "vid": 12346
+    },
+    {
+     "chip": "Prolific PL2303",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/cu.usbmodem0",
+     "numeroSerie": "0001",
+     "pid": 8963,
+     "produttore": "Silicon Labs",
+     "vid": 1659
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyACM154",
+     "numeroSerie": "0001",
+     "pid": 24593,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "Adafruit",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyS23",
+     "numeroSerie": "",
+     "pid": 32788,
+     "produttore": "Espressif",
+     "vid": 9114
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyUSB102",
+     "numeroSerie": "A50285BI",
+     "pid": 65535,
+     "produttore": "",
+     "vid": 65535
+    }
+   ],
+   "righe": [
+    [
+     "COM21",
+     "Scheda ñ 🐙",
+     "303A:1001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem0",
+     "USB Serial",
+     "067B:2303",
+     "Prolific PL2303",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyACM154",
+     "Arduino Uno",
+     "0403:6011",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyS23",
+     "Arduino Uno",
+     "239A:8014",
+     "Adafruit",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyUSB102",
+     "Arduino Uno",
+     "FFFF:FFFF",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "COM21",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:1001",
+     "Scheda ñ 🐙",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem0",
+     "Prolific PL2303",
+     "067B:2303",
+     "USB Serial",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyACM154",
+     "—",
+     "0403:6011",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyS23",
+     "Adafruit",
+     "239A:8014",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "/dev/ttyUSB102",
+     "—",
+     "FFFF:FFFF",
+     "Arduino Uno",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:1001",
+    "067B:2303",
+    "0403:6011",
+    "239A:8014",
+    "FFFF:FFFF"
+   ]
+  },
+  {
+   "console": [],
+   "dispositivi": [
+    {
+     "classe": 11,
+     "driver": "",
+     "nome": "Espressif",
+     "numeroSerie": "",
+     "pid": 24718,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "",
+     "vid": 30028
+    },
+    {
+     "classe": 16,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 39544,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 14231
+    },
+    {
+     "classe": 3,
+     "driver": "cp210x",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "1234",
+     "pid": 43351,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Espressif Systems",
+     "velocita": "480 Mbit/s",
+     "vid": 28323
+    },
+    {
+     "classe": 216,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 23554,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "",
+     "vid": 51365
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB Serial (0403:6015), CH340 (1A86:5523), CH340 (0403:6001). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [],
+   "porte": [],
+   "righe": [],
+   "schede": [],
+   "usb_id": []
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM291 ",
+     "/dev/ttyACM291"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 3,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 63713,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 56954
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/cu.usbmodem110",
+     "manufacturer": "FTDI",
+     "pid": 24593,
+     "serial_number": null,
+     "vid": 1027
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyACM291",
+     "manufacturer": "Espressif",
+     "pid": 61963,
+     "serial_number": "",
+     "vid": 53544
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB Serial (1A86:55D4), USB Serial (067B:2303). Installa il driver del produttore del chip.",
+   "occupata": "/dev/cu.usbmodem110",
+   "polpo": [
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbmodem110",
+     "numeroSerie": "",
+     "pid": 24593,
+     "produttore": "FTDI",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyACM291",
+     "numeroSerie": "",
+     "pid": 61963,
+     "produttore": "Espressif",
+     "vid": 53544
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbmodem110",
+     "",
+     "0403:6011",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyACM291",
+     "Arduino Uno",
+     "D128:F20B",
+     "",
+     "Espressif"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbmodem110",
+     "—",
+     "0403:6011",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyACM291",
+     "—",
+     "D128:F20B",
+     "Arduino Uno",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "0403:6011",
+    "D128:F20B"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbserial-30 · Arduino (arduino.org)",
+     "/dev/cu.usbserial-30"
+    ],
+    [
+     "/dev/ttyUSB72 · WCH CH341",
+     "/dev/ttyUSB72"
+    ],
+    [
+     "COM171 · FTDI FT2232",
+     "COM171"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 8,
+     "driver": "cdc_acm",
+     "nome": "Tastiera",
+     "numeroSerie": "",
+     "pid": 21640,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "",
+     "vid": 35878
+    },
+    {
+     "classe": 8,
+     "driver": "cp210x",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 4097,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Espressif Systems",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 67,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 10755
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbserial-30",
+     "manufacturer": null,
+     "pid": 67,
+     "serial_number": "A50285BI",
+     "vid": 10755
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "COM171",
+     "manufacturer": "",
+     "pid": 24592,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyUSB72",
+     "manufacturer": "Silicon Labs",
+     "pid": 21795,
+     "serial_number": "0001",
+     "vid": 6790
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB Serial (0403:6014). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Arduino (arduino.org)",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbserial-30",
+     "numeroSerie": "A50285BI",
+     "pid": 67,
+     "produttore": "",
+     "vid": 10755
+    },
+    {
+     "chip": "WCH CH341",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyUSB72",
+     "numeroSerie": "0001",
+     "pid": 21795,
+     "produttore": "Silicon Labs",
+     "vid": 6790
+    },
+    {
+     "chip": "FTDI FT2232",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "COM171",
+     "numeroSerie": "0001",
+     "pid": 24592,
+     "produttore": "",
+     "vid": 1027
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbserial-30",
+     "Arduino Uno",
+     "2A03:0043",
+     "Arduino (arduino.org)",
+     ""
+    ],
+    [
+     "/dev/ttyUSB72",
+     "Arduino Uno",
+     "1A86:5523",
+     "WCH CH341",
+     "Silicon Labs"
+    ],
+    [
+     "COM171",
+     "USB JTAG/serial debug unit",
+     "0403:6010",
+     "FTDI FT2232",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbserial-30",
+     "Arduino (arduino.org)",
+     "2A03:0043",
+     "Arduino Uno",
+     "Arduino originale (5 V per Uno/Mega)"
+    ],
+    [
+     "/dev/ttyUSB72",
+     "WCH CH341",
+     "1A86:5523",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "COM171",
+     "FTDI FT2232",
+     "0403:6010",
+     "USB JTAG/serial debug unit",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ]
+   ],
+   "usb_id": [
+    "2A03:0043",
+    "1A86:5523",
+    "0403:6010"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbmodem202 · Prolific PL2303",
+     "/dev/cu.usbmodem202"
+    ],
+    [
+     "/dev/cu.usbserial-36 ",
+     "/dev/cu.usbserial-36"
+    ],
+    [
+     "/dev/ttyACM195 ",
+     "/dev/ttyACM195"
+    ],
+    [
+     "/dev/ttyS300 ",
+     "/dev/ttyS300"
+    ],
+    [
+     "/dev/ttyS34 · Raspberry Pi (RP2040/RP2350)",
+     "/dev/ttyS34"
+    ],
+    [
+     "COM21 · FTDI FT232R",
+     "COM21"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 8,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 34586,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 11306
+    },
+    {
+     "classe": 224,
+     "driver": "cdc_acm",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 33846,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 49194
+    },
+    {
+     "classe": null,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 25953,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 36007
+    },
+    {
+     "classe": 6,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 16385,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 16232,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 45342
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 28776,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 22016
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24577,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/ttyS300",
+     "manufacturer": "Espressif",
+     "pid": 28776,
+     "serial_number": "0001",
+     "vid": 22016
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "COM21",
+     "manufacturer": "wch.cn",
+     "pid": 24577,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/cu.usbmodem202",
+     "manufacturer": "Silicon Labs",
+     "pid": 8963,
+     "serial_number": null,
+     "vid": 1659
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/cu.usbmodem283",
+     "manufacturer": "",
+     "pid": 16385,
+     "serial_number": "0001",
+     "vid": 12346
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/ttyS34",
+     "manufacturer": "FTDI",
+     "pid": 10,
+     "serial_number": null,
+     "vid": 11914
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/ttyACM195",
+     "manufacturer": "Espressif",
+     "pid": 16232,
+     "serial_number": null,
+     "vid": 45342
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/cu.usbserial-36",
+     "manufacturer": "Silicon Labs",
+     "pid": 32056,
+     "serial_number": "",
+     "vid": 42677
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 6,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 4292
+    }
+   ],
+   "nota": "Possibile driver mancante per: 🐙 Polpo (10C4:EA60). Installa il driver del produttore del chip.",
+   "occupata": "/dev/cu.usbmodem283",
+   "polpo": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/cu.usbmodem283",
+     "numeroSerie": "0001",
+     "pid": 16385,
+     "produttore": "",
+     "vid": 12346
+    },
+    {
+     "chip": "Prolific PL2303",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/cu.usbmodem202",
+     "numeroSerie": "",
+     "pid": 8963,
+     "produttore": "Silicon Labs",
+     "vid": 1659
+    },
+    {
+     "chip": "",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/cu.usbserial-36",
+     "numeroSerie": "",
+     "pid": 32056,
+     "produttore": "Silicon Labs",
+     "vid": 42677
+    },
+    {
+     "chip": "",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/ttyACM195",
+     "numeroSerie": "",
+     "pid": 16232,
+     "produttore": "Espressif",
+     "vid": 45342
+    },
+    {
+     "chip": "",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/ttyS300",
+     "numeroSerie": "0001",
+     "pid": 28776,
+     "produttore": "Espressif",
+     "vid": 22016
+    },
+    {
+     "chip": "Raspberry Pi (RP2040/RP2350)",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/ttyS34",
+     "numeroSerie": "",
+     "pid": 10,
+     "produttore": "FTDI",
+     "vid": 11914
+    },
+    {
+     "chip": "FTDI FT232R",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "COM21",
+     "numeroSerie": "0001",
+     "pid": 24577,
+     "produttore": "wch.cn",
+     "vid": 1027
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbmodem283",
+     "CP2102 USB to UART Bridge Controller",
+     "303A:4001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem202",
+     "CP2102 USB to UART Bridge Controller",
+     "067B:2303",
+     "Prolific PL2303",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/cu.usbserial-36",
+     "USB Serial",
+     "A6B5:7D38",
+     "",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyACM195",
+     "CP2102 USB to UART Bridge Controller",
+     "B11E:3F68",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyS300",
+     "CP2102 USB to UART Bridge Controller",
+     "5600:7068",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyS34",
+     "CP2102 USB to UART Bridge Controller",
+     "2E8A:000A",
+     "Raspberry Pi (RP2040/RP2350)",
+     "FTDI"
+    ],
+    [
+     "COM21",
+     "Arduino Uno",
+     "0403:6001",
+     "FTDI FT232R",
+     "wch.cn"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbmodem283",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:4001",
+     "CP2102 USB to UART Bridge Controller",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem202",
+     "Prolific PL2303",
+     "067B:2303",
+     "CP2102 USB to UART Bridge Controller",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-36",
+     "—",
+     "A6B5:7D38",
+     "USB Serial",
+     ""
+    ],
+    [
+     "/dev/ttyACM195",
+     "—",
+     "B11E:3F68",
+     "CP2102 USB to UART Bridge Controller",
+     ""
+    ],
+    [
+     "/dev/ttyS300",
+     "—",
+     "5600:7068",
+     "CP2102 USB to UART Bridge Controller",
+     ""
+    ],
+    [
+     "/dev/ttyS34",
+     "Raspberry Pi (RP2040/RP2350)",
+     "2E8A:000A",
+     "CP2102 USB to UART Bridge Controller",
+     ""
+    ],
+    [
+     "COM21",
+     "FTDI FT232R",
+     "0403:6001",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ]
+   ],
+   "usb_id": [
+    "303A:4001",
+    "067B:2303",
+    "A6B5:7D38",
+    "B11E:3F68",
+    "5600:7068",
+    "2E8A:000A",
+    "0403:6001"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM90 ",
+     "/dev/ttyACM90"
+    ],
+    [
+     "/dev/cu.usbserial-201 ",
+     "/dev/cu.usbserial-201"
+    ],
+    [
+     "/dev/ttyACM132 ",
+     "/dev/ttyACM132"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 1,
+     "driver": "",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": 6,
+     "driver": "usbhid, usbfs",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 55888,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 26313
+    },
+    {
+     "classe": 6,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 19961,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 62504
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 44067,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 18359
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyACM90",
+     "manufacturer": "FTDI",
+     "pid": 44067,
+     "serial_number": "0001",
+     "vid": 18359
+    },
+    {
+     "description": null,
+     "device": "/dev/cu.usbserial-201",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyACM132",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 1,
+     "driver": "",
+     "nome": "USB",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    }
+   ],
+   "nota": "Possibile driver mancante per: USB (1A86:7523), CP2102 (1A86:7523), CP2102 (10C4:EA60), CP2102 (067B:2303). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyACM90",
+     "numeroSerie": "0001",
+     "pid": 44067,
+     "produttore": "FTDI",
+     "vid": 18359
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-201",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM132",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyACM90",
+     "Arduino Uno",
+     "47B7:AC23",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/cu.usbserial-201",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyACM132",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyACM90",
+     "—",
+     "47B7:AC23",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "/dev/cu.usbserial-201",
+     "—",
+     "",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyACM132",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "47B7:AC23",
+    "",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyS252 · FTDI FT231X",
+     "/dev/ttyS252"
+    ],
+    [
+     "/dev/ttyUSB190 ",
+     "/dev/ttyUSB190"
+    ],
+    [
+     "COM291 · Silicon Labs CP210x",
+     "COM291"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 1,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 21795,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": 1,
+     "driver": "usbhid, usbfs",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 33135,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 55036
+    },
+    {
+     "classe": 14,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 24041,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Silicon Labs",
+     "velocita": "12 Mbit/s",
+     "vid": 25359
+    },
+    {
+     "classe": null,
+     "driver": "usbhid, usbfs",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 4097,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/ttyUSB190",
+     "manufacturer": "Silicon Labs",
+     "pid": 4776,
+     "serial_number": "0001",
+     "vid": 1452
+    },
+    {
+     "description": "",
+     "device": "COM291",
+     "manufacturer": "wch.cn",
+     "pid": 60000,
+     "serial_number": null,
+     "vid": 4292
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyS252",
+     "manufacturer": "",
+     "pid": 24597,
+     "serial_number": "A50285BI",
+     "vid": 1027
+    },
+    {
+     "description": null,
+     "device": "/dev/cu.usbserial-153",
+     "manufacturer": "Espressif",
+     "pid": 21972,
+     "serial_number": null,
+     "vid": 6790
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 1,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 21795,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: CP2102 USB to UART (1A86:5523). Installa il driver del produttore del chip.",
+   "occupata": "/dev/cu.usbserial-153",
+   "polpo": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "WCH CH9102",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-153",
+     "numeroSerie": "",
+     "pid": 21972,
+     "produttore": "Espressif",
+     "vid": 6790
+    },
+    {
+     "chip": "FTDI FT231X",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyS252",
+     "numeroSerie": "A50285BI",
+     "pid": 24597,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB190",
+     "numeroSerie": "0001",
+     "pid": 4776,
+     "produttore": "Silicon Labs",
+     "vid": 1452
+    },
+    {
+     "chip": "Silicon Labs CP210x",
+     "descrizione": "",
+     "dispositivo": "COM291",
+     "numeroSerie": "",
+     "pid": 60000,
+     "produttore": "wch.cn",
+     "vid": 4292
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbserial-153",
+     "",
+     "1A86:55D4",
+     "WCH CH9102",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyS252",
+     "USB Serial",
+     "0403:6015",
+     "FTDI FT231X",
+     ""
+    ],
+    [
+     "/dev/ttyUSB190",
+     "",
+     "05AC:12A8",
+     "",
+     "Silicon Labs"
+    ],
+    [
+     "COM291",
+     "",
+     "10C4:EA60",
+     "Silicon Labs CP210x",
+     "wch.cn"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbserial-153",
+     "WCH CH9102",
+     "1A86:55D4",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyS252",
+     "FTDI FT231X",
+     "0403:6015",
+     "USB Serial",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB190",
+     "—",
+     "05AC:12A8",
+     "",
+     ""
+    ],
+    [
+     "COM291",
+     "Silicon Labs CP210x",
+     "10C4:EA60",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ]
+   ],
+   "usb_id": [
+    "1A86:55D4",
+    "0403:6015",
+    "05AC:12A8",
+    "10C4:EA60"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbmodem173 · WCH CH340",
+     "/dev/cu.usbmodem173"
+    ],
+    [
+     "/dev/cu.usbserial-61 · FTDI FT232H",
+     "/dev/cu.usbserial-61"
+    ],
+    [
+     "/dev/ttyACM20 ",
+     "/dev/ttyACM20"
+    ],
+    [
+     "/dev/ttyUSB162 · SparkFun",
+     "/dev/ttyUSB162"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 2,
+     "driver": "usbhid, usbfs",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": 239,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 0,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 0
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 4776,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1452
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyACM20",
+     "manufacturer": "wch.cn",
+     "pid": 4776,
+     "serial_number": "0001",
+     "vid": 1452
+    },
+    {
+     "description": null,
+     "device": "/dev/cu.usbserial-61",
+     "manufacturer": "",
+     "pid": 24596,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyUSB162",
+     "manufacturer": "Espressif",
+     "pid": 37382,
+     "serial_number": "0001",
+     "vid": 6991
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbmodem173",
+     "manufacturer": "FTDI",
+     "pid": 29987,
+     "serial_number": "",
+     "vid": 6790
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 2,
+     "driver": "usbhid, usbfs",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "Espressif Systems",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: CP2102 USB to UART (1A86:55D4). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "WCH CH340",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbmodem173",
+     "numeroSerie": "",
+     "pid": 29987,
+     "produttore": "FTDI",
+     "vid": 6790
+    },
+    {
+     "chip": "FTDI FT232H",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-61",
+     "numeroSerie": "0001",
+     "pid": 24596,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyACM20",
+     "numeroSerie": "0001",
+     "pid": 4776,
+     "produttore": "wch.cn",
+     "vid": 1452
+    },
+    {
+     "chip": "SparkFun",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyUSB162",
+     "numeroSerie": "0001",
+     "pid": 37382,
+     "produttore": "Espressif",
+     "vid": 6991
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbmodem173",
+     "Arduino Uno",
+     "1A86:7523",
+     "WCH CH340",
+     "FTDI"
+    ],
+    [
+     "/dev/cu.usbserial-61",
+     "",
+     "0403:6014",
+     "FTDI FT232H",
+     ""
+    ],
+    [
+     "/dev/ttyACM20",
+     "USB JTAG/serial debug unit",
+     "05AC:12A8",
+     "",
+     "wch.cn"
+    ],
+    [
+     "/dev/ttyUSB162",
+     "USB Serial",
+     "1B4F:9206",
+     "SparkFun",
+     "Espressif"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbmodem173",
+     "WCH CH340",
+     "1A86:7523",
+     "Arduino Uno",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-61",
+     "FTDI FT232H",
+     "0403:6014",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyACM20",
+     "—",
+     "05AC:12A8",
+     "USB JTAG/serial debug unit",
+     ""
+    ],
+    [
+     "/dev/ttyUSB162",
+     "SparkFun",
+     "1B4F:9206",
+     "USB Serial",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "1A86:7523",
+    "0403:6014",
+    "05AC:12A8",
+    "1B4F:9206"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM90 ",
+     "/dev/ttyACM90"
+    ],
+    [
+     "/dev/ttyS23 ",
+     "/dev/ttyS23"
+    ],
+    [
+     "/dev/ttyUSB251 ",
+     "/dev/ttyUSB251"
+    ],
+    [
+     "COM144 ",
+     "COM144"
+    ],
+    [
+     "/dev/cu.usbmodem102 ",
+     "/dev/cu.usbmodem102"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 254,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 32788,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "",
+     "vid": 9114
+    },
+    {
+     "classe": 15,
+     "driver": "usbhid, usbfs",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 25296,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 51288
+    },
+    {
+     "classe": 1,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "1234",
+     "pid": 0,
+     "posizione": "",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 0
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 46294,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 16250
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 50836,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6934
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": null,
+     "device": "/dev/ttyACM90",
+     "manufacturer": "Espressif",
+     "pid": 24593,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyUSB251",
+     "manufacturer": "",
+     "pid": 46294,
+     "serial_number": "A50285BI",
+     "vid": 16250
+    },
+    {
+     "description": "",
+     "device": "/dev/cu.usbmodem102",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "",
+     "device": "/dev/ttyS23",
+     "manufacturer": "FTDI",
+     "pid": 63105,
+     "serial_number": "",
+     "vid": 33498
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "COM144",
+     "manufacturer": "FTDI",
+     "pid": 50836,
+     "serial_number": "0001",
+     "vid": 6934
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 21972,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: CH340 (1A86:55D4). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM90",
+     "numeroSerie": "0001",
+     "pid": 24593,
+     "produttore": "Espressif",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyS23",
+     "numeroSerie": "",
+     "pid": 63105,
+     "produttore": "FTDI",
+     "vid": 33498
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyUSB251",
+     "numeroSerie": "A50285BI",
+     "pid": 46294,
+     "produttore": "",
+     "vid": 16250
+    },
+    {
+     "chip": "",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "COM144",
+     "numeroSerie": "0001",
+     "pid": 50836,
+     "produttore": "FTDI",
+     "vid": 6934
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbmodem102",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyACM90",
+     "",
+     "0403:6011",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyS23",
+     "",
+     "82DA:F681",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyUSB251",
+     "Arduino Uno",
+     "3F7A:B4D6",
+     "",
+     ""
+    ],
+    [
+     "COM144",
+     "Scheda ñ 🐙",
+     "1B16:C694",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/cu.usbmodem102",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyACM90",
+     "—",
+     "0403:6011",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyS23",
+     "—",
+     "82DA:F681",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB251",
+     "—",
+     "3F7A:B4D6",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "COM144",
+     "—",
+     "1B16:C694",
+     "Scheda ñ 🐙",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem102",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "0403:6011",
+    "82DA:F681",
+    "3F7A:B4D6",
+    "1B16:C694",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "COM130 ",
+     "COM130"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 220,
+     "driver": "cdc_acm",
+     "nome": "Espressif",
+     "numeroSerie": "",
+     "pid": 24672,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 50882
+    },
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Arduino Uno",
+     "device": "COM130",
+     "manufacturer": "Silicon Labs",
+     "pid": 65535,
+     "serial_number": "A50285BI",
+     "vid": 65535
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 21795,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: 🐙 Polpo (1A86:7523), USB Serial (0403:6014), USB Serial (1A86:5523). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "COM130",
+     "numeroSerie": "A50285BI",
+     "pid": 65535,
+     "produttore": "Silicon Labs",
+     "vid": 65535
+    }
+   ],
+   "righe": [
+    [
+     "COM130",
+     "Arduino Uno",
+     "FFFF:FFFF",
+     "",
+     "Silicon Labs"
+    ]
+   ],
+   "schede": [
+    [
+     "COM130",
+     "—",
+     "FFFF:FFFF",
+     "Arduino Uno",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "FFFF:FFFF"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbserial-164 · FTDI FT232R",
+     "/dev/cu.usbserial-164"
+    ],
+    [
+     "/dev/ttyUSB222 ",
+     "/dev/ttyUSB222"
+    ],
+    [
+     "/dev/ttyUSB271 ",
+     "/dev/ttyUSB271"
+    ],
+    [
+     "/dev/ttyUSB63 · FTDI FT232H",
+     "/dev/ttyUSB63"
+    ],
+    [
+     "/dev/ttyUSB260 ",
+     "/dev/ttyUSB260"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 7,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": 0,
+     "driver": "cp210x",
+     "nome": "Mouse ottico ñ",
+     "numeroSerie": "",
+     "pid": 58702,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 56835
+    },
+    {
+     "classe": 8,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 24597,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": 5,
+     "driver": "",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 65535,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 65535
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 65535,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 65535
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    }
+   ],
+   "grezze": [
+    {
+     "description": "n/a",
+     "device": "/dev/ttyUSB260",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyUSB271",
+     "manufacturer": "FTDI",
+     "pid": 65535,
+     "serial_number": "",
+     "vid": 65535
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/ttyUSB222",
+     "manufacturer": "Espressif",
+     "pid": 24593,
+     "serial_number": "0001",
+     "vid": 1027
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyUSB63",
+     "manufacturer": "FTDI",
+     "pid": 24596,
+     "serial_number": null,
+     "vid": 1027
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/cu.usbserial-164",
+     "manufacturer": "FTDI",
+     "pid": 24577,
+     "serial_number": null,
+     "vid": 1027
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 7,
+     "driver": "",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "12 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": 8,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 24597,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CH340",
+     "numeroSerie": "",
+     "pid": 60000,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 4292
+    }
+   ],
+   "nota": "Possibile driver mancante per: CP2102 USB to UART (0403:6015), Tastiera (0403:6015), USB Serial (0403:6010), CH340 (10C4:EA60). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "FTDI FT232R",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/cu.usbserial-164",
+     "numeroSerie": "",
+     "pid": 24577,
+     "produttore": "FTDI",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/ttyUSB222",
+     "numeroSerie": "0001",
+     "pid": 24593,
+     "produttore": "Espressif",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB271",
+     "numeroSerie": "",
+     "pid": 65535,
+     "produttore": "FTDI",
+     "vid": 65535
+    },
+    {
+     "chip": "FTDI FT232H",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB63",
+     "numeroSerie": "",
+     "pid": 24596,
+     "produttore": "FTDI",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "n/a",
+     "dispositivo": "/dev/ttyUSB260",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbserial-164",
+     "Scheda ñ 🐙",
+     "0403:6001",
+     "FTDI FT232R",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyUSB222",
+     "Scheda ñ 🐙",
+     "0403:6011",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyUSB271",
+     "",
+     "FFFF:FFFF",
+     "",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyUSB63",
+     "",
+     "0403:6014",
+     "FTDI FT232H",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyUSB260",
+     "n/a",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbserial-164",
+     "FTDI FT232R",
+     "0403:6001",
+     "Scheda ñ 🐙",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB222",
+     "—",
+     "0403:6011",
+     "Scheda ñ 🐙",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB271",
+     "—",
+     "FFFF:FFFF",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB63",
+     "FTDI FT232H",
+     "0403:6014",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB260",
+     "—",
+     "",
+     "n/a",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "0403:6001",
+    "0403:6011",
+    "FFFF:FFFF",
+    "0403:6014",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM263 · Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "/dev/ttyACM263"
+    ],
+    [
+     "/dev/cu.usbmodem32 · WCH CH340",
+     "/dev/cu.usbmodem32"
+    ],
+    [
+     "/dev/cu.usbserial-184 ",
+     "/dev/cu.usbserial-184"
+    ],
+    [
+     "/dev/ttyS91 ",
+     "/dev/ttyS91"
+    ],
+    [
+     "COM175 ",
+     "COM175"
+    ],
+    [
+     "/dev/ttyUSB280 ",
+     "/dev/ttyUSB280"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 7,
+     "driver": "",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 24596,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": 14,
+     "driver": "cdc_acm",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 24076,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 22763
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 16385,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 12346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 65535,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 65535
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/ttyUSB280",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyS91",
+     "manufacturer": null,
+     "pid": 0,
+     "serial_number": null,
+     "vid": 0
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/cu.usbmodem32",
+     "manufacturer": null,
+     "pid": 29987,
+     "serial_number": "",
+     "vid": 6790
+    },
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/ttyACM263",
+     "manufacturer": "",
+     "pid": 16385,
+     "serial_number": null,
+     "vid": 12346
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbserial-184",
+     "manufacturer": null,
+     "pid": 65535,
+     "serial_number": null,
+     "vid": 65535
+    },
+    {
+     "description": "",
+     "device": "COM175",
+     "manufacturer": "wch.cn",
+     "pid": 65535,
+     "serial_number": null,
+     "vid": 65535
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 7,
+     "driver": "",
+     "nome": "Espressif",
+     "numeroSerie": "1234",
+     "pid": 24596,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: Espressif (0403:6014). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/ttyACM263",
+     "numeroSerie": "",
+     "pid": 16385,
+     "produttore": "",
+     "vid": 12346
+    },
+    {
+     "chip": "WCH CH340",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/cu.usbmodem32",
+     "numeroSerie": "",
+     "pid": 29987,
+     "produttore": "",
+     "vid": 6790
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbserial-184",
+     "numeroSerie": "",
+     "pid": 65535,
+     "produttore": "",
+     "vid": 65535
+    },
+    {
+     "chip": "",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyS91",
+     "numeroSerie": "",
+     "pid": 0,
+     "produttore": "",
+     "vid": 0
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "COM175",
+     "numeroSerie": "",
+     "pid": 65535,
+     "produttore": "wch.cn",
+     "vid": 65535
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB280",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyACM263",
+     "CP2102 USB to UART Bridge Controller",
+     "303A:4001",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     ""
+    ],
+    [
+     "/dev/cu.usbmodem32",
+     "CP2102 USB to UART Bridge Controller",
+     "1A86:7523",
+     "WCH CH340",
+     ""
+    ],
+    [
+     "/dev/cu.usbserial-184",
+     "Arduino Uno",
+     "FFFF:FFFF",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyS91",
+     "USB Serial",
+     "0000:0000",
+     "",
+     ""
+    ],
+    [
+     "COM175",
+     "",
+     "FFFF:FFFF",
+     "",
+     "wch.cn"
+    ],
+    [
+     "/dev/ttyUSB280",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyACM263",
+     "Espressif, USB nativa (ESP32-S2/S3/C3/C6)",
+     "303A:4001",
+     "CP2102 USB to UART Bridge Controller",
+     "ESP32 con USB nativa: il Polpo o un'altra scheda Espressif"
+    ],
+    [
+     "/dev/cu.usbmodem32",
+     "WCH CH340",
+     "1A86:7523",
+     "CP2102 USB to UART Bridge Controller",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-184",
+     "—",
+     "FFFF:FFFF",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "/dev/ttyS91",
+     "—",
+     "0000:0000",
+     "USB Serial",
+     ""
+    ],
+    [
+     "COM175",
+     "—",
+     "FFFF:FFFF",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB280",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "303A:4001",
+    "1A86:7523",
+    "FFFF:FFFF",
+    "0000:0000",
+    "FFFF:FFFF",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbmodem210 ",
+     "/dev/cu.usbmodem210"
+    ],
+    [
+     "/dev/ttyACM32 · Adafruit",
+     "/dev/ttyACM32"
+    ],
+    [
+     "/dev/ttyS91 · Prolific PL2303",
+     "/dev/ttyS91"
+    ],
+    [
+     "/dev/ttyUSB223 ",
+     "/dev/ttyUSB223"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 9,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 10,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 11914
+    },
+    {
+     "classe": 239,
+     "driver": "usbhid, usbfs",
+     "nome": "Tastiera",
+     "numeroSerie": "1234",
+     "pid": 65535,
+     "posizione": "0x14100000",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 65535
+    },
+    {
+     "classe": 5,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 21972,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 65498,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 32346
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 32788,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 9114
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 8963,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1659
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 50475,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1133
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/cu.usbmodem210",
+     "manufacturer": "Silicon Labs",
+     "pid": 65498,
+     "serial_number": null,
+     "vid": 32346
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyS91",
+     "manufacturer": "Silicon Labs",
+     "pid": 8963,
+     "serial_number": "",
+     "vid": 1659
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/ttyACM32",
+     "manufacturer": "FTDI",
+     "pid": 32788,
+     "serial_number": "",
+     "vid": 9114
+    },
+    {
+     "description": "Arduino Uno",
+     "device": "/dev/ttyUSB223",
+     "manufacturer": "Silicon Labs",
+     "pid": 50475,
+     "serial_number": "",
+     "vid": 1133
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 5,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": 7,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 21972,
+     "posizione": "0x14100000",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: Hub USB 2.0 (1A86:7523), 🐙 Polpo (1A86:55D4). Installa il driver del produttore del chip.",
+   "occupata": "COM1",
+   "polpo": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/cu.usbmodem210",
+     "numeroSerie": "",
+     "pid": 65498,
+     "produttore": "Silicon Labs",
+     "vid": 32346
+    },
+    {
+     "chip": "Adafruit",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/ttyACM32",
+     "numeroSerie": "",
+     "pid": 32788,
+     "produttore": "FTDI",
+     "vid": 9114
+    },
+    {
+     "chip": "Prolific PL2303",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyS91",
+     "numeroSerie": "",
+     "pid": 8963,
+     "produttore": "Silicon Labs",
+     "vid": 1659
+    },
+    {
+     "chip": "",
+     "descrizione": "Arduino Uno",
+     "dispositivo": "/dev/ttyUSB223",
+     "numeroSerie": "",
+     "pid": 50475,
+     "produttore": "Silicon Labs",
+     "vid": 1133
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbmodem210",
+     "Arduino Uno",
+     "7E5A:FFDA",
+     "",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyACM32",
+     "Scheda ñ 🐙",
+     "239A:8014",
+     "Adafruit",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyS91",
+     "USB Serial",
+     "067B:2303",
+     "Prolific PL2303",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyUSB223",
+     "Arduino Uno",
+     "046D:C52B",
+     "",
+     "Silicon Labs"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbmodem210",
+     "—",
+     "7E5A:FFDA",
+     "Arduino Uno",
+     ""
+    ],
+    [
+     "/dev/ttyACM32",
+     "Adafruit",
+     "239A:8014",
+     "Scheda ñ 🐙",
+     ""
+    ],
+    [
+     "/dev/ttyS91",
+     "Prolific PL2303",
+     "067B:2303",
+     "USB Serial",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB223",
+     "—",
+     "046D:C52B",
+     "Arduino Uno",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "7E5A:FFDA",
+    "239A:8014",
+    "067B:2303",
+    "046D:C52B"
+   ]
+  },
+  {
+   "console": [
+    [
+     "COM150 ",
+     "COM150"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 14,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 37315,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "480 Mbit/s",
+     "vid": 6984
+    },
+    {
+     "classe": 255,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 32530,
+     "posizione": "0x14100000",
+     "produttore": "Espressif Systems",
+     "velocita": "480 Mbit/s",
+     "vid": 32192
+    },
+    {
+     "classe": 15,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 13509,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 63546
+    },
+    {
+     "classe": 254,
+     "driver": "cp210x",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "1234",
+     "pid": 42715,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 54925
+    }
+   ],
+   "grezze": [
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "COM150",
+     "manufacturer": null,
+     "pid": 19518,
+     "serial_number": "0001",
+     "vid": 37862
+    }
+   ],
+   "mancanti": [],
+   "nota": "Nessun problema di driver rilevato.",
+   "occupata": null,
+   "polpo": [
+    false
+   ],
+   "porte": [
+    {
+     "chip": "",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "COM150",
+     "numeroSerie": "0001",
+     "pid": 19518,
+     "produttore": "",
+     "vid": 37862
+    }
+   ],
+   "righe": [
+    [
+     "COM150",
+     "Scheda ñ 🐙",
+     "93E6:4C3E",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "COM150",
+     "—",
+     "93E6:4C3E",
+     "Scheda ñ 🐙",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "93E6:4C3E"
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/cu.usbmodem21 · WCH CH9102",
+     "/dev/cu.usbmodem21"
+    ],
+    [
+     "/dev/cu.usbserial-204 · WCH CH340",
+     "/dev/cu.usbserial-204"
+    ],
+    [
+     "/dev/cu.usbserial-72 · FTDI FT2232",
+     "/dev/cu.usbserial-72"
+    ],
+    [
+     "/dev/ttyS220 · SparkFun",
+     "/dev/ttyS220"
+    ],
+    [
+     "/dev/ttyACM93 ",
+     "/dev/ttyACM93"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 2,
+     "driver": "cp210x",
+     "nome": "USB",
+     "numeroSerie": "",
+     "pid": 24593,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "480 Mbit/s",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "grezze": [
+    {
+     "description": "",
+     "device": "/dev/ttyS220",
+     "manufacturer": "Silicon Labs",
+     "pid": 37382,
+     "serial_number": "0001",
+     "vid": 6991
+    },
+    {
+     "description": "Scheda ñ 🐙",
+     "device": "/dev/cu.usbmodem21",
+     "manufacturer": "",
+     "pid": 21972,
+     "serial_number": "A50285BI",
+     "vid": 6790
+    },
+    {
+     "description": "",
+     "device": "/dev/cu.usbserial-72",
+     "manufacturer": "",
+     "pid": 24592,
+     "serial_number": null,
+     "vid": 1027
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyACM93",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": "",
+     "device": "/dev/cu.usbserial-204",
+     "manufacturer": "Espressif",
+     "pid": 29987,
+     "serial_number": null,
+     "vid": 6790
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "CP2102",
+     "numeroSerie": "",
+     "pid": 24597,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    }
+   ],
+   "nota": "Possibile driver mancante per: CP2102 (0403:6015). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "WCH CH9102",
+     "descrizione": "Scheda ñ 🐙",
+     "dispositivo": "/dev/cu.usbmodem21",
+     "numeroSerie": "A50285BI",
+     "pid": 21972,
+     "produttore": "",
+     "vid": 6790
+    },
+    {
+     "chip": "WCH CH340",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-204",
+     "numeroSerie": "",
+     "pid": 29987,
+     "produttore": "Espressif",
+     "vid": 6790
+    },
+    {
+     "chip": "FTDI FT2232",
+     "descrizione": "",
+     "dispositivo": "/dev/cu.usbserial-72",
+     "numeroSerie": "",
+     "pid": 24592,
+     "produttore": "",
+     "vid": 1027
+    },
+    {
+     "chip": "SparkFun",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyS220",
+     "numeroSerie": "0001",
+     "pid": 37382,
+     "produttore": "Silicon Labs",
+     "vid": 6991
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyACM93",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/cu.usbmodem21",
+     "Scheda ñ 🐙",
+     "1A86:55D4",
+     "WCH CH9102",
+     ""
+    ],
+    [
+     "/dev/cu.usbserial-204",
+     "",
+     "1A86:7523",
+     "WCH CH340",
+     "Espressif"
+    ],
+    [
+     "/dev/cu.usbserial-72",
+     "",
+     "0403:6010",
+     "FTDI FT2232",
+     ""
+    ],
+    [
+     "/dev/ttyS220",
+     "",
+     "1B4F:9206",
+     "SparkFun",
+     "Silicon Labs"
+    ],
+    [
+     "/dev/ttyACM93",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/cu.usbmodem21",
+     "WCH CH9102",
+     "1A86:55D4",
+     "Scheda ñ 🐙",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-204",
+     "WCH CH340",
+     "1A86:7523",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/cu.usbserial-72",
+     "FTDI FT2232",
+     "0403:6010",
+     "",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyS220",
+     "SparkFun",
+     "1B4F:9206",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyACM93",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "1A86:55D4",
+    "1A86:7523",
+    "0403:6010",
+    "1B4F:9206",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM161 · Arduino",
+     "/dev/ttyACM161"
+    ],
+    [
+     "/dev/ttyS293 ",
+     "/dev/ttyS293"
+    ],
+    [
+     "/dev/ttyUSB80 · FTDI FT232R",
+     "/dev/ttyUSB80"
+    ],
+    [
+     "/dev/ttyUSB22 ",
+     "/dev/ttyUSB22"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 254,
+     "driver": "usbhid, usbfs",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 45571,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 24520
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "grezze": [
+    {
+     "description": "CP2102 USB to UART Bridge Controller",
+     "device": "/dev/ttyUSB80",
+     "manufacturer": "FTDI",
+     "pid": 24577,
+     "serial_number": "A50285BI",
+     "vid": 1027
+    },
+    {
+     "description": "USB Serial",
+     "device": "/dev/ttyACM161",
+     "manufacturer": "",
+     "pid": 67,
+     "serial_number": "A50285BI",
+     "vid": 9025
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyUSB22",
+     "manufacturer": null,
+     "pid": null,
+     "serial_number": null,
+     "vid": null
+    },
+    {
+     "description": null,
+     "device": "/dev/ttyS293",
+     "manufacturer": "Espressif",
+     "pid": 45571,
+     "serial_number": "",
+     "vid": 24520
+    }
+   ],
+   "mancanti": [
+    {
+     "classe": 254,
+     "driver": "usbhid, usbfs",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "",
+     "pid": 24596,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Logitech",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "USB Serial",
+     "numeroSerie": "",
+     "pid": 29987,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 6790
+    }
+   ],
+   "nota": "Possibile driver mancante per: Hub USB 2.0 (0403:6014), USB Serial (1A86:7523). Installa il driver del produttore del chip.",
+   "occupata": null,
+   "polpo": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "Arduino",
+     "descrizione": "USB Serial",
+     "dispositivo": "/dev/ttyACM161",
+     "numeroSerie": "A50285BI",
+     "pid": 67,
+     "produttore": "",
+     "vid": 9025
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyS293",
+     "numeroSerie": "",
+     "pid": 45571,
+     "produttore": "Espressif",
+     "vid": 24520
+    },
+    {
+     "chip": "FTDI FT232R",
+     "descrizione": "CP2102 USB to UART Bridge Controller",
+     "dispositivo": "/dev/ttyUSB80",
+     "numeroSerie": "A50285BI",
+     "pid": 24577,
+     "produttore": "FTDI",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "",
+     "dispositivo": "/dev/ttyUSB22",
+     "numeroSerie": "",
+     "pid": null,
+     "produttore": "",
+     "vid": null
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyACM161",
+     "USB Serial",
+     "2341:0043",
+     "Arduino",
+     ""
+    ],
+    [
+     "/dev/ttyS293",
+     "",
+     "5FC8:B203",
+     "",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyUSB80",
+     "CP2102 USB to UART Bridge Controller",
+     "0403:6001",
+     "FTDI FT232R",
+     "FTDI"
+    ],
+    [
+     "/dev/ttyUSB22",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyACM161",
+     "Arduino",
+     "2341:0043",
+     "USB Serial",
+     "Arduino originale (5 V per Uno/Mega)"
+    ],
+    [
+     "/dev/ttyS293",
+     "—",
+     "5FC8:B203",
+     "",
+     ""
+    ],
+    [
+     "/dev/ttyUSB80",
+     "FTDI FT232R",
+     "0403:6001",
+     "CP2102 USB to UART Bridge Controller",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyUSB22",
+     "—",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "2341:0043",
+    "5FC8:B203",
+    "0403:6001",
+    ""
+   ]
+  },
+  {
+   "console": [
+    [
+     "/dev/ttyACM200 · FTDI FT2232",
+     "/dev/ttyACM200"
+    ],
+    [
+     "/dev/ttyACM61 ",
+     "/dev/ttyACM61"
+    ]
+   ],
+   "dispositivi": [
+    {
+     "classe": 6,
+     "driver": "usbhid, usbfs",
+     "nome": "🐙 Polpo",
+     "numeroSerie": "",
+     "pid": 44010,
+     "posizione": "0x14100000",
+     "produttore": "Silicon Labs",
+     "velocita": "",
+     "vid": 33737
+    },
+    {
+     "classe": 10,
+     "driver": "cdc_acm",
+     "nome": "Hub USB 2.0",
+     "numeroSerie": "1234",
+     "pid": 2267,
+     "posizione": "bus 1 · 1-1.2",
+     "produttore": "Espressif Systems",
+     "velocita": "12 Mbit/s",
+     "vid": 56130
+    },
+    {
+     "classe": 1,
+     "driver": "cdc_acm",
+     "nome": "CP2102 USB to UART",
+     "numeroSerie": "",
+     "pid": 1880,
+     "posizione": "",
+     "produttore": "Logitech",
+     "velocita": "12 Mbit/s",
+     "vid": 24186
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 24592,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 1027
+    },
+    {
+     "classe": null,
+     "driver": "",
+     "nome": "Adattatore",
+     "numeroSerie": "",
+     "pid": 0,
+     "posizione": "",
+     "produttore": "",
+     "velocita": "",
+     "vid": 0
+    }
+   ],
+   "grezze": [
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyACM200",
+     "manufacturer": "Espressif",
+     "pid": 24592,
+     "serial_number": null,
+     "vid": 1027
+    },
+    {
+     "description": "USB JTAG/serial debug unit",
+     "device": "/dev/ttyACM61",
+     "manufacturer": "Silicon Labs",
+     "pid": 0,
+     "serial_number": null,
+     "vid": 0
+    }
+   ],
+   "mancanti": [],
+   "nota": "Nessun problema di driver rilevato.",
+   "occupata": null,
+   "polpo": [
+    false,
+    false
+   ],
+   "porte": [
+    {
+     "chip": "FTDI FT2232",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyACM200",
+     "numeroSerie": "",
+     "pid": 24592,
+     "produttore": "Espressif",
+     "vid": 1027
+    },
+    {
+     "chip": "",
+     "descrizione": "USB JTAG/serial debug unit",
+     "dispositivo": "/dev/ttyACM61",
+     "numeroSerie": "",
+     "pid": 0,
+     "produttore": "Silicon Labs",
+     "vid": 0
+    }
+   ],
+   "righe": [
+    [
+     "/dev/ttyACM200",
+     "USB JTAG/serial debug unit",
+     "0403:6010",
+     "FTDI FT2232",
+     "Espressif"
+    ],
+    [
+     "/dev/ttyACM61",
+     "USB JTAG/serial debug unit",
+     "0000:0000",
+     "",
+     "Silicon Labs"
+    ]
+   ],
+   "schede": [
+    [
+     "/dev/ttyACM200",
+     "FTDI FT2232",
+     "0403:6010",
+     "USB JTAG/serial debug unit",
+     "adattatore USB-seriale (tipico di ESP32 DevKit, Arduino Nano compatibili)"
+    ],
+    [
+     "/dev/ttyACM61",
+     "—",
+     "0000:0000",
+     "USB JTAG/serial debug unit",
+     ""
+    ]
+   ],
+   "usb_id": [
+    "0403:6010",
+    "0000:0000"
+   ]
+  }
+ ],
+ "tabelle": {
+  "chip_noti": [
+   [
+    12346,
+    null,
+    "Espressif, USB nativa (ESP32-S2/S3/C3/C6)"
+   ],
+   [
+    6790,
+    29987,
+    "WCH CH340"
+   ],
+   [
+    6790,
+    21795,
+    "WCH CH341"
+   ],
+   [
+    6790,
+    21972,
+    "WCH CH9102"
+   ],
+   [
+    4292,
+    60000,
+    "Silicon Labs CP210x"
+   ],
+   [
+    1027,
+    24577,
+    "FTDI FT232R"
+   ],
+   [
+    1027,
+    24592,
+    "FTDI FT2232"
+   ],
+   [
+    1027,
+    24596,
+    "FTDI FT232H"
+   ],
+   [
+    1027,
+    24597,
+    "FTDI FT231X"
+   ],
+   [
+    1659,
+    8963,
+    "Prolific PL2303"
+   ],
+   [
+    9025,
+    null,
+    "Arduino"
+   ],
+   [
+    10755,
+    null,
+    "Arduino (arduino.org)"
+   ],
+   [
+    11914,
+    null,
+    "Raspberry Pi (RP2040/RP2350)"
+   ],
+   [
+    9114,
+    null,
+    "Adafruit"
+   ],
+   [
+    6991,
+    null,
+    "SparkFun"
+   ]
+  ],
+  "chip_seriali": [
+   [
+    1027,
+    24577
+   ],
+   [
+    1027,
+    24592
+   ],
+   [
+    1027,
+    24596
+   ],
+   [
+    1027,
+    24597
+   ],
+   [
+    1659,
+    8963
+   ],
+   [
+    4292,
+    60000
+   ],
+   [
+    6790,
+    21795
+   ],
+   [
+    6790,
+    21972
+   ],
+   [
+    6790,
+    29987
+   ]
+  ],
+  "classi": [
+   [
+    0,
+    "per interfaccia"
+   ],
+   [
+    1,
+    "Audio"
+   ],
+   [
+    2,
+    "Comunicazioni (CDC)"
+   ],
+   [
+    3,
+    "HID (tastiere, mouse…)"
+   ],
+   [
+    5,
+    "Fisica"
+   ],
+   [
+    6,
+    "Immagini"
+   ],
+   [
+    7,
+    "Stampante"
+   ],
+   [
+    8,
+    "Memoria di massa"
+   ],
+   [
+    9,
+    "Hub"
+   ],
+   [
+    10,
+    "Dati CDC"
+   ],
+   [
+    11,
+    "Smart card"
+   ],
+   [
+    14,
+    "Video"
+   ],
+   [
+    15,
+    "Salute"
+   ],
+   [
+    16,
+    "Audio/Video"
+   ],
+   [
+    220,
+    "Diagnostica"
+   ],
+   [
+    224,
+    "Wireless (Bluetooth…)"
+   ],
+   [
+    239,
+    "Varie"
+   ],
+   [
+    254,
+    "Specifica applicazione"
+   ],
+   [
+    255,
+    "Del produttore"
+   ]
+  ],
+  "colonne": {
+   "hid": [
+    "Prodotto",
+    "VID:PID",
+    "Produttore",
+    "Tipo",
+    "Interfaccia"
+   ],
+   "periferiche": [
+    "Nome",
+    "VID:PID",
+    "Produttore",
+    "Classe",
+    "Velocità",
+    "Driver",
+    "Posizione"
+   ],
+   "porte": [
+    "Porta",
+    "Descrizione",
+    "VID:PID",
+    "Chip",
+    "Produttore"
+   ],
+   "schede": [
+    "Porta",
+    "Chip riconosciuto",
+    "VID:PID",
+    "Descrizione",
+    "Note"
+   ]
+  },
+  "etichette": [
+   "Fai clic qui, poi premi tasti o usa il mouse.",
+   "Scrivi e controlla uno script per la tastiera del Polpo. Polpo Studio NON lo esegue: lo copia sulla microSD e parte solo dal Polpo, dopo la sua conferma. Usalo solo sui tuoi computer.",
+   "Solo elenco: Polpo Studio non apre e non invia nulla ai dispositivi HID."
+  ],
+  "produttori": [
+   [
+    12346,
+    "Espressif"
+   ],
+   [
+    6790,
+    "WCH (QinHeng)"
+   ],
+   [
+    4292,
+    "Silicon Labs"
+   ],
+   [
+    1027,
+    "FTDI"
+   ],
+   [
+    1659,
+    "Prolific"
+   ],
+   [
+    9025,
+    "Arduino"
+   ],
+   [
+    10755,
+    "Arduino"
+   ],
+   [
+    11914,
+    "Raspberry Pi"
+   ],
+   [
+    9114,
+    "Adafruit"
+   ],
+   [
+    6991,
+    "SparkFun"
+   ],
+   [
+    1133,
+    "Logitech"
+   ],
+   [
+    1118,
+    "Microsoft"
+   ],
+   [
+    1452,
+    "Apple"
+   ],
+   [
+    3034,
+    "Realtek"
+   ],
+   [
+    32903,
+    "Intel"
+   ],
+   [
+    32902,
+    "Intel"
+   ],
+   [
+    1839,
+    "Advanced Card Systems (ACS)"
+   ],
+   [
+    7531,
+    "Linux Foundation"
+   ],
+   [
+    1921,
+    "SanDisk"
+   ],
+   [
+    2385,
+    "Kingston"
+   ],
+   [
+    1256,
+    "Samsung"
+   ],
+   [
+    6353,
+    "Google"
+   ],
+   [
+    2578,
+    "Cambridge Silicon Radio"
+   ],
+   [
+    2821,
+    "ASUS"
+   ],
+   [
+    4176,
+    "Yubico"
+   ],
+   [
+    1266,
+    "Chicony"
+   ],
+   [
+    3141,
+    "Microdia"
+   ],
+   [
+    5075,
+    "IMC Networks"
+   ],
+   [
+    34148,
+    "Transcend"
+   ]
+  ],
+  "usi_hid": [
+   [
+    1,
+    2,
+    "mouse"
+   ],
+   [
+    1,
+    6,
+    "tastiera"
+   ],
+   [
+    1,
+    5,
+    "gamepad"
+   ],
+   [
+    1,
+    4,
+    "joystick"
+   ],
+   [
+    12,
+    1,
+    "tasti multimediali"
+   ],
+   [
+    13,
+    4,
+    "touchscreen"
+   ],
+   [
+    13,
+    5,
+    "touchpad"
+   ]
+  ]
+ }
+}

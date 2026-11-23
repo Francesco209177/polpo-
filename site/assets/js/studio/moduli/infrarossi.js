@@ -6,6 +6,7 @@ import {
   CATEGORIE, marche, segnaliLibreria, titoloLibreria, NOTA_LIBRERIA, notaTelecomando, descriviSegnale, nomeFileIr,
   nomeCopiaTelecomando, messaggioImportazione, preparaInvioIr, messaggioInviatoIr, tastoImparato, leggiIr, scriviIr, FileIr, COMANDI_IR,
 } from "../protocolli/ir.js";
+import { preparaTrasmissioneTelefono } from "../protocolli/ir_codifica.js";
 
 export function crea(ctx) {
   let segnali = [], sorgente = null; // sorgente: {tipo: "lib"|"voce", id?, titolo}
@@ -18,6 +19,10 @@ export function crea(ctx) {
   const miei = h("select", { "aria-label": "I miei telecomandi" });
   const elimina = h("select", { "aria-label": "Tasto da eliminare" });
   const scelta = h("input", { type: "file", accept: ".ir", hidden: true });
+  // chi trasmette: il Polpo collegato o l'emettitore del telefono (se c'è)
+  const conChi = h("select", { "aria-label": "Invia con" }, h("option", { value: "polpo" }, "Invia con il Polpo"), h("option", { value: "telefono" }, "Invia con il telefono"));
+  const rigaConChi = h("div", { class: "btn-row", hidden: true }, conChi);
+  let alterna = false; // RC5/RC6: il bit che cambia a ogni pressione
 
   const voceCorrente = () => (sorgente && sorgente.tipo === "voce" && ctx.cassaforte ? ctx.cassaforte.voce(sorgente.id) : null);
 
@@ -70,6 +75,21 @@ export function crea(ctx) {
   };
 
   const invia = async (s) => {
+    if (conChi.value === "telefono" && !rigaConChi.hidden) {
+      const v = voceCorrente();
+      if (v && v.simulato) { ctx.avvisa(`«${v.nome}» viene dal Polpo virtuale (SIMULATO): non si invia davvero.`, "errore"); return; }
+      alterna = !alterna;
+      const t = preparaTrasmissioneTelefono(s, alterna);
+      if (t.errore) { ctx.avvisa(t.errore, "errore"); return; }
+      const nativo = globalThis.PolpoNativo;
+      if (!nativo || !nativo.irTrasmetti || !nativo.irTrasmetti(t.frequenza, JSON.stringify(t.tempi))) {
+        ctx.avvisa("L'emettitore infrarossi del telefono non ha trasmesso.", "errore");
+        return;
+      }
+      ctx.avvisa(`Inviato «${s.nome}» con il telefono.`, "ok");
+      ctx.registro.aggiungi("infrarossi", `Inviato IR «${s.nome}» con il telefono`, "ok", false);
+      return;
+    }
     const motivo = nonInviabile(ctx, voceCorrente());
     if (motivo) { ctx.avvisa(motivo, "errore"); return; }
     const { errore, comando, argomenti } = preparaInvioIr(s);
@@ -113,6 +133,11 @@ export function crea(ctx) {
   aggiornaMarche();
   disegnaTelecomando();
   ctx.suAggiornamento(aggiornaMiei);
+  ctx.suAggiornamento(() => {
+    const conTelefono = ctx.hw["telefono.ir"] && ctx.hw["telefono.ir"].presenza === "rilevato";
+    rigaConChi.hidden = !conTelefono;
+    if (conTelefono && !ctx.collegato()) conChi.value = "telefono";
+  });
 
   const el = h("div", { class: "st-griglia" },
     ctx.scheda("ir.library",
@@ -120,7 +145,7 @@ export function crea(ctx) {
       h("div", { class: "btn-row" }, miei,
         h("button", { type: "button", class: "btn btn-ghost", onclick: () => apriMio() }, "Apri il mio"),
         h("button", { type: "button", class: "btn btn-ghost", onclick: () => scelta.click() }, "Importa un file .ir…"), scelta)),
-    ctx.scheda("ir.send", titolo, nota, griglia,
+    ctx.scheda("ir.send", rigaConChi, titolo, nota, griglia,
       h("div", { class: "btn-row" },
         h("button", { type: "button", class: "btn btn-ghost", onclick: async () => {
           if (!segnali.length) { ctx.avvisa("Apri prima un telecomando.", "errore"); return; }

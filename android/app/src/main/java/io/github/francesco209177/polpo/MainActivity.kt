@@ -3,6 +3,7 @@ package io.github.francesco209177.polpo
 import android.Manifest
 import android.annotation.SuppressLint
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
@@ -40,9 +41,11 @@ import java.io.IOException
  * L'app Polpo: il sito del Polpo (simulatore con il firmware vero, Script, Onde, manuali) dentro il telefono,
  * senza Internet. Le pagine sono quelle di site/, costruite con «site/build.py --app».
  *
- * Cosa può fare la pagina oltre a una pagina web qualsiasi (oggetto «PolpoNativo» in JavaScript): salvare un file
- * dove scegli tu, con il selettore di Android, e parlare con il Polpo collegato con un cavo USB (solo dopo il permesso
- * di Android per quel dispositivo). Niente altro.
+ * Cosa può fare la pagina oltre a una pagina web qualsiasi (oggetto «PolpoNativo» in JavaScript, descritto in
+ * android/PONTE.md): salvare un file dove scegli tu, con il selettore di Android; parlare con i dispositivi USB
+ * collegati con un cavo OTG; leggere i tag NFC e scrivere link o testi sui propri; cercare dispositivi Bluetooth LE e
+ * leggerne le caratteristiche; trasmettere con l'emettitore infrarosso, se il telefono ne ha uno. Ogni accesso
+ * chiede prima il permesso di Android. Niente rete, niente emulazione di carte, niente annunci né scritture Bluetooth.
  */
 class MainActivity : ComponentActivity() {
 
@@ -50,6 +53,9 @@ class MainActivity : ComponentActivity() {
         private set
 
     private lateinit var seriale: Seriale
+    private lateinit var nfc: NfcTelefono
+    private lateinit var ble: BleTelefono
+    private lateinit var ir: Infrarossi
 
     // file da salvare in attesa che si scelga dove (uno per volta)
     private var daSalvare: ByteArray? = null
@@ -102,6 +108,29 @@ class MainActivity : ComponentActivity() {
         sceltaFile = null
     }
 
+    // permessi di Android chiesti al momento (Bluetooth): chi aspetta controlla da sé cosa è stato concesso
+    private val attesePermessi = mutableListOf<() -> Unit>()
+    private val permessi = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { rispondiPermessi() }
+
+    /** Chiede a Android i [richiesti] (dal thread principale), dopo una [spiegazione]; poi chiama [poi]. */
+    private fun chiediPermessi(richiesti: Array<String>, spiegazione: String, poi: () -> Unit) {
+        if (richiesti.all { ContextCompat.checkSelfPermission(this, it) == PackageManager.PERMISSION_GRANTED }) return poi()
+        attesePermessi += poi
+        if (attesePermessi.size > 1) return // una richiesta è già in corso: la risposta vale per tutti
+        AlertDialog.Builder(this)
+            .setMessage(spiegazione)
+            .setPositiveButton(android.R.string.ok) { _, _ -> permessi.launch(richiesti) }
+            .setNegativeButton(android.R.string.cancel) { _, _ -> rispondiPermessi() }
+            .setOnCancelListener { rispondiPermessi() }
+            .show()
+    }
+
+    private fun rispondiPermessi() {
+        val attese = attesePermessi.toList()
+        attesePermessi.clear()
+        attese.forEach { it() }
+    }
+
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
@@ -135,9 +164,14 @@ class MainActivity : ComponentActivity() {
         }
         webView.webViewClient = Client()
         webView.webChromeClient = Chrome()
-        webView.addJavascriptInterface(Ponte(), "PolpoNativo")
         seriale = Seriale(this) { evento -> mandaAllaPagina(evento) }
         seriale.avvia()
+        nfc = NfcTelefono(this) { evento -> mandaAllaPagina(evento) }
+        nfc.avvia()
+        ble = BleTelefono(this, ::chiediPermessi) { evento -> mandaAllaPagina(evento) }
+        ble.avvia()
+        ir = Infrarossi(this)
+        webView.addJavascriptInterface(Ponte(), "PolpoNativo")
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
@@ -166,8 +200,24 @@ class MainActivity : ComponentActivity() {
         runOnUiThread { if (!isDestroyed) webView.evaluateJavascript(js, null) }
     }
 
+    override fun onResume() {
+        super.onResume()
+        nfc.riprendi()
+        ble.riprendi()
+    }
+
+    // in pausa: niente lettura NFC né ricerca Bluetooth (riprendono da sé al ritorno, se la pagina le aveva chieste)
+    override fun onPause() {
+        nfc.pausa()
+        ble.pausa()
+        super.onPause()
+    }
+
     override fun onDestroy() {
         seriale.ferma()
+        nfc.ferma()
+        ble.ferma()
+        attesePermessi.clear() // la pagina non c'è più: nessuno aspetta la risposta
         permessoInAttesa?.deny()
         sceltaFile?.onReceiveValue(null)
         webView.destroy()
@@ -266,24 +316,98 @@ class MainActivity : ComponentActivity() {
             runOnUiThread { chiediDove(sicuro, Risorse.tipo(sicuro), dati, null) }
         }
 
-        /** Le porte seriali USB collegate (JSON): id, nome, vid, pid, polpo, permesso. */
+        /** Cosa ha il telefono (JSON): nfc e bluetooth «assente», «spento» o «pronto»; ir e usbHost sì o no. */
         @JavascriptInterface
-        fun serialeElenco(): String = seriale.elenco()
+        fun telefono(): String = JSONObject()
+            .put("nfc", nfc.stato())
+            .put("bluetooth", ble.stato())
+            .put("ir", ir.presente())
+            .put("usbHost", packageManager.hasSystemFeature(PackageManager.FEATURE_USB_HOST))
+            .toString()
 
-        /** Apre la porta (chiedendo il permesso di Android se serve); l'esito arriva come evento. */
+        /** Un file del sito incluso nell'app (percorso dalla radice), in base64; "" se non c'è. */
         @JavascriptInterface
-        fun serialeApri(id: String) {
-            runOnUiThread { seriale.apri(id) }
+        fun risorsaBase64(percorso: String?): String {
+            val file = Risorse.file(percorso.orEmpty().trimStart('/')) ?: return ""
+            return try {
+                assets.open(file).use { ingresso ->
+                    val dati = ingresso.readBytes()
+                    if (dati.size > RISORSA_MAX) "" else Base64.encodeToString(dati, Base64.NO_WRAP)
+                }
+            } catch (e: IOException) {
+                ""
+            }
+        }
+
+        /** Tutti i dispositivi USB collegati (JSON): id, nome, produttore, vid, pid, classi, seriale, polpo, permesso. */
+        @JavascriptInterface
+        fun usbElenco(): String = seriale.elenco(soloSeriali = false)
+
+        /** Le porte seriali USB collegate: come [usbElenco], solo quelle con un driver. */
+        @JavascriptInterface
+        fun serialeElenco(): String = seriale.elenco(soloSeriali = true)
+
+        /** Apre la porta con le regole del Polpo (115200 baud, DTR attivo, RTS basso); l'esito arriva come evento. */
+        @JavascriptInterface
+        fun serialeApri(id: String?) = serialeApri(id, null)
+
+        /** Apre la porta con le [opzioni] JSON `{baud, dtr, rts}` (1200 baud rifiutato); l'esito arriva come evento. */
+        @JavascriptInterface
+        fun serialeApri(id: String?, opzioni: String?) {
+            runOnUiThread { seriale.apri(id.orEmpty(), opzioni) }
         }
 
         /** Scrive byte (base64) sulla porta aperta. */
         @JavascriptInterface
-        fun serialeScrivi(base64: String): Boolean = seriale.scrivi(base64)
+        fun serialeScrivi(base64: String?): Boolean = base64 != null && seriale.scrivi(base64)
+
+        @JavascriptInterface
+        fun serialeLinee(dtr: Boolean, rts: Boolean): Boolean = seriale.linee(dtr, rts)
+
+        @JavascriptInterface
+        fun serialeBaud(baud: Int): Boolean = seriale.baud(baud)
+
+        /** Il tocco a 1200 baud che porta l'ESP32-S3 nel bootloader, solo per l'aggiornamento del firmware. */
+        @JavascriptInterface
+        fun serialeToccoBootloader(id: String?) {
+            runOnUiThread { seriale.toccoBootloader(id.orEmpty()) }
+        }
 
         @JavascriptInterface
         fun serialeChiudi() {
             seriale.chiudi("porta chiusa")
         }
+
+        /** Legge i tag NFC appoggiati al telefono finché la pagina non chiama [nfcFerma]; eventi «nfc.tag». */
+        @JavascriptInterface
+        fun nfcAvvia(): Boolean = nfc.leggi()
+
+        @JavascriptInterface
+        fun nfcFerma() = nfc.smetti()
+
+        /** Scrive `{kind, value, lang}` (link o testo NDEF) sul prossimo tag entro 20 s; false se rifiutato subito. */
+        @JavascriptInterface
+        fun nfcScrivi(json: String?): Boolean = nfc.scrivi(json)
+
+        /** Cerca i dispositivi Bluetooth LE vicini per [ms] millisecondi (al massimo 10 s); evento «ble.risultato». */
+        @JavascriptInterface
+        fun bleScansiona(ms: Int) = ble.scansiona(ms)
+
+        @JavascriptInterface
+        fun bleCollega(addr: String?) = ble.collega(addr)
+
+        @JavascriptInterface
+        fun bleLeggi(servizio: String?, caratteristica: String?) = ble.leggi(servizio, caratteristica)
+
+        @JavascriptInterface
+        fun bleNotifiche(servizio: String?, caratteristica: String?, attive: Boolean) = ble.notifiche(servizio, caratteristica, attive)
+
+        @JavascriptInterface
+        fun bleScollega() = ble.scollega()
+
+        /** Trasmette con l'emettitore infrarosso: [tempi] = JSON di durate in µs, impulso per primo. */
+        @JavascriptInterface
+        fun irTrasmetti(frequenza: Int, tempi: String?): Boolean = ir.trasmetti(frequenza, tempi)
 
         /** Salva una copia di un file del sito incluso nell'app (per esempio sd-polpo.zip). */
         @JavascriptInterface
@@ -292,6 +416,11 @@ class MainActivity : ComponentActivity() {
             val sicuro = Risorse.nomeFile(nome.ifEmpty { file })
             runOnUiThread { chiediDove(sicuro, Risorse.tipo(file), null, file) }
         }
+    }
+
+    companion object {
+        // una risorsa più grande non passa bene per il ponte (in base64 diventa un terzo più lunga)
+        private const val RISORSA_MAX = 16 * 1024 * 1024
     }
 
     private fun chiediDove(nome: String, tipo: String, dati: ByteArray?, risorsa: String?) {

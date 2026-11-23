@@ -1,0 +1,8415 @@
+{
+ "autorizzati": [
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "messo",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]",
+      {}
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": null,
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "rotta",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "5b5d",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": true
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "5b7b2261646472657373223a20224141222c20226e616d65223a20224d696f222c20226164646564223a2022323032362d30312d3031227d5d",
+   "load": {
+    "ok": [
+     {
+      "added": "2026-01-01",
+      "address": "AA",
+      "name": "Mio"
+     }
+    ]
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "efbbbf5b5d",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "7b7d",
+   "load": {
+    "ok": {}
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "7b2261646472657373223a20224141227d",
+   "load": {
+    "ok": {
+     "address": "AA"
+    }
+   },
+   "zz": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "22414122",
+   "load": {
+    "ok": "AA"
+   },
+   "zz": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'int' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'int' object is not iterable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'int' object is not iterable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "35",
+   "load": {
+    "ok": 5
+   },
+   "zz": {
+    "errore": {
+     "msg": "'int' object is not iterable",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'NoneType' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'NoneType' object is not iterable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'NoneType' object is not iterable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "6e756c6c",
+   "load": {
+    "ok": null
+   },
+   "zz": {
+    "errore": {
+     "msg": "'NoneType' object is not iterable",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'bool' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'bool' object is not iterable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'bool' object is not iterable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "74727565",
+   "load": {
+    "ok": true
+   },
+   "zz": {
+    "errore": {
+     "msg": "'bool' object is not iterable",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "ok": true
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "5b7b2261646472657373223a20224141227d2c202278225d",
+   "load": {
+    "ok": [
+     {
+      "address": "AA"
+     },
+     "x"
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "string indices must be integers, not 'str'",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "5b2278225d",
+   "load": {
+    "ok": [
+     "x"
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "string indices must be integers, not 'str'",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "list indices must be integers or slices, not str",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "list indices must be integers or slices, not str",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "list indices must be integers or slices, not str",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "5b5b315d5d",
+   "load": {
+    "ok": [
+     [
+      1
+     ]
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "list indices must be integers or slices, not str",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'int' object is not subscriptable",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'int' object is not subscriptable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'int' object is not subscriptable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "5b355d",
+   "load": {
+    "ok": [
+     5
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "'int' object is not subscriptable",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'NoneType' object is not subscriptable",
+     "tipo": "TypeError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'NoneType' object is not subscriptable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'NoneType' object is not subscriptable",
+      "tipo": "TypeError"
+     }
+    }
+   },
+   "dati": "5b6e756c6c5d",
+   "load": {
+    "ok": [
+     null
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "'NoneType' object is not subscriptable",
+     "tipo": "TypeError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'address'",
+     "tipo": "KeyError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'address'",
+      "tipo": "KeyError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'address'",
+      "tipo": "KeyError"
+     }
+    }
+   },
+   "dati": "5b7b7d5d",
+   "load": {
+    "ok": [
+     {}
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "'address'",
+     "tipo": "KeyError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "errore": {
+     "msg": "'address'",
+     "tipo": "KeyError"
+    }
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'address'",
+      "tipo": "KeyError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'address'",
+      "tipo": "KeyError"
+     }
+    }
+   },
+   "dati": "5b7b226e616d65223a202278227d5d",
+   "load": {
+    "ok": [
+     {
+      "name": "x"
+     }
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "'address'",
+     "tipo": "KeyError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "ok": true
+   },
+   "add0": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'address'",
+      "tipo": "KeyError"
+     }
+    }
+   },
+   "add1": {
+    "eventi": [],
+    "r": {
+     "errore": {
+      "msg": "'address'",
+      "tipo": "KeyError"
+     }
+    }
+   },
+   "dati": "5b7b2261646472657373223a20224242227d2c207b2261646472657373223a20224141227d2c207b226e616d65223a202273656e7a61227d5d",
+   "load": {
+    "ok": [
+     {
+      "address": "BB"
+     },
+     {
+      "address": "AA"
+     },
+     {
+      "name": "senza"
+     }
+    ]
+   },
+   "zz": {
+    "errore": {
+     "msg": "'address'",
+     "tipo": "KeyError"
+    }
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "ff",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "5b312c2032",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": true
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "5b7b2261646472657373223a20224141222c20226e223a20312e352c20226b223a205b312c207b2261223a206e756c6c7d5d7d5d",
+   "load": {
+    "ok": [
+     {
+      "address": "AA",
+      "k": [
+       1,
+       {
+        "a": null
+       }
+      ],
+      "n": 1.5
+     }
+    ]
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"CC\",\n    \"name\": \"è🐙\"\n  },\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"CC\",\n    \"name\": \"è🐙\"\n  },\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "5b7b2261646472657373223a20224343222c20226e616d65223a2022c3a8f09f9099227d5d",
+   "load": {
+    "ok": [
+     {
+      "address": "CC",
+      "name": "è🐙"
+     }
+    ]
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "005b005d",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": false
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "205b205d20",
+   "load": {
+    "ok": []
+   },
+   "zz": {
+    "ok": false
+   }
+  },
+  {
+   "aa": {
+    "ok": true
+   },
+   "add0": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "add1": {
+    "eventi": [
+     [
+      "aggiornato",
+      "configurazioni",
+      "dispositivi-bluetooth.json",
+      "[\n  {\n    \"address\": \"AA\",\n    \"name\": \"Nuovo\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"DD\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+     ]
+    ],
+    "r": {
+     "ok": null
+    }
+   },
+   "dati": "5b7b2261646472657373223a20224141222c20226e616d65223a20224d696f227d2c207b2261646472657373223a20224141222c20226e616d65223a2022446f7070696f227d5d",
+   "load": {
+    "ok": [
+     {
+      "address": "AA",
+      "name": "Mio"
+     },
+     {
+      "address": "AA",
+      "name": "Doppio"
+     }
+    ]
+   },
+   "zz": {
+    "ok": false
+   }
+  }
+ ],
+ "costanti": {
+  "colonne": [
+   "Nome",
+   "Indirizzo",
+   "Segnale",
+   "Produttori",
+   "Autorizzato"
+  ],
+  "etichette": [
+   "Ci si collega solo ai dispositivi autorizzati (tuoi). Le scansioni non vengono salvate."
+  ],
+  "nome_registro": "dispositivi-bluetooth.json",
+  "secondi": [
+   2,
+   20,
+   5
+  ],
+  "servizi": [
+   "Servizio / caratteristica",
+   "Proprietà"
+  ]
+ },
+ "dispositivi": [
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      0,
+      6,
+      741
+     ],
+     "name": "Fascia ñ",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      0
+     ],
+     "name": "🐙",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": null,
+   "righe": [
+    [
+     "Fascia ñ",
+     "11:22:33:44:55:00",
+     "-99 dBm",
+     "0x0000, 0x0006, 0x02E5",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:02",
+     "-40 dBm",
+     "0x0000",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      0,
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6,
+      65535
+     ],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "0x0000, 0xFFFF",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:00",
+     "0 dBm",
+     "0x0006, 0xFFFF",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      0,
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "0x0000, 0xFFFF",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:03",
+     "0 dBm",
+     "",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      741
+     ],
+     "name": "",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      76
+     ],
+     "name": "",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:02",
+     "manufacturers": [
+      65535
+     ],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      6,
+      76,
+      65535
+     ],
+     "name": "Sensore",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "5 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "—",
+     "11:22:33:44:55:00",
+     "-40 dBm",
+     "0x02E5",
+     "no"
+    ],
+    [
+     "—",
+     "AA:BB:CC:DD:EE:03",
+     "-40 dBm",
+     "0x004C",
+     "no"
+    ],
+    [
+     "—",
+     "11:22:33:44:55:02",
+     "",
+     "0xFFFF",
+     "no"
+    ],
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:03",
+     "-99 dBm",
+     "0x0006, 0x004C, 0xFFFF",
+     "no"
+    ],
+    [
+     "—",
+     "AA:BB:CC:DD:EE:02",
+     "-99 dBm",
+     "",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [],
+     "name": "",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:01",
+     "manufacturers": [
+      76
+     ],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      6
+     ],
+     "name": "Sensore",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "3 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "—",
+     "AA:BB:CC:DD:EE:01",
+     "0 dBm",
+     "",
+     "sì"
+    ],
+    [
+     "—",
+     "11:22:33:44:55:01",
+     "",
+     "0x004C",
+     "no"
+    ],
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:03",
+     "0 dBm",
+     "0x0006",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      76
+     ],
+     "name": "Fascia ñ",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      0,
+      741,
+      65535
+     ],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "Fascia ñ",
+     "11:22:33:44:55:00",
+     "0 dBm",
+     "0x004C",
+     "no"
+    ],
+    [
+     "—",
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "0x0000, 0x02E5, 0xFFFF",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      76,
+      65535
+     ],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:03",
+     "0 dBm",
+     "0x004C, 0xFFFF",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [],
+   "eventi": [
+    [
+     "avviso",
+     "0 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": []
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "Sensore",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      0,
+      76
+     ],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": null,
+   "righe": [
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "",
+     "no"
+    ],
+    [
+     "—",
+     "AA:BB:CC:DD:EE:01",
+     "",
+     "0x0000, 0x004C",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [],
+     "name": "🐙",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6,
+      65535
+     ],
+     "name": "🐙",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6,
+      76,
+      741
+     ],
+     "name": "Sensore",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:03",
+     "manufacturers": [
+      0,
+      76,
+      65535
+     ],
+     "name": "Sensore",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": null,
+   "righe": [
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "0x0006, 0xFFFF",
+     "no"
+    ],
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:00",
+     "0 dBm",
+     "0x0006, 0x004C, 0x02E5",
+     "no"
+    ],
+    [
+     "Sensore",
+     "11:22:33:44:55:03",
+     "",
+     "0x0000, 0x004C, 0xFFFF",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [],
+     "name": "Sensore",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": null,
+   "righe": [
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:00",
+     "-40 dBm",
+     "",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [],
+     "name": "🐙",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:01",
+     "manufacturers": [
+      0,
+      76
+     ],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "🐙",
+     "11:22:33:44:55:00",
+     "-99 dBm",
+     "",
+     "no"
+    ],
+    [
+     "🐙",
+     "11:22:33:44:55:01",
+     "0 dBm",
+     "0x0000, 0x004C",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [],
+   "eventi": [
+    [
+     "avviso",
+     "0 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": null,
+   "righe": []
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "Sensore",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:02",
+     "-99 dBm",
+     "",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [],
+     "name": "",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "—",
+     "AA:BB:CC:DD:EE:01",
+     "-40 dBm",
+     "",
+     "sì"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      65535
+     ],
+     "name": "",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      6,
+      741
+     ],
+     "name": "Fascia ñ",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6,
+      76
+     ],
+     "name": "Fascia ñ",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      0
+     ],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "—",
+     "AA:BB:CC:DD:EE:03",
+     "0 dBm",
+     "0xFFFF",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:01",
+     "-99 dBm",
+     "0x0006, 0x02E5",
+     "sì"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:00",
+     "0 dBm",
+     "0x0006, 0x004C",
+     "no"
+    ],
+    [
+     "—",
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "0x0000",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      0
+     ],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "🐙",
+     "11:22:33:44:55:00",
+     "0 dBm",
+     "0x0000",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      6,
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      6
+     ],
+     "name": "🐙",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [],
+     "name": "🐙",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:03",
+     "manufacturers": [
+      0,
+      741
+     ],
+     "name": "",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "Fascia ñ",
+     "11:22:33:44:55:00",
+     "0 dBm",
+     "0x0006, 0xFFFF",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:03",
+     "-40 dBm",
+     "0x0006",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:00",
+     "-40 dBm",
+     "",
+     "no"
+    ],
+    [
+     "—",
+     "11:22:33:44:55:03",
+     "0 dBm",
+     "0x0000, 0x02E5",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      76,
+      741,
+      65535
+     ],
+     "name": "",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": null,
+   "righe": [
+    [
+     "—",
+     "AA:BB:CC:DD:EE:01",
+     "0 dBm",
+     "0x004C, 0x02E5, 0xFFFF",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      76
+     ],
+     "name": "Sensore",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      76,
+      741
+     ],
+     "name": "Fascia ñ",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:02",
+     "manufacturers": [
+      741
+     ],
+     "name": "🐙",
+     "rssi": -99,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      76
+     ],
+     "name": "Fascia ñ",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "4 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "Sensore",
+     "AA:BB:CC:DD:EE:03",
+     "",
+     "0x004C",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:02",
+     "-40 dBm",
+     "0x004C, 0x02E5",
+     "no"
+    ],
+    [
+     "🐙",
+     "11:22:33:44:55:02",
+     "-99 dBm",
+     "0x02E5",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:01",
+     "-40 dBm",
+     "0x004C",
+     "sì"
+    ]
+   ]
+  },
+  {
+   "d": [],
+   "eventi": [
+    [
+     "avviso",
+     "0 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": []
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      6,
+      76
+     ],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [],
+     "name": "Fascia ñ",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      741,
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "3 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "🐙",
+     "11:22:33:44:55:00",
+     "0 dBm",
+     "0x0006, 0x004C",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:00",
+     "-40 dBm",
+     "",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:02",
+     "-40 dBm",
+     "0x02E5, 0xFFFF",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [
+    {
+     "address": "11:22:33:44:55:00",
+     "manufacturers": [
+      6,
+      65535
+     ],
+     "name": "🐙",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "🐙",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      0,
+      76,
+      741
+     ],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      76,
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "5 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "🐙",
+     "11:22:33:44:55:00",
+     "",
+     "0x0006, 0xFFFF",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:01",
+     "",
+     "0x0000, 0x004C, 0x02E5",
+     "sì"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:02",
+     "-40 dBm",
+     "0x004C, 0xFFFF",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:03",
+     "0 dBm",
+     "",
+     "no"
+    ]
+   ]
+  },
+  {
+   "d": [],
+   "eventi": [
+    [
+     "avviso",
+     "0 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": []
+  },
+  {
+   "d": [
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      741
+     ],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      0,
+      76
+     ],
+     "name": "🐙",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "11:22:33:44:55:03",
+     "manufacturers": [
+      0,
+      741,
+      65535
+     ],
+     "name": "Sensore",
+     "rssi": 0,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      0,
+      76,
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": -40,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "5 dispositivi vicini.",
+     false
+    ]
+   ],
+   "registro": "[{\"address\": \"AA:BB:CC:DD:EE:01\", \"name\": \"x\", \"added\": \"2026-01-01\"}]",
+   "righe": [
+    [
+     "—",
+     "AA:BB:CC:DD:EE:03",
+     "",
+     "0x02E5",
+     "no"
+    ],
+    [
+     "🐙",
+     "AA:BB:CC:DD:EE:03",
+     "0 dBm",
+     "0x0000, 0x004C",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "",
+     "no"
+    ],
+    [
+     "Sensore",
+     "11:22:33:44:55:03",
+     "0 dBm",
+     "0x0000, 0x02E5, 0xFFFF",
+     "no"
+    ],
+    [
+     "Fascia ñ",
+     "AA:BB:CC:DD:EE:00",
+     "-40 dBm",
+     "0x0000, 0x004C, 0xFFFF",
+     "no"
+    ]
+   ]
+  }
+ ],
+ "flussi": [
+  {
+   "devs": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      76
+     ],
+     "name": "Sensore",
+     "rssi": -50,
+     "services": [],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "",
+     "rssi": null,
+     "services": [],
+     "tx_power": null
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "Scansione in corso…",
+     false
+    ],
+    [
+     "hardware",
+     "pc.ble",
+     "rilevato",
+     "adattatore funzionante"
+    ],
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "passo": "scansione"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Seleziona un dispositivo.",
+     true
+    ]
+   ],
+   "passo": "autorizza_senza_selezione"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Seleziona un dispositivo.",
+     true
+    ]
+   ],
+   "passo": "collega_senza_selezione"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "manufacturers": [
+     76
+    ],
+    "name": "Sensore",
+    "rssi": -50,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "avviso",
+     "Prima autorizza il dispositivo (deve essere tuo).",
+     true
+    ]
+   ],
+   "passo": "collega_non_autorizzato"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "manufacturers": [
+     76
+    ],
+    "name": "Sensore",
+    "rssi": -50,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "conferma",
+     "Autorizzare il dispositivo?",
+     "Sensore (AA:BB:CC:DD:EE:01)"
+    ]
+   ],
+   "passo": "autorizza_no"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "manufacturers": [
+     76
+    ],
+    "name": "Sensore",
+    "rssi": -50,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "conferma",
+     "Autorizzare il dispositivo?",
+     "Sensore (AA:BB:CC:DD:EE:01)"
+    ],
+    [
+     "messo",
+     "configurazioni",
+     "dispositivi-bluetooth.json",
+     "[\n  {\n    \"address\": \"AA:BB:CC:DD:EE:01\",\n    \"name\": \"Sensore\",\n    \"added\": \"2026-11-22\"\n  }\n]",
+     {}
+    ],
+    [
+     "attivita",
+     "bluetooth",
+     "Dispositivo autorizzato: AA:BB:CC:DD:EE:01",
+     "info"
+    ],
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "passo": "autorizza_si"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:02",
+    "manufacturers": [],
+    "name": "",
+    "rssi": null,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "conferma",
+     "Autorizzare il dispositivo?",
+     "— (AA:BB:CC:DD:EE:02)"
+    ],
+    [
+     "aggiornato",
+     "configurazioni",
+     "dispositivi-bluetooth.json",
+     "[\n  {\n    \"address\": \"AA:BB:CC:DD:EE:01\",\n    \"name\": \"Sensore\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"AA:BB:CC:DD:EE:02\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+    ],
+    [
+     "attivita",
+     "bluetooth",
+     "Dispositivo autorizzato: AA:BB:CC:DD:EE:02",
+     "info"
+    ],
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "passo": "autorizza_senza_nome"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:02",
+    "manufacturers": [],
+    "name": "",
+    "rssi": null,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "conferma",
+     "Autorizzare il dispositivo?",
+     "— (AA:BB:CC:DD:EE:02)"
+    ],
+    [
+     "aggiornato",
+     "configurazioni",
+     "dispositivi-bluetooth.json",
+     "[\n  {\n    \"address\": \"AA:BB:CC:DD:EE:01\",\n    \"name\": \"Sensore\",\n    \"added\": \"2026-11-22\"\n  },\n  {\n    \"address\": \"AA:BB:CC:DD:EE:02\",\n    \"name\": \"\",\n    \"added\": \"2026-11-22\"\n  }\n]"
+    ],
+    [
+     "attivita",
+     "bluetooth",
+     "Dispositivo autorizzato: AA:BB:CC:DD:EE:02",
+     "info"
+    ],
+    [
+     "avviso",
+     "2 dispositivi vicini.",
+     false
+    ]
+   ],
+   "passo": "autorizza_di_nuovo"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "manufacturers": [
+     76
+    ],
+    "name": "Sensore",
+    "rssi": -50,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "avviso",
+     "Collegamento a AA:BB:CC:DD:EE:01…",
+     false
+    ],
+    [
+     "hardware",
+     "pc.ble",
+     "assente",
+     "nessun adattatore Bluetooth trovato o acceso"
+    ],
+    [
+     "avviso",
+     "Bluetooth: nessun adattatore Bluetooth trovato o acceso",
+     true
+    ],
+    [
+     "riga",
+     "nessun adattatore Bluetooth trovato o acceso"
+    ]
+   ],
+   "passo": "collega_errore"
+  },
+  {
+   "d": {
+    "address": "AA:BB:CC:DD:EE:01",
+    "manufacturers": [
+     76
+    ],
+    "name": "Sensore",
+    "rssi": -50,
+    "services": [],
+    "tx_power": null
+   },
+   "eventi": [
+    [
+     "avviso",
+     "Collegamento a AA:BB:CC:DD:EE:01…",
+     false
+    ],
+    [
+     "avviso",
+     "1 servizi.",
+     false
+    ],
+    [
+     "riga",
+     "Collegato a AA:BB:CC:DD:EE:01"
+    ],
+    [
+     "attivita",
+     "bluetooth",
+     "Collegato a AA:BB:CC:DD:EE:01",
+     "info"
+    ]
+   ],
+   "passo": "collega"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Seleziona una caratteristica.",
+     true
+    ]
+   ],
+   "passo": "leggi_senza_caratteristica"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Seleziona una caratteristica.",
+     true
+    ]
+   ],
+   "passo": "leggi_su_servizio"
+  },
+  {
+   "dati": "55",
+   "eventi": [
+    [
+     "leggi",
+     "00002a19-0000-1000-8000-00805f9b34fb"
+    ],
+    [
+     "riga",
+     "00002a19-0000-1000-8000-00805f9b34fb: 55  «U»"
+    ]
+   ],
+   "passo": "leggi"
+  },
+  {
+   "dati": "6f6b",
+   "eventi": [
+    [
+     "leggi",
+     "00002a19-0000-1000-8000-00805f9b34fb"
+    ],
+    [
+     "riga",
+     "00002a19-0000-1000-8000-00805f9b34fb: 6F 6B  «ok»"
+    ]
+   ],
+   "passo": "leggi"
+  },
+  {
+   "dati": "",
+   "eventi": [
+    [
+     "leggi",
+     "00002a19-0000-1000-8000-00805f9b34fb"
+    ],
+    [
+     "riga",
+     "00002a19-0000-1000-8000-00805f9b34fb: "
+    ]
+   ],
+   "passo": "leggi"
+  },
+  {
+   "dati": "fffe",
+   "eventi": [
+    [
+     "leggi",
+     "00002a19-0000-1000-8000-00805f9b34fb"
+    ],
+    [
+     "riga",
+     "00002a19-0000-1000-8000-00805f9b34fb: FF FE"
+    ]
+   ],
+   "passo": "leggi"
+  },
+  {
+   "dati": "c3a8",
+   "eventi": [
+    [
+     "leggi",
+     "00002a19-0000-1000-8000-00805f9b34fb"
+    ],
+    [
+     "riga",
+     "00002a19-0000-1000-8000-00805f9b34fb: C3 A8  «è»"
+    ]
+   ],
+   "passo": "leggi"
+  },
+  {
+   "eventi": [
+    [
+     "leggi",
+     "00002a19-0000-1000-8000-00805f9b34fb"
+    ],
+    [
+     "avviso",
+     "Bluetooth: lettura non permessa",
+     true
+    ],
+    [
+     "riga",
+     "lettura non permessa"
+    ]
+   ],
+   "passo": "leggi_errore"
+  },
+  {
+   "eventi": [
+    [
+     "riga",
+     "Notifiche attive su 00002a19-0000-1000-8000-00805f9b34fb"
+    ]
+   ],
+   "passo": "notifiche_si"
+  },
+  {
+   "dati": "56",
+   "eventi": [
+    [
+     "riga",
+     "↻ 00002a19-0000-1000-8000-00805f9b34fb: 56  «V»"
+    ]
+   ],
+   "passo": "notifica"
+  },
+  {
+   "dati": "3634",
+   "eventi": [
+    [
+     "riga",
+     "↻ 00002a19-0000-1000-8000-00805f9b34fb: 36 34  «64»"
+    ]
+   ],
+   "passo": "notifica"
+  },
+  {
+   "eventi": [
+    [
+     "riga",
+     "Notifiche spente"
+    ]
+   ],
+   "passo": "notifiche_no"
+  },
+  {
+   "eventi": [
+    [
+     "riga",
+     "Scollegato"
+    ]
+   ],
+   "passo": "scollega"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Scansione in corso…",
+     false
+    ],
+    [
+     "hardware",
+     "pc.ble",
+     "assente",
+     "nessun adattatore Bluetooth trovato o acceso"
+    ],
+    [
+     "avviso",
+     "Bluetooth: nessun adattatore Bluetooth trovato o acceso",
+     true
+    ],
+    [
+     "riga",
+     "nessun adattatore Bluetooth trovato o acceso"
+    ]
+   ],
+   "passo": "scansione_errore"
+  },
+  {
+   "eventi": [
+    [
+     "avviso",
+     "Scansione in corso…",
+     false
+    ],
+    [
+     "avviso",
+     "Bluetooth: scansione scaduta",
+     true
+    ],
+    [
+     "riga",
+     "scansione scaduta"
+    ]
+   ],
+   "passo": "scansione_errore_altro"
+  }
+ ],
+ "nome_servizio": [
+  {
+   "desc": "",
+   "r": "Accesso generico",
+   "uuid": "00001800-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Accesso generico",
+   "uuid": "00001800-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Attributi generici",
+   "uuid": "00001801-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Attributi generici",
+   "uuid": "00001801-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Informazioni dispositivo",
+   "uuid": "0000180a-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Informazioni dispositivo",
+   "uuid": "0000180a-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Batteria",
+   "uuid": "0000180f-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Batteria",
+   "uuid": "0000180f-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Frequenza cardiaca",
+   "uuid": "0000180d-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Frequenza cardiaca",
+   "uuid": "0000180d-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Termometro",
+   "uuid": "00001809-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Termometro",
+   "uuid": "00001809-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Sensori ambientali",
+   "uuid": "0000181a-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Sensori ambientali",
+   "uuid": "0000181a-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "HID su BLE",
+   "uuid": "00001812-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "HID su BLE",
+   "uuid": "00001812-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Aggiornamento firmware (Nordic)",
+   "uuid": "0000fe59-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Aggiornamento firmware (Nordic)",
+   "uuid": "0000fe59-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "Batteria",
+   "uuid": "0000180F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Batteria",
+   "uuid": "0000180F-0000-1000-8000-00805F9B34FB"
+  },
+  {
+   "desc": "",
+   "r": "",
+   "uuid": "0000180"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Battery Service",
+   "uuid": "0000180"
+  },
+  {
+   "desc": "",
+   "r": "",
+   "uuid": ""
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Battery Service",
+   "uuid": ""
+  },
+  {
+   "desc": "",
+   "r": "",
+   "uuid": "00002a19-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Battery Service",
+   "uuid": "00002a19-0000-1000-8000-00805f9b34fb"
+  },
+  {
+   "desc": "",
+   "r": "",
+   "uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Battery Service",
+   "uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+  },
+  {
+   "desc": "",
+   "r": "Aggiornamento firmware (Nordic)",
+   "uuid": "0000FE59"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Aggiornamento firmware (Nordic)",
+   "uuid": "0000FE59"
+  },
+  {
+   "desc": "",
+   "r": "Aggiornamento firmware (Nordic)",
+   "uuid": "0000fe59x"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Aggiornamento firmware (Nordic)",
+   "uuid": "0000fe59x"
+  },
+  {
+   "desc": "",
+   "r": "",
+   "uuid": "İ0001800"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Battery Service",
+   "uuid": "İ0001800"
+  },
+  {
+   "desc": "",
+   "r": "",
+   "uuid": "ǅ"
+  },
+  {
+   "desc": "Battery Service",
+   "r": "Battery Service",
+   "uuid": "ǅ"
+  }
+ ],
+ "produttori_firmware": [
+  [
+   76,
+   "Apple"
+  ],
+  [
+   6,
+   "Microsoft"
+  ],
+  [
+   117,
+   "Samsung"
+  ],
+  [
+   224,
+   "Google"
+  ],
+  [
+   343,
+   "Huami/Xiaomi"
+  ],
+  [
+   911,
+   "Xiaomi"
+  ],
+  [
+   135,
+   "Garmin"
+  ],
+  [
+   741,
+   "Espressif"
+  ],
+  [
+   89,
+   "Nordic"
+  ],
+  [
+   15,
+   "Broadcom"
+  ],
+  [
+   369,
+   "Amazon"
+  ]
+ ],
+ "scansione_pc": [
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      117
+     ],
+     "name": "Sensore",
+     "rssi": -30,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      6
+     ],
+     "name": "Dev",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:04",
+     "manufacturers": [
+      76
+     ],
+     "name": "Fascia ñ",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [],
+     "name": "",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      6,
+      117
+     ],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:05",
+     "manufacturers": [
+      117,
+      741
+     ],
+     "name": "Dev",
+     "rssi": null,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "",
+     0,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "Dev",
+     "Sensore",
+     -30,
+     [
+      117
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     "Dev",
+     "",
+     -70,
+     [
+      6
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:03",
+     null,
+     "Fascia ñ",
+     null,
+     [
+      6,
+      117
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:04",
+     "Dev",
+     "Fascia ñ",
+     -70,
+     [
+      76
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:05",
+     "Dev",
+     "",
+     null,
+     [
+      117,
+      741
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [],
+     "name": "Sensore",
+     "rssi": -30,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:04",
+     "manufacturers": [
+      117
+     ],
+     "name": "Sensore",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6
+     ],
+     "name": "",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      6,
+      117
+     ],
+     "name": "Fascia ñ",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      76
+     ],
+     "name": "Sensore",
+     "rssi": null,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "",
+     null,
+     0,
+     [
+      6
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "Dev",
+     "Sensore",
+     -30,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "Fascia ñ",
+     0,
+     [
+      6,
+      117
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:03",
+     "",
+     "Sensore",
+     null,
+     [
+      76
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:04",
+     null,
+     "Sensore",
+     -70,
+     [
+      117
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      117,
+      65535
+     ],
+     "name": "",
+     "rssi": -30,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      741
+     ],
+     "name": "Dev",
+     "rssi": -30,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     null,
+     "",
+     -30,
+     [
+      117,
+      65535
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "Dev",
+     "",
+     -30,
+     [
+      741
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      741
+     ],
+     "name": "Fascia ñ",
+     "rssi": -30,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [],
+     "name": "Fascia ñ",
+     "rssi": -127,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [],
+     "name": "",
+     "rssi": -128,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     null,
+     "Fascia ñ",
+     -127,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     null,
+     "",
+     -128,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "Fascia ñ",
+     -30,
+     [
+      741
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      76,
+      117
+     ],
+     "name": "",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      76,
+      741
+     ],
+     "name": "Sensore",
+     "rssi": -128,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "Sensore",
+     -128,
+     [
+      76,
+      741
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "",
+     null,
+     0,
+     [
+      76,
+      117
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6,
+      741
+     ],
+     "name": "Sensore",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "Dev",
+     "Sensore",
+     0,
+     [
+      6,
+      741
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      117
+     ],
+     "name": "Dev",
+     "rssi": -40,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      117,
+      741
+     ],
+     "name": "Fascia ñ",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "Dev",
+     null,
+     -40,
+     [
+      117
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "Dev",
+     "Fascia ñ",
+     0,
+     [
+      117,
+      741
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      76,
+      741
+     ],
+     "name": "Sensore",
+     "rssi": -40,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      76,
+      741
+     ],
+     "name": "Sensore",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      6
+     ],
+     "name": "Fascia ñ",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [],
+     "name": "",
+     "rssi": -127,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "Dev",
+     "Sensore",
+     -40,
+     [
+      76,
+      741
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "",
+     "",
+     -127,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     null,
+     "Sensore",
+     -70,
+     [
+      76,
+      741
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:03",
+     "",
+     "Fascia ñ",
+     -70,
+     [
+      6
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      76
+     ],
+     "name": "Dev",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      741,
+      65535
+     ],
+     "name": "",
+     "rssi": -128,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "Dev",
+     null,
+     -70,
+     [
+      76
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     null,
+     "",
+     -128,
+     [
+      741,
+      65535
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     null,
+     "Fascia ñ",
+     null,
+     []
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6,
+      65535
+     ],
+     "name": "Dev",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      117,
+      741
+     ],
+     "name": "Dev",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [
+      65535
+     ],
+     "name": "Fascia ñ",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [],
+     "name": "",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:04",
+     "manufacturers": [],
+     "name": "Fascia ñ",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "Dev",
+     "",
+     -70,
+     [
+      6,
+      65535
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     "Dev",
+     null,
+     -70,
+     [
+      117,
+      741
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     null,
+     "Fascia ñ",
+     -70,
+     [
+      65535
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:03",
+     "",
+     "",
+     -70,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:04",
+     "Dev",
+     "Fascia ñ",
+     -70,
+     []
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      117
+     ],
+     "name": "Fascia ñ",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      6
+     ],
+     "name": "",
+     "rssi": -127,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "Fascia ñ",
+     "rssi": -127,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [],
+     "name": "Dev",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:04",
+     "manufacturers": [
+      76,
+      117
+     ],
+     "name": "Fascia ñ",
+     "rssi": null,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "",
+     -127,
+     [
+      6
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     null,
+     "Fascia ñ",
+     -70,
+     [
+      117
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     null,
+     "Fascia ñ",
+     -127,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:03",
+     "Dev",
+     null,
+     0,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:04",
+     null,
+     "Fascia ñ",
+     null,
+     [
+      76,
+      117
+     ]
+    ]
+   ]
+  },
+  {
+   "r": [
+    {
+     "address": "AA:BB:CC:DD:EE:01",
+     "manufacturers": [
+      6,
+      741
+     ],
+     "name": "",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:02",
+     "manufacturers": [],
+     "name": "",
+     "rssi": -70,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:00",
+     "manufacturers": [
+      117
+     ],
+     "name": "",
+     "rssi": -127,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    },
+    {
+     "address": "AA:BB:CC:DD:EE:03",
+     "manufacturers": [
+      76,
+      741
+     ],
+     "name": "",
+     "rssi": 0,
+     "services": [
+      "0000180f-0000-1000-8000-00805f9b34fb"
+     ],
+     "tx_power": null
+    }
+   ],
+   "trovati": [
+    [
+     "AA:BB:CC:DD:EE:00",
+     "",
+     "",
+     -127,
+     [
+      117
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:01",
+     null,
+     "",
+     -70,
+     [
+      6,
+      741
+     ]
+    ],
+    [
+     "AA:BB:CC:DD:EE:02",
+     "",
+     "",
+     -70,
+     []
+    ],
+    [
+     "AA:BB:CC:DD:EE:03",
+     null,
+     null,
+     0,
+     [
+      76,
+      741
+     ]
+    ]
+   ]
+  }
+ ],
+ "scansione_polpo": [
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {},
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {},
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "11:22",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "A",
+      "rssi": -60
+     },
+     {
+      "addr": "33:44",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -40
+     },
+     {
+      "addr": "55:66",
+      "rssi": -60
+     },
+     {
+      "connectable": 1,
+      "mfr_id": 65535,
+      "name": null,
+      "rssi": -100
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "4 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "33:44",
+      "-40 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "A",
+      "11:22",
+      "-60 dBm",
+      "0x004C",
+      "sì"
+     ],
+     [
+      "—",
+      "55:66",
+      "-60 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "—",
+      "",
+      "-100 dBm",
+      "0xFFFF",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "11:22",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "A",
+      "rssi": -60
+     },
+     {
+      "addr": "33:44",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -40
+     },
+     {
+      "addr": "55:66",
+      "rssi": -60
+     },
+     {
+      "connectable": 1,
+      "mfr_id": 65535,
+      "name": null,
+      "rssi": -100
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "4 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "33:44",
+      "-40 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "A",
+      "11:22",
+      "-60 dBm",
+      "0x004C",
+      "sì"
+     ],
+     [
+      "—",
+      "55:66",
+      "-60 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "—",
+      "",
+      "-100 dBm",
+      "0xFFFF",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {}
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "",
+      "None dBm",
+      "0x0000",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {}
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "",
+      "None dBm",
+      "0x0000",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "rssi": null
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "bad operand type for unary -: 'NoneType'",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "rssi": null
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "bad operand type for unary -: 'NoneType'",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "rssi": "x"
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "bad operand type for unary -: 'str'",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "rssi": "x"
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "bad operand type for unary -: 'str'",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     "a"
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "'str' object has no attribute 'get'",
+     "tipo": "AttributeError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     "a"
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "'str' object has no attribute 'get'",
+     "tipo": "AttributeError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "mfr_id": "x"
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "Unknown format code 'X' for object of type 'str'",
+     "tipo": "ValueError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "mfr_id": "x"
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "Unknown format code 'X' for object of type 'str'",
+     "tipo": "ValueError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "mfr_id": null
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "unsupported format string passed to NoneType.__format__",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "mfr_id": null
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "unsupported format string passed to NoneType.__format__",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "connectable": [],
+      "rssi": true
+     },
+     {
+      "rssi": 1.5
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "",
+      "1.5 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "—",
+      "",
+      "True dBm",
+      "0x0000",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "connectable": [],
+      "rssi": true
+     },
+     {
+      "rssi": 1.5
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "",
+      "1.5 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "—",
+      "",
+      "True dBm",
+      "0x0000",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": {
+     "a": 1
+    }
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "'str' object has no attribute 'get'",
+     "tipo": "AttributeError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": {
+     "a": 1
+    }
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "'str' object has no attribute 'get'",
+     "tipo": "AttributeError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": null
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "'NoneType' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": false,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": null
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ]
+   ],
+   "r": {
+    "errore": {
+     "msg": "'NoneType' object is not iterable",
+     "tipo": "TypeError"
+    }
+   },
+   "sim": true,
+   "tabella": null
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "D7:42:4D:D1:A0:1E",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": null,
+      "rssi": -74
+     },
+     {
+      "addr": "D2:A9:57:BF:C9:A7",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -26
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "D2:A9:57:BF:C9:A7",
+      "-26 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "—",
+      "D7:42:4D:D1:A0:1E",
+      "-74 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "D7:42:4D:D1:A0:1E",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": null,
+      "rssi": -74
+     },
+     {
+      "addr": "D2:A9:57:BF:C9:A7",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -26
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "D2:A9:57:BF:C9:A7",
+      "-26 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "—",
+      "D7:42:4D:D1:A0:1E",
+      "-74 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "B9:63:0B:DC:63:37",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -56
+     },
+     {
+      "addr": "94:A5:EB:2A:D7:EC",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -40
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "94:A5:EB:2A:D7:EC",
+      "-40 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "B9:63:0B:DC:63:37",
+      "-56 dBm",
+      "0x004C",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "B9:63:0B:DC:63:37",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -56
+     },
+     {
+      "addr": "94:A5:EB:2A:D7:EC",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -40
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "94:A5:EB:2A:D7:EC",
+      "-40 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "B9:63:0B:DC:63:37",
+      "-56 dBm",
+      "0x004C",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "E6:94:D9:44:A5:FA",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Cuffie",
+      "rssi": -31
+     },
+     {
+      "addr": "CD:C7:46:A1:70:12",
+      "connectable": false,
+      "mfr_id": 39519,
+      "name": "Orologio ñ",
+      "rssi": -23
+     },
+     {
+      "addr": "30:B2:3C:B5:2B:70",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -59
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "CD:C7:46:A1:70:12",
+      "-23 dBm",
+      "0x9A5F",
+      "no"
+     ],
+     [
+      "Cuffie",
+      "E6:94:D9:44:A5:FA",
+      "-31 dBm",
+      "0x0075",
+      "no"
+     ],
+     [
+      "—",
+      "30:B2:3C:B5:2B:70",
+      "-59 dBm",
+      "0x004C",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "E6:94:D9:44:A5:FA",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Cuffie",
+      "rssi": -31
+     },
+     {
+      "addr": "CD:C7:46:A1:70:12",
+      "connectable": false,
+      "mfr_id": 39519,
+      "name": "Orologio ñ",
+      "rssi": -23
+     },
+     {
+      "addr": "30:B2:3C:B5:2B:70",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -59
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "CD:C7:46:A1:70:12",
+      "-23 dBm",
+      "0x9A5F",
+      "no"
+     ],
+     [
+      "Cuffie",
+      "E6:94:D9:44:A5:FA",
+      "-31 dBm",
+      "0x0075",
+      "no"
+     ],
+     [
+      "—",
+      "30:B2:3C:B5:2B:70",
+      "-59 dBm",
+      "0x004C",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "62:D9:0D:38:07:2D",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -43
+     },
+     {
+      "addr": "97:20:12:CD:12:87",
+      "connectable": true,
+      "mfr_id": 20671,
+      "name": "Orologio ñ",
+      "rssi": -81
+     },
+     {
+      "addr": "0D:B9:61:94:FC:C0",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -70
+     },
+     {
+      "addr": "87:71:3A:FA:39:C6",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -94
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "4 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "62:D9:0D:38:07:2D",
+      "-43 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "—",
+      "0D:B9:61:94:FC:C0",
+      "-70 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "97:20:12:CD:12:87",
+      "-81 dBm",
+      "0x50BF",
+      "sì"
+     ],
+     [
+      "—",
+      "87:71:3A:FA:39:C6",
+      "-94 dBm",
+      "0x0000",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "62:D9:0D:38:07:2D",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -43
+     },
+     {
+      "addr": "97:20:12:CD:12:87",
+      "connectable": true,
+      "mfr_id": 20671,
+      "name": "Orologio ñ",
+      "rssi": -81
+     },
+     {
+      "addr": "0D:B9:61:94:FC:C0",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -70
+     },
+     {
+      "addr": "87:71:3A:FA:39:C6",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -94
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "4 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "62:D9:0D:38:07:2D",
+      "-43 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "—",
+      "0D:B9:61:94:FC:C0",
+      "-70 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "97:20:12:CD:12:87",
+      "-81 dBm",
+      "0x50BF",
+      "sì"
+     ],
+     [
+      "—",
+      "87:71:3A:FA:39:C6",
+      "-94 dBm",
+      "0x0000",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "E1:14:8D:A3:D0:D0",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -61
+     },
+     {
+      "addr": "71:D5:F5:F7:45:DF",
+      "connectable": true,
+      "mfr_id": 23415,
+      "name": "",
+      "rssi": -60
+     },
+     {
+      "addr": "F3:28:F6:3B:49:02",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": "Cuffie",
+      "rssi": -56
+     },
+     {
+      "addr": "51:78:AF:14:BF:38",
+      "connectable": false,
+      "mfr_id": 3066,
+      "name": "Cuffie",
+      "rssi": -90
+     },
+     {
+      "addr": "D2:CF:50:56:A8:B8",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": null,
+      "rssi": -54
+     },
+     {
+      "addr": "80:34:7B:41:D3:43",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -22
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "6 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "80:34:7B:41:D3:43",
+      "-22 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "—",
+      "D2:CF:50:56:A8:B8",
+      "-54 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "Cuffie",
+      "F3:28:F6:3B:49:02",
+      "-56 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "—",
+      "71:D5:F5:F7:45:DF",
+      "-60 dBm",
+      "0x5B77",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "E1:14:8D:A3:D0:D0",
+      "-61 dBm",
+      "0x004C",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "51:78:AF:14:BF:38",
+      "-90 dBm",
+      "0x0BFA",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "E1:14:8D:A3:D0:D0",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -61
+     },
+     {
+      "addr": "71:D5:F5:F7:45:DF",
+      "connectable": true,
+      "mfr_id": 23415,
+      "name": "",
+      "rssi": -60
+     },
+     {
+      "addr": "F3:28:F6:3B:49:02",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": "Cuffie",
+      "rssi": -56
+     },
+     {
+      "addr": "51:78:AF:14:BF:38",
+      "connectable": false,
+      "mfr_id": 3066,
+      "name": "Cuffie",
+      "rssi": -90
+     },
+     {
+      "addr": "D2:CF:50:56:A8:B8",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": null,
+      "rssi": -54
+     },
+     {
+      "addr": "80:34:7B:41:D3:43",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -22
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "6 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "80:34:7B:41:D3:43",
+      "-22 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "—",
+      "D2:CF:50:56:A8:B8",
+      "-54 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "Cuffie",
+      "F3:28:F6:3B:49:02",
+      "-56 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "—",
+      "71:D5:F5:F7:45:DF",
+      "-60 dBm",
+      "0x5B77",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "E1:14:8D:A3:D0:D0",
+      "-61 dBm",
+      "0x004C",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "51:78:AF:14:BF:38",
+      "-90 dBm",
+      "0x0BFA",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "16:B0:05:20:1A:3E",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Cuffie",
+      "rssi": -48
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "16:B0:05:20:1A:3E",
+      "-48 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "16:B0:05:20:1A:3E",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Cuffie",
+      "rssi": -48
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "16:B0:05:20:1A:3E",
+      "-48 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "70:FE:87:B6:18:70",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -73
+     },
+     {
+      "addr": "B9:5A:A2:A4:BF:10",
+      "connectable": true,
+      "mfr_id": 24880,
+      "name": "Orologio ñ",
+      "rssi": -71
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "B9:5A:A2:A4:BF:10",
+      "-71 dBm",
+      "0x6130",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "70:FE:87:B6:18:70",
+      "-73 dBm",
+      "0x004C",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "70:FE:87:B6:18:70",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -73
+     },
+     {
+      "addr": "B9:5A:A2:A4:BF:10",
+      "connectable": true,
+      "mfr_id": 24880,
+      "name": "Orologio ñ",
+      "rssi": -71
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "B9:5A:A2:A4:BF:10",
+      "-71 dBm",
+      "0x6130",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "70:FE:87:B6:18:70",
+      "-73 dBm",
+      "0x004C",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "02:CF:6D:BC:10:8F",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -26
+     },
+     {
+      "addr": "01:48:C5:DD:FC:B4",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -49
+     },
+     {
+      "addr": "86:26:7A:80:F1:5B",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -80
+     },
+     {
+      "addr": "7C:D1:43:C1:12:46",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -47
+     },
+     {
+      "addr": "CF:B8:85:CE:19:34",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -68
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "5 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "02:CF:6D:BC:10:8F",
+      "-26 dBm",
+      "0x004C",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "7C:D1:43:C1:12:46",
+      "-47 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "01:48:C5:DD:FC:B4",
+      "-49 dBm",
+      "0x0075",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "CF:B8:85:CE:19:34",
+      "-68 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "86:26:7A:80:F1:5B",
+      "-80 dBm",
+      "0x0075",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "02:CF:6D:BC:10:8F",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -26
+     },
+     {
+      "addr": "01:48:C5:DD:FC:B4",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -49
+     },
+     {
+      "addr": "86:26:7A:80:F1:5B",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -80
+     },
+     {
+      "addr": "7C:D1:43:C1:12:46",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -47
+     },
+     {
+      "addr": "CF:B8:85:CE:19:34",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -68
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "5 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "02:CF:6D:BC:10:8F",
+      "-26 dBm",
+      "0x004C",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "7C:D1:43:C1:12:46",
+      "-47 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "01:48:C5:DD:FC:B4",
+      "-49 dBm",
+      "0x0075",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "CF:B8:85:CE:19:34",
+      "-68 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "86:26:7A:80:F1:5B",
+      "-80 dBm",
+      "0x0075",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "45:75:24:88:9B:CC",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Cuffie",
+      "rssi": -79
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "45:75:24:88:9B:CC",
+      "-79 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "45:75:24:88:9B:CC",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Cuffie",
+      "rssi": -79
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "45:75:24:88:9B:CC",
+      "-79 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "78:5E:75:C5:5C:CA",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -23
+     },
+     {
+      "addr": "A3:64:C6:DD:BF:94",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -49
+     },
+     {
+      "addr": "79:2B:CA:95:AE:06",
+      "connectable": true,
+      "mfr_id": 1291,
+      "name": null,
+      "rssi": -21
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "79:2B:CA:95:AE:06",
+      "-21 dBm",
+      "0x050B",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "78:5E:75:C5:5C:CA",
+      "-23 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "—",
+      "A3:64:C6:DD:BF:94",
+      "-49 dBm",
+      "0x004C",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "78:5E:75:C5:5C:CA",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Orologio ñ",
+      "rssi": -23
+     },
+     {
+      "addr": "A3:64:C6:DD:BF:94",
+      "connectable": true,
+      "mfr_id": 76,
+      "name": "",
+      "rssi": -49
+     },
+     {
+      "addr": "79:2B:CA:95:AE:06",
+      "connectable": true,
+      "mfr_id": 1291,
+      "name": null,
+      "rssi": -21
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "79:2B:CA:95:AE:06",
+      "-21 dBm",
+      "0x050B",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "78:5E:75:C5:5C:CA",
+      "-23 dBm",
+      "0x004C",
+      "no"
+     ],
+     [
+      "—",
+      "A3:64:C6:DD:BF:94",
+      "-49 dBm",
+      "0x004C",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "9E:36:04:D1:7D:01",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -50
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "9E:36:04:D1:7D:01",
+      "-50 dBm",
+      "0x004C",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "9E:36:04:D1:7D:01",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -50
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "1 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "9E:36:04:D1:7D:01",
+      "-50 dBm",
+      "0x004C",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "35:BB:D0:D2:CC:51",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -40
+     },
+     {
+      "addr": "7B:2A:40:16:33:5E",
+      "connectable": true,
+      "mfr_id": 14456,
+      "name": "Cuffie",
+      "rssi": -77
+     },
+     {
+      "addr": "9F:44:D1:A2:F1:CA",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": "Orologio ñ",
+      "rssi": -34
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "9F:44:D1:A2:F1:CA",
+      "-34 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "35:BB:D0:D2:CC:51",
+      "-40 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "7B:2A:40:16:33:5E",
+      "-77 dBm",
+      "0x3878",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "35:BB:D0:D2:CC:51",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -40
+     },
+     {
+      "addr": "7B:2A:40:16:33:5E",
+      "connectable": true,
+      "mfr_id": 14456,
+      "name": "Cuffie",
+      "rssi": -77
+     },
+     {
+      "addr": "9F:44:D1:A2:F1:CA",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": "Orologio ñ",
+      "rssi": -34
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Orologio ñ",
+      "9F:44:D1:A2:F1:CA",
+      "-34 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "35:BB:D0:D2:CC:51",
+      "-40 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "7B:2A:40:16:33:5E",
+      "-77 dBm",
+      "0x3878",
+      "sì"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "F5:28:26:B4:99:0E",
+      "connectable": true,
+      "mfr_id": 12988,
+      "name": "",
+      "rssi": -38
+     },
+     {
+      "addr": "51:E4:B7:DE:8A:DD",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "",
+      "rssi": -54
+     },
+     {
+      "addr": "86:92:3F:1C:69:EC",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -58
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "F5:28:26:B4:99:0E",
+      "-38 dBm",
+      "0x32BC",
+      "sì"
+     ],
+     [
+      "—",
+      "51:E4:B7:DE:8A:DD",
+      "-54 dBm",
+      "0x0075",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "86:92:3F:1C:69:EC",
+      "-58 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "F5:28:26:B4:99:0E",
+      "connectable": true,
+      "mfr_id": 12988,
+      "name": "",
+      "rssi": -38
+     },
+     {
+      "addr": "51:E4:B7:DE:8A:DD",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "",
+      "rssi": -54
+     },
+     {
+      "addr": "86:92:3F:1C:69:EC",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -58
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "3 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "F5:28:26:B4:99:0E",
+      "-38 dBm",
+      "0x32BC",
+      "sì"
+     ],
+     [
+      "—",
+      "51:E4:B7:DE:8A:DD",
+      "-54 dBm",
+      "0x0075",
+      "no"
+     ],
+     [
+      "Orologio ñ",
+      "86:92:3F:1C:69:EC",
+      "-58 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "C6:84:35:8E:03:28",
+      "connectable": false,
+      "mfr_id": 41565,
+      "name": "Orologio ñ",
+      "rssi": -89
+     },
+     {
+      "addr": "03:73:41:E2:F6:CA",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": null,
+      "rssi": -39
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "03:73:41:E2:F6:CA",
+      "-39 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "C6:84:35:8E:03:28",
+      "-89 dBm",
+      "0xA25D",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "C6:84:35:8E:03:28",
+      "connectable": false,
+      "mfr_id": 41565,
+      "name": "Orologio ñ",
+      "rssi": -89
+     },
+     {
+      "addr": "03:73:41:E2:F6:CA",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": null,
+      "rssi": -39
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "03:73:41:E2:F6:CA",
+      "-39 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "C6:84:35:8E:03:28",
+      "-89 dBm",
+      "0xA25D",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "D3:E5:7D:52:45:6C",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": null,
+      "rssi": -71
+     },
+     {
+      "addr": "6F:27:E8:30:64:CA",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -82
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "D3:E5:7D:52:45:6C",
+      "-71 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "6F:27:E8:30:64:CA",
+      "-82 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "D3:E5:7D:52:45:6C",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": null,
+      "rssi": -71
+     },
+     {
+      "addr": "6F:27:E8:30:64:CA",
+      "connectable": false,
+      "mfr_id": 117,
+      "name": "Orologio ñ",
+      "rssi": -82
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "D3:E5:7D:52:45:6C",
+      "-71 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "Orologio ñ",
+      "6F:27:E8:30:64:CA",
+      "-82 dBm",
+      "0x0075",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": []
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "0 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    []
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "A8:51:B4:1B:7B:69",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -82
+     },
+     {
+      "addr": "6F:17:89:B2:C4:24",
+      "connectable": false,
+      "mfr_id": 35988,
+      "name": "Cuffie",
+      "rssi": -95
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "A8:51:B4:1B:7B:69",
+      "-82 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "6F:17:89:B2:C4:24",
+      "-95 dBm",
+      "0x8C94",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "A8:51:B4:1B:7B:69",
+      "connectable": true,
+      "mfr_id": 0,
+      "name": "",
+      "rssi": -82
+     },
+     {
+      "addr": "6F:17:89:B2:C4:24",
+      "connectable": false,
+      "mfr_id": 35988,
+      "name": "Cuffie",
+      "rssi": -95
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "2 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "—",
+      "A8:51:B4:1B:7B:69",
+      "-82 dBm",
+      "0x0000",
+      "sì"
+     ],
+     [
+      "Cuffie",
+      "6F:17:89:B2:C4:24",
+      "-95 dBm",
+      "0x8C94",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "52:E6:82:18:60:07",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": null,
+      "rssi": -51
+     },
+     {
+      "addr": "EE:C3:98:1C:F9:DE",
+      "connectable": true,
+      "mfr_id": 33276,
+      "name": "Cuffie",
+      "rssi": -31
+     },
+     {
+      "addr": "BA:09:EC:93:3A:B4",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -80
+     },
+     {
+      "addr": "70:E0:64:CD:15:80",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": null,
+      "rssi": -69
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "4 dispositivi trovati",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": false,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "EE:C3:98:1C:F9:DE",
+      "-31 dBm",
+      "0x81FC",
+      "sì"
+     ],
+     [
+      "—",
+      "52:E6:82:18:60:07",
+      "-51 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "—",
+      "70:E0:64:CD:15:80",
+      "-69 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "Cuffie",
+      "BA:09:EC:93:3A:B4",
+      "-80 dBm",
+      "0x004C",
+      "no"
+     ]
+    ]
+   ]
+  },
+  {
+   "cmd": [
+    "ble.scan",
+    {
+     "ms": 4000
+    }
+   ],
+   "d": {
+    "devices": [
+     {
+      "addr": "52:E6:82:18:60:07",
+      "connectable": true,
+      "mfr_id": 117,
+      "name": null,
+      "rssi": -51
+     },
+     {
+      "addr": "EE:C3:98:1C:F9:DE",
+      "connectable": true,
+      "mfr_id": 33276,
+      "name": "Cuffie",
+      "rssi": -31
+     },
+     {
+      "addr": "BA:09:EC:93:3A:B4",
+      "connectable": false,
+      "mfr_id": 76,
+      "name": "Cuffie",
+      "rssi": -80
+     },
+     {
+      "addr": "70:E0:64:CD:15:80",
+      "connectable": false,
+      "mfr_id": 0,
+      "name": null,
+      "rssi": -69
+     }
+    ]
+   },
+   "messaggi": [
+    [
+     "Scansione Bluetooth in corso…",
+     false
+    ],
+    [
+     "4 dispositivi trovati · SIMULATO",
+     false
+    ]
+   ],
+   "r": {
+    "ok": null
+   },
+   "sim": true,
+   "tabella": [
+    [
+     "Nome",
+     "Indirizzo",
+     "Segnale",
+     "Produttore",
+     "Connettibile"
+    ],
+    [
+     [
+      "Cuffie",
+      "EE:C3:98:1C:F9:DE",
+      "-31 dBm",
+      "0x81FC",
+      "sì"
+     ],
+     [
+      "—",
+      "52:E6:82:18:60:07",
+      "-51 dBm",
+      "0x0075",
+      "sì"
+     ],
+     [
+      "—",
+      "70:E0:64:CD:15:80",
+      "-69 dBm",
+      "0x0000",
+      "no"
+     ],
+     [
+      "Cuffie",
+      "BA:09:EC:93:3A:B4",
+      "-80 dBm",
+      "0x004C",
+      "no"
+     ]
+    ]
+   ]
+  }
+ ],
+ "servizi": [
+  {
+   "albero": [],
+   "eventi": [
+    [
+     "avviso",
+     "0 servizi.",
+     false
+    ]
+   ],
+   "s": []
+  },
+  {
+   "albero": [
+    {
+     "caratteristiche": [
+      {
+       "proprieta": "read, notify",
+       "testo": "Battery Level · 00002a19-0000-1000-8000-00805f9b34fb",
+       "uuid": "00002a19-0000-1000-8000-00805f9b34fb"
+      }
+     ],
+     "proprieta": "",
+     "testo": "Batteria · 0000180f-0000-1000-8000-00805f9b34fb"
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "1 servizi.",
+     false
+    ]
+   ],
+   "s": [
+    {
+     "characteristics": [
+      {
+       "handle": 12,
+       "name": "Battery Level",
+       "properties": [
+        "read",
+        "notify"
+       ],
+       "uuid": "00002a19-0000-1000-8000-00805f9b34fb"
+      }
+     ],
+     "name": "Batteria",
+     "uuid": "0000180f-0000-1000-8000-00805f9b34fb"
+    }
+   ]
+  },
+  {
+   "albero": [
+    {
+     "caratteristiche": [
+      {
+       "proprieta": "",
+       "testo": "Caratteristica · 6e400003-b5a3-f393-e0a9-e50e24dcca9e",
+       "uuid": "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
+      },
+      {
+       "proprieta": "write, write-without-response",
+       "testo": "Caratteristica · 6e400002-b5a3-f393-e0a9-e50e24dcca9e",
+       "uuid": "6e400002-b5a3-f393-e0a9-e50e24dcca9e"
+      }
+     ],
+     "proprieta": "",
+     "testo": "Servizio · 6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+    },
+    {
+     "caratteristiche": [],
+     "proprieta": "",
+     "testo": "Accesso generico · 00001800-0000-1000-8000-00805f9b34fb"
+    }
+   ],
+   "eventi": [
+    [
+     "avviso",
+     "2 servizi.",
+     false
+    ]
+   ],
+   "s": [
+    {
+     "characteristics": [
+      {
+       "handle": 3,
+       "name": "",
+       "properties": [],
+       "uuid": "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
+      },
+      {
+       "handle": 5,
+       "name": "",
+       "properties": [
+        "write",
+        "write-without-response"
+       ],
+       "uuid": "6e400002-b5a3-f393-e0a9-e50e24dcca9e"
+      }
+     ],
+     "name": "",
+     "uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+    },
+    {
+     "characteristics": [],
+     "name": "Accesso generico",
+     "uuid": "00001800-0000-1000-8000-00805f9b34fb"
+    }
+   ]
+  }
+ ],
+ "servizi_noti": [
+  [
+   "00001800",
+   "Accesso generico"
+  ],
+  [
+   "00001801",
+   "Attributi generici"
+  ],
+  [
+   "0000180a",
+   "Informazioni dispositivo"
+  ],
+  [
+   "0000180f",
+   "Batteria"
+  ],
+  [
+   "0000180d",
+   "Frequenza cardiaca"
+  ],
+  [
+   "00001809",
+   "Termometro"
+  ],
+  [
+   "0000181a",
+   "Sensori ambientali"
+  ],
+  [
+   "00001812",
+   "HID su BLE"
+  ],
+  [
+   "0000fe59",
+   "Aggiornamento firmware (Nordic)"
+  ]
+ ],
+ "spiega": [
+  {
+   "msg": "No Bluetooth adapters found.",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "No Bluetooth adapters found.",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "Bluetooth adapter not found",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "Bluetooth adapter not found",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "adapter is NOT powered",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "adapter is NOT powered",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "org.bluez.Error.NotReady",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "org.bluez.Error.NotReady",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "DBus error",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "DBus error",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "BlueZ non risponde",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "BlueZ non risponde",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "Permission denied",
+   "r": "permesso Bluetooth negato dal sistema",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "Permission denied",
+   "r": "permesso Bluetooth negato dal sistema",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "Not authorized",
+   "r": "permesso Bluetooth negato dal sistema",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "Not authorized",
+   "r": "permesso Bluetooth negato dal sistema",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "timeout",
+   "r": "timeout",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "timeout",
+   "r": "timeout",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "",
+   "r": "RuntimeError",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "",
+   "r": "TimeoutError",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "Adapter ok",
+   "r": "Adapter ok",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "Adapter ok",
+   "r": "Adapter ok",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "un altro errore",
+   "r": "un altro errore",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "un altro errore",
+   "r": "un altro errore",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "nessun adattatore",
+   "r": "nessun adattatore",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "nessun adattatore",
+   "r": "nessun adattatore",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "ADAPTER NOT",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "ADAPTER NOT",
+   "r": "nessun adattatore Bluetooth trovato o acceso",
+   "tipo": "TimeoutError"
+  },
+  {
+   "msg": "bluez",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "RuntimeError"
+  },
+  {
+   "msg": "bluez",
+   "r": "servizio Bluetooth del sistema (BlueZ) non disponibile",
+   "tipo": "TimeoutError"
+  }
+ ],
+ "valore": [
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "55",
+   "r": "55  «U»"
+  },
+  {
+   "d": "6f6b",
+   "r": "6F 6B  «ok»"
+  },
+  {
+   "d": "4369616f206d6f6e646f",
+   "r": "43 69 61 6F 20 6D 6F 6E 64 6F  «Ciao mondo»"
+  },
+  {
+   "d": "20",
+   "r": "20  « »"
+  },
+  {
+   "d": "2020",
+   "r": "20 20  «  »"
+  },
+  {
+   "d": "00",
+   "r": "00"
+  },
+  {
+   "d": "610062",
+   "r": "61 00 62"
+  },
+  {
+   "d": "0a",
+   "r": "0A"
+  },
+  {
+   "d": "7461620968657265",
+   "r": "74 61 62 09 68 65 72 65"
+  },
+  {
+   "d": "c3a8f09f9099e282ac",
+   "r": "C3 A8 F0 9F 90 99 E2 82 AC  «è🐙€»"
+  },
+  {
+   "d": "efbbbf424f4d",
+   "r": "EF BB BF 42 4F 4D"
+  },
+  {
+   "d": "ff",
+   "r": "FF"
+  },
+  {
+   "d": "c3",
+   "r": "C3"
+  },
+  {
+   "d": "eda080",
+   "r": "ED A0 80"
+  },
+  {
+   "d": "c2a0",
+   "r": "C2 A0"
+  },
+  {
+   "d": "61e2808b62",
+   "r": "61 E2 80 8B 62"
+  },
+  {
+   "d": "e280a8",
+   "r": "E2 80 A8"
+  },
+  {
+   "d": "ee8080",
+   "r": "EE 80 80"
+  },
+  {
+   "d": "f48fbfbf",
+   "r": "F4 8F BF BF"
+  },
+  {
+   "d": "cdb8",
+   "r": "CD B8"
+  },
+  {
+   "d": "7f",
+   "r": "7F"
+  },
+  {
+   "d": "78c2ad78",
+   "r": "78 C2 AD 78"
+  },
+  {
+   "d": "cea9e28988c3a7e2889a",
+   "r": "CE A9 E2 89 88 C3 A7 E2 88 9A  «Ω≈ç√»"
+  },
+  {
+   "d": "363425",
+   "r": "36 34 25  «64%»"
+  },
+  {
+   "d": "e098",
+   "r": "E0 98"
+  },
+  {
+   "d": "f9c270e4a8c36a",
+   "r": "F9 C2 70 E4 A8 C3 6A"
+  },
+  {
+   "d": "1cfde7",
+   "r": "1C FD E7"
+  },
+  {
+   "d": "2eae96d48b4831858e",
+   "r": "2E AE 96 D4 8B 48 31 85 8E"
+  },
+  {
+   "d": "12c006b9880075",
+   "r": "12 C0 06 B9 88 00 75"
+  },
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "45c2",
+   "r": "45 C2"
+  },
+  {
+   "d": "0d6ae4",
+   "r": "0D 6A E4"
+  },
+  {
+   "d": "5ae07a7d08f8",
+   "r": "5A E0 7A 7D 08 F8"
+  },
+  {
+   "d": "78aec9d6dac6ba09",
+   "r": "78 AE C9 D6 DA C6 BA 09"
+  },
+  {
+   "d": "ec976eb5f79329",
+   "r": "EC 97 6E B5 F7 93 29"
+  },
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "e575ed51feb19ca38c16",
+   "r": "E5 75 ED 51 FE B1 9C A3 8C 16"
+  },
+  {
+   "d": "a3",
+   "r": "A3"
+  },
+  {
+   "d": "cdd7cc44dcbb",
+   "r": "CD D7 CC 44 DC BB"
+  },
+  {
+   "d": "f8df3248ad",
+   "r": "F8 DF 32 48 AD"
+  },
+  {
+   "d": "8043d6af8e4096",
+   "r": "80 43 D6 AF 8E 40 96"
+  },
+  {
+   "d": "36ee3067",
+   "r": "36 EE 30 67"
+  },
+  {
+   "d": "3e4e5b7d8c416167aa",
+   "r": "3E 4E 5B 7D 8C 41 61 67 AA"
+  },
+  {
+   "d": "a36e5bda85",
+   "r": "A3 6E 5B DA 85"
+  },
+  {
+   "d": "2c13020a5e99ecf0ae",
+   "r": "2C 13 02 0A 5E 99 EC F0 AE"
+  },
+  {
+   "d": "ab277412c4fd51",
+   "r": "AB 27 74 12 C4 FD 51"
+  },
+  {
+   "d": "3ad1e4",
+   "r": "3A D1 E4"
+  },
+  {
+   "d": "1cc77999bd1477c60e",
+   "r": "1C C7 79 99 BD 14 77 C6 0E"
+  },
+  {
+   "d": "4cd8db082a57",
+   "r": "4C D8 DB 08 2A 57"
+  },
+  {
+   "d": "74c6ba063a558d3a",
+   "r": "74 C6 BA 06 3A 55 8D 3A"
+  },
+  {
+   "d": "8b12a774266ae9",
+   "r": "8B 12 A7 74 26 6A E9"
+  },
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "82abf81ec85cade7be",
+   "r": "82 AB F8 1E C8 5C AD E7 BE"
+  },
+  {
+   "d": "dede",
+   "r": "DE DE"
+  },
+  {
+   "d": "8935c9",
+   "r": "89 35 C9"
+  },
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "d89e4a60b0c717",
+   "r": "D8 9E 4A 60 B0 C7 17"
+  },
+  {
+   "d": "95b5379dbb89",
+   "r": "95 B5 37 9D BB 89"
+  },
+  {
+   "d": "a4c299a283",
+   "r": "A4 C2 99 A2 83"
+  },
+  {
+   "d": "53c8528cac",
+   "r": "53 C8 52 8C AC"
+  },
+  {
+   "d": "4535cd36982ff93650",
+   "r": "45 35 CD 36 98 2F F9 36 50"
+  },
+  {
+   "d": "03",
+   "r": "03"
+  },
+  {
+   "d": "",
+   "r": ""
+  },
+  {
+   "d": "b5121b6158dfae229d",
+   "r": "B5 12 1B 61 58 DF AE 22 9D"
+  },
+  {
+   "d": "203039633a63f09f9099c3a0f09f909962",
+   "r": "20 30 39 63 3A 63 F0 9F 90 99 C3 A0 F0 9F 90 99 62  « 09c:c🐙à🐙b»"
+  },
+  {
+   "d": "2025e282ac58",
+   "r": "20 25 E2 82 AC 58  « %€X»"
+  },
+  {
+   "d": "2ec2a0592c25c3a86239",
+   "r": "2E C2 A0 59 2C 25 C3 A8 62 39"
+  },
+  {
+   "d": "303a09",
+   "r": "30 3A 09"
+  },
+  {
+   "d": "3063f09f909930",
+   "r": "30 63 F0 9F 90 99 30  «0c🐙0»"
+  },
+  {
+   "d": "c3a9c2a02dc3a8e282acc2b0",
+   "r": "C3 A9 C2 A0 2D C3 A8 E2 82 AC C2 B0"
+  },
+  {
+   "d": "63312c5ac2b05a25",
+   "r": "63 31 2C 5A C2 B0 5A 25  «c1,Z°Z%»"
+  },
+  {
+   "d": "2e59305a253a",
+   "r": "2E 59 30 5A 25 3A  «.Y0Z%:»"
+  },
+  {
+   "d": "c3a03939c3a03959c2a0",
+   "r": "C3 A0 39 39 C3 A0 39 59 C2 A0"
+  },
+  {
+   "d": "5809615ac3a8",
+   "r": "58 09 61 5A C3 A8"
+  },
+  {
+   "d": "2c585ac3a925392d3120092d30",
+   "r": "2C 58 5A C3 A9 25 39 2D 31 20 09 2D 30"
+  },
+  {
+   "d": "58e282acc2a0613a3a62",
+   "r": "58 E2 82 AC C2 A0 61 3A 3A 62"
+  },
+  {
+   "d": "6330c3a825",
+   "r": "63 30 C3 A8 25  «c0è%»"
+  },
+  {
+   "d": "30205f62c3a9c3a82c5f",
+   "r": "30 20 5F 62 C3 A9 C3 A8 2C 5F  «0 _béè,_»"
+  },
+  {
+   "d": "62",
+   "r": "62  «b»"
+  },
+  {
+   "d": "613a63f09f9099",
+   "r": "61 3A 63 F0 9F 90 99  «a:c🐙»"
+  },
+  {
+   "d": "5f5a",
+   "r": "5F 5A  «_Z»"
+  },
+  {
+   "d": "c3a862f09f9099c3a862613931c3a930c3a8",
+   "r": "C3 A8 62 F0 9F 90 99 C3 A8 62 61 39 31 C3 A9 30 C3 A8  «èb🐙èba91é0è»"
+  },
+  {
+   "d": "62c3a95f2c",
+   "r": "62 C3 A9 5F 2C  «bé_,»"
+  },
+  {
+   "d": "c2b061c3a831632d",
+   "r": "C2 B0 61 C3 A8 31 63 2D  «°aè1c-»"
+  },
+  {
+   "d": "c3a9305a09c3a0e282ac09c3a85a202d62",
+   "r": "C3 A9 30 5A 09 C3 A0 E2 82 AC 09 C3 A8 5A 20 2D 62"
+  },
+  {
+   "d": "30e282acc3a82059c3a93a390939f09f9099",
+   "r": "30 E2 82 AC C3 A8 20 59 C3 A9 3A 39 09 39 F0 9F 90 99"
+  },
+  {
+   "d": "c2a0623a612e",
+   "r": "C2 A0 62 3A 61 2E"
+  },
+  {
+   "d": "59c2b0c3a82d5a592c58e282ac5809",
+   "r": "59 C2 B0 C3 A8 2D 5A 59 2C 58 E2 82 AC 58 09"
+  },
+  {
+   "d": "61c3a0e282ac5f613af09f9099c2b0c3a9f09f909931",
+   "r": "61 C3 A0 E2 82 AC 5F 61 3A F0 9F 90 99 C2 B0 C3 A9 F0 9F 90 99 31  «aà€_a:🐙°é🐙1»"
+  },
+  {
+   "d": "c3a8c3a0c3a0625f",
+   "r": "C3 A8 C3 A0 C3 A0 62 5F  «èààb_»"
+  },
+  {
+   "d": "c3a95839c3a8c3a92dc2a0c3a0",
+   "r": "C3 A9 58 39 C3 A8 C3 A9 2D C2 A0 C3 A0"
+  },
+  {
+   "d": "5f2e6358c3a063",
+   "r": "5F 2E 63 58 C3 A0 63  «_.cXàc»"
+  },
+  {
+   "d": "2e3a5f2d",
+   "r": "2E 3A 5F 2D  «.:_-»"
+  },
+  {
+   "d": "582d",
+   "r": "58 2D  «X-»"
+  },
+  {
+   "d": "625a5f2520",
+   "r": "62 5A 5F 25 20  «bZ_% »"
+  },
+  {
+   "d": "39c2a0c2b02c59c3a8",
+   "r": "39 C2 A0 C2 B0 2C 59 C3 A8"
+  },
+  {
+   "d": "5a2ce282acf09f90995af09f9099312d63",
+   "r": "5A 2C E2 82 AC F0 9F 90 99 5A F0 9F 90 99 31 2D 63  «Z,€🐙Z🐙1-c»"
+  },
+  {
+   "d": "09c3a825",
+   "r": "09 C3 A8 25"
+  },
+  {
+   "d": "202ec3a9c2a0f09f90992d2ec2a039",
+   "r": "20 2E C3 A9 C2 A0 F0 9F 90 99 2D 2E C2 A0 39"
+  },
+  {
+   "d": "c3a0c3a825092d2d2cc2b031612563",
+   "r": "C3 A0 C3 A8 25 09 2D 2D 2C C2 B0 31 61 25 63"
+  },
+  {
+   "d": "63",
+   "r": "63  «c»"
+  },
+  {
+   "d": "c3a8c3a9392031e282ac0931c2a0",
+   "r": "C3 A8 C3 A9 39 20 31 E2 82 AC 09 31 C2 A0"
+  },
+  {
+   "d": "392e5fc2a05a39",
+   "r": "39 2E 5F C2 A0 5A 39"
+  },
+  {
+   "d": "2d203a2030392c5f",
+   "r": "2D 20 3A 20 30 39 2C 5F  «- : 09,_»"
+  }
+ ]
+}

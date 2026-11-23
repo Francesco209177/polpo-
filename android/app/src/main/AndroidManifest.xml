@@ -2,13 +2,41 @@
 <!--
   Polpo per Android. Nessun permesso Internet: le pagine sono dentro l'app e i link verso altri siti si aprono nel
   browser del telefono. Il microfono serve solo a Polpo Onde e viene chiesto la prima volta che premi «Ascolta».
+  Tutto l'hardware del telefono è facoltativo: l'app si installa e funziona anche senza (android/PONTE.md).
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-feature android:name="android.hardware.microphone" android:required="false" />
-    <!-- il Polpo collegato con un cavo USB OTG: facoltativo, l'app funziona anche senza -->
+    <!-- il Polpo (o un'altra scheda) collegato con un cavo USB OTG: l'USB non è un permesso, Android lo chiede al momento -->
     <uses-feature android:name="android.hardware.usb.host" android:required="false" />
+
+    <!-- NFC del telefono: lettura dei tag e scrittura NDEF (permesso normale, senza domanda) -->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+
+    <!--
+      Bluetooth LE del telefono: ricerca passiva, lettura e notifiche. Da Android 12 il permesso «Dispositivi nelle
+      vicinanze», chiesto la prima volta che una pagina cerca un dispositivo, mai per la posizione; fino ad Android 11
+      Android chiede invece il permesso di posizione per la ricerca (l'app non usa la posizione).
+    -->
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"
+        tools:targetApi="s" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="30" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+
+    <!-- emettitore infrarosso del telefono, se c'è (permesso normale, senza domanda) -->
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-feature android:name="android.hardware.consumerir" android:required="false" />
 
     <application
         android:allowBackup="false"

@@ -95,6 +95,8 @@ dependencies {
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("com.github.mik3y:usb-serial-for-android:3.11.0")
     testImplementation("junit:junit:4.13.2")
+    // org.json vero per le prove sul computer (quello di android.jar lì è solo uno stub)
+    testImplementation("org.json:json:20250517")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")
     androidTestImplementation("androidx.test:runner:1.7.0")
     androidTestImplementation("androidx.test:core-ktx:1.7.0")

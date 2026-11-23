@@ -1,13 +1,13 @@
 <!--
 title: Polpo per Android: l'app per il telefono
-description: L'app Polpo per Android: Polpo Studio per comandare il Polpo con il cavo USB, il Polpo virtuale, il simulatore, PolpoScript, Polpo Onde e i manuali, senza Internet.
+description: L'app Polpo per Android: Polpo Studio per comandare il Polpo con il cavo USB, l'NFC, il Bluetooth e l'infrarosso del telefono, il Polpo virtuale, il simulatore, PolpoScript, Polpo Onde e i manuali, senza Internet.
 nav: telefono
 -->
 <section class="page-head">
   <div class="container">
     <p class="eyebrow">App per Android · versione {{fw_version}}</p>
     <h1>Il Polpo sul telefono</h1>
-    <p class="lead">Un'app per Android con <strong>Polpo Studio</strong> per comandare il Polpo con un cavo USB, il <strong>Polpo virtuale</strong> per provare tutto senza Cardputer, il simulatore, PolpoScript, Polpo Onde e i manuali. Funziona <strong>senza Internet</strong>.</p>
+    <p class="lead">Un'app per Android con <strong>Polpo Studio</strong> per comandare il Polpo con un cavo USB o usare da solo l'NFC, il Bluetooth e l'infrarosso del telefono, il <strong>Polpo virtuale</strong> per provare tutto senza Cardputer, il simulatore, PolpoScript, Polpo Onde e i manuali. Funziona <strong>senza Internet</strong>.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="{{dl_android}}">Scarica l'app (Polpo-Android.apk)</a>
       <a class="btn btn-ghost" href="#installa">Come si installa</a>
@@ -20,7 +20,7 @@ nav: telefono
   <div class="container">
     <div class="notice">
       <h2>A che punto è</h2>
-      <p>Dalla versione 0.4 l'app contiene <strong>Polpo Studio</strong>: comanda il Polpo vero con un <strong>cavo USB OTG</strong>, oppure il Polpo virtuale. Le funzioni del telefono da solo (il suo NFC, il suo Bluetooth, lettori via cavo) e il Polpo via Bluetooth arriveranno nelle prossime versioni. L'app è provata in automatico su un telefono Android emulato a ogni versione, <strong>non ancora su un telefono vero</strong> né con un Cardputer vero: se la provi, <a href="{{issues_url}}">dicci com'è andata</a>.</p>
+      <p>Dalla versione 0.4 l'app contiene <strong>Polpo Studio</strong>: comanda il Polpo vero con un <strong>cavo USB OTG</strong>, oppure il Polpo virtuale. Dalla 0.5 usa anche <strong>il telefono da solo</strong>: il suo NFC, il suo Bluetooth, il suo infrarosso (se c'è) e, con il cavo OTG, lettori RFID 125 kHz, il Polpo Bridge, una console seriale e l'aggiornamento del firmware. Il Polpo via Bluetooth arriverà nella prossima versione. L'app è provata in automatico su un telefono Android emulato a ogni versione, <strong>non ancora su un telefono vero</strong> né con un Cardputer vero: se la provi, <a href="{{issues_url}}">dicci com'è andata</a>.</p>
     </div>
   </div>
 </section>
@@ -35,6 +35,26 @@ nav: telefono
       <div class="card">
         <h3>Polpo Studio <span class="badge exp">Sperimentale</span></h3>
         <p>Informazioni, diagnostica e microSD del Polpo, script, infrarossi, radio a 433 MHz, NFC e porta Grove, con l'archivio cifrato compatibile con il programma per PC. Con il <strong>cavo USB</strong> parla con il Polpo vero; ogni collegamento va accettato sul suo schermo, e trasmettere o scrivere richiede la modalità laboratorio.</p>
+      </div>
+      <div class="card">
+        <h3>Il telefono da solo</h3>
+        <p>Senza Cardputer, con l'hardware vero del telefono:</p>
+        <ul>
+          <li><strong>NFC</strong>: legge i tuoi tag (NTAG, Ultralight e gli altri che Android riconosce) e scrive un link o un testo sui <em>tuoi</em> tag, con la modalità laboratorio e una conferma. Non emula carte e non copia tessere.</li>
+          <li><strong>Bluetooth</strong>: cerca i dispositivi vicini senza farsi vedere e, solo per quelli che hai segnato come tuoi, legge i valori e le notifiche. Non scrive, non abbina, non manda annunci.</li>
+          <li><strong>Infrarossi</strong>: solo se il telefono ha l'emettitore (pochi modelli lo hanno), i tasti dei telecomandi della libreria e dei tuoi.</li>
+          <li>Strumenti: convertitori, CRC, NDEF, tempo di trasmissione radio, calcolatori di elettronica, editor DuckyScript (lo script si copia sul Polpo, non parte dal telefono).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Con il cavo OTG <span class="badge exp">Sperimentale</span></h3>
+        <p>Hardware esterno che colleghi tu al telefono:</p>
+        <ul>
+          <li>lettori RFID 125 kHz «a tastiera» o RDM6300, per il codice delle <em>tue</em> tessere (niente copie né scritture);</li>
+          <li>il <strong>Polpo Bridge</strong> (un Arduino o un ESP32 con il suo sketch): pin, ADC, bus I2C e chiavi iButton (solo il codice);</li>
+          <li>una <strong>console seriale</strong> per le tue schede e l'elenco delle schede collegate;</li>
+          <li>l'<strong>aggiornamento del firmware</strong> del Polpo, con la modalità laboratorio.</li>
+        </ul>
       </div>
       <div class="card">
         <h3>Polpo virtuale <span class="badge sim">Simulato</span></h3>
@@ -59,9 +79,10 @@ nav: telefono
     </div>
     <h3 class="mt">Cosa non fa (ancora)</h3>
     <ul>
-      <li><strong>Installare il firmware sul Cardputer</strong>: serve un computer con Chrome o Edge (<a href="../installa/">pagina Installa</a>).</li>
-      <li><strong>Usare l'NFC, il Bluetooth o l'infrarosso del telefono</strong>, i lettori collegati via cavo e il Polpo via Bluetooth: arriveranno nelle prossime versioni.</li>
-      <li>Il telefono <strong>non ha</strong> la radio a 433 MHz, il lettore RFID e la porta Grove del Polpo: quelle funzioni passeranno sempre dal Polpo vero, mai finte.</li>
+      <li><strong>La prima installazione del firmware</strong>: dal telefono si aggiorna un Polpo che ha già il firmware; per la prima volta è più semplice un computer con Chrome o Edge (<a href="../installa/">pagina Installa</a>).</li>
+      <li><strong>Il Polpo via Bluetooth</strong>: arriverà nella prossima versione. Per ora il Polpo si collega con il cavo.</li>
+      <li>Il telefono <strong>non ha</strong> la radio a 433 MHz, il lettore RFID e la porta Grove del Polpo: quelle funzioni passano sempre dal Polpo vero, mai finte.</li>
+      <li>Per scelta, mai: emulare o copiare carte e tessere altrui, disturbare o ingannare dispositivi Bluetooth, avviare script BadUSB dal telefono.</li>
     </ul>
   </div>
 </section>
@@ -83,7 +104,9 @@ nav: telefono
         <h3>Permessi e riservatezza</h3>
         <ul>
           <li><strong>Microfono</strong>: solo per Polpo Onde, chiesto la prima volta che premi <em>Ascolta</em>. Puoi dire di no: il resto funziona.</li>
-          <li><strong>USB</strong>: quando colleghi il Polpo con il cavo, Android chiede se l'app può usarlo. Senza il tuo sì l'app non lo vede.</li>
+          <li><strong>USB</strong>: quando colleghi il Polpo o un'altra scheda con il cavo, Android chiede se l'app può usarla. Senza il tuo sì l'app non la vede.</li>
+          <li><strong>Bluetooth</strong>: la prima volta che cerchi dispositivi Android chiede <em>Dispositivi nelle vicinanze</em> (da Android 12; l'app dichiara che non lo usa per sapere dove sei) oppure la <em>posizione</em> (fino ad Android 11, che la pretende per la ricerca Bluetooth). Le ricerche non si salvano.</li>
+          <li><strong>NFC e infrarossi</strong>: nessuna domanda; l'NFC legge solo con l'app aperta e solo quando premi il pulsante.</li>
           <li><strong>Nessun permesso Internet</strong>: l'app non può collegarsi a nessun server. I link a GitHub e al sito si aprono nel browser del telefono.</li>
           <li>Nessun account, nessuna pubblicità, nessun tracciamento. I dati restano nel telefono e non finiscono nei backup sul cloud.</li>
         </ul>

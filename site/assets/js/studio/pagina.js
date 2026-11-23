@@ -15,10 +15,12 @@ import * as moduloScript from "./moduli/script.js";
 import * as moduloIr from "./moduli/infrarossi.js";
 import * as moduloRadio from "./moduli/radio.js";
 import * as moduloNfc from "./moduli/nfc.js";
+import * as moduloBluetooth from "./moduli/bluetooth.js";
 import * as moduloGpio from "./moduli/gpio.js";
 import * as moduloArchivio from "./moduli/archivio.js";
 import * as moduloApp from "./moduli/app.js";
 import * as moduloRfid125 from "./moduli/rfid125.js";
+import * as moduloIButton from "./moduli/ibutton.js";
 import * as moduloUsb from "./moduli/usb.js";
 import * as moduloSicurezza from "./moduli/sicurezza.js";
 import * as moduloAttivita from "./moduli/attivita.js";
@@ -47,6 +49,7 @@ const ctx = {
   cassaforte: null, // impostata dal modulo Sicurezza quando è aperta
   telefono: null, // NFC, Bluetooth, infrarossi e USB del telefono (PolpoNativo.telefono())
   bridge: null, // il Polpo Bridge collegato via OTG, se c'è
+  portaOtg: null, // chi usa la porta seriale USB del cavo OTG («console seriale», «Polpo Bridge», …)
   laboratorio: null, // idem
   _schede: [],
   _eventi: new Map(),
@@ -212,6 +215,9 @@ async function stretta() {
   ctx.aggiorna();
 }
 
+/** Chiude il collegamento con il Polpo (per l'aggiornamento del firmware, che usa la stessa porta USB). */
+ctx.scollega = (inviaBye = true) => scollega(inviaBye);
+
 async function scollega(inviaBye = true) {
   const c = ctx.client;
   ctx.client = null;
@@ -307,7 +313,7 @@ document.querySelectorAll("[data-ir]").forEach((b) => b.addEventListener("click"
 
 // ---------------- moduli ----------------
 
-const MODULI = [moduloPolpo, moduloScript, moduloIr, moduloRadio, moduloNfc, moduloRfid125, moduloUsb, moduloGpio, moduloApp, moduloArchivio, moduloSicurezza, moduloAttivita, moduloImpostazioni, moduloFunzioni];
+const MODULI = [moduloPolpo, moduloScript, moduloIr, moduloRadio, moduloNfc, moduloBluetooth, moduloRfid125, moduloIButton, moduloUsb, moduloGpio, moduloApp, moduloArchivio, moduloSicurezza, moduloAttivita, moduloImpostazioni, moduloFunzioni];
 const schede = $("st-schede"), contenitore = $("st-moduli");
 const istanze = [];
 for (const m of MODULI) {
