@@ -12,7 +12,9 @@ namespace ir {
 bool tx_begin();
 void tx_end();
 bool send(const polpo::IrTimings& t);
-bool send(const polpo::IrSignal& s);  // codifica + invio (con il bit toggle alternato per RC5/RC6)
+// Codifica + invio. RC5/RC6: il bit «toggle» cambia a ogni pressione, non a ogni ripetizione: chi ripete lo stesso
+// tasto passa ultima = false a tutte le ripetizioni tranne l'ultima, così il ricevitore vede una sola pressione.
+bool send(const polpo::IrSignal& s, bool ultima = true);
 
 // Ricezione (serve la IR Unit collegata alla porta Grove).
 bool rx_begin();

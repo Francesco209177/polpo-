@@ -18,9 +18,10 @@ namespace {
 
 bool send_signal(const polpo::IrSignal& s) {
     bool ok = true;
-    for (uint8_t i = 0; i < settings::get().ir_repeats; ++i) {
-        ok = ir::send(s) && ok;
-        if (i + 1 < settings::get().ir_repeats) delay(40);
+    const uint8_t ripetizioni = settings::get().ir_repeats;
+    for (uint8_t i = 0; i < ripetizioni; ++i) {
+        ok = ir::send(s, i + 1 == ripetizioni) && ok;  // stesso tasto: stesso bit toggle (RC5/RC6)
+        if (i + 1 < ripetizioni) delay(40);
     }
     return ok;
 }

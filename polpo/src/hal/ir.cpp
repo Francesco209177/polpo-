@@ -66,10 +66,10 @@ bool send(const polpo::IrTimings& t) {
     return rmtWrite(pins::kIrTx, sym.data(), sym.size(), timeout);
 }
 
-bool send(const polpo::IrSignal& s) {
+bool send(const polpo::IrSignal& s, bool ultima) {
     polpo::IrTimings t;
     if (!polpo::ir_encode(s, t, toggle)) return false;
-    toggle = !toggle;
+    if (ultima) toggle = !toggle;  // la prossima pressione avrà l'altro valore
     return send(t);
 }
 

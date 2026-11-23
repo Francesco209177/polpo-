@@ -341,8 +341,9 @@ void cmd_ir_send(uint32_t id, JsonObjectConst a) {
     if (!polpo::ir_signal_validate(sig, why)) return reply_err(id, "bad_args", why.c_str());
     activity = "Invio IR: " + sig.name;
     bool ok = true;
-    for (uint8_t i = 0; i < settings::get().ir_repeats; ++i) {
-        ok = ir::send(sig) && ok;
+    const uint8_t ripetizioni = settings::get().ir_repeats;
+    for (uint8_t i = 0; i < ripetizioni; ++i) {
+        ok = ir::send(sig, i + 1 == ripetizioni) && ok;
         delay(40);
     }
     ir::tx_end();
