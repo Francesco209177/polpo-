@@ -3,7 +3,7 @@
 // e scrivere, stati delle funzioni sempre a parole, niente di finto presentato come vero.
 
 import { CATALOGO } from "./catalogo-dati.js";
-import { presenze, valuta, nomiHardware, funzione } from "./catalogo.js";
+import { presenze, valuta, nomiHardware, funzione, statoTelefono } from "./catalogo.js";
 import { ClientLink, ErroreLink, STATO as LINK } from "./link/client.js";
 import { TrasportoVirtuale, TrasportoAndroid, TrasportoWebSerial, dispositiviAndroid, ascoltaNativo } from "./link/trasporti.js";
 import { PolpoVirtuale } from "./virtuale.js";
@@ -17,6 +17,9 @@ import * as moduloRadio from "./moduli/radio.js";
 import * as moduloNfc from "./moduli/nfc.js";
 import * as moduloGpio from "./moduli/gpio.js";
 import * as moduloArchivio from "./moduli/archivio.js";
+import * as moduloApp from "./moduli/app.js";
+import * as moduloRfid125 from "./moduli/rfid125.js";
+import * as moduloUsb from "./moduli/usb.js";
 import * as moduloSicurezza from "./moduli/sicurezza.js";
 import * as moduloAttivita from "./moduli/attivita.js";
 import * as moduloImpostazioni from "./moduli/impostazioni.js";
@@ -42,6 +45,8 @@ const ctx = {
   impostazioni: leggiImpostazioni(),
   hw: {},
   cassaforte: null, // impostata dal modulo Sicurezza quando è aperta
+  telefono: null, // NFC, Bluetooth, infrarossi e USB del telefono (PolpoNativo.telefono())
+  bridge: null, // il Polpo Bridge collegato via OTG, se c'è
   laboratorio: null, // idem
   _schede: [],
   _eventi: new Map(),
@@ -73,10 +78,14 @@ const ctx = {
   },
 
   aggiorna() {
+    this.telefono = statoTelefono();
     this.hw = presenze({
       polpo: this.collegato() ? { simulato: this.simulato, moduli: this.info.modules || {} } : null,
       dichiarati: this.impostazioni.dichiarati,
       catalogo: CATALOGO,
+      telefono: this.telefono,
+      serialeUsb: dispositiviAndroid().length > 0,
+      bridge: this.bridge ? this.bridge.nome : null,
     });
     for (const s of this._schede) aggiornaScheda(s);
     for (const f of this._aggiornamenti) { try { f(); } catch (e) { console.error(e); } }
@@ -266,7 +275,12 @@ $("st-webserial").addEventListener("click", async () => {
     await collegaCon(new TrasportoWebSerial(porta));
   } catch { /* nessuna porta scelta */ }
 });
-ascoltaNativo((ev) => { if (ev.tipo === "usb.cambiati" && !$("st-scelta").hidden) elencoUsb(); });
+ascoltaNativo((ev) => {
+  if (ev.tipo === "usb.cambiati") { if (!$("st-scelta").hidden) elencoUsb(); ctx.aggiorna(); }
+  if (ev.tipo === "nfc.stato") ctx.aggiorna();
+});
+// NFC e Bluetooth si accendono e spengono dalle impostazioni di Android: si ricontrolla quando si torna all'app
+document.addEventListener("visibilitychange", () => { if (!document.hidden) ctx.aggiorna(); });
 
 // tasti e mondo del Polpo virtuale
 document.querySelectorAll("[data-tasto]").forEach((b) => b.addEventListener("click", () => ctx.virtuale && ctx.virtuale.premi(b.dataset.tasto)));
@@ -293,7 +307,7 @@ document.querySelectorAll("[data-ir]").forEach((b) => b.addEventListener("click"
 
 // ---------------- moduli ----------------
 
-const MODULI = [moduloPolpo, moduloScript, moduloIr, moduloRadio, moduloNfc, moduloGpio, moduloArchivio, moduloSicurezza, moduloAttivita, moduloImpostazioni, moduloFunzioni];
+const MODULI = [moduloPolpo, moduloScript, moduloIr, moduloRadio, moduloNfc, moduloRfid125, moduloUsb, moduloGpio, moduloApp, moduloArchivio, moduloSicurezza, moduloAttivita, moduloImpostazioni, moduloFunzioni];
 const schede = $("st-schede"), contenitore = $("st-moduli");
 const istanze = [];
 for (const m of MODULI) {

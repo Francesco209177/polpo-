@@ -3,6 +3,7 @@
 // sullo schermo del Polpo. Niente emulazione di carte né copie di badge. Come in Polpo Studio per PC.
 import { h, sostituisci } from "../ui.js";
 import { cassaforteAperta, utf8, testo } from "../comune.js";
+import { ascoltaNativo } from "../link/trasporti.js";
 import {
   TESTI_PAGINA, LINGUA_MAX, esitoLettura, rendiLettura, analizzaNdefEsadecimale, testoSpazio, preparaScrittura, esitoScrittura,
   salvataggioLettura, rigaArchivio, reportLetture, vociArchivio,
@@ -37,6 +38,56 @@ export function crea(ctx) {
       if (r.attivita) ctx.registro.aggiungi("nfc", r.attivita, "ok", r.simulato);
     } catch (e) { ctx.avvisa(ctx.testoErrore(e), "errore"); }
   };
+  // ---- l'NFC del telefono: stessa analisi, dati veri del tag appoggiato al telefono ----
+  const nativo = globalThis.PolpoNativo;
+  let attesaTelefono = null; // "lettura" | "scrittura"
+  let fineAttesa = null;
+  const fermaTelefono = () => {
+    clearTimeout(fineAttesa);
+    if (attesaTelefono === "lettura" && nativo && nativo.nfcFerma) nativo.nfcFerma();
+    attesaTelefono = null;
+  };
+  ascoltaNativo((ev) => {
+    if (ev.tipo === "nfc.tag" && attesaTelefono === "lettura") {
+      fermaTelefono();
+      const r = esitoLettura(ev.carta || {}, false);
+      carta = ev.carta;
+      cartaSim = false;
+      mostraHtml(vista, r.html);
+      ctx.avvisa(r.messaggio + " (NFC del telefono)", "ok");
+      if (r.attivita) ctx.registro.aggiungi("nfc", r.attivita + " con il telefono", "ok", false);
+    } else if (ev.tipo === "nfc.scritto" && attesaTelefono === "scrittura") {
+      fermaTelefono();
+      const r = esitoScrittura(ev, false);
+      ctx.avvisa(r.messaggio + " (NFC del telefono)", "ok");
+      ctx.registro.aggiungi("nfc", r.attivita + " con il telefono", "avviso", false);
+    } else if (ev.tipo === "nfc.errore" && attesaTelefono) {
+      fermaTelefono();
+      ctx.avvisa(ev.messaggio || "Errore NFC.", "errore");
+    }
+  });
+  const leggiTelefono = () => {
+    if (!nativo || !nativo.nfcAvvia || !nativo.nfcAvvia()) { ctx.avvisa("L'NFC del telefono non è disponibile: è acceso?", "errore"); return; }
+    attesaTelefono = "lettura";
+    clearTimeout(fineAttesa);
+    fineAttesa = setTimeout(() => { if (attesaTelefono === "lettura") { fermaTelefono(); ctx.avvisa("Nessun tag appoggiato al telefono."); } }, 30000);
+    ctx.avvisa("Appoggia il tag sul retro del telefono (dove c'è l'antenna NFC)…");
+  };
+  const scriviTelefono = () => {
+    const p = preparaScrittura(tipo.value, valore.value, lingua.value);
+    if (!p.ok) { ctx.avvisa(p.errore, "errore"); return; }
+    if (!ctx.richiediLaboratorio(p.azioneLaboratorio)) return;
+    if (!confirm(`${p.titoloConferma}\n\nContenuto: ${p.args.value}\nDopo la conferma appoggia il TUO tag sul retro del telefono entro 20 secondi.`)) return;
+    if (!nativo || !nativo.nfcScrivi || !nativo.nfcScrivi(JSON.stringify(p.args))) { ctx.avvisa("L'NFC del telefono non è disponibile: è acceso?", "errore"); return; }
+    attesaTelefono = "scrittura";
+    clearTimeout(fineAttesa);
+    fineAttesa = setTimeout(() => { if (attesaTelefono === "scrittura") { attesaTelefono = null; ctx.avvisa("Nessun tag appoggiato: niente è stato scritto.", "avviso"); } }, 21000);
+    ctx.avvisa("Appoggia il tag sul retro del telefono…");
+  };
+  const conTelefono = () => !!(ctx.hw["telefono.nfc"] && ctx.hw["telefono.nfc"].presenza === "rilevato");
+  const bottoniTelefono = [];
+  ctx.suAggiornamento(() => { for (const b of bottoniTelefono) b.hidden = !conTelefono(); });
+
   const salva = async () => {
     const c = cassaforteAperta(ctx);
     if (!c) return;
@@ -85,12 +136,16 @@ export function crea(ctx) {
   const btn = (t, f, cls = "btn btn-ghost") => h("button", { type: "button", class: cls, onclick: f }, t);
 
   const el = h("div", { class: "st-griglia" },
-    ctx.scheda("nfc.read", h("div", { class: "btn-row" }, btn("Leggi dal Polpo", leggi, "btn btn-studio"), btn("Salva la lettura", salva)), vista),
+    ctx.scheda("nfc.read", h("div", { class: "btn-row" }, btn("Leggi dal Polpo", leggi, "btn btn-studio"),
+      (() => { const b = btn("Leggi con il telefono", leggiTelefono, "btn btn-studio"); b.hidden = true; bottoniTelefono.push(b); return b; })(),
+      btn("Salva la lettura", salva)), vista),
     ctx.scheda("nfc.detect"), ctx.scheda("nfc.analysis", h("p", { class: "small" }, "L'analisi compare sotto la lettura: modello, spazio, blocchi, contenuto NDEF.")),
     ctx.scheda("nfc.ndef", h("p", { class: "small" }, TESTI_PAGINA.analizzatore), esa,
       btn("Analizza", () => { const r = analizzaNdefEsadecimale(esa.value); mostraHtml(esaOut, r.html); }), esaOut),
     ctx.scheda("nfc.write", h("p", { class: "small" }, TESTI_PAGINA.scrittura),
-      h("div", { class: "btn-row" }, tipo, lingua), valore, spazio, btn("Scrivi sul tag…", scrivi, "btn btn-studio")),
+      h("div", { class: "btn-row" }, tipo, lingua), valore, spazio,
+      h("div", { class: "btn-row" }, btn("Scrivi sul tag…", scrivi, "btn btn-studio"),
+        (() => { const b = btn("Scrivi con il telefono…", scriviTelefono); b.hidden = true; bottoniTelefono.push(b); return b; })())),
     ctx.scheda("nfc.archive", arch, h("div", { class: "btn-row" },
       btn("Apri l'analisi", async () => {
         const c = cassaforteAperta(ctx); if (!c) return;
@@ -106,5 +161,6 @@ export function crea(ctx) {
       }))),
     ctx.scheda("nfc.emulate"), ctx.scheda("nfc.crack"),
   );
+  addEventListener("pagehide", fermaTelefono);
   return { id: "nfc", titolo: "NFC", el, mostrato: disegnaArchivio };
 }
